@@ -1,0 +1,196 @@
+{
+  "tracks": [
+    {
+      "id": "platform",
+      "name": "平台接单",
+      "desc": "Upwork/Fiverr/Freelancer：开发需求分类、能力边界、Proposal/项目模板库"
+    },
+    {
+      "id": "longterm",
+      "name": "长线需求",
+      "desc": "Google Trends 关键词分析、AI 新需求发现、从老牌网站弱点找切入点"
+    },
+    {
+      "id": "cases",
+      "name": "案例资讯",
+      "desc": "X/Reddit/Product Hunt/HN 独立开发与 AI 接单赚钱案例（未验证），附来源、账号与可抄打法"
+    }
+  ],
+  "docs": [
+    {
+      "id": "t1-cap",
+      "track": "platform",
+      "title": "能力边界",
+      "path": "/workspace/dev-topics/01_capability_boundaries.md",
+      "tags": [
+        "能力边界",
+        "开发"
+      ],
+      "source": ""
+    },
+    {
+      "id": "t1-growth",
+      "track": "platform",
+      "title": "Web 全栈 / Agent 成长方向",
+      "path": "/workspace/dev-topics/02_web_fullstack_agent_growth.md",
+      "tags": [
+        "全栈",
+        "Agent"
+      ],
+      "source": ""
+    },
+    {
+      "id": "t1-proj",
+      "track": "platform",
+      "title": "项目推荐",
+      "path": "/workspace/dev-topics/03_project_recommendations.md",
+      "tags": [
+        "项目",
+        "推荐"
+      ],
+      "source": ""
+    },
+    {
+      "id": "t1-titles",
+      "track": "platform",
+      "title": "Upwork 标题与预算",
+      "path": "/workspace/upwork/upwork_titles_budgets.md",
+      "tags": [
+        "Upwork",
+        "预算"
+      ],
+      "source": ""
+    },
+    {
+      "id": "t1-backlog",
+      "track": "platform",
+      "title": "需求 Backlog",
+      "path": "/workspace/upwork/requirements_backlog.md",
+      "tags": [
+        "需求分类"
+      ],
+      "source": ""
+    },
+    {
+      "id": "t1-smb",
+      "track": "platform",
+      "title": "中小企业需求聚类",
+      "path": "/workspace/upwork/smb_demand_clusters.md",
+      "tags": [
+        "SMB",
+        "需求分类"
+      ],
+      "source": ""
+    },
+    {
+      "id": "t1-tplplan",
+      "track": "platform",
+      "title": "模板计划",
+      "path": "/workspace/upwork/templates_plan.md",
+      "tags": [
+        "模板"
+      ],
+      "source": ""
+    },
+    {
+      "id": "t1-live",
+      "track": "platform",
+      "title": "在线模板与作品集链接",
+      "path": "docs/live_templates.md",
+      "tags": [
+        "模板",
+        "作品集",
+        "链接"
+      ],
+      "source": "https://portfolio-site-orpin-three-91.vercel.app"
+    },
+    {
+      "id": "t1-proposal",
+      "track": "platform",
+      "title": "Proposal 示例：Unbounce",
+      "path": "/workspace/upwork/proposal_unbounce.txt",
+      "tags": [
+        "Proposal",
+        "模板"
+      ],
+      "source": ""
+    },
+    {
+      "id": "t1-profile",
+      "track": "platform",
+      "title": "Upwork Profile 草稿",
+      "path": "/workspace/upwork/profile_draft.md",
+      "tags": [
+        "Profile",
+        "模板"
+      ],
+      "source": ""
+    },
+    {
+      "id": "t1-portfolio",
+      "track": "platform",
+      "title": "作品集条目",
+      "path": "/workspace/upwork/portfolio_entries.md",
+      "tags": [
+        "作品集"
+      ],
+      "source": ""
+    },
+    {
+      "id": "t1-niche",
+      "track": "platform",
+      "title": "细分领域调研",
+      "path": "/workspace/upwork/niche_research.md",
+      "tags": [
+        "调研"
+      ],
+      "source": ""
+    },
+    {
+      "id": "t1-jobs",
+      "track": "platform",
+      "title": "职位记录",
+      "path": "/workspace/upwork/jobs.md",
+      "tags": [
+        "Upwork",
+        "职位"
+      ],
+      "source": ""
+    },
+    {
+      "id": "t1-demo",
+      "track": "platform",
+      "title": "Demo 需求：爬虫/获客",
+      "path": "/workspace/upwork/demo_requirements_scraper_leadgen.md",
+      "tags": [
+        "爬虫",
+        "获客",
+        "需求分类"
+      ],
+      "source": ""
+    },
+    {
+      "id": "t2-ph",
+      "track": "longterm",
+      "title": "【占位/示例】长线需求说明",
+      "path": "docs/placeholder_longterm.md",
+      "tags": [
+        "占位",
+        "示例"
+      ],
+      "source": ""
+    },
+    {
+      "id": "t3-ph",
+      "track": "cases",
+      "title": "【占位/示例】案例资讯说明",
+      "path": "docs/placeholder_cases.md",
+      "tags": [
+        "占位",
+        "示例",
+        "未验证"
+      ],
+      "source": ""
+    }
+  ]
+}

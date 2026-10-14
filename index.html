@@ -1,0 +1,57 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>鹏飞 · 工作总览</title>
+<style>
+body{margin:0;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:#f6f7f9;color:#222;line-height:1.6}
+header{background:#1f2937;color:#fff;padding:20px 28px}header h1{margin:0 0 8px;font-size:22px}
+header li{font-size:14px;opacity:.9}header ul{margin:0;padding-left:18px}
+nav{display:flex;gap:8px;padding:14px 28px;background:#fff;border-bottom:1px solid #e5e7eb;flex-wrap:wrap;align-items:center}
+nav button{border:1px solid #d1d5db;background:#fff;padding:7px 16px;border-radius:20px;cursor:pointer;font-size:15px}
+nav button.on{background:#2563eb;color:#fff;border-color:#2563eb}
+#q{margin-left:auto;padding:7px 12px;border:1px solid #d1d5db;border-radius:8px;min-width:240px}
+main{max-width:1000px;margin:20px auto;padding:0 16px}
+.card{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:14px 18px;margin-bottom:12px}
+.card h3{margin:0;font-size:17px;cursor:pointer}.meta{font-size:12px;color:#6b7280;margin:4px 0}
+.tag{display:inline-block;background:#eef2ff;color:#3730a3;font-size:12px;padding:1px 8px;border-radius:10px;margin-right:4px;cursor:pointer}
+.ev{display:inline-block;background:#dcfce7;color:#166534;font-size:12px;padding:1px 8px;border-radius:10px;margin-right:4px}
+#evw{font-size:14px;display:none}
+.sum{font-size:14px;color:#444}.body{display:none;border-top:1px solid #eee;margin-top:10px;padding-top:10px;overflow-x:auto}
+.open .body{display:block}.body table{border-collapse:collapse}.body td,.body th{border:1px solid #ddd;padding:4px 8px}
+.body pre{background:#f3f4f6;padding:10px;overflow:auto}.body code{background:#f3f4f6;padding:0 3px}
+.body blockquote{border-left:3px solid #ccc;margin:0;padding-left:10px;color:#555}.empty{color:#888;text-align:center}
+</style></head><body>
+<header><h1>鹏飞 · 工作总览 Hub</h1><ul id="descs"></ul></header>
+<nav id="tabs"><label id="evw"><input type="checkbox" id="ev"> 只看带具体数字或截图</label><input id="q" placeholder="搜索标题/摘要/标签/正文…"></nav>
+<main id="list"></main>
+<script src="data.js"></script>
+<script>
+function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")}
+function inl(s){s=esc(s);return s.replace(/`([^`]+)`/g,"<code>$1</code>").replace(/\*\*([^*]+)\*\*/g,"<b>$1</b>")
+ .replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g,'<a href="$2" target="_blank">$1</a>')
+ .replace(/(^|[\s(（])(https?:\/\/[^\s<)）|]+)/g,'$1<a href="$2" target="_blank">$2</a>')}
+function md(src){var L=src.split("\n"),o=[],i=0,list=null;
+ function cl(){if(list){o.push("</"+list+">");list=null}}
+ while(i<L.length){var l=L[i],m;
+  if(/^```/.test(l)){cl();var b=[];i++;while(i<L.length&&!/^```/.test(L[i]))b.push(L[i++]);o.push("<pre><code>"+esc(b.join("\n"))+"</code></pre>");i++;continue}
+  if(m=l.match(/^(#{1,6})\s+(.*)/)){cl();o.push("<h"+m[1].length+">"+inl(m[2])+"</h"+m[1].length+">")}
+  else if(/^\s*\|/.test(l)){cl();var r=[];while(i<L.length&&/^\s*\|/.test(L[i]))r.push(L[i++]);
+   o.push("<table>"+r.filter(x=>!/^\s*\|[\s:|-]+\|\s*$/.test(x)).map((x,k)=>"<tr>"+x.trim().replace(/^\||\|$/g,"").split("|").map(c=>(k?"<td>":"<th>")+inl(c.trim())+(k?"</td>":"</th>")).join("")+"</tr>").join("")+"</table>");continue}
+  else if(/^(---|\*\*\*)\s*$/.test(l)){cl();o.push("<hr>")}
+  else if(m=l.match(/^>\s?(.*)/)){cl();o.push("<blockquote>"+inl(m[1])+"</blockquote>")}
+  else if(m=l.match(/^\s*[-*+]\s+(.*)/)){if(list!="ul"){cl();o.push("<ul>");list="ul"}o.push("<li>"+inl(m[1])+"</li>")}
+  else if(m=l.match(/^\s*\d+[.)]\s+(.*)/)){if(list!="ol"){cl();o.push("<ol>");list="ol"}o.push("<li>"+inl(m[1])+"</li>")}
+  else if(!l.trim())cl();else{cl();o.push("<p>"+inl(l)+"</p>")}
+  i++}cl();return o.join("\n")}
+var D=window.HUB_DATA,cur=D.tracks[0].id,q=document.getElementById("q");
+D.tracks.forEach(t=>{var li=document.createElement("li");li.innerHTML="<b>"+t.name+"</b>："+esc(t.desc);descs.appendChild(li);
+ var b=document.createElement("button");b.textContent=t.name;b.dataset.id=t.id;b.onclick=()=>{cur=t.id;render()};tabs.insertBefore(b,q)});
+q.oninput=render;ev.onchange=render;
+function render(){[...tabs.querySelectorAll("button")].forEach(b=>{var n=D.docs.filter(d=>d.track==b.dataset.id).length;b.className=b.dataset.id==cur?"on":"";b.textContent=D.tracks.find(t=>t.id==b.dataset.id).name+" ("+n+")"});
+ evw.style.display=cur=="cases"?"inline":"none";var k=q.value.trim().toLowerCase(),ds=D.docs.filter(d=>d.track==cur&&(!(cur=="cases"&&ev.checked)||d.has_evidence)&&(!k||(d.title+d.summary+d.tags.join(" ")+d.content).toLowerCase().includes(k)));
+ list.innerHTML=ds.length?"":'<p class="empty">无匹配文档</p>';
+ ds.forEach(d=>{var c=document.createElement("div");c.className="card";
+  c.innerHTML="<h3>"+esc(d.title)+"</h3><div class='meta'>"+d.date+" · "+(d.source?'<a href="'+d.source+'" target="_blank">'+esc(d.source)+"</a> · ":"")+"<code>"+esc(d.path)+"</code></div>"+
+  "<div>"+(d.has_evidence?"<span class='ev'>📊 带具体数字或截图</span>":"")+d.tags.map(t=>"<span class='tag'>"+esc(t)+"</span>").join("")+"</div><div class='sum'>"+esc(d.summary)+"</div><div class='body'></div>";
+  c.querySelector("h3").onclick=()=>{var b=c.querySelector(".body");if(!b.innerHTML)b.innerHTML=md(d.content);c.classList.toggle("open")};
+  c.querySelectorAll(".tag").forEach(t=>t.onclick=()=>{q.value=t.textContent;render()});list.appendChild(c)})}
+render();
+</script></body></html>
