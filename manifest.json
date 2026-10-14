@@ -1,209 +1,221 @@
 {
-  "tracks": [
+  "sections": [
     {
-      "id": "platform",
-      "name": "平台接单",
-      "desc": "Upwork/Fiverr/Freelancer：开发需求分类、能力边界、Proposal/项目模板库"
-    },
-    {
-      "id": "longterm",
-      "name": "长线需求",
-      "desc": "Google Trends 关键词分析、AI 新需求发现、从老牌网站弱点找切入点"
+      "id": "platforms",
+      "name": "平台前端",
+      "desc": "接单 / 展示 / 社区获客平台作战手册：权限、路径、注意、Trends 关键词"
     },
     {
       "id": "cases",
-      "name": "案例资讯",
-      "desc": "X/Reddit/Product Hunt/HN 独立开发与 AI 接单赚钱案例（未验证），附来源、账号与可抄打法"
+      "name": "案例分析",
+      "desc": "真实或示例接单案例：来源、单子类型、操作思路、结果（schema 可随 manifest 扩展）"
+    },
+    {
+      "id": "docs",
+      "name": "思路和文档区",
+      "desc": "能力边界、成长方向、项目推荐、技术清单与 Upwork 调研文档"
+    }
+  ],
+  "platform_types": [
+    { "id": "freelance", "name": "接单平台" },
+    { "id": "showcase", "name": "作品展示" },
+    { "id": "community", "name": "社区获客" }
+  ],
+  "platforms": [
+    {
+      "id": "upwork",
+      "type": "freelance",
+      "title": "Upwork",
+      "url": "https://www.upwork.com/",
+      "summary": "主战场。AI Integration + 工作流/API 自动化；副业（修站、爬虫）放 Project Catalog。",
+      "permissions": "① Freelancer 账号 + **政府 ID 验证**\n② **Billing method**（买 Connects 必需）\n③ 收款：Payoneer / Wise / 银行\n④ Project Catalog 卖家权限（挂副业）\n⑤ 消息推送（UTC+8 快回面试）",
+      "access_path": "1. 登录 Find Work\n2. 建 Saved Searches（n8n/Zapier、AI integration、Playwright/scraping、Next+Supabase+Stripe、self-hosted）\n3. 筛预算 ≥$150–300，跳过 $10–100\n4. 对照 titles_budgets / screened 短名单\n5. 买 Connects → 英文短 Proposal + demo 链接\n6. 面试 → Fixed milestone 或 Hourly 规则\n7. 交付源码+README+bugfix 窗",
+      "caveats": "Connects 消耗快；CF/验证码勿用脚本硬闯；China 可访问但注意 US Only 单；Specialized Profiles 已取消；n8n 类常 50+ 提案，靠「写真代码+自托管 demo」差异化；未验证 ID/Billing = 无法投标。",
+      "trends_keywords": "EN: AI automation freelancer, n8n automation, Zapier alternative n8n, AI chatbot for website, web scraping Playwright, Next.js Supabase Stripe fix, API integration, self-hosted automation, document OCR LLM\nCN: Upwork 接单 AI 自动化, n8n 工作流接单, Playwright 爬虫 接单, Lovable 修站",
+      "path": "docs/platforms/upwork.md",
+      "related_docs": ["doc-titles", "doc-backlog", "doc-smb", "doc-screened", "doc-cap", "doc-live"],
+      "tags": ["Upwork", "接单平台", "Connects", "主战场"]
+    },
+    {
+      "id": "fiverr",
+      "type": "freelance",
+      "title": "Fiverr",
+      "url": "https://www.fiverr.com/",
+      "summary": "产品化 Gig：把 n8n/AI 小交付与修站打成 Basic/Standard/Premium，补 Upwork 定制单。",
+      "permissions": "① Seller 账号（邮箱+手机）\n② **ID 验证**（提现）\n③ 提现渠道（如 Payoneer）\n④ Programming & Tech / AI 类目\n⑤ 可选 Seller Plus（放量后再开）",
+      "access_path": "1. Switching to Selling\n2. 建 1–2 个主 Gig（n8n/AI automation；Fix AI web app）\n3. 写清三档交付物与修改次数\n4. 封面/视频 + 链到 portfolio 模板\n5. 标签对齐买家搜索词\n6. 开 Buyer requests → 24h 内回复\n7. 完成求评，控取消率",
+      "caveats": "过低价伤定位；写死范围防修订地狱；API Key 由买家提供；完成率/响应时间影响算法；导流站外支付须守 ToS；国内注意提现合规。",
+      "trends_keywords": "EN: n8n automation fiverr, zapier setup, AI chatbot fiverr, chatgpt integration, web scraping service, make.com scenario\nCN: Fiverr 卖自动化, Fiverr Gig n8n, 海外小企业 AI 聊天机器人",
+      "path": "docs/platforms/fiverr.md",
+      "related_docs": ["doc-smb", "doc-tplplan", "doc-live"],
+      "tags": ["Fiverr", "接单平台", "Gig"]
+    },
+    {
+      "id": "freelancer",
+      "type": "freelance",
+      "title": "Freelancer.com",
+      "url": "https://www.freelancer.com/",
+      "summary": "竞标制补充池。预算中位偏低，适合小修复/练提案，非主收入。",
+      "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解",
+      "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评",
+      "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。",
+      "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化",
+      "path": "docs/platforms/freelancer.md",
+      "related_docs": ["doc-smb", "doc-backlog"],
+      "tags": ["Freelancer", "接单平台", "竞标"]
+    },
+    {
+      "id": "contra",
+      "type": "freelance",
+      "title": "Contra（补充）",
+      "url": "https://contra.com/",
+      "summary": "无佣金独立承包商网络。流量小，作补充展示与被动询盘。",
+      "permissions": "① Contra 账号与完整 Profile\n② 收款绑定（平台支持的方式）\n③ Services / Portfolio 公开\n④ 可选连 X/LinkedIn",
+      "access_path": "1. 完善 Independent profile\n2. 添加 AI automation / Fix web app 等 Services\n3. 上传真实 demo 截图（不编造营收）\n4. 链接挂到个人站与 README\n5. 询盘 → 书面报价 → 走 Contra 付款",
+      "caveats": "流量有限，每周看消息即可；定价对齐 Upwork；确认国内收款是否可用，不行则仅展示。",
+      "trends_keywords": "EN: Contra freelance, no commission freelance, AI automation contractor\nCN: Contra 平台, 无佣金 自由职业",
+      "path": "docs/platforms/contra.md",
+      "related_docs": ["doc-live", "doc-tplplan"],
+      "tags": ["Contra", "接单平台", "补充"]
+    },
+    {
+      "id": "indie-hn",
+      "type": "community",
+      "title": "Indie Hackers / HN",
+      "url": "https://www.indiehackers.com/",
+      "summary": "轻量社区获客：练需求语言、Show 模板、价值评论，少硬广。",
+      "permissions": "① IH 账号 + bio\n② HN 账号（一点 karma）\n③ 作品集 Contact/邮箱\n④ 可选 X",
+      "access_path": "1. IH 完善「帮 SMB 做 n8n/代码自动化」bio\n2. 参与自动化/AI 帖，贡献干货再链 portfolio\n3. HN 跟 Ask/Show；有实质 demo 再 Show HN\n4. 私信转化到邮件或 Upwork\n5. 痛点词记入 backlog",
+      "caveats": "反感硬广；IH 有 CF；时间盒每周 1–2h；不要当接单大厅刷。",
+      "trends_keywords": "EN: indie hacker automation, solo founder AI tools, Ask HN freelance, show HN scraper, SMB no-code limits\nCN: 独立开发 获客, Indie Hackers 自动化, HN 展示项目",
+      "path": "docs/platforms/indie-hn.md",
+      "related_docs": ["doc-smb", "doc-growth", "doc-live"],
+      "tags": ["Indie Hackers", "HN", "社区获客"]
+    },
+    {
+      "id": "portfolio",
+      "type": "showcase",
+      "title": "个人作品集站",
+      "url": "https://portfolio-site-orpin-three-91.vercel.app",
+      "summary": "对外销售页。Proposal/Gig 最终落地看可运行模板 demo。",
+      "permissions": "① Vercel 部署权限\n② GitHub 源码仓写权限\n③ 各 tpl-* 模板项目\n④ 可选自定义域与分析",
+      "access_path": "1. 打开作品集核对定位文案\n2. 服务卡链到 tpl-landing / form-to-sheet / booking / launch-audit\n3. 改仓 → push → Vercel Ready → 硬刷新\n4. Proposal 只贴与职位相关的 demo\n5. Contact 与回复预期（UTC+8）保持有效",
+      "caveats": "禁止假客户/假营收；标明 demo template；国内访问 Vercel 可能慢，可备截图或 Pages 镜像。",
+      "trends_keywords": "EN: freelancer portfolio, automation developer portfolio, n8n demo, SaaS landing waitlist, launch audit\nCN: 自由职业者 作品集, 自动化 案例演示, 接单 作品站",
+      "path": "docs/platforms/portfolio.md",
+      "related_docs": ["doc-live", "doc-tplplan", "doc-proj"],
+      "tags": ["作品集", "Vercel", "作品展示"]
+    },
+    {
+      "id": "overview-hub",
+      "type": "showcase",
+      "title": "Overview Hub（本站）",
+      "url": "https://gaopfEditer.github.io/overview-hub/",
+      "summary": "对内作战板（也可对外展示系统化能力）：平台手册 + 案例 + 文档。",
+      "permissions": "① GitHub 写权限 gaopfEditer/overview-hub\n② PAT：**repo + workflow**\n③ Pages = GitHub Actions\n④ Actions 可运行 workflows",
+      "access_path": "1. 改 manifest → python3 build_data.py\n2. 本地打开 index.html 预览\n3. commit & push main\n4. 等 Pages Action 绿\n5. 打开 github.io/overview-hub/ 验证三 Tab",
+      "caveats": "缺 workflow scope 推不了 Action；token 永不入库；data.js 内嵌外链 md；base href 必须为 ./",
+      "trends_keywords": "EN: freelance ops playbook, upwork knowledge base, github pages hub\nCN: 接单 作战手册, Upwork 知识库, GitHub Pages 静态站",
+      "path": "docs/platforms/overview-hub.md",
+      "related_docs": ["doc-cap", "doc-growth", "doc-tech"],
+      "tags": ["GitHub Pages", "本站", "作品展示"]
+    }
+  ],
+  "cases": [
+    {
+      "id": "case-example",
+      "title": "【示例结构】空模板（新增案例请复制）",
+      "is_template": true,
+      "来源": "（待填）平台 + URL / 职位 ID",
+      "单子类型": "（待填）如 n8n 修复 / AI Chatbot / 爬虫管道 / 修 Next+Stripe",
+      "操作思路": "（待填）筛选理由 → 匹配 demo → 提案要点 → milestone 切分",
+      "结果": "（待填）未投 / 已投 / 面试 / 中标 / 完成 / 放弃 + 原因",
+      "path": "docs/cases/example_structure.md",
+      "related_docs": ["doc-screened", "doc-titles", "doc-live"],
+      "tags": ["示例结构", "占位"]
     }
   ],
   "docs": [
     {
-      "id": "t1-cap",
-      "track": "platform",
+      "id": "doc-cap",
       "title": "能力边界",
       "path": "/workspace/dev-topics/01_capability_boundaries.md",
-      "tags": [
-        "能力边界",
-        "开发"
-      ],
-      "source": ""
+      "theme": "能力与判断",
+      "tags": ["能力边界", "报价", "开发"],
+      "summary": "接单前判断工具：各端输入输出、资源上限与报价前必问清单。"
     },
     {
-      "id": "t1-growth",
-      "track": "platform",
+      "id": "doc-growth",
       "title": "Web 全栈 / Agent 成长方向",
       "path": "/workspace/dev-topics/02_web_fullstack_agent_growth.md",
-      "tags": [
-        "全栈",
-        "Agent"
-      ],
-      "source": ""
+      "theme": "成长路径",
+      "tags": ["全栈", "Agent", "成长"],
+      "summary": "Web 全栈与 Agent 方向的能力进阶与接单映射。"
     },
     {
-      "id": "t1-proj",
-      "track": "platform",
+      "id": "doc-proj",
       "title": "项目推荐",
       "path": "/workspace/dev-topics/03_project_recommendations.md",
-      "tags": [
-        "项目",
-        "推荐"
-      ],
-      "source": ""
+      "theme": "项目与作品",
+      "tags": ["项目", "推荐", "作品集"],
+      "summary": "适合练手与挂作品集的项目推荐。"
     },
     {
-      "id": "t1-tech-checklist",
-      "track": "platform",
+      "id": "doc-tech",
       "title": "复杂技术清单（AI 开发参考）",
       "path": "/workspace/dev-topics/04_complex_tech_checklist.md",
-      "tags": [
-        "技术清单",
-        "AI辅助",
-        "接单"
-      ],
-      "source": "",
-      "summary": "按八个场景分组的 46 项复杂技术：用途、难点、可粘贴 AI 提示模板与常见坑，适合开发时当参考。"
+      "theme": "技术参考",
+      "tags": ["技术清单", "AI辅助", "接单"],
+      "summary": "按场景分组的复杂技术：用途、难点、AI 提示模板与常见坑。"
     },
     {
-      "id": "t1-titles",
-      "track": "platform",
+      "id": "doc-titles",
       "title": "Upwork 标题与预算",
       "path": "/workspace/upwork/upwork_titles_budgets.md",
-      "tags": [
-        "Upwork",
-        "预算"
-      ],
-      "source": ""
+      "theme": "Upwork 调研",
+      "tags": ["Upwork", "预算", "标题"],
+      "summary": "职位标题 × 预算 × 竞争样本与优先投标 Top5。"
     },
     {
-      "id": "t1-backlog",
-      "track": "platform",
+      "id": "doc-backlog",
       "title": "需求 Backlog",
       "path": "/workspace/upwork/requirements_backlog.md",
-      "tags": [
-        "需求分类"
-      ],
-      "source": ""
+      "theme": "Upwork 调研",
+      "tags": ["需求分类", "Backlog"],
+      "summary": "需求分类与待做/已覆盖条目积压。"
     },
     {
-      "id": "t1-smb",
-      "track": "platform",
+      "id": "doc-smb",
       "title": "中小企业需求聚类",
       "path": "/workspace/upwork/smb_demand_clusters.md",
-      "tags": [
-        "SMB",
-        "需求分类"
-      ],
-      "source": ""
+      "theme": "市场研究",
+      "tags": ["SMB", "Fiverr", "Trends"],
+      "summary": "海外 SMB 软件/开发支出聚集区与价格带出处。"
     },
     {
-      "id": "t1-tplplan",
-      "track": "platform",
+      "id": "doc-tplplan",
       "title": "模板计划",
       "path": "/workspace/upwork/templates_plan.md",
-      "tags": [
-        "模板"
-      ],
-      "source": ""
+      "theme": "模板与交付",
+      "tags": ["模板", "Vercel"],
+      "summary": "可复用高影响模板批次与验收标准。"
     },
     {
-      "id": "t1-live",
-      "track": "platform",
+      "id": "doc-screened",
+      "title": "晚间筛选短名单 2026-10-14",
+      "path": "/workspace/upwork/screened_2026-10-14_evening.md",
+      "theme": "Upwork 调研",
+      "tags": ["筛选", "短名单", "Upwork"],
+      "summary": "按技能契合排序的可投开放单短名单（当日晚间）。"
+    },
+    {
+      "id": "doc-live",
       "title": "在线模板与作品集链接",
       "path": "docs/live_templates.md",
-      "tags": [
-        "模板",
-        "作品集",
-        "链接"
-      ],
+      "theme": "模板与交付",
+      "tags": ["模板", "作品集", "链接"],
+      "summary": "已部署模板与作品集 URL，提案可直接引用。",
       "source": "https://portfolio-site-orpin-three-91.vercel.app"
-    },
-    {
-      "id": "t1-proposal",
-      "track": "platform",
-      "title": "Proposal 示例：Unbounce",
-      "path": "/workspace/upwork/proposal_unbounce.txt",
-      "tags": [
-        "Proposal",
-        "模板"
-      ],
-      "source": ""
-    },
-    {
-      "id": "t1-profile",
-      "track": "platform",
-      "title": "Upwork Profile 草稿",
-      "path": "/workspace/upwork/profile_draft.md",
-      "tags": [
-        "Profile",
-        "模板"
-      ],
-      "source": ""
-    },
-    {
-      "id": "t1-portfolio",
-      "track": "platform",
-      "title": "作品集条目",
-      "path": "/workspace/upwork/portfolio_entries.md",
-      "tags": [
-        "作品集"
-      ],
-      "source": ""
-    },
-    {
-      "id": "t1-niche",
-      "track": "platform",
-      "title": "细分领域调研",
-      "path": "/workspace/upwork/niche_research.md",
-      "tags": [
-        "调研"
-      ],
-      "source": ""
-    },
-    {
-      "id": "t1-jobs",
-      "track": "platform",
-      "title": "职位记录",
-      "path": "/workspace/upwork/jobs.md",
-      "tags": [
-        "Upwork",
-        "职位"
-      ],
-      "source": ""
-    },
-    {
-      "id": "t1-demo",
-      "track": "platform",
-      "title": "Demo 需求：爬虫/获客",
-      "path": "/workspace/upwork/demo_requirements_scraper_leadgen.md",
-      "tags": [
-        "爬虫",
-        "获客",
-        "需求分类"
-      ],
-      "source": ""
-    },
-    {
-      "id": "t2-ph",
-      "track": "longterm",
-      "title": "【占位/示例】长线需求说明",
-      "path": "docs/placeholder_longterm.md",
-      "tags": [
-        "占位",
-        "示例"
-      ],
-      "source": ""
-    },
-    {
-      "id": "t3-ph",
-      "track": "cases",
-      "title": "【占位/示例】案例资讯说明",
-      "path": "docs/placeholder_cases.md",
-      "tags": [
-        "占位",
-        "示例",
-        "未验证"
-      ],
-      "source": ""
     }
   ]
 }

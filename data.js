@@ -1,7 +1,343 @@
 window.HUB_DATA = {
-tracks: [{"id": "platform", "name": "平台接单", "desc": "Upwork/Fiverr/Freelancer：开发需求分类、能力边界、Proposal/项目模板库"}, {"id": "longterm", "name": "长线需求", "desc": "Google Trends 关键词分析、AI 新需求发现、从老牌网站弱点找切入点"}, {"id": "cases", "name": "案例资讯", "desc": "X/Reddit/Product Hunt/HN 独立开发与 AI 接单赚钱案例（未验证），附来源、账号与可抄打法"}],
+sections: [{"id": "platforms", "name": "平台前端", "desc": "接单 / 展示 / 社区获客平台作战手册：权限、路径、注意、Trends 关键词"}, {"id": "cases", "name": "案例分析", "desc": "真实或示例接单案例：来源、单子类型、操作思路、结果（schema 可随 manifest 扩展）"}, {"id": "docs", "name": "思路和文档区", "desc": "能力边界、成长方向、项目推荐、技术清单与 Upwork 调研文档"}],
+platform_types: [{"id": "freelance", "name": "接单平台"}, {"id": "showcase", "name": "作品展示"}, {"id": "community", "name": "社区获客"}],
+platform_field_labels: {"permissions": "权限需求清单", "access_path": "操作路径", "caveats": "注意事项", "trends_keywords": "Google Trends 对应关键词"},
+platforms: [
+{"id": "upwork", "type": "freelance", "title": "Upwork", "url": "https://www.upwork.com/", "summary": "主战场。AI Integration + 工作流/API 自动化；副业（修站、爬虫）放 Project Catalog。", "permissions": "① Freelancer 账号 + **政府 ID 验证**\n② **Billing method**（买 Connects 必需）\n③ 收款：Payoneer / Wise / 银行\n④ Project Catalog 卖家权限（挂副业）\n⑤ 消息推送（UTC+8 快回面试）", "access_path": "1. 登录 Find Work\n2. 建 Saved Searches（n8n/Zapier、AI integration、Playwright/scraping、Next+Supabase+Stripe、self-hosted）\n3. 筛预算 ≥$150–300，跳过 $10–100\n4. 对照 titles_budgets / screened 短名单\n5. 买 Connects → 英文短 Proposal + demo 链接\n6. 面试 → Fixed milestone 或 Hourly 规则\n7. 交付源码+README+bugfix 窗", "caveats": "Connects 消耗快；CF/验证码勿用脚本硬闯；China 可访问但注意 US Only 单；Specialized Profiles 已取消；n8n 类常 50+ 提案，靠「写真代码+自托管 demo」差异化；未验证 ID/Billing = 无法投标。", "trends_keywords": "EN: AI automation freelancer, n8n automation, Zapier alternative n8n, AI chatbot for website, web scraping Playwright, Next.js Supabase Stripe fix, API integration, self-hosted automation, document OCR LLM\nCN: Upwork 接单 AI 自动化, n8n 工作流接单, Playwright 爬虫 接单, Lovable 修站", "related_docs": ["doc-titles", "doc-backlog", "doc-smb", "doc-screened", "doc-cap", "doc-live"], "tags": ["Upwork", "接单平台", "Connects", "主战场"], "path": "docs/platforms/upwork.md", "date": "2026-10-14 22:45", "content": `# Upwork 操作手册
+
+鹏飞主战场。定位：**AI Integration + Workflow/API Automation**（主）+ 修完 Lovable/Cursor/Bolt 应用、爬虫/Playwright（副，放 Project Catalog）。
+
+Profile：https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
+
+## 权限需求清单
+
+| 账号/权限 | 级别 | 用途 |
+|---|---|---|
+| Upwork Freelancer 账号 | 已验证 ID（身份证/护照） | 投标、收付款前置 |
+| Billing method | 信用卡或本地支付方式 | **购买 Connects** 必需 |
+| Tax / 收款信息 | Payoneer / Wise / 本地银行（按地区） | 提现 |
+| Agency 或 Solo | Solo 即可 | 当前一人作战 |
+| Project Catalog 卖家 | 开通 Catalog | 放副业务（修站、爬虫）不稀释主定位 |
+| 可选：Upwork Messages 桌面/手机推送 | 开通知 | 面试消息要快回（UTC+8） |
+
+未完成 ID 验证 + Billing → **不能买 Connects，等于不能投付费单**。
+
+## 操作路径
+
+1. **登录** → https://www.upwork.com/ → Find Work
+2. **Saved Searches**：建 3–5 条保存搜索，例如  
+   - \`n8n OR Zapier OR Make automation\`  
+   - \`AI integration OR chatbot OR RAG\`  
+   - \`Playwright OR web scraping OR "fix scraper"\`  
+   - \`Next.js Supabase Stripe\`（修 AI 生成站）  
+   - \`self-hosted OR Docker automation\`
+3. **筛选**：Budget ≥ $150–300；跳过 $10–100 低价卷；优先「修复 / 稳定 / 自托管 / 支付 webhook / scrape→API」
+4. **读 Job** → 对照 \`upwork_titles_budgets.md\` / 当晚 \`screened_*.md\` 决定是否投
+5. **买 Connects**（通常 16–20+/单）→ 写 Proposal（英文短句、贴相关 demo 链接）→ Submit
+6. **面试**：文字优先；要视频则准备 45–60s 自我介绍字幕
+7. **合同**：Fixed 优先写清 milestone；Hourly 开 Time Tracker 规则先谈清
+8. **交付**：源码 + 短 README + 约定天数 bugfix；客户留评
+
+**日常节奏建议**：早/午硬筛（提案少 + 预算够）→ 晚间按技能契合补短名单（见 \`screened_2026-10-14_evening.md\`）。
+
+## 注意事项
+
+- **Connects**：每天限额、热门单消耗高；没 Billing 买不了。
+- **Rate limit / 风控**：短时间大量打开 apply 页、复制粘贴同质 Proposal 易触发限制；人工节奏投。
+- **Captcha / Cloudflare**：类目页、部分 apply URL 对自动化极不友好；**用浏览器人工**，不要指望脚本绕过。
+- **China access**：平台可访问，但部分雇主标 US Only / 要求本地时区 overlapping；提案里写清 UTC+8 回复窗口。
+- **ID verify**：必须；与收款名一致。
+- **Specialized Profiles**：2026-05-28 已取消 → **一个主 Profile + Catalog 挂副业**。
+- **竞争**：n8n/Zapier 类常 50+ 提案；差异化靠「写真代码 + Docker/自托管 + 已有 demo 链接」。
+- **跳过信号**：预算 <$100、只要拖拽 no-code、要 US 公民、范围极大却 fixed $200。
+
+## Google Trends / 需求研究关键词
+
+**EN：** \`AI automation freelancer\`, \`n8n automation\`, \`Zapier alternative n8n\`, \`AI chatbot for website\`, \`web scraping Playwright\`, \`Next.js Supabase Stripe fix\`, \`API integration developer\`, \`self-hosted automation\`, \`document OCR LLM\`, \`lead generation scraper\`
+
+**CN（研究用，客户多为英文）：** \`Upwork 接单 AI 自动化\`, \`n8n 工作流接单\`, \`海外 SMB 自动化需求\`, \`Playwright 爬虫 接单\`, \`Lovable 修站\`
+
+交叉文档：\`upwork_titles_budgets.md\`、\`requirements_backlog.md\`、\`smb_demand_clusters.md\`、\`profile_draft.md\`。
+`},
+{"id": "fiverr", "type": "freelance", "title": "Fiverr", "url": "https://www.fiverr.com/", "summary": "产品化 Gig：把 n8n/AI 小交付与修站打成 Basic/Standard/Premium，补 Upwork 定制单。", "permissions": "① Seller 账号（邮箱+手机）\n② **ID 验证**（提现）\n③ 提现渠道（如 Payoneer）\n④ Programming & Tech / AI 类目\n⑤ 可选 Seller Plus（放量后再开）", "access_path": "1. Switching to Selling\n2. 建 1–2 个主 Gig（n8n/AI automation；Fix AI web app）\n3. 写清三档交付物与修改次数\n4. 封面/视频 + 链到 portfolio 模板\n5. 标签对齐买家搜索词\n6. 开 Buyer requests → 24h 内回复\n7. 完成求评，控取消率", "caveats": "过低价伤定位；写死范围防修订地狱；API Key 由买家提供；完成率/响应时间影响算法；导流站外支付须守 ToS；国内注意提现合规。", "trends_keywords": "EN: n8n automation fiverr, zapier setup, AI chatbot fiverr, chatgpt integration, web scraping service, make.com scenario\nCN: Fiverr 卖自动化, Fiverr Gig n8n, 海外小企业 AI 聊天机器人", "related_docs": ["doc-smb", "doc-tplplan", "doc-live"], "tags": ["Fiverr", "接单平台", "Gig"], "path": "docs/platforms/fiverr.md", "date": "2026-10-14 22:45", "content": `# Fiverr 操作手册
+
+产品化 Gig 市场。适合把已验证的小交付打成套餐（Basic / Standard / Premium），与 Upwork 的「定制合同」互补。
+
+## 权限需求清单
+
+| 账号/权限 | 级别 | 用途 |
+|---|---|---|
+| Fiverr Seller 账号 | Email + 手机验证 | 上架 Gig |
+| ID verification | 政府证件 | 提现、部分类目门槛 |
+| Payment / 提现方式 | Payoneer 等 | 收款 |
+| Seller Plus（可选）| 付费 | 分析、更强曝光（量起来再开） |
+| Gig 类目权限 | Programming & Tech / AI Services | 选准类目避免错投 |
+
+## 操作路径
+
+1. **注册/登录** → https://www.fiverr.com/ → Switching to Selling
+2. **选类目**：Programming & Tech → 子类如 AI Development、Chatbots、Automation Tools；或 Data → Web Scraping
+3. **创建 Gig**（建议先 1–2 个主 Gig，不要铺太多）：
+   - **AI / n8n automation setup**（对接 CRM/Sheets/Slack）
+   - **Fix & finish AI-generated web app**（Next/Supabase/Stripe）
+   - （可选）**Playwright scraper + Google Sheets export**
+4. 填 **3 档套餐**：明确交付物、修改次数、工期；加 FAQ（范围外收费）
+5. **封面图 + 视频** + 作品集链到 portfolio / 模板站
+6. **SEO 标题/标签**：对齐买家搜索词（见关键词）
+7. 上架 → 开 **Buyer requests** 抢相关定制 → 消息 24h 内回复
+8. 完成后求 Review；纠纷走 Resolution Center，留书面范围
+
+## 注意事项
+
+- **定价**：高评软件 Gig 起步中位约 $100 档常见；真实项目常 $200–$5,000。过低（$5–$20）伤定位。
+- **修订地狱**：套餐写死「含 N 次修改 / 不含源码或含源码」；自动化类务必写「第三方 API Key 由买家提供」。
+- **China access**：可访问；注意支付/提现合规与税务自行申报。
+- **算法**：完成率、响应时间、取消率影响曝光；宁可不接也不要取消。
+- **与 Upwork 关系**：Fiverr 适合标准化小单引流；大定制仍导 Upwork/站外合同（遵守平台 ToS，勿引导站外支付违规）。
+- **趋势参考**：Fiverr BTI 显示 n8n AI automation、AI 相关搜索增速高——Gig 标题可跟，但不编造数据。
+
+## Google Trends / 需求研究关键词
+
+**EN：** \`n8n automation fiverr\`, \`zapier setup\`, \`AI chatbot fiverr\`, \`chatgpt integration\`, \`web scraping service\`, \`fix wordpress site\`, \`shopify automation\`, \`make.com scenario\`
+
+**CN：** \`Fiverr 卖自动化\`, \`Fiverr Gig n8n\`, \`海外小企业 AI 聊天机器人\`
+
+交叉：\`smb_demand_clusters.md\`（Fiverr BTI / Gig 抽样段落）、模板站链接。
+`},
+{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。预算中位偏低，适合小修复/练提案，非主收入。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-smb", "doc-backlog"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-10-14 22:45", "content": `# Freelancer.com 操作手册
+
+竞标制项目市场。预算中位偏低、竞标人数多，适合捡「修复/小集成」或练英文提案，不作为主收入依赖。
+
+## 权限需求清单
+
+| 账号/权限 | 级别 | 用途 |
+|---|---|---|
+| Freelancer 账号 | Email 验证 | 浏览、投标 |
+| ID / KYC | 按国家要求 | 提现、部分项目 |
+| Bid credits / Preferred | 免费每日标数有限；付费加标 | 投标配额 |
+| Milestone / 托管 | 买家拨款 | 开工前确认资金 |
+| Exam / 技能测试（可选）| 徽章 | 略增信任，非必须 |
+
+## 操作路径
+
+1. 登录 https://www.freelancer.com/
+2. Browse projects → 关键词：\`n8n\`, \`API integration\`, \`web scraping\`, \`Next.js\`, \`automation\`
+3. 过滤：Fixed Price、预算可读、描述具体、有支付验证的买家
+4. 写 **短提案**（问题复述 + 3 步方案 + 价与工期）→ Place Bid（注意每日免费标）
+5. 中标后等 **Milestone 拨款** 再开工
+6. 交付 → 请求放款 → 评价
+
+## 注意事项
+
+- **低价卷**：大量 $30–$250 单；对照 \`smb_demand_clusters.md\` Freelancer 快照（Automation 中位约 $140）决定值不值得。
+- **Bid 配额**：别把免费标浪费在描述不清/要源码白嫖的帖。
+- **China access**：可访问；注意时差与竞标话术避免机器感。
+- **骗局**：先要私人邮箱/Telegram 且不走托管 → 拒绝。
+- **定位**：可当 Upwork 溢出池；主精力仍放 Upwork + 作品集。
+
+## Google Trends / 需求研究关键词
+
+**EN：** \`freelancer.com automation\`, \`hire n8n developer\`, \`web scraping freelancer\`, \`API integration project\`, \`wordpress fix freelancer\`
+
+**CN：** \`Freelancer 竞标\`, \`海外众包 自动化\`
+
+交叉：\`smb_demand_clusters.md\` [FL-DEMAND] 段。
+`},
+{"id": "contra", "type": "freelance", "title": "Contra（补充）", "url": "https://contra.com/", "summary": "无佣金独立承包商网络。流量小，作补充展示与被动询盘。", "permissions": "① Contra 账号与完整 Profile\n② 收款绑定（平台支持的方式）\n③ Services / Portfolio 公开\n④ 可选连 X/LinkedIn", "access_path": "1. 完善 Independent profile\n2. 添加 AI automation / Fix web app 等 Services\n3. 上传真实 demo 截图（不编造营收）\n4. 链接挂到个人站与 README\n5. 询盘 → 书面报价 → 走 Contra 付款", "caveats": "流量有限，每周看消息即可；定价对齐 Upwork；确认国内收款是否可用，不行则仅展示。", "trends_keywords": "EN: Contra freelance, no commission freelance, AI automation contractor\nCN: Contra 平台, 无佣金 自由职业", "related_docs": ["doc-live", "doc-tplplan"], "tags": ["Contra", "接单平台", "补充"], "path": "docs/platforms/contra.md", "date": "2026-10-14 22:45", "content": `# Contra（补充渠道）
+
+无佣金、偏独立承包商网络。流量小于 Upwork，适合作为 **补充展示 + 被动询盘**，不替代主战场。
+
+## 权限需求清单
+
+| 账号/权限 | 级别 | 用途 |
+|---|---|---|
+| Contra 账号 | Email + 资料完善 | 发布服务/作品 |
+| 收款（Stripe 等平台支持方式）| 绑定 | 收项目款（无传统「平台抽成」叙事） |
+| Portfolio / Services | 公开页 | 展示 AI automation、修站等服务 |
+| 可选：社交账号连接 | X / LinkedIn | 导入信任背书 |
+
+## 操作路径
+
+1. 注册 https://contra.com/ → 完善 Independent profile
+2. 添加 Services：如「AI workflow automation」「Fix AI-generated web apps」
+3. 上传 3–5 个案例截图（来自 portfolio 模板，勿编造客户名/营收）
+4. 分享公开链接到个人站 / GitHub README / IH 帖
+5. 有询盘 → 书面报价 → 合同与付款走 Contra 流程
+
+## 注意事项
+
+- **流量小**：不要每天刷；资料齐全即可，每周检查消息。
+- **定价**：对齐 Upwork 时薪/项目价，避免 Contra 过低冲击主定位。
+- **China access**：需确认登录与收款是否顺畅；若收款受限则只当展示页。
+- **合规**：仍要自己处理税务与合同条款。
+
+## Google Trends / 需求研究关键词
+
+**EN：** \`Contra freelance\`, \`hire independent developer\`, \`no commission freelance platform\`, \`AI automation contractor\`
+
+**CN：** \`Contra 平台\`, \`无佣金 自由职业\`
+
+交叉：个人作品集站、本 Hub。
+`},
+{"id": "indie-hn", "type": "community", "title": "Indie Hackers / HN", "url": "https://www.indiehackers.com/", "summary": "轻量社区获客：练需求语言、Show 模板、价值评论，少硬广。", "permissions": "① IH 账号 + bio\n② HN 账号（一点 karma）\n③ 作品集 Contact/邮箱\n④ 可选 X", "access_path": "1. IH 完善「帮 SMB 做 n8n/代码自动化」bio\n2. 参与自动化/AI 帖，贡献干货再链 portfolio\n3. HN 跟 Ask/Show；有实质 demo 再 Show HN\n4. 私信转化到邮件或 Upwork\n5. 痛点词记入 backlog", "caveats": "反感硬广；IH 有 CF；时间盒每周 1–2h；不要当接单大厅刷。", "trends_keywords": "EN: indie hacker automation, solo founder AI tools, Ask HN freelance, show HN scraper, SMB no-code limits\nCN: 独立开发 获客, Indie Hackers 自动化, HN 展示项目", "related_docs": ["doc-smb", "doc-growth", "doc-live"], "tags": ["Indie Hackers", "HN", "社区获客"], "path": "docs/platforms/indie-hn.md", "date": "2026-10-14 22:45", "content": `# Indie Hackers / Hacker News（轻量获客）
+
+社区获客，不是接单大厅。目标：**露出专业度、收集需求语言、偶尔引到作品集/邮箱**。投入时间有限。
+
+## 权限需求清单
+
+| 账号/权限 | 级别 | 用途 |
+|---|---|---|
+| Indie Hackers 账号 | 注册 + 完整 bio | 发帖/评论 |
+| HN（Y Combinator）账号 | 注册，积累一点 karma | Show HN / 评论 |
+| 公开邮箱或联系页 | portfolio 站 Contact | 转化私聊 |
+| （可选）X 账号 | 同步讨论 | 扩大曝光 |
+
+## 操作路径
+
+1. **IH**：https://www.indiehackers.com/ → 完善「I help SMBs automate with n8n/code」类 bio  
+   - 参与自动化 / AI 落地帖：贡献可操作建议，文末自然链到 portfolio  
+   - 少发硬广；可发「构建公开模板」进度帖
+2. **HN**：https://news.ycombinator.com/  
+   - 刷 Ask HN / Show HN 里与 scraping、automation、AI wrappers 相关帖  
+   - 有实质 demo 时再 Show HN（模板站或开源小工具）  
+   - 评论讲技术取舍，不贴「雇我」
+3. 有人私信/回帖要帮忙 → 转到邮件或 Upwork 合同（按对方习惯）
+
+## 注意事项
+
+- **反感销售**：HN/IH 对纯广告极狠；价值先行。
+- **Cloudflare**：IH 部分页对 bot 不友好 → 人工浏览器。
+- **China access**：HN 一般可访问；IH 偶发慢/验证码。
+- **时间盒**：每周固定 1–2 小时，避免刷帖成瘾。
+- **需求语言**：把帖子里的痛点词记入 \`requirements_backlog.md\` / Trends 词表。
+
+## Google Trends / 需求研究关键词
+
+**EN：** \`indie hacker automation\`, \`solo founder AI tools\`, \`build in public n8n\`, \`Ask HN freelance\`, \`show HN scraper\`, \`SMB no-code limits\`
+
+**CN：** \`独立开发 获客\`, \`Indie Hackers 自动化\`, \`HN 展示项目\`
+
+交叉：\`smb_demand_clusters.md\` [IH-AUTO][IH-HIRE]、作品集站。
+`},
+{"id": "portfolio", "type": "showcase", "title": "个人作品集站", "url": "https://portfolio-site-orpin-three-91.vercel.app", "summary": "对外销售页。Proposal/Gig 最终落地看可运行模板 demo。", "permissions": "① Vercel 部署权限\n② GitHub 源码仓写权限\n③ 各 tpl-* 模板项目\n④ 可选自定义域与分析", "access_path": "1. 打开作品集核对定位文案\n2. 服务卡链到 tpl-landing / form-to-sheet / booking / launch-audit\n3. 改仓 → push → Vercel Ready → 硬刷新\n4. Proposal 只贴与职位相关的 demo\n5. Contact 与回复预期（UTC+8）保持有效", "caveats": "禁止假客户/假营收；标明 demo template；国内访问 Vercel 可能慢，可备截图或 Pages 镜像。", "trends_keywords": "EN: freelancer portfolio, automation developer portfolio, n8n demo, SaaS landing waitlist, launch audit\nCN: 自由职业者 作品集, 自动化 案例演示, 接单 作品站", "related_docs": ["doc-live", "doc-tplplan", "doc-proj"], "tags": ["作品集", "Vercel", "作品展示"], "path": "docs/platforms/portfolio.md", "date": "2026-10-14 22:45", "content": `# 个人作品集站（Portfolio）
+
+线上门面。所有平台 Proposal / Gig / 社区帖最终应能点到这里看 **可运行 demo**。
+
+**生产地址：** https://portfolio-site-orpin-three-91.vercel.app
+
+## 权限需求清单
+
+| 账号/权限 | 级别 | 用途 |
+|---|---|---|
+| Vercel 账号 | 登录 + 项目部署权限 | 托管前端 |
+| GitHub 仓库权限 | 对应 portfolio 源码仓 | 推送触发部署 |
+| 域名（可选）| DNS | 自定义域 |
+| 模板站 Vercel 项目 | 各 tpl-* 部署 | Landing/Form/Booking/Audit 演示 |
+| 分析（可选）| 隐私友好分析 | 看哪张服务卡被点 |
+
+## 操作路径
+
+1. 打开作品集 → 确认首页定位与 Upwork Overview 一致（AI automation + 全栈）
+2. **服务卡** 链到在线模板：
+   - Landing + Waitlist → https://tpl-landing-waitlist.vercel.app
+   - Form → Sheet → https://tpl-form-to-sheet.vercel.app
+   - Booking Calendar → https://tpl-booking-calendar.vercel.app
+   - Launch Audit Report → https://tpl-launch-audit-report.vercel.app
+3. 更新案例截图时：本地改仓 → push → 等 Vercel Ready → 硬刷新验证
+4. Proposal 里只贴 **相关** 模板链接（价格监控单 → Price Watch；修站单 → Launch Audit）
+5. Contact / 日历链接保持有效；UTC+8 回复预期写清
+
+## 注意事项
+
+- **禁止编造**：不写假客户名、假营收、假「3x 速度」类口号（见 profile_draft）。
+- **Demo 标注**：标明 Portfolio demo template；免费档无付费 API 也能跑。
+- **China access**：Vercel 域名在国内可能慢；必要时加 GitHub Pages 镜像或截图备份。
+- **与 Hub 分工**：Portfolio = 对外销售页；本 Overview Hub = 对内作战手册。
+
+## Google Trends / 需求研究关键词
+
+**EN：** \`freelancer portfolio examples\`, \`automation developer portfolio\`, \`n8n demo\`, \`SaaS landing waitlist\`, \`launch audit report\`
+
+**CN：** \`自由职业者 作品集\`, \`自动化 案例演示\`, \`接单 作品站\`
+
+交叉：\`docs/live_templates.md\`、\`templates_plan.md\`、\`portfolio_entries.md\`。
+`},
+{"id": "overview-hub", "type": "showcase", "title": "Overview Hub（本站）", "url": "https://gaopfEditer.github.io/overview-hub/", "summary": "对内作战板（也可对外展示系统化能力）：平台手册 + 案例 + 文档。", "permissions": "① GitHub 写权限 gaopfEditer/overview-hub\n② PAT：**repo + workflow**\n③ Pages = GitHub Actions\n④ Actions 可运行 workflows", "access_path": "1. 改 manifest → python3 build_data.py\n2. 本地打开 index.html 预览\n3. commit & push main\n4. 等 Pages Action 绿\n5. 打开 github.io/overview-hub/ 验证三 Tab", "caveats": "缺 workflow scope 推不了 Action；token 永不入库；data.js 内嵌外链 md；base href 必须为 ./", "trends_keywords": "EN: freelance ops playbook, upwork knowledge base, github pages hub\nCN: 接单 作战手册, Upwork 知识库, GitHub Pages 静态站", "related_docs": ["doc-cap", "doc-growth", "doc-tech"], "tags": ["GitHub Pages", "本站", "作品展示"], "path": "docs/platforms/overview-hub.md", "date": "2026-10-14 22:45", "content": `# Overview Hub（本站 · GitHub Pages）
+
+对内作战板：平台手册、案例分析、思路文档。对外也可作为「系统化接单」的轻量证明。
+
+**仓库：** https://github.com/gaopfEditer/overview-hub  
+**Pages：** https://gaopfEditer.github.io/overview-hub/
+
+## 权限需求清单
+
+| 账号/权限 | 级别 | 用途 |
+|---|---|---|
+| GitHub 账号 gaopfEditer | 写权限到 overview-hub | 推送内容 |
+| \`GITHUB_TOKEN\` 或 PAT | **repo + workflow** | 本地 push；触发 Pages Action |
+| GitHub Pages | 源 = GitHub Actions | 发布静态站 |
+| Actions 权限 | workflows 可写 | \`.github/workflows/pages.yml\` |
+
+缺 \`workflow\` scope 时：**推送改不了 workflow 文件，Pages 可能不更新**。
+
+## 操作路径
+
+1. 本地改 \`/workspace/hub\`：\`manifest.json\` 增删卡片 → \`python3 build_data.py\` → 预览 \`index.html\`
+2. \`git add -A && git commit && git push origin main\`
+3. Actions：Deploy GitHub Pages → 等 build+deploy 绿
+4. 打开 https://gaopfEditer.github.io/overview-hub/ 硬刷新验证三 Tab
+5. 平台卡/案例卡里用 \`related_docs\` 链到第三 Tab 文档
+
+## 注意事项
+
+- **单页离线**：\`data.js\` 内嵌正文；仓库外 path 的源文件不会进 Pages，只嵌内容。
+- **\`<base href="./">\`**：保证项目页路径 \`/overview-hub/\` 下资源正确。
+- **密钥**：永不把 token 写进仓库或 README。
+- **China access**：github.io 偶发慢；可本地打开 \`index.html\` 离线用。
+
+## Google Trends / 需求研究关键词
+
+**EN：** \`freelance ops playbook\`, \`upwork workflow documentation\`, \`github pages portfolio hub\`
+
+**CN：** \`接单 作战手册\`, \`Upwork 知识库\`, \`GitHub Pages 静态站\`
+
+交叉：本仓 README、三条 Tab 全部卡片。
+`},
+],
+cases: [
+{"id": "case-example", "title": "【示例结构】空模板（新增案例请复制）", "is_template": true, "summary": "", "tags": ["示例结构", "占位"], "related_docs": ["doc-screened", "doc-titles", "doc-live"], "path": "docs/cases/example_structure.md", "source": "", "has_evidence": false, "date": "2026-10-14 22:45", "fields": {"来源": "（待填）平台 + URL / 职位 ID", "单子类型": "（待填）如 n8n 修复 / AI Chatbot / 爬虫管道 / 修 Next+Stripe", "操作思路": "（待填）筛选理由 → 匹配 demo → 提案要点 → milestone 切分", "结果": "（待填）未投 / 已投 / 面试 / 中标 / 完成 / 放弃 + 原因"}, "来源": "（待填）平台 + URL / 职位 ID", "单子类型": "（待填）如 n8n 修复 / AI Chatbot / 爬虫管道 / 修 Next+Stripe", "操作思路": "（待填）筛选理由 → 匹配 demo → 提案要点 → milestone 切分", "结果": "（待填）未投 / 已投 / 面试 / 中标 / 完成 / 放弃 + 原因", "content": `# 【示例结构】案例分析卡片（占位）
+
+> 这是 **【示例结构】** 空模板，不是真实案例。新增案例时复制本结构，在 \`manifest.json\` 的 \`cases\` 数组追加一条；\`build_data.py\` 会把条目上的**任意新字段**自动带进 \`data.js\`，前端按字段名渲染（无需改死 schema）。
+
+## 固定建议字段
+
+| 字段 | 含义 | 示例（待填） |
+|---|---|---|
+| **来源** | 平台 + 链接/职位 ID | Upwork apply URL / Fiverr Buyer request / 私域 |
+| **单子类型** | 需求分类 | n8n 修复 · AI 聊天机器人 · 爬虫管道 · 修 Next/Stripe 站 … |
+| **操作思路** | 如何筛选、提案、交付 | 关键词 → 匹配 demo → 提案要点 → milestone |
+| **结果** | 结局 | 未投 / 已投待回复 / 面试 / 中标 / 完成评价 / 放弃及原因 |
+
+## 可选扩展字段（自动生效）
+
+在 manifest 该 case 对象上增加任意键即可，例如：
+
+- \`budget\`：预算
+- \`proposal_count\`：提案数
+- \`matched_demo\`：使用的模板链接
+- \`related_docs\`：文档 id 列表
+- \`has_evidence\`：是否带截图/数字
+- \`date\`：记录日期
+
+## 填写注意
+
+- 收入与结果不编造；未验证信息标明「未验证」。
+- 可在 \`path\` 指向一篇更长的 Markdown 作为正文展开。
+`},
+],
+case_field_order: ["来源", "单子类型", "操作思路", "结果"],
 docs: [
-{"id": "t1-cap", "track": "platform", "title": "能力边界", "date": "2026-10-14 21:37", "summary": "拆开就是四个问题，后面每一端都按这四个问题看：", "tags": ["能力边界", "开发"], "source": "", "path": "/workspace/dev-topics/01_capability_boundaries.md", "has_evidence": false, "content": `# 软件开发专题：各端能力边界
+{"id": "doc-cap", "title": "能力边界", "theme": "能力与判断", "date": "2026-10-14 21:37", "summary": "接单前判断工具：各端输入输出、资源上限与报价前必问清单。", "tags": ["能力边界", "报价", "开发"], "source": "", "path": "/workspace/dev-topics/01_capability_boundaries.md", "related_docs": [], "content": `# 软件开发专题：各端能力边界
 
 > 适用对象：鹏飞（全栈 ~10 年，Vue / React / NestJS / Python / Docker；接海外中小企业的网站、全栈、AI Agent 单）。
 > 用法：不是知识清单，而是**接单前的判断工具**。每接一个新需求，先用文末的「能力边界卡」过一遍，再报价。
@@ -258,7 +594,7 @@ docs: [
 | 长时间后台任务 | 后端 worker | 移动端和浏览器后台都会被限制 |
 | 多租户数据 | 后端 + 数据库层隔离 | 一次串数据就是事故 |
 `},
-{"id": "t1-growth", "track": "platform", "title": "Web 全栈 / Agent 成长方向", "date": "2026-10-14 21:39", "summary": "- 不要再学更多框架。 方向是：把传统全栈能力延伸到生产级 Agent 系统。", "tags": ["全栈", "Agent"], "source": "", "path": "/workspace/dev-topics/02_web_fullstack_agent_growth.md", "has_evidence": false, "content": `# 网站 + 全栈 + Agent 能力提升路线
+{"id": "doc-growth", "title": "Web 全栈 / Agent 成长方向", "theme": "成长路径", "date": "2026-10-14 21:39", "summary": "Web 全栈与 Agent 方向的能力进阶与接单映射。", "tags": ["全栈", "Agent", "成长"], "source": "", "path": "/workspace/dev-topics/02_web_fullstack_agent_growth.md", "related_docs": [], "content": `# 网站 + 全栈 + Agent 能力提升路线
 
 > 对象：鹏飞（全栈 ~10 年；Vue / React / NestJS / Python / Docker；海外 SMB 自由职业）。
 > 每节结构：**为什么重要 / 要达到的标准（可自测）/ 练手项目 / 对应能接的单**。
@@ -539,7 +875,7 @@ Agent 的输出要进入真实系统（CRM、数据库、邮件）。类型不�
 - [ ] 已上架对应 Gig，报价模板里包含维护和风险项
 - [ ] 每个新单都先填「能力边界卡」（见 \`01_capability_boundaries.md\`）
 `},
-{"id": "t1-proj", "track": "platform", "title": "项目推荐", "date": "2026-10-14 21:40", "summary": "核心模型：任何平台 = 系统给定的输入/输出 + 在有限资源上的存储/展示。做项目之前先问三件事：输入从哪来（谁给、什么格式、是否被允许拿）、输出到哪去（谁消费、是否有官方通道）、资源上限在哪（内存、CPU、配额、电量、平台规则）。", "tags": ["项目", "推荐"], "source": "", "path": "/workspace/dev-topics/03_project_recommendations.md", "has_evidence": false, "content": `# 03 · 项目推荐：按 ROI 排序的 12 个可落地项目（鹏飞版）
+{"id": "doc-proj", "title": "项目推荐", "theme": "项目与作品", "date": "2026-10-14 21:40", "summary": "适合练手与挂作品集的项目推荐。", "tags": ["项目", "推荐", "作品集"], "source": "", "path": "/workspace/dev-topics/03_project_recommendations.md", "related_docs": [], "content": `# 03 · 项目推荐：按 ROI 排序的 12 个可落地项目（鹏飞版）
 
 > 适用对象：鹏飞（Python / Docker / FRP / 爬虫与内部接口逆向 / Playwright·Puppeteer·CDP / 油猴与浏览器扩展 / 支付网关对接 / 多账号 token 轮换 / 会话保活 / 限流故障转移 / Cursor·Codex·Claude Code / 全栈 Web + AI Agent）
 > 客户画像：Fiverr / Freelancer / Upwork 上的海外中小企业（SMB）和独立创始人
@@ -1155,7 +1491,7 @@ Android 端（A1–A4）在 SMB 外包市场里需求点多集中在"做一个 A
 
 > 节奏建议：①② 是"本周就能挂出去接单"的，③ 是"每天抽 1–2 小时持续推进"的产品线。接到 ①② 的订单后，把交付中沉淀的代码片段回收到各自的 kit 仓库，形成复利。
 `},
-{"id": "t1-tech-checklist", "track": "platform", "title": "复杂技术清单（AI 开发参考）", "date": "2026-10-14 22:01", "summary": "按八个场景分组的 46 项复杂技术：用途、难点、可粘贴 AI 提示模板与常见坑，适合开发时当参考。", "tags": ["技术清单", "AI辅助", "接单"], "source": "", "path": "/workspace/dev-topics/04_complex_tech_checklist.md", "has_evidence": false, "content": `# 04 · 复杂技术清单：接单开发时的 AI Prompt 速查（鹏飞版）
+{"id": "doc-tech", "title": "复杂技术清单（AI 开发参考）", "theme": "技术参考", "date": "2026-10-14 22:01", "summary": "按场景分组的复杂技术：用途、难点、AI 提示模板与常见坑。", "tags": ["技术清单", "AI辅助", "接单"], "source": "", "path": "/workspace/dev-topics/04_complex_tech_checklist.md", "related_docs": [], "content": `# 04 · 复杂技术清单：接单开发时的 AI Prompt 速查（鹏飞版）
 
 > 对象：鹏飞（技能见 \`03\`）。配套 \`01\`/\`02\`/\`03\`。本文是**开发中的 prompt 参考**，不是百科。
 > 用法：对号入座 → 贴「AI 辅助」prompt 进 Cursor/Claude Code → 按「常见坑」验收。
@@ -1613,7 +1949,7 @@ Stripe webhook：验签、event_id 去重表、「标记已付+开通权益」�
 
 **自检**：鉴权 / 支付 / 多租户 / 爬虫 / 密钥代码，对照「常见坑」再提交。
 `},
-{"id": "t1-titles", "track": "platform", "title": "Upwork 标题与预算", "date": "2026-10-14 21:40", "summary": "- 更新：2026-10-14 21:50（UTC+8）；方法：WebFetch 公开类目页/apply 页 + 本目录既有笔记（requirementsbacklog.md、checked2026-10-14.txt）。未登录、未绕过 Cloudflare。", "tags": ["Upwork", "预算"], "source": "", "path": "/workspace/upwork/upwork_titles_budgets.md", "has_evidence": false, "content": `# Upwork 职位标题 × 预算 × 竞争 参考表（建站 + 后端自动化）
+{"id": "doc-titles", "title": "Upwork 标题与预算", "theme": "Upwork 调研", "date": "2026-10-14 21:40", "summary": "职位标题 × 预算 × 竞争样本与优先投标 Top5。", "tags": ["Upwork", "预算", "标题"], "source": "", "path": "/workspace/upwork/upwork_titles_budgets.md", "related_docs": [], "content": `# Upwork 职位标题 × 预算 × 竞争 参考表（建站 + 后端自动化）
 
 - 更新：2026-10-14 21:50（UTC+8）；方法：WebFetch 公开类目页/apply 页 + 本目录既有笔记（requirements_backlog.md、checked_2026-10-14.txt）。未登录、未绕过 Cloudflare。
 - 说明：预算均来自下列 URL 的公开样本（单条或少量样本，**不是统计均值**）。「提案数」带 ✅ 为页面实际显示；标「估」为按类目/预算/描述的定性估计。
@@ -1660,7 +1996,7 @@ Stripe webhook：验签、event_id 去重表、「标记已付+开通权益」�
 4. ⭐ **Lead/Scrape-to-score self-hosted pipeline**（$350，估20–50）— “无 vendor lock-in + 抗封”正对 Playwright/CDP 技能，对上 Contractor Lead Engine。
 5. ⭐ **Fix/Stabilize existing scraper (n8n/Python)**（$150，估10–20）— 预算小但竞争最低、交付快、易拿好评，常转长期维护（Retail Catalogue $300 同类）。
 `},
-{"id": "t1-backlog", "track": "platform", "title": "需求 Backlog", "date": "2026-10-10 07:34", "summary": "- Updated: 2026-10-09（Asia/Shanghai）", "tags": ["需求分类"], "source": "", "path": "/workspace/upwork/requirements_backlog.md", "has_evidence": false, "content": `# 接单需求列表（维护用）
+{"id": "doc-backlog", "title": "需求 Backlog", "theme": "Upwork 调研", "date": "2026-10-10 07:34", "summary": "需求分类与待做/已覆盖条目积压。", "tags": ["需求分类", "Backlog"], "source": "", "path": "/workspace/upwork/requirements_backlog.md", "related_docs": [], "content": `# 接单需求列表（维护用）
 
 - Updated: 2026-10-09（Asia/Shanghai）
 - How to maintain: 只增不删（废弃条目改状态为「搁置」并加一行备注）；status 取值：\`待做案例\` / \`已有案例\` / \`仅投标不建站\` / \`搁置\`
@@ -2224,7 +2560,7 @@ Stripe webhook：验签、event_id 去重表、「标记已付+开通权益」�
 | 2026-10-09 | 启动第一批通用模板 T1–T4（见 \`/workspace/upwork/templates_plan.md\`）；待建仓 \`portfolio-templates\` |
 | 2026-10-09 | T1–T4 模板已合并 PR#1 并部署 Vercel 项目 tpl-landing-waitlist / tpl-form-to-sheet / tpl-booking-calendar / tpl-launch-audit-report |
 `},
-{"id": "t1-smb", "track": "platform", "title": "中小企业需求聚类", "date": "2026-10-11 19:19", "summary": "互站交叉核对说明： 首页 meta 与列表标签显示任务类型以 软件开发、网站开发、二次开发、数据采集、移动端开发 为主；首页可见标签计数约：软件开发 14、移动端 6、网站开发 5、二次开发 5、数据采集 4（单页快照，非全站总量）。样例标题含：小程序/H5、PHP SaaS 二…", "tags": ["SMB", "需求分类"], "source": "", "path": "/workspace/upwork/smb_demand_clusters.md", "has_evidence": false, "content": `# 海外 SMB / 个体户软件与开发支出聚集区（US/UK/AU/EU 自由职业市场）
+{"id": "doc-smb", "title": "中小企业需求聚类", "theme": "市场研究", "date": "2026-10-11 19:19", "summary": "海外 SMB 软件/开发支出聚集区与价格带出处。", "tags": ["SMB", "Fiverr", "Trends"], "source": "", "path": "/workspace/upwork/smb_demand_clusters.md", "related_docs": [], "content": `# 海外 SMB / 个体户软件与开发支出聚集区（US/UK/AU/EU 自由职业市场）
 
 > 调研日期：2026-10-11（Asia/Shanghai）  
 > 范围：小企业、个体户、solo founder 在自由职业平台上的 **软件/开发相关** 花费聚集方向  
@@ -2415,7 +2751,7 @@ Upwork 主战场：       AI Integration | n8n/Zapier | 修完上线 | 多阶段
 - \`/workspace/upwork/niche_research.md\` — Upwork 向细分量化（与本文互补；本文补 Fiverr/Freelancer/Reddit/IH/互站）  
 - \`/workspace/upwork/portfolio_entries.md\` — 可直接映射到第 4 节三个 Demo
 `},
-{"id": "t1-tplplan", "track": "platform", "title": "模板计划", "date": "2026-10-10 07:34", "summary": "目标：先做可复用「模板」，不是完整定制业务。每个都能离线演示、免费部署（GitHub + Vercel）、挂到个人站服务卡上。", "tags": ["模板"], "source": "", "path": "/workspace/upwork/templates_plan.md", "has_evidence": false, "content": `# 通用高影响模板计划（2026-10-09）
+{"id": "doc-tplplan", "title": "模板计划", "theme": "模板与交付", "date": "2026-10-10 07:34", "summary": "可复用高影响模板批次与验收标准。", "tags": ["模板", "Vercel"], "source": "", "path": "/workspace/upwork/templates_plan.md", "related_docs": [], "content": `# 通用高影响模板计划（2026-10-09）
 
 目标：先做可复用「模板」，不是完整定制业务。每个都能离线演示、免费部署（GitHub + Vercel）、挂到个人站服务卡上。
 
@@ -2454,7 +2790,139 @@ Upwork 主战场：       AI Integration | n8n/Zapier | 修完上线 | 多阶段
 3. 至少 1 张真实截图
 4. 对应需求表条目状态改为「已有案例」或「模板已出」
 `},
-{"id": "t1-live", "track": "platform", "title": "在线模板与作品集链接", "date": "2026-10-14 21:46", "summary": "用法：在 proposal 中直接贴对应模板链接作为 demo，证明可快速交付。", "tags": ["模板", "作品集", "链接"], "source": "https://portfolio-site-orpin-three-91.vercel.app", "path": "docs/live_templates.md", "has_evidence": false, "content": `# 在线模板与作品集
+{"id": "doc-screened", "title": "晚间筛选短名单 2026-10-14", "theme": "Upwork 调研", "date": "2026-10-14 22:33", "summary": "按技能契合排序的可投开放单短名单（当日晚间）。", "tags": ["筛选", "短名单", "Upwork"], "source": "", "path": "/workspace/upwork/screened_2026-10-14_evening.md", "related_docs": [], "content": `# Upwork 晚间筛选短名单 — 2026-10-14（UTC+8 约 22:30）
+
+- **对象**：鹏飞（AI落地 / n8n·Zapier·Make+定制 / 爬虫管道 / Playwright·CDP / 后端API / 扩展 / 支付webhook / 自有账号会话保活）
+- **方法**：本地笔记（\`checked_2026-10-14.txt\`、\`upwork_titles_budgets.md\`、\`requirements_backlog.md\`、\`sent_jobs.txt\`）→ WebFetch 公开类目页 → WebSearch 索引 apply URL → WebFetch JobPosting。**未登录、未投标、未绕过 Cloudflare**。
+- **窗口偏好**：约近 7 天（以页面 \`datePosted\` 为准）；更早但强匹配者标「偏旧」。
+- **说明**：提案数带 ✅ 为页面实测；「估」为定性估计。预算 USD。难度：低/中/高。排序 = 建议投标优先级（技能契合 × 可写性 × 竞争可打），**不是**「预算最高」。
+
+今日早/午例行硬筛（提案&lt;~20 + ≥$300）QUALIFIED=0；本短名单按**技能契合**放宽，保留可投的真实开放单。
+
+---
+
+## 短名单（10 条，按优先级）
+
+### 1. ⭐ n8n Automation Developer for United Rentals Scraper
+- **URL**：https://www.upwork.com/freelance-jobs/apply/n8n-Automation-Developer-for-United-Rentals-Scraper_~022109823511161499480/
+- **预算**：$150 fixed
+- **提案**：✅ 20–50｜面试中 1｜客户昨日查看
+- **发布**：2026-10-13 09:48 UTC+8（约 1 天）
+- **难度**：中｜**竞争**：中偏低（面试仅 1，属「修现有管线」小众）
+- **为何契合 / 是否优先**：**强烈优先**。现有栈即 n8n Cloud + Node Playwright（playwright-extra stealth）+ Cloudflare Tunnel；要稳定 batch / 修 530·1033 或迁低成本云，并保证图库完整——正对 Playwright/CDP、会话保活、自托管隧道。预算小但交付快、易拿五星；提案强调「sidecar 稳定性 + 重试/队列」而非重写。China OK。
+
+### 2. ⭐ n8n Automation Build: Course Registration, Payments & Admin（Clinical Training Academy）
+- **URL**：https://www.upwork.com/freelance-jobs/apply/n8n-Automation-Build-Course-Registration-Payments-Admin-for-Clinical-Training-Academy_~022109998575924600733/
+- **预算**：Hourly，30+ hrs/周，6+ 月（公开页无美元时薪；需 **EUR 抬头纸正式报价**）
+- **提案**：✅ 20–50｜面试 0
+- **发布**：2026-10-13 21:23 UTC+8（约 1 天）
+- **难度**：中高｜**竞争**：中（需公司抬头报价，过滤掉多数散户）
+- **为何契合 / 是否优先**：**强烈优先**。WordPress 表单 → 人工筛选 → Stripe 分期 → GCal/Gmail → Xero 发票，全走 n8n——主服务卡 + **支付网关 webhook** 一条龙。注意：中间人代询价、可能 20 分钟短名单通话、写聊天偏好需权衡。China OK。
+
+### 3. ⭐ n8n / Supabase Automation Developer – Jobber Reporting & KPI Dashboards
+- **URL**：https://www.upwork.com/freelance-jobs/apply/n8n-Supabase-Automation-Developer-Jobber-Reporting-KPI-Dashboards_~022109010567400563221/
+- **预算**：$1,500 fixed（可灵活；先付 $150–250 技术评估）
+- **提案**：✅ 50+｜面试 3｜客户 **2 小时前**查看
+- **发布**：2026-10-11 03:57 UTC+8（约 3–4 天）
+- **难度**：中｜**竞争**：中高（提案多但面试尚少、客户仍在看）
+- **为何契合 / 是否优先**：**优先**。Jobber GraphQL → Supabase → n8n 日报/周报 → Sheets/邮件；要求 OAuth/token、去重、对账——后端 API + 会话/令牌管理。提案答「是否用过 Jobber GraphQL」要诚实，可强调 n8n+Postgres 对账经验。China OK。后续 CallRail/QBO 有空间。
+
+### 4. Real Estate Data Engineer: Italian Listings Database & API (Bari Pilot)
+- **URL**：https://www.upwork.com/freelance-jobs/apply/Real-Estate-Data-Engineer-Italian-Listings-Database-API-Bari-Pilot_~022108912455837304784/
+- **预算**：$500 fixed（试点；可谈维护/全国扩展）
+- **提案**：✅ 20–50｜面试 0｜客户 4 天前查看（偏冷）
+- **发布**：2026-10-10 21:28 UTC+8（约 4 天）
+- **难度**：高｜**竞争**：中（规格严、面试 0，写深可突围）
+- **为何契合**：官方 API 或合法抓取 → 自有 DB → 地理检索 API、去重、14 天质量报告——对上 Price Watch / 数据管道案例。须在提案写清合法来源与「usable listing」验收。China OK。**可投但非今晚第一支**（客户可能已淡）。
+
+### 5. AI Cold Call Coach Integration（HubSpot + Claude + n8n + Slack）
+- **URL**：https://www.upwork.com/freelance-jobs/apply/Cold-Call-Coach-Integration_~022109916232871104574/
+- **预算**：Hourly（公开页无区间）；里程碑 1 小额验证 transcript
+- **提案**：✅ 50+｜面试 9｜邀请 10｜客户昨日查看
+- **发布**：2026-10-13 15:56 UTC+8（约 1 天）
+- **难度**：中｜**竞争**：高
+- **为何契合**：自托管 n8n + HubSpot 通话转录 → Claude 评分 → Sheets/Slack——AI落地 + 工作流。客户 UK、$2.1K spent、9 次雇佣，质量好。提案必须答「如何拉 HubSpot call transcripts」。China OK。**值得写，但 Connects 贵则排后于 1–3。**
+
+### 6. Lead Automation & AI Engineer（自托管 scrape→score→CRM）
+- **URL**：https://www.upwork.com/freelance-jobs/apply/Lead-Automation-Engineer_~022108700627641896244/
+- **预算**：$350 fixed
+- **提案**：✅ 20–50｜面试 7｜客户 4 天前查看
+- **发布**：2026-10-10 07:26 UTC+8（约 4–5 天）
+- **难度**：中高｜**竞争**：中高
+- **为何契合**：无 vendor lock-in、浏览器自动化、n8n、抗封——对上 Contractor Lead Engine。Instagram 源需注意平台 ToS，提案写「客户自有账号 + 限速/会话保活」。China OK。客户偏冷，作备选。
+
+### 7. Python | music outreach intelligence system
+- **URL**：https://www.upwork.com/freelance-jobs/apply/Python-music-outreach-intelligence-system_~022109236205660696408/
+- **预算**：$2,000 fixed
+- **提案**：✅ 50+｜面试 5｜客户昨日查看
+- **发布**：2026-10-11 18:54 UTC+8（约 3 天）
+- **难度**：中高｜**竞争**：高
+- **为何契合**：Ubuntu 自托管 + 本地 LLM + 线索研究/打分仪表盘——Python/Docker/部署区分点（titles_budgets Top 型）。经 Tailscale SSH、非 admin。需先读附件设计文档再报价。China OK。
+
+### 8. Stripe Connect Developer — Next.js + Supabase Marketplace（FameUS）
+- **URL**：https://www.upwork.com/freelance-jobs/apply/Stripe-Connect-Developer-Needed-Next-Supabase-Marketplace-App-Escrow-Gifting-Competitions_~022109213495109946676/
+- **预算**：$1,500–$2,000 fixed（页标 $1,500）
+- **提案**：✅ 50+｜面试 0
+- **发布**：2026-10-11 17:24 UTC+8（约 3 天）
+- **难度**：高｜**竞争**：高（要生产级 Connect 实绩 + NDA）
+- **为何契合**：**支付网关 webhook**（托管押金、分账、纠纷、失败 payout、Supabase RLS）。仅当有可展示的 Connect/真实收款案例时投；否则跳过。China OK。
+
+### 9. Build Ferva Homes AI Automation Infrastructure（n8n / Supabase / MLS API / DocuSign / Local LLM）
+- **URL**：https://www.upwork.com/freelance-jobs/apply/Build-Ferva-Homes-Automation-Infrastructure-n8n-Supabase-MLS-API-DocuSign-Local-LLM_~022109789162022651856/
+- **预算**：$1,000 fixed（首期审计+架构+Offer Engine MVP；正文承认全平台远超 $1k）
+- **提案**：✅ 50+｜面试 **18**｜邀请 26
+- **发布**：2026-10-13 07:31 UTC+8（约 1–2 天）
+- **难度**：高｜**竞争**：极高
+- **为何契合**：栈几乎全覆盖（n8n、API、限流重试、本地 LLM、禁止非法 MLS 抓取）。提案须以 **Ferva Automation** 开头并答 8 问。长期伙伴意向强，但 18 面试中胜率低——**仅 Connects 充裕时试一次**。China OK。
+
+### 10. AI Voice Agent Specialist — Senior Living Sales & Appointment Booking Prototype
+- **URL**：https://www.upwork.com/freelance-jobs/apply/Voice-Agent-Specialist-Senior-Living-Sales-Appointment-Booking-Prototype_~022109694857514373182/
+- **预算**：页标 $1,500；正文约 **$2,500** fixed
+- **提案**：✅ 50+｜面试 0｜客户 $606K spent / 67 hires（极强）
+- **发布**：2026-10-13 01:17 UTC+8（约 2 天）
+- **难度**：高｜**竞争**：高
+- **为何契合**：Voice agent + 实时 Calendly + HubSpot/Sheets——AI落地 + CRM 集成。需有可演示通话/录音；纯 n8n 无 voice 经验则勿硬投。China OK。客户质量顶级，有相关作品则冲。
+
+---
+
+## 已拒绝 / 跳过摘要（近失与否决）
+
+| 职位 | 原因 |
+|------|------|
+| ZipRecruiter 抓取 + AI 简历解析（$25–51/hr） | **US Only**；虽含会话 cookie/限速（自有账号）但地理不符 |
+| Ai Agent for Browser Automation（$30–50/hr） | 申请地仅 Pakistan/India/US，**无中国** |
+| Lead Qualification & Appointment Booking n8n（$25–47/hr） | 已 hire 1、提案 50+、强制个性化视频 |
+| Real Estate Lead Follow-Up n8n+Claude | **$10** 低价占位，技能匹配但价不可做 |
+| Playwright → Unbounce 一键导入（$500） | 已 **hire 1**；偏旧（10-05） |
+| Security audit Next+Supabase+Stripe（$750） | 偏旧（10-04）、要 Loom + 与 US Central 重叠 4h；技能匹配可作近失备选 |
+| Edron Agentic AI Pilot（$65–85/hr） | **US Only** + 提案 50+（早间近失已核实） |
+| Claude MCP Expert（$20–50/hr） | 仅 Philippines/Poland |
+| Lead Intake n8n/Make（$200） | US Only + 预算偏低 |
+| Job Nimbus 自动化（$5–35/hr） | 地板 $5 + 提案 50+ |
+| n8n CRM Sync（$250） | 低于习惯门槛 + 提案 50+ |
+| Restaurant Menu Profit Audit（$100） | 低价 + 50+ |
+| Carpentry Inquiries AI（$400） | 50+ + 全新客户 |
+| AU B2B 抓取 ongoing | 要成品数据交付非定制管线；50+ |
+| GHL 类 $10–$20 低价单、AI cartoon $80、HubSpot $10 等 | 低价/非主场 |
+| Full-Stack AI Agents n8n SaaS apply | **已关闭** |
+| \`/freelance-jobs/playwright/\` 等 | 404 或 CF 验证页，已跳过未绕过 |
+
+**CF / 拦截备注**：curl 对 Upwork 常 403；本晚 WebFetch 类目与多数 apply 页可用。未使用代理/指纹浏览器/验证码绕过。
+
+**sent_jobs**：今晚未追加；未投标、未私信客户。
+
+---
+
+## 待你确认后再写提案草稿
+
+建议**最先起草**的 Top 3：
+
+1. **United Rentals Scraper 稳定化**（技能最尖、面试少、可快速交付）  
+2. **Clinical Training Academy n8n + Stripe/Xero**（主栈 + 支付 webhook；准备 EUR 抬头报价结构）  
+3. **Jobber Reporting n8n/Supabase $1,500**（客户仍在活跃查看；先答 5 个申请题）
+
+`},
+{"id": "doc-live", "title": "在线模板与作品集链接", "theme": "模板与交付", "date": "2026-10-14 21:46", "summary": "已部署模板与作品集 URL，提案可直接引用。", "tags": ["模板", "作品集", "链接"], "source": "https://portfolio-site-orpin-three-91.vercel.app", "path": "docs/live_templates.md", "related_docs": [], "content": `# 在线模板与作品集
 
 | 模板 | 用途 | 链接 |
 |---|---|---|
@@ -2466,1336 +2934,5 @@ Upwork 主战场：       AI Integration | n8n/Zapier | 修完上线 | 多阶段
 
 用法：在 proposal 中直接贴对应模板链接作为 demo，证明可快速交付。
 `},
-{"id": "t1-proposal", "track": "platform", "title": "Proposal 示例：Unbounce", "date": "2026-10-10 07:34", "summary": "ai", "tags": ["Proposal", "模板"], "source": "", "path": "/workspace/upwork/proposal_unbounce.txt", "has_evidence": false, "content": `ai
-
-1) You need a one-click tool that turns any Claude-made HTML/CSS file (plus images) into a ready-to-publish Unbounce page, with native forms and buttons so conversions are tracked.
-
-2) Approach: Unbounce can upload ".unbounce" page files (Classic Builder only). My first choice: I download one page from your account, learn the file format, then my tool generates a new .unbounce file with native elements (text, image, button, form). Playwright logs in, uploads it and waits until the page is ready. This is faster and more stable than clicking in the builder hundreds of times. Backup: Playwright builds the page in the builder, with one Custom HTML block per section plus native form and button elements.
-
-3) Different structures: no templates. Playwright opens each file at desktop and mobile width and reads the real position and size of every element. Code maps text → text, img → uploaded image, form → native form, links → buttons. Anything too complex stays as Custom HTML. I can also give you 2–3 small rules for your Claude prompt so new files import more cleanly.
-
-4) [ATTACH DEMO: link or Loom of the HTML-analyzer demo]
-[1–2 TRUE sentences about a real automation/integration project you built.]
-
-5) $500 fixed, 8–10 days:
-- Milestone 1 ($150, 3 days): one of your real files live in Unbounce, so you can check the approach.
-- Milestone 2 ($350): full one-click tool tested on 5 of your files, Loom video, written guide, 30 days bug support.
-
-Question: Classic Builder or Smart Builder? And must pages stay fully editable in Unbounce, or is "looks the same + forms work" enough?
-
-Thanks,
-Pengfei
-`},
-{"id": "t1-profile", "track": "platform", "title": "Upwork Profile 草稿", "date": "2026-10-10 07:34", "summary": "Profile: https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8", "tags": ["Profile", "模板"], "source": "", "path": "/workspace/upwork/profile_draft.md", "has_evidence": false, "content": `# Upwork profile draft v3 — AI integration & automation — gaopf pengfei
-Profile: https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
-Revised 2026-10-06 20:50 (UTC+8). The old scraping-first version is saved as \`profile_draft_scraping_v1.md\` (old overview: \`overview_scraping_v1.txt\`).
-Positioning comes from \`niche_research.md\`. Client-facing text uses **simple, short English**. Each section has a Chinese note (说明).
-Fill or delete every \`[X]\` / \`[placeholder]\`. Never publish an invented number, client or project.
-
-> Reminder: Specialized Profiles were removed on May 28, 2026 (https://support.upwork.com/hc/en-us/articles/115013750068-Update-to-Specialized-Profiles-What-to-know). So: **one main profile = primary positioning**; secondary services = **Project Catalog** listings.
-
-**New positioning**
-- PRIMARY: AI integration + workflow/API automation. Connect business tools with code + n8n/Zapier/Make, add LLM features (chatbots, PDF/document extraction, AI agents), then deploy and maintain.
-- SECONDARY (Catalog only): (a) audit / fix / finish existing web apps, incl. Lovable/Cursor/Bolt apps; (b) web scraping & browser automation.
-- Differentiator: 10 years of real full-stack work (Vue / React / NestJS / Java / Python / Docker). Many automation freelancers are no-code only.
-
-> 说明：为什么换方向：AI Integration 是 Upwork 2026 年开发类增长最快的技能（+178%），AI Chatbot +71%；提到 AI 的固定价职位预算中位数是 $158，全部职位是 $100（来源见 niche_research.md）。自动化职位的需求一般写得很清楚，适合文字沟通。你会写真代码，这一点是和只会拖拽 no-code 的人拉开差距的地方。
-
----
-
-## 0. Still fix first (unchanged from v2)
-- Verify ID and add a billing method (needed to buy Connects).
-- Delete "3x the industry standard speed" and the buzzwords; replace the old front-end/Vue title.
-- Raise the rate from $15 (section 5).
-- Add real Employment History (10 years) and a 45–60s video intro with subtitles.
-- Fill the portfolio (section 7) before bidding heavily.
-
----
-
-## 1. Profile title (≤70 chars)
-
-1. **AI Automation & API Integration Developer | Python, Node.js, n8n** (64) ← **recommended**
-2. **AI Integration Developer | Automate Workflows, Fix & Finish Web Apps** (68)
-3. **Full-Stack Developer | AI Features, Automations, API Integrations** (65)
-
-> 说明：推荐 1。前半段 "AI Automation"、"API Integration" 是客户最常搜的词，后面 Python / Node.js / n8n 表明你既写代码也会 no-code 工具。方案 2 把副业务（修复应用）也写进去，但会稀释主定位。方案 3 以 "Full-Stack" 开头，最安全，但搜索匹配度弱一些。
-
----
-
-## 2. Overview (1644 chars; first sentence ≈100 chars)
-
-\`\`\`
-I connect your business tools and add AI to them, so work your team does by hand runs by itself. I am a full-stack developer with 10 years of experience, so I write real code when no-code tools are not enough.
-
-What I can do for you:
-• Workflow automation with n8n, Zapier, Make, or custom Python / Node.js code. Connect your CRM, Google Sheets, Drive, Gmail, Slack, Stripe, Twilio and other tools through APIs and webhooks.
-• AI features with OpenAI or Claude: chatbots that answer from your documents, data extraction from PDFs and emails, and AI agents that sort, summarize or reply.
-• Clear results: AI does the reading and writing. Important decisions run as fixed rules in code, so results are predictable.
-• Deploy and maintain: Docker, Linux servers, self-hosted n8n, logs, retries and error alerts.
-• Also: fix or finish existing web apps (React, Vue, Next.js, NestJS, Supabase), including apps made with Lovable, Cursor or Bolt. Web scraping and browser automation with Playwright.
-
-Why me:
-• A real developer, not only no-code: Vue, React, NestJS, Java, Python, Docker.
-• I use AI coding tools every day, and I test everything before delivery.
-• You own all code, workflows and documents.
-
-How I work:
-1. You tell me your tools and the result you want.
-2. I send a written plan, a fixed price and a timeline.
-3. I build a small working part first, so you can check it early.
-4. I deliver source code, a short guide and [X] days of free bug fixes.
-
-I prefer written chat in English, so every step is clear and on record. I usually reply within [X] hours (UTC+8).
-
-Tell me what you do by hand today. I will show you how to automate it.
-\`\`\`
-
-> 说明：
-> - **开头**：第一句讲客户能得到的结果（手工活自动跑起来），第二句用真实的 10 年全栈经验说明"必要时写真代码"，这就是你和 no-code 选手的区别。
-> - "AI does the reading and writing. Important decisions run as fixed rules in code"：很多客户担心 AI 乱做决定（比如今天看到的 COI 职位就明确要求这一点），这句话直接打消这个顾虑。
-> - 副业务（修复应用、爬虫）只用一行带过，详细的放在 Project Catalog 里。
-> - 所有 [X] 都换成真实数字，不确定就删掉那半句。
-
----
-
-## 3. Skills (15)
-
-Tags marked ✅ were seen as skill tags on live Upwork job pages or category pages today, so they exist. The others are very likely to exist; if one doesn't, use the backup.
-
-| # | Skill | Backup |
-|---|---|---|
-| 1 | AI Agent Development ✅ | AI Development ✅ |
-| 2 | API Integration ✅ | Application Integration ✅ |
-| 3 | Automation ✅ | Business Process Automation ✅ |
-| 4 | n8n ✅ | Automated Workflow ✅ |
-| 5 | Zapier ✅ | CRM Automation ✅ |
-| 6 | Make.com ✅ | Microsoft Power Automate ✅ |
-| 7 | Chatbot Development ✅ | Natural Language Processing ✅ |
-| 8 | OpenAI API | Artificial Intelligence ✅ |
-| 9 | Python ✅ | FastAPI |
-| 10 | Node.js ✅ | JavaScript ✅ |
-| 11 | Google Sheets Automation ✅ | Google Apps Script ✅ |
-| 12 | Docker | DevOps |
-| 13 | Full-Stack Development ✅ | Web Development ✅ |
-| 14 | Vue.js ✅ | React ✅ / NestJS |
-| 15 | Web Scraping ✅ | Selenium ✅ / Data Extraction |
-
-Extra if you have room (GigRadar reports the profile cap is now 20): Twilio API ✅, React ✅, NestJS, Selenium ✅, HubSpot ✅.
-
-> 说明：1–11 服务主定位（AI + 自动化 + 集成），12–14 体现全栈和部署能力，15 支撑爬虫副业务。Upwork 现在只有一个主资料页，会根据客户搜索自动突出相关技能，所以主定位和副业务的关键词都要覆盖。添加时以 Upwork 下拉框里的准确名称为准。
-
----
-
-## 4. Rate recommendation
-
-Sources:
-- Upwork rates guide (https://www.upwork.com/resources/upwork-hourly-rates, updated 2026-05-12):
-  - AI Developers $30–50, AI Engineers $35–60, Chatbot Developers $30–61
-  - API Developers $20–40, Python $20–40, Node.js $18–38
-  - Marketing Automation Consultants $40–90
-- Redwater Aug 2026 automation report (https://upwork.redwaterrev.com/archive/2026-08):
-  - Median posted hourly rate for automation jobs $32.50, mean $36.91
-  - Their bands: Entry $18–35, Experienced $35–50, Specialist $50–100
-  - The largest bucket of jobs is $25–40/hr
-- UpHunt (https://uphunt.io/blog/do-ai-skills-pay-more-on-upwork-2026): AI-mentioning fixed-price jobs have a median budget of $158, vs $100 for all jobs.
-
-| Stage | Profile rate | Why |
-|---|---|---|
-| **Now** (0 reviews) | **$25/hr** | Inside the largest $25–40 bucket and below the $32.50 median, but no longer "suspiciously cheap" for 10 years of experience. Win first jobs with **small fixed-price** bids ($100–500), which don't lower your public rate. |
-| After 3–5 five-star reviews + portfolio | **$35/hr** | About the market median; low end of AI Developers $30–50. |
-| After 10+ reviews / repeat clients | **$45–60/hr** | AI Engineers $35–60, Chatbot $30–61; Redwater's "Specialist" band starts at $50. |
-
-Always check your take-home amount after Upwork's variable 0–15% freelancer fee.
-
-> 说明：v2 建议 $20–25（按爬虫方向）。现在主打 AI 集成，对应的官方区间更高，所以直接定 $25。头几单用固定价拿评价，有了 3–5 个好评再涨到 $35。
-
----
-
-## 5. Project Catalog listings (3)
-
-Create under Find Work → Your services → Create Project. Each listing can have up to 3 tiers. Review can take a few weeks for new freelancers, so submit in week 1.
-Prices are suggestions: about $25/hr × estimated hours, set a little low for a zero-review seller. Market reference for the scraping listing: Upwork's web-scraper hire page lists single-site projects at $200–600 (https://www.upwork.com/hire/web-scrapers/).
-
-### Listing 1 (primary) — "I will automate your workflow with n8n, Zapier, Make or Python, with AI"
-| Tier | Scope | Price | Delivery |
-|---|---|---|---|
-| Starter | 1 workflow, up to 2 apps, up to 5 steps (e.g. form → CRM → Slack). Setup + short guide. | $120 | 3 days |
-| Standard | 1–2 workflows, up to 4 apps, 1 AI step (OpenAI/Claude: classify, extract or summarize), error alerts, written guide. | $350 | 6 days |
-| Advanced | Custom integration in Python/Node.js or self-hosted n8n on Docker: webhooks, retries, logs, AI document extraction, handover doc + 14 days support. | $800 | 12 days |
-
-### Listing 2 (secondary a) — "I will audit and fix your Lovable, Cursor, Bolt or React/Vue web app"
-Sell the **Audit** first; it leads to the bigger fix job (GigRadar advises a small paid audit or discovery under $500 as the first step).
-| Tier | Scope | Price | Delivery |
-|---|---|---|---|
-| Audit | Read the code + run the app. Written report: top bugs, security (exposed keys, Supabase RLS, auth), deploy problems, plus a fixed-price fix plan. | $90 | 2 days |
-| Fix | Audit + fix up to 5 issues (or 1 small feature) + redeploy. | $300 | 5 days |
-| Production-ready | Audit + fixes + secrets/env setup, RLS/permissions, error handling and logging, deploy (Vercel or Docker), handover doc. | $800 | 10 days |
-
-### Listing 3 (secondary b) — "I will build a Python web scraper or Playwright browser automation"
-| Tier | Scope | Price | Delivery |
-|---|---|---|---|
-| Starter | 1 public site, up to 10 fields, CSV/Excel. Code included. | $80 | 2 days |
-| Standard | JavaScript-heavy or login site, output to Google Sheets or a database, simple browser automation flow. | $250 | 4 days |
-| Advanced | Scheduled scraper/automation on a server (Docker), multiple sites or pages, change alerts, guide + 14 days of fixes. | $600 | 7 days |
-
-> 说明：Catalog 的好处是客户可以直接下单，不花你的 Connects。Listing 2 的 $90 审计是"入口单"：先拿到代码访问权限、建立信任，再报修复价格。只接合法、公开的数据抓取。
-
----
-
-## 6. Proposal template — automation / AI integration jobs
-
-\`\`\`
-[1 sentence that repeats THEIR goal, e.g.
-"You want new ServiceTitan job photos to go into the right Google Drive folder automatically, as step 1 of a bigger AI content system."]
-
-My plan:
-1. [Connect: which API/auth, e.g. "Connect to the ServiceTitan API with OAuth and listen for completed jobs."]
-2. [Process: e.g. "Download the photos, create the folder, save job data as JSON."]
-3. [AI part, if any: e.g. "AI only reads and extracts. Decisions stay as fixed rules in code."]
-4. [Reliable: e.g. "Retries, logs and an alert if something fails. Docs and all code are yours."]
-
-Tool choice: [n8n / Make / custom code, and WHY in 1 line, e.g. "n8n for the flow, small Python code for the file handling, so it scales."]
-
-Proof: [ATTACH DEMO / portfolio link] [1 TRUE sentence about it]
-
-Price: $[X] fixed. Time: [X] days. I can show a first working part in [X] days.
-
-Question: [1 specific question, e.g. "Do your technicians mark which photos are approved, or should the tool take all of them?"]
-
-Thanks,
-Pengfei
-\`\`\`
-
-Rules:
-- If the post has screening questions, a keyword (e.g. start with "READY") or numbered questions, answer them first, exactly and in order.
-- If the client asks "start with 'ai' if you used AI to write it" and you did, **do it**. Being honest matters more than looking polished.
-- Keep it under ~150 words if there are no screening questions. The first 2 lines must be about their job.
-- Never claim experience you don't have. Use real demo links.
-
-> 说明：自动化客户最在意三件事：你看懂了流程、你选工具有理由、出错时有兜底。模板就是按这三点设计的。最后一个具体问题能明显提高回复率。
-
----
-
-## 7. Portfolio projects (fit the new positioning; each about 1–3 days with AI coding tools)
-
-| # | Project | What it shows | Matches real jobs seen 2026-10-04/05 |
-|---|---|---|---|
-| 1 | **AI PDF/email extraction → Google Sheets + reminders.** Gmail/Drive intake → LLM structured extraction (dates, amounts, names) → rules in code (expiry, status colors) → Sheets + reminder emails. Mask 9-digit ID numbers before saving. Build it twice: once in n8n, once in Python. | Document AI, deterministic rules, Google APIs, both no-code and code | "Subcontractor Insurance (COI) Tracker" ($400) |
-| 2 | **Website AI chatbot (RAG) + CRM lead capture.** Vue or React widget, answers from the company's docs, saves leads to HubSpot (free CRM) via API, Slack notification. | Chatbot, RAG, CRM integration, front-end | Chatbot / "AI Automation Developer (n8n, AI Agents & CRM)" ($4,500/mo) |
-| 3 | **Production-grade webhook integration.** E.g. Stripe or form → CRM/Airtable + Slack, with webhook signature checks, retries, rate limits, logging, Docker deploy and an uptime check. Short "before/after hardening" write-up. | Production readiness, APIs, DevOps, your 10-year backend side | "ServiceTitan → Google Drive" ($750); "AI SMS Receptionist" (US-only, but same type of work) |
-| 4 | **"Vibe-coded app rescue" case study.** Make a small Lovable/Bolt-style Supabase app (or use an open-source one), then audit it: exposed keys, missing RLS, no error handling. Fix it, deploy it, and publish the audit report. | Audit + fix service (Catalog listing 2) | "Lovable developer needed for an existing site" ($1,000) |
-| (quick extra) | **HTML → page-builder analyzer (for the Unbounce bid):** a Playwright script that opens an HTML file at desktop and mobile width and outputs JSON of the text, images, forms and buttons with their positions, plus a screenshot overlay. 1–2 hours. | Browser automation, DOM parsing | Unbounce job ($500) |
-
-For each item: cover image, 3 lines of "Problem → Solution → Result", tech stack, GitHub link and/or a 60–90s screen recording with subtitles. Use only demo data or public data.
-
-> 说明：0 评价时作品集就是你的"评价"。这 4 个项目都对应今天真实在招的职位，做完可以直接在提案里写 "I built almost the same thing: [link]"。第 1 和第 2 个最优先，覆盖的职位最多。
-
----
-
-## 8. Ready-to-send proposal — Unbounce job
-
-Job: "Playwright / browser automation developer: one-click tool to import HTML files into Unbounce"
-URL: https://www.upwork.com/freelance-jobs/apply/Playwright-browser-automation-developer-one-click-tool-import-HTML-files-into-Unbounce_~022106965767717552576/
-Re-checked 2026-10-06 20:47 (UTC+8):
-- $500 fixed, Expert, posted 2026-10-05 12:32 (UTC+8)
-- 10–15 proposals, 0 interviewing
-- Client: US, $6.1K spent, 33 hires
-- Open to applicants from China
-
-Fact check: Unbounce's documentation confirms you can upload ".unbounce" page files, but **only for Classic Builder pages** (not Smart Builder). Upload happens in the background, and Unbounce emails you when the page is ready. Source: https://documentation.unbounce.com/hc/en-us/articles/360000987863-Downloading-or-Uploading-an-Unbounce-Page . The .unbounce file format itself is not publicly documented, so the proposal frames it as something to test in Milestone 1.
-
-\`\`\`
-ai
-
-1) You need a one-click tool that turns any Claude-made HTML/CSS file (plus images) into a ready-to-publish Unbounce page, with native forms and buttons so conversions are tracked.
-
-2) Approach: Unbounce can upload ".unbounce" page files (Classic Builder only). My first choice: I download one page from your account, learn the file format, then my tool generates a new .unbounce file with native elements (text, image, button, form). Playwright logs in, uploads it and waits until the page is ready. This is faster and more stable than clicking in the builder hundreds of times. Backup: Playwright builds the page in the builder, with one Custom HTML block per section plus native form and button elements.
-
-3) Different structures: no templates. Playwright opens each file at desktop and mobile width and reads the real position and size of every element. Code maps text → text, img → uploaded image, form → native form, links → buttons. Anything too complex stays as Custom HTML. I can also give you 2–3 small rules for your Claude prompt so new files import more cleanly.
-
-4) [ATTACH DEMO: link or Loom of the HTML-analyzer demo]
-[1–2 TRUE sentences about a real automation/integration project you built.]
-
-5) $500 fixed, 8–10 days:
-- Milestone 1 ($150, 3 days): one of your real files live in Unbounce, so you can check the approach.
-- Milestone 2 ($350): full one-click tool tested on 5 of your files, Loom video, written guide, 30 days bug support.
-
-Question: Classic Builder or Smart Builder? And must pages stay fully editable in Unbounce, or is "looks the same + forms work" enough?
-
-Thanks,
-Pengfei
-\`\`\`
-
-Before sending (发送前必须做):
-1. **Keep the first line "ai".** The client asks for it if the proposal was written with AI help, and this draft was. Removing it would be dishonest, and the client may test for it.
-2. Replace both \`[ATTACH DEMO]\` / \`[TRUE sentences]\` lines with real things. Best option: build the quick HTML-analyzer demo from section 7 (1–2 hours) and attach a Loom or GIF.
-3. Only promise the 8–10 days if you can really start now. Change the numbers if needed.
-4. You have never used Unbounce, so don't say you have. The plan shows you understand how it works, which is enough.
-
-> 说明：这个单子提案少（10–15 个）、客户靠谱（花费 $6.1K，雇过 33 次），而且同时用到浏览器自动化、DOM 解析和 AI，非常适合你。技术关键是 Unbounce 只有 Classic Builder 支持上传 .unbounce 文件，所以提问里一定要问客户用的是哪个 Builder。分两个里程碑能降低双方风险：第一步先证明方案可行。
-`},
-{"id": "t1-portfolio", "track": "platform", "title": "作品集条目", "date": "2026-10-10 07:34", "summary": "生成时间：2026-10-08（UTC+8）。所有英文内容均为自建 Demo，不暗示任何客户项目；数字全部来自 README / 在线 Demo / 你提供的事实。", "tags": ["作品集"], "source": "", "path": "/workspace/upwork/portfolio_entries.md", "has_evidence": false, "content": `# Upwork 作品集条目（5 个 Demo 项目，可直接粘贴）
-
-生成时间：2026-10-08（UTC+8）。所有英文内容均为自建 Demo，不暗示任何客户项目；数字全部来自 README / 在线 Demo / 你提供的事实。
-
-## 中文说明：如何在 Upwork 添加（以下步骤来自 Upwork 官方帮助中心与官方指南）
-
-来源 1（帮助中心，字段上限以此为准）：https://support.upwork.com/hc/en-us/articles/360016144974-How-to-enhance-your-freelancer-profile
-来源 2（Upwork 官方 Portfolio Guide，2026-07-07 更新）：https://www.upwork.com/resources/portfolio-guide
-
-1. 打开你的个人资料页，找到 Portfolio 区域，点 **(+)**（官方指南的说法是 “Add a portfolio”；也有 “Quick create” 可以从作品网址自动填充——本文件按手动填写准备，建议用手动方式）。
-2. 依次填写：**Title**（≤70 字符）、**Role**（选填，≤100 字符）、**Project description**（≤600 字符）、**Skills & deliverables**（最多 5 个技能标签，从下拉框选）。
-3. **Related Upwork jobs**：跳过（这些是自建 Demo，没有 Upwork 合同可关联）。
-4. 添加内容：支持图片、视频、音频、文档、外部链接。按下文顺序上传截图，再加链接。每张图片下可以写一段简短说明（官方指南写 300 字符），下文已给出每张图的说明文字。
-5. 选择封面缩略图（官方指南第 8 步 “Select thumbnail”）：用下文标为 “Cover” 的那张。
-6. 点 **Preview** 检查桌面端/手机端效果；可先 **Save as draft**（草稿不会被客户看到），确认后点 **Publish**。
-
-图片要求（官方）：推荐 1000×750 px，最小 400×300，最大 4000×4000；官方指南写单张最大 10MB。所有截图都已核对尺寸，均符合。
-
-**注意 / 不确定的地方：**
-- 两个官方来源有冲突：帮助中心写标题 70 / 描述 600 字符；官方指南写“标题只有 40 字符”、“描述最好 300 字符以内”。我按帮助中心的硬上限写（标题 ≤70、描述 ≤600），每条描述的前 300 字符已包含“问题 + 结果”；如果表单实际只允许 40 字符标题，请用每项给出的 **短标题（≤40）**。
-- 帮助中心提示：**“certain .app domains” 的链接可能无法添加**。你的在线 Demo 都是 \`*.vercel.app\`，我无法登录验证是否被拒。如果添加失败，就只放 GitHub 链接（github.com 正常），截图照常上传。
-- 帮助中心规定作品集里不能出现**你自己的**联系方式（邮箱、电话等）。截图里出现的是虚构诊所的 (555) 电话和 \`example.com\` / \`.demo.local\` 演示邮箱，不是你的，应该没问题，但审核规则我无法 100% 确认。
-- Skills 名称：标 “verified” 的来自 profile_draft.md 里你之前在 Upwork 职位页上看到的技能标签；标 “not verified” 的我没能核实（Upwork 页面拒绝了我的抓取，返回 403），请以下拉框实际出现的名字为准，没有就用备选。
-- 作品集排序：我没有找到官方关于“拖动调整顺序”的说明，所以不确定能否事后调整。**稳妥做法：按推荐顺序的倒序发布（最后发布第 1 项）**——这是猜测，Upwork 可能按发布时间倒序显示，请发布后检查。
-- 字符数用 Python \`len()\` 统计，换行算 1 个字符。Upwork 的计数方式可能略有不同，所以每条都留了几个字符的余量（最高 599/600）。
-
-## 推荐展示顺序（前 3–4 个最重要；官方建议把最相关的作品放在前 3–4 格）
-
-1. **AI Document Extractor** —— 最贴近主定位（AI 抽取 + 自动化 + Google Sheets + n8n）。
-2. **AI Website Chatbot (SiteBot)** —— 主定位里的 AI 聊天机器人。（线上 Bug 已修复，可以直接发布。）
-3. **AI App Launch Rescue (NoteFlow)** —— 第二业务（修复/上线 AI 生成的应用），数字最有说服力。
-4. **Contractor Lead Engine** —— AI 打分 + 数据管道，兼顾自动化和爬虫。
-5. **Retail Price & MAP Watch** —— 爬虫/监控方向。
-
-## ✅ 已修复（2026-10-08 18:00 左右）：SiteBot 在线 Demo 提问报错
-
-已在 Vercel 加 \`ALLOWED_ORIGINS=https://ai-website-chatbot-six.vercel.app\` 并重新部署，带浏览器 Origin 提问已正常返回答案和来源。以下为原始记录：
-
-
-2026-10-08 17:41（UTC+8）我在浏览器里打开 https://ai-website-chatbot-six.vercel.app/demo 提问 “When are you open on Saturday?”，聊天框回复 **“Origin not allowed”**。用 curl 复现：\`POST /api/chat\` 带 \`Origin: https://ai-website-chatbot-six.vercel.app\` 时返回 HTTP 403；不带 Origin 时正常返回 “Saturday: 9:00 AM – 1:00 PM (2nd & 4th Sat only) … Source: Office hours”。
-原因（读代码得出）：\`src/lib/bot-config.ts\` 只自动加入 \`https://\${VERCEL_URL}\`，而 \`VERCEL_URL\` 是每次部署的专属网址，不是 \`-six.vercel.app\` 这个正式别名；\`data/bots/bright-smile-demo.json\` 里只有 localhost。
-修法（我没有改动你的仓库或 Vercel）：在 Vercel 项目环境变量里加 \`ALLOWED_ORIGINS=https://ai-website-chatbot-six.vercel.app\` 后重新部署（或在代码里同时加入 \`VERCEL_PROJECT_PRODUCTION_URL\`）。修好后建议再截一张“问答 + 来源”的图作为封面，比现有 widget 截图（只显示留资表单）更有说服力。
-证据截图：\`/workspace/upwork/portfolio_images/DO-NOT-UPLOAD_chatbot-origin-error-evidence.png\`（不要上传）。
-
----
-
-## Project 1 — AI Document Extractor
-
-**Title** (65/70)
-\`\`\`
-AI Document Extractor: PDFs & Emails to Google Sheets + Reminders
-\`\`\`
-Short title if the form only allows 40 (34/40): \`AI PDF Extraction to Google Sheets\`
-
-**Your role** (75/100)
-\`\`\`
-Solo developer - self-built demo (design, Python code, n8n workflow, tests)
-\`\`\`
-**Project description** (572/600; first 300 chars carry problem + result)
-\`\`\`
-Problem: insurance certificates and invoices arrive as PDFs. Someone types the fields into a spreadsheet and has to remember every expiry and due date.
-
-What I built: a pipeline that takes a PDF from a folder, upload or email, has an LLM (OpenAI or Anthropic) fill a fixed schema, and saves the row to CSV/SQLite and Google Sheets. Expiry status and reminder emails are decided by plain code, not the AI. Missing or doubtful fields are flagged for a person to check. Also built as an n8n workflow. 33 automated tests pass.
-
-Self-built demo with fictional sample documents.
-\`\`\`
-**Skills & deliverables** (5/5)
-
-| # | Skill (as typed in the dropdown) | Checked? | Backup if not in dropdown |
-|---|---|---|---|
-| 1 | Python | verified (profile research) | - |
-| 2 | n8n | verified (profile research) | Automated Workflow |
-| 3 | Google Sheets Automation | verified (profile research) | Google Apps Script |
-| 4 | API Integration | verified (profile research) | Application Integration |
-| 5 | Data Extraction | not verified | Artificial Intelligence |
-
-**Links to add** (content type: Link)
-- Code: https://github.com/gaopfEditer/ai-document-extractor
-- (No live demo URL; the app runs locally / Docker. Do not add one.)
-
-**Screenshots to upload, in this order**
-
-| Order | File | What it shows | Caption to paste under the image |
-|---|---|---|---|
-| 1 | \`/workspace/cloud-agent-artifacts/bc-9002f550-a874-53f9-958f-d51d6e281795/dashboard.png\` | Cover. Tracker with status colors, review flag and reminder email preview. | Fictional documents read into the tracker. Green/amber/red status and the reminder emails are set by code; the row with a missing expiry date is flagged for review instead of guessed. (183/300) |
-
-Optional / better image versions (made from the same screenshots, saved on the box):
-- \`/workspace/upwork/portfolio_images/doc-extractor-dashboard-cover-4x3.png\` — Optional cover crop (top 1440x1080, 4:3) of the same dashboard.png, so the thumbnail is not a thin slice of a very tall image. Use it INSTEAD of dashboard.png as image 1, or as an extra cover.
-
----
-
-## Project 2 — AI App Launch Rescue (NoteFlow)
-
-**Title** (58/70)
-\`\`\`
-AI-Built App Launch Rescue: Security Audit, Fixes & Deploy
-\`\`\`
-Short title if the form only allows 40 (33/40): \`AI App Launch Rescue: Audit & Fix\`
-
-**Your role** (75/100)
-\`\`\`
-Solo developer - self-built case study (audit, fixes, tests, Vercel deploy)
-\`\`\`
-**Project description** (597/600; first 300 chars carry problem + result)
-\`\`\`
-Problem: AI-built apps (Lovable/Bolt/v0 style) often work in a demo but are not safe to launch.
-
-What I did: took NoteFlow, a half-built AI notes app, audited it and made it launch-ready. A static scan went from 7 issues to 0. Found: the OpenAI key was exposed in the browser bundle, OpenAI was called from the browser, notes allowed XSS, and there was no login. Fixed with server-side AI, JWT auth with per-user data, input validation, rate limiting, unit + end-to-end tests and CI. Lighthouse accessibility: 0.83 to 1.00. Includes a written audit report.
-
-Self-built case study, not client work.
-\`\`\`
-**Skills & deliverables** (5/5)
-
-| # | Skill (as typed in the dropdown) | Checked? | Backup if not in dropdown |
-|---|---|---|---|
-| 1 | Full-Stack Development | verified (profile research) | Web Development |
-| 2 | React | verified (profile research) | JavaScript |
-| 3 | Node.js | verified (profile research) | JavaScript |
-| 4 | TypeScript | not verified | JavaScript |
-| 5 | Web Application Security | not verified | Web Development |
-
-**Links to add** (content type: Link)
-- Live (after version): https://ai-app-launch-rescue.vercel.app
-- Code + audit report: https://github.com/gaopfEditer/ai-app-launch-rescue
-
-**Screenshots to upload, in this order**
-
-| Order | File | What it shows | Caption to paste under the image |
-|---|---|---|---|
-| 1 | \`/workspace/portfolio-cases/launch-rescue-after.png\` | Cover. The launch-ready app: login, private notes, server-side AI summary. | After: users log in, notes are private per user, and the AI summary runs on the server, so no API key reaches the browser. (122/300) |
-| 2 | \`/workspace/portfolio-cases/launch-rescue-report.png\` | The audit report: findings, severity and status. | Part of the audit report: each finding with its severity, all fixed in the after version. Checked with a static scan, Lighthouse and automated tests. (149/300) |
-| 3 | \`/workspace/portfolio-cases/launch-rescue-before-xss.png\` | Before: shared notes, no login, raw HTML rendered from a note. | Before: no login, every visitor sees the same notes, and note content is rendered as raw HTML (XSS risk). (105/300) |
-
-Optional / better image versions (made from the same screenshots, saved on the box):
-- \`/workspace/upwork/portfolio_images/launch-rescue-report-cropped.png\` — Recommended INSTEAD of launch-rescue-report.png: same image with the large empty white area cut off (980x400, above Upwork's 400x300 minimum).
-
----
-
-## Project 3 — AI Website Chatbot (SiteBot)
-
-**Title** (60/70)
-\`\`\`
-AI Website Chatbot That Cites Its Sources and Captures Leads
-\`\`\`
-Short title if the form only allows 40 (33/40): \`AI Website Chatbot + Lead Capture\`
-
-**Your role** (78/100)
-\`\`\`
-Solo developer - self-built demo (design, Next.js code, widget, Vercel deploy)
-\`\`\`
-**Project description** (591/600; first 300 chars carry problem + result)
-\`\`\`
-Problem: small businesses answer the same website questions all day (hours, prices, insurance), and generic chatbots make up answers.
-
-What I built: SiteBot, a chat assistant that answers only from the business's own documents and names the source. Asked "When are you open on Saturday?", it replies "Saturday: 9:00 AM - 1:00 PM (2nd & 4th Sat only)" (Source: Office hours). When the docs don't have the answer, it says so and collects the visitor's name, email and need. Leads show on an admin page. It is added to a site with one script tag.
-
-Self-built demo for a fictional dental clinic.
-\`\`\`
-**Skills & deliverables** (5/5)
-
-| # | Skill (as typed in the dropdown) | Checked? | Backup if not in dropdown |
-|---|---|---|---|
-| 1 | Chatbot Development | verified (profile research) | Natural Language Processing |
-| 2 | Artificial Intelligence | verified (profile research) | AI Development |
-| 3 | JavaScript | verified (profile research) | React |
-| 4 | API Integration | verified (profile research) | Application Integration |
-| 5 | Next.js | not verified | Web Development |
-
-**Links to add** (content type: Link)
-- Live: https://ai-website-chatbot-six.vercel.app  (FIX FIRST - see warning below)
-- Code: https://github.com/gaopfEditer/ai-website-chatbot
-
-**Screenshots to upload, in this order**
-
-| Order | File | What it shows | Caption to paste under the image |
-|---|---|---|---|
-| 1 | \`/workspace/portfolio-cases/chatbot-widget.png\` | Cover. Fictional clinic site with the chat widget open (lead form showing). | The assistant on a sample clinic website. When the documents don't answer a question, it offers this form instead of guessing. (126/300) |
-
-Optional / better image versions (made from the same screenshots, saved on the box):
-- \`/workspace/upwork/portfolio_images/chatbot-admin-live.png\` — Recommended as image 2 INSTEAD of chatbot-admin.png. Captured from the live /admin page on 2026-10-08 17:41 (UTC+8): shows "Public demo mode" and 2 sample leads with reason (buying_intent / unknown_question). Caption: "Admin view with sample leads and why each was captured (buying intent or unanswered question)."
-
----
-
-## Project 4 — Retail Price & MAP Watch
-
-**Title** (67/70)
-\`\`\`
-Retail Price & MAP Monitoring With Low-Noise, Evidence-Based Alerts
-\`\`\`
-Short title if the form only allows 40 (29/40): \`Price & MAP Violation Monitor\`
-
-**Your role** (77/100)
-\`\`\`
-Solo developer - self-built demo (scrapers, matching, alert rules, dashboard)
-\`\`\`
-**Project description** (595/600; first 300 chars carry problem + result)
-\`\`\`
-Problem: brands watching reseller prices drown in alerts, get wrong product matches (1 unit vs a 2-pack) and false MAP violations (used items, shipping-inclusive prices).
-
-What I built: a monitor for 60 SKUs across 5 sites. In the demo run, 3,133 raw price/stock changes became just 2 pushed alerts, via thresholds and a confirming second check. MAP board: 1 open violation with evidence and seller name; 1 used-item trap filtered out. Unsure product matches go to a review queue. Blocked pages are flagged, not alerted. CSV export.
-
-Self-built demo; synthetic retailers, coffee-equipment niche.
-\`\`\`
-**Skills & deliverables** (5/5)
-
-| # | Skill (as typed in the dropdown) | Checked? | Backup if not in dropdown |
-|---|---|---|---|
-| 1 | Web Scraping | verified (profile research) | Data Scraping |
-| 2 | Python | verified (profile research) | - |
-| 3 | Automation | verified (profile research) | Business Process Automation |
-| 4 | Playwright | not verified | Selenium |
-| 5 | FastAPI | not verified | Data Extraction |
-
-**Links to add** (content type: Link)
-- Live: https://price-monitor-demo-lac.vercel.app
-- Code: https://github.com/gaopfEditer/price-monitor-demo
-
-**Screenshots to upload, in this order**
-
-| Order | File | What it shows | Caption to paste under the image |
-|---|---|---|---|
-| 1 | \`/workspace/portfolio-cases/price-overview.png\` | Cover. Overview: 60 SKUs, 2 pushed alerts vs 3,131 suppressed, per-source health. | 3,133 change signals detected, only 2 pushed after thresholds and confirmation. Source health shows which (synthetic) site failed instead of turning the failure into a false alert. (180/300) |
-| 2 | \`/workspace/portfolio-cases/price-map.png\` | MAP board: one real violation with evidence, one used-item trap filtered. | A new item from an unauthorized seller below MAP is flagged with an evidence snapshot. A used/refurbished listing below MAP is filtered out, so it is not reported as a violation. (178/300) |
-
-Optional / better image versions (made from the same screenshots, saved on the box):
-- \`/workspace/upwork/portfolio_images/price-map-cropped.png\` — Optional INSTEAD of price-map.png: same image with the empty lower part removed (1280x700).
-
----
-
-## Project 5 — Contractor Lead Engine (California)
-
-**Title** (66/70)
-\`\`\`
-Contractor Lead Engine: Verified, Scored Leads From Public Records
-\`\`\`
-Short title if the form only allows 40 (35/40): \`Contractor Lead Engine (California)\`
-
-**Your role** (71/100)
-\`\`\`
-Solo developer - self-built demo (data pipeline, AI scoring, dashboard)
-\`\`\`
-**Project description** (599/600; first 300 chars carry problem + result)
-\`\`\`
-Problem: bought lead lists bounce, include bad-fit firms and give no reason to reach out.
-
-What I built: a lead engine for California contractors, starting from real public CSLB license data (Alameda + Sacramento). Every fact keeps its source and date. Owners are cross-checked against CSLB personnel, never guessed. Leads are scored Hot/Warm/Cold with evidence, and a personal first line is drafted for human approval. Only verified emails are exported. Demo run: 120 licenses, 93 after dedupe, 58 fit the ICP, 27 with a verified email; 28 Hot/Warm.
-
-Self-built demo; sites synthetic, names masked.
-\`\`\`
-**Skills & deliverables** (5/5)
-
-| # | Skill (as typed in the dropdown) | Checked? | Backup if not in dropdown |
-|---|---|---|---|
-| 1 | Lead Generation | seen as an Upwork category name (upwork.com nav), dropdown not checked | Lead List Building |
-| 2 | Web Scraping | verified (profile research) | Data Scraping |
-| 3 | Python | verified (profile research) | - |
-| 4 | Artificial Intelligence | verified (profile research) | AI Development |
-| 5 | Data Enrichment | not verified | Data Mining |
-
-**Links to add** (content type: Link)
-- Live: https://lead-engine-demo-liart.vercel.app
-- Code: https://github.com/gaopfEditer/lead-engine-demo
-
-**Screenshots to upload, in this order**
-
-| Order | File | What it shows | Caption to paste under the image |
-|---|---|---|---|
-| 1 | \`/workspace/portfolio-cases/lead-detail.png\` | Cover. One lead: score with evidence links, sourced facts, verified owner, first-line draft waiting for approval. | Each lead shows why it scored Hot, the source of every fact, the owner cross-checked against CSLB personnel, and a first-line draft that a person approves or rejects. Names are masked in the public demo. (203/300) |
-| 2 | \`/workspace/portfolio-cases/lead-quality.png\` | Data quality: CSLB source and download date, coverage, email verification mix, 50-row sample export. | Data quality report: where the data came from and when, how many owners were verified, and how emails were classified. Only "ok" emails are exported; guessed, role and catch-all emails are flagged. (197/300) |
-
----
-
-## Notes per project (中文)
-
-- **1 Document Extractor**：只有一张截图，原图 1440×2200 很长，缩略图可能被裁成很窄的一条；建议用 4:3 裁剪版做封面。“33 tests pass” 已核对：tests/ 里正好 33 个 \`test_\` 函数。没有在线地址，只放 GitHub。描述写的是 “saves to CSV/SQLite and Google Sheets”，README 里 Google Sheets 是可选配置（需要服务账号），这样写没有夸大，但如果客户问，要说明需要配置。
-- **2 Launch Rescue**：你给的 “5 unit + 2/2 e2e” 与仓库代码一致（after/ 里 5 个单元测试），但 **REPORT.md 里写的是 “Unit tests 4/4 passed”**（旧数据）。为避免客户看到矛盾，描述里没写单元测试数量，只写 “unit + end-to-end tests”。建议你更新 REPORT.md 后再考虑写数字。Lighthouse 0.83→1.00 是在本地开发地址测的（REPORT 原文）。报告截图下方大片空白，建议用裁剪版。
-- **3 SiteBot**：列表里的 \`chatbot-admin.png\` **不建议上传**：它显示 “no auth in this portfolio build” 和 “Leads (0) No leads yet”，与现在线上的管理页（Public demo mode + 2 条示例线索）不一致，看起来像没做完。我今天从线上管理页重新截了一张（见上）。描述里的问答内容已用 curl 在线核实。
-- **4 Price & MAP Watch**：你写的是 “3,133 change signals in 7 days”。线上首页只写 “Detected 3133 total change signals; 2 pushed alerts”，“(7d)” 只标在 “Noise suppressed 3131” 上，而 README 说 demo 脚本模拟了 14 天。所以描述里写的是 “In the demo run”，没写 7 天。描述没写 Excel/Sheets 导出（README 有，但你给的事实只到 CSV），可按需加。
-- **5 Lead Engine**：漏斗各阶段不是严格包含关系（27 个有效邮箱、28 个 Hot/Warm），所以用分号分开写，没有写成箭头链。CSLB 数据是真实公开数据，但公司网站是合成的、Demo 里的邮箱验证是离线 mock（README 写明），描述末尾已注明 “sites synthetic”。如果客户追问 “verified email” 的验证方式，要如实说明生产环境需接第三方验证服务。线上首页还显示 “Exportable leads 20”，没写进描述。
-`},
-{"id": "t1-niche", "track": "platform", "title": "细分领域调研", "date": "2026-10-10 07:34", "summary": "整体市场背景（很重要）：", "tags": ["调研"], "source": "", "path": "/workspace/upwork/niche_research.md", "has_evidence": false, "content": `# Upwork 细分方向调研（Niche Research）— 2026-10-06
-
-> 目标：找出 **需求量最大 / 单价最高**、且适合 **AI 辅助的独立开发者**（10 年全栈：Vue/React/NestJS/Java/Python；中国 UTC+8；英语 Basic、偏好文字沟通；0 评价）实际能交付的方向。
-> 所有时间均为 **UTC+8**。所有数字都来自下方列出的来源；没找到的数据会标"缺失"，不做估算。
-
----
-
-## 0. 数据来源与注意事项（先读）
-
-| 代号 | 来源 | 说明 |
-|---|---|---|
-| **[CAT]** | Upwork 公开分类页 \`https://www.upwork.com/freelance-jobs/<slug>/\`（2026-10-06 抓取） | 页面写着 "sample of the **N** <skill> jobs posted on Upwork"。**Upwork 没说明 N 的时间窗口**，只能用来做方向之间的相对比较，不能当成"每月职位数"。部分页面还显示 "median hourly rate"。 |
-| **[RATES]** | https://www.upwork.com/resources/upwork-hourly-rates （2026-05-12 更新） | Upwork 官方给出的各技能时薪区间 |
-| **[SKILLS26]** | https://www.upwork.com/research/in-demand-skills-2026 ；新闻稿 https://investors.upwork.com/news-releases/news-release-details/upworks-demand-skills-2026-demand-top-ai-skills-more-doubles-ai （2026-02-04） | Upwork 官方 2026 热门技能报告 |
-| **[GIGRADAR]** | https://gigradar.io/upwork/reports/2026/q2/all-industries | 第三方，2026 Q2 全平台数据 |
-| **[UPHUNT-1]** | https://uphunt.io/blog/where-upwork-work-went-2026 | 第三方，2025-01 到 2026-04 的工具热度变化（基于 2,974,845 个职位） |
-| **[UPHUNT-2]** | https://uphunt.io/blog/upwork-worth-it-2026-data | 第三方，平台总量趋势 |
-| **[UPHUNT-3]** | https://uphunt.io/blog/do-ai-skills-pay-more-on-upwork-2026 | 第三方，AI 职位的预算溢价 |
-| **[UPHUNT-4]** | https://uphunt.io/blog/vibe-coding-tools-upwork-cursor-lovable-2026 | 第三方，Lovable/Cursor 等 AI 建站工具的需求 |
-| **[REDWATER]** | https://upwork.redwaterrev.com/archive/2026-08 | 第三方，自动化市场月报（Zapier/n8n/Make + CRM），2026 年 8 月 |
-
-**整体市场背景（很重要）：**
-- Upwork 总职位量在下降：2026 Q2 共 448,118 个职位，环比 -14.2%，连续第四个季度下降 [GIGRADAR]；2026 上半年月均 159,844，比 2025 上半年少 19.1% [UPHUNT-2]。
-- **Web 开发是最拥挤的类别**：查看率 13.8%，回复率 3.7%，拿到第一次回复的平均成本 $51.24；Web Dev 占了 57.4% 的代理机构投标；固定价项目预算中位数 $163 [GIGRADAR]。
-- **AI 有溢价**：提到 AI 的固定价职位预算中位数 $158，全部职位是 $100；提到 AI 的职位占比从 9.03%（2025-01）涨到 20.11%（2026-08）[UPHUNT-3]。
-- 附带 Loom 视频的提案回复率 11.3%，不附带的 6.0% [GIGRADAR]。
-- 其他海外平台（Fiverr、Contra、Toptal、Freelancer.com）**这次没有做量化调研**，没有可靠的可比数据，所以下面的结论都只针对 Upwork。
-
----
-
-## 1. 每个方向的评估
-
-评分 1–5（5 = 对他最有利）。"竞争"和"沟通负担"两列里，5 分代表竞争最小、沟通负担最轻。
-
-| 方向 | 需求信号（带来源） | 预算 / 时薪（带来源） | 竞争 | AI 提速 | 沟通负担 | 适合度 | 复购/维护 |
-|---|---|---|---|---|---|---|---|
-| **A. AI 集成 + 工作流/API 自动化**（LLM 功能、agent、聊天机器人、n8n/Zapier/Make + 自写代码、CRM/Google/Stripe/Twilio 对接） | Automation 1,912、Chatbot 1,106、Zapier 829、n8n 525 [CAT]；8 月 Zapier 1,070 / n8n 960 / Make 421 个职位，GoHighLevel 600（"最耐用"）[REDWATER]；AI Integration +178%、AI Chatbot Development +71%（Coding & Web Dev 里增长最快）[SKILLS26] | Chatbot Dev $30–61、AI Engineers $35–60、AI Developers $30–50、API Developers $20–40、Marketing Automation Consultant $40–90 [RATES]；自动化时薪中位数 $32.50、均值 $36.91，$75+/小时的职位 78 个 [REDWATER]；AI 职位固定价中位数 $158 [UPHUNT-3] | 3 — 很多人做，样本职位有 50+ 提案；但写代码类需求会筛掉纯 no-code 的人。量比 2025-06 下降约 30% [REDWATER]，AI 集群下降 15.1% [GIGRADAR] | 5 | 4 — 很多职位是书面写清需求 + 筛选问题，部分要求一次交接通话 | 5 | 5 — 大多是分阶段项目，自动化需要长期维护 |
-| **B. 全栈 Web 应用：修复 / 完成 / 接手现有项目（包括 Lovable、Cursor 做出来的 AI 应用）+ MVP** | Full-Stack 3,374、Web Development 2,814、React 1,425 [CAT]；Full Stack Development 是 Coding & Web Dev 需求第 1 名 [SKILLS26]；Lovable 2026-04 约 530 次/月（+627%），Cursor 约 450 次/月（+215%）[UPHUNT-4] | Full-Stack $16–35、React $20–38、Node.js $18–38 [RATES]；React 页面中位数 $49–150 [CAT]；Web Dev 固定价中位数 $163 [GIGRADAR]；样本 $1,000–$5,000，但也有 $10–$25 的压价单（见第 4 节） | 1 — 最拥挤（回复率 3.7%，每次回复 $51）[GIGRADAR] | 5 | 3 — 修 bug/接手项目可以纯文字；MVP 客户常要求开会 | 5 | 5 |
-| **C. 爬虫 / 浏览器自动化 / 数据管道** | Web Data Scraping 537、Web Scraping 296、Web Crawler 166、Selenium 130、Bot Development 143 [CAT]；"Scripting & Automation" 是 Coding & Web Dev 需求第 8 名 [SKILLS26] | Web Scrapers $20–40、Python $20–40 [RATES]；Python 页面 $20–45 [CAT]；样本 $200–$2,500（见 jobs.md） | 3 — 没有量化数据；从提案数看属于中等 | 3 — 反爬、验证码、维护这些 AI 帮不上太多 | 5 — 需求是数据字段，最适合文字沟通 | 5 — 他现有的核心技能 | 4 — 网站改版后爬虫会坏，需要维护 |
-| **D. Shopify 开发**（主题/Liquid、App、集成） | Shopify 2,115 [CAT]；+385 个职位/月，是传统建站里唯一在涨的 [UPHUNT-1]；Ecommerce Website Development 排第 6 [SKILLS26] | Shopify $15–29 [RATES]；页面中位数 $20–29 [CAT]；样本 $10–$400 | 2 | 3 — Liquid 好写，但设计和转化率优化靠人 | 2 — 视觉反馈要反复改 | 3 — 需要先学 Shopify 生态 | 5 |
-| **E. 移动端**（React Native / Capacitor / Flutter） | Mobile App Development 1,295、Flutter 385 [CAT]；Mobile 排第 4 [SKILLS26] | Mobile $18–39、React Native $24–45 [RATES]；Mobile 页面写着起步 $30–40、中级 $60–75、最高 $125+ [CAT]；样本 $200–$5,000 | 2 | 3 — 签名、上架、真机测试仍然要手工 | 3 | 3 — 有 React 基础，但需要 Mac、真机和开发者账号 | 4 |
-| F. WordPress / WooCommerce | WordPress 2,868、WooCommerce 469 [CAT]；**WordPress 每月少 2,162 个职位** [UPHUNT-1] | WordPress $15–28 [RATES]；页面 $20–35 / $15–30 [CAT] | 1 | 3 | 3 | 3 | 4 |
-| G. 数据 / BI 仪表盘 / ETL | Power BI 179 [CAT]；ETL 分类页没抓（缺失） | Data Analysts $20–50、Data Visualization $25–45 [RATES] | 3 | 4 | 3 | 4 | 4 |
-| H. 浏览器扩展 | Chrome Extension 42 [CAT]（量太小） | Chrome Extension $25–41 [RATES] | 3 | 5 | 5 | 5 | 3 |
-| I. 落地页 / Webflow / Framer | Webflow 276 [CAT]；每月少 137 [UPHUNT-1]；Framer 没抓（缺失） | Webflow $20–45 [RATES]；页面 $30–140 [CAT] | 2 | 2 — 主要靠设计能力 | 2 | 2 | 3 |
-| J. CRM 顾问（GHL/HubSpot/Salesforce） | GHL 600 / HubSpot 239 / Salesforce 68（8 月）[REDWATER]；HubSpot 页面 793，但很多是营销运营岗位 [CAT] | CRM Consultants $16–35、HubSpot $15–40、Salesforce App $25–40 [RATES] | 3 | 3 | 1 — 营销运营很依赖开会和英语 | 2 | 5 |
-| K. 游戏开发 | Game Development 1,049 [CAT] | Game Dev $15–35、Unity $20–40 [RATES] | 2 | 2 | 3 | 1 — 需要美术和引擎经验 | 3 |
-| L. QA / 测试 | Software Testing 884 [CAT]；Manual Testing 排第 9 [SKILLS26] | Software Testers $12–20、QA Engineers $20–60 [RATES] | 2 | 3 | 3 | 2 — 手工测试常要求特定国家或设备 | 3 |
-| （参考）只做 Vue.js | Vue.js 73，大多发布于 8–15 天前 [CAT] | 页面 $19–70 [CAT] | — | — | — | 需求太小 | — |
-
----
-
-## 2. 排名（Top 5）
-
-| # | 方向 | 理由（一句话） |
-|---|---|---|
-| **1** | **A. AI 集成 + 工作流/API 自动化** | 增长最快（+178% / +71%），AI 溢价明确（$158 vs $100），需求写得清楚，最适合文字沟通；再把他的全栈和 Python 背景当成差异化 |
-| **2** | **B. 修复 / 完成 / 接手现有 Web 应用（含 AI 生成的应用）** | 总量最大，AI 提速最明显；但竞争最激烈，要靠"接手 + 交付上线"这个窄定位避开从零建站的红海 |
-| **3** | **C. 爬虫 / 浏览器自动化** | 他的现有优势，文字沟通负担最轻；量不大，适合做辅助方向和作品集证明 |
-| 4 | D. Shopify 开发 | 量大且在增长，但单价低、偏设计；只建议接 App/API 集成类单子 |
-| 5 | E. 移动端（Capacitor/RN） | 单价不错，但上架和真机测试成本高；只建议接"把现有 React/Lovable 应用打包上架"这类单子 |
-
-**不建议主攻：** WordPress（在萎缩、价格低）、Webflow/Framer（靠设计）、游戏开发、手工 QA、只做 Vue、CRM 顾问（开会太多）。浏览器扩展可以做成一个 Project Catalog 服务，但不要当主定位。
-
----
-
-## 3. 推荐定位
-
-**主定位（Primary）：AI 集成与自动化开发者，有全栈功底**
-- 一句话：用代码 + n8n/Zapier 把客户的系统（CRM、Google Workspace、Stripe、Twilio、行业 SaaS）连起来，再加上 LLM 能力（文档读取、聊天机器人、agent），并负责部署和维护。
-- 标题候选（≤70 字符）：
-  - \`AI Automation & API Integration Developer | Python, Node.js, n8n\`（64）
-  - \`AI Integration Developer | Automate Workflows, Fix & Finish Web Apps\`（68）
-  - \`Full-Stack Developer | AI Features, Automations, API Integrations\`（65）
-
-**副定位 1：修复 / 完成 / 上线现有 Web 应用**（React/Vue/Next/NestJS/Supabase，包括 Lovable、Cursor 做出来的应用）
-- 接单方式：先做一个小的付费审计/修复（GigRadar 建议首单控制在 $500 以内），再转成长期合作。
-
-**副定位 2：爬虫与浏览器自动化**（Playwright/CDP）
-- 保留现有优势，作品集最容易做出来；和主定位天然重叠（例如第 4 节里的 Unbounce 职位）。
-
-**注意：** Specialized Profiles 已经下线（2026-05-28），所以只有一个主资料页。副定位用 **Project Catalog** 的服务来承载。\`profile_draft.md\` 现在的定位是"爬虫/自动化为主"，**需要按这里的主定位重写标题和简介**（这次没有改）。
-
----
-
-## 4. 正在招人的样本职位（已逐个打开验证）
-
-方法：先在分类页看到标题，再用 WebSearch 找到准确 URL，然后 WebFetch 打开职位页，读取 JobPosting JSON 里的 \`datePosted\`（UTC），换算成 UTC+8。验证时间是 2026-10-06，职位可能随时关闭。
-
-### A. AI 集成 + 自动化
-1. **AI Automation Developer – ServiceTitan API → Google Drive → Social Media Content**
-   - URL：https://www.upwork.com/freelance-jobs/apply/Automation-Developer-ServiceTitan-API-Google-Drive-Social-Media-Content_~022106818730688698117/
-   - 预算：固定价 $750，付费 POC，后续还有很多阶段
-   - 发布：2026-10-05 02:48；提案数 50+；客户在美国
-2. **Build a Subcontractor Insurance (COI) Tracker with Automatic Reminders**
-   - URL：https://www.upwork.com/freelance-jobs/apply/Build-Subcontractor-Insurance-COI-Tracker-with-Automatic-Reminders_~022106791742843933907/
-   - 预算：固定价 $400（Phase 1）
-   - 发布：2026-10-05 01:01；提案数 50+
-   - 内容：PDF → Google Sheets，LLM 读文档，判断规则写在代码里；要求一次交接通话
-3. **AI Automation Developer (n8n, AI Agents & CRM) – Contract to Hire**
-   - URL：https://www.upwork.com/freelance-jobs/apply/Automation-Developer-n8n-Agents-CRM_~022106699878954860992/
-   - 预算：固定价 $4,500，按月计，每周 30 小时，先做一个付费测试
-   - 发布：2026-10-04 18:56；提案数 50+；招 2 人，已雇 1 人；客户在马来西亚
-4. **Playwright / browser automation developer: one-click tool to import HTML files into Unbounce**
-   - URL：https://www.upwork.com/freelance-jobs/apply/Playwright-browser-automation-developer-one-click-tool-import-HTML-files-into-Unbounce_~022106965767717552576/
-   - 预算：固定价 $500
-   - 发布：2026-10-05 12:32；**提案数只有 10–15**
-   - 客户：花费 $6.1K，33 次雇佣。同时适合 A 和 C 方向
-5. **Full Stack Developer & AI Automation Expert – Shoe Store Web App & Order Automation**
-   - URL：https://www.upwork.com/freelance-jobs/apply/Full-Stack-Developer-Automation-Expert-Shoe-Store-Web-App-Order-Automation_~022106699915427974989/
-   - 预算：固定价 $550
-   - 发布：2026-10-04 18:56；提案数 20–50；已雇 1 人
-- 排除：*Node.js Developer for AI SMS Receptionist*（$800，2026-10-04 07:49）**只接受美国申请人**，他投不了；*AI Engineer for LLM Features*（$600）按搜索结果只限波黑申请人（没有打开页面验证）。
-
-### B. 修复 / 完成 / 接手 Web 应用
-1. **Full-Stack Developer for MVP**（把现有原型做成可上线的 MVP，期限 30 天）
-   - URL：https://www.upwork.com/freelance-jobs/apply/Full-Stack-Developer-for-MVP_~022106493278214372347/
-   - 预算：固定价 $4,000
-   - 发布：2026-10-04 05:15；提案数 50+
-2. **Lovable developer needed for an existing site – Contract to Hire**（Lovable + Supabase 维护和加功能）
-   - URL：https://www.upwork.com/freelance-jobs/apply/Lovable-developer-needed-for-existing-site_~022104895934165541870/
-   - 预算：固定价 $1,000
-   - 发布：2026-09-29 19:27（约 7 天前）；提案数 50+
-3. **Senior Mobile Engineer — Take Existing Lovable/React MVP to Production on iOS & Android**
-   - URL：https://www.upwork.com/freelance-jobs/apply/Senior-Mobile-Engineer-Take-Existing-Lovable-React-MVP-Production-iOS-Android_~022105711350847756158/
-   - 预算：固定价 $5,000
-   - 发布：2026-10-02 01:28；提案数 50+；已雇 1 人。同时属于 E 方向
-4. **Web Developer for Holding Company Websites**（多个网站 + 邮箱，偏 HTML/CSS）
-   - URL：https://www.upwork.com/freelance-jobs/apply/Web-Developer-for-Holding-Company-Websites_~022107064318530966739/
-   - 预算：固定价 $3,000
-   - 发布：2026-10-05 19:04；提案数 50+；适合度一般
-5. 压价单示例（**要避开**），说明这个类别里低价单很多：
-   - *React NodeJs Backend Dev Quick Bug Fixes*：$25，2026-10-05 14:45
-     https://www.upwork.com/freelance-jobs/apply/React-NodeJs-Backend-Dev-Quick-Bug-Fixes-MongoDB-AWS-Lambda-Assisted_~022106999232337225760/
-   - *AI Full-Stack Developer Needed for SaaS Project*：$20，2026-10-05 17:58
-     https://www.upwork.com/freelance-jobs/apply/Full-Stack-Developer-Needed-for-SaaS-Project_~022107047656470292512/
-   - *Next.js Full-Stack Developer Needed for Company Portfolio Website*：$10，2026-10-04 03:15
-     https://www.upwork.com/freelance-jobs/apply/Next-Full-Stack-Developer-Needed-for-Company-Portfolio-Website_~022106463166603384581/
-
-### C. 爬虫 / 浏览器自动化（今天早些时候已验证，详见 jobs.md）
-1. **Python Web Scraping Developer for Startup Funding Data**
-   - 预算：$900；发布：2026-10-02 23:15
-   - https://www.upwork.com/freelance-jobs/apply/Python-Web-Scraping-Developer-for-Startup-Funding-Data_~022106040454972128251/
-2. **Developer Needed: Email Finder + Google Maps Scraper**
-   - 预算：$700；发布：2026-10-01 19:40
-   - https://www.upwork.com/freelance-jobs/apply/Developer-Needed-Email-Finder-Google-Maps-Scraper_~022105623829144091011/
-3. **Bot Automation for Website Flow**
-   - 预算：$2,500；发布：2026-10-02 15:51
-   - https://www.upwork.com/freelance-jobs/apply/Bot-Automation-for-Website-Flow_~022105928736585500540/
-4. **Cloud-Based Python Scraping Bot**
-   - 预算：$200；发布：2026-10-03
-   - https://www.upwork.com/freelance-jobs/apply/Cloud-Based-Python-Scraping-Bot_~022106262425458606528/
-5. 还有上面 A-4 的 Unbounce Playwright 工具（$500）
-
-### D. Shopify（参考）
-1. **Shopify Ecommerce Website Developer Needed**
-   - 预算：$400；发布：2026-10-01 22:57；提案数 50+
-   - https://www.upwork.com/freelance-jobs/apply/Shopify-Ecommerce-Website-Developer-Needed_~022105673397631676193/
-2. **Shopify Store Bug Fix**（结账问题）
-   - 预算：$100；发布：2026-10-03 00:37；提案数 15–20
-   - https://www.upwork.com/freelance-jobs/apply/Shopify-Store-Bug-Fix_~022106061052481846267/
-3. **Shopify Developer Needed for Ecommerce Website Development**
-   - 预算：$10（压价单）；发布：2026-10-03 13:38
-   - https://www.upwork.com/freelance-jobs/apply/Shopify-Developer-Needed-for-Ecommerce-Website-Development_~022106257528550271008/
-
-### E. 移动端（参考）
-1. **Healthcare Booking App Development – Phase 1**
-   - 预算：$3,000；发布：2026-10-05 00:10；提案数 50+，**已有 8 人在面试**
-   - https://www.upwork.com/freelance-jobs/apply/Healthcare-Booking-App-Development-Phase_~022106778960661260320/
-2. 上面 B-3 的 Lovable → iOS/Android 职位（$5,000）
-3. *Mobile App Developer Needed – Finalization of Mirayne*（Capacitor + RevenueCat，$100–200）
-   - **只通过搜索结果看到，没有打开页面验证**
-   - https://www.upwork.com/freelance-jobs/apply/Mobile-App-Developer-Needed-Finalization-Mirayne-Daily-Habit-Tracker_~022106714938007781824/
-
-**从样本里看到的规律：**
-- 好的单子（$400–$5,000）基本都有 **50+ 提案**，只有 Unbounce 一个是 10–15 个。
-- 不少优质客户在提案要求里明确写了"回答这 5 个问题"或"不要 AI 生成的套话"。
-- 还要注意客户的**申请人地区限制**（比如 SMS Receptionist 只收美国人）。
-- **建议的筛选条件：** 发布 24 小时内、提案少于 20 个、付款已验证、固定价 ≥ $300 或时薪 ≥ $25、不限地区。
-
----
-
-## 5. 数据缺失 / 局限（诚实说明）
-- 分类页的 "N jobs" 没有标明时间窗口，只能做相对比较。
-- **没有拿到的数据：**
-  - API Integration 分类页一直被 Cloudflare 拦截
-  - React Native、Next.js、Node.js、ETL/Data Engineering、Landing Page、Framer、Salesforce 分类页没抓
-  - "Bug fixing / maintenance" 没有对应的分类页计数
-- 每个方向的"竞争"只有 Web Dev 有量化数据（GigRadar）；其他方向是根据样本职位的提案数做的定性判断。
-- 第三方数据（GigRadar、UpHunt、Redwater）都是商业公司自己的爬取口径，各家不能直接相加或比较。Redwater 特别说明 8 月有两天数据缺失、后来补抓过。
-- 其他海外平台（Fiverr、Contra、Toptal、Freelancer.com）没有做量化比较。
-- 样本职位的状态是 2026-10-06 的快照，之后可能已经关闭或已雇到人。
-`},
-{"id": "t1-jobs", "track": "platform", "title": "职位记录", "date": "2026-10-10 07:34", "summary": "- Direct curl from the box → blocked. Every Upwork URL (category pages + the old RSS endpoint /ab/feed/jobs/rss) returned HTTP 403 \"Challeng…", "tags": ["Upwork", "职位"], "source": "", "path": "/workspace/upwork/jobs.md", "has_evidence": false, "content": `# Upwork public job scan — 2026-10-06 (UTC+8)
-
-## How the scan went
-- **Direct \`curl\` from the box → blocked.** Every Upwork URL (category pages + the old RSS endpoint \`/ab/feed/jobs/rss\`) returned **HTTP 403 "Challenge - Upwork"** (Cloudflare). The legacy job RSS feed is not usable.
-- **WebFetch (fetch provider) → mostly worked.** The public category pages (\`/freelance-jobs/<skill>/\`) loaded and show a ~10-job "sample" each with relative "Posted N days ago" dates, but **no links**. \`/freelance-jobs/telegram-bot/\`, \`/telegram/\`, \`/playwright/\` are 404 (those slugs don't exist); \`/telegram-api/\`, \`/bot-development/\`, \`/selenium/\`, \`/data-scraping/\`, \`/web-crawler/\`, \`/cryptocurrency/\` do exist.
-- **Exact job URLs** were then found with WebSearch (title search), and each job page below was opened with WebFetch to confirm budget, activity, and the exact \`datePosted\` from the page's JobPosting JSON. A few fetches hit a Cloudflare interstitial the first time; a retry worked.
-- Caveat: the fetch provider may serve slightly cached pages. "Activity" numbers below are what the page showed when fetched (~20:15–20:45 UTC+8, Oct 6). A job may close at any time, so check it's still open before you spend Connects.
-- Chrome-extension category: the only posts shown were 15–22 days old, so none of them made the 7-day list.
-
-Posted times are converted from the page's UTC \`datePosted\` to **UTC+8**.
-
----
-
-## Top 12 (ranked by fit for you)
-
-### 1. Web Scraping Chinese Physiotherapy & Rehabilitation Clinics Database
-- URL: https://www.upwork.com/freelance-jobs/apply/Web-Scraping-Chinese-Physiotherapy-Rehabilitation-Clinics-Database_~022106639212696994240/
-- Budget: **Hourly $8–$20**, <30 hrs/week, 1–3 months, Intermediate
-- Posted: 2026-10-04 14:55 UTC+8
-- Activity: Proposals 20–50, Interviewing 2, Invites 4. Client from France (Montpellier), member since Aug 3 2026
-- Summary: Wants an **explicitly China-based** scraping/data specialist to build a deduplicated, traceable B2B database of private physio/rehab clinics across China. Starts with a 20–30 clinic test, then a 500–1,000 clinic pilot.
-- Fit: Strongest location match. You can read Chinese sources (Dianping/Amap/Baidu Maps, 企查查-style public registries) that most bidders can't. The rate is low, but it's a fast first review.
-
-### 2. Web Scraping & Data Automation Engineer (News Monitoring Tool)
-- URL: https://www.upwork.com/freelance-jobs/apply/Web-Scraping-Data-Automation-Engineer_~022106470731330876669/
-- Budget: **Hourly** (no range shown), <30 hrs/week, 1–3 months, Intermediate
-- Posted: 2026-10-04 03:45 UTC+8
-- Activity: Proposals 20–50, Interviewing 1, Invites 1. Client from Ethiopia, brand-new account (member since Oct 3 2026)
-- Summary: Scheduled scraper that tracks keywords/companies across news sites, dedups and categorizes articles, stores them in a DB, and exposes an API or simple UI.
-- Fit: Matches your crypto-news monitoring work almost exactly (scrape → dedupe → DB → API/alerts).
-
-### 3. AI-Powered Web Scraping & Automation Developer
-- URL: https://www.upwork.com/freelance-jobs/apply/Powered-Web-Scraping-Automation-Developer_~022106853824332771723/
-- Budget: **Fixed $100** (listed as an "MVP", with stated plans to expand), Expert
-- Posted: 2026-10-05 05:07 UTC+8
-- Activity: Proposals 50+, Interviewing 0. Client from the US: $3.1K spent, 34 hires
-- Summary: Web-intelligence system. Multi-site scraping (Scrapy/Playwright), dedup and change detection, Postgres/Supabase, LLM classification and summaries, FastAPI, n8n, Docker deploy.
-- Fit: The stack is close to 1:1 with yours (Playwright + LLM + Docker). The $100 budget only covers a first milestone. Pitch a small paid MVP slice.
-
-### 4. Telegram Bot Developer for Legislative Updates on Waste Management
-- URL: https://www.upwork.com/freelance-jobs/apply/Telegram-Bot-Developer-for-Legislative-Updates-Waste-Management_~022106715490125036539/
-- Budget: **Fixed $40** (unrealistic for the scope), Intermediate
-- Posted: 2026-10-04 19:58 UTC+8
-- Activity: Proposals 20–50, Interviewing 1. Client from Ukraine, member since Sep 19 2026
-- Summary: Telegram bot that monitors official legal and government sources (scrape/RSS/API), detects new or amended rules, and pushes deduplicated summaries to subscribers. Needs filters, an admin config, Postgres, and Docker.
-- Fit: Squarely your Telegram bot + monitoring + Docker skill set. Bid a realistic fixed price, or treat it as a portfolio piece.
-
-### 5. Build a wallet copy-trading bot
-- URL: https://www.upwork.com/freelance-jobs/apply/Build-wallet-copy-trading-bot_~022104784370073071909/
-- Budget: **Hourly** (no range shown), <30 hrs/week, 1–3 months, Expert
-- Posted: 2026-09-29 12:04 UTC+8 (about 7 days ago)
-- Activity: Proposals 20–50, Interviewing 1, Invites 1. Client from the US (Beverly Hills): $545 spent, 4 hires
-- Summary: Bot that mirrors a target wallet's on-chain trades, including trades routed through a smart-contract relayer, into the client's own wallet. A replay/backtest script with realistic delay and slippage comes first. Solana is an optional phase 2. The client never shares keys.
-- Fit: Good crypto/Web3 match. The client asks how you'd detect relayer-routed trades, so answer that directly in the first lines.
-
-### 6. Python Web Scraping Developer for Startup Funding Data
-- URL: https://www.upwork.com/freelance-jobs/apply/Python-Web-Scraping-Developer-for-Startup-Funding-Data_~022106040454972128251/
-- Budget: **Fixed $900**, Expert
-- Posted: 2026-10-02 23:15 UTC+8
-- Activity: Proposals 20–50, Interviewing 0. Client from India (Delhi), new account (Oct 2 2026)
-- Summary: Dataset of recently funded startups (US/EU/AU, last 30–90 days) with 16 fields (round, amount, investors, founders, source URL), plus a reusable Python scraper.
-- Fit: Clear spec and a decent budget. Nobody is interviewing yet. Propose concrete sources and give a record-count estimate.
-
-### 7. Developer Needed: Email Finder + Google Maps Scraper (Contract-to-hire)
-- URL: https://www.upwork.com/freelance-jobs/apply/Developer-Needed-Email-Finder-Google-Maps-Scraper_~022105623829144091011/
-- Budget: **Fixed $700**, Expert, may convert to full-time
-- Posted: 2026-10-01 19:40 UTC+8
-- Activity: Proposals 10–15, Interviewing 4, Invites 7. Client from India (Jaipur): $807 spent, 13 hires
-- Summary: Large-scale Google Maps scraper (proxies, retries, anti-bot handling) plus an email finder/enrichment and verification system (SMTP, MX, Google Workspace and M365 behaviour).
-- Fit: Good scraping-at-scale match with low proposal competition. The email-infra part is a stretch unless you've done SMTP verification.
-
-### 8. Bot Automation for Website Flow
-- URL: https://www.upwork.com/freelance-jobs/apply/Bot-Automation-for-Website-Flow_~022105928736585500540/
-- Budget: **Fixed $2,500**, Intermediate
-- Posted: 2026-10-02 15:51 UTC+8
-- Activity: Proposals 50+, Interviewing 5. Client from Brazil, new account (Sep 9 2026), no spend history shown
-- Summary: Vague brief: automate a specific website flow, test it thoroughly, and keep it running reliably.
-- Fit: A Playwright/CDP specialty with a high budget. The brief is vague and the client is unverified, so ask what the site and flow are before committing, and make sure it's legitimate (e.g., not ticket or booking scalping that breaks the site's terms).
-
-### 9. Cloud-Based Python Scraping Bot
-- URL: https://www.upwork.com/freelance-jobs/apply/Cloud-Based-Python-Scraping-Bot_~022106262425458606528/
-- Budget: **Fixed $200**, Entry level
-- Posted: October 3, 2026 (page title; no exact time shown)
-- Activity: Proposals 20–50, Interviewing 2. Client from India (Haridwar)
-- Summary: Hourly scraper for Indian real-estate and auction sites → Google Sheet → AI picks the best deals → WhatsApp alerts. Runs on Render or AWS.
-- Fit: Easy end-to-end build (scraper + Sheets + LLM + notifier) and a reusable portfolio piece. Low budget.
-
-### 10. Job scapper tool for linkdin, naukari, indded, etc job portals with built in mcp (Contract-to-hire)
-- URL: https://www.upwork.com/freelance-jobs/apply/Job-scapper-tool-for-linkdin-naukari-indded-etc-job-portals-with-built-mcp_~022105494661466925036/
-- Budget: **Fixed $200**, Expert
-- Posted: 2026-10-01 11:07 UTC+8
-- Activity: Proposals 5–10, Interviewing 5, Invites 12. Client from India (Pune), new account (Sep 26 2026)
-- Summary: Multi-portal job scraper (LinkedIn, Naukri, Indeed) with search filters, exposed as an MCP server.
-- Fit: Scraping + AI-tooling (MCP) combo with few proposals. LinkedIn scraping carries ToS risk, so scope it to public endpoints.
-
-### 11. Lead Web Scraper & B2B Data Extraction Agency — Automated Pipeline Ops (Contract-to-hire)
-- URL: https://www.upwork.com/freelance-jobs/apply/Lead-Web-Scraper-B2B-Data-Extraction-Agency-Automated-Pipeline-Ops_~022104983911704537824/
-- Budget: **Hourly $15–$35**, 30+ hrs/week, 6+ months, Expert
-- Posted: 2026-09-30 01:17 UTC+8
-- Activity: Proposals 20–50, Interviewing 0. Client from Canada, 1 hire. Last viewed "last week", so possibly going cold
-- Summary: Ongoing pipeline: scrape Ontario local-business domains, verify email deliverability, auto-screenshot homepages, bulk CSV upload. **The cover letter must start with the word "DATA".**
-- Fit: Long-term hourly scraping work that suits Python + Playwright screenshots. The client prefers agencies.
-
-### 12. Python Automation Dev – Gmail/Odyssey Court Filings to Dropbox (Gmail API + Dropbox API + Playwright)
-- URL: https://www.upwork.com/freelance-jobs/apply/Python-Automation-Dev-Gmail-Odyssey-Court-Filings-Dropbox-Gmail-API-Dropbox-API-Playwright_~022105992512561797307/
-- Budget: **Hourly** (no range shown), 1–3 months, Intermediate
-- Posted: 2026-10-02 20:05 UTC+8
-- Activity: Proposals 50+, **Hires 1**, Interviewing 12, Invites 31. Client from the US: $32K spent, 243 hires
-- Summary: Gmail notification → parse → Playwright authenticated PDF download → find the Dropbox case folder → assign the next sequential number → upload. Needs idempotency, an audit log, and an exception queue. The post has 7 screening questions.
-- Fit: A perfect technical match from a strong client, but **one hire has already been made**. Low odds; apply only if Connects are cheap for you.
-
----
-
-## Also seen on public category pages (not verified individually, no URL captured)
-These came from category-page samples on Oct 6. I didn't look up their URLs, so they aren't in the list above:
-- "Kalshi Bitcoin Trading Bot" — Fixed $250, posted ~4 days ago (cryptocurrency page). WebSearch did not find its URL.
-- "Cannabis World Monitor Developer" — Hourly 30+ hrs/week, 6+ months, posted ~3 days ago (web-scraping page)
-- "Extract attendee list from a Swapcard event platform (IAAPA Expo 2026)" — Hourly, posted ~4 days ago (web-crawler page)
-- "Developer needed to build reusable county public records scraper for real estate wholesaling leads" — Fixed $300, posted ~4 days ago
-- "AI Automation & Agentic Systems Engineer" (AfriTreasure) — Hourly 30+ hrs/week, posted ~22 hours before fetch (automation page)
-- "In need of a telegram expert" — Hourly, Expert, posted ~6 days ago (bot-development page)
-`},
-{"id": "t1-demo", "track": "platform", "title": "Demo 需求：爬虫/获客", "date": "2026-10-10 07:34", "summary": "项目 A（抓取 + 监控 + 告警）", "tags": ["爬虫", "获客", "需求分类"], "source": "", "path": "/workspace/upwork/demo_requirements_scraper_leadgen.md", "has_evidence": false, "content": `# Upwork 作品集 Demo 需求调研：A) 抓取 + 监控看板　B) AI 获客（Lead Gen）
-
-> 调研对象：pengfei（Upwork 自由职业者；Python / 抓取与接口逆向 / Playwright·CDP / 自动化 / AI 集成 / Docker / 浏览器扩展）
-> 调研日期：2026-10-08（Asia/Shanghai）
-> 文件路径：\`/workspace/upwork/demo_requirements_scraper_leadgen.md\`
-> 原始笔记（逐条摘录 + URL）：\`/workspace/upwork/notes_raw.md\`
-
----
-
-## 0. 结论速览（TL;DR）
-
-**项目 A（抓取 + 监控 + 告警）**
-- 客户真正要的不是“爬下来”，而是**“只在真正有意义的变化时提醒我，并且数据可信、不用我操心”**。证据里出现频率最高的是：告警噪音/只推新项（A1/A4/A5/A13 + Reddit + Visualping）、**跨站同款匹配与去重**（A4 称其为“最重要的技术挑战”，A13 称“extremely important”）、**稳定性/静默失败/被拦截**（A2/A3/A13 + Prisync 差评）。
-- MAP 违规监控**确有痛点**（Reddit 多个帖子 + Prisync 把 MAP 锁在 $399/月档），但在本次抓到的 Upwork 职位里只出现 1 次（A8，且只来自搜索摘要），所以应作为**模块**而非唯一卖点。
-- 推荐 Demo：**“Retail Price & MAP Watch”——面向一个中型消费品牌/经销商（示例品类：家用咖啡设备/小家电），监控 4 家零售站 + 1 个多卖家市场**；附带一套离线“沙盒零售站 + 时间模拟器”，保证 Demo 可离线、合法、可复现，还能演示反爬应对（限流/挑战页识别）而不触碰任何真实网站 ToS。
-
-**项目 B（AI 获客）**
-- 客户最痛的是**数据不准（退信、catch-all、过期）**和**不合格线索（连锁/加盟/单人小店/地域外/已关门）**，其次是**去重 + 已联系/禁联名单**、**找不到 owner/决策人直邮**、**缺少“为什么现在联系他”的信号与真实理由**。多个客户明确说“不是买库导出”“不是只上传 CSV 到 Instantly”。
-- 本地服务业（HVAC/水电/屋顶等 trades）与医疗类（牙科、医美）是证据里最集中的垂直。B1（加州 trades，CSLB + Maps）需求最详细，且 **CSLB 有免费官方 CSV 下载**，数据合法可得。
-- 推荐 Demo：**“Contractor Lead Engine (California)”——从 CSLB 官方公开数据 + 公司官网出发，做 owner 识别、邮箱发现与验证、按 ICP 的 AI 打分（带理由与证据链接）、招聘/年限等信号、基于真实事实的个性化首句、去重与禁联、推送 HubSpot/Google Sheets，并能一键导出“50 行样本 + 验证报告”**（几乎所有列表类职位都要求先交样本）。
-
----
-
-## 1. 方法与证据边界（请先读）
-
-- **Upwork 职位**：通过 WebSearch（\`site:upwork.com/freelance-jobs/apply ...\`）发现，再用 WebFetch 抓取公开职位页（未登录）。预算、发布日期（页面 JSON-LD 中的 UTC 日期）、客户信息均来自页面本身。标注“未抓取”的字段表示我没有拿到页面原文，不做猜测。
-- **Reddit**：reddit.com 对抓取返回“blocked by network security / 需要登录”，**按要求未登录**。因此 Reddit 证据分两类：① 通过公开快照站 \`reddit.sentinel-team.org\` 抓到的帖子正文与评论（可直接引用）；② 仅从搜索结果拿到的**帖子标题**（标题本身是原文，可引用；正文内容未核实，不引用其中数字）。
-- **工具评测**：Prisync/Clay 的评测来自 marketintelligencetools.com（该站汇总并逐字引用 G2/Capterra/Trustpilot/TrustRadius 评论）；Visualping 来自其官方博客（厂商自述）；Apollo 数据来自 MailCop（**邮箱验证厂商，有利益相关**，结论需打折看）；PhantomBuster 来自其官方帮助中心；Outscraper 来自其官方社区论坛帖子。
-- **没有抓到/未核实**：G2/Capterra/Trustpilot 原站（部分 500/超时）、Indie Hackers 原帖（404）、LinkedIn 帖子（需登录，未尝试）。凡是只出现在搜索引擎“综述”里的说法，本文**不当作事实引用**。
-- Upwork 上的“预算”经常是占位数（例如 A13 写了极其详尽的规格却只标 $200），解读时要谨慎：它更能说明“客户在意什么”，不一定说明“最终成交价”。
-
----
-
-## 2. 项目 A：抓取 + 监控看板（价格 / 商品 / 列表变化）
-
-### 2.1 真实 Upwork 职位（13 条）
-
-| # | 职位标题（原文） | 预算 / 形式 | 发布日(UTC) / 客户 | 客户真正要什么 & 为什么（含原文短语） |
-|---|---|---|---|---|
-| A1 | [Automate price monitoring -](https://www.upwork.com/freelance-jobs/apply/Automate-price-monitoring_~022100609442313515937/) | $150 固定价，Entry；50+ 投标 | 2026-09-17；葡萄牙新客户 | 多店比价 + 降价提醒：“Collect prices from several online stores”，“quickly find a product and mark it for further tracking”，“notifications about price drops to my phone (via Telegram or WhatsApp) and by email”。核心诉求是**省心**：“stable and require minimal involvement from me”；还要求投标说明“what challenges might come up”。 |
-| A2 | [Python Playwright Dynamic Scraper & Google Sheets Exporter - Contract to Hire](https://www.upwork.com/freelance-jobs/apply/Python-Playwright-Dynamic-Scraper-Google-Sheets-Exporter_~022107436617600555241/) | $35 固定价，Intermediate，可转长期 | 2026-10-06；印度客户（已花 $326，15 次雇佣） | “paginated e-commerce competitor prices with **anti-bot handling**”，“exporting **daily clean CSV rows** directly into **Google Sheets via the Service Account API**”。→ 数据要落到他已有的表格里。 |
-| A3 | [Senior Data Engineer – E-Commerce Market Intelligence & ETL Pipelines](https://www.upwork.com/freelance-jobs/apply/Senior-Data-Engineer-Commerce-Market-Intelligence-ETL-Pipelines_~022095115612039138353/) | 未抓取预算 | 2026-09-02 | 目标是“high-security global retail marketplaces”，SPA、“strict network traffic management”；要求“resilient ... **without service interruption**”，输出“titles, prices, review counts, variants, and seller metrics”成“clean analytics-ready datasets”。 |
-| A4 | [React Native / Flutter Developer Needed for Shopping Price-Tracking App Prototype](https://www.upwork.com/freelance-jobs/apply/React-Native-Flutter-Developer-Needed-for-Shopping-Price-Tracking-App-Prototype_~022103908428474109176/) | 按小时，30+ h/周，1–3 个月，Expert | 2026-09-26；美国；4 人面试中 | 第一阶段要“prove that the underlying technology and data architecture can work reliably and cost-effectively”。“**One of the most important technical challenges is cross-retailer product matching**”，要懂 “UPC, GTIN, EAN, MPN, model numbers, SKUs ... and **fallback matching when exact identifiers are unavailable**”；用户可设 “a target price, or a percentage-discount threshold”；要“**avoid unnecessary API calls and duplicate checks** as usage grows”；账号/仓库归客户所有。 |
-| A5 | [Web Scraping and Telegram Alert Automation](https://www.upwork.com/freelance-jobs/apply/Web-Scraping-and-Telegram-Alert-Automation_~022097987030090589789/) | $50 固定价，Intermediate，长期 | 2026-09-10；新加坡 | “checks for new listings at regular intervals, **identifies duplicates**”，“ensuring **alerts are only sent for new items**”，“reliable, ongoing monitoring”。 |
-| A6 | [Data Scraping Engineer – Repeatable Data Collection Pipeline](https://www.upwork.com/freelance-jobs/apply/Data-Scraping-Engineer-Repeatable-Data-Collection-Pipeline_~022101790739299336473/) | $200 固定价，Expert | 2026-09-20；美国芝加哥（已花 $10K，68 次雇佣） | “**This is not a one-time scraping project**”；按月跑以识别“**new, changed, inactive, and updated records**”；约 200,000 条；“Entity matching and deduplication”，“**Source/provenance tracking**”，“Retry/error handling and logging”；“production-quality and maintainable, **not a collection of one-off scripts**”。 |
-| A7 | [Developer with Experience in Retail Product Catalogue Extraction](https://www.upwork.com/freelance-jobs/apply/Developer-with-Experience-Retail-Product-Catalogue-Extraction_~022105318608307945877/) | $300 固定价，长期 | 2026-09-30；英国伦敦（已花 $3.7K） | 欧洲某国生鲜零售商全量商品目录，“including where **no public API** is available”；字段含“prices, pack sizes, categories, ingredients, nutrition and availability”；痛点“**duplicate products, missing data and changes over time**”；要“repeatable process ... as more retailers are added”。 |
-| A8 | [Shopify VA Long Term Employment (No Agencies Please)](https://www.upwork.com/freelance-jobs/apply/Shopify-Long-Term-Employment-Agencies-Please_~022097801497567406925/) | 未抓取 | — | ⚠️ 仅来自搜索摘要：该长期岗位职责中包含“weekly MAP-compliance monitoring across retailers”（摘要措辞，非原文）。说明 MAP 巡检目前常由 VA **手工**完成。 |
-| A9 | [Power BI dashboard for multichannel](https://www.upwork.com/freelance-jobs/apply/Power-dashboard-for-multichannel_~022103128095703162024/) | 未抓取 | 2026-09-24 | 邻近需求：Amazon（“like on sellerboard”）/eBay/Kaufland/Shopify/Otto 多渠道看板，“No API integration”，每周放 CSV。→ 客户习惯 **CSV/Excel/BI** 交付。 |
-| A10 | [Cloud-Based Python Scraping Bot](https://www.upwork.com/freelance-jobs/apply/Cloud-Based-Python-Scraping-Bot_~022106262425458606528/) | $200 固定价，Entry，长期 | 2026-10-03；印度新客户 | 每小时抓印度房产与拍卖网站，“sent to a Google Sheet, where **AI analyzes it and sends the best deals directly to my WhatsApp**”；部署在 Render/AWS，“so I can monitor it from my iPad”；“works continuously and delivers accurate results”。 |
-| A11 | [(Web Scraping) Help Automate a an analytic report](https://www.upwork.com/freelance-jobs/apply/Web-Scraping-Help-Automate-analytic-report_~022105546845962767174/) | 按小时，<1 个月；50+ 投标，6 人面试 | 2026-10-01；美国 | 很具体的业务规则：“shows when a products **price ends in a 1** ... (for example $10.81, $4.91, $25.91) .This indicates a **SALE/CLEARANCE** item”；另要“a report that shows all the **new items added** to the site on a daily basis”。→ 价值在**领域规则**，不是抓取本身。 |
-| A12 | [Automate Sales Policy and Dynamic Pricing](https://www.upwork.com/freelance-jobs/apply/Automate-Sales-Policy-and-Dynamic-Pricing_~022099456786312275549/) | **$1,000** 固定价，Expert，长期 | 2026-09-14；保加利亚（牙科耗材分销） | 约 4,000 SKU，跑在 Business Central；“competitor prices are tracked through a separate price comparison platform”；要把商品分成 “KVI, CORE, SLOW, and New Product”，并“determining the actual selling price using a **formula based on competitor prices**”，另有批发价公式。→ 监控数据最终要**驱动定价动作**。 |
-| A13 | [Web scraping](https://www.upwork.com/freelance-jobs/apply/Web-scraping_~022095773706723606210/)（英国 business-for-sale 监控） | $200 固定价（规格极详尽） | 2026-09-04；英国新客户 | 每日监控 5 个出售企业网站（Rightbiz、BusinessesForSale UK、Daltons 等），“removes duplicates, tracks changes”，进 “Excel database and searchable web dashboard”；“**not a one-off scraping project**”；“Detect listings that have been removed/sold/withdrawn”；“must **not attempt to manufacture figures** that aren’t provided ... \`Not disclosed\`”；“**rules/regex + NLP/AI where appropriate, rather than relying entirely on an LLM API for every field**”；去重“**This is extremely important**”，要“One underlying business → multiple source listings”；保留价格历史（£1,500,000→£1,250,000）；告警含降价、“previously unavailable business becomes active again”；“scoring formula must be **configurable**”；可靠性清单“Retry logic, Rate limiting, Logging, Monitoring, **Failure notifications** ... Ability to resume after failure”；“respect applicable website terms, robots rules ... **Do not use techniques intended to bypass authentication, CAPTCHAs**”；“Please do not apply if your experience is limited to simple one-page scraping or copying website data into CSV files”；代码与基础设施归客户。 |
-
-> 本轮未搜到明确以 “MAP monitoring” 为标题的 Upwork 职位（\`site:\` 搜索返回的都是 Merchant Center 合规类职位），这一点如实记录。
-
-### 2.2 来自其他真实来源的痛点证据
-
-**(1) 告警噪音 / “真正的变化”难判定**
-- Reddit r/ecommerce《How are you keeping track of competitor prices without checking everything manually?》（[原帖](https://www.reddit.com/r/ecommerce/comments/1vlh071/)，[快照](https://reddit.sentinel-team.org/posts/1vlh071/snapshots/2026-08-12T02%3A19%3A44.123647Z)）：
-  - 楼主：“manually checking product pages every day gets pretty time-consuming. Spreadsheets help, but you still have to remember to check them”。
-  - 评论：“**The scraping part is the easy half** . What eats you is the diffing, deciding what counts as a real change and **not getting 200 alerts a morning because someone's price moved 2 cents**.”
-  - 评论：“Spreadsheets fall apart around 15 to 20 SKUs, not because the sheet breaks but because nobody opens it every day.” / “Set the alert so it only fires on a real change, like a price drop past some percent or an item going out of stock ... **Digests get skimmed for three days then ignored.**”
-  - 评论：价格之外要看“discounted, bundled, backordered, or suddenly out of stock”，并且需要历史，否则“easy to overreact to a promotion that only lasted 24 hours”。
-- Visualping 官方博客《How Visualping Cuts False Positives (And Why We Had To)》（[链接](https://visualping.io/blog/how-visualping-cuts-false-positives)，2026-04-13，厂商自述）：用户反馈“too many alerts for changes that did not matter”，“you stop trusting the alerts”；其 AI 把 **83%** 的检测到的变化判为不重要（约 180 万监控样本）；噪音来源：轮播 banner、cookie 弹窗、时间戳、布局抖动；并承认短板：SPA，以及“Pages behind Cloudflare ... served a **challenge page** instead of the real content ... triggers a false positive”。
-
-**(2) 数据准确性 / 被拦截 / 上线慢**（Prisync 评测，汇总 G2/Capterra/Trustpilot，[链接](https://marketintelligencetools.com/reviews/prisync/)，2026-08-05 发布、09-02 更新）
-- “Wrong-price complaints recur across G2, Capterra and Trustpilot”。
-- G2（2021，硬件行业）：“The onboarding of the items was very time-consuming, and it took **many months** before the accounts retrieved the correct data ... or that the URL is not retrieved at all due to **technical blockers at the resellers' websites**.”
-- Capterra（2021）：“their system doesn't always track the sites as **blockers kick in**.”
-- Trustpilot 一星（2024-10）：“feed never works, we keep on **selling at wrong price** and lost tone of money.”
-- G2（2022，4 星）：“there are times when I get the wrong ones from the product page.”
-- 同文对 DataWeave 的 G2 评论：匹配错误，“**a single unit matched to a multi-pack**”。
-
-**(3) 价格 / 功能分档 / 合同**（同上 Prisync 评测）
-- Prisync：$99/月 100 个商品（每天 3 次更新）；$199/1,000；**$399/5,000 的 Platinum 才有 MAP monitoring、price history、instant alerts**；API 另加 20%。
-- Price2Spy：$39.95/月 500 URL；$157.95 档才有 MAP；G2 评论抱怨取消需“30 DAYS in advance”。
-
-**(4) MAP 违规监控**
-- Reddit 标题（正文未能抓取，仅引标题）：
-  - r/FulfillmentByAmazon《How are you monitoring MAP violations? **Manual checking is killing us.**》[链接](https://www.reddit.com/r/FulfillmentByAmazon/comments/1t3v0md/)
-  - r/smallbusiness《How do you actually monitor MAP / dealer undercutting **without checking retailer sites by hand?**》[链接](https://www.reddit.com/r/smallbusiness/comments/1vn4kfr/)
-  - r/Amazonsellercentral《What actually cuts **MAP false positives** when you monitor resellers (the boring stuff that worked for us)》[链接](https://www.reddit.com/r/Amazonsellercentral/comments/1vrpjd2/)
-  - r/ecommerce《Has anyone here been doing any MAP monitoring? ...》[链接](https://www.reddit.com/r/ecommerce/comments/1vn3osh/)
-- 快照帖《Brands: how do you tell an authorized Amazon seller from a leak without waiting for a MAP complaint?》（[快照](https://reddit.sentinel-team.org/posts/1vqlxc7/snapshots/2026-08-18T10%3A09%3A38.388116Z)）：“The part I keep hearing is **false positives**. A **shipping-inclusive price or a used listing** gets treated as a MAP breach and **sales emails the wrong person**.” 评论建议把卖家名与经销商客户名单交叉核对，因为常是“a distributor reselling through a subsidiary or DBA”。
-
-### 2.3 痛点排序（按出现频率 × 商业价值）
-
-| 排名 | 痛点 | 证据 |
-|---|---|---|
-| 1 | **告警噪音：只想知道“有意义”的变化**（新上架、降价超过阈值、缺货/补货、促销开始），否则很快没人看 | A1、A4（目标价/百分比阈值）、A5（only new items）、A11、A13（按条件告警）；Reddit“200 alerts a morning”“Digests ... ignored”；Visualping 83% 不重要；MAP 误报帖 |
-| 2 | **跨站同款匹配 & 去重**（标题不同、无条码、单件 vs 多件装、同一标的多站重复） | A4（“most important technical challenge”）、A6、A7、A13（“extremely important”）；DataWeave“single unit matched to a multi-pack”；Prisync“wrong ones from the product page” |
-| 3 | **数据可信 + 抓取稳定**：被拦截、页面改版、静默失败、挑战页被当成“变化” | A2（anti-bot）、A3（without service interruption）、A10、A13（failure notifications / resume）、A1（stable）；Prisync“blockers kick in”“selling at wrong price”；Visualping challenge page 误报 |
-| 4 | **历史 & 生命周期追踪**：新增 / 改动 / 下架 / 回归、价格历史，避免对 24 小时促销过度反应 | A6、A7、A11、A13（价格历史表、重新上架告警）；Reddit 评论 |
-| 5 | **交付到客户已有工具 + 低维护**：Google Sheets、Excel、Telegram/WhatsApp/邮件、云端常驻 | A1、A2（Sheets Service Account）、A9（CSV/BI）、A10（Sheets + WhatsApp + 云端）、A13（Excel 多工作表 + 看板） |
-| 6 | **成本可控、可扩展、所有权归客户**；SaaS 贵且关键功能锁高档 | A4（避免多余 API 调用、账号归属）、A13（托管/API 成本、代码归属）；Prisync MAP/历史锁在 $399 档、API +20%；Price2Spy 取消条款 |
-| 7 | **从监控到动作**：MAP 违规取证、按竞品价格自动建议售价、领域规则（如“价格以 1 结尾=清仓”） | A8、A11、A12（$1,000，KVI/CORE 分类 + 定价公式）；Reddit MAP 系列帖 |
-
-### 2.4 买家画像与预算
-
-| 画像 | 典型职位 | 观察到的预算 | 他们买的是什么 |
-|---|---|---|---|
-| 小店主 / 个体卖家 / 套利者 | A1、A2、A5、A11 | $35–$150 固定价，或短期小时制 | 降价/新品提醒、表格日报；预算低但量大，适合“低价首单 → 维护月费” |
-| 品牌电商运营 / 渠道经理（MAP） | A8 + Reddit MAP 帖 | Upwork 上未见独立预算；对照 SaaS：Prisync MAP 档 $399/月，Price2Spy MAP 档 $157.95/月 | 违规取证、减少误报、按卖家追责 |
-| B2B 分销商 / 有几千 SKU 的零售商 | A7、A12 | $300–$1,000 固定价，长期 | 可靠的目录 + 竞价数据，驱动定价规则 |
-| 做价格类产品的创业者 | A4 | 小时制、Expert、1–3 个月 | 架构可行性证明：匹配、调度、成本 |
-| 交易/投资线索监控（房产、拍卖、出售企业） | A10、A13 | $200 固定价（但规格很重） | 新上架/降价/重新上架告警 + AI 结构化抽取 + 评分 |
-
-整体：**固定价 $35–$1,000，中位数约 $200**（样本 8 个固定价）；另有 2 个小时制。很多 $200 的职位规格明显超出预算——Demo 的作用是让你能拿“已有底座 + 里程碑报价”去争取更高价位，而不是比谁更便宜。
-
-### 2.5 Demo 必须展示的“杀手级功能”（逐条核对你的初始假设）
-
-| 你最初设想的功能 | 证据结论 | Demo 里怎么体现 |
-|---|---|---|
-| 反爬稳健性 | ✅ **确认，但要换个说法**：客户要的是**“可靠 + 出问题能自知”**，而 A13 明确禁止绕过 CAPTCHA/登录。卖点应是：限流与退避、重试、断点续跑、**挑战页/空页检测（不当作价格变化）**、解析失败告警、站点健康面板 | 沙盒站故意返回 429 / 挑战页 / 改版 HTML，看板显示“检测到挑战页 → 本轮跳过 → 未产生误报” |
-| 跨站商品匹配 | ✅✅ **最强证据**（A4/A6/A7/A13 + 差评） | GTIN/MPN 精确 → 品牌+型号归一 → 模糊标题 + **属性守卫（件数/容量/颜色/型号正则）** → 置信度；低置信进入人工审核队列；演示“单件 vs 2 件装被拒绝” |
-| 变化显著性 / 降噪 | ✅✅ **最强证据**（A1/A4/A5 + Reddit + Visualping） | 每个 SKU 可配阈值（绝对值/百分比）、**连续 2 次确认才告警**、到手价（含运费）比较、冷却期、即时 vs 日报分级；首页显示“本周拦截噪音 N 条”及每条告警的“为什么提醒你” |
-| MAP 违规检测 | ⚠️ **部分确认**：Reddit 痛点真实且误报是核心；SaaS 锁高档；但 Upwork 直接需求少 | 作为模块：仅比较“全新”条件、排除二手/捆绑、到手价口径可配、连续确认、截图+HTML 快照+卖家名+时间戳+MAP 版本作为证据包、授权卖家白名单（含 DBA 别名）、**人工确认后才发通知** |
-| 历史图表 | ✅ 确认（A6/A13/Reddit） | 每个商品 × 每个零售商的价格/库存时间线，标注事件 |
-| CSV / Sheets 导出 | ✅ 确认（A2/A9/A10/A13） | CSV、Excel（多工作表：Master / New / Price Changes / MAP / Change History，对应 A13 的工作表设计）、Google Sheets（Service Account）|
-| **新增**：生命周期事件 | 证据：A5/A6/A11/A13 | new_listing / delisted / back_in_stock / relisted / price_drop / promo_start |
-| **新增**：规则/评分可配置 + 领域规则 | 证据：A11（价格以 1 结尾）、A12（KVI 定价）、A13（configurable scoring） | YAML 规则引擎；内置示例规则“清仓价识别”“按竞品最低价 −x% 的建议售价（不低于 MAP/成本）” |
-| **新增**：成本感知调度 | 证据：A4 | 按商品重要度分级巡检频率、ETag/Last-Modified/内容哈希跳过未变页面、可选“先打内部 JSON 接口，失败才用 Playwright 渲染” |
-| **新增**：规则优先、AI 兜底的抽取，不编造 | 证据：A13（Not disclosed / 不全靠 LLM） | 字段抽取先 selector/正则，缺失才调 LLM；LLM 输出必须带原文片段，否则记为 \`Not disclosed\` |
-| **新增**：交付与所有权 | 证据：A4、A13 | \`docker compose up\` 一键起；README 含部署/运维/成本估算；所有密钥走 \`.env\` |
-
-### 2.6 MVP 规格（1–2 天可由 AI 编码代理完成）
-
-#### 2.6.1 场景（Niche）
-**“Retail Price & MAP Watch” —— 一个中型消费品牌/经销商（示例：家用咖啡设备，约 40–60 个 SKU：咖啡机、磨豆机、配件），监控 4 家授权零售商 + 1 个多卖家市场。**
-- 选择理由（**判断，非直接证据**）：此类商品普遍带 GTIN/MPN（便于演示 A4 的“标识符匹配 + 无标识符兜底”），有单件/套装/颜色变体（演示 DataWeave 式误匹配防护），品牌常有 MAP 政策（演示 MAP 模块）。证据里 A 类需求的“垂直”并不集中（生鲜、牙科耗材、房产、出售企业都有），**集中的是功能模式**，所以选一个能把功能模式全部演示出来的品类。
-- 同一引擎的**第二套配置**（可选加分，0.5 天）：\`presets/uk_business_for_sale.yaml\`——把“商品”换成“出售企业列表”，复用去重/历史/告警/评分，用于投 A13、A10 类职位。
-
-#### 2.6.2 数据源（合法、可离线）
-1. **内置沙盒零售站（主数据源，离线可跑）**：一个本地 FastAPI 应用，托管 5 个风格不同的假店铺：
-   - \`shop-a\`：静态 HTML + 分页；
-   - \`shop-b\`：前端渲染（需 Playwright），同时存在内部 JSON 接口（演示“逆向接口比渲染更快更稳”，在自建站上完全合法）；
-   - \`shop-c\`：限流（429 + Retry-After）并随机返回“挑战页”（演示**识别**而非绕过）；
-   - \`shop-d\`：定期改版 DOM（演示解析失败告警 + 选择器回退）；
-   - \`market-x\`：多卖家市场（含二手、捆绑、运费、第三方卖家/DBA 名称）。
-   - **时间模拟器**：\`/admin/tick?days=1\` 推进一天，按剧本注入：真降价、2 美分抖动、24 小时闪促、缺货/补货、下架/重新上架、MAP 违规（含“运费拉低到手价”“二手低价”两类误报陷阱）。
-2. **公开练习站（演示真实 HTTP 抓取）**：\`https://webscraper.io/test-sites/e-commerce/allinone\`（官方说明：“test sites that you can use for training”）与 \`https://books.toscrape.com/\`（页面自称 Sandbox）。均已用 curl 验证可访问（HTTP 200）。
-3. **客户真实站点**：仅作为“适配器模板 + 文档说明”，不在作品集里对真实零售商做演示抓取。
-
-#### 2.6.3 架构
-\`\`\`
-docker-compose
- ├─ sandbox/      FastAPI 假店铺 + 时间模拟器（端口 8001）
- ├─ app/          FastAPI 主程序（端口 8000）
- │   ├─ adapters/        每个站一个 Adapter（httpx+selectolax / JSON API / Playwright）
- │   ├─ fetch/           限流(令牌桶/站点级)、指数退避、重试、代理槽位(可选)、挑战页/空页检测、HTML快照存档
- │   ├─ extract/         规则优先抽取 → 缺失字段才调 LLM（OpenAI 兼容；离线时用确定性规则/缓存样例）
- │   ├─ match/           GTIN/MPN 精确 → 归一化 → rapidfuzz + 属性守卫 → 置信度 → 人工队列
- │   ├─ diff/            观测 → 事件（阈值、连续确认、到手价、冷却、分级）
- │   ├─ map/             MAP 规则、授权卖家白名单(含别名)、证据包(截图/HTML/时间/卖家/MAP版本)
- │   ├─ rules/           YAML 规则引擎（清仓识别、建议售价等）
- │   ├─ notify/          Telegram Bot / Slack Webhook / SMTP；Demo 模式写入“Outbox”页面
- │   ├─ export/          CSV、Excel(openpyxl 多工作表)、Google Sheets(Service Account，可选)
- │   ├─ scheduler/       APScheduler：按 SKU 重要度分级频率；运行记录与断点续跑
- │   └─ web/             Jinja2 + HTMX + Chart.js（无前端构建）
- └─ db               SQLite 默认；DATABASE_URL 切 Postgres
-\`\`\`
-- 关键表：\`sources\`、\`listings\`(source_id, url, seller, condition, raw_title, gtin, mpn)、\`products\`(canonical)、\`matches\`(listing↔product, method, confidence, reviewed_by)、\`observations\`(ts, price, shipping, landed_price, in_stock, promo_flag, parse_confidence, snapshot_hash, page_state[ok/challenge/empty/parse_fail])、\`events\`(type, severity, reason_json, suppressed_bool)、\`map_policies\`、\`map_violations\`(status, evidence_paths)、\`runs\`(source, started, finished, ok/fail counts)。
-- LLM：\`LLM_BASE_URL / LLM_API_KEY / LLM_MODEL\` 环境变量；无 key 时自动降级到规则 + 预置缓存，保证离线可演示。
-
-#### 2.6.4 核心逻辑要点
-- **匹配**：① GTIN/UPC/EAN 校验位正确且相等 → 1.0；② 品牌 + 型号（正则抽取 \`[A-Z]{2,}\\d{2,}\` 等）归一相等 → 0.9；③ rapidfuzz token_set_ratio ≥ 阈值且属性守卫全部通过（件数、容量 ml/g、颜色、电压）→ 按分数；任何守卫冲突（如 \`2-pack\` vs 单件）直接否决并记录原因；< 0.8 进人工队列，人工决定写回作为后续规则。
-- **显著性**：\`|Δ| ≥ abs_min 或 |Δ%| ≥ pct_min\`，且同方向连续 2 次观测确认；\`page_state != ok\` 或 \`parse_confidence < 0.7\` 的观测**不参与**比较；同 SKU 同类事件冷却 N 小时；按严重度路由：MAP 违规/降价>10% → 即时；其余 → 每日摘要。每条事件保存 \`reason_json\`（触发规则、前后值、证据链接），前端显示“为什么提醒你”。
-- **MAP**：只比 \`condition=new\` 且非捆绑；口径可选“标价 / 到手价”；连续 2 次低于 MAP → \`detected\`；生成证据包（Playwright 截图 + HTML 快照 + URL + 卖家 + 时间 + MAP 版本）；卖家匹配授权白名单（支持别名/DBA）；状态流转 detected → confirmed（人工）→ notified → resolved；**不自动给卖家发邮件**。
-- **挑战页识别**：特征（状态码、\`<title>\`、页面长度骤降、关键选择器缺失、已知挑战关键词）→ 标记 \`challenge\`，本轮跳过并在健康面板计数，**不尝试绕过**。
-
-#### 2.6.5 关键页面
-1. **Overview**：追踪 SKU 数、24h 事件、未处理 MAP 违规、各站健康（成功率/上次成功时间）、“本周已拦截噪音 N 条”。
-2. **Product Detail**：各零售商价格/到手价/库存时间线（Chart.js），事件标注，匹配来源与置信度。
-3. **Events Feed**：事件流 + 每条“为什么提醒你”；可切换显示“被抑制的噪音”。
-4. **Match Review Queue**：低置信候选对，左右对比（标题、图、属性），一键确认/拒绝。
-5. **MAP Board**：违规卡片（证据截图、卖家、持续时长、是否授权卖家）、状态流转。
-6. **Sources Health**：每站运行记录、429/挑战页/解析失败次数、选择器回退次数、失败告警。
-7. **Rules & Export**：阈值/规则 YAML 编辑，导出 CSV/Excel/Sheets，Outbox（Demo 模式下的 Telegram/Slack/邮件预览）。
-
-#### 2.6.6 1–2 天任务拆分（给 AI 编码代理）
-| 时段 | 任务 | 验收 |
-|---|---|---|
-| D1 上午 | 沙盒站 5 个店铺 + 时间模拟器 + 剧本 JSON（60 SKU、14 天） | \`curl\` 各店铺可分页/接口可用；tick 后数据按剧本变化 |
-| D1 下午 | 数据模型、Adapter×5、fetch 层（限流/退避/挑战页检测/快照）、APScheduler | 一次全量运行写入 observations；shop-c 的 429/挑战页被正确标记 |
-| D1 晚 | 匹配模块 + 人工队列；diff/事件引擎 | 单测：2-pack 被拒；2 美分抖动/24h 闪促不告警；真实降价告警 |
-| D2 上午 | MAP 模块 + 证据包；规则引擎（清仓识别、建议售价）；通知（Outbox + Telegram/Slack/SMTP 可选） | 两类 MAP 误报陷阱均未触发；真实违规生成截图证据 |
-| D2 下午 | 看板 7 页（Jinja2+HTMX+Chart.js）、导出 CSV/Excel/Sheets | 一键 \`docker compose up\` → \`make demo\`（自动 tick 14 天）→ 看板有完整故事 |
-| D2 晚（可选） | \`presets/uk_business_for_sale.yaml\` 第二配置；README + 2 分钟录屏脚本 | README 含架构图、成本估算、扩展到新站点的步骤 |
-
-#### 2.6.7 Demo 演示脚本（录屏 2 分钟）
-1. \`make demo\` → 模拟 14 天。2. Overview：显示“共检测到 N 次变化，只推送 M 条”（数字由剧本决定）。3. 打开一条降价告警，看“为什么提醒你”。4. Match Queue：系统拒绝“单件 vs 2 件装”。5. MAP Board：真实违规（带截图）vs 被识别为误报的“二手低价/含运费”。6. Sources Health：shop-c 返回挑战页 → 被跳过、无误报、已发失败通知。7. 导出 Excel（多工作表）+ Telegram 截图。
-
-#### 2.6.8 Upwork 作品集文案（英文草稿）
-> **Retail Price & MAP Watch — competitor monitoring that only alerts you when it matters**
-> Monitors 5 retailers/marketplaces on a schedule, matches the same product across sites (GTIN/MPN + fuzzy title with pack-size/variant guards, low-confidence matches go to a review queue), stores full price & stock history, and fires alerts only on meaningful events (drop > X%, out-of-stock, new/delisted, MAP breach confirmed twice). Detects rate limits, challenge pages and layout changes instead of producing false alerts, and notifies you when a source breaks. MAP violations come with screenshot evidence and seller identity; used/bundle/shipping-only cases are filtered out. Exports to CSV, multi-sheet Excel and Google Sheets; alerts via Telegram, Slack or email. Python · FastAPI · Playwright · SQLite/Postgres · Docker. Runs fully offline with a bundled sandbox so you can try it in 2 minutes.
-
-#### 2.6.9 映射到的真实职位
-- 直接对口：A1（降价提醒 + 简单 UI + 多渠道通知）、A2（Playwright + Sheets）、A4（匹配 + 阈值 + 成本感知调度）、A5（只推新项 + 去重）、A11（领域规则：清仓识别 + 每日新品）、A12（规则引擎的建议售价）。
-- 用第二配置/同一底座对口：A6、A7（目录、变化追踪、溯源）、A10、A13（列表监控、去重、历史、评分、Excel + 看板）。
-- MAP 模块对口：A8 与 Reddit MAP 类客户。
-
-#### 2.6.10 法律 / ToS 注意
-- 作品集里**只抓自建沙盒和公开练习站**；不要展示对真实零售商的抓取结果或截图。
-- 对客户项目：遵守目标站 ToS 与 robots；**不绕过登录、CAPTCHA 或其他访问控制**（A13 原文要求即如此）；Demo 的“反爬”只展示限流、退避、识别与告警。
-- 存储的 HTML/截图仅作为证据与调试用途，设置保留期。
-
----
-
-## 3. 项目 B：AI 获客（采集 → 富化 → 验证 → AI 打分 → 个性化 → CRM）
-
-### 3.1 真实 Upwork 职位（14 条）
-
-| # | 职位标题（原文） | 预算 / 形式 | 发布日(UTC) / 客户 | 客户真正要什么 & 为什么（含原文短语） |
-|---|---|---|---|---|
-| B1 | [Build a verified list of 1,500 California trade-business owners from CSLB + Google Maps - Contract to Hire](https://www.upwork.com/freelance-jobs/apply/Build-verified-list-500-California-trade-business-owners-from-CSLB-Google-Maps_~022106505803788113669/) | $4–$20/小时，30+ h/周，6+ 个月，Expert，可转长期 | 2026-10-03；美国（15 次雇佣） | “We run outbound for a **California business broker**”。“This is a list build with verification, not a bought list. **If your plan is to export Apollo or ZoomInfo, this is not the job.**” “Verified” = MillionVerifier “ok”（“not catch-all, not unknown”）+ 执照有效 + 抽检通过。规模代理指标：执照 15+ 年、25+ Google 评论、“a real website (not just a Facebook page)”、商业地址、“signs of a team (fleet, staff page, careers page)”；“**No one-man shops, no franchises, no national chains**”；“One row per company”。规则：“Delete every row that bounces, comes back catch-all or unknown, or that you pulled from any dataset **older than 6 months**”；“**Dedupe by domain, phone, and address**”；排除“never-contact list”；“Deliver the MillionVerifier results file”；先交 **50 行样本**；mobile 富化目标 60%+（“Clay or a waterfall of providers”）。字段含 CSLB 执照号、发证日、years in business、评论数、评分、**source**。 |
-| B2 | [Clay Expert Needed — ICP-Based Lead List Building with Waterfall Enrichment & Buying Signals - Contract to Hire](https://www.upwork.com/freelance-jobs/apply/Clay-Expert-Needed-ICP-Based-Lead-List-Building-with-Waterfall-Enrichment-Buying-Signals_~022103174904619227797/) | $100 固定价，Intermediate，长期，可转长期 | 2026-09-24；加拿大；15–20 投标、8 人面试 | 瀑布式富化（Apollo, Prospeo, Dropcontact, Hunter）“to maximize verified contact match rate”；ICP（firmographic + technographic）；信号“**job changes, funding events, hiring surges, tech-stack changes**”；“**Score and rank leads by fit + signal strength**”；NeverBounce/MillionVerifier 验证“to keep bounce rate low”；“**De-duplicate against a list I'll provide (contacts already reached or in CRM)**”；“recommend ongoing since **signals decay fast**”；加分项 GDPR/DNC 过滤。 |
-| B3 | [GTM / AI Automation Expert Needed — Build Clay + Instantly + n8n + HubSpot Outbound Sales System](https://www.upwork.com/freelance-jobs/apply/GTM-Automation-Expert-Needed-Build-Clay-Instantly-n8n-HubSpot-Outbound-Sales-System_~022102818355387660771/) | 小时制 <30 h/周，1–3 个月；“Budget - We are prepared to pay properly for someone with proven expertise.” | 2026-09-23；英国商用光伏小公司；20–50 投标、5 人面试 | “not looking for a generic cold-email marketer”；“**Scoring prospects against our Ideal Customer Profile**”；“Using AI to research **a genuine reason for approaching each business**”；“We want Clay/AI to go **considerably deeper than basic company size and job-title filters**”（信号：大屋顶、多站点、扩张计划、EV/车队电动化、净零目标）；“**Preventing duplicate outreach and maintaining suppression / opt-out lists**”；AI 不得承诺价格/节省额等，须升级给人；HubSpot 管道分阶段；“We do not want a system that stops working or becomes inaccessible if we stop using the freelancer”。 |
-| B4 | [Developer Needed: Email Finder + Google Maps Scraper - Contract to Hire](https://www.upwork.com/freelance-jobs/apply/Developer-Needed-Email-Finder-Google-Maps-Scraper_~022105623829144091011/) | $700 固定价，Expert，长期 | 2026-10-01；印度；10–15 投标、4 人面试 | 邮箱查找/富化系统 + Maps 抓取：“Handle **validation, deduplication, accuracy, and fallback logic**”，“pagination, rate limits, proxies, retries, and anti-bot systems”；需懂“DNS, MX records, SMTP responses”；参照“Apollo, Hunter, RocketReach, ContactOut”；“We are not looking for someone who has only worked with basic scraping scripts.” |
-| B5 | [Google map scraper expert](https://www.upwork.com/freelance-jobs/apply/Google-map-scraper-expert_~022090190994635950579/) | 小时制，<1 个月，Expert | 2026-08-19；美国大公司（已花 $61K，43 次雇佣） | 按区域交付，目标 100,000 条合格线索；“**Most Important Requirement: Valid Phone Numbers**”；“Exclude **permanently closed** businesses”；“Remove duplicates within each territory and across the complete database”；“Standardize business names, phone numbers, addresses, and URLs”；“Identify phone type as mobile, landline, toll-free, or unknown”；“usable business leads, **not simply a large volume of unverified records**”；质检项含“Businesses located **outside the assigned territory**”“Incorrect business categories”；先交 50 条样本；“Use lawful data-collection methods”；后续“refreshing the database, replacing invalid records, identifying newly opened businesses”。 |
-| B6 | [Google maps scraping](https://www.upwork.com/freelance-jobs/apply/Google-maps-scraping_~022107190710199258957/) | 未抓取 | 2026-10-05 | 指定类别（beauty_salon, makeup_artist ...）+ “Coordinates of a given rectangle”，测试通过后跑欧盟多国；字段 name/address/url/email/description。 |
-| B7 | [HVAC Lead List Builder — Google Maps Research (Owner Names + Contact Info)](https://www.upwork.com/freelance-jobs/apply/HVAC-Lead-List-Builder-Google-Maps-Research-Owner-Names-Contact-Info_~022105510537160690502/) | 页面片段显示 “Budget: $0.30-$ 0.50”（每条） | 未抓取全文；大多伦多地区 | Owner 名来自评论中“the name that appears most frequently”；“If no name appears in reviews, leave the Owner Name field blank — **do not guess or fabricate**”；“No franchises or large national chains”；先 10 条样本，之后 200–300+，可持续下单。 |
-| B8 | [Clay enrichment and personalization build (one-off project)](https://www.upwork.com/freelance-jobs/apply/Clay-enrichment-and-personalization-build-one-off-project_~022106227353115863619/) | 未抓取 | 2026-10-03 | “Validate emails using Mail Validator”，“Fill missing data through Apollo enrichment”，“Create **AI-powered personalization columns with custom first lines and snippets**”，“Personalize based on each prospect’s company and role”，“Deliver a clean, **send-ready** list”。 |
-| B9 | [Cold Email Campaign + Clay Expert Needed — Full Setup, Lead Generation & Outreach](https://www.upwork.com/freelance-jobs/apply/Cold-Email-Campaign-Clay-Expert-Needed-Full-Setup-Lead-Generation-Outreach_~022102016047735746587/) | 未抓取 | — | 目标客户：HVAC、Dentists、Plumbers、Roofers、Pest control、Chiropractors 等本地商家；流程“**Lead Source → Enrichment → Decision Maker → Email Verification → Qualification → AI Personalization → Campaign**”；“We are NOT looking for someone who simply uploads a CSV into Instantly”；关注 SPF/DKIM/DMARC、域名信誉。 |
-| B10 | [AI & Outbound Automation Specialist - Clay, Lemlist & GTM Workflows etc.](https://www.upwork.com/freelance-jobs/apply/Outbound-Automation-Specialist-Clay-Lemlist-GTM-Workflows-etc_~022098732755590129245/) | 未抓取 | — | “Signal-based outreach (e.g. company changes, hiring activity, relevant events or online activity)”，“AI-powered personalization”，“CRM integration”；“We are **not looking for a large or overly complex system**”。 |
-| B11 | [Lead Generation Bot for Swedish Market / Job Posting Scanner](https://www.upwork.com/freelance-jobs/apply/Lead-Generation-Bot-for-Swedish-Market-Job-Posting-Scanner_~022100497112974327575/) | **$30–$60/小时**，<1 个月，Expert | 2026-09-17；德国柏林（人力派遣公司）；11 人面试、14 个邀请 | 扫描公开招聘与企业招聘页，找“companies that are **actively hiring** workers”，“turn them into structured sales leads”，导出到 DB/Sheets/CRM；行业：建筑、工业生产。→ **招聘 = 购买信号**。 |
-| B12 | [n8n AI Lead Qualification & CRM Automation specialist.](https://www.upwork.com/freelance-jobs/apply/n8n-Lead-Qualification-CRM-Automation-specialist_~022099045854234513162/) | $400 固定价，Intermediate | 2026-09-13；法国（已花 $3K）；50+ 投标 | “At the moment, our team handles several of these steps manually”；“Lead/Form → n8n Webhook → Validation → **Duplicate Check** → **AI Qualification** → Lead Score → CRM → Notification → Logging”；“Hot / Warm / Cold”；抽取“Budget indicators, Urgency ... Recommended next action”；“Handle invalid data, API failures, duplicates”。 |
-| B13 | [Lead Scraper / Lead Generation Specialist — Medspa & Aesthetics Practices](https://www.upwork.com/freelance-jobs/apply/Lead-Scraper-Lead-Generation-Specialist-Medspa-Aesthetics-Practices_~022099919461866131591/) | $200 固定价，Expert | 2026-09-15；美国营销代理（已花 $16K，31 次雇佣）；4 人面试 | 长岛/纽约 0–2 年内新开的医美/IV/功能医学诊所（PLLC/PC）；优先信号“pre-launch/coming soon ... or **recently opened**”；“Email address (**verified — not just guessed format**)”；“**Source** (where the record was found)”，“**Date sourced**”；建议数据源：NY 州公司注册库、**DOB permit records (buildout/renovation signals)**、Google Maps；先 25–30 条试单；“this list will be used for **compliant cold outreach**”。 |
-| B14 | [Lead Researcher — Independent Dental Clinic Owners in Los Angeles](https://www.upwork.com/freelance-jobs/apply/Lead-Researcher-Independent-Dental-Clinic-Owners-Los-Angeles_~022101039874317106038/) | $60 固定价，Expert | 2026-09-18；美国洛杉矶 | “This is NOT a database scraping job”；“**Zero bounce rate is the standard**”；来源：加州牙医执照查询 search.dca.ca.gov、Google Maps、Yelp、LinkedIn；“direct personal email with **no info@ contact@ admin@** or front desk emails”；“Independent clinics only with 5 to 15 providers. **No dental chains. No DSOs.**”；用 Hunter/MillionVerifier/ZeroBounce 验证。 |
-
-> 另有一个“AI Automation Developer | API Integrations, CRM Automation & AI Agents”职位在搜索摘要中出现（商业保洁行业，Outscraper→Apollo→LLM→HighLevel），但抓取时页面显示“This job is no longer available”，**不计入证据**。
-
-### 3.2 来自其他真实来源的痛点证据
-
-**(1) 联系人数据不准 / 退信 / catch-all**
-- Reddit 标题（正文未能抓取，不引用其中细节）：
-  - r/GrowthHacking《Apollo data quality dropping in 2026? Our **bounce rates jumped to 13%** so we tested a few alternatives》[链接](https://www.reddit.com/r/GrowthHacking/comments/1teypme/)
-  - r/SaaS《We got tired of **40% bounce rates from Apollo**… so we built our own data tool》[链接](https://www.reddit.com/r/SaaS/comments/1r1ntpp/)
-  - r/SideProject《I tested Apollo, Lusha, Cognism, and SalesTarget.ai with the same ICP. Here are my actual bounce rates》[链接](https://www.reddit.com/r/SideProject/comments/1sl239l/)
-- MailCop《We Validated 10,000 Apollo Contacts》（[链接](https://mailcop.net/blog/validated-10000-apollo-contacts-data)，2026-04-24；**作者是邮箱验证厂商，存在利益相关**）：10,000 条 Apollo 标为 “Verified”/“Likely to Engage” 的联系人，三层验证后 **58.4% deliverable、22.0% undeliverable、14.6% risky/catch-all、5.0% unknown**（Apollo 自称 91% 准确率）；1–50 人公司 catch-all 比例 22.3%（1,000+ 人公司为 8.1%）；角色邮箱（info@ 等）占 3.8%；C-suite 不可达率 26.5%。→ **小公司（本地服务业正是）catch-all 比例最高**，这和 B1“not catch-all, not unknown”的要求直接相关。
-- Clay 评测（[链接](https://marketintelligencetools.com/reviews/clay/)，2026-08-11 发布）引 G2（2026-05）：“The phone number coverage is really weak, with **mobile matches only around 30-35%**.”（对照 B1 要求 60%+ mobile 覆盖）
-
-**(2) 工具贵、计费不可预测、上手难**（同上 Clay 评测）
-- Launch $185/月（2,500 Data Credits，**无原生 CRM 同步**）；Growth $495/月才有原生 Salesforce/HubSpot 同步；每条记录 6–20 credits；超额充值加价 30%。
-- G2（2026-05）：“The UI looks like a friendly spreadsheet, but when you need conditional logic and formula chains, **it's basically programming**.”
-- TrustRadius（2026-01，小代理创始人）：“pricing is too high for me and there credit system is somewhat messy like its **unpredicatble**...”
-- G2（2023-12）：“it can in some cases be quite easy to **burn a lot of credits quickly without realizing it**”；G2：“it took me **weeks** to understand what's what.”；G2：“It can get very expensive if you don't know how to use it with API's and integrations.”
-
-**(3) 抓取型工具的去重 / 字段缺失 / 稳定性**（Outscraper 官方社区）
-- 《Outscraper Presents as Incompetent》（[链接](https://community.outscraper.com/t/outscraper-presents-as-incompetent/755)，2026-01-19）：“we have lost hours and an opportunity trying to get Filters (no website) to work”；“of 20 records, it looks like I have maybe **7 different businesses and a deduping problem**”；“We don't want to download 10x records just to find the ones without websites”。官方回复：邮箱富化“incurs additional charges”。
-- 《Incomplete Data Fields》（[链接](https://community.outscraper.com/t/incomplete-data-fields/732)，2025-12-13）：“for the majority of the 6000 rows, it didn't give me any data when most locations have reviews”；官方承认“some scraping jobs were returning **empty columns** due to a bug on our end”。
-
-**(4) AI 个性化效果存疑（只引标题）**
-- r/coldemail《Is AI-powered cold email helping or worsening your reply rates?》[链接](https://www.reddit.com/r/coldemail/comments/1rzjxtl/)
-- r/salesdevelopment《I tested AI written cold emails against human written ones for 6 months across 9 client accounts. **the results were not close.**》[链接](https://www.reddit.com/r/salesdevelopment/comments/1sk965x/)（帖内具体数字未能核实，不引用）
-- 结合 B3“a genuine reason for approaching each business”、B8“first lines and snippets”：客户要的不是“AI 写邮件”，而是**基于可核实事实的理由**。
-
-**(5) 合规 / 账号风险 / 投递规则**
-- Google Maps Platform 服务条款 §3.2.3(a)（[链接](https://cloud.google.com/maps-platform/terms)）：“**No Scraping.** Customer will not export, extract, or otherwise scrape Google Maps Content for use outside the Services. For example, Customer will not ... (iii) **copy and save business names, addresses, or user reviews**”；§3.2.3(b) No Caching。
-- PhantomBuster 官方帮助（[链接](https://support.phantombuster.com/hc/en-us/articles/34537476105746-How-to-Understand-LinkedIn-Account-Safety-Limits-and-Responsibility)，2026-07-03 更新）：“LinkedIn doesn’t publish official automation limits.”；“no automation tool can eliminate risk entirely”；“You can be within rate limits and still trigger a behavioral flag.”
-- Gmail 发件人指南（[链接](https://support.google.com/mail/answer/81126?hl=en)）：所有发件人需 SPF 或 DKIM；“Keep spam rates reported in Postmaster Tools **below 0.3%**”（推荐低于 0.10%）；营销类邮件需支持 one-click unsubscribe。
-- CSLB 公开数据门户（[链接](https://www.cslb.ca.gov/Onlineservices/DataPortal/ContractorList)）：免费提供 CSV/XLS；License Master 含执照号、企业名、地址、电话、状态、发证/到期日、分类、保证金与工伤保险；Personnel 文件含人员姓名与职务；“**Email addresses are not provided** (Business & Professions Code Section 27)”。
-
-### 3.3 痛点排序（按出现频率 × 商业价值）
-
-| 排名 | 痛点 | 证据 |
-|---|---|---|
-| 1 | **联系人不准 / 退信 / catch-all / 过期数据**；要能证明“已验证”，并标注来源与日期 | B1（ok-only、6 个月、交验证结果文件）、B2、B5（valid phone 最重要）、B8、B13（not just guessed、Source、Date sourced）、B14（Zero bounce）；Apollo 退信帖、MailCop 22%/14.6%；Clay mobile 30–35% |
-| 2 | **不合格线索**：连锁/加盟/DSO、单人小店、区域外、已关门、类别错误、只有 Facebook 无官网 | B1、B5、B7、B14；B3“deeper than basic company size and job-title filters” |
-| 3 | **重复 & 重复触达**：域名/电话/地址去重；对 CRM 已有、已联系、禁联/退订名单去重 | B1、B2、B3、B5、B12；Outscraper“7 different businesses and a deduping problem” |
-| 4 | **找不到真正的 owner/决策人与直邮**（拒收 info@），且“不许编” | B1（owner、one row per company）、B5、B7（do not guess or fabricate）、B13、B14 |
-| 5 | **缺少“为什么是现在”的信号与真实理由**：招聘、新开业/装修许可、技术栈、扩张；按 fit + signal 排序；个性化要有依据 | B2、B3、B10、B11（招聘信号，$30–60/h）、B13（新开业、DOB permits）、B8、B12（Hot/Warm/Cold） |
-| 6 | **工具贵/复杂/不可控 & 所有权**：Clay 计费难预测、CRM 同步锁高档；客户想要自己拥有的系统 | Clay 评测；B3（所有权）、B9（不是只上传 CSV）、B10（不要过度复杂） |
-| 7 | **合规与发信安全**：合法来源、GDPR/DNC、域名信誉、LinkedIn 账号风险、Maps ToS | B2、B5、B13、B9；Maps ToS §3.2.3；PhantomBuster；Gmail 指南 |
-
-### 3.4 买家画像与预算
-
-| 画像 | 典型职位 | 观察到的预算 | 他们买的是什么 |
-|---|---|---|---|
-| 外呼/营销代理（服务本地行业：trades、牙科、医美） | B1、B7、B9、B13 | $4–$20/小时长期；$200 固定价；$0.30–$0.50/条 | 可复用的“名单工厂”：合格率、验证率、样本先行、可持续下单 |
-| 自建外呼引擎的 B2B 公司 | B3（光伏）、B11（人力派遣）、B12 | $30–$60/小时；$400 固定价；“prepared to pay properly” | 端到端系统：信号 → 打分 → 个性化 → CRM，且归自己所有 |
-| 数据/工具创业者 | B4 | $700 固定价，可转长期 | 邮箱查找、验证、Maps 抓取的工程能力 |
-| 单次名单需求的小客户 | B2、B6、B14 | $60–$100 固定价 | 小批量高质量名单（低价，适合当引流单） |
-
-整体：**名单交付类偏低价（$60–$200 或按条 $0.3–0.5），系统搭建类明显更高（$400–$700 固定价、$30–60/小时）**。Demo 应定位为“系统”，再用系统去承接名单单子（先交样本，转长期/月费）。
-
-### 3.5 Demo 必须展示的“杀手级功能”（逐条核对你的初始假设）
-
-| 你最初设想的功能 | 证据结论 | Demo 里怎么体现 |
-|---|---|---|
-| 数据准确性 / 验证 | ✅✅ **第一痛点** | 每条联系方式带状态：\`ok / catch_all / unknown / invalid / role_based / guessed\`；内置语法 + MX 检查 + 角色邮箱识别；可插拔验证 API（MillionVerifier / ZeroBounce / NeverBounce，客户职位中点名过；离线用 mock）；**默认只导出 ok**；电话 E.164 标准化 + 类型（mobile/landline/toll-free/unknown，对应 B5）；每个字段带 \`source_url\` + \`sourced_at\`；超过 N 个月自动标记过期（B1 的 6 个月规则） |
-| 去重 | ✅✅ 确认 | 按域名 / 电话 / 标准化地址三键合并，展示合并簇；对“禁联名单 + CRM 已有联系人 + 退订名单”做抑制并给出命中原因 |
-| AI 按 ICP 打分并给理由 | ✅ 确认（B2/B3/B12），但**必须先硬过滤再打分** | ICP 用 YAML 配置：硬性排除（加盟/连锁/DSO/无官网/区域外/已注销）→ 规则分（执照年限、团队迹象、评论数）→ LLM 给 0–100 + Hot/Warm/Cold + 理由，**每条理由必须附证据 URL 与原文片段**；无 key 时用规则打分兜底 |
-| 信号（招聘/新评论/技术栈） | ✅ 确认并**按证据调整优先级**：招聘（B2/B10/B11）、新开业/新执照（B13、B5“newly opened”）、执照年限（B1）> 技术栈（B2 提到）> 新评论（证据较弱，且依赖 Maps 数据有 ToS 限制） | 官网 careers/jobs 页检测 + 职位数；CSLB 发证日期 → “在业年数 / 新执照”；官网技术指纹（预约/调度类小部件，判断为“已数字化”）；信号带时间戳并会衰减（B2“signals decay fast”） |
-| 送达安全的个性化首句 | ✅ 确认（B3/B8/B9），但重点是**“真实理由 + 可审”** | 首句只能引用 1 条已抽取的事实（附来源）；禁止编造数字/价格承诺（对应 B3 的安全规则）；长度上限 + 套话黑名单；人工审核队列（通过/编辑/驳回）；只给 \`ok\` 邮箱生成；catch-all 单独分组低频发送（MailCop 建议，判断采纳） |
-| CRM 推送 | ✅ 确认（B2/B3/B12） | HubSpot 免费 CRM（Private App token）按域名/邮箱 upsert 公司与联系人并写入打分与理由；Google Sheets；CSV（含 Instantly/Smartlead 导入格式）；同步日志 |
-| **新增**：“样本 + 验证报告”一键导出 | 证据：B1（50 行 + 验证结果文件）、B5（50 条）、B7（10 条）、B13（25–30 条）、B14（10 条） | \`Export sample\` → 50 行 CSV + 质量报告（覆盖率、验证分布、去重合并数、排除原因统计） |
-| **新增**：漏斗与淘汰原因透明 | 证据：B1“expect 2,000 to 2,300 raw”拿 1,500 合格；B5 不合格记录不计数 | Pipeline 页显示每一步数量与淘汰原因，让客户看到“为什么剩这些” |
-| **新增**：不许编造 | 证据：B7、B13、A13 同理 | Owner 名找不到就留空并标 \`not_found\`；LLM 输出必须能在原文中定位 |
-
-### 3.6 MVP 规格（1–2 天可由 AI 编码代理完成）
-
-#### 3.6.1 场景（Niche）
-**“Contractor Lead Engine (California)”——为“向本地承包商卖服务”的客户（外呼代理 / 企业并购经纪 / 面向 trades 的 SaaS）生成加州 HVAC（C-20）、管道（C-36）、电工（C-10）承包商的合格线索。**
-- 选择理由（证据）：B1 直接就是这个场景且需求最详细；B7（HVAC）、B9（HVAC/Plumbers/Roofers…）说明 trades 是代理们的热门目标；CSLB 官方免费 CSV 提供企业名/地址/电话/发证日/人员姓名——**合法、可下载、可离线**，并天然提供“在业年数”这一 B1 指定的规模代理指标。
-- ICP 示例（可在 UI 改）：执照有效且 ≥10 年；有独立官网（非仅 Facebook）；官网有团队/车队/招聘迹象；非加盟/全国连锁；位于选定县；排除禁联名单。
-
-#### 3.6.2 数据源（合法、Demo 安全）
-1. **CSLB Public Data Portal**（主源）：构建时下载 License Master + Personnel CSV，仅保留 1–2 个县、3 个分类的子集作为 \`data/cslb_sample.csv\`（离线可跑）；用 Personnel 里的人员姓名/职务作为 owner 候选（公开记录）。
-2. **公司官网**（富化）：只抓首页 / About / Team / Contact / Careers 少数页面；遵守 robots.txt、站点级限速、带标识 UA。**作品集演示时使用内置的 20–30 个合成承包商网站（本地静态站，含 mailto、团队页、招聘页、加盟标识等各种情况）**，避免在 Demo 中反复访问真实小商家，也避免作品集截图出现真实个人信息。
-3. **地点/评论数据（可选）**：只通过**官方 Google Places API**（客户自带 key）获取，并遵守 Maps 平台条款（§3.2.3 禁止抓取与存储商户名/地址/评论，缓存另有限制——上线前需核对 Service Specific Terms）；**Demo 中不抓取 Google Maps 网页**。离线模式用 mock 评论数。
-4. **邮箱验证**：可插拔 provider 接口（MillionVerifier / ZeroBounce / NeverBounce），离线用确定性 mock；本地只做语法、MX 查询、角色邮箱与一次性域名识别，**不在 Demo 里做 SMTP RCPT 探测**（容易触发对方风控/拉黑 IP）。
-5. **LinkedIn**：不做任何登录态抓取；最多生成一个“人工核查用”的搜索链接字段。
-
-#### 3.6.3 架构
-\`\`\`
-docker-compose
- ├─ mocksites/      本地合成承包商官网（静态，含各种边界情况）
- ├─ app/            FastAPI
- │   ├─ ingest/          CSLB CSV 解析 → companies / people（保留 source + sourced_at）
- │   ├─ normalize/       名称/地址标准化、电话 E.164 + 类型、域名提取
- │   ├─ dedupe/          域名 / 电话 / 地址 三键合并 + 合并簇审计
- │   ├─ crawl/           httpx + selectolax；必要时 Playwright；robots、限速、重试
- │   ├─ enrich/          抽取 email/团队页/招聘页/加盟标识/技术指纹/社媒 → facts(表，带 URL+片段)
- │   ├─ contacts/        owner 识别（CSLB 人员 × 官网 About/Team 交叉印证）、邮箱发现（页面 > 模式猜测，猜测必须标 guessed）
- │   ├─ verify/          语法+MX+角色+一次性域名 → provider 接口（mock / MillionVerifier / ZeroBounce）
- │   ├─ score/           YAML ICP：硬排除 → 规则分 → LLM 打分(理由+证据) → Hot/Warm/Cold；离线兜底
- │   ├─ personalize/     基于单条事实的首句 + 片段；黑名单/长度/禁止承诺；审核状态
- │   ├─ suppress/        禁联、CRM 已有、退订、已联系
- │   ├─ export/          CSV / Excel / Google Sheets / Instantly-Smartlead CSV / 50 行样本 + 质量报告
- │   ├─ crm/             HubSpot upsert（companies, contacts, 自定义属性：score/tier/reasons/signals）
- │   └─ web/             Jinja2 + HTMX
- └─ db              SQLite（可切 Postgres）
-\`\`\`
-- 关键表：\`companies\`、\`people\`、\`contacts\`(type, value, status, verifier, verified_at, source_url)、\`facts\`(company_id, kind, value, evidence_url, snippet, observed_at)、\`signals\`(kind, strength, observed_at, decays_at)、\`scores\`(icp_version, score, tier, reasons_json)、\`drafts\`(first_line, snippet, fact_id, status)、\`suppressions\`、\`merge_clusters\`、\`runs\`。
-- LLM：OpenAI 兼容（\`LLM_BASE_URL/LLM_API_KEY/LLM_MODEL\`），结构化 JSON 输出；校验器检查每条理由引用的 \`fact_id\` 是否存在、片段是否在原文中，否则丢弃该理由。
-
-#### 3.6.4 关键页面
-1. **Pipeline Run**：漏斗（原始 → 去重 → 硬排除 → 有官网 → 找到 owner → 邮箱 ok → Hot/Warm），每步淘汰原因 Top N。
-2. **Leads 表**：筛选（tier、分数、信号、验证状态、县、分类），批量导出/推送。
-3. **Lead 详情**：公司事实卡（每条带来源链接与日期）、owner 与证据、联系方式验证状态、打分理由（逐条可点到证据）、信号时间线、首句草稿（通过/编辑/驳回）。
-4. **ICP 编辑器**：硬排除项、权重、阈值、信号衰减天数；保存为新版本并可重算。
-5. **Data Quality**：验证分布、字段覆盖率、去重合并簇、过期记录、禁联命中；按钮“Export 50-row sample + report”。
-6. **Sync 日志**：HubSpot / Sheets 推送结果与失败重试。
-
-#### 3.6.5 1–2 天任务拆分
-| 时段 | 任务 | 验收 |
-|---|---|---|
-| D1 上午 | 下载并裁剪 CSLB 子集；ingest/normalize/dedupe；合成官网 20–30 个 | 导入后能看到合并簇；电话标准化正确 |
-| D1 下午 | crawl + enrich（email、team、careers、加盟标识、技术指纹）+ facts 表；owner 交叉印证 | 每条事实都有 URL+片段；找不到 owner 时为空且标 not_found |
-| D1 晚 | verify（本地检查 + mock provider + 1 个真实 provider 适配器）；suppress | 角色邮箱、猜测邮箱不会进入默认导出 |
-| D2 上午 | score（YAML ICP + LLM + 离线兜底）；personalize（单事实首句 + 校验 + 审核状态） | 每条理由可追溯；无 key 时也能跑完 |
-| D2 下午 | Web 6 页；导出（CSV/Excel/Sheets/Instantly CSV/样本+报告）；HubSpot upsert | \`docker compose up\` → \`make demo\` 一次跑完，看板有完整漏斗 |
-| D2 晚（可选） | 第二套 ICP 预设：\`presets/ny_medspa.yaml\`（新开业信号）或 \`presets/se_staffing_hiring.yaml\`（招聘信号）；README + 录屏 | 切换预设可重跑 |
-
-#### 3.6.6 Demo 演示脚本（2 分钟）
-1. \`make demo\`：从 CSLB 子集开始。2. Pipeline 漏斗：原始 → 合格，每步淘汰原因（加盟、无官网、catch-all…）。3. 打开一个 Hot 线索：执照 22 年（来自 CSLB 发证日）、官网有 Careers 页在招 2 个技师（附链接）、owner 名在 CSLB 人员表与官网 About 页一致。4. 打分理由逐条可点证据。5. 首句草稿引用招聘事实，审核通过。6. 导出“50 行样本 + 质量报告”，推送 HubSpot。（以上为演示剧本中的合成数据示例）
-
-#### 3.6.7 Upwork 作品集文案（英文草稿）
-> **Contractor Lead Engine — verified, ICP-scored local-business leads with a real reason to reach out**
-> Builds lead lists from official public sources (e.g., California CSLB license data) plus company websites — not exported from Apollo. Every field carries its source URL and date. Dedupes by domain/phone/address, suppresses your never-contact and CRM lists, finds the owner (cross-checked, never guessed), and verifies emails (only "ok" ships; catch-all/role/guessed are flagged). An LLM scores each company against your ICP with evidence-linked reasons and hiring/years-in-business signals, then drafts a first line grounded in one verifiable fact for human approval. Pushes to HubSpot, Google Sheets or Instantly CSV, and exports a 50-row sample with a quality report so you can check before scaling. Python · FastAPI · Playwright · SQLite/Postgres · OpenAI-compatible LLM (offline fallback) · Docker.
-
-#### 3.6.8 映射到的真实职位
-- 直接对口：B1（CSLB + 验证 + 去重 + 样本 + 验证报告）、B7（HVAC owner，不编造）、B9（本地商家全流程到 AI 个性化）、B2（ICP + 信号 + 打分 + 去重 + 验证）、B12（去重 → AI 资格判断 → 打分 → CRM → 通知）、B8（验证 + 个性化列 + send-ready）。
-- 换预设对口：B11（招聘信号）、B13（新开业/许可信号、Source/Date sourced）、B14（执照库 + 独立诊所过滤 + 零退信）。
-- 工程能力对口：B4（验证/去重/兜底逻辑）、B3（系统所有权 + ICP 深度打分 + 抑制名单 + HubSpot）。
-
-#### 3.6.9 法律 / ToS 注意
-- **Google Maps**：服务条款禁止抓取及复制保存商户名称、地址、评论（§3.2.3）。作品集 Demo 不抓 Maps 网页；如客户坚持使用 Maps 数据，建议走官方 Places API 并遵守缓存/展示要求，或由客户自行选择第三方数据商并承担相应条款。
-- **LinkedIn**：不做登录态抓取/自动化（账号限制风险连自动化厂商都说无法消除）；Demo 不包含 LinkedIn 数据。
-- **个人数据与外呼合规**：owner 姓名来自公开执照记录，但发送冷邮件仍受当地法规约束（美国 CAN-SPAM、欧盟/英国 GDPR/PECR 等——本次未逐条核对原文，交付前需按客户所在地确认）；保留 \`source\` 与 \`sourced_at\`，支持删除请求与退订抑制。
-- **发信安全**：遵守 Gmail 发件人指南（SPF/DKIM、垃圾率 <0.3%、营销邮件一键退订）；Demo 本身**不发任何邮件**，只生成草稿与导出。
-- **CSLB 数据**：门户说明不提供邮箱（B&P Code §27）；邮箱一律来自企业官网公开信息或验证服务，且标注来源。
-
----
-
-## 4. 两个 Demo 共用的工程底座（建议做成一个仓库的两个 app）
-
-- 共用：fetch 层（限速/退避/重试/robots/挑战页识别/快照）、Playwright 池、LLM 客户端（OpenAI 兼容 + 离线兜底 + JSON 校验 + 证据定位）、通知（Telegram/Slack/SMTP/Outbox）、导出（CSV/Excel/Sheets）、APScheduler、运行记录与健康面板、Docker 一键启动、\`make demo\` 剧本。
-- 共用的“卖点叙事”：**“规则优先、AI 兜底、每个结论可追溯、出问题会自己报警、离线可演示、代码与账号归客户”**——这几句几乎逐字对应 A13、B3、A4 的原文要求。
-- 投标时的“问题回答”素材（直接来自职位里的提问）：
-  - A4 的 “How would you match the same product across multiple retailers when listing titles differ?” → 用 2.6.4 的匹配流程 + 录屏里“2 件装被拒”的片段回答。
-  - A4 的 “How would you structure price checks to avoid unnecessary API costs?” → 分级频率 + ETag/哈希跳过 + 接口优先渲染兜底。
-  - A1 的 “what challenges might come up” → 被拦截、改版、促销噪音、同款匹配，各配一个 Demo 截图。
-  - B1 的 “What pass rate do you typically see on MillionVerifier for scraped trade-contractor emails?” → **不要编数字**；用 Demo 的质量报告说明你如何度量与报告通过率，真实数字等跑完客户样本后再给。
-
----
-
-## 5. 证据清单（本报告引用的全部 URL）
-
-**Upwork 职位 – 项目 A**
-- A1 https://www.upwork.com/freelance-jobs/apply/Automate-price-monitoring_~022100609442313515937/
-- A2 https://www.upwork.com/freelance-jobs/apply/Python-Playwright-Dynamic-Scraper-Google-Sheets-Exporter_~022107436617600555241/
-- A3 https://www.upwork.com/freelance-jobs/apply/Senior-Data-Engineer-Commerce-Market-Intelligence-ETL-Pipelines_~022095115612039138353/
-- A4 https://www.upwork.com/freelance-jobs/apply/React-Native-Flutter-Developer-Needed-for-Shopping-Price-Tracking-App-Prototype_~022103908428474109176/
-- A5 https://www.upwork.com/freelance-jobs/apply/Web-Scraping-and-Telegram-Alert-Automation_~022097987030090589789/
-- A6 https://www.upwork.com/freelance-jobs/apply/Data-Scraping-Engineer-Repeatable-Data-Collection-Pipeline_~022101790739299336473/
-- A7 https://www.upwork.com/freelance-jobs/apply/Developer-with-Experience-Retail-Product-Catalogue-Extraction_~022105318608307945877/
-- A8 https://www.upwork.com/freelance-jobs/apply/Shopify-Long-Term-Employment-Agencies-Please_~022097801497567406925/ （仅搜索摘要）
-- A9 https://www.upwork.com/freelance-jobs/apply/Power-dashboard-for-multichannel_~022103128095703162024/
-- A10 https://www.upwork.com/freelance-jobs/apply/Cloud-Based-Python-Scraping-Bot_~022106262425458606528/
-- A11 https://www.upwork.com/freelance-jobs/apply/Web-Scraping-Help-Automate-analytic-report_~022105546845962767174/
-- A12 https://www.upwork.com/freelance-jobs/apply/Automate-Sales-Policy-and-Dynamic-Pricing_~022099456786312275549/
-- A13 https://www.upwork.com/freelance-jobs/apply/Web-scraping_~022095773706723606210/
-
-**Upwork 职位 – 项目 B**
-- B1 https://www.upwork.com/freelance-jobs/apply/Build-verified-list-500-California-trade-business-owners-from-CSLB-Google-Maps_~022106505803788113669/
-- B2 https://www.upwork.com/freelance-jobs/apply/Clay-Expert-Needed-ICP-Based-Lead-List-Building-with-Waterfall-Enrichment-Buying-Signals_~022103174904619227797/
-- B3 https://www.upwork.com/freelance-jobs/apply/GTM-Automation-Expert-Needed-Build-Clay-Instantly-n8n-HubSpot-Outbound-Sales-System_~022102818355387660771/
-- B4 https://www.upwork.com/freelance-jobs/apply/Developer-Needed-Email-Finder-Google-Maps-Scraper_~022105623829144091011/
-- B5 https://www.upwork.com/freelance-jobs/apply/Google-map-scraper-expert_~022090190994635950579/
-- B6 https://www.upwork.com/freelance-jobs/apply/Google-maps-scraping_~022107190710199258957/
-- B7 https://www.upwork.com/freelance-jobs/apply/HVAC-Lead-List-Builder-Google-Maps-Research-Owner-Names-Contact-Info_~022105510537160690502/
-- B8 https://www.upwork.com/freelance-jobs/apply/Clay-enrichment-and-personalization-build-one-off-project_~022106227353115863619/
-- B9 https://www.upwork.com/freelance-jobs/apply/Cold-Email-Campaign-Clay-Expert-Needed-Full-Setup-Lead-Generation-Outreach_~022102016047735746587/
-- B10 https://www.upwork.com/freelance-jobs/apply/Outbound-Automation-Specialist-Clay-Lemlist-GTM-Workflows-etc_~022098732755590129245/
-- B11 https://www.upwork.com/freelance-jobs/apply/Lead-Generation-Bot-for-Swedish-Market-Job-Posting-Scanner_~022100497112974327575/
-- B12 https://www.upwork.com/freelance-jobs/apply/n8n-Lead-Qualification-CRM-Automation-specialist_~022099045854234513162/
-- B13 https://www.upwork.com/freelance-jobs/apply/Lead-Scraper-Lead-Generation-Specialist-Medspa-Aesthetics-Practices_~022099919461866131591/
-- B14 https://www.upwork.com/freelance-jobs/apply/Lead-Researcher-Independent-Dental-Clinic-Owners-Los-Angeles_~022101039874317106038/
-
-**痛点 / 工具评测 / 法规**
-- Prisync 评测（含 G2/Capterra/Trustpilot 引用）https://marketintelligencetools.com/reviews/prisync/
-- Visualping 降噪博客 https://visualping.io/blog/how-visualping-cuts-false-positives
-- Reddit r/ecommerce 竞品价格追踪（快照）https://reddit.sentinel-team.org/posts/1vlh071/snapshots/2026-08-12T02%3A19%3A44.123647Z （原帖 https://www.reddit.com/r/ecommerce/comments/1vlh071/）
-- Reddit 授权卖家/MAP 误报（快照）https://reddit.sentinel-team.org/posts/1vqlxc7/snapshots/2026-08-18T10%3A09%3A38.388116Z
-- Reddit MAP 标题：https://www.reddit.com/r/FulfillmentByAmazon/comments/1t3v0md/ ；https://www.reddit.com/r/smallbusiness/comments/1vn4kfr/ ；https://www.reddit.com/r/Amazonsellercentral/comments/1vrpjd2/ ；https://www.reddit.com/r/ecommerce/comments/1vn3osh/
-- Reddit Apollo/AI 冷邮件标题：https://www.reddit.com/r/GrowthHacking/comments/1teypme/ ；https://www.reddit.com/r/SaaS/comments/1r1ntpp/ ；https://www.reddit.com/r/SideProject/comments/1sl239l/ ；https://www.reddit.com/r/coldemail/comments/1rzjxtl/ ；https://www.reddit.com/r/salesdevelopment/comments/1sk965x/
-- Clay 评测（含 G2/TrustRadius 引用）https://marketintelligencetools.com/reviews/clay/
-- MailCop Apollo 验证测试（厂商）https://mailcop.net/blog/validated-10000-apollo-contacts-data
-- Outscraper 社区：https://community.outscraper.com/t/outscraper-presents-as-incompetent/755 ；https://community.outscraper.com/t/incomplete-data-fields/732
-- PhantomBuster LinkedIn 安全说明 https://support.phantombuster.com/hc/en-us/articles/34537476105746-How-to-Understand-LinkedIn-Account-Safety-Limits-and-Responsibility
-- Google Maps Platform 条款 https://cloud.google.com/maps-platform/terms
-- Gmail 发件人指南 https://support.google.com/mail/answer/81126?hl=en
-- CSLB 公开数据门户 https://www.cslb.ca.gov/Onlineservices/DataPortal/ContractorList
-- 练习站：https://webscraper.io/test-sites ；https://books.toscrape.com/
-`},
-{"id": "t2-ph", "track": "longterm", "title": "【占位/示例】长线需求说明", "date": "2026-10-14 21:46", "summary": "此栏将收录：", "tags": ["占位", "示例"], "source": "", "path": "docs/placeholder_longterm.md", "has_evidence": false, "content": `# 【占位/示例】长线需求卡片说明
-
-> 这是占位卡片，尚无真实内容。
-
-此栏将收录：
-- **Google Trends 关键词分析**：关键词、趋势曲线描述、地区、上升相关词、时间范围
-- **AI 新需求发现**：新出现的 AI 能力带来的新工具/服务需求
-- **老牌网站弱点切入**：现有站点（评论、差评、功能缺口）→ 可切入的小产品
-
-建议字段：关键词/方向、数据来源、证据链接、需求强度判断、切入方案、下一步。
-`},
-{"id": "t3-ph", "track": "cases", "title": "【占位/示例】案例资讯说明", "date": "2026-10-14 21:50", "summary": "来源：X、Reddit、Product Hunt、Hacker News 上的独立开发 / AI 接单赚钱故事。所有收入声明均未经验证。", "tags": ["占位", "示例", "未验证"], "source": "", "path": "docs/placeholder_cases.md", "has_evidence": false, "content": `# 【占位/示例】案例资讯卡片说明
-
-> 这是占位卡片，以下均为字段模板，不是真实案例。
-
-来源：X、Reddit、Product Hunt、Hacker News 上的独立开发 / AI 接单赚钱故事。**所有收入声明均未经验证。**
-
-每张卡片字段：
-- **来源平台**：X / Reddit / Product Hunt / HN
-- **账号**：@示例账号（待填）
-- **链接**：https://example.com（待填）
-- **声称收入(未验证)**：$—/月（待填）
-- **可抄打法**：
-  1. 步骤一（待填）
-  2. 步骤二（待填）
-
-## 证据标记 \`has_evidence\`
-
-在 \`manifest.json\` 的该条目里加 \`"has_evidence": true\`，表示原帖**带具体数字或截图**（如收入截图、Stripe 面板、具体 MRR/订单数）。
-- 卡片会显示绿色徽章「📊 带具体数字或截图」；
-- 在「案例资讯」页勾选「只看带具体数字或截图」即可只看这类案例。
-- 不写或写 \`false\` 表示只有口头描述。注意：即使有截图，收入仍视为**未验证**。
-`},
-]};
+]
+};
