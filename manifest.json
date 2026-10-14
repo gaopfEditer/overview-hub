@@ -51,6 +51,19 @@
       "source": ""
     },
     {
+      "id": "t1-tech-checklist",
+      "track": "platform",
+      "title": "复杂技术清单（AI 开发参考）",
+      "path": "/workspace/dev-topics/04_complex_tech_checklist.md",
+      "tags": [
+        "技术清单",
+        "AI辅助",
+        "接单"
+      ],
+      "source": "",
+      "summary": "按八个场景分组的 46 项复杂技术：用途、难点、可粘贴 AI 提示模板与常见坑，适合开发时当参考。"
+    },
+    {
       "id": "t1-titles",
       "track": "platform",
       "title": "Upwork 标题与预算",
