@@ -42,6 +42,20 @@ def summary_of(md):
     return ""
 
 
+def public_path(p):
+    """对外展示用路径：绝对 /workspace/... 收成相对片段，避免 Pages 泄露本机路径。"""
+    if not p:
+        return ""
+    p = str(p)
+    if os.path.isabs(p):
+        parts = [x for x in p.split("/") if x]
+        if "workspace" in parts:
+            i = parts.index("workspace")
+            return "/".join(parts[i + 1:])
+        return os.path.basename(p)
+    return p
+
+
 def read_path(p):
     if not p:
         return ""
@@ -111,7 +125,7 @@ def main():
             "trends_keywords": p.get("trends_keywords", ""),
             "related_docs": p.get("related_docs", []),
             "tags": p.get("tags", []),
-            "path": p.get("path", ""),
+            "path": public_path(p.get("path", "")),
             "date": file_date(p.get("path", ""), p.get("date")),
         }
         out.append(emit_obj(meta, content))
@@ -147,7 +161,7 @@ def main():
             "summary": c.get("summary") or "",
             "tags": c.get("tags", []),
             "related_docs": c.get("related_docs", []),
-            "path": c.get("path", ""),
+            "path": public_path(c.get("path", "")),
             "source": c.get("source", ""),
             "has_evidence": bool(c.get("has_evidence", False)),
             "date": file_date(c.get("path", ""), c.get("date")),
@@ -176,7 +190,7 @@ def main():
             "summary": d.get("summary") or summary_of(raw),
             "tags": d.get("tags", []),
             "source": d.get("source", ""),
-            "path": d["path"],
+            "path": public_path(d["path"]),
             "related_docs": d.get("related_docs", []),
         }
         out.append(emit_obj(meta, raw))

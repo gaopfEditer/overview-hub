@@ -64,6 +64,25 @@ main{max-width:1100px;margin:22px auto;padding:0 16px 48px}
 .empty{color:var(--muted);text-align:center;padding:48px 16px}
 .hint{font-size:12px;color:var(--muted);padding:0 4px}
 footer{text-align:center;color:var(--muted);font-size:12px;padding:24px}
+
+.card h3 .chev{margin-left:auto;font-size:12px;opacity:.55;transition:transform .15s;font-weight:500}
+.open > h3 .chev{transform:rotate(-180deg);opacity:.85}
+.expand-hint{font-size:12px;color:var(--muted);margin:4px 0 0}
+.placard{background:var(--warn-bg);color:var(--warn);border:1px dashed var(--warn);border-radius:10px;padding:8px 12px;font-size:13px;margin:8px 0 4px}
+.body h1{font-size:1.25rem;margin:0.6em 0 0.35em}
+.body h2{font-size:1.1rem;margin:0.7em 0 0.3em}
+.body h3,.body h4{font-size:1rem;margin:0.55em 0 0.25em}
+.body p{margin:0.35em 0}
+.body ul,.body ol{margin:0.35em 0;padding-left:1.35em}
+@media (max-width:640px){
+  header{padding:18px 16px 14px}
+  header h1{font-size:20px}
+  header .descs{display:none}
+  .toolbar{padding:10px 12px;gap:8px;align-items:stretch}
+  .tabs,.filters{width:100%}
+  #q{margin-left:0;width:100%;min-width:0}
+  .card{padding:14px}
+}
 </style>
 </head>
 <body>
@@ -100,11 +119,26 @@ function md(src){var L=String(src||"").split("\n"),o=[],i=0,list=null;
   else if(!l.trim())cl();else{cl();o.push("<p>"+inl(l)+"</p>")}
   i++}cl();return o.join("\n")}
 function nl2br(s){return inl(String(s||"")).replace(/\n/g,"<br>")}
+function displayPath(p){
+  if(!p)return"";
+  p=String(p);
+  if(p.indexOf("/workspace/")===0){
+    var parts=p.split("/").filter(Boolean);
+    var i=parts.indexOf("workspace");
+    return i>=0?parts.slice(i+1).join("/"):parts.slice(-2).join("/");
+  }
+  if(p.charAt(0)==="/"&&p.indexOf("://")<0){
+    var segs=p.split("/").filter(Boolean);
+    return segs.slice(-2).join("/")||p;
+  }
+  return p;
+}
 
 var D=window.HUB_DATA||{};
 var sections=D.sections||[];
 var cur=sections[0]?sections[0].id:"platforms";
 var typeFilter="all";
+var evidFilter="all";
 var qEl=document.getElementById("q");
 var labels=D.platform_field_labels||{
   permissions:"权限需求清单",access_path:"操作路径",caveats:"注意事项",trends_keywords:"Google Trends 对应关键词"
@@ -114,7 +148,7 @@ var typeNames={};(D.platform_types||[]).forEach(function(t){typeNames[t.id]=t.na
 sections.forEach(function(s){
   var li=document.createElement("li");li.textContent=s.name+"："+s.desc;descs.appendChild(li);
   var b=document.createElement("button");b.textContent=s.name;b.dataset.id=s.id;
-  b.onclick=function(){cur=s.id;typeFilter="all";render()};tabs.appendChild(b);
+  b.onclick=function(){cur=s.id;typeFilter="all";evidFilter="all";qEl.value="";render()};tabs.appendChild(b);
 });
 
 qEl.oninput=render;
@@ -132,7 +166,7 @@ function relatedHtml(ids){
 function wireRelated(root){
   root.querySelectorAll("[data-doc]").forEach(function(a){
     a.onclick=function(e){e.preventDefault();e.stopPropagation();
-      cur="docs";typeFilter="all";qEl.value=a.textContent;render();
+      cur="docs";typeFilter="all";evidFilter="all";qEl.value=a.textContent;render();
       var card=[].find.call(list.querySelectorAll(".card"),function(c){return c.dataset.id===a.dataset.doc});
       if(card){card.classList.add("open");var body=card.querySelector(".body");if(body&&!body.innerHTML){var d=docById(a.dataset.doc);body.innerHTML=md(d.content)}
         card.scrollIntoView({behavior:"smooth",block:"start"})}
@@ -140,6 +174,18 @@ function wireRelated(root){
   });
 }
 function matchQ(hay,k){if(!k)return true;return hay.toLowerCase().includes(k)}
+function wireTags(c){
+  c.querySelectorAll(".tag").forEach(function(t){t.onclick=function(e){e.stopPropagation();qEl.value=t.textContent;render()}});
+}
+function bindToggle(c, fillBody){
+  var h=c.querySelector(":scope > h3");
+  if(!h)return;
+  h.onclick=function(){
+    var body=c.querySelector(".body");
+    if(!body.innerHTML)fillBody(body);
+    c.classList.toggle("open");
+  };
+}
 
 function renderPlatforms(k){
   filters.hidden=false;filters.innerHTML="";
@@ -163,38 +209,53 @@ function renderPlatforms(k){
     var fieldsHtml=fieldKeys.map(function(fk){
       return"<div class='field'><h4>"+esc(labels[fk]||fk)+"</h4><div class='v'>"+nl2br(p[fk]||"—")+"</div></div>";
     }).join("");
+    var pathShow=displayPath(p.path);
     c.innerHTML=
       "<h3><span class='badge type'>"+esc(typeLab)+"</span>"+esc(p.title)+
       (p.url?" <a class='ext' href='"+esc(p.url)+"' target='_blank' rel='noopener' onclick='event.stopPropagation()'>打开 ↗</a>":"")+
-      "</h3>"+
-      "<div class='meta'>"+esc(p.date||"")+(p.path?" · <code>"+esc(p.path)+"</code>":"")+"</div>"+
+      "<span class='chev' aria-hidden='true'>▾</span></h3>"+
+      "<div class='meta'>"+esc(p.date||"")+(pathShow?" · <code>"+esc(pathShow)+"</code>":"")+"</div>"+
       "<div>"+(p.tags||[]).map(function(t){return"<span class='tag'>"+esc(t)+"</span>"}).join("")+"</div>"+
       "<div class='sum'>"+esc(p.summary||"")+"</div>"+
       "<div class='fields'>"+fieldsHtml+"</div>"+
+      (p.content?"<p class='expand-hint'>点击标题展开完整手册</p>":"")+
       relatedHtml(p.related_docs)+
       "<div class='body'></div>";
-    c.querySelector("h3").onclick=function(){
-      var body=c.querySelector(".body");
-      if(!body.innerHTML&&p.content)body.innerHTML="<p class='hint'>完整手册</p>"+md(p.content);
-      c.classList.toggle("open");
-    };
-    c.querySelectorAll(".tag").forEach(function(t){t.onclick=function(){qEl.value=t.textContent;render()}});
-    wireRelated(c);list.appendChild(c);
+    bindToggle(c, function(body){
+      if(p.content)body.innerHTML="<p class='hint'>完整手册</p>"+md(p.content);
+    });
+    wireTags(c);wireRelated(c);list.appendChild(c);
   });
 }
 
 function renderCases(k){
-  filters.hidden=true;filters.innerHTML="";
+  filters.hidden=false;filters.innerHTML="";
+  function addEvid(id,label){
+    var b=document.createElement("button");b.textContent=label;b.className=evidFilter===id?"on":"";
+    b.onclick=function(){evidFilter=id;render()};filters.appendChild(b);
+  }
+  addEvid("all","全部");
+  addEvid("evidence","只看带具体数字或截图");
+  addEvid("none","无证据标记");
+
   var order=D.case_field_order&&D.case_field_order.length?D.case_field_order:["来源","单子类型","操作思路","结果"];
   var items=(D.cases||[]).filter(function(c){
+    if(evidFilter==="evidence"&&!c.has_evidence)return false;
+    if(evidFilter==="none"&&c.has_evidence)return false;
     var hay=[c.title,c.summary,(c.tags||[]).join(" "),c.content||""];
     var f=c.fields||{};
     Object.keys(f).forEach(function(key){hay.push(key,f[key])});
     order.forEach(function(key){if(c[key])hay.push(c[key])});
     return matchQ(hay.join("\n"),k);
   });
-  hint.textContent="案例 "+items.length+" / "+(D.cases||[]).length+" · 字段顺序随 manifest 自动扩展："+order.join("、");
-  if(!items.length){list.innerHTML='<p class="empty">无匹配案例</p>';return}
+  var evidLab={all:"全部",evidence:"只看带证据",none:"无证据标记"};
+  hint.textContent="案例 "+items.length+" / "+(D.cases||[]).length+" · 证据筛选："+(evidLab[evidFilter]||evidFilter)+" · 字段："+order.join("、");
+  if(!items.length){
+    list.innerHTML='<p class="empty">'+(evidFilter==="evidence"
+      ?"暂无带「具体数字或截图」标记的案例。在 manifest 里设 has_evidence: true 后重建 data.js。"
+      :"无匹配案例")+"</p>";
+    return;
+  }
   items.forEach(function(caze){
     var c=document.createElement("div");c.className="card";c.dataset.id=caze.id;
     var f=caze.fields||{};
@@ -202,28 +263,30 @@ function renderCases(k){
       var val=f[key]!=null?f[key]:(caze[key]!=null?caze[key]:"");
       return"<div class='field'><h4>"+esc(key)+"</h4><div class='v'>"+nl2br(val||"—")+"</div></div>";
     }).join("");
-    // 若有 order 之外的字段也展示
     Object.keys(f).forEach(function(key){
       if(order.indexOf(key)>=0)return;
       fieldsHtml+="<div class='field'><h4>"+esc(key)+"</h4><div class='v'>"+nl2br(f[key])+"</div></div>";
     });
+    var pathShow=displayPath(caze.path);
+    var placard=caze.is_template
+      ?"<div class='placard'>这是【示例结构】占位卡，不是真实案例。字段里的「（待填）」仅为填写说明；请复制结构后在 manifest.json 追加真实条目。</div>"
+      :"";
     c.innerHTML=
       "<h3>"+(caze.is_template?"<span class='badge tpl'>【示例结构】</span>":"")+
-      (caze.has_evidence?"<span class='badge ev'>📊 证据</span>":"")+
-      esc(caze.title)+"</h3>"+
-      "<div class='meta'>"+esc(caze.date||"")+(caze.path?" · <code>"+esc(caze.path)+"</code>":"")+"</div>"+
+      (caze.has_evidence?"<span class='badge ev'>📊 带具体数字或截图</span>":"")+
+      esc(caze.title)+"<span class='chev' aria-hidden='true'>▾</span></h3>"+
+      "<div class='meta'>"+esc(caze.date||"")+(pathShow?" · <code>"+esc(pathShow)+"</code>":"")+"</div>"+
       "<div>"+(caze.tags||[]).map(function(t){return"<span class='tag'>"+esc(t)+"</span>"}).join("")+"</div>"+
+      placard+
       (caze.summary?"<div class='sum'>"+esc(caze.summary)+"</div>":"")+
       "<div class='fields'>"+fieldsHtml+"</div>"+
+      (caze.content?"<p class='expand-hint'>点击标题展开完整说明</p>":"")+
       relatedHtml(caze.related_docs)+
       "<div class='body'></div>";
-    c.querySelector("h3").onclick=function(){
-      var body=c.querySelector(".body");
-      if(!body.innerHTML&&caze.content)body.innerHTML=md(caze.content);
-      c.classList.toggle("open");
-    };
-    c.querySelectorAll(".tag").forEach(function(t){t.onclick=function(){qEl.value=t.textContent;render()}});
-    wireRelated(c);list.appendChild(c);
+    bindToggle(c, function(body){
+      if(caze.content)body.innerHTML=md(caze.content);
+    });
+    wireTags(c);wireRelated(c);list.appendChild(c);
   });
 }
 
@@ -233,25 +296,22 @@ function renderDocs(k){
     var hay=[d.title,d.summary,d.theme,(d.tags||[]).join(" "),d.content||""].join("\n");
     return matchQ(hay,k);
   });
-  hint.textContent="文档 "+items.length+" / "+(D.docs||[]).length;
+  hint.textContent="文档 "+items.length+" / "+(D.docs||[]).length+" · 点击标题展开全文";
   if(!items.length){list.innerHTML='<p class="empty">无匹配文档</p>';return}
   items.forEach(function(d){
     var c=document.createElement("div");c.className="card";c.dataset.id=d.id;
+    var pathShow=displayPath(d.path);
     c.innerHTML=
-      "<h3>"+esc(d.title)+"</h3>"+
+      "<h3>"+esc(d.title)+"<span class='chev' aria-hidden='true'>▾</span></h3>"+
       "<div class='meta'>"+esc(d.date||"")+(d.theme?" · "+esc(d.theme):"")+
       (d.source?' · <a href="'+esc(d.source)+'" target="_blank" rel="noopener">'+esc(d.source)+"</a>":"")+
-      " · <code>"+esc(d.path)+"</code></div>"+
+      (pathShow?" · <code>"+esc(pathShow)+"</code>":"")+"</div>"+
       "<div>"+(d.tags||[]).map(function(t){return"<span class='tag'>"+esc(t)+"</span>"}).join("")+"</div>"+
       "<div class='sum'>"+esc(d.summary||"")+"</div>"+
+      "<p class='expand-hint'>点击标题展开全文</p>"+
       "<div class='body'></div>";
-    c.querySelector("h3").onclick=function(){
-      var body=c.querySelector(".body");
-      if(!body.innerHTML)body.innerHTML=md(d.content);
-      c.classList.toggle("open");
-    };
-    c.querySelectorAll(".tag").forEach(function(t){t.onclick=function(){qEl.value=t.textContent;render()}});
-    list.appendChild(c);
+    bindToggle(c, function(body){body.innerHTML=md(d.content)});
+    wireTags(c);list.appendChild(c);
   });
 }
 
