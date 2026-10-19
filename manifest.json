@@ -88,7 +88,7 @@
       "type": "freelance",
       "title": "Freelancer.com",
       "url": "https://www.freelancer.com/",
-      "summary": "竞标制补充池。2026-10-19 11:50 雷达 29 帖、推荐仍 0；Beds24 OTA 近失仅卡在投标 120。预算中位偏低，非主收入。",
+      "summary": "竞标制补充池。2026-10-19 13:53 雷达 34 帖、推荐仍 0；Beds24 OTA 近失仅卡在投标 120。预算中位偏低，非主收入。",
       "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解",
       "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评",
       "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。",
@@ -269,10 +269,10 @@
       "id": "case-near-beds24-1019",
       "title": "近失：BEDS24 OTA Integration（投标 120）",
       "path": "docs/cases/near_beds24_ota_2026-10-19.md",
-      "date": "2026-10-19 11:50",
+      "date": "2026-10-19 13:53",
       "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845",
       "has_evidence": true,
-      "summary": "11:50 雷达续刷仍最高分近失：beds24 四关过、竞争关否决；作长尾印证不投。",
+      "summary": "13:53 雷达续刷仍最高分近失：beds24 四关过、竞争关否决（120）；作长尾印证不投。",
       "tags": [
         "Freelancer",
         "Beds24",
@@ -488,7 +488,7 @@
     },
     {
       "id": "doc-radar-pulse-1019",
-      "title": "需求雷达脉搏 2026-10-19 午后",
+      "title": "需求雷达脉搏 2026-10-19 午后续刷（13:53）",
       "path": "docs/notes/radar_pulse_2026-10-19.md",
       "theme": "市场研究",
       "date": "2026-10-19 11:50",
@@ -498,7 +498,7 @@
         "Beds24",
         "脉搏"
       ],
-      "summary": "29 帖推荐 0（较 10:27 的 34 略降）；Beds24 OTA 近失续存；Trends 仍 demo。",
+      "summary": "13:53 雷达：34 帖 / 推荐 0；Beds24 近失仍 120 标；self-hosted 近失投标 115→133。短线不刷标。",
       "related_docs": [
         "doc-radar-brief",
         "doc-longtail",
