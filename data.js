@@ -108,7 +108,7 @@ Profile：https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
 
 交叉：\`smb_demand_clusters.md\`（Fiverr BTI / Gig 抽样段落）、模板站链接。
 `},
-{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。2026-10-19 10:27 雷达 34 帖、推荐仍 0；Beds24 OTA 近失仅卡在投标 120。预算中位偏低，非主收入。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-smb", "doc-backlog", "doc-freelancer-bids", "doc-pulse-1019", "doc-radar-brief", "doc-radar-pulse-1019"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-10-17 18:50", "content": `# Freelancer.com 操作手册
+{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。2026-10-19 11:50 雷达 29 帖、推荐仍 0；Beds24 OTA 近失仅卡在投标 120。预算中位偏低，非主收入。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-smb", "doc-backlog", "doc-freelancer-bids", "doc-pulse-1019", "doc-radar-brief", "doc-radar-pulse-1019"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-10-17 18:50", "content": `# Freelancer.com 操作手册
 
 竞标制项目市场。预算中位偏低、竞标人数多，适合捡「修复/小集成」或练英文提案，不作为主收入依赖。
 
@@ -369,9 +369,9 @@ cases: [
 
 栈贴合但提案已 50+，且时薪无法页核验 → 不进 QUALIFIED。同类「集成+Agent」仍是 Saved Search 重点；要盯**新帖、提案个位数**窗口。
 `},
-{"id": "case-near-beds24-1019", "title": "近失：BEDS24 OTA Integration（投标 120）", "is_template": false, "summary": "雷达最高分近失：beds24 四关过、竞争关否决；作长尾印证不投。", "tags": ["Freelancer", "Beds24", "近失", "竞争"], "related_docs": ["doc-radar-pulse-1019", "doc-longtail", "doc-freelancer-bids"], "path": "docs/cases/near_beds24_ota_2026-10-19.md", "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845", "has_evidence": true, "date": "2026-10-19 10:27", "fields": {}, "content": `# 近失：BEDS24 OTA Integration（Freelancer）
+{"id": "case-near-beds24-1019", "title": "近失：BEDS24 OTA Integration（投标 120）", "is_template": false, "summary": "11:50 雷达续刷仍最高分近失：beds24 四关过、竞争关否决；作长尾印证不投。", "tags": ["Freelancer", "Beds24", "近失", "竞争"], "related_docs": ["doc-radar-pulse-1019", "doc-longtail", "doc-freelancer-bids"], "path": "docs/cases/near_beds24_ota_2026-10-19.md", "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845", "has_evidence": true, "date": "2026-10-19 11:50", "fields": {}, "content": `# 近失：BEDS24 OTA Integration（Freelancer）
 
-- **来源**：[Freelancer · fl-40771845](https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845) · 雷达 2026-10-19 10:27 +08
+- **来源**：[Freelancer · fl-40771845](https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845) · 雷达 2026-10-19 **11:50** +08（同帖续存；10:27 已记）
 - **预算**：\`$30–250\` Fixed · 投标 **120**
 - **筛选**：嵌入轨 · 命中 \`beds24\` · 关键词/预算/清晰/一期均过 · **竞争关未过**（120≥100）→ \`recommend=false\` · score 75
 - **操作思路**：不投本帖（卷死）；把 Beds24/OTA 窄集成留作长尾产品与提案案例素材，等投标明显偏低的同类帖再出手。
@@ -3404,39 +3404,39 @@ Upwork 主战场：       AI Integration | n8n/Zapier | 修完上线 | 多阶段
 - 
 
 `},
-{"id": "doc-radar-pulse-1019", "title": "需求雷达脉搏 2026-10-19 午间", "theme": "市场研究", "date": "2026-10-19 10:27", "summary": "34 帖推荐 0；Beds24 OTA 近失印证长尾；Trends 仍 demo。", "tags": ["雷达", "Freelancer", "Beds24", "脉搏"], "source": "", "path": "docs/notes/radar_pulse_2026-10-19.md", "related_docs": ["doc-radar-brief", "doc-longtail", "doc-pulse-1019", "doc-freelancer-bids"], "content": `# 需求雷达脉搏 · 2026-10-19 午间（Asia/Shanghai）
+{"id": "doc-radar-pulse-1019", "title": "需求雷达脉搏 2026-10-19 午后", "theme": "市场研究", "date": "2026-10-19 11:50", "summary": "29 帖推荐 0（较 10:27 的 34 略降）；Beds24 OTA 近失续存；Trends 仍 demo。", "tags": ["雷达", "Freelancer", "Beds24", "脉搏"], "source": "", "path": "docs/notes/radar_pulse_2026-10-19.md", "related_docs": ["doc-radar-brief", "doc-longtail", "doc-pulse-1019", "doc-freelancer-bids"], "content": `# 需求雷达脉搏 · 2026-10-19 午后（Asia/Shanghai）
 
-> 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`meta.json\` + \`job_leads.json\`（\`published_at\` **2026-10-19 10:27 +08**）。公开 API only；推荐池仍空。
+> 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\` + \`data/job_leads.json\`（\`published_at\` **2026-10-19 11:50 +08**；较同日 10:27 快照续刷）。公开 API only；推荐池仍空。
 
 ## 站内快照
 
 | 指标 | 数值 |
 |---|---|
-| 帖子总数 | **34**（较 10-18 通话快照 31 略升） |
-| 推荐数量 | **0** |
-| Freelancer ingest | OK（18 queries → 34 projects） |
-| Fiverr | 仍跳过（HTTP 403） |
+| 帖子总数 | **29**（10:27 为 34；本轮 ingest \`fetched_projects=29\`） |
+| 推荐数量 | **0**（连续为空） |
+| Freelancer ingest | OK（18 queries → 29 projects） |
+| Fiverr | 仍跳过（HTTP 403 buyer_requests） |
 | Trends | 仍 **demo**（只作灵感） |
 
-→ 短线推荐池连续为空；量略增但过关单为 0。
+→ 短线推荐池仍空；量略降、过关单仍为 0。
 
 ## 最高分近失（未推荐）
 
 | 标题 | 预算 | 投标 | 轨道/命中 | 卡关 |
 |---|---|---|---|---|
-| [BEDS24 OTA Integration Setup](https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845) | $30–250 | **120** | 嵌入 · \`beds24\` | 竞争（≥100） |
-| WordPress & Blogspot Social Media Tools | $30–250 | 108 | 加固 · \`self-hosted\` | 一期不清 + 竞争 |
+| [BEDS24 OTA Integration Setup](https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845) | $30–250 | **120** | 嵌入 · \`beds24\` | 竞争（≥100）；score 75 |
+| WordPress & Blogspot Social Media Tools | $30–250 | 115 | 加固 · \`self-hosted\` | 一期不清 + 竞争；score 67 |
 
 其余多为关键词未命中的营销/建站/人力帖（Travel Copilot、Airbnb 风格站、Call Center 等），不列入跟进。
 
 ## 对长尾的印证
 
-- **Beds24** 再次出现真帖且过关键词/预算/清晰/一期四关，仅被投标量否决 → 与长尾笔记「Beds24 客信工单」同向；公开 Freelancer 池竞争仍凶，适合当**产品/案例方向**而非本轮必投。
+- **Beds24** 同帖仍居最高分近失：关键词/预算/清晰/一期四关过，仅被投标量否决 → 与长尾笔记「Beds24 客信工单」同向；公开 Freelancer 池竞争仍凶，适合当**产品/案例方向**而非本轮必投。
 - 入口词继续盯：\`beds24\` · \`self-hosted\` · OTA/PMS 窄集成；避开泛 chatbot / 纯建站血池。
 
 ## 操作
 
-先看雷达「推荐 + Open」；本轮无推荐则不刷标。Upwork 侧见同日 \`upwork_pulse_2026-10-19\`（QUALIFIED=0）。
+先看雷达「推荐 + Open」；本轮无推荐则不刷标。Upwork 侧见同日 \`upwork_pulse_2026-10-19\`（QUALIFIED=0；上午公开复筛后无新短名单）。
 `},
 ]
 };
