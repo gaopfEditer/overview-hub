@@ -36,7 +36,7 @@
       "type": "freelance",
       "title": "Upwork",
       "url": "https://www.upwork.com/",
-      "summary": "主战场。AI Integration + 工作流/API 自动化；副业（修站、爬虫）放 Project Catalog。",
+      "summary": "主战场。AI Integration + 工作流/API 自动化；副业（修站、爬虫）放 Project Catalog。2026-10-19 公开复筛仍 NO_GOOD_JOBS，盯新帖个位数提案。",
       "permissions": "① Freelancer 账号 + **政府 ID 验证**\n② **Billing method**（买 Connects 必需）\n③ 收款：Payoneer / Wise / 银行\n④ Project Catalog 卖家权限（挂副业）\n⑤ 消息推送（UTC+8 快回面试）",
       "access_path": "1. 登录 Find Work\n2. 建 Saved Searches（n8n/Zapier、AI integration、Playwright/scraping、Next+Supabase+Stripe、self-hosted）\n3. 筛预算 ≥$150–300，跳过 $10–100\n4. 对照 titles_budgets / screened 短名单\n5. 买 Connects → 英文短 Proposal + demo 链接\n6. 面试 → Fixed milestone 或 Hourly 规则\n7. 交付源码+README+bugfix 窗",
       "caveats": "Connects 消耗快；CF/验证码勿用脚本硬闯；China 可访问但注意 US Only 单；Specialized Profiles 已取消；n8n 类常 50+ 提案，靠「写真代码+自托管 demo」差异化；未验证 ID/Billing = 无法投标。",
@@ -48,7 +48,10 @@
         "doc-smb",
         "doc-screened",
         "doc-cap",
-        "doc-live"
+        "doc-live",
+        "doc-pulse-1019",
+        "doc-longtail",
+        "doc-radar-brief"
       ],
       "tags": [
         "Upwork",
@@ -92,7 +95,10 @@
       "path": "docs/platforms/freelancer.md",
       "related_docs": [
         "doc-smb",
-        "doc-backlog"
+        "doc-backlog",
+        "doc-freelancer-bids",
+        "doc-pulse-1019",
+        "doc-radar-brief"
       ],
       "tags": [
         "Freelancer",
@@ -208,6 +214,54 @@
         "占位"
       ],
       "summary": "占位卡：示例结构，不是真实接单案例。字段均为「待填」说明，复制后在 manifest.json 追加真实条目。"
+    },
+    {
+      "id": "case-skip-ai-marketplace-1018",
+      "title": "跳过：Full Stack AI Marketplace $1500",
+      "has_evidence": true,
+      "date": "2026-10-19 09:00",
+      "来源": "Upwork ~022111818917446620252（2026-10-18）",
+      "单子类型": "全栈 / Next+Nest AI 服务市场（从零）",
+      "操作思路": "页核验：$1500 Fixed · 提案 15–20 · China OK · 新客户无 spend → 近失不投",
+      "结果": "放弃 — 预算相对范围偏低 + 提案贴天花板 + 新客户",
+      "path": "docs/cases/skip_ai_marketplace_2026-10-18.md",
+      "related_docs": [
+        "doc-pulse-1019",
+        "doc-titles",
+        "doc-screened"
+      ],
+      "tags": [
+        "Upwork",
+        "跳过",
+        "全栈",
+        "近失"
+      ],
+      "summary": "近失：栈可打但 $1500 做从零市场站偏紧，提案 15–20，新客户无 spend。",
+      "source": "https://www.upwork.com/freelance-jobs/apply/Full-Stack-Developer_~022111818917446620252/"
+    },
+    {
+      "id": "case-skip-fmora-1018",
+      "title": "跳过：FMora AI/Integration 50+ 提案",
+      "has_evidence": true,
+      "date": "2026-10-19 09:00",
+      "来源": "Upwork ~022111829338610990521（2026-10-18）",
+      "单子类型": "AI Integration / LLM tool-calling + 全栈",
+      "操作思路": "栈高度贴合主定位；提案 50+ 且时薪未标 → 不 QUALIFIED，记入 Saved Search 样本",
+      "结果": "放弃 — 提案爆炸 + 时薪未核验（栈仍作入口参考）",
+      "path": "docs/cases/skip_fmora_integration_2026-10-18.md",
+      "related_docs": [
+        "doc-pulse-1019",
+        "doc-longtail",
+        "doc-cap"
+      ],
+      "tags": [
+        "Upwork",
+        "跳过",
+        "AI集成",
+        "近失"
+      ],
+      "summary": "栈极贴但 50+ 提案、时薪未公示；提醒盯新帖个位数窗口。",
+      "source": "https://www.upwork.com/freelance-jobs/apply/Senior-Full-Stack-Integration-Developer_~022111829338610990521/"
     }
   ],
   "docs": [
@@ -329,6 +383,82 @@
       ],
       "summary": "已部署模板与作品集 URL，提案可直接引用。",
       "source": "https://portfolio-site-orpin-three-91.vercel.app"
+    },
+    {
+      "id": "doc-pulse-1019",
+      "title": "Upwork 市场脉搏 2026-10-19",
+      "path": "docs/notes/upwork_pulse_2026-10-19.md",
+      "theme": "Upwork 调研",
+      "date": "2026-10-19 09:00",
+      "tags": [
+        "Upwork",
+        "筛选",
+        "脉搏",
+        "入口词"
+      ],
+      "summary": "公开页复筛：QUALIFIED=0；近失表、跳过模式、入口词与低标方向。",
+      "related_docs": [
+        "doc-screened",
+        "doc-titles",
+        "doc-freelancer-bids"
+      ]
+    },
+    {
+      "id": "doc-freelancer-bids",
+      "title": "Freelancer 竞标观察与低标方向",
+      "path": "docs/notes/freelancer_bid_patterns.md",
+      "theme": "市场研究",
+      "date": "2026-10-12",
+      "tags": [
+        "Freelancer",
+        "低标",
+        "筛单",
+        "Playwright"
+      ],
+      "summary": "高竞标血池 vs 相对可打方向；关键词与本周投单比例。",
+      "related_docs": [
+        "doc-pulse-1019",
+        "doc-smb",
+        "doc-backlog"
+      ]
+    },
+    {
+      "id": "doc-longtail",
+      "title": "长尾方向 · 横切能力 · 另辟蹊径",
+      "path": "docs/notes/longtail_directions_2026-10-18.md",
+      "theme": "成长路径",
+      "date": "2026-10-18",
+      "tags": [
+        "长尾",
+        "Shopify售后",
+        "Beds24",
+        "Agent"
+      ],
+      "summary": "避开大红词内卷；优先 Shopify 售后 Agent / Beds24 工单 / 保修 Claim。",
+      "related_docs": [
+        "doc-radar-brief",
+        "doc-smb",
+        "doc-pulse-1019"
+      ]
+    },
+    {
+      "id": "doc-radar-brief",
+      "title": "需求雷达口径与短线优先",
+      "path": "docs/notes/demand_radar_brief_2026-10-18.md",
+      "theme": "市场研究",
+      "date": "2026-10-18",
+      "tags": [
+        "雷达",
+        "筛选口径",
+        "Lovable",
+        "Chrome扩展"
+      ],
+      "summary": "短线量大/增长快、后期高投入意愿；Chrome 扩展爬虫与 Lovable+Stripe 优先。",
+      "related_docs": [
+        "doc-longtail",
+        "doc-freelancer-bids",
+        "doc-tplplan"
+      ]
     }
   ]
 }

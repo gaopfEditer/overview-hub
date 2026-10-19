@@ -53,3 +53,7 @@ Profile：https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
 **CN（研究用，客户多为英文）：** `Upwork 接单 AI 自动化`, `n8n 工作流接单`, `海外 SMB 自动化需求`, `Playwright 爬虫 接单`, `Lovable 修站`
 
 交叉文档：`upwork_titles_budgets.md`、`requirements_backlog.md`、`smb_demand_clusters.md`、`profile_draft.md`。
+
+## 最近脉搏
+
+见文档区 **Upwork 市场脉搏 2026-10-19**（`docs/notes/upwork_pulse_2026-10-19.md`）：QUALIFIED=0、近失表与跳过模式。交叉：Freelancer 竞标观察、长尾方向笔记。

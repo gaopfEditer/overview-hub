@@ -3,7 +3,7 @@ sections: [{"id": "platforms", "name": "平台前端", "desc": "接单 / 展示 
 platform_types: [{"id": "freelance", "name": "接单平台"}, {"id": "showcase", "name": "作品展示"}, {"id": "community", "name": "社区获客"}],
 platform_field_labels: {"permissions": "权限需求清单", "access_path": "操作路径", "caveats": "注意事项", "trends_keywords": "Google Trends 对应关键词"},
 platforms: [
-{"id": "upwork", "type": "freelance", "title": "Upwork", "url": "https://www.upwork.com/", "summary": "主战场。AI Integration + 工作流/API 自动化；副业（修站、爬虫）放 Project Catalog。", "permissions": "① Freelancer 账号 + **政府 ID 验证**\n② **Billing method**（买 Connects 必需）\n③ 收款：Payoneer / Wise / 银行\n④ Project Catalog 卖家权限（挂副业）\n⑤ 消息推送（UTC+8 快回面试）", "access_path": "1. 登录 Find Work\n2. 建 Saved Searches（n8n/Zapier、AI integration、Playwright/scraping、Next+Supabase+Stripe、self-hosted）\n3. 筛预算 ≥$150–300，跳过 $10–100\n4. 对照 titles_budgets / screened 短名单\n5. 买 Connects → 英文短 Proposal + demo 链接\n6. 面试 → Fixed milestone 或 Hourly 规则\n7. 交付源码+README+bugfix 窗", "caveats": "Connects 消耗快；CF/验证码勿用脚本硬闯；China 可访问但注意 US Only 单；Specialized Profiles 已取消；n8n 类常 50+ 提案，靠「写真代码+自托管 demo」差异化；未验证 ID/Billing = 无法投标。", "trends_keywords": "EN: AI automation freelancer, n8n automation, Zapier alternative n8n, AI chatbot for website, web scraping Playwright, Next.js Supabase Stripe fix, API integration, self-hosted automation, document OCR LLM\nCN: Upwork 接单 AI 自动化, n8n 工作流接单, Playwright 爬虫 接单, Lovable 修站", "related_docs": ["doc-titles", "doc-backlog", "doc-smb", "doc-screened", "doc-cap", "doc-live"], "tags": ["Upwork", "接单平台", "Connects", "主战场"], "path": "docs/platforms/upwork.md", "date": "2026-10-17 18:50", "content": `# Upwork 操作手册
+{"id": "upwork", "type": "freelance", "title": "Upwork", "url": "https://www.upwork.com/", "summary": "主战场。AI Integration + 工作流/API 自动化；副业（修站、爬虫）放 Project Catalog。2026-10-19 公开复筛仍 NO_GOOD_JOBS，盯新帖个位数提案。", "permissions": "① Freelancer 账号 + **政府 ID 验证**\n② **Billing method**（买 Connects 必需）\n③ 收款：Payoneer / Wise / 银行\n④ Project Catalog 卖家权限（挂副业）\n⑤ 消息推送（UTC+8 快回面试）", "access_path": "1. 登录 Find Work\n2. 建 Saved Searches（n8n/Zapier、AI integration、Playwright/scraping、Next+Supabase+Stripe、self-hosted）\n3. 筛预算 ≥$150–300，跳过 $10–100\n4. 对照 titles_budgets / screened 短名单\n5. 买 Connects → 英文短 Proposal + demo 链接\n6. 面试 → Fixed milestone 或 Hourly 规则\n7. 交付源码+README+bugfix 窗", "caveats": "Connects 消耗快；CF/验证码勿用脚本硬闯；China 可访问但注意 US Only 单；Specialized Profiles 已取消；n8n 类常 50+ 提案，靠「写真代码+自托管 demo」差异化；未验证 ID/Billing = 无法投标。", "trends_keywords": "EN: AI automation freelancer, n8n automation, Zapier alternative n8n, AI chatbot for website, web scraping Playwright, Next.js Supabase Stripe fix, API integration, self-hosted automation, document OCR LLM\nCN: Upwork 接单 AI 自动化, n8n 工作流接单, Playwright 爬虫 接单, Lovable 修站", "related_docs": ["doc-titles", "doc-backlog", "doc-smb", "doc-screened", "doc-cap", "doc-live", "doc-pulse-1019", "doc-longtail", "doc-radar-brief"], "tags": ["Upwork", "接单平台", "Connects", "主战场"], "path": "docs/platforms/upwork.md", "date": "2026-10-19 09:08", "content": `# Upwork 操作手册
 
 鹏飞主战场。定位：**AI Integration + Workflow/API Automation**（主）+ 修完 Lovable/Cursor/Bolt 应用、爬虫/Playwright（副，放 Project Catalog）。
 
@@ -58,6 +58,10 @@ Profile：https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
 **CN（研究用，客户多为英文）：** \`Upwork 接单 AI 自动化\`, \`n8n 工作流接单\`, \`海外 SMB 自动化需求\`, \`Playwright 爬虫 接单\`, \`Lovable 修站\`
 
 交叉文档：\`upwork_titles_budgets.md\`、\`requirements_backlog.md\`、\`smb_demand_clusters.md\`、\`profile_draft.md\`。
+
+## 最近脉搏
+
+见文档区 **Upwork 市场脉搏 2026-10-19**（\`docs/notes/upwork_pulse_2026-10-19.md\`）：QUALIFIED=0、近失表与跳过模式。交叉：Freelancer 竞标观察、长尾方向笔记。
 `},
 {"id": "fiverr", "type": "freelance", "title": "Fiverr", "url": "https://www.fiverr.com/", "summary": "产品化 Gig：把 n8n/AI 小交付与修站打成 Basic/Standard/Premium，补 Upwork 定制单。", "permissions": "① Seller 账号（邮箱+手机）\n② **ID 验证**（提现）\n③ 提现渠道（如 Payoneer）\n④ Programming & Tech / AI 类目\n⑤ 可选 Seller Plus（放量后再开）", "access_path": "1. Switching to Selling\n2. 建 1–2 个主 Gig（n8n/AI automation；Fix AI web app）\n3. 写清三档交付物与修改次数\n4. 封面/视频 + 链到 portfolio 模板\n5. 标签对齐买家搜索词\n6. 开 Buyer requests → 24h 内回复\n7. 完成求评，控取消率", "caveats": "过低价伤定位；写死范围防修订地狱；API Key 由买家提供；完成率/响应时间影响算法；导流站外支付须守 ToS；国内注意提现合规。", "trends_keywords": "EN: n8n automation fiverr, zapier setup, AI chatbot fiverr, chatgpt integration, web scraping service, make.com scenario\nCN: Fiverr 卖自动化, Fiverr Gig n8n, 海外小企业 AI 聊天机器人", "related_docs": ["doc-smb", "doc-tplplan", "doc-live"], "tags": ["Fiverr", "接单平台", "Gig"], "path": "docs/platforms/fiverr.md", "date": "2026-10-17 18:50", "content": `# Fiverr 操作手册
 
@@ -104,7 +108,7 @@ Profile：https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
 
 交叉：\`smb_demand_clusters.md\`（Fiverr BTI / Gig 抽样段落）、模板站链接。
 `},
-{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。预算中位偏低，适合小修复/练提案，非主收入。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-smb", "doc-backlog"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-10-17 18:50", "content": `# Freelancer.com 操作手册
+{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。预算中位偏低，适合小修复/练提案，非主收入。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-smb", "doc-backlog", "doc-freelancer-bids", "doc-pulse-1019", "doc-radar-brief"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-10-17 18:50", "content": `# Freelancer.com 操作手册
 
 竞标制项目市场。预算中位偏低、竞标人数多，适合捡「修复/小集成」或练英文提案，不作为主收入依赖。
 
@@ -333,6 +337,37 @@ cases: [
 
 - 收入与结果不编造；未验证信息标明「未验证」。
 - 可在 \`path\` 指向一篇更长的 Markdown 作为正文展开。
+`},
+{"id": "case-skip-ai-marketplace-1018", "title": "跳过：Full Stack AI Marketplace $1500", "is_template": false, "summary": "近失：栈可打但 $1500 做从零市场站偏紧，提案 15–20，新客户无 spend。", "tags": ["Upwork", "跳过", "全栈", "近失"], "related_docs": ["doc-pulse-1019", "doc-titles", "doc-screened"], "path": "docs/cases/skip_ai_marketplace_2026-10-18.md", "source": "https://www.upwork.com/freelance-jobs/apply/Full-Stack-Developer_~022111818917446620252/", "has_evidence": true, "date": "2026-10-19 09:00", "fields": {"来源": "Upwork ~022111818917446620252（2026-10-18）", "单子类型": "全栈 / Next+Nest AI 服务市场（从零）", "操作思路": "页核验：$1500 Fixed · 提案 15–20 · China OK · 新客户无 spend → 近失不投", "结果": "放弃 — 预算相对范围偏低 + 提案贴天花板 + 新客户"}, "来源": "Upwork ~022111818917446620252（2026-10-18）", "单子类型": "全栈 / Next+Nest AI 服务市场（从零）", "操作思路": "页核验：$1500 Fixed · 提案 15–20 · China OK · 新客户无 spend → 近失不投", "结果": "放弃 — 预算相对范围偏低 + 提案贴天花板 + 新客户", "content": `# 跳过案例 · Full Stack AI Marketplace（AWS）
+
+- **日期：** 2026-10-18 发布 / 2026-10-19 复核
+- **来源：** Upwork apply \`~022111818917446620252\`
+- **预算：** $1,500 Fixed（页核验）
+- **提案：** 15–20；面试中 3
+- **地理：** China 在 applicantLocationRequirements
+- **客户：** India，Member since Oct 18, 2026（新号；payment/spend 未展示）
+- **栈：** Next.js / NestJS + AI chat matching
+
+## 为何跳过
+
+提案已贴天花板；从零「AI 服务市场」相对 $1,500 偏低；新客户无历史 spend。记为近失，不作 QUALIFIED。
+
+## 可复用话术点（若同类预算上调再看）
+
+复述：AWS 部署边界、AI matching 数据源、里程碑（鉴权→撮合 MVP→上线）。
+`},
+{"id": "case-skip-fmora-1018", "title": "跳过：FMora AI/Integration 50+ 提案", "is_template": false, "summary": "栈极贴但 50+ 提案、时薪未公示；提醒盯新帖个位数窗口。", "tags": ["Upwork", "跳过", "AI集成", "近失"], "related_docs": ["doc-pulse-1019", "doc-longtail", "doc-cap"], "path": "docs/cases/skip_fmora_integration_2026-10-18.md", "source": "https://www.upwork.com/freelance-jobs/apply/Senior-Full-Stack-Integration-Developer_~022111829338610990521/", "has_evidence": true, "date": "2026-10-19 09:00", "fields": {"来源": "Upwork ~022111829338610990521（2026-10-18）", "单子类型": "AI Integration / LLM tool-calling + 全栈", "操作思路": "栈高度贴合主定位；提案 50+ 且时薪未标 → 不 QUALIFIED，记入 Saved Search 样本", "结果": "放弃 — 提案爆炸 + 时薪未核验（栈仍作入口参考）"}, "来源": "Upwork ~022111829338610990521（2026-10-18）", "单子类型": "AI Integration / LLM tool-calling + 全栈", "操作思路": "栈高度贴合主定位；提案 50+ 且时薪未标 → 不 QUALIFIED，记入 Saved Search 样本", "结果": "放弃 — 提案爆炸 + 时薪未核验（栈仍作入口参考）", "content": `# 跳过案例 · Senior AI / Integration（FMora CAFM）
+
+- **日期：** 2026-10-18 发布 / 2026-10-19 复核
+- **来源：** Upwork apply \`~022111829338610990521\`
+- **预算：** Hourly，页上**未标** $/hr
+- **提案：** 50+
+- **地理：** China OK；客户 UK Essex，约 $14K spent
+- **栈：** React/Next + LLM tool-calling + 集成 — **主定位高度贴合**
+
+## 为何跳过
+
+栈贴合但提案已 50+，且时薪无法页核验 → 不进 QUALIFIED。同类「集成+Agent」仍是 Saved Search 重点；要盯**新帖、提案个位数**窗口。
 `},
 ],
 case_field_order: ["来源", "单子类型", "操作思路", "结果"],
@@ -2933,6 +2968,433 @@ Upwork 主战场：       AI Integration | n8n/Zapier | 修完上线 | 多阶段
 | 作品集 Portfolio | 个人作品集站点 | https://portfolio-site-orpin-three-91.vercel.app |
 
 用法：在 proposal 中直接贴对应模板链接作为 demo，证明可快速交付。
+`},
+{"id": "doc-pulse-1019", "title": "Upwork 市场脉搏 2026-10-19", "theme": "Upwork 调研", "date": "2026-10-19 09:00", "summary": "公开页复筛：QUALIFIED=0；近失表、跳过模式、入口词与低标方向。", "tags": ["Upwork", "筛选", "脉搏", "入口词"], "source": "", "path": "docs/notes/upwork_pulse_2026-10-19.md", "related_docs": ["doc-screened", "doc-titles", "doc-freelancer-bids"], "content": `# Upwork 市场脉搏 · 2026-10-19（Asia/Shanghai）
+
+> 来源：\`checked_2026-10-19_morning.txt\` + 10-17/18 公开页复筛笔记。公开信息 only；QUALIFIED=0。
+
+## 筛选口径（硬过滤）
+
+- Fixed ≥ **$300** 或 Hourly ≥ **$25/hr**（页内可核验）
+- Proposals 约 **&lt;20**
+- China OK / worldwide；跳过 US-only、低价、模糊、站外收款、大额无偿测试
+
+## 本轮结论
+
+**NO_GOOD_JOBS** — 约 36h 窗口内无页核验全过的单。
+
+### 近失（未达标，仅作方向感）
+
+| 标题摘要 | 预算 | 提案 | 跳过主因 |
+|---|---|---|---|
+| Full Stack AI marketplace（Next/Nest） | $1,500 Fixed | 15–20 | 满天花板 + 从零市场站相对低价 + 新客户无 spend |
+| Senior AI/Integration（FMora/CAFM） | Hourly 未标 | 50+ | 提案爆炸 + 时薪未核验（栈很贴） |
+| Lovable 站继续开发上线 | Not Sure Hourly | 20–50 | 无时薪 + 提案偏多 |
+| B.L.U.E. Marketplace 全栈/移动 | $16–$30/hr（文案另称 $25–$40） | 15–20 | **US-only** + 时薪地板偏低 |
+| FB Lead → Zapier 邮件 | $100 Fixed | 50+ | 预算不足 + 卷 |
+
+### 反复出现的跳过模式（10-16→19）
+
+1. **n8n / Zapier / AI automation**：类目顶卡多数 Posted 2–3 天，提案常 **50+**，Fixed 常见 **$5–$10**
+2. **「大系统 + 小预算」**：Outlook/QB/n8n 全家桶标 $500、10 周 SaaS 标 $1,500
+3. **时薪不公示**：卡片/页无 $/hr → 无法 QUALIFIED
+4. **Lovable/Bolt 接管**：有量，但常无预算或提案 20–50
+5. **地理墙**：USA only 仍常见，直接划掉
+
+## 仍值得盯的入口词
+
+**主：** \`n8n\` · \`Zapier migration\` · \`Playwright\` · \`web scraping\` · \`API integration\` · \`self-hosted\` · \`Next.js Supabase Stripe\`  
+**副（量/增速）：** \`Lovable\` · \`Chrome extension scraper\` · \`Shopify return\` / WISMO · \`Beds24\` guest messaging
+
+## 低标 / 可打方向（对照 Freelancer 观察 + 长尾笔记）
+
+- 避开：纯建站/Wix/Shopify 换皮、泛 AI chatbot、$&lt;100 拖拽自动化
+- 优先：Docker/监控/失败重试的采集管线；Playwright+会话/表单；MV3 扩展；进现有系统的 RAG/Agent+审批；窄集成（WhatsApp/Odoo 等）
+- 长尾产品向：Shopify 售后 Agent（WISMO+RMA+HITL）＞ Beds24 客信工单 ＞ 保修 Claim Agent
+
+## 操作提醒
+
+- 公开类目页可用；box \`curl\` 易吃 Cloudflare，勿当数据源
+- \`playwright\` 类目 URL 现 **404**；用搜索词 \`playwright|scraping\` 替代
+- 早/午硬筛提案少+预算够；晚间再按技能补短名单
+`},
+{"id": "doc-freelancer-bids", "title": "Freelancer 竞标观察与低标方向", "theme": "市场研究", "date": "2026-10-12", "summary": "高竞标血池 vs 相对可打方向；关键词与本周投单比例。", "tags": ["Freelancer", "低标", "筛单", "Playwright"], "source": "", "path": "docs/notes/freelancer_bid_patterns.md", "related_docs": ["doc-pulse-1019", "doc-smb", "doc-backlog"], "content": `# Freelancer 竞标观察（2026-10-12 公开列表抽样）
+
+你举的例子：[Wix End-Lease Cleaning Site](https://www.freelancer.com/projects/wix/Wix-End-Lease-Cleaning-Site/details) —— 典型「模板站+报价计算器」，门槛低，容易变成百人竞标池。
+
+## 高竞标（尽量别投 / 别当主战场）
+- Wix / Shopify / WordPress「从零建站、换皮、电商小改」
+- Logo / 短视频剪辑 / 社媒涨粉 / Facebook Ads 傻瓜单
+- 纯数据录入、Lead list、$1–4/hr 采集
+- 「AI Chatbot / n8n 入门作业」类无业务边界单
+- 一次性「爬个 CSV」且描述极短、无反爬/监控要求
+
+## 相对少竞标、更值得盯（公开页里技术门槛更高）
+按当前 \`jobs/web-scraping\`、\`jobs/python\` 等列表抽样归纳（非全站统计）：
+
+1. **带部署/运维的采集系统**  
+   例：云端定时爬 + 失败告警 + 万级 URL（Affordable Cloud Scraping…）  
+   例：Wayfair Closeout 折扣排序、Coles/Woolworths 周更价格管线  
+2. **Playwright/Selenium + 表单/会话自动化**（不是纯 CSV）  
+   例：Python Website Automation Bot（表单提交+定时抽文本）  
+3. **Telegram/监控类小系统 + 明确合规边界**  
+   例：Slovak Police appointment monitor（要先验证可行性）  
+4. **扩展/产品化 scraped 能力**（MV3 + 后台），搜 Chrome extension / bot 类常比 Wix 少人  
+5. **生产向 AI 嵌入**（进已有系统、控费、非套壳）：RAG+工单、多 Outlook AI agent、文档→CSV 咨询流  
+6. **垂直集成**：Odoo↔WhatsApp、Meta API、SaaS 文档自动化、WebRTC 全栈（描述长、技能栈窄）  
+7. **遗留/专项工程**：Zerodha 行情调试、金融 ML 审计、印度语 STT 模型——竞标少但要真专长
+
+## 怎么筛（实操）
+开 [Projects](https://www.freelancer.com/projects) 或技能页后：
+1. **跳过**标签只有 Website Design / Wix / Shopify / Logo / Social Media 且描述 <10 行  
+2. **优先**描述里出现：Playwright、Selenium、Docker、Railway、proxy、retry、webhook、Manifest V3、Nest、FastAPI、SLA、monitoring  
+3. **优先**预算显示几百美元以上、或 Hourly ≥$15 且任务非数据录入  
+4. **优先** Posted <15–30 分钟、Bids 仍个位数时投（早标）  
+5. 对「270 标」类：直接划掉，ROI 为负
+
+## 和你匹配的投单关键词（搜索框）
+\`Playwright\` · \`Chrome extension\` · \`Manifest\` · \`browser automation\` · \`Puppeteer\` · \`data pipeline\` · \`Docker scraper\` · \`NestJS\` · \`FastAPI\` · \`WhatsApp API\` · \`Odoo\` · \`price monitor\`
+
+## 本周投单建议比例
+- 70%：管道/RPA/扩展+后端/生产 AI 嵌入  
+- 20%：中等全栈（有计费/多租户/集成，不是落地页）  
+- 10% 以内：才碰通用建站（且预算够、描述专业）
+
+## 实测竞标数（2026-10-12 公开页抽样）
+
+你的例子：Wix End-Lease Cleaning = **286 标**（当天就爆）。同类 Wix 电商甚至到 **419**；WordPress/Shopify/通用官网常见 **150–500**。
+
+| 类型 | 样例竞标 | 解读 |
+|------|----------|------|
+| Wix/WP/Shopify/Logo | 286–600 | 血池，别投 |
+| 通用 SaaS/全栈 CRM | 300–470 | 也很卷 |
+| 「Chrome 扩展」泛单 | ~194 | 标签稀缺但抢的人不少 |
+| 点名 Playwright 的爬虫/自动化 | ~47–140 | 中等卷 |
+| 扩展+Playwright 反代/自动化 | ~59 | 相对可打 |
+| 小 n8n / Excel 自动化 | ~10–60 | 标少但客单常低 |
+| 窄专项（固件/GIS/本地验证） | ~2–11 | 标少，要真专长 |
+
+**修正认知：** 不是「Playwright/扩展标签少就没人」——池子小，但会投的人更集中，59–194 仍常见。真正「标很少」的多半是数据录入/Excel/$几块钱单，不值得你的时薪。
+
+**实操：** 仍避开 Wix/建站血池；挑描述长、要 Docker/监控/会话/反代的工程单，在 **Bids <30、发帖几小时内** 用里程碑方案砸进去。EOF
+`},
+{"id": "doc-longtail", "title": "长尾方向 · 横切能力 · 另辟蹊径", "theme": "成长路径", "date": "2026-10-18", "summary": "避开大红词内卷；优先 Shopify 售后 Agent / Beds24 工单 / 保修 Claim。", "tags": ["长尾", "Shopify售后", "Beds24", "Agent"], "source": "", "path": "docs/notes/longtail_directions_2026-10-18.md", "related_docs": ["doc-radar-brief", "doc-smb", "doc-pulse-1019"], "content": `# 长尾方向 · 横切能力 · 另辟蹊径（2026-10-18）
+
+> 来源：语音通话整理 + 当日调研 · Asia/Shanghai  
+> 用途：后续主方向决策与**追加新想法**（文末有追加区）  
+> 相关：AI 客服定价调研（同日）、requirement-trendradar 只读观察
+
+---
+
+## 0) 核心思路（另辟蹊径）
+
+**问题：** 某个需求打开后提案列表动辄一两百、两三百条时，基本看不到你的提案。
+
+**对策：**
+- **另辟蹊径 / 岔开思路找需求**——优先难搜索的**长尾关键词 + 垂直工作流组合**，而不是「AI chatbot」「知识库客服」这类大红词。
+- **避开**简单、单体、内卷需求（尤其纯知识库问答 / 通用 Chatbase 替代 / 网站挂件）。
+- **优先综合型**：Agent + 知识库 + 工单/审批/渠道流转打包，卖「动作与审批流」，不卖「挂一个问答框」。
+- 筛选口径（已入记忆）：短期看 **量大** 或 **增长快**；后期看 **少但高投入意愿**。
+
+**定价锚点（同日调研，USD）：** 欧美 10–50 人 AI 客服约 $49–$299/月；纯问答 $29–$99；定制一次约 $200–$2,500；完整多渠道+转人工约 $700–$4,500。
+
+---
+
+## 1) 长尾方向评估（产品/接单双用）
+
+### 结论：优先做什么
+
+1. **优先：Shopify 售后综合 Agent**（主标签：**量大**）— WISMO + 退换货 RMA + Helpdesk 人工审批。  
+2. **次选：Beds24 客信 + 维修/保洁工单**（主标签：**增长快**）。  
+3. **后期：DTC 保修 Claim Agent**（主标签：**少但高投入意愿**）。  
+4. **可复制但合规拖后腿：牙科 Intake + 保险 FAQ + 预约 + 前台工单**（量大；匹配度中）。
+
+执行顺序：先用方向 1 接 2–3 个 HITL 售后项目 → 沉淀「Shopify + 一工单系统」模板 → 再探针 Beds24 或保修。
+
+### 不建议碰
+
+- 纯知识库问答 / 通用 Chatbase·Tidio 替代  
+- 「全行业通用」网站 AI 客服挂件  
+- 正面硬刚 Hostaway 原生 AI，或偏语音栈的 4S Service Advisor（不如 Beds24/Shopify 售后划算）
+
+---
+
+### 方向卡 1 · Shopify 售后综合 Agent（量大）
+
+- **长尾词建议：** \`Shopify return exchange agent\` / \`Shopify LiveAgent AI order tracking handoff\` / \`WISMO + RMA intake agent\`
+- **目标用户：** 欧美 Shopify DTC，约 5–50 人；已有 Gorgias / LiveAgent / Zendesk
+- **变现：** 订阅 **$99–$299/月**；实施/定制 **$800–$2,500**；可先 Upwork 固定价 **$600–$1,500** 获客
+- **MVP：** Agent + 政策/产品 KB + Shopify 只读查单 + 退换货表单写入 Helpdesk 工单 + 低风险自动回复 / 高风险人工审批  
+  **不做：** 自动退款打款、无审批改单、多店铺/多语言全开、完整 Loop/AfterShip 写回（二期）
+- **预估投入：** 约 **80–140h**
+- **为何抗内卷：** 绑「Shopify + RMA + 具体工单系统 + HITL」，卖动作与审批流
+- **匹配度：** 高
+- **需求证据：**
+  - [Upwork：Shopify + LiveAgent AI 客服自动化 Phase 1](https://www.upwork.com/freelance-jobs/apply/n8n-OpenAI-Developer-Needed-Customer-Service-Automation-for-Shopify-LiveAgent_~022105766498669521305/) — 读工单→KB→查 Shopify→草稿→人工审批；预算约 **$600–$1,000**
+  - [Upwork：Order Tracking + KB + Human Handoff](https://www.upwork.com/freelance-jobs/apply/Customer-Support-Agent-Developer-Order-Tracking-Knowledge-Base-Human-Handoff_~022111481314968687339/)
+  - [Indie Hackers：Fortuna](https://www.indiehackers.com/post/i-replaced-an-entire-customer-service-department-with-ai-heres-what-happened-in-the-first-two-weeks-eA7bTzhGgoHS9vggAzlc) — WISMO/退款占大量时间；退款须商家批准
+  - 辅助：[Gorgias 退货自动化按次约 $0.85–$1.00](https://www.getmacha.com/blog/automate-returns-in-gorgias-with-ai)
+
+---
+
+### 方向卡 2 · Beds24 客信 + 维修工单（增长快）
+
+- **长尾词建议：** \`Beds24 AI guest messaging\` / \`Beds24 maintenance ticket agent\` / \`PMS guest inbox autopilot\`
+- **目标用户：** Beds24 技术型宿主 / 小型 PMC（5–80 套房），非 Hostaway 全家桶
+- **变现：** **$15–$35/单元/月** 或套餐 **$149–$399/月**；实施 **$500–$2,000**
+- **MVP：** Agent + 房源指南 KB + Beds24 读预订/消息 + 渠道回写草稿或自动发 + 维修/缺物→工单并升级人工  
+  **不做：** 改价/限售、全渠道营销、复杂宿舍分配
+- **预估投入：** 约 **120–200h**
+- **匹配度：** 高
+- **需求证据：**
+  - [ProhostAI × Beds24（Early Access）](https://www.prohost.ai/integrations/beds24)
+  - [TravelPal × Beds24](https://asktravelpal.com/integrations/beds24)
+  - [Hostaway AI Guest Messaging](https://support.hostaway.com/hc/en-us/articles/16948038685851-Hostaway-AI-Guest-Messaging) / [Hostaway AI](https://www.hostaway.com/features/hostaway-ai/)
+  - 辅助：[Chatwoot + 酒店客通架构类岗](https://www.upwork.com/freelance-jobs/apply/Senior-Integration-Architect-Chatwoot-for-Hospitality-Guest-Communication_~022097753847788785145/)
+
+---
+
+### 方向卡 3 · DTC Warranty Claim Agent（少但高投入意愿）
+
+- **长尾词建议：** \`warranty claim AI agent Shopify\` / \`warranty photo evidence intake\` / \`post-purchase warranty portal agent\`
+- **目标用户：** 电子/户外/家具等带保修的 Shopify 品牌，支持 3–30 人
+- **变现：** 订阅 **$199–$499/月**；实施 **$1,500–$4,500**
+- **MVP：** Agent + 保修政策/SKU KB + 订单校验 + 照片/描述采集 + 理赔状态机（eligible / need_info / escalate）+ 通知人工  
+  **不做：** 自动大额打款、供应商索赔财务、全 CRM 替换
+- **预估投入：** 约 **100–180h**
+- **匹配度：** 高
+- **需求证据：**
+  - [Claimlane AI Claims](https://www.claimlane.com/product/ai)
+  - [OpenAgent Warranty Support](https://openagent.work/use-cases/warranty-support)
+  - Reddit 痛点：[Coros 保修](https://www.reddit.com/r/Coros/comments/1m3drt4/totally_ghosted_by_coros_warranty_claim_beware/) · [Oura 转不了人](https://www.reddit.com/r/ouraring/comments/1q5kov5/customer_support_nonexistent/)
+
+---
+
+### 方向卡 4 · 牙科 Intake + 账单 FAQ + 预约 + 前台工单（量大 · 匹配中）
+
+- **长尾词建议：** \`dental patient intake chatbot\` / \`dental insurance billing FAQ agent\` / \`dentist n8n appointment agent\`
+- **目标用户：** 欧美单体/小连锁牙科（1–5 诊所）
+- **变现：** **$99–$249/月** + 实施 **$500–$2,000**
+- **MVP：** Agent + FAQ KB + 新患 Intake + 日历预约 + 复杂账单/投诉→前台工单  
+  **不做：** 真实理赔提交、Dentrix 等深度写回、无合规乱存 PHI
+- **预估投入：** 约 **90–160h**（认真做 HIPAA 再 +40–80）
+- **匹配度：** 中（技术高；合规与获客周期拖后腿）
+- **需求证据：**
+  - [Freelancer：牙医 n8n Chat Flow](https://www.freelancer.com/projects/chatbot/development-chat-flow-for-dentist) — 预算约 $250–$750，成交约 **$530**
+  - [Freelancer：Dental Website AI Chatbot](https://www.freelancer.com/projects/ai-chatbot-development/dental-website-chatbot-integration)
+  - [Dental chatbot 功能页](https://aisupportagent.io/dental-chatbot)
+
+---
+
+## 2) 跨领域共性复杂需求（横切能力）
+
+> 这是**交付能力模式**，不是垂直产品点子；可与上一节组合（例如：Shopify 售后 = API 集成 + Webhook + 工作流 + 可选插件）。
+
+### 最贴技能栈的 Top3
+
+1. **抗反爬采集与无头浏览器流水线**  
+2. **多系统 API / Webhook 对接（含 Shopify↔ERP/CRM）**  
+3. **支付分账 / Stripe Connect + Webhook 对账**
+
+另两项也很贴：**工作流编排（n8n Docker）**、**浏览器插件作为集成面**。
+
+### 建议避开或后碰
+
+企业 SAML/SCIM 深水、HIPAA/深 PCI 顾问式项目、**重前端视觉/Design System**、**纯 iOS/Android 原生**、游戏权威服/netcode。
+
+### 话术
+
+不要卖「会 Python」；卖「双向同步 + 对账报表」或「抗 bot 的监控型采集管道（Docker 交付）」；支付线单独包装 Connect 分账 + 幂等 webhook + 日对账。
+
+### 排序表（频率主排 · 复杂度次排）
+
+| # | 模式 | 频率 | 复杂度 | 匹配 | 变现信号（公开源，勿当全球公允价） |
+|---|---|---|---|---|---|
+| 1 | 工作流编排 / 自动化胶水 | 高 | 中→高 | 高 | ~$40/hr 中位；复杂自托管更高 |
+| 2 | 抗反爬 / 无头采集流水线 | 高 | 高 | 高 | ~$20–80/hr；固定约 $100–600；管道 $200–1000+/月 |
+| 3 | 多系统 API 集成 | 高 | 高 | 高 | 机构向 $49+/hr；$1.5k/1–3 周起（文档清） |
+| 4 | Webhook 可靠处理 | 高 | 高 | 高 | $30–60/hr 档；常打包进集成 |
+| 5 | 数据迁移 / ETL | 高 | 高 | 中 | 常见 $10–40/hr；专家按周 |
+| 6 | OAuth / SSO / RBAC | 中→高 | 高 | 中 | 插件 OAuth 可做；企业 SAML 深 |
+| 7 | Stripe Connect 分账 | 中 | 高 | 高 | 小修约 $300；完整模块常更高 |
+| 8 | 浏览器插件集成面 | 中 | 中→高 | 高 | 简单 $0.5–2k；含支付/API $3–10k |
+| 9 | WebSocket 实时鉴权 | 中 | 高 | 中 | 独立价弱 |
+| 10 | 队列 / CDC 事件编排 | 中 | 高 | 中 | 常与 ERP/SSO 同现 |
+| 11 | SaaS OAuth + 限流韧性 | 中 | 中→高 | 高 | 并入 API 集成 |
+| 12 | 跨系统权限同步 | 低→中 | 高 | 低 | 公开价弱 |
+
+**证据例：**
+- [Upwork 爬虫岗](https://www.upwork.com/freelance-jobs/apply/Web-Scraping-Expert-Needed-for-Reliable-Data-Extraction-Automationd_~022104592296038802480/)
+- [Freelancer Shopify↔ERP](https://www.freelancer.com/projects/shopify-site/shopify-api-integration-with-erp)
+- [Stripe Connect 分账岗](https://www.upwork.com/freelance-jobs/apply/Stripe-Connect-Specialist-for-Payment-Splitting_~022111363835785154145/)
+- [ExtensionFast 2026 报价](https://www.extensionfast.com/blog/hire-a-chrome-extension-developer)
+- 岗量聚合参考：[Redwater Jul 2026](https://upwork.redwaterrev.com/archive/2026-07) · [DevSnipe 工作流](https://devsnipe.com/blog/workflow-automation-freelance-jobs-2026)
+
+**可靠性套件（几乎总是同一套）：**  
+鉴权 → 契约 → 入站（Webhook/队列）→ 幂等写入 → 重试/DLQ → 对账 → 可观测 → Docker 交付。
+
+---
+
+## 3) 两份材料怎么一起用
+
+| 用法 | 做法 |
+|---|---|
+| 接单获客 | 用长尾词搜 Shopify 售后 / Beds24 / warranty；提案强调 HITL + 工单，不写「通用 chatbot」 |
+| 能力包装 | 在提案里露出横切能力：API 同步、抗爬、Connect、插件、n8n |
+| 产品化 | 方向 1 模板化后，再叠 Stripe/插件模块抬客单价 |
+| 雷达/搜词 | 难搜组合词优先；大红词（AI chatbot）仅作对照，不作为主投词 |
+
+---
+
+## 追加区（新想法往下写）
+
+<!-- 格式建议：YYYY-MM-DD · 一句话想法 · 可选链接 -->
+
+- 
+`},
+{"id": "doc-radar-brief", "title": "需求雷达口径与短线优先", "theme": "市场研究", "date": "2026-10-18", "summary": "短线量大/增长快、后期高投入意愿；Chrome 扩展爬虫与 Lovable+Stripe 优先。", "tags": ["雷达", "筛选口径", "Lovable", "Chrome扩展"], "source": "", "path": "docs/notes/demand_radar_brief_2026-10-18.md", "related_docs": ["doc-longtail", "doc-freelancer-bids", "doc-tplplan"], "content": `# 通话笔记：需求雷达 · 筛选口径 · MVP（2026-10-18）
+
+> 来源：语音通话整理 · Asia/Shanghai  
+> 用途：后续查阅与**追加新想法**（文末有追加区）  
+> 相关站：[requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/)
+
+---
+
+## 1) requirement-trendradar 定义口径
+
+- **是什么：** 内部海外需求雷达（gaopfEditer），公开页展示 Freelancer 等开放帖 + 机会卡 / 周榜。
+- **「站上实时需求」：** 以站点 **接单帖 / job_leads** 流水线为准（约每 4 小时 ingest），经双轨三关进入**推荐池**；先看「推荐 + Open」再人工决定是否投。
+- **不是：** 不登录平台、**不自动投标**；雷达观察**不作接单验收**。
+- **已知限制（通话当日）：**
+  - Trends / 周榜常为 **demo / fixture**，只作灵感，不当实盘。
+  - Fiverr Buyer Requests：**403 / 反bot**，站内跳过。
+  - Contra 等多数未接入。
+  - 机会卡含 PH 日榜 + 关键词壳；PH 新品多为「落不上」。
+
+---
+
+## 2) 长线 / 短线需求分法
+
+| | **短线** | **长线** |
+|---|---|---|
+| 含义 | 实时接单帖，快速出手 | 赛道 / 趋势，找可做的 MVP 方向 |
+| 主要源 | Freelancer（站内）、Upwork 等开放岗（站外补扫） | Trends、周榜、Product Hunt、社区扫描、机会卡赛道词 |
+| 用法 | 有推荐或低竞争真帖再投；一期可验收 | 评估可行性 → MVP → 自动化路径；可慢不可假 |
+
+**一句话：** 短线 = 跟帖变现；长线 = 选方向做透。
+
+---
+
+## 3) 需求筛选新口径（长期执行）
+
+已写入记忆，后续评估 / 雷达 / 机会筛选一律按此：
+
+1. **短期关注两类**
+   - **需求量大的**
+   - **增长快的**
+2. **后期关注一类**
+   - 数量可以少，但用户**愿意花时间**（**高投入意愿**）
+
+---
+
+## 4) 实时雷达最新数据（通话当日快照）
+
+### 站内（\`published_at\` ≈ 2026-10-18 18:07 +08）
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **31** |
+| 来源 | Freelancer **31**；Fiverr **0**；其它 **0** |
+| 推荐数量 | **0**（相对更早一轮曾 **14 → 0**） |
+
+→ **短线推荐池为空**；总量也偏少，且单一来源。
+
+### 站外补扫（不改雷达仓 · 关键词变体 + 多源）
+
+| 版本 | 约数 | 说明 |
+|---|---|---|
+| 通话中首次汇总 | **12–18** 条可跟真帖/信号 | 优先：**Chrome 扩展爬虫**、**Lovable 加固** |
+| 同日更深补扫 | 去重约 **42** 条相关信号 | Upwork 22 / Freelancer 15 / 其它；Contra、Fiverr 仍扫不到 |
+
+**优先方向（短线跟单话术）：** Chrome 扩展爬虫类开放帖；Lovable/Bolt → 生产 / Stripe 加固（Upwork 岗 + Catalog 侧面验证量大、增长快）。
+
+---
+
+## 5) 难度评估（按技能栈）
+
+技能：Python、Docker、爬虫与 API 逆向、无头浏览器、浏览器插件、支付网关对接。
+
+| 类型 | 难度 | 预估工时【估】 |
+|---|---|---|
+| Stripe 接 Lovable 落地页（一次性 Checkout） | 低 | **约 4–10h** |
+| 简单 Chrome 扩展爬虫（读 DOM + 点击） | 低–中 | **约 6–14h** |
+| 合计「好接」区间 | — | **约 4–16h** |
+| Lovable 半成品全面加固（Auth/DB/Stripe） | 中 | 约 12–28h |
+| BEDS24 / Hostify 等 OTA 对接 | 中高 | 约 24–48h+（预算与竞争常不匹配） |
+| 大范围 SaaS 加固 / 订阅中台 / 企业 PMS | 高 | 40h–不可控 |
+
+**接单顺序建议：** 先 Stripe×Lovable → 浅 Chrome 扩展 → 再中等加固；高提案数 OTA / 企业插件慎广投。
+
+---
+
+## 6) AI 提效判断
+
+- **写代码 / 改模板 / 出选择器：** 可明显压缩；熟练时单功能可压到大约 **1–2 小时**量级（视范围）。
+- **仍需人工：** Stripe 账号与密钥、真卡/测试验收、域名与 webhook 公网、**找付费用户 / 上架触达**、范围谈判与验收扯皮。
+- **结论：** AI 加速交付，不替代「密钥、合规支付、获客」。
+
+---
+
+## 7) Lovable 加固 + Stripe MVP（已挂起）
+
+**目标（最小）：** 只验证「有人肯为落地页加一层 Stripe 支付校验付钱」。  
+不做：多语言、后台、复杂订阅。
+
+**功能清单（摘要）：**
+1. 英文落地页 + 标价 + Pay with Stripe  
+2. Stripe **Checkout**（一次性 \`mode=payment\`）  
+3. **Webhook** 验签（\`checkout.session.completed\`）  
+4. Success / Cancel 页 + 交付包链接  
+5. Docker / Python（FastAPI）部署形态  
+
+**工时原估：** 约 **8–12h**。  
+
+**代码位置：** \`/workspace/lovable-stripe-mvp\`  
+**状态：已挂起**（2026-10-18）——本地页面与 Checkout/webhook 代码已齐；**卡在 Stripe 测试密钥**；等说「恢复」再继续。  
+**不做：** 挂起期间不再开发。
+
+---
+
+## 8) 主 bot /「另一边」邮箱
+
+- 默认收件人：**\`gaopftask@mail.grokbot.com\`**
+- 说「发邮件给另一边 / 发给主 bot」时用此地址；**不再**用旧 editor 地址，也不再猜测其它地址。
+
+---
+
+## 9) 评估结论（行动口径）
+
+1. **短线池子空**（站内推荐 0）→ 不要把站内推荐当搜投清单。  
+2. **别硬投高提案数帖**（如 BEDS24 百人围标、预算过紧）→ 等邀约或砍一期，或改 Upwork 精准词。  
+3. 站外已有 Lovable 加固 / 扩展爬虫 / 自动化长约等信号 → 短线跟 **Upwork Lovable→生产簇** 与 **低难扩展帖**；长线仍用 Trends 灵感 + 高投入意愿岗（如顾问 £3k、$8k SaaS）作后期。  
+4. 扩雷达词表与 Upwork 源 → 需**代码侧**改 ingest；市场先导只评估、不改仓、不代投。
+
+---
+
+## 附录 A · 通话中其它已对齐事项（可选查阅）
+
+- 本周实验配额（另线）：币圈 15h / 接单 15h / 副线 ≤5h；周一复盘。  
+- 编码默认 Composer 2.5 Fast（省 token），除非另有要求。  
+- 市场先导职责：主题筛选与可行性 / MVP；不改 requirement-trendradar 仓、不写最终帖、不代投。
+
+---
+
+## 追加区（新想法往下写）
+
+<!-- 格式建议：YYYY-MM-DD · 一句话想法 · 可选链接 -->
+
+- 
+
 `},
 ]
 };
