@@ -51,7 +51,8 @@
         "doc-live",
         "doc-pulse-1019",
         "doc-longtail",
-        "doc-radar-brief"
+        "doc-radar-brief",
+        "doc-radar-pulse-1019"
       ],
       "tags": [
         "Upwork",
@@ -87,7 +88,7 @@
       "type": "freelance",
       "title": "Freelancer.com",
       "url": "https://www.freelancer.com/",
-      "summary": "竞标制补充池。预算中位偏低，适合小修复/练提案，非主收入。",
+      "summary": "竞标制补充池。2026-10-19 10:27 雷达 34 帖、推荐仍 0；Beds24 OTA 近失仅卡在投标 120。预算中位偏低，非主收入。",
       "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解",
       "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评",
       "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。",
@@ -98,7 +99,8 @@
         "doc-backlog",
         "doc-freelancer-bids",
         "doc-pulse-1019",
-        "doc-radar-brief"
+        "doc-radar-brief",
+        "doc-radar-pulse-1019"
       ],
       "tags": [
         "Freelancer",
@@ -262,6 +264,26 @@
       ],
       "summary": "栈极贴但 50+ 提案、时薪未公示；提醒盯新帖个位数窗口。",
       "source": "https://www.upwork.com/freelance-jobs/apply/Senior-Full-Stack-Integration-Developer_~022111829338610990521/"
+    },
+    {
+      "id": "case-near-beds24-1019",
+      "title": "近失：BEDS24 OTA Integration（投标 120）",
+      "path": "docs/cases/near_beds24_ota_2026-10-19.md",
+      "date": "2026-10-19 10:27",
+      "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845",
+      "has_evidence": true,
+      "summary": "雷达最高分近失：beds24 四关过、竞争关否决；作长尾印证不投。",
+      "tags": [
+        "Freelancer",
+        "Beds24",
+        "近失",
+        "竞争"
+      ],
+      "related_docs": [
+        "doc-radar-pulse-1019",
+        "doc-longtail",
+        "doc-freelancer-bids"
+      ]
     }
   ],
   "docs": [
@@ -400,7 +422,8 @@
       "related_docs": [
         "doc-screened",
         "doc-titles",
-        "doc-freelancer-bids"
+        "doc-freelancer-bids",
+        "doc-radar-pulse-1019"
       ]
     },
     {
@@ -419,7 +442,8 @@
       "related_docs": [
         "doc-pulse-1019",
         "doc-smb",
-        "doc-backlog"
+        "doc-backlog",
+        "doc-radar-pulse-1019"
       ]
     },
     {
@@ -438,7 +462,8 @@
       "related_docs": [
         "doc-radar-brief",
         "doc-smb",
-        "doc-pulse-1019"
+        "doc-pulse-1019",
+        "doc-radar-pulse-1019"
       ]
     },
     {
@@ -457,7 +482,28 @@
       "related_docs": [
         "doc-longtail",
         "doc-freelancer-bids",
-        "doc-tplplan"
+        "doc-tplplan",
+        "doc-radar-pulse-1019"
+      ]
+    },
+    {
+      "id": "doc-radar-pulse-1019",
+      "title": "需求雷达脉搏 2026-10-19 午间",
+      "path": "docs/notes/radar_pulse_2026-10-19.md",
+      "theme": "市场研究",
+      "date": "2026-10-19 10:27",
+      "tags": [
+        "雷达",
+        "Freelancer",
+        "Beds24",
+        "脉搏"
+      ],
+      "summary": "34 帖推荐 0；Beds24 OTA 近失印证长尾；Trends 仍 demo。",
+      "related_docs": [
+        "doc-radar-brief",
+        "doc-longtail",
+        "doc-pulse-1019",
+        "doc-freelancer-bids"
       ]
     }
   ]

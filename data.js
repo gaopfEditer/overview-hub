@@ -3,7 +3,7 @@ sections: [{"id": "platforms", "name": "平台前端", "desc": "接单 / 展示 
 platform_types: [{"id": "freelance", "name": "接单平台"}, {"id": "showcase", "name": "作品展示"}, {"id": "community", "name": "社区获客"}],
 platform_field_labels: {"permissions": "权限需求清单", "access_path": "操作路径", "caveats": "注意事项", "trends_keywords": "Google Trends 对应关键词"},
 platforms: [
-{"id": "upwork", "type": "freelance", "title": "Upwork", "url": "https://www.upwork.com/", "summary": "主战场。AI Integration + 工作流/API 自动化；副业（修站、爬虫）放 Project Catalog。2026-10-19 公开复筛仍 NO_GOOD_JOBS，盯新帖个位数提案。", "permissions": "① Freelancer 账号 + **政府 ID 验证**\n② **Billing method**（买 Connects 必需）\n③ 收款：Payoneer / Wise / 银行\n④ Project Catalog 卖家权限（挂副业）\n⑤ 消息推送（UTC+8 快回面试）", "access_path": "1. 登录 Find Work\n2. 建 Saved Searches（n8n/Zapier、AI integration、Playwright/scraping、Next+Supabase+Stripe、self-hosted）\n3. 筛预算 ≥$150–300，跳过 $10–100\n4. 对照 titles_budgets / screened 短名单\n5. 买 Connects → 英文短 Proposal + demo 链接\n6. 面试 → Fixed milestone 或 Hourly 规则\n7. 交付源码+README+bugfix 窗", "caveats": "Connects 消耗快；CF/验证码勿用脚本硬闯；China 可访问但注意 US Only 单；Specialized Profiles 已取消；n8n 类常 50+ 提案，靠「写真代码+自托管 demo」差异化；未验证 ID/Billing = 无法投标。", "trends_keywords": "EN: AI automation freelancer, n8n automation, Zapier alternative n8n, AI chatbot for website, web scraping Playwright, Next.js Supabase Stripe fix, API integration, self-hosted automation, document OCR LLM\nCN: Upwork 接单 AI 自动化, n8n 工作流接单, Playwright 爬虫 接单, Lovable 修站", "related_docs": ["doc-titles", "doc-backlog", "doc-smb", "doc-screened", "doc-cap", "doc-live", "doc-pulse-1019", "doc-longtail", "doc-radar-brief"], "tags": ["Upwork", "接单平台", "Connects", "主战场"], "path": "docs/platforms/upwork.md", "date": "2026-10-19 09:08", "content": `# Upwork 操作手册
+{"id": "upwork", "type": "freelance", "title": "Upwork", "url": "https://www.upwork.com/", "summary": "主战场。AI Integration + 工作流/API 自动化；副业（修站、爬虫）放 Project Catalog。2026-10-19 公开复筛仍 NO_GOOD_JOBS，盯新帖个位数提案。", "permissions": "① Freelancer 账号 + **政府 ID 验证**\n② **Billing method**（买 Connects 必需）\n③ 收款：Payoneer / Wise / 银行\n④ Project Catalog 卖家权限（挂副业）\n⑤ 消息推送（UTC+8 快回面试）", "access_path": "1. 登录 Find Work\n2. 建 Saved Searches（n8n/Zapier、AI integration、Playwright/scraping、Next+Supabase+Stripe、self-hosted）\n3. 筛预算 ≥$150–300，跳过 $10–100\n4. 对照 titles_budgets / screened 短名单\n5. 买 Connects → 英文短 Proposal + demo 链接\n6. 面试 → Fixed milestone 或 Hourly 规则\n7. 交付源码+README+bugfix 窗", "caveats": "Connects 消耗快；CF/验证码勿用脚本硬闯；China 可访问但注意 US Only 单；Specialized Profiles 已取消；n8n 类常 50+ 提案，靠「写真代码+自托管 demo」差异化；未验证 ID/Billing = 无法投标。", "trends_keywords": "EN: AI automation freelancer, n8n automation, Zapier alternative n8n, AI chatbot for website, web scraping Playwright, Next.js Supabase Stripe fix, API integration, self-hosted automation, document OCR LLM\nCN: Upwork 接单 AI 自动化, n8n 工作流接单, Playwright 爬虫 接单, Lovable 修站", "related_docs": ["doc-titles", "doc-backlog", "doc-smb", "doc-screened", "doc-cap", "doc-live", "doc-pulse-1019", "doc-longtail", "doc-radar-brief", "doc-radar-pulse-1019"], "tags": ["Upwork", "接单平台", "Connects", "主战场"], "path": "docs/platforms/upwork.md", "date": "2026-10-19 09:08", "content": `# Upwork 操作手册
 
 鹏飞主战场。定位：**AI Integration + Workflow/API Automation**（主）+ 修完 Lovable/Cursor/Bolt 应用、爬虫/Playwright（副，放 Project Catalog）。
 
@@ -108,7 +108,7 @@ Profile：https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
 
 交叉：\`smb_demand_clusters.md\`（Fiverr BTI / Gig 抽样段落）、模板站链接。
 `},
-{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。预算中位偏低，适合小修复/练提案，非主收入。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-smb", "doc-backlog", "doc-freelancer-bids", "doc-pulse-1019", "doc-radar-brief"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-10-17 18:50", "content": `# Freelancer.com 操作手册
+{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。2026-10-19 10:27 雷达 34 帖、推荐仍 0；Beds24 OTA 近失仅卡在投标 120。预算中位偏低，非主收入。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-smb", "doc-backlog", "doc-freelancer-bids", "doc-pulse-1019", "doc-radar-brief", "doc-radar-pulse-1019"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-10-17 18:50", "content": `# Freelancer.com 操作手册
 
 竞标制项目市场。预算中位偏低、竞标人数多，适合捡「修复/小集成」或练英文提案，不作为主收入依赖。
 
@@ -368,6 +368,14 @@ cases: [
 ## 为何跳过
 
 栈贴合但提案已 50+，且时薪无法页核验 → 不进 QUALIFIED。同类「集成+Agent」仍是 Saved Search 重点；要盯**新帖、提案个位数**窗口。
+`},
+{"id": "case-near-beds24-1019", "title": "近失：BEDS24 OTA Integration（投标 120）", "is_template": false, "summary": "雷达最高分近失：beds24 四关过、竞争关否决；作长尾印证不投。", "tags": ["Freelancer", "Beds24", "近失", "竞争"], "related_docs": ["doc-radar-pulse-1019", "doc-longtail", "doc-freelancer-bids"], "path": "docs/cases/near_beds24_ota_2026-10-19.md", "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845", "has_evidence": true, "date": "2026-10-19 10:27", "fields": {}, "content": `# 近失：BEDS24 OTA Integration（Freelancer）
+
+- **来源**：[Freelancer · fl-40771845](https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845) · 雷达 2026-10-19 10:27 +08
+- **预算**：\`$30–250\` Fixed · 投标 **120**
+- **筛选**：嵌入轨 · 命中 \`beds24\` · 关键词/预算/清晰/一期均过 · **竞争关未过**（120≥100）→ \`recommend=false\` · score 75
+- **操作思路**：不投本帖（卷死）；把 Beds24/OTA 窄集成留作长尾产品与提案案例素材，等投标明显偏低的同类帖再出手。
+- **结果**：未投。印证长尾方向，非本轮可打单。
 `},
 ],
 case_field_order: ["来源", "单子类型", "操作思路", "结果"],
@@ -2969,7 +2977,7 @@ Upwork 主战场：       AI Integration | n8n/Zapier | 修完上线 | 多阶段
 
 用法：在 proposal 中直接贴对应模板链接作为 demo，证明可快速交付。
 `},
-{"id": "doc-pulse-1019", "title": "Upwork 市场脉搏 2026-10-19", "theme": "Upwork 调研", "date": "2026-10-19 09:00", "summary": "公开页复筛：QUALIFIED=0；近失表、跳过模式、入口词与低标方向。", "tags": ["Upwork", "筛选", "脉搏", "入口词"], "source": "", "path": "docs/notes/upwork_pulse_2026-10-19.md", "related_docs": ["doc-screened", "doc-titles", "doc-freelancer-bids"], "content": `# Upwork 市场脉搏 · 2026-10-19（Asia/Shanghai）
+{"id": "doc-pulse-1019", "title": "Upwork 市场脉搏 2026-10-19", "theme": "Upwork 调研", "date": "2026-10-19 09:00", "summary": "公开页复筛：QUALIFIED=0；近失表、跳过模式、入口词与低标方向。", "tags": ["Upwork", "筛选", "脉搏", "入口词"], "source": "", "path": "docs/notes/upwork_pulse_2026-10-19.md", "related_docs": ["doc-screened", "doc-titles", "doc-freelancer-bids", "doc-radar-pulse-1019"], "content": `# Upwork 市场脉搏 · 2026-10-19（Asia/Shanghai）
 
 > 来源：\`checked_2026-10-19_morning.txt\` + 10-17/18 公开页复筛笔记。公开信息 only；QUALIFIED=0。
 
@@ -3018,7 +3026,7 @@ Upwork 主战场：       AI Integration | n8n/Zapier | 修完上线 | 多阶段
 - \`playwright\` 类目 URL 现 **404**；用搜索词 \`playwright|scraping\` 替代
 - 早/午硬筛提案少+预算够；晚间再按技能补短名单
 `},
-{"id": "doc-freelancer-bids", "title": "Freelancer 竞标观察与低标方向", "theme": "市场研究", "date": "2026-10-12", "summary": "高竞标血池 vs 相对可打方向；关键词与本周投单比例。", "tags": ["Freelancer", "低标", "筛单", "Playwright"], "source": "", "path": "docs/notes/freelancer_bid_patterns.md", "related_docs": ["doc-pulse-1019", "doc-smb", "doc-backlog"], "content": `# Freelancer 竞标观察（2026-10-12 公开列表抽样）
+{"id": "doc-freelancer-bids", "title": "Freelancer 竞标观察与低标方向", "theme": "市场研究", "date": "2026-10-12", "summary": "高竞标血池 vs 相对可打方向；关键词与本周投单比例。", "tags": ["Freelancer", "低标", "筛单", "Playwright"], "source": "", "path": "docs/notes/freelancer_bid_patterns.md", "related_docs": ["doc-pulse-1019", "doc-smb", "doc-backlog", "doc-radar-pulse-1019"], "content": `# Freelancer 竞标观察（2026-10-12 公开列表抽样）
 
 你举的例子：[Wix End-Lease Cleaning Site](https://www.freelancer.com/projects/wix/Wix-End-Lease-Cleaning-Site/details) —— 典型「模板站+报价计算器」，门槛低，容易变成百人竞标池。
 
@@ -3078,7 +3086,7 @@ Upwork 主战场：       AI Integration | n8n/Zapier | 修完上线 | 多阶段
 
 **实操：** 仍避开 Wix/建站血池；挑描述长、要 Docker/监控/会话/反代的工程单，在 **Bids <30、发帖几小时内** 用里程碑方案砸进去。EOF
 `},
-{"id": "doc-longtail", "title": "长尾方向 · 横切能力 · 另辟蹊径", "theme": "成长路径", "date": "2026-10-18", "summary": "避开大红词内卷；优先 Shopify 售后 Agent / Beds24 工单 / 保修 Claim。", "tags": ["长尾", "Shopify售后", "Beds24", "Agent"], "source": "", "path": "docs/notes/longtail_directions_2026-10-18.md", "related_docs": ["doc-radar-brief", "doc-smb", "doc-pulse-1019"], "content": `# 长尾方向 · 横切能力 · 另辟蹊径（2026-10-18）
+{"id": "doc-longtail", "title": "长尾方向 · 横切能力 · 另辟蹊径", "theme": "成长路径", "date": "2026-10-18", "summary": "避开大红词内卷；优先 Shopify 售后 Agent / Beds24 工单 / 保修 Claim。", "tags": ["长尾", "Shopify售后", "Beds24", "Agent"], "source": "", "path": "docs/notes/longtail_directions_2026-10-18.md", "related_docs": ["doc-radar-brief", "doc-smb", "doc-pulse-1019", "doc-radar-pulse-1019"], "content": `# 长尾方向 · 横切能力 · 另辟蹊径（2026-10-18）
 
 > 来源：语音通话整理 + 当日调研 · Asia/Shanghai  
 > 用途：后续主方向决策与**追加新想法**（文末有追加区）  
@@ -3252,7 +3260,7 @@ Upwork 主战场：       AI Integration | n8n/Zapier | 修完上线 | 多阶段
 
 - 
 `},
-{"id": "doc-radar-brief", "title": "需求雷达口径与短线优先", "theme": "市场研究", "date": "2026-10-18", "summary": "短线量大/增长快、后期高投入意愿；Chrome 扩展爬虫与 Lovable+Stripe 优先。", "tags": ["雷达", "筛选口径", "Lovable", "Chrome扩展"], "source": "", "path": "docs/notes/demand_radar_brief_2026-10-18.md", "related_docs": ["doc-longtail", "doc-freelancer-bids", "doc-tplplan"], "content": `# 通话笔记：需求雷达 · 筛选口径 · MVP（2026-10-18）
+{"id": "doc-radar-brief", "title": "需求雷达口径与短线优先", "theme": "市场研究", "date": "2026-10-18", "summary": "短线量大/增长快、后期高投入意愿；Chrome 扩展爬虫与 Lovable+Stripe 优先。", "tags": ["雷达", "筛选口径", "Lovable", "Chrome扩展"], "source": "", "path": "docs/notes/demand_radar_brief_2026-10-18.md", "related_docs": ["doc-longtail", "doc-freelancer-bids", "doc-tplplan", "doc-radar-pulse-1019"], "content": `# 通话笔记：需求雷达 · 筛选口径 · MVP（2026-10-18）
 
 > 来源：语音通话整理 · Asia/Shanghai  
 > 用途：后续查阅与**追加新想法**（文末有追加区）  
@@ -3395,6 +3403,40 @@ Upwork 主战场：       AI Integration | n8n/Zapier | 修完上线 | 多阶段
 
 - 
 
+`},
+{"id": "doc-radar-pulse-1019", "title": "需求雷达脉搏 2026-10-19 午间", "theme": "市场研究", "date": "2026-10-19 10:27", "summary": "34 帖推荐 0；Beds24 OTA 近失印证长尾；Trends 仍 demo。", "tags": ["雷达", "Freelancer", "Beds24", "脉搏"], "source": "", "path": "docs/notes/radar_pulse_2026-10-19.md", "related_docs": ["doc-radar-brief", "doc-longtail", "doc-pulse-1019", "doc-freelancer-bids"], "content": `# 需求雷达脉搏 · 2026-10-19 午间（Asia/Shanghai）
+
+> 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`meta.json\` + \`job_leads.json\`（\`published_at\` **2026-10-19 10:27 +08**）。公开 API only；推荐池仍空。
+
+## 站内快照
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **34**（较 10-18 通话快照 31 略升） |
+| 推荐数量 | **0** |
+| Freelancer ingest | OK（18 queries → 34 projects） |
+| Fiverr | 仍跳过（HTTP 403） |
+| Trends | 仍 **demo**（只作灵感） |
+
+→ 短线推荐池连续为空；量略增但过关单为 0。
+
+## 最高分近失（未推荐）
+
+| 标题 | 预算 | 投标 | 轨道/命中 | 卡关 |
+|---|---|---|---|---|
+| [BEDS24 OTA Integration Setup](https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845) | $30–250 | **120** | 嵌入 · \`beds24\` | 竞争（≥100） |
+| WordPress & Blogspot Social Media Tools | $30–250 | 108 | 加固 · \`self-hosted\` | 一期不清 + 竞争 |
+
+其余多为关键词未命中的营销/建站/人力帖（Travel Copilot、Airbnb 风格站、Call Center 等），不列入跟进。
+
+## 对长尾的印证
+
+- **Beds24** 再次出现真帖且过关键词/预算/清晰/一期四关，仅被投标量否决 → 与长尾笔记「Beds24 客信工单」同向；公开 Freelancer 池竞争仍凶，适合当**产品/案例方向**而非本轮必投。
+- 入口词继续盯：\`beds24\` · \`self-hosted\` · OTA/PMS 窄集成；避开泛 chatbot / 纯建站血池。
+
+## 操作
+
+先看雷达「推荐 + Open」；本轮无推荐则不刷标。Upwork 侧见同日 \`upwork_pulse_2026-10-19\`（QUALIFIED=0）。
 `},
 ]
 };
