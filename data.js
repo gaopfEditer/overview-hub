@@ -3,7 +3,7 @@ sections: [{"id": "platforms", "name": "平台前端", "desc": "接单 / 展示 
 platform_types: [{"id": "freelance", "name": "接单平台"}, {"id": "showcase", "name": "作品展示"}, {"id": "community", "name": "社区获客"}],
 platform_field_labels: {"permissions": "权限需求清单", "access_path": "操作路径", "caveats": "注意事项", "trends_keywords": "Google Trends 对应关键词"},
 platforms: [
-{"id": "upwork", "type": "freelance", "title": "Upwork", "url": "https://www.upwork.com/", "summary": "主战场。AI Integration + 工作流/API 自动化；副业（修站、爬虫）放 Project Catalog。2026-10-19 公开复筛仍 NO_GOOD_JOBS，盯新帖个位数提案。", "permissions": "① Freelancer 账号 + **政府 ID 验证**\n② **Billing method**（买 Connects 必需）\n③ 收款：Payoneer / Wise / 银行\n④ Project Catalog 卖家权限（挂副业）\n⑤ 消息推送（UTC+8 快回面试）", "access_path": "1. 登录 Find Work\n2. 建 Saved Searches（n8n/Zapier、AI integration、Playwright/scraping、Next+Supabase+Stripe、self-hosted）\n3. 筛预算 ≥$150–300，跳过 $10–100\n4. 对照 titles_budgets / screened 短名单\n5. 买 Connects → 英文短 Proposal + demo 链接\n6. 面试 → Fixed milestone 或 Hourly 规则\n7. 交付源码+README+bugfix 窗", "caveats": "Connects 消耗快；CF/验证码勿用脚本硬闯；China 可访问但注意 US Only 单；Specialized Profiles 已取消；n8n 类常 50+ 提案，靠「写真代码+自托管 demo」差异化；未验证 ID/Billing = 无法投标。", "trends_keywords": "EN: AI automation freelancer, n8n automation, Zapier alternative n8n, AI chatbot for website, web scraping Playwright, Next.js Supabase Stripe fix, API integration, self-hosted automation, document OCR LLM\nCN: Upwork 接单 AI 自动化, n8n 工作流接单, Playwright 爬虫 接单, Lovable 修站", "related_docs": ["doc-titles", "doc-backlog", "doc-smb", "doc-screened", "doc-cap", "doc-live", "doc-pulse-1019", "doc-longtail", "doc-radar-brief", "doc-radar-pulse-1019"], "tags": ["Upwork", "接单平台", "Connects", "主战场"], "path": "docs/platforms/upwork.md", "date": "2026-10-19 09:08", "content": `# Upwork 操作手册
+{"id": "upwork", "type": "freelance", "title": "Upwork", "url": "https://www.upwork.com/", "summary": "主战场。AI Integration + 工作流/API 自动化；副业（修站、爬虫）放 Project Catalog。2026-10-19 公开复筛仍 NO_GOOD_JOBS，盯新帖个位数提案。", "permissions": "① Freelancer 账号 + **政府 ID 验证**\n② **Billing method**（买 Connects 必需）\n③ 收款：Payoneer / Wise / 银行\n④ Project Catalog 卖家权限（挂副业）\n⑤ 消息推送（UTC+8 快回面试）", "access_path": "1. 登录 Find Work\n2. 建 Saved Searches（n8n/Zapier、AI integration、Playwright/scraping、Next+Supabase+Stripe、self-hosted）\n3. 筛预算 ≥$150–300，跳过 $10–100\n4. 对照 titles_budgets / screened 短名单\n5. 买 Connects → 英文短 Proposal + demo 链接\n6. 面试 → Fixed milestone 或 Hourly 规则\n7. 交付源码+README+bugfix 窗", "caveats": "Connects 消耗快；CF/验证码勿用脚本硬闯；China 可访问但注意 US Only 单；Specialized Profiles 已取消；n8n 类常 50+ 提案，靠「写真代码+自托管 demo」差异化；未验证 ID/Billing = 无法投标。", "trends_keywords": "EN: AI automation freelancer, n8n automation, Zapier alternative n8n, AI chatbot for website, web scraping Playwright, Next.js Supabase Stripe fix, API integration, self-hosted automation, document OCR LLM\nCN: Upwork 接单 AI 自动化, n8n 工作流接单, Playwright 爬虫 接单, Lovable 修站", "related_docs": ["doc-titles", "doc-backlog", "doc-smb", "doc-screened", "doc-cap", "doc-live", "doc-pulse-1019", "doc-longtail", "doc-radar-brief", "doc-radar-pulse-1019", "doc-screened-1019e"], "tags": ["Upwork", "接单平台", "Connects", "主战场"], "path": "docs/platforms/upwork.md", "date": "2026-10-19 09:08", "content": `# Upwork 操作手册
 
 鹏飞主战场。定位：**AI Integration + Workflow/API Automation**（主）+ 修完 Lovable/Cursor/Bolt 应用、爬虫/Playwright（副，放 Project Catalog）。
 
@@ -108,7 +108,7 @@ Profile：https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
 
 交叉：\`smb_demand_clusters.md\`（Fiverr BTI / Gig 抽样段落）、模板站链接。
 `},
-{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。2026-10-19 17:43 雷达 33 帖、推荐仍 0；Beds24 OTA 近失仅卡在投标 120。预算中位偏低，非主收入。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-smb", "doc-backlog", "doc-freelancer-bids", "doc-pulse-1019", "doc-radar-brief", "doc-radar-pulse-1019"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-10-17 18:50", "content": `# Freelancer.com 操作手册
+{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。2026-10-19 17:43 雷达 33 帖、推荐仍 0；Beds24 OTA 近失仅卡在投标 120。预算中位偏低，非主收入。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-smb", "doc-backlog", "doc-freelancer-bids", "doc-pulse-1019", "doc-radar-brief", "doc-radar-pulse-1019", "doc-screened-1019e", "doc-radar-pulse-1020"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-10-17 18:50", "content": `# Freelancer.com 操作手册
 
 竞标制项目市场。预算中位偏低、竞标人数多，适合捡「修复/小集成」或练英文提案，不作为主收入依赖。
 
@@ -376,6 +376,24 @@ cases: [
 - **筛选**：嵌入轨 · 命中 \`beds24\` · 关键词/预算/清晰/一期均过 · **竞争关未过**（120≥100）→ \`recommend=false\` · score 75
 - **操作思路**：不投本帖（卷死）；把 Beds24/OTA 窄集成留作长尾产品与提案案例素材，等投标明显偏低的同类帖再出手。
 - **结果**：未投。印证长尾方向，非本轮可打单。
+`},
+{"id": "case-qual-elevenlabs-1019", "title": "合格：ElevenLabs n8n 语音管线修复 + 多 Agent（8 标）", "is_template": false, "summary": "放宽重评合格：低标（8）+ n8n/Agent/API 强匹配；新客户需锁范围。", "tags": ["Freelancer", "合格", "n8n", "Agent", "语音"], "related_docs": ["doc-screened-1019e", "doc-freelancer-bids", "doc-radar-pulse-1020"], "path": "docs/cases/qual_elevenlabs_n8n_2026-10-19.md", "source": "https://www.freelancer.com/projects/api/elevenlabs-voice-pipeline-fix-multi", "has_evidence": true, "date": "2026-10-19 22:50", "fields": {"来源": "Freelancer（2026-10-19 晚间 WebFetch 核验）", "单子类型": "n8n 修复 + 多 Agent 语音管线（ElevenLabs/STT/Polly/Azure）", "操作思路": "€250–750 · 8 标 · 报 €400–550；先要 n8n 导出 + 失败 execution；三段里程碑", "结果": "待投 — 新客户（Berlin, 10-17 注册）风险已标"}, "来源": "Freelancer（2026-10-19 晚间 WebFetch 核验）", "单子类型": "n8n 修复 + 多 Agent 语音管线（ElevenLabs/STT/Polly/Azure）", "操作思路": "€250–750 · 8 标 · 报 €400–550；先要 n8n 导出 + 失败 execution；三段里程碑", "结果": "待投 — 新客户（Berlin, 10-17 注册）风险已标", "content": `# 合格：ElevenLabs Voice Pipeline Fix & Multi-Agent Build（Freelancer）
+
+- **来源**：[Freelancer · elevenlabs-voice-pipeline-fix-multi](https://www.freelancer.com/projects/api/elevenlabs-voice-pipeline-fix-multi) · 晚间放宽重评 2026-10-19 约 22:50 +08（WebFetch 核验）
+- **预算**：€250–750 EUR（下沿约 $270）· 提案 **8** · Open，约 6 天截止（核验时）
+- **单子类型**：n8n 集成失败修复 + 多 Agent；API / DB / ElevenLabs + Google STT / Polly / Azure Speech
+- **风险**：客户 Berlin，Member since 2026-10-17（新号无花费）；「修管线 + 多 Agent」相对下沿偏紧
+- **操作思路**：报 €400–550；先要 n8n 导出与失败 execution；里程碑 = 诊断修复 → 多 Agent 子流程 → 联调文档
+- **结果**：待投（低标 + 栈贴合，优先级高；投前再看是否仍 Open、提案数是否 ≤30）
+`},
+{"id": "case-qual-freight-leadgen-1019", "title": "合格：货代 AI 线索生成 Agent pilot（10 标）", "is_template": false, "summary": "放宽重评合格：爬虫/数据 + Agent 强匹配，必须锁死 pilot 范围。", "tags": ["Freelancer", "合格", "线索生成", "WhatsApp", "Agent"], "related_docs": ["doc-screened-1019e", "doc-agent-frameworks", "doc-radar-pulse-1020"], "path": "docs/cases/qual_freight_leadgen_2026-10-19.md", "source": "https://www.freelancer.com/projects/ai-chatbot/lead-generation-agent-for-forwarding", "has_evidence": true, "date": "2026-10-19 22:50", "fields": {"来源": "Freelancer（2026-10-19 晚间 WebFetch 核验）", "单子类型": "n8n/Python + Claude API + WhatsApp Business + HubSpot/Zoho 线索发现与打分", "操作思路": "$250–750 · 10 标 · Pilot 阶段 1–2 报 $450–650，全量另报；写清数据源/打分/账号归属/API 成本", "结果": "待投 — 新客户（Dubai）+ PDPL/WhatsApp opt-in 合规风险"}, "来源": "Freelancer（2026-10-19 晚间 WebFetch 核验）", "单子类型": "n8n/Python + Claude API + WhatsApp Business + HubSpot/Zoho 线索发现与打分", "操作思路": "$250–750 · 10 标 · Pilot 阶段 1–2 报 $450–650，全量另报；写清数据源/打分/账号归属/API 成本", "结果": "待投 — 新客户（Dubai）+ PDPL/WhatsApp opt-in 合规风险", "content": `# 合格：AI lead generation agent for forwarding company — pilot（Freelancer）
+
+- **来源**：[Freelancer · lead-generation-agent-for-forwarding](https://www.freelancer.com/projects/ai-chatbot/lead-generation-agent-for-forwarding) · 晚间放宽重评 2026-10-19 约 22:50 +08（WebFetch 核验）
+- **预算**：$250–750 USD · 提案 **10** · Open（核验时）
+- **单子类型**：n8n 或 Python + Claude API + WhatsApp Business API + HubSpot/Zoho；2 周试点（线索发现 + enrichment/打分），后续 outreach / 入站 bot / CRM
+- **风险**：客户 Dubai，Member since 2026-10-17（新号）；UAE PDPL / WhatsApp opt-in 合规；全量五阶段对预算偏大，**必须锁死 pilot 范围**
+- **操作思路**：Pilot（阶段 1–2）报 $450–650，全量另报；标书写清数据源、打分规则、账号归客户、月度 API 成本估算
+- **结果**：待投（爬虫/数据 + API + Agent 强匹配；投前复核 Open 与提案数）
 `},
 ],
 case_field_order: ["来源", "单子类型", "操作思路", "结果"],
@@ -3438,6 +3456,398 @@ Upwork 主战场：       AI Integration | n8n/Zapier | 修完上线 | 多阶段
 ## 操作
 
 先看雷达「推荐 + Open」；本轮无推荐则不刷标。Upwork 侧见同日 \`upwork_pulse_2026-10-19\`（QUALIFIED=0；上午公开复筛后至晚间仍无新 checked 文件）。
+`},
+{"id": "doc-screened-1019e", "title": "晚间放宽重评 2026-10-19（QUALIFIED=2）", "theme": "Upwork 调研", "date": "2026-10-19 22:45", "summary": "新硬过滤（提案≤30、固价≥$200、时薪≥$20）下 Freelancer 2 单合格：ElevenLabs n8n 语音管线（8 标）、货代 AI 线索 pilot（10 标）；Upwork 0。附 16 条近失。", "tags": ["Freelancer", "Upwork", "短名单", "放宽标准"], "source": "", "path": "upwork/screened_2026-10-19_evening.md", "related_docs": [], "content": `# 海外接单晚间筛选（放宽标准重评）— 2026-10-19（Asia/Shanghai 约 22:50）
+
+- **对象**：鹏飞（AI 落地 / 自动化 / Playwright·CDP / 后端集成 / Agent·客服 / 修 bug·二次开发 / 全栈）
+- **主渠道**：Fiverr + Freelancer；Upwork 次要
+- **方法**：重评 \`checked_2026-10-19_morning.txt\` 近失 + 晚间扫到的候选；WebSearch + WebFetch 补核。**未登录、未投标、未绕 CF**。apply 详情晚间多 CF；能打开的页已核 Activity。
+- **新硬过滤（本轮）**：
+  - 提案 **≤30** 可进（**50+ 必跳**；「20 to 50」因上沿超 30 → **不进**）
+  - 固价 **≥$200**（或等值外币下沿折合 ≥$200）
+  - 时薪 **≥$20**；页面无时薪但客户有花费/支付验证且技能强匹配 → 可进，标「时薪未核验」
+  - 新客户无花费：**可进**，必须标风险
+  - 仍跳：对中国关闭（如 US-only）、过低预算、已关闭、范围相对预算**严重** lowball、提案 50+
+
+## 结论先行
+
+**QUALIFIED = 2**（均为 Freelancer；Upwork 本轮无通过新标准的 page-verified 单）
+
+---
+
+## QUALIFIED
+
+### 1) ElevenLabs Voice Pipeline Fix & Multi-Agent Build
+- **平台**：Freelancer  
+- **链接**：https://www.freelancer.com/projects/api/elevenlabs-voice-pipeline-fix-multi  
+- **预算**：€250–750 EUR（下沿约 $270，≥$200）  
+- **提案数**：**8**（Open；Ends in 6 days）— WebFetch 核验  
+- **适合理由**：n8n 修集成失败 + 多 Agent；API / DB / ElevenLabs + Google STT / Polly / Azure Speech —— 对齐自动化、后端集成、Agent。  
+- **风险**：客户 Berlin；**Member since Oct 17, 2026（新号、无历史花费）**；范围「修管线 + 多 Agent」相对下沿偏紧。  
+- **建议报价**：€400–550；先要现有 n8n 导出与失败 execution；里程碑：诊断修复 → 多 Agent 子流程 → 联调文档。
+
+### 2) AI lead generation agent for my forwarding company — pilot
+- **平台**：Freelancer  
+- **链接**：https://www.freelancer.com/projects/ai-chatbot/lead-generation-agent-for-forwarding  
+- **预算**：$250–750 USD  
+- **提案数**：**10**（Open）— WebFetch 核验  
+- **适合理由**：客户明确偏好 **n8n 或 Python + Claude API + WhatsApp Business API + HubSpot/Zoho**；先做 2 周试点（发现线索 +  enrichment/打分），后续 outreach / 入站 bot / CRM —— 与爬虫/数据、API、Agent 强匹配。  
+- **风险**：客户 Dubai；**Member since Oct 17, 2026（新号）**；UAE PDPL / WhatsApp opt-in 合规要求；全量五阶段相对 $250–750 偏大，**务必锁死 pilot 范围**。  
+- **建议报价**：Pilot（阶段 1–2）**$450–650**；全量另报；标书写清数据源、打分规则、客户自有账号所有权、月度 API 成本估算。
+
+---
+
+## 近失（放宽后仍不合格 / 未核验）
+
+| # | 标题 | 链接 | 预算 | 提案 | 为何仍不入 |
+|---|------|------|------|------|------------|
+| A | Full Stack AI Service Marketplace (AWS) | https://www.upwork.com/freelance-jobs/apply/Full-Stack-Developer_~022111818917446620252/ | $1,500 Fixed | **现为 20 to 50**（早间曾 15–20） | 提案带上沿 >30；且完整 marketplace+支付+AI 对 $1500 **严重 lowball**；印度新客 |
+| B | Building n8n automation services for businesses | https://www.upwork.com/freelance-jobs/apply/Building-n8n-automation-services-for-businesses_~022111241722805022037/ | $350 Fixed | **20 to 50** | 提案带不满足 ≤30；美新客 Oct 16 |
+| C | Vapi Fix Legal Document Generation | https://www.upwork.com/freelance-jobs/apply/Vapi-Developer-Needed-Fix-Legal-Document-Generation-and-Email-Workflow_~022110914548059982947/ | $250 Fixed | **20 to 50** | 提案带；**applicantLocationRequirements=United States only**；已 Hires:1；客户 $1.2K spent |
+| D | Weekly Stock & Price Web Scraper | https://www.freelancer.com/projects/python/weekly-stock-price-web-scraper | $250–750 | **230** | 技能极贴（登录门户+Playwright+Sheets）但提案远超 |
+| E | Intelligent AI/ML Document Analysis & QA (RAG) | https://www.freelancer.com/projects/react-js/intelligent-document-analysis-platform | 文案 $1,500 / UI $250–750 | **259** | 技能贴合但红海；美新客 Oct 19 |
+| F | AI Bot for eCommerce Data Enrichment | https://www.freelancer.com/projects/api/bot-for-ecommerce-data-enrichment | $250–750 | **44** | >30；爬虫+n8n 贴合 |
+| G | Urgent Claude Agent Fix (claims) | https://www.upwork.com/freelance-jobs/apply/Urgent-Senior-Claude-Agent-Engineer-Quickly-Fix_~022109692402424104912/ | $300 Fixed | **50+**（搜索摘要） | 50+ |
+| H | Looking for AI dev + Client Facing Meetings | nx/search 卡片（无可靠 apply） | Hourly **未核验** | **未核验** | 禁止编造；EST 强客户面销适配当心 |
+| I | FMora Senior Full-Stack AI/Integration | https://www.upwork.com/freelance-jobs/apply/Senior-Full-Stack-Integration-Developer_~022111829338610990521/ | 时薪未列（客户 UK $14K spent） | **50+** | 50+ |
+| J | B.L.U.E. Marketplace | https://www.upwork.com/freelance-jobs/apply/Senior-Full-Stack-Mobile-Engineer-Marketplace_~022111655805497725675/ | schema $16–30/hr | 15–20 | **US-only** |
+| K | Lovable 二次开发上线 | https://www.upwork.com/freelance-jobs/apply/Full-Stack-Developer-Needed-Further-Develop-and-Launch-Website-Built-Lovable_~022111828589770370389/ | Not Sure Hourly | **20 to 50** | 提案带；无时薪且非强主技能 |
+| L | FB Lead → Zapier emails | https://www.upwork.com/freelance-jobs/apply/Facebook-Lead-Form-Automated-Email-Setup-Google-Workspace-Zapier_~022111472155209072281/ | $100 | 50+ | <$200 + 50+ |
+| M | Expert Linux Playwright Scraper | https://www.freelancer.com/projects/automation/expert-linux-playwright-web-scraper | ₹12.5k–37.5k | 87 / **已 Award** | 已关闭竞标 |
+| N | AI Call Reception Service (SA) | https://www.freelancer.com/projects/ai-chatbot/call-reception-service | $250–750 | **165** | >30 |
+| O | AI & Business Automation Expert | https://www.freelancer.com/projects/ai-automation/business-automation-expert | ₹12.5k–37.5k（约 $150–450） | **103** | >30；下沿可能 <$200 |
+| P | AI Receptionist & Quotation | https://www.freelancer.com/projects/ai-chatbot/receptionist-quotation-automation | $30–250 | **189** | 下沿 <$200 + >30 |
+
+**Fiverr**：Buyer Request 需卖家登录，本轮仍跳过。
+
+## Upwork 可达性备注
+
+- 部分 apply（如 Vapi、Chatbot Support）晚间可 WebFetch；多数仍 CF。
+- 「20 to 50」一律按不满足 ≤30 处理，避免编造精确人数。
+
+## RESULT
+
+\`\`\`
+QUALIFIED=2
+1) ElevenLabs n8n voice pipeline — FL — €250-750 — 8 bids
+2) Freight AI lead-gen pilot — FL — $250-750 — 10 bids
+NO_UPWORK_QUALIFIED_UNDER_RELAXED_RULES
+FILE=/workspace/upwork/screened_2026-10-19_evening.md
+\`\`\`
+`},
+{"id": "doc-agent-frameworks", "title": "开源 AI Agent / 客服 Agent 技术调研（2026-10）", "theme": "技术参考", "date": "2026-10-19 22:21", "summary": "做网站客服 Agent 的选型：LangGraph 编排 + LlamaIndex/自建 RAG + Chatwoot 前台转接 + 自写 HTTP/DB tools；不建议 AutoGen/CrewAI/Rasa 作主栈。", "tags": ["Agent", "客服", "LangGraph", "Chatwoot", "RAG"], "source": "", "path": "agent_frameworks_2026-10.md", "related_docs": [], "content": `# 开源 AI Agent / 客服 Agent 技术调研（截至 2026-10）
+
+> 调研日期：2026-10-19（Asia/Shanghai）  
+> 用途：明天动手做「网站客服 Agent」的技术储备  
+> 数据来源：GitHub API / 官方文档 / WebSearch；stars 与 pushed_at 均为当日核验，禁止当作永久数字。
+
+---
+
+## 结论先行（给决策用）
+
+**明天做客服 Agent，优先组合：**
+
+| 角色 | 主推荐 | 备选 |
+|------|--------|------|
+| Agent 编排 + tool calling + 可中断人工审批 | **LangGraph** | **OpenAI Agents SDK** 或 **PydanticAI** |
+| RAG 知识库 | LlamaIndex（检索强）或自建向量库 + 简单 retrieve tool | Haystack / Dify 内置知识库 |
+| 会话前台 + 人工转接 | **Chatwoot**（Captain / AgentBot） | Botpress；或自建 WebSocket 会话层 |
+| 查单/改预订等业务动作 | 自己写 **HTTP/DB tools**（不要用浏览器去点后台） | — |
+
+**不建议作为主栈：**  
+Microsoft AutoGen（官方已引导迁移，新项目勿选）、CrewAI（角色协作型，单客服会话过重）、Rasa（NLU 时代遗产，LLM-first 客服不如直接 tool calling）、Browser-use/Skyvern（客服核心路径不应靠刷网页）、纯 Dify/FastGPT 若你要深度定制 tool/转接逻辑时后期会卡住（适合 MVP 演示）。
+
+---
+
+## 一、支持 LLM Tool Calling 的通用 Agent 框架
+
+### 1. LangGraph
+
+- **地址**：https://github.com/langchain-ai/langgraph  
+  文档：https://docs.langchain.com/oss/python/langgraph/overview  
+- **核心特点**：低层图编排（StateGraph / nodes / edges）；durable execution、checkpoint、**human-in-the-loop**、流式输出；可混合确定性业务步骤与 LLM 步骤；可与 LangChain 解耦使用。生态上还有更高层的 Deep Agents（规划/子 agent）。  
+- **适用场景**：需要可控状态机的生产客服/工单流（FAQ → 查单 → 改预订 → 转人工）；长会话、可恢复、可审批。  
+- **成熟度**：**生产可用**（Klarna 等公开案例；LangSmith 可观测）。学习曲线中等。  
+- **社区活跃度**：约 **43.5k** stars；\`pushed_at\` **2026-10-19**（当日仍有 CLI release）；MIT。近期有 1.x 系列（含 type-safe streaming \`version="v2"\` 等变更，接入前看迁移说明）。
+
+### 2. CrewAI
+
+- **地址**：https://github.com/crewAIInc/crewAI · https://crewai.com  
+- **核心特点**：角色扮演式多 agent（Crew / Task）；上手快、教程多；适合「调研员 + 写手 + 审核员」一类协作任务。  
+- **适用场景**：内部自动化、内容/研究流水线；**不优先**作为单线程客服会话内核。  
+- **成熟度**：可用但需踩坑（多 agent 易吵、成本与可控性变差）；企业有 AMP 商业层。  
+- **社区活跃度**：约 **59.9k** stars；\`pushed_at\` **2026-10-19**；MIT。活跃度很高。
+
+### 3. AutoGen / AG2 / Microsoft Agent Framework（重大变更必读）
+
+| 项目 | 地址 | 状态简述 |
+|------|------|----------|
+| **microsoft/autogen** | https://github.com/microsoft/autogen | 官方 README 明确：**已归档、不再积极维护**；新用户应迁到 Microsoft Agent Framework。约 **61.5k** stars（历史光环大）。 |
+| **AG2（社区）** | https://github.com/ag2ai/ag2 · https://ag2.ai | AutoGen 精神续作；v1 起协议驱动，Classic（\`autogen\` import）拆到 ag2-classic 维护模式。约 **5.0k** stars；\`pushed_at\` 2026-10-19。 |
+| **Microsoft Agent Framework** | https://github.com/microsoft/agent-framework · https://aka.ms/agent-framework | AutoGen + Semantic Kernel **官方统一继任者**；Python/.NET；2026 已宣传 1.0。约 **14.2k** stars；\`pushed_at\` 2026-10-19。 |
+
+- **适用场景**：微软栈 / Azure 企业多 agent；研究型多 agent 对话。  
+- **成熟度**：Agent Framework → **生产可用（企业向）**；AG2 → 可用但生态小于 LangGraph；**新项目不要再选 microsoft/autogen**。  
+- **迁移文档**：https://learn.microsoft.com/en-us/agent-framework/migration-guide/from-autogen/
+
+### 4. OpenAI Agents SDK
+
+- **地址**：Python https://github.com/openai/openai-agents-python · JS https://github.com/openai/openai-agents-js  
+  文档：https://openai.github.io/openai-agents-python/  
+- **核心特点**：轻量；Agents / Tools / **Handoffs** / Guardrails / Sessions / HITL / Tracing；号称 provider-agnostic（OpenAI + 100+ LLM）；有 Realtime/Voice、Sandbox agents。  
+- **适用场景**：快速搭「客服主 agent + 查单子 agent handoff」；与 OpenAI 模型深度绑定团队最省事。  
+- **成熟度**：**可用偏生产**（API 仍在 0.x，但迭代极快）；适合中小项目与 POC。  
+- **社区活跃度**：约 **30.1k** stars；最新 release **v0.24.0（2026-10-15）**；\`pushed_at\` 2026-10-19；MIT。
+
+### 5. 2025–2026 值得关注的替代
+
+#### Semantic Kernel → 一并看 Agent Framework
+
+- **地址**：https://github.com/microsoft/semantic-kernel · https://aka.ms/semantic-kernel  
+- **特点**：.NET/Python/Java 插件与企业集成；Microsoft 正把重心并入 Agent Framework。约 **28.7k** stars，仍有推送（2026-10-19）。  
+- **成熟度**：存量维稳可用；**新项目优先 Agent Framework**。
+
+#### PydanticAI
+
+- **地址**：https://github.com/pydantic/pydantic-ai · https://pydantic.dev/pydantic-ai  
+- **特点**：端到端类型安全；与 Pydantic 生态一体；tool 参数校验强；durable execution / MCP / OpenTelemetry / Evals。约 **20.7k** stars；\`pushed_at\` 2026-10-19；MIT。  
+- **适用**：Python 后端团队、要强 schema 的查单/改预订 tools。  
+- **成熟度**：**可用偏生产**（类型与测试友好）；复杂图编排不如 LangGraph 直观。
+
+#### Mastra
+
+- **地址**：https://github.com/mastra-ai/mastra · https://mastra.ai  
+- **特点**：**TypeScript 优先**；agents + graph workflows（then/branch/parallel）；memory、RAG、evals、MCP；suspend/resume 做人机协作。约 **28.9k** stars；\`pushed_at\` 2026-10-19。  
+- **注意**：core 多为 Apache-2.0，但仓库 license 标注为 Other——**生产前核验 \`ee/\` 企业许可**。  
+- **适用**：Next.js/Node 全栈客服；与 Stagehand 同属 TS 生态。  
+- **成熟度**：可用但需踩坑（许可与商业层）。
+
+#### LlamaIndex Workflows / Llama Agents
+
+- **主仓**：https://github.com/run-llama/llama_index（约 **52.6k** stars）  
+- **Agent/Workflows 仓**：https://github.com/run-llama/llama-agents（约 **460** stars，相对新）  
+  文档：https://developers.llamaindex.ai  
+- **特点**：事件驱动 async steps；文档/数据连接器强；AgentWorkflow + HITL 事件；RAG 血统深。  
+- **适用**：知识库问答是主战场的客服；检索质量优先。  
+- **成熟度**：LlamaIndex 本体生产级；独立 llama-agents 包仍偏新 → **可用但需踩坑**。
+
+#### Haystack Agents
+
+- **地址**：https://github.com/deepset-ai/haystack · https://haystack.deepset.ai  
+  Agent 文档：https://docs.haystack.deepset.ai/docs/agent  
+- **特点**：组件化 pipeline + Agent（tool calling）；检索/文档处理成熟；Apache-2.0。约 **26.8k** stars；\`pushed_at\` 2026-10-19。  
+- **适用**：RAG-first、要可观测检索链路的客服/搜索助手。  
+- **成熟度**：**生产可用**（检索侧）；多 agent 花活不如 LangGraph/CrewAI。
+
+#### 产品侧：Dify / FastGPT（一句）
+
+| 项目 | 地址 | stars（约） | 一句话 |
+|------|------|-------------|--------|
+| **Dify** | https://github.com/langgenius/dify · https://dify.ai | **158.9k** | 可视化 Agent/Workflow/RAG/LLMOps；自托管快；改底层逻辑受限。许可需看官方条款（非纯 MIT）。 |
+| **FastGPT** | https://github.com/labring/FastGPT · https://fastgpt.io | **29.9k** | 知识库问答 + 可视化工作流；中文社区友好；适合国内快速上线 FAQ 机器人。 |
+
+两者适合 **MVP / 业务同学可改流程**；深度自定义 tool + 复杂转接策略时，后面常要迁到代码框架。
+
+---
+
+## 二、专门面向客服 / 支持场景的开源项目
+
+### 1. Chatwoot（前台 + 人工转接底座，强烈建议）
+
+- **地址**：https://github.com/chatwoot/chatwoot · https://www.chatwoot.com  
+  Captain：https://www.chatwoot.com/captain  
+- **核心特点**：开源全渠道客服台（网页 Widget、邮件、社媒等）；**Captain** 可基于帮助中心/FAQ 自动答复并 **handoff 到人工**；另有 **Agent Bot API/Webhooks** 可接你自己的 LangGraph/OpenAI Agent。Copilot 辅助坐席。  
+- **适用场景**：你要「网站客服 + 人工接管」——几乎是默认前台。  
+- **成熟度**：**生产可用**（客服产品本身成熟；Captain 能力持续扩展，自托管需配模型 Key）。  
+- **社区活跃度**：约 **38.0k** stars；\`pushed_at\` **2026-10-19**；许可为 Other（开源但有商业条款，上线前读 LICENSE）。
+
+### 2. Botpress
+
+- **地址**：https://github.com/botpress/botpress · https://botpress.com  
+- **核心特点**：偏 LLM Agent / 对话构建的开源 hub；可对接渠道；可视化与集成较多。约 **15.0k** stars；最近 push 约 **2026-10-13**；MIT。  
+- **适用**：对话流产品化、少写代码；与 Chatwoot 可并存（Botpress 偏 bot，Chatwoot 偏 desk）。  
+- **成熟度**：可用；云与开源边界要分清。  
+- **活跃度**：中等偏活跃。
+
+### 3. Rasa
+
+- **地址**：https://github.com/RasaHQ/rasa · https://rasa.com/docs/rasa/  
+- **核心特点**：经典 NLU + 对话管理；意图/故事/规则；可接渠道。约 **21.4k** stars。  
+- **注意**：\`pushed_at\` 约 **2026-07-24**，节奏明显慢于 LLM agent 新秀；默认分支仍在 3.6.x 线。  
+- **适用**：存量 Rasa 项目、强意图可控对话；**新开 LLM 客服不推荐从 Rasa 起步**。  
+- **成熟度**：生产级（传统 chatbot）；对「RAG + tool calling」新范式不友好。
+
+### 4. ChatterMate（客服垂直、体量小）
+
+- **地址**：https://github.com/chattermate/chattermate.chat · https://chattermate.chat  
+- **核心特点**：自述为开源 AI 客服平台——**AI chatbot + human handoff**、Shopify/Slack、可视化工作流；Apache-2.0。约 **142** stars；\`pushed_at\` 2026-10-19。  
+- **适用**：想要「一整套客服」且能接受小项目风险时试用。  
+- **成熟度**：**早期实验 / 可用但需踩坑**；不要当作 Chatwoot 替代品硬上生产。
+
+### 5. 自定义「RAG 客服栈」（行业常见落地形态）
+
+没有单一明星仓能覆盖一切；成熟团队常见拆法：
+
+\`\`\`
+网站 Widget / Chatwoot
+        │
+   Agent 运行时（LangGraph 或 Agents SDK）
+        ├─ retrieve_kb（向量库 / LlamaIndex / Haystack）
+        ├─ get_order / update_booking（业务 API）
+        └─ escalate_to_human（写回 Chatwoot / 工单）
+\`\`\`
+
+GitHub 上大量 \`customer-support-agent\` demo（LangGraph 教程向）stars 通常 <1k，**适合抄结构，不适合当产品底座**。选框架看第一节，选前台看 Chatwoot。
+
+---
+
+## 三、有浏览器自动化集成的 Agent 开源项目
+
+> **对明天客服任务的定位**：查单/改预订应走 **官方 API / DB tool**。浏览器自动化只用于「没有 API 的遗留后台」「竞品巡检」「填表 RPA」，不要塞进客服主路径。
+
+### 1. Browser-use
+
+- **地址**：https://github.com/browser-use/browser-use · https://browser-use.com  
+- **核心特点**：Python AI 浏览器 agent；CDP/Chromium；可接 MCP；另有 Cloud 托管。约 **118.5k** stars；最近 release 约 **0.13.x（2026-10 中旬）**；\`pushed_at\` 约 2026-10-17；MIT。  
+- **适用**：探索式网页任务、自动化操作无 API 站点。  
+- **成熟度**：**可用但需踩坑**（稳定性/反爬/成本）；社区最大。
+
+### 2. Stagehand
+
+- **地址**：https://github.com/browserbase/stagehand · https://stagehand.dev  
+- **核心特点**：Playwright 风格的 **act / observe / extract**；TS 为主（亦有多语言）；与 Browserbase 云浏览器配合；可与 Mastra 等组合。约 **25.7k** stars；\`pushed_at\` 约 2026-10-18；MIT。  
+- **适用**：要「可预测步骤」的网页自动化（比纯自主 agent 更可控）。  
+- **成熟度**：**可用偏生产**（确定性工作流场景）。
+
+### 3. Skyvern
+
+- **地址**：https://github.com/Skyvern-AI/skyvern · https://www.skyvern.com  
+- **核心特点**：视觉 + LLM 驱动浏览器工作流；适合表单多、DOM 烂的遗留系统；有 workflow 能力。约 **23.2k** stars；\`pushed_at\` 2026-10-19。  
+- **许可**：**AGPL-3.0** —— 闭源商业产品嵌入前必须法务评估。  
+- **成熟度**：可用但需踩坑（许可 + 视觉成本）。
+
+### 4. 同类补充
+
+| 项目 | 地址 | 说明 |
+|------|------|------|
+| **LaVague** | https://github.com/lavague-ai/LaVague | Selenium/Playwright Web Agent；约 **6.4k** stars；**最后 push 约 2025-01-21** → 活跃度明显下降，新项目慎选。 |
+| Playwright / Selenium 自封装 | https://playwright.dev · https://www.selenium.dev | 自己在 agent tool 里调；客服场景通常不如直接 API。 |
+
+---
+
+## 四、明天做客服 Agent 的推荐组合
+
+### 场景定义
+
+**网站客服：RAG 知识库 + tool calling（查单 / 改预订）+ 人工转接。**
+
+### 主栈（推荐动手）
+
+\`\`\`
+Chatwoot（Widget + 人工坐席台 + AgentBot/Webhook）
+    └── LangGraph Agent
+            ├── tool: retrieve_docs      → 向量库 / LlamaIndex
+            ├── tool: get_order          → 订单 API
+            ├── tool: update_booking     → 预订 API（写操作要确认/HITL）
+            └── tool: handoff_human      → Chatwoot 转人工
+\`\`\`
+
+**为什么：**
+
+1. **LangGraph** 的 interrupt/HITL 与「改预订需确认」「不确定就转人工」天然契合；状态可持久化。  
+2. **Chatwoot** 解决客服产品 80% 的脏活（会话、坐席、渠道），避免自研 desk。  
+3. **业务动作用 API tools**，延迟低、可审计、可回滚；别用 Browser-use 去点运营后台。  
+4. RAG 可先用「分块 + embedding + 一个 retrieve tool」一天内跑通；检索差再换 LlamaIndex/Haystack。
+
+**第一天最小切片建议：**
+
+1. 本地起 Chatwoot 或先用简单 FastAPI WebSocket 会话（若 Chatwoot 部署拖时间）。  
+2. LangGraph：\`FAQ retrieve → 无命中则拒答/转人工 → 有订单意图则 call get_order\`。  
+3. 写操作（改预订）先做成 **需要人工 approve 的 interrupt**，不要第一天全自动。
+
+### 备选栈
+
+| 条件 | 选型 |
+|------|------|
+| 想最少代码、跟 OpenAI 模型 | **OpenAI Agents SDK**（handoffs + guardrails）+ Chatwoot |
+| Python 类型洁癖、工具 schema 严 | **PydanticAI** + 自建会话层或 Chatwoot |
+| 全员 TS / Next.js | **Mastra** + Chatwoot Widget（注意许可） |
+| 非开发同学要拖拽 MVP | **Dify 或 FastGPT** 先演示；预留迁出到 LangGraph |
+| Azure / .NET 企业 | **Microsoft Agent Framework** |
+
+### 明确不建议
+
+| 不建议 | 原因 |
+|--------|------|
+| **microsoft/autogen 新开项目** | 官方归档导向，继任者是 Agent Framework |
+| **CrewAI 做单客服会话** | 多角色协作模型，会话可控性与成本差 |
+| **Rasa 作为 LLM 客服起点** | 范式过时，维护节奏慢 |
+| **Browser-use / Skyvern 进主路径** | 客服要 API；浏览器慢、脆、难审计；Skyvern 还有 AGPL |
+| **只靠 Dify 长期扛复杂转接** | 演示快，深度定制与版本锁定风险高 |
+| **ChatterMate 当生产唯一依赖** | stars 量级小，生态未验证 |
+
+---
+
+## 五、速查表（2026-10-19 核验）
+
+| 项目 | URL | Stars 约 | 最近活跃信号 | 客服相关建议 |
+|------|-----|----------|--------------|--------------|
+| LangGraph | github.com/langchain-ai/langgraph | 43.5k | 当日 push | **主推荐编排** |
+| CrewAI | github.com/crewAIInc/crewAI | 59.9k | 当日 push | 非客服首选 |
+| OpenAI Agents SDK | github.com/openai/openai-agents-python | 30.1k | v0.24.0 / 10-15 | 轻量备选 |
+| PydanticAI | github.com/pydantic/pydantic-ai | 20.7k | 当日 push | 类型安全备选 |
+| Mastra | github.com/mastra-ai/mastra | 28.9k | 当日 push | TS 栈 |
+| MS Agent Framework | github.com/microsoft/agent-framework | 14.2k | 当日 push | 微软栈继任 |
+| AG2 | github.com/ag2ai/ag2 | 5.0k | 当日 push | 社区 AutoGen |
+| AutoGen (MS) | github.com/microsoft/autogen | 61.5k | 官方引导迁移 | **勿新开** |
+| Semantic Kernel | github.com/microsoft/semantic-kernel | 28.7k | 当日 push | 迁往 Agent Framework |
+| LlamaIndex | github.com/run-llama/llama_index | 52.6k | 10-14 push | RAG 优选 |
+| Haystack | github.com/deepset-ai/haystack | 26.8k | 当日 push | RAG/管线 |
+| Dify | github.com/langgenius/dify | 158.9k | 当日 push | 产品侧 MVP |
+| FastGPT | github.com/labring/FastGPT | 29.9k | 当日 push | 国内知识库 MVP |
+| Chatwoot | github.com/chatwoot/chatwoot | 38.0k | 当日 push | **前台+转接** |
+| Botpress | github.com/botpress/botpress | 15.0k | 10-13 push | 对话构建 |
+| Rasa | github.com/RasaHQ/rasa | 21.4k | 2026-07 push | 不推荐新开 |
+| ChatterMate | github.com/chattermate/chattermate.chat | 0.1k | 当日 push | 早期观察 |
+| Browser-use | github.com/browser-use/browser-use | 118.5k | 10-17 push | 非客服主路径 |
+| Stagehand | github.com/browserbase/stagehand | 25.7k | 10-18 push | 可控浏览器 RPA |
+| Skyvern | github.com/Skyvern-AI/skyvern | 23.2k | 当日 push | AGPL，慎嵌产品 |
+| LaVague | github.com/lavague-ai/LaVague | 6.4k | 2025-01 后停滞 | 慎选 |
+
+---
+
+## 六、参考链接（官方优先）
+
+- LangGraph 概览：https://docs.langchain.com/oss/python/langgraph/overview  
+- OpenAI Agents SDK：https://openai.github.io/openai-agents-python/  
+- AutoGen → Agent Framework：https://learn.microsoft.com/en-us/agent-framework/migration-guide/from-autogen/  
+- Chatwoot Captain：https://www.chatwoot.com/captain  
+- PydanticAI：https://pydantic.dev/pydantic-ai  
+- Mastra：https://mastra.ai  
+- Haystack Agent：https://docs.haystack.deepset.ai/docs/agent  
+- Browser-use：https://browser-use.com  
+- Stagehand：https://stagehand.dev  
+- Skyvern：https://www.skyvern.com  
+
+---
+
+*报告文件路径：\`/workspace/hub/agent_frameworks_2026-10.md\`*
+`},
+{"id": "doc-radar-pulse-1020", "title": "需求雷达脉搏 2026-10-20 早间（07:27）", "theme": "市场研究", "date": "2026-10-20 09:00", "summary": "雷达 29 帖 / 推荐 0；可打单来自 10-19 晚间放宽重评的 2 个 Freelancer 合格单。", "tags": ["雷达", "Freelancer", "脉搏"], "source": "", "path": "docs/notes/radar_pulse_2026-10-20.md", "related_docs": [], "content": `# 需求雷达脉搏 · 2026-10-20 早间（Asia/Shanghai）
+
+> 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\`（\`published_at\` **2026-10-20 07:27 +08**，every_4h）。公开数据 only。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **29**（10-19 17:43 为 33） |
+| 推荐数量 | **0**（继续为空） |
+| Job ingest | OK |
+| Fiverr | 仍跳过（HTTP 403 buyer_requests） |
+| Trends | 仍 demo（只作灵感） |
+
+→ 雷达推荐池仍空；当前可打单来自 10-19 晚间人工放宽重评：Freelancer **2 单合格**（ElevenLabs n8n 语音管线 8 标；货代 AI 线索 pilot 10 标），见 \`screened_2026-10-19_evening\` 与两张合格案例卡。Upwork 放宽后仍 0（「20 to 50」/US-only/50+ 卡关）。
+
+**今天动作**：先复核两单是否仍 Open、提案仍 ≤30 → 投；客服 Agent 技术储备见《开源 AI Agent / 客服 Agent 技术调研》。
 `},
 ]
 };

@@ -52,7 +52,8 @@
         "doc-pulse-1019",
         "doc-longtail",
         "doc-radar-brief",
-        "doc-radar-pulse-1019"
+        "doc-radar-pulse-1019",
+        "doc-screened-1019e"
       ],
       "tags": [
         "Upwork",
@@ -100,7 +101,9 @@
         "doc-freelancer-bids",
         "doc-pulse-1019",
         "doc-radar-brief",
-        "doc-radar-pulse-1019"
+        "doc-radar-pulse-1019",
+        "doc-screened-1019e",
+        "doc-radar-pulse-1020"
       ],
       "tags": [
         "Freelancer",
@@ -283,6 +286,56 @@
         "doc-radar-pulse-1019",
         "doc-longtail",
         "doc-freelancer-bids"
+      ]
+    },
+    {
+      "id": "case-qual-elevenlabs-1019",
+      "title": "合格：ElevenLabs n8n 语音管线修复 + 多 Agent（8 标）",
+      "path": "docs/cases/qual_elevenlabs_n8n_2026-10-19.md",
+      "date": "2026-10-19 22:50",
+      "source": "https://www.freelancer.com/projects/api/elevenlabs-voice-pipeline-fix-multi",
+      "has_evidence": true,
+      "来源": "Freelancer（2026-10-19 晚间 WebFetch 核验）",
+      "单子类型": "n8n 修复 + 多 Agent 语音管线（ElevenLabs/STT/Polly/Azure）",
+      "操作思路": "€250–750 · 8 标 · 报 €400–550；先要 n8n 导出 + 失败 execution；三段里程碑",
+      "结果": "待投 — 新客户（Berlin, 10-17 注册）风险已标",
+      "summary": "放宽重评合格：低标（8）+ n8n/Agent/API 强匹配；新客户需锁范围。",
+      "tags": [
+        "Freelancer",
+        "合格",
+        "n8n",
+        "Agent",
+        "语音"
+      ],
+      "related_docs": [
+        "doc-screened-1019e",
+        "doc-freelancer-bids",
+        "doc-radar-pulse-1020"
+      ]
+    },
+    {
+      "id": "case-qual-freight-leadgen-1019",
+      "title": "合格：货代 AI 线索生成 Agent pilot（10 标）",
+      "path": "docs/cases/qual_freight_leadgen_2026-10-19.md",
+      "date": "2026-10-19 22:50",
+      "source": "https://www.freelancer.com/projects/ai-chatbot/lead-generation-agent-for-forwarding",
+      "has_evidence": true,
+      "来源": "Freelancer（2026-10-19 晚间 WebFetch 核验）",
+      "单子类型": "n8n/Python + Claude API + WhatsApp Business + HubSpot/Zoho 线索发现与打分",
+      "操作思路": "$250–750 · 10 标 · Pilot 阶段 1–2 报 $450–650，全量另报；写清数据源/打分/账号归属/API 成本",
+      "结果": "待投 — 新客户（Dubai）+ PDPL/WhatsApp opt-in 合规风险",
+      "summary": "放宽重评合格：爬虫/数据 + Agent 强匹配，必须锁死 pilot 范围。",
+      "tags": [
+        "Freelancer",
+        "合格",
+        "线索生成",
+        "WhatsApp",
+        "Agent"
+      ],
+      "related_docs": [
+        "doc-screened-1019e",
+        "doc-agent-frameworks",
+        "doc-radar-pulse-1020"
       ]
     }
   ],
@@ -505,6 +558,45 @@
         "doc-pulse-1019",
         "doc-freelancer-bids"
       ]
+    },
+    {
+      "id": "doc-screened-1019e",
+      "title": "晚间放宽重评 2026-10-19（QUALIFIED=2）",
+      "path": "/workspace/upwork/screened_2026-10-19_evening.md",
+      "theme": "Upwork 调研",
+      "tags": [
+        "Freelancer",
+        "Upwork",
+        "短名单",
+        "放宽标准"
+      ],
+      "summary": "新硬过滤（提案≤30、固价≥$200、时薪≥$20）下 Freelancer 2 单合格：ElevenLabs n8n 语音管线（8 标）、货代 AI 线索 pilot（10 标）；Upwork 0。附 16 条近失。"
+    },
+    {
+      "id": "doc-agent-frameworks",
+      "title": "开源 AI Agent / 客服 Agent 技术调研（2026-10）",
+      "path": "agent_frameworks_2026-10.md",
+      "theme": "技术参考",
+      "tags": [
+        "Agent",
+        "客服",
+        "LangGraph",
+        "Chatwoot",
+        "RAG"
+      ],
+      "summary": "做网站客服 Agent 的选型：LangGraph 编排 + LlamaIndex/自建 RAG + Chatwoot 前台转接 + 自写 HTTP/DB tools；不建议 AutoGen/CrewAI/Rasa 作主栈。"
+    },
+    {
+      "id": "doc-radar-pulse-1020",
+      "title": "需求雷达脉搏 2026-10-20 早间（07:27）",
+      "path": "docs/notes/radar_pulse_2026-10-20.md",
+      "theme": "市场研究",
+      "tags": [
+        "雷达",
+        "Freelancer",
+        "脉搏"
+      ],
+      "summary": "雷达 29 帖 / 推荐 0；可打单来自 10-19 晚间放宽重评的 2 个 Freelancer 合格单。"
     }
   ]
 }
