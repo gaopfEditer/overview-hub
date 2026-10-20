@@ -90,7 +90,7 @@
       "type": "freelance",
       "title": "Freelancer.com",
       "url": "https://www.freelancer.com/",
-      "summary": "竞标制补充池。2026-10-20 10:40 雷达 30 帖、推荐仍 0；今日 discover 18 样本（低竞争：Copilot Studio / Playwright TS / M365）。可打合格单仍为 10-19 晚间 2 单（ElevenLabs 8 标；货代 pilot 10 标）。预算中位偏低，非主收入。",
+      "summary": "竞标制补充池。2026-10-20 12:01 雷达 32 帖、推荐仍 0；今日 discover 18 样本（低竞争：Copilot Studio / Playwright TS / M365）。合格单锚定 10-19 晚间 2 单：ElevenLabs 仍 8 标可打；货代 pilot 已升至 128 标宜观望。预算中位偏低，非主收入。",
       "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解",
       "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评",
       "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。",
@@ -273,12 +273,12 @@
     },
     {
       "id": "case-near-beds24-1019",
-      "title": "近失：BEDS24 OTA Integration（投标 120）",
+      "title": "近失：BEDS24 OTA Integration（投标 118）",
       "path": "docs/cases/near_beds24_ota_2026-10-19.md",
-      "date": "2026-10-19 17:43",
+      "date": "2026-10-20 12:01",
       "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845",
       "has_evidence": true,
-      "summary": "17:43 雷达续刷仍最高分近失：beds24 四关过、竞争关否决（120）；作长尾印证不投。",
+      "summary": "12:01 雷达续刷最高分近失：beds24 四关过、竞争关否决（118）；作长尾印证不投。",
       "tags": [
         "Freelancer",
         "Beds24",
@@ -595,7 +595,7 @@
     },
     {
       "id": "doc-radar-pulse-1020",
-      "title": "需求雷达脉搏 2026-10-20 午间（10:40）",
+      "title": "需求雷达脉搏 2026-10-20 午后（12:01）",
       "path": "docs/notes/radar_pulse_2026-10-20.md",
       "theme": "市场研究",
       "tags": [
@@ -603,8 +603,8 @@
         "Freelancer",
         "脉搏"
       ],
-      "summary": "雷达 30 帖 / 推荐 0；附 Freelancer discover 18 样本与 12 个新 T-FL 模板；合格单仍为 10-19 晚间 2 个 Freelancer。",
-      "date": "2026-10-20 10:40",
+      "summary": "雷达 32 帖 / 推荐 0 @12:01；Beds24 近失 118 标；附午间已入库 discover 18 + T-FL 模板；ElevenLabs 仍 8 标，货代 pilot 复核已 128 标。",
+      "date": "2026-10-20 12:01",
       "related_docs": [
         "doc-fl-samples-1020",
         "doc-fl-templates",

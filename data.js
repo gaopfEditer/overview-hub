@@ -108,7 +108,7 @@ Profile：https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
 
 交叉：\`smb_demand_clusters.md\`（Fiverr BTI / Gig 抽样段落）、模板站链接。
 `},
-{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。2026-10-20 10:40 雷达 30 帖、推荐仍 0；今日 discover 18 样本（低竞争：Copilot Studio / Playwright TS / M365）。可打合格单仍为 10-19 晚间 2 单（ElevenLabs 8 标；货代 pilot 10 标）。预算中位偏低，非主收入。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-smb", "doc-backlog", "doc-freelancer-bids", "doc-pulse-1019", "doc-radar-brief", "doc-radar-pulse-1019", "doc-screened-1019e", "doc-radar-pulse-1020", "doc-fl-samples-1020", "doc-fl-templates"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-10-17 18:50", "content": `# Freelancer.com 操作手册
+{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。2026-10-20 12:01 雷达 32 帖、推荐仍 0；今日 discover 18 样本（低竞争：Copilot Studio / Playwright TS / M365）。合格单锚定 10-19 晚间 2 单：ElevenLabs 仍 8 标可打；货代 pilot 已升至 128 标宜观望。预算中位偏低，非主收入。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-smb", "doc-backlog", "doc-freelancer-bids", "doc-pulse-1019", "doc-radar-brief", "doc-radar-pulse-1019", "doc-screened-1019e", "doc-radar-pulse-1020", "doc-fl-samples-1020", "doc-fl-templates"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-10-17 18:50", "content": `# Freelancer.com 操作手册
 
 竞标制项目市场。预算中位偏低、竞标人数多，适合捡「修复/小集成」或练英文提案，不作为主收入依赖。
 
@@ -369,11 +369,11 @@ cases: [
 
 栈贴合但提案已 50+，且时薪无法页核验 → 不进 QUALIFIED。同类「集成+Agent」仍是 Saved Search 重点；要盯**新帖、提案个位数**窗口。
 `},
-{"id": "case-near-beds24-1019", "title": "近失：BEDS24 OTA Integration（投标 120）", "is_template": false, "summary": "17:43 雷达续刷仍最高分近失：beds24 四关过、竞争关否决（120）；作长尾印证不投。", "tags": ["Freelancer", "Beds24", "近失", "竞争"], "related_docs": ["doc-radar-pulse-1019", "doc-longtail", "doc-freelancer-bids"], "path": "docs/cases/near_beds24_ota_2026-10-19.md", "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845", "has_evidence": true, "date": "2026-10-19 17:43", "fields": {}, "content": `# 近失：BEDS24 OTA Integration（Freelancer）
+{"id": "case-near-beds24-1019", "title": "近失：BEDS24 OTA Integration（投标 118）", "is_template": false, "summary": "12:01 雷达续刷最高分近失：beds24 四关过、竞争关否决（118）；作长尾印证不投。", "tags": ["Freelancer", "Beds24", "近失", "竞争"], "related_docs": ["doc-radar-pulse-1019", "doc-longtail", "doc-freelancer-bids"], "path": "docs/cases/near_beds24_ota_2026-10-19.md", "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845", "has_evidence": true, "date": "2026-10-20 12:01", "fields": {}, "content": `# 近失：BEDS24 OTA Integration（Freelancer）
 
-- **来源**：[Freelancer · fl-40771845](https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845) · 雷达 2026-10-19 **17:43** +08（同帖续存；10:27 / 11:50 / 13:53 已记）
-- **预算**：\`$30–250\` Fixed · 投标 **120**（较午后未再涨）
-- **筛选**：嵌入轨 · 命中 \`beds24\` · 关键词/预算/清晰/一期均过 · **竞争关未过**（120≥100）→ \`recommend=false\` · score 75
+- **来源**：[Freelancer · fl-40771845](https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845) · 雷达 2026-10-20 **12:01** +08（同帖续存；10-19 17:43 / 10:27 / 11:50 / 13:53 及 10-20 午间已记）
+- **预算**：\`$30–250\` Fixed · 投标 **118**（12:01 雷达；较此前 hub 记的 120 略降）
+- **筛选**：嵌入轨 · 命中 \`beds24\` · 关键词/预算/清晰/一期均过 · **竞争关未过**（118≥100）→ \`recommend=false\` · score 75
 - **操作思路**：不投本帖（卷死）；把 Beds24/OTA 窄集成留作长尾产品与提案案例素材，等投标明显偏低的同类帖再出手。
 - **结果**：未投。印证长尾方向，非本轮可打单。
 `},
@@ -3833,23 +3833,32 @@ Chatwoot（Widget + 人工坐席台 + AgentBot/Webhook）
 
 *报告文件路径：\`/workspace/hub/agent_frameworks_2026-10.md\`*
 `},
-{"id": "doc-radar-pulse-1020", "title": "需求雷达脉搏 2026-10-20 午间（10:40）", "theme": "市场研究", "date": "2026-10-20 10:40", "summary": "雷达 30 帖 / 推荐 0；附 Freelancer discover 18 样本与 12 个新 T-FL 模板；合格单仍为 10-19 晚间 2 个 Freelancer。", "tags": ["雷达", "Freelancer", "脉搏"], "source": "", "path": "docs/notes/radar_pulse_2026-10-20.md", "related_docs": ["doc-fl-samples-1020", "doc-fl-templates", "doc-screened-1019e", "doc-radar-brief"], "content": `# 需求雷达脉搏 · 2026-10-20 午间续刷（Asia/Shanghai）
+{"id": "doc-radar-pulse-1020", "title": "需求雷达脉搏 2026-10-20 午后（12:01）", "theme": "市场研究", "date": "2026-10-20 12:01", "summary": "雷达 32 帖 / 推荐 0 @12:01；Beds24 近失 118 标；附午间已入库 discover 18 + T-FL 模板；ElevenLabs 仍 8 标，货代 pilot 复核已 128 标。", "tags": ["雷达", "Freelancer", "脉搏"], "source": "", "path": "docs/notes/radar_pulse_2026-10-20.md", "related_docs": ["doc-fl-samples-1020", "doc-fl-templates", "doc-screened-1019e", "doc-radar-brief"], "content": `# 需求雷达脉搏 · 2026-10-20 午后续刷（Asia/Shanghai）
 
-> 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\`（\`published_at\` **2026-10-20 10:40 +08**，every_4h）。公开数据 only。
+> 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\`（\`published_at\` **2026-10-20 12:01 +08**，every_4h）。公开数据 only。午间 10:40 已记 30/0；本条为同日增量。
 
 | 指标 | 数值 |
 |---|---|
-| 帖子总数 | **30**（早间 07:27 为 29；10-19 17:43 为 33） |
+| 帖子总数 | **32**（午间 10:40 为 30；早间 07:27 为 29；10-19 17:43 为 33） |
 | 推荐数量 | **0**（继续为空） |
-| Job ingest | OK（\`job_leads_run_id\` 20261020-104026） |
+| Job ingest | OK（\`job_leads_run_id\` 20261020-120048-8312d4e0） |
 | Fiverr | 仍跳过（HTTP 403 buyer_requests） |
 | Trends | 仍 demo（只作灵感） |
 
-→ 雷达推荐池仍空。人工侧增量：\`/workspace/freelancer/demand_samples_2026-10-20.md\`（discover，18 条样本）+ \`templates.md\` 新增 12 个 T-FL-*。低竞争亮点（提案＜50）：Copilot Studio 客服、Playwright TS 测试、IT 求职自动投递（条款风险）、Telegram 会员 bot。可打合格单仍来自 10-19 晚间放宽重评的 Freelancer **2 单**（ElevenLabs 8 标；货代 pilot 10 标）。
+→ 雷达推荐池仍空。人工侧（午间已入库、午后无新文件）：\`demand_samples_2026-10-20.md\`（discover，18 条）+ \`templates.md\` 新增 12 个 T-FL-*。可打合格单仍锚定 10-19 晚间 Freelancer **2 单**（见下「复核」）。
 
-**沉淀逻辑（今日）**：① Workspace 连接器 + 垂直系统 API + 2～3 场景的「Claude 接管 SMB 运营」三件套；② 业务库→记账/ERP 同步骨架；③ 文档抽取必须带置信度阈值+复核队列；④ M365（Copilot Studio / Power Automate）竞争低于 OpenAI/n8n；⑤ Replit/Lovable 类 vibe-rescue 作稳定小单。
+**雷达近失 / 观望（事实，来自 12:01 job_leads）**
+- BEDS24 OTA Integration Setup -- 3：仍 Open，score 75，四关过、竞争关否决（投标 **118**，较午间 hub 记的 120 略降）→ **不推荐投**；长尾印证。
+- Claude AI Integration Specialist：Open，$250–750，**84** 标；雷达关键词关未过，但已在 discover 技能贴合样本 → **仅观望**。
+- Zenoti POS Setup for Spa：$1500–3000，135 标 → 非核心栈，跳过。
 
-**动作**：复核两合格单是否仍 Open、提案仍 ≤30 → 投；M365 / Playwright QA demo 可排进作品集缺口。
+**合格单复核（可选 WebFetch，Asia/Shanghai 午后）**
+- ElevenLabs Voice Pipeline：仍 **Open**，提案仍 **8** → 低竞争前提仍成立，投前再确认。
+- 货代 leadgen pilot：仍 **Open**，提案已升至 **128**（晚间记 10）→ 原「低标合格」前提已失效；若未投则宜降级观望，勿当低竞争单。
+
+**沉淀逻辑（今日，与午间同）**：① Workspace 连接器 + 垂直系统 API + 2～3 场景的「Claude 接管 SMB 运营」三件套；② 业务库→记账/ERP 同步骨架；③ 文档抽取必须带置信度阈值+复核队列；④ M365（Copilot Studio / Power Automate）竞争低于 OpenAI/n8n；⑤ Replit/Lovable 类 vibe-rescue 作稳定小单。
+
+**动作**：优先 ElevenLabs（若仍 ≤30 标）→ 投；货代帖改观望；Beds24 / Zenoti 不投；M365 / Playwright QA demo 可排进作品集缺口。无新 Upwork 筛单文件（仍停在 10-19 晚间 NO_GOOD_JOBS）。
 `},
 {"id": "doc-fl-samples-1020", "title": "Freelancer 需求样本 2026-10-20（discover 18）", "theme": "市场研究", "date": "2026-10-20 09:10", "summary": "公开接口扫 228→近 36h 150，入样 18：Claude/GHL/ERP 打通、文档抽取+HITL、FAQ bot、M365、Playwright QA；低竞争亮点与 5 条可沉淀逻辑。", "tags": ["Freelancer", "discover", "样本", "低竞争", "n8n", "Playwright"], "source": "", "path": "freelancer/demand_samples_2026-10-20.md", "related_docs": ["doc-fl-templates", "doc-radar-pulse-1020", "doc-freelancer-bids", "doc-screened-1019e"], "content": `# Freelancer 需求样本 — 2026-10-20（Asia/Shanghai）
 
