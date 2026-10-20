@@ -90,7 +90,7 @@
       "type": "freelance",
       "title": "Freelancer.com",
       "url": "https://www.freelancer.com/",
-      "summary": "竞标制补充池。2026-10-20 12:01 雷达 32 帖、推荐仍 0；今日 discover 18 样本（低竞争：Copilot Studio / Playwright TS / M365）。合格单锚定 10-19 晚间 2 单：ElevenLabs 仍 8 标可打；货代 pilot 已升至 128 标宜观望。预算中位偏低，非主收入。",
+      "summary": "竞标制补充池。2026-10-20 17:00 雷达 33 帖、推荐仍 0；傍晚复核：原合格 ElevenLabs 仍 117 标、货代 pilot 页现 128 标（15:01 曾见 10，不可靠）→ 两单均降级；Beds24 雷达 118 / 页 36 仍不投。预算中位偏低，非主收入。",
       "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解",
       "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评",
       "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。",
@@ -273,12 +273,12 @@
     },
     {
       "id": "case-near-beds24-1019",
-      "title": "近失：BEDS24 OTA Integration（投标 118→36）",
+      "title": "近失：BEDS24 OTA Integration（雷达 118 / 页 36）",
       "path": "docs/cases/near_beds24_ota_2026-10-19.md",
-      "date": "2026-10-20 15:01",
+      "date": "2026-10-20 17:05",
       "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845",
       "has_evidence": true,
-      "summary": "15:01 页面投标约 36（雷达 12:01 为 118）；预算仍低 + Beds24 经验门槛 → 不投。",
+      "summary": "17:00 雷达仍记 118 标否决；页面约 36。预算低 + Beds24 经验门槛 → 不投。",
       "tags": [
         "Freelancer",
         "Beds24",
@@ -296,14 +296,14 @@
       "id": "case-qual-elevenlabs-1019",
       "title": "近失：ElevenLabs n8n 语音管线（提案 8→117）",
       "path": "docs/cases/qual_elevenlabs_n8n_2026-10-19.md",
-      "date": "2026-10-20 15:01",
+      "date": "2026-10-20 17:05",
       "source": "https://www.freelancer.com/projects/api/elevenlabs-voice-pipeline-fix-multi",
       "has_evidence": true,
       "来源": "Freelancer（2026-10-19 晚间 WebFetch 核验）",
       "单子类型": "n8n 修复 + 多 Agent 语音管线（ElevenLabs/STT/Polly/Azure）",
       "操作思路": "€250–750 · 曾 8 标现 117 · 低竞争失效 → 不投",
-      "结果": "降级近失 — 抢标窗口已过",
-      "summary": "15:01 复核：提案 8→117，合格低标前提失效，降级不投。",
+      "结果": "维持近失 — 抢标窗口已过",
+      "summary": "17:05 复核：仍 Open·117 标，维持降级不投。",
       "tags": [
         "Freelancer",
         "近失",
@@ -322,22 +322,23 @@
     },
     {
       "id": "case-qual-freight-leadgen-1019",
-      "title": "合格（复核）：货代 AI 线索生成 Agent pilot（本轮 10 标）",
+      "title": "近失（曾合格）：货代 AI 线索生成 Agent pilot（提案 10↔128）",
       "path": "docs/cases/qual_freight_leadgen_2026-10-19.md",
-      "date": "2026-10-20 15:01",
+      "date": "2026-10-20 17:05",
       "source": "https://www.freelancer.com/projects/ai-chatbot/lead-generation-agent-for-forwarding",
       "has_evidence": true,
       "来源": "Freelancer（2026-10-19 晚间 WebFetch 核验）",
       "单子类型": "n8n/Python + Claude API + WhatsApp Business + HubSpot/Zoho 线索发现与打分",
-      "操作思路": "$250–750 · 本轮 10 标（午后曾记 128，以本轮为准）· Pilot $450–650",
-      "结果": "可投若仍 ≤30 — 新客户+PDPL；投前再核提案数",
-      "summary": "15:01 页面仍 Open·10 标；午后 128 记录存疑，投前复核提案数。",
+      "操作思路": "$250–750 · 本轮 128 标（15:01 曾见 10）· 低竞争失效 → 不投",
+      "结果": "降级近失 — 提案数跳动，勿用单次低读数当窗口",
+      "summary": "17:05 页面 Open·128 标；15:01 的 10 标不可靠。降级观望/不投。",
       "tags": [
         "Freelancer",
-        "合格",
+        "近失",
         "线索生成",
         "WhatsApp",
-        "Agent"
+        "Agent",
+        "竞争"
       ],
       "related_docs": [
         "doc-screened-1019e",
@@ -579,7 +580,7 @@
         "短名单",
         "放宽标准"
       ],
-      "summary": "新硬过滤（提案≤30、固价≥$200、时薪≥$20）下 Freelancer 2 单合格：ElevenLabs n8n 语音管线（8 标）、货代 AI 线索 pilot（10 标）；Upwork 0。附 16 条近失。"
+      "summary": "新硬过滤下曾 Freelancer 2 单合格；2026-10-20 傍晚复核后均已降级：ElevenLabs 117 标、货代 pilot 128 标。Upwork 0。附 16 条近失。"
     },
     {
       "id": "doc-agent-frameworks",
@@ -597,7 +598,7 @@
     },
     {
       "id": "doc-radar-pulse-1020",
-      "title": "需求雷达脉搏 2026-10-20（12:01 + 15:01 复核）",
+      "title": "需求雷达脉搏 2026-10-20（17:00 + 傍晚复核）",
       "path": "docs/notes/radar_pulse_2026-10-20.md",
       "theme": "市场研究",
       "tags": [
@@ -605,8 +606,8 @@
         "Freelancer",
         "脉搏"
       ],
-      "summary": "雷达仍 32/0 @12:01；15:01 复核：ElevenLabs 8→117 降级；货代本轮 10 标；Beds24 118→36 仍不投。",
-      "date": "2026-10-20 15:01",
+      "summary": "雷达 33/0 @17:00；傍晚复核：ElevenLabs 117 维持近失；货代 128 标降级（15:01 的 10 不可靠）；Beds24 雷达 118/页 36 仍不投。",
+      "date": "2026-10-20 17:05",
       "related_docs": [
         "doc-fl-samples-1020",
         "doc-fl-templates",

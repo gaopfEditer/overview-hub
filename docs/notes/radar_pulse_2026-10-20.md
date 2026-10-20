@@ -39,3 +39,30 @@
 | BEDS24 OTA Integration | 雷达 12:01 · **118** 标 | Open · 提案 **36**（页上相对时间像刷新；预算仍 $30–250） | 竞争改善但仍预算偏低 + 强 Beds24 经验门槛 → **仍不投**，长尾素材 |
 
 **动作**：ElevenLabs 从合格池移除；货代 pilot 若未投可仍跟（复核提案仍 ≤30）；Beds24 不投；雷达无新推荐时继续靠手工 discover / 模板沉淀。无新 Upwork 筛单文件。
+
+
+---
+
+## 傍晚复核（约 17:05 +08；雷达已刷 17:00）
+
+> 线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) `data/meta.json`：**published_at 2026-10-20 17:00:51 +08**，`job_leads` **33 / 推荐 0**（`job_leads_run_id` 20261020-170025-6c58ec08）。相对午后 12:01 的 32/0 仅 +1 帖，推荐池仍空。Fiverr 仍 403；Trends 仍 demo。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **33**（12:01 为 32；10:40 为 30） |
+| 推荐数量 | **0** |
+| 嵌入轨近失 | BEDS24 仍 Open，雷达记投标 **118**（竞争关否决）；页面约 **36**（同 15:01） |
+
+**雷达近失 / 观望（17:00 job_leads）**
+- BEDS24 OTA Integration Setup -- 3：仍 Open，score 75，竞争关否决（雷达 **118**）→ **不投**。
+- Claude AI Integration Specialist：$250–750，投标 **100**（午后曾记 84）→ 关键词关未过 + 红海 → **仅观望**。
+- 本轮列表未见 Zenoti；大量 sales/booking 红海帖，无新增嵌入词命中可打单。
+
+**合格单页面复核（WebFetch，Asia/Shanghai ~17:05）**
+| 帖 | 15:01 hub 记 | 本轮页面 | 结论 |
+|---|---|---|---|
+| ElevenLabs n8n 语音管线 | Open · **117** → 已降级 | 仍 Open · **117** | 维持近失/不投 |
+| 货代 AI leadgen pilot | Open · **10** → 可投（投前再核） | 仍 Open · **128** | **低竞争前提再次失效** → 降级近失/观望，勿当低标单 |
+| BEDS24 OTA | 雷达 118 / 页 36 | 雷达 118 / 页 **36**（文案仍强卡 Beds24 经验；预算 $30–250） | **仍不投** |
+
+**动作**：原 10-19 晚间 QUALIFIED 两单本轮均不宜再当「低标合格」；无新 Upwork 筛单文件；继续靠手工 discover / T-FL 模板沉淀。下一雷达约 21:00（every_4h）。
