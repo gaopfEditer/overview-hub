@@ -369,31 +369,32 @@ cases: [
 
 栈贴合但提案已 50+，且时薪无法页核验 → 不进 QUALIFIED。同类「集成+Agent」仍是 Saved Search 重点；要盯**新帖、提案个位数**窗口。
 `},
-{"id": "case-near-beds24-1019", "title": "近失：BEDS24 OTA Integration（投标 118）", "is_template": false, "summary": "12:01 雷达续刷最高分近失：beds24 四关过、竞争关否决（118）；作长尾印证不投。", "tags": ["Freelancer", "Beds24", "近失", "竞争"], "related_docs": ["doc-radar-pulse-1019", "doc-longtail", "doc-freelancer-bids"], "path": "docs/cases/near_beds24_ota_2026-10-19.md", "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845", "has_evidence": true, "date": "2026-10-20 12:01", "fields": {}, "content": `# 近失：BEDS24 OTA Integration（Freelancer）
+{"id": "case-near-beds24-1019", "title": "近失：BEDS24 OTA Integration（投标 118→36）", "is_template": false, "summary": "15:01 页面投标约 36（雷达 12:01 为 118）；预算仍低 + Beds24 经验门槛 → 不投。", "tags": ["Freelancer", "Beds24", "近失", "竞争"], "related_docs": ["doc-radar-pulse-1019", "doc-longtail", "doc-freelancer-bids", "doc-radar-pulse-1020"], "path": "docs/cases/near_beds24_ota_2026-10-19.md", "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845", "has_evidence": true, "date": "2026-10-20 15:01", "fields": {}, "content": `# 近失：BEDS24 OTA Integration（Freelancer）
 
-- **来源**：[Freelancer · fl-40771845](https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845) · 雷达 2026-10-20 **12:01** +08（同帖续存；10-19 17:43 / 10:27 / 11:50 / 13:53 及 10-20 午间已记）
-- **预算**：\`$30–250\` Fixed · 投标 **118**（12:01 雷达；较此前 hub 记的 120 略降）
-- **筛选**：嵌入轨 · 命中 \`beds24\` · 关键词/预算/清晰/一期均过 · **竞争关未过**（118≥100）→ \`recommend=false\` · score 75
-- **操作思路**：不投本帖（卷死）；把 Beds24/OTA 窄集成留作长尾产品与提案案例素材，等投标明显偏低的同类帖再出手。
-- **结果**：未投。印证长尾方向，非本轮可打单。
+- **来源**：[Freelancer · fl-40771845](https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845) · 雷达 2026-10-20 **12:01** +08（118 标）；**~15:01 页面复核**
+- **预算**：\`$30–250\` Fixed · 本轮页面投标 **36**（雷达 12:01 记 **118**；页上相对时间像刷新）
+- **筛选**：嵌入轨 · 命中 \`beds24\` · 关键词/预算/清晰/一期均过 · 竞争：12:01 否决（118≥100）；本轮 36 已低于 100，但**预算下沿过低**且文案强卡 Beds24 实战经验
+- **操作思路**：仍不投本帖；把 Beds24/OTA 窄集成留作长尾产品与提案案例素材
+- **结果**：未投。竞争数字改善不改预算/经验门槛结论。
 `},
-{"id": "case-qual-elevenlabs-1019", "title": "合格：ElevenLabs n8n 语音管线修复 + 多 Agent（8 标）", "is_template": false, "summary": "放宽重评合格：低标（8）+ n8n/Agent/API 强匹配；新客户需锁范围。", "tags": ["Freelancer", "合格", "n8n", "Agent", "语音"], "related_docs": ["doc-screened-1019e", "doc-freelancer-bids", "doc-radar-pulse-1020", "doc-fl-templates", "doc-fl-samples-1020"], "path": "docs/cases/qual_elevenlabs_n8n_2026-10-19.md", "source": "https://www.freelancer.com/projects/api/elevenlabs-voice-pipeline-fix-multi", "has_evidence": true, "date": "2026-10-19 22:50", "fields": {"来源": "Freelancer（2026-10-19 晚间 WebFetch 核验）", "单子类型": "n8n 修复 + 多 Agent 语音管线（ElevenLabs/STT/Polly/Azure）", "操作思路": "€250–750 · 8 标 · 报 €400–550；先要 n8n 导出 + 失败 execution；三段里程碑", "结果": "待投 — 新客户（Berlin, 10-17 注册）风险已标"}, "来源": "Freelancer（2026-10-19 晚间 WebFetch 核验）", "单子类型": "n8n 修复 + 多 Agent 语音管线（ElevenLabs/STT/Polly/Azure）", "操作思路": "€250–750 · 8 标 · 报 €400–550；先要 n8n 导出 + 失败 execution；三段里程碑", "结果": "待投 — 新客户（Berlin, 10-17 注册）风险已标", "content": `# 合格：ElevenLabs Voice Pipeline Fix & Multi-Agent Build（Freelancer）
+{"id": "case-qual-elevenlabs-1019", "title": "近失：ElevenLabs n8n 语音管线（提案 8→117）", "is_template": false, "summary": "15:01 复核：提案 8→117，合格低标前提失效，降级不投。", "tags": ["Freelancer", "近失", "n8n", "Agent", "语音", "竞争"], "related_docs": ["doc-screened-1019e", "doc-freelancer-bids", "doc-radar-pulse-1020", "doc-fl-templates", "doc-fl-samples-1020"], "path": "docs/cases/qual_elevenlabs_n8n_2026-10-19.md", "source": "https://www.freelancer.com/projects/api/elevenlabs-voice-pipeline-fix-multi", "has_evidence": true, "date": "2026-10-20 15:01", "fields": {"来源": "Freelancer（2026-10-19 晚间 WebFetch 核验）", "单子类型": "n8n 修复 + 多 Agent 语音管线（ElevenLabs/STT/Polly/Azure）", "操作思路": "€250–750 · 曾 8 标现 117 · 低竞争失效 → 不投", "结果": "降级近失 — 抢标窗口已过"}, "来源": "Freelancer（2026-10-19 晚间 WebFetch 核验）", "单子类型": "n8n 修复 + 多 Agent 语音管线（ElevenLabs/STT/Polly/Azure）", "操作思路": "€250–750 · 曾 8 标现 117 · 低竞争失效 → 不投", "结果": "降级近失 — 抢标窗口已过", "content": `# 近失（曾合格）：ElevenLabs Voice Pipeline Fix & Multi-Agent Build（Freelancer）
 
-- **来源**：[Freelancer · elevenlabs-voice-pipeline-fix-multi](https://www.freelancer.com/projects/api/elevenlabs-voice-pipeline-fix-multi) · 晚间放宽重评 2026-10-19 约 22:50 +08（WebFetch 核验）
-- **预算**：€250–750 EUR（下沿约 $270）· 提案 **8** · Open，约 6 天截止（核验时）
+- **来源**：[Freelancer · elevenlabs-voice-pipeline-fix-multi](https://www.freelancer.com/projects/api/elevenlabs-voice-pipeline-fix-multi) · 晚间放宽重评 2026-10-19 约 22:50 +08；**2026-10-20 ~15:01 复核**
+- **预算**：€250–750 EUR（下沿约 $270）· 提案 **117**（晚间/午后曾为 **8**）· 仍 Open，约 4 天截止（本轮页）
 - **单子类型**：n8n 集成失败修复 + 多 Agent；API / DB / ElevenLabs + Google STT / Polly / Azure Speech
-- **风险**：客户 Berlin，Member since 2026-10-17（新号无花费）；「修管线 + 多 Agent」相对下沿偏紧
-- **操作思路**：报 €400–550；先要 n8n 导出与失败 execution；里程碑 = 诊断修复 → 多 Agent 子流程 → 联调文档
-- **结果**：待投（低标 + 栈贴合，优先级高；投前再看是否仍 Open、提案数是否 ≤30）
+- **风险**：客户 Berlin，Member since 2026-10-17（新号无花费）；范围相对下沿偏紧；**竞争已红海**
+- **操作思路**：原计划报 €400–550、三段里程碑；现提案远超 ≤30 门槛 → **本轮不投**
+- **结果**：降级近失。印证：n8n/语音管线帖抢标极快，合格窗口以小时计。
 `},
-{"id": "case-qual-freight-leadgen-1019", "title": "合格：货代 AI 线索生成 Agent pilot（10 标）", "is_template": false, "summary": "放宽重评合格：爬虫/数据 + Agent 强匹配，必须锁死 pilot 范围。", "tags": ["Freelancer", "合格", "线索生成", "WhatsApp", "Agent"], "related_docs": ["doc-screened-1019e", "doc-agent-frameworks", "doc-radar-pulse-1020", "doc-fl-templates", "doc-fl-samples-1020"], "path": "docs/cases/qual_freight_leadgen_2026-10-19.md", "source": "https://www.freelancer.com/projects/ai-chatbot/lead-generation-agent-for-forwarding", "has_evidence": true, "date": "2026-10-19 22:50", "fields": {"来源": "Freelancer（2026-10-19 晚间 WebFetch 核验）", "单子类型": "n8n/Python + Claude API + WhatsApp Business + HubSpot/Zoho 线索发现与打分", "操作思路": "$250–750 · 10 标 · Pilot 阶段 1–2 报 $450–650，全量另报；写清数据源/打分/账号归属/API 成本", "结果": "待投 — 新客户（Dubai）+ PDPL/WhatsApp opt-in 合规风险"}, "来源": "Freelancer（2026-10-19 晚间 WebFetch 核验）", "单子类型": "n8n/Python + Claude API + WhatsApp Business + HubSpot/Zoho 线索发现与打分", "操作思路": "$250–750 · 10 标 · Pilot 阶段 1–2 报 $450–650，全量另报；写清数据源/打分/账号归属/API 成本", "结果": "待投 — 新客户（Dubai）+ PDPL/WhatsApp opt-in 合规风险", "content": `# 合格：AI lead generation agent for forwarding company — pilot（Freelancer）
+{"id": "case-qual-freight-leadgen-1019", "title": "合格（复核）：货代 AI 线索生成 Agent pilot（本轮 10 标）", "is_template": false, "summary": "15:01 页面仍 Open·10 标；午后 128 记录存疑，投前复核提案数。", "tags": ["Freelancer", "合格", "线索生成", "WhatsApp", "Agent"], "related_docs": ["doc-screened-1019e", "doc-agent-frameworks", "doc-radar-pulse-1020", "doc-fl-templates", "doc-fl-samples-1020"], "path": "docs/cases/qual_freight_leadgen_2026-10-19.md", "source": "https://www.freelancer.com/projects/ai-chatbot/lead-generation-agent-for-forwarding", "has_evidence": true, "date": "2026-10-20 15:01", "fields": {"来源": "Freelancer（2026-10-19 晚间 WebFetch 核验）", "单子类型": "n8n/Python + Claude API + WhatsApp Business + HubSpot/Zoho 线索发现与打分", "操作思路": "$250–750 · 本轮 10 标（午后曾记 128，以本轮为准）· Pilot $450–650", "结果": "可投若仍 ≤30 — 新客户+PDPL；投前再核提案数"}, "来源": "Freelancer（2026-10-19 晚间 WebFetch 核验）", "单子类型": "n8n/Python + Claude API + WhatsApp Business + HubSpot/Zoho 线索发现与打分", "操作思路": "$250–750 · 本轮 10 标（午后曾记 128，以本轮为准）· Pilot $450–650", "结果": "可投若仍 ≤30 — 新客户+PDPL；投前再核提案数", "content": `# 合格（复核中）：AI lead generation agent for forwarding company — pilot（Freelancer）
 
-- **来源**：[Freelancer · lead-generation-agent-for-forwarding](https://www.freelancer.com/projects/ai-chatbot/lead-generation-agent-for-forwarding) · 晚间放宽重评 2026-10-19 约 22:50 +08（WebFetch 核验）
-- **预算**：$250–750 USD · 提案 **10** · Open（核验时）
-- **单子类型**：n8n 或 Python + Claude API + WhatsApp Business API + HubSpot/Zoho；2 周试点（线索发现 + enrichment/打分），后续 outreach / 入站 bot / CRM
-- **风险**：客户 Dubai，Member since 2026-10-17（新号）；UAE PDPL / WhatsApp opt-in 合规；全量五阶段对预算偏大，**必须锁死 pilot 范围**
-- **操作思路**：Pilot（阶段 1–2）报 $450–650，全量另报；标书写清数据源、打分规则、账号归客户、月度 API 成本估算
-- **结果**：待投（爬虫/数据 + API + Agent 强匹配；投前复核 Open 与提案数）
+- **来源**：[Freelancer · lead-generation-agent-for-forwarding](https://www.freelancer.com/projects/ai-chatbot/lead-generation-agent-for-forwarding) · 晚间放宽重评 2026-10-19 约 22:50 +08；**2026-10-20 ~15:01 复核**
+- **预算**：$250–750 USD · 提案 **10**（本轮 WebFetch）· 仍 Open
+- **说明**：午后 pulse 曾记提案升至 **128**；本轮页面为 **10**（相对时间像刷新）。**以本轮页面为准**，投前务必再核一次提案数。
+- **单子类型**：n8n 或 Python + Claude API + WhatsApp Business API + HubSpot/Zoho；2 周试点（线索发现 + enrichment/打分）
+- **风险**：客户 Dubai，Member since 2026-10-17（新号）；UAE PDPL / WhatsApp opt-in；全量五阶段对预算偏大，**必须锁死 pilot**
+- **操作思路**：Pilot（阶段 1–2）报 $450–650，全量另报；标书写清数据源、打分规则、账号归客户、月度 API 成本
+- **结果**：若提案仍 ≤30 可投；否则立即降级观望。
 `},
 ],
 case_field_order: ["来源", "单子类型", "操作思路", "结果"],
@@ -3833,7 +3834,7 @@ Chatwoot（Widget + 人工坐席台 + AgentBot/Webhook）
 
 *报告文件路径：\`/workspace/hub/agent_frameworks_2026-10.md\`*
 `},
-{"id": "doc-radar-pulse-1020", "title": "需求雷达脉搏 2026-10-20 午后（12:01）", "theme": "市场研究", "date": "2026-10-20 12:01", "summary": "雷达 32 帖 / 推荐 0 @12:01；Beds24 近失 118 标；附午间已入库 discover 18 + T-FL 模板；ElevenLabs 仍 8 标，货代 pilot 复核已 128 标。", "tags": ["雷达", "Freelancer", "脉搏"], "source": "", "path": "docs/notes/radar_pulse_2026-10-20.md", "related_docs": ["doc-fl-samples-1020", "doc-fl-templates", "doc-screened-1019e", "doc-radar-brief"], "content": `# 需求雷达脉搏 · 2026-10-20 午后续刷（Asia/Shanghai）
+{"id": "doc-radar-pulse-1020", "title": "需求雷达脉搏 2026-10-20（12:01 + 15:01 复核）", "theme": "市场研究", "date": "2026-10-20 15:01", "summary": "雷达仍 32/0 @12:01；15:01 复核：ElevenLabs 8→117 降级；货代本轮 10 标；Beds24 118→36 仍不投。", "tags": ["雷达", "Freelancer", "脉搏"], "source": "", "path": "docs/notes/radar_pulse_2026-10-20.md", "related_docs": ["doc-fl-samples-1020", "doc-fl-templates", "doc-screened-1019e", "doc-radar-brief"], "content": `# 需求雷达脉搏 · 2026-10-20（Asia/Shanghai；午后 12:01 + 晚后复核）
 
 > 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\`（\`published_at\` **2026-10-20 12:01 +08**，every_4h）。公开数据 only。午间 10:40 已记 30/0；本条为同日增量。
 
@@ -3859,6 +3860,21 @@ Chatwoot（Widget + 人工坐席台 + AgentBot/Webhook）
 **沉淀逻辑（今日，与午间同）**：① Workspace 连接器 + 垂直系统 API + 2～3 场景的「Claude 接管 SMB 运营」三件套；② 业务库→记账/ERP 同步骨架；③ 文档抽取必须带置信度阈值+复核队列；④ M365（Copilot Studio / Power Automate）竞争低于 OpenAI/n8n；⑤ Replit/Lovable 类 vibe-rescue 作稳定小单。
 
 **动作**：优先 ElevenLabs（若仍 ≤30 标）→ 投；货代帖改观望；Beds24 / Zenoti 不投；M365 / Playwright QA demo 可排进作品集缺口。无新 Upwork 筛单文件（仍停在 10-19 晚间 NO_GOOD_JOBS）。
+
+
+---
+
+## 晚后复核（约 15:01 +08，WebFetch；雷达 meta 仍停在 12:01）
+
+> 线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\` 仍为 **published_at 2026-10-20 12:01 +08**，job_leads **32 / 推荐 0**（every_4h，预计下一刷约 16:01）。本段为 Freelancer 页面复核，非新雷达 ingest。
+
+| 帖 | 午后 hub 记 | 本轮页面 | 结论 |
+|---|---|---|---|
+| ElevenLabs n8n 语音管线 | Open · **8** 标 → 优先投 | 仍 Open · 提案 **117** | **低竞争前提失效** → 降级近失/不投 |
+| 货代 AI leadgen pilot | 午后曾记 **128** 标 → 观望 | 仍 Open · 提案 **10**（页上相对时间像刷新；以本轮数字为准） | 仍可按低标锁 pilot 投；新客户+合规风险不变；投前再核一次 |
+| BEDS24 OTA Integration | 雷达 12:01 · **118** 标 | Open · 提案 **36**（页上相对时间像刷新；预算仍 $30–250） | 竞争改善但仍预算偏低 + 强 Beds24 经验门槛 → **仍不投**，长尾素材 |
+
+**动作**：ElevenLabs 从合格池移除；货代 pilot 若未投可仍跟（复核提案仍 ≤30）；Beds24 不投；雷达无新推荐时继续靠手工 discover / 模板沉淀。无新 Upwork 筛单文件。
 `},
 {"id": "doc-fl-samples-1020", "title": "Freelancer 需求样本 2026-10-20（discover 18）", "theme": "市场研究", "date": "2026-10-20 09:10", "summary": "公开接口扫 228→近 36h 150，入样 18：Claude/GHL/ERP 打通、文档抽取+HITL、FAQ bot、M365、Playwright QA；低竞争亮点与 5 条可沉淀逻辑。", "tags": ["Freelancer", "discover", "样本", "低竞争", "n8n", "Playwright"], "source": "", "path": "freelancer/demand_samples_2026-10-20.md", "related_docs": ["doc-fl-templates", "doc-radar-pulse-1020", "doc-freelancer-bids", "doc-screened-1019e"], "content": `# Freelancer 需求样本 — 2026-10-20（Asia/Shanghai）
 

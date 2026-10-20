@@ -273,12 +273,12 @@
     },
     {
       "id": "case-near-beds24-1019",
-      "title": "近失：BEDS24 OTA Integration（投标 118）",
+      "title": "近失：BEDS24 OTA Integration（投标 118→36）",
       "path": "docs/cases/near_beds24_ota_2026-10-19.md",
-      "date": "2026-10-20 12:01",
+      "date": "2026-10-20 15:01",
       "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845",
       "has_evidence": true,
-      "summary": "12:01 雷达续刷最高分近失：beds24 四关过、竞争关否决（118）；作长尾印证不投。",
+      "summary": "15:01 页面投标约 36（雷达 12:01 为 118）；预算仍低 + Beds24 经验门槛 → 不投。",
       "tags": [
         "Freelancer",
         "Beds24",
@@ -288,27 +288,29 @@
       "related_docs": [
         "doc-radar-pulse-1019",
         "doc-longtail",
-        "doc-freelancer-bids"
+        "doc-freelancer-bids",
+        "doc-radar-pulse-1020"
       ]
     },
     {
       "id": "case-qual-elevenlabs-1019",
-      "title": "合格：ElevenLabs n8n 语音管线修复 + 多 Agent（8 标）",
+      "title": "近失：ElevenLabs n8n 语音管线（提案 8→117）",
       "path": "docs/cases/qual_elevenlabs_n8n_2026-10-19.md",
-      "date": "2026-10-19 22:50",
+      "date": "2026-10-20 15:01",
       "source": "https://www.freelancer.com/projects/api/elevenlabs-voice-pipeline-fix-multi",
       "has_evidence": true,
       "来源": "Freelancer（2026-10-19 晚间 WebFetch 核验）",
       "单子类型": "n8n 修复 + 多 Agent 语音管线（ElevenLabs/STT/Polly/Azure）",
-      "操作思路": "€250–750 · 8 标 · 报 €400–550；先要 n8n 导出 + 失败 execution；三段里程碑",
-      "结果": "待投 — 新客户（Berlin, 10-17 注册）风险已标",
-      "summary": "放宽重评合格：低标（8）+ n8n/Agent/API 强匹配；新客户需锁范围。",
+      "操作思路": "€250–750 · 曾 8 标现 117 · 低竞争失效 → 不投",
+      "结果": "降级近失 — 抢标窗口已过",
+      "summary": "15:01 复核：提案 8→117，合格低标前提失效，降级不投。",
       "tags": [
         "Freelancer",
-        "合格",
+        "近失",
         "n8n",
         "Agent",
-        "语音"
+        "语音",
+        "竞争"
       ],
       "related_docs": [
         "doc-screened-1019e",
@@ -320,16 +322,16 @@
     },
     {
       "id": "case-qual-freight-leadgen-1019",
-      "title": "合格：货代 AI 线索生成 Agent pilot（10 标）",
+      "title": "合格（复核）：货代 AI 线索生成 Agent pilot（本轮 10 标）",
       "path": "docs/cases/qual_freight_leadgen_2026-10-19.md",
-      "date": "2026-10-19 22:50",
+      "date": "2026-10-20 15:01",
       "source": "https://www.freelancer.com/projects/ai-chatbot/lead-generation-agent-for-forwarding",
       "has_evidence": true,
       "来源": "Freelancer（2026-10-19 晚间 WebFetch 核验）",
       "单子类型": "n8n/Python + Claude API + WhatsApp Business + HubSpot/Zoho 线索发现与打分",
-      "操作思路": "$250–750 · 10 标 · Pilot 阶段 1–2 报 $450–650，全量另报；写清数据源/打分/账号归属/API 成本",
-      "结果": "待投 — 新客户（Dubai）+ PDPL/WhatsApp opt-in 合规风险",
-      "summary": "放宽重评合格：爬虫/数据 + Agent 强匹配，必须锁死 pilot 范围。",
+      "操作思路": "$250–750 · 本轮 10 标（午后曾记 128，以本轮为准）· Pilot $450–650",
+      "结果": "可投若仍 ≤30 — 新客户+PDPL；投前再核提案数",
+      "summary": "15:01 页面仍 Open·10 标；午后 128 记录存疑，投前复核提案数。",
       "tags": [
         "Freelancer",
         "合格",
@@ -595,7 +597,7 @@
     },
     {
       "id": "doc-radar-pulse-1020",
-      "title": "需求雷达脉搏 2026-10-20 午后（12:01）",
+      "title": "需求雷达脉搏 2026-10-20（12:01 + 15:01 复核）",
       "path": "docs/notes/radar_pulse_2026-10-20.md",
       "theme": "市场研究",
       "tags": [
@@ -603,8 +605,8 @@
         "Freelancer",
         "脉搏"
       ],
-      "summary": "雷达 32 帖 / 推荐 0 @12:01；Beds24 近失 118 标；附午间已入库 discover 18 + T-FL 模板；ElevenLabs 仍 8 标，货代 pilot 复核已 128 标。",
-      "date": "2026-10-20 12:01",
+      "summary": "雷达仍 32/0 @12:01；15:01 复核：ElevenLabs 8→117 降级；货代本轮 10 标；Beds24 118→36 仍不投。",
+      "date": "2026-10-20 15:01",
       "related_docs": [
         "doc-fl-samples-1020",
         "doc-fl-templates",
