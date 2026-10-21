@@ -55,7 +55,8 @@
         "doc-radar-pulse-1019",
         "doc-screened-1019e",
         "doc-fl-samples-1020",
-        "doc-radar-pulse-1021"
+        "doc-radar-pulse-1021",
+        "doc-fl-samples-1021"
       ],
       "tags": [
         "Upwork",
@@ -91,7 +92,7 @@
       "type": "freelance",
       "title": "Freelancer.com",
       "url": "https://www.freelancer.com/",
-      "summary": "竞标制补充池。2026-10-21 07:01 雷达 21 帖、推荐 1（Beds24 OTA --4，$30–250，98 标）→ 人工仍不投；昨傍晚合格两单已降级。预算中位偏低，非主收入。",
+      "summary": "竞标制补充池。2026-10-21 10:35 雷达 17 帖、推荐 0（Beds24 OTA --4 投标 112，不再推荐）；早间曾 21/1。今日 discover 入样 16 + 6 个新 T-FL（门户 RPA / RFP-RAG / 西语修准 / 外联 CRM / Zoho 扩展 / Next webhook）。昨傍晚合格两单已降级。预算中位偏低，非主收入。",
       "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解",
       "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评",
       "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。",
@@ -109,7 +110,8 @@
         "doc-fl-samples-1020",
         "doc-fl-templates",
         "doc-radar-pulse-1021",
-        "doc-booking-map-1021"
+        "doc-booking-map-1021",
+        "doc-fl-samples-1021"
       ],
       "tags": [
         "Freelancer",
@@ -277,12 +279,12 @@
     },
     {
       "id": "case-near-beds24-1019",
-      "title": "近失：BEDS24 OTA（--3 不投；--4 雷达推但仍不投）",
+      "title": "近失：BEDS24 OTA（--4 早推午撤；人工始终不投）",
       "path": "docs/cases/near_beds24_ota_2026-10-19.md",
       "date": "2026-10-21 08:58",
       "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40778471",
       "has_evidence": true,
-      "summary": "10-21 07:01 雷达首次推荐 --4（$30–250·98 标）；人工仍不投。--3 维持近失素材。",
+      "summary": "Beds24 OTA --4：07:01 雷达 recommend=true（98 标）人工不投；10:35 投标 112、recommend=false。系列印证 PMS/OTA 长尾，非当前出价窗口。",
       "tags": [
         "Freelancer",
         "Beds24",
@@ -644,7 +646,33 @@
         "doc-fl-templates",
         "doc-radar-pulse-1020",
         "doc-freelancer-bids",
-        "doc-screened-1019e"
+        "doc-screened-1019e",
+        "doc-fl-samples-1021"
+      ]
+    },
+    {
+      "id": "doc-fl-samples-1021",
+      "title": "Freelancer 需求样本 2026-10-21（discover 16）",
+      "path": "/workspace/freelancer/demand_samples_2026-10-21.md",
+      "theme": "市场研究",
+      "date": "2026-10-21 09:15",
+      "tags": [
+        "Freelancer",
+        "discover",
+        "样本",
+        "门户RPA",
+        "RFP",
+        "CRM",
+        "Next.js",
+        "Playwright"
+      ],
+      "summary": "公开接口扫近 36h，入样 16：政府门户填表 Agent、RFP/采购 RAG、西语客服修准、电话+邮件外联 CRM、Zoho Marketplace、Next webhook/Auth 二开；低竞争亮点与 5 条沉淀逻辑。",
+      "related_docs": [
+        "doc-fl-templates",
+        "doc-radar-pulse-1021",
+        "doc-fl-samples-1020",
+        "doc-freelancer-bids",
+        "doc-booking-map-1021"
       ]
     },
     {
@@ -652,27 +680,28 @@
       "title": "Freelancer 可复用需求模板（T-FL-*）",
       "path": "/workspace/freelancer/templates.md",
       "theme": "模板与交付",
-      "date": "2026-10-20 09:10",
+      "date": "2026-10-21 09:13",
       "tags": [
         "Freelancer",
         "模板",
         "提案",
         "里程碑"
       ],
-      "summary": "从真实单提炼的 T-FL 模板表：语音 n8n、线索 pilot、RAG、M365、库→记账、vibe-rescue 等；含预算带与关键风险。",
+      "summary": "T-FL 表已扩至含 10-21 新模板：gov-portal-rpa、rfp-scrape-rag、llm-locale-qa、voice-email-crm、crm-marketplace-sync、next-webhook-auth；另有语音 n8n、线索 pilot、M365、vibe-rescue 等。",
       "related_docs": [
         "doc-fl-samples-1020",
         "doc-tplplan",
         "doc-freelancer-bids",
-        "doc-live"
+        "doc-live",
+        "doc-fl-samples-1021"
       ]
     },
     {
       "id": "doc-radar-pulse-1021",
-      "title": "需求雷达脉搏 2026-10-21 早间（07:01）",
+      "title": "需求雷达脉搏 2026-10-21（07:01 + 10:35 午前）",
       "path": "docs/notes/radar_pulse_2026-10-21.md",
       "theme": "市场研究",
-      "date": "2026-10-21 07:01",
+      "date": "2026-10-21 10:35",
       "tags": [
         "雷达",
         "Freelancer",
@@ -680,12 +709,13 @@
         "脉搏",
         "推荐"
       ],
-      "summary": "雷达 21/1 @07:01；唯一推荐 Beds24 OTA --4（98 标）人工不投；Chat Booking 红海旁证预约主题。",
+      "summary": "早间 21/1（Beds24--4 推但不投）；午前 17/0，Beds24 112 标撤推；挂钩今日 discover 16 样 + 6 新 T-FL。无新 Upwork 筛单。",
       "related_docs": [
         "doc-radar-pulse-1020",
         "doc-booking-map-1021",
         "doc-longtail",
-        "doc-fl-templates"
+        "doc-fl-templates",
+        "doc-fl-samples-1021"
       ]
     },
     {
@@ -709,7 +739,8 @@
         "doc-fl-templates",
         "doc-fl-samples-1020",
         "doc-radar-pulse-1021",
-        "doc-backlog"
+        "doc-backlog",
+        "doc-fl-samples-1021"
       ]
     }
   ]
