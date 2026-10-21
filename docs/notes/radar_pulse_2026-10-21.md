@@ -58,3 +58,25 @@
 - 新增 T-FL：`gov-portal-rpa` · `rfp-scrape-rag` · `llm-locale-qa` · `voice-email-crm` · `crm-marketplace-sync` · `next-webhook-auth`（见 templates 表）。
 
 **动作**：仍不投 Beds24；无雷达推荐时继续靠 discover / T-FL 沉淀；Upwork 侧仍无新于 10-19 晚间的筛单文件。下一雷达约 14:35（every_4h）。
+
+---
+
+## 午间复核（约 11:51 +08；雷达已刷）
+
+> 线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) `data/meta.json`：**published_at 2026-10-21 11:51:30 +08**，`job_leads` **17 / 推荐 0**（`job_leads_run_id` 20261021-115029-20a5b316）。相对午前 10:35：总数与推荐数不变，但**帖池轮换**且 Beds24 投标继续涨。Fiverr 仍 403；Trends 仍 demo。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **17**（同午前） |
+| 推荐数量 | **0** |
+| Job ingest | OK |
+
+**相对午前变化（事实）**
+- Beds24 OTA --4：仍 Open · 投标 **121**（午前 112）· score 75 · `recommend: false`（竞争关 ≥100）→ 继续不投。
+- AI Agent for Office Automation：₹75k–150k · **82** 标（午前 80）· score 67 · 一期关未过 → 仍观望。
+- Backend API Lead Intake & Auth --2：$30–50 · **142** 标 · 关键词未过 → 仍红海旁证。
+- 池内新面孔（均未推荐）：Mortgage Lead Gen（Google Ads + systeme.io，$30–250，91 标）、Navshakti Sales Force Tracking（₹12.5k–37.5k，37 标）、Linux Security / Air-Gapped AI Document（₹12.5k–37.5k，22 标，德里现场）、Secure Laptop Shipping Mexico 系列（物流，非技术栈）。
+- 低标旁证：Cinematic Health App Video（12 标）、ADGM Desk Referral（15 标）——非匹配栈。
+
+**动作**：仍不投 Beds24；无新 Upwork 筛单；下一雷达约 15:51（every_4h）。模板线继续：预约×内容 + 今日 T-FL（门户 RPA / RFP-RAG / 西语修准等）。
+

@@ -18,3 +18,5 @@
 
 - **来源**：[Freelancer · fl-40771845](https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845) · 雷达 2026-10-20 **17:00** +08（118 标）；页面约 **36**
 - **结论**：不投。雷达与页面投标数不一致时以更严数字作否决；预算/经验门槛不变。
+
+> 2026-10-21 11:51 雷达复核：`--4` 仍 Open，投标 **121**（午前 112），`recommend: false`。继续作 OTA/PMS 窄集成素材，不投。
