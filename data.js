@@ -3,7 +3,7 @@ sections: [{"id": "platforms", "name": "平台前端", "desc": "接单 / 展示 
 platform_types: [{"id": "freelance", "name": "接单平台"}, {"id": "showcase", "name": "作品展示"}, {"id": "community", "name": "社区获客"}],
 platform_field_labels: {"permissions": "权限需求清单", "access_path": "操作路径", "caveats": "注意事项", "trends_keywords": "Google Trends 对应关键词"},
 platforms: [
-{"id": "upwork", "type": "freelance", "title": "Upwork", "url": "https://www.upwork.com/", "summary": "主战场。AI Integration + 工作流/API 自动化；副业（修站、爬虫）放 Project Catalog。2026-10-19 公开复筛仍 NO_GOOD_JOBS，盯新帖个位数提案。", "permissions": "① Freelancer 账号 + **政府 ID 验证**\n② **Billing method**（买 Connects 必需）\n③ 收款：Payoneer / Wise / 银行\n④ Project Catalog 卖家权限（挂副业）\n⑤ 消息推送（UTC+8 快回面试）", "access_path": "1. 登录 Find Work\n2. 建 Saved Searches（n8n/Zapier、AI integration、Playwright/scraping、Next+Supabase+Stripe、self-hosted）\n3. 筛预算 ≥$150–300，跳过 $10–100\n4. 对照 titles_budgets / screened 短名单\n5. 买 Connects → 英文短 Proposal + demo 链接\n6. 面试 → Fixed milestone 或 Hourly 规则\n7. 交付源码+README+bugfix 窗", "caveats": "Connects 消耗快；CF/验证码勿用脚本硬闯；China 可访问但注意 US Only 单；Specialized Profiles 已取消；n8n 类常 50+ 提案，靠「写真代码+自托管 demo」差异化；未验证 ID/Billing = 无法投标。", "trends_keywords": "EN: AI automation freelancer, n8n automation, Zapier alternative n8n, AI chatbot for website, web scraping Playwright, Next.js Supabase Stripe fix, API integration, self-hosted automation, document OCR LLM\nCN: Upwork 接单 AI 自动化, n8n 工作流接单, Playwright 爬虫 接单, Lovable 修站", "related_docs": ["doc-titles", "doc-backlog", "doc-smb", "doc-screened", "doc-cap", "doc-live", "doc-pulse-1019", "doc-longtail", "doc-radar-brief", "doc-radar-pulse-1019", "doc-screened-1019e", "doc-fl-samples-1020"], "tags": ["Upwork", "接单平台", "Connects", "主战场"], "path": "docs/platforms/upwork.md", "date": "2026-10-19 09:08", "content": `# Upwork 操作手册
+{"id": "upwork", "type": "freelance", "title": "Upwork", "url": "https://www.upwork.com/", "summary": "主战场。AI Integration + 工作流/API 自动化；副业（修站、爬虫）放 Project Catalog。2026-10-19 公开复筛仍 NO_GOOD_JOBS，盯新帖个位数提案。", "permissions": "① Freelancer 账号 + **政府 ID 验证**\n② **Billing method**（买 Connects 必需）\n③ 收款：Payoneer / Wise / 银行\n④ Project Catalog 卖家权限（挂副业）\n⑤ 消息推送（UTC+8 快回面试）", "access_path": "1. 登录 Find Work\n2. 建 Saved Searches（n8n/Zapier、AI integration、Playwright/scraping、Next+Supabase+Stripe、self-hosted）\n3. 筛预算 ≥$150–300，跳过 $10–100\n4. 对照 titles_budgets / screened 短名单\n5. 买 Connects → 英文短 Proposal + demo 链接\n6. 面试 → Fixed milestone 或 Hourly 规则\n7. 交付源码+README+bugfix 窗", "caveats": "Connects 消耗快；CF/验证码勿用脚本硬闯；China 可访问但注意 US Only 单；Specialized Profiles 已取消；n8n 类常 50+ 提案，靠「写真代码+自托管 demo」差异化；未验证 ID/Billing = 无法投标。", "trends_keywords": "EN: AI automation freelancer, n8n automation, Zapier alternative n8n, AI chatbot for website, web scraping Playwright, Next.js Supabase Stripe fix, API integration, self-hosted automation, document OCR LLM\nCN: Upwork 接单 AI 自动化, n8n 工作流接单, Playwright 爬虫 接单, Lovable 修站", "related_docs": ["doc-titles", "doc-backlog", "doc-smb", "doc-screened", "doc-cap", "doc-live", "doc-pulse-1019", "doc-longtail", "doc-radar-brief", "doc-radar-pulse-1019", "doc-screened-1019e", "doc-fl-samples-1020", "doc-radar-pulse-1021"], "tags": ["Upwork", "接单平台", "Connects", "主战场"], "path": "docs/platforms/upwork.md", "date": "2026-10-19 09:08", "content": `# Upwork 操作手册
 
 鹏飞主战场。定位：**AI Integration + Workflow/API Automation**（主）+ 修完 Lovable/Cursor/Bolt 应用、爬虫/Playwright（副，放 Project Catalog）。
 
@@ -108,7 +108,7 @@ Profile：https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
 
 交叉：\`smb_demand_clusters.md\`（Fiverr BTI / Gig 抽样段落）、模板站链接。
 `},
-{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。2026-10-20 17:00 雷达 33 帖、推荐仍 0；傍晚复核：原合格 ElevenLabs 仍 117 标、货代 pilot 页现 128 标（15:01 曾见 10，不可靠）→ 两单均降级；Beds24 雷达 118 / 页 36 仍不投。预算中位偏低，非主收入。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-smb", "doc-backlog", "doc-freelancer-bids", "doc-pulse-1019", "doc-radar-brief", "doc-radar-pulse-1019", "doc-screened-1019e", "doc-radar-pulse-1020", "doc-fl-samples-1020", "doc-fl-templates"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-10-17 18:50", "content": `# Freelancer.com 操作手册
+{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。2026-10-21 07:01 雷达 21 帖、推荐 1（Beds24 OTA --4，$30–250，98 标）→ 人工仍不投；昨傍晚合格两单已降级。预算中位偏低，非主收入。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-smb", "doc-backlog", "doc-freelancer-bids", "doc-pulse-1019", "doc-radar-brief", "doc-radar-pulse-1019", "doc-screened-1019e", "doc-radar-pulse-1020", "doc-fl-samples-1020", "doc-fl-templates", "doc-radar-pulse-1021", "doc-booking-map-1021"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-10-17 18:50", "content": `# Freelancer.com 操作手册
 
 竞标制项目市场。预算中位偏低、竞标人数多，适合捡「修复/小集成」或练英文提案，不作为主收入依赖。
 
@@ -223,7 +223,7 @@ Profile：https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
 
 交叉：\`smb_demand_clusters.md\` [IH-AUTO][IH-HIRE]、作品集站。
 `},
-{"id": "portfolio", "type": "showcase", "title": "个人作品集站", "url": "https://portfolio-site-orpin-three-91.vercel.app", "summary": "对外销售页。Proposal/Gig 最终落地看可运行模板 demo。", "permissions": "① Vercel 部署权限\n② GitHub 源码仓写权限\n③ 各 tpl-* 模板项目\n④ 可选自定义域与分析", "access_path": "1. 打开作品集核对定位文案\n2. 服务卡链到 tpl-landing / form-to-sheet / booking / launch-audit\n3. 改仓 → push → Vercel Ready → 硬刷新\n4. Proposal 只贴与职位相关的 demo\n5. Contact 与回复预期（UTC+8）保持有效", "caveats": "禁止假客户/假营收；标明 demo template；国内访问 Vercel 可能慢，可备截图或 Pages 镜像。", "trends_keywords": "EN: freelancer portfolio, automation developer portfolio, n8n demo, SaaS landing waitlist, launch audit\nCN: 自由职业者 作品集, 自动化 案例演示, 接单 作品站", "related_docs": ["doc-live", "doc-tplplan", "doc-proj"], "tags": ["作品集", "Vercel", "作品展示"], "path": "docs/platforms/portfolio.md", "date": "2026-10-17 18:50", "content": `# 个人作品集站（Portfolio）
+{"id": "portfolio", "type": "showcase", "title": "个人作品集站", "url": "https://portfolio-site-orpin-three-91.vercel.app", "summary": "对外销售页。Proposal/Gig 最终落地看可运行模板 demo。", "permissions": "① Vercel 部署权限\n② GitHub 源码仓写权限\n③ 各 tpl-* 模板项目\n④ 可选自定义域与分析", "access_path": "1. 打开作品集核对定位文案\n2. 服务卡链到 tpl-landing / form-to-sheet / booking / launch-audit\n3. 改仓 → push → Vercel Ready → 硬刷新\n4. Proposal 只贴与职位相关的 demo\n5. Contact 与回复预期（UTC+8）保持有效", "caveats": "禁止假客户/假营收；标明 demo template；国内访问 Vercel 可能慢，可备截图或 Pages 镜像。", "trends_keywords": "EN: freelancer portfolio, automation developer portfolio, n8n demo, SaaS landing waitlist, launch audit\nCN: 自由职业者 作品集, 自动化 案例演示, 接单 作品站", "related_docs": ["doc-live", "doc-tplplan", "doc-proj", "doc-booking-map-1021"], "tags": ["作品集", "Vercel", "作品展示"], "path": "docs/platforms/portfolio.md", "date": "2026-10-17 18:50", "content": `# 个人作品集站（Portfolio）
 
 线上门面。所有平台 Proposal / Gig / 社区帖最终应能点到这里看 **可运行 demo**。
 
@@ -369,13 +369,20 @@ cases: [
 
 栈贴合但提案已 50+，且时薪无法页核验 → 不进 QUALIFIED。同类「集成+Agent」仍是 Saved Search 重点；要盯**新帖、提案个位数**窗口。
 `},
-{"id": "case-near-beds24-1019", "title": "近失：BEDS24 OTA Integration（雷达 118 / 页 36）", "is_template": false, "summary": "17:00 雷达仍记 118 标否决；页面约 36。预算低 + Beds24 经验门槛 → 不投。", "tags": ["Freelancer", "Beds24", "近失", "竞争"], "related_docs": ["doc-radar-pulse-1019", "doc-longtail", "doc-freelancer-bids", "doc-radar-pulse-1020"], "path": "docs/cases/near_beds24_ota_2026-10-19.md", "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845", "has_evidence": true, "date": "2026-10-20 17:05", "fields": {}, "content": `# 近失：BEDS24 OTA Integration（Freelancer）
+{"id": "case-near-beds24-1019", "title": "近失：BEDS24 OTA（--3 不投；--4 雷达推但仍不投）", "is_template": false, "summary": "10-21 07:01 雷达首次推荐 --4（$30–250·98 标）；人工仍不投。--3 维持近失素材。", "tags": ["Freelancer", "Beds24", "近失", "竞争"], "related_docs": ["doc-radar-pulse-1019", "doc-longtail", "doc-freelancer-bids", "doc-radar-pulse-1020", "doc-radar-pulse-1021", "doc-booking-map-1021"], "path": "docs/cases/near_beds24_ota_2026-10-19.md", "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40778471", "has_evidence": true, "date": "2026-10-21 08:58", "fields": {}, "content": `# 近失：BEDS24 OTA Integration（Freelancer 系列）
 
-- **来源**：[Freelancer · fl-40771845](https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845) · 雷达 2026-10-20 **17:00** +08（118 标）；**~17:05 页面复核**
-- **预算**：\`$30–250\` Fixed · 本轮页面投标 **36**（雷达持续记 **118**；页上相对时间像刷新/重帖）
-- **筛选**：嵌入轨 · 命中 \`beds24\` · 关键词/预算/清晰/一期均过 · 竞争：雷达否决（118≥100）；页面 36 已低于 100，但**预算下沿过低**且文案强卡 Beds24 实战经验（无经验勿投）
-- **操作思路**：仍不投本帖；把 Beds24/OTA 窄集成留作长尾产品与提案案例素材
-- **结果**：未投。雷达与页面投标数不一致时以更严数字作否决；预算/经验门槛不变。
+## --4（雷达首次推荐 · 2026-10-21 07:01）
+
+- **来源**：[Freelancer · fl-40778471](https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40778471) · 雷达 \`job_leads\` **2026-10-21 07:01 +08**
+- **预算**：\`$30–250\` Fixed · 投标 **98** · score 120 · \`recommend: true\`（竞争关备注「偏多，谨慎」）
+- **筛选**：嵌入轨 · 命中 \`beds24\` · 关键词/预算/清晰/一期过
+- **操作思路**：雷达虽推，人工仍不投（预算下沿 + Beds24 经验门槛 + 98 标非窗口）
+- **结果**：未投；系列复帖确认长尾需求存在，适合做提案案例而非当前出价
+
+## --3（前日复核）
+
+- **来源**：[Freelancer · fl-40771845](https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845) · 雷达 2026-10-20 **17:00** +08（118 标）；页面约 **36**
+- **结论**：不投。雷达与页面投标数不一致时以更严数字作否决；预算/经验门槛不变。
 `},
 {"id": "case-qual-elevenlabs-1019", "title": "近失：ElevenLabs n8n 语音管线（提案 8→117）", "is_template": false, "summary": "17:05 复核：仍 Open·117 标，维持降级不投。", "tags": ["Freelancer", "近失", "n8n", "Agent", "语音", "竞争"], "related_docs": ["doc-screened-1019e", "doc-freelancer-bids", "doc-radar-pulse-1020", "doc-fl-templates", "doc-fl-samples-1020"], "path": "docs/cases/qual_elevenlabs_n8n_2026-10-19.md", "source": "https://www.freelancer.com/projects/api/elevenlabs-voice-pipeline-fix-multi", "has_evidence": true, "date": "2026-10-20 17:05", "fields": {"来源": "Freelancer（2026-10-19 晚间 WebFetch 核验）", "单子类型": "n8n 修复 + 多 Agent 语音管线（ElevenLabs/STT/Polly/Azure）", "操作思路": "€250–750 · 曾 8 标现 117 · 低竞争失效 → 不投", "结果": "维持近失 — 抢标窗口已过"}, "来源": "Freelancer（2026-10-19 晚间 WebFetch 核验）", "单子类型": "n8n 修复 + 多 Agent 语音管线（ElevenLabs/STT/Polly/Azure）", "操作思路": "€250–750 · 曾 8 标现 117 · 低竞争失效 → 不投", "结果": "维持近失 — 抢标窗口已过", "content": `# 近失（曾合格）：ElevenLabs Voice Pipeline Fix & Multi-Agent Build（Freelancer）
 
@@ -2984,17 +2991,19 @@ Upwork 主战场：       AI Integration | n8n/Zapier | 修完上线 | 多阶段
 3. **Jobber Reporting n8n/Supabase $1,500**（客户仍在活跃查看；先答 5 个申请题）
 
 `},
-{"id": "doc-live", "title": "在线模板与作品集链接", "theme": "模板与交付", "date": "2026-10-17 18:50", "summary": "已部署模板与作品集 URL，提案可直接引用。", "tags": ["模板", "作品集", "链接"], "source": "https://portfolio-site-orpin-three-91.vercel.app", "path": "docs/live_templates.md", "related_docs": [], "content": `# 在线模板与作品集
+{"id": "doc-live", "title": "在线模板与作品集链接", "theme": "模板与交付", "date": "2026-10-21 08:59", "summary": "英文 T1–T4 Vercel + Portfolio；业务向 bz.a / smart.a 预约与内容一体演示。", "tags": ["模板", "作品集", "链接"], "source": "https://portfolio-site-orpin-three-91.vercel.app", "path": "docs/live_templates.md", "related_docs": ["doc-booking-map-1021"], "content": `# 在线模板与作品集
 
 | 模板 | 用途 | 链接 |
 |---|---|---|
 | Landing + Waitlist | 落地页 + 等候名单收集 | https://tpl-landing-waitlist.vercel.app |
 | Form → Sheet | 表单提交写入表格 | https://tpl-form-to-sheet.vercel.app |
-| Booking Calendar | 预约日历 | https://tpl-booking-calendar.vercel.app |
+| Booking Calendar | 预约日历（周历占坑） | https://tpl-booking-calendar.vercel.app |
 | Launch Audit Report | 上线审计报告 | https://tpl-launch-audit-report.vercel.app |
 | 作品集 Portfolio | 个人作品集站点 | https://portfolio-site-orpin-three-91.vercel.app |
+| bz.a 预约业务站 | 访客浏览+动态字段+下单/Stripe 叙事 | https://bz.a.ezcoin.ink |
+| smart.a 多客陪玩 | 内容/圈子 + 多服务者档期一体 | https://smart.a.ezcoin.ink |
 
-用法：在 proposal 中直接贴对应模板链接作为 demo，证明可快速交付。
+用法：在 proposal 中直接贴对应模板链接作为 demo。预约/CMS 类单优先 T3 + bz.a + smart.a（详见 \`booking_content_requirements_map_2026-10-21\`）。
 `},
 {"id": "doc-pulse-1019", "title": "Upwork 市场脉搏 2026-10-19", "theme": "Upwork 调研", "date": "2026-10-19 09:00", "summary": "公开页复筛：QUALIFIED=0；近失表、跳过模式、入口词与低标方向。", "tags": ["Upwork", "筛选", "脉搏", "入口词"], "source": "", "path": "docs/notes/upwork_pulse_2026-10-19.md", "related_docs": ["doc-screened", "doc-titles", "doc-freelancer-bids", "doc-radar-pulse-1019"], "content": `# Upwork 市场脉搏 · 2026-10-19（Asia/Shanghai）
 
@@ -3834,7 +3843,7 @@ Chatwoot（Widget + 人工坐席台 + AgentBot/Webhook）
 
 *报告文件路径：\`/workspace/hub/agent_frameworks_2026-10.md\`*
 `},
-{"id": "doc-radar-pulse-1020", "title": "需求雷达脉搏 2026-10-20（17:00 + 傍晚复核）", "theme": "市场研究", "date": "2026-10-20 17:05", "summary": "雷达 33/0 @17:00；傍晚复核：ElevenLabs 117 维持近失；货代 128 标降级（15:01 的 10 不可靠）；Beds24 雷达 118/页 36 仍不投。", "tags": ["雷达", "Freelancer", "脉搏"], "source": "", "path": "docs/notes/radar_pulse_2026-10-20.md", "related_docs": ["doc-fl-samples-1020", "doc-fl-templates", "doc-screened-1019e", "doc-radar-brief"], "content": `# 需求雷达脉搏 · 2026-10-20（Asia/Shanghai；午后 12:01 + 晚后复核）
+{"id": "doc-radar-pulse-1020", "title": "需求雷达脉搏 2026-10-20（17:00 + 傍晚复核）", "theme": "市场研究", "date": "2026-10-20 17:05", "summary": "雷达 33/0 @17:00；傍晚复核：ElevenLabs 117 维持近失；货代 128 标降级（15:01 的 10 不可靠）；Beds24 雷达 118/页 36 仍不投。", "tags": ["雷达", "Freelancer", "脉搏"], "source": "", "path": "docs/notes/radar_pulse_2026-10-20.md", "related_docs": ["doc-fl-samples-1020", "doc-fl-templates", "doc-screened-1019e", "doc-radar-brief", "doc-radar-pulse-1021"], "content": `# 需求雷达脉搏 · 2026-10-20（Asia/Shanghai；午后 12:01 + 晚后复核）
 
 > 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\`（\`published_at\` **2026-10-20 12:01 +08**，every_4h）。公开数据 only。午间 10:40 已记 30/0；本条为同日增量。
 
@@ -3989,6 +3998,287 @@ Chatwoot（Widget + 人工坐席台 + AgentBot/Webhook）
 | T-FL-playwright-qa | Playwright E2E 测试补全 | 按现有框架补 spec，三浏览器并行通过 | ₹12.5k–37.5k | 需读懂既有约定；用例范围先锁 | Playwright TypeScript Test Case（2026-10-20） |
 | T-FL-wa-csv-broadcast | WhatsApp/Telegram 模板消息与命令 bot | CSV 上传 + 变量替换 + 送达日志；或命令式会员状态 bot | $7–140（极低） | WA 模板审核与 opt-in；价太低只当样本 | WhatsApp Challan / Telegram Membership（2026-10-20） |
 | T-FL-vibe-rescue | AI 生成应用接手修复 | 用 AI 编码代理修 bug、加功能、稳定上线 | ~$10/hr 长期 | 代码质量差、范围不清；按周结算 | Replit AI Coding Supervisor（2026-10-20） |
+`},
+{"id": "doc-radar-pulse-1021", "title": "需求雷达脉搏 2026-10-21 早间（07:01）", "theme": "市场研究", "date": "2026-10-21 07:01", "summary": "雷达 21/1 @07:01；唯一推荐 Beds24 OTA --4（98 标）人工不投；Chat Booking 红海旁证预约主题。", "tags": ["雷达", "Freelancer", "Beds24", "脉搏", "推荐"], "source": "", "path": "docs/notes/radar_pulse_2026-10-21.md", "related_docs": ["doc-radar-pulse-1020", "doc-booking-map-1021", "doc-longtail", "doc-fl-templates"], "content": `# 需求雷达脉搏 · 2026-10-21 早间（Asia/Shanghai）
+
+> 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\` + \`job_leads.json\`（\`published_at\` **2026-10-21 07:01 +08**，every_4h）。公开数据 only。相对 10-20 17:00 的 33/0：帖数骤降到 21，**推荐池首次非空（1）**。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **21**（昨傍晚 33） |
+| 推荐数量 | **1**（昨 0） |
+| Job ingest | OK（\`job_leads_run_id\` 20261021-070037-60748893） |
+| Fiverr | 仍跳过（HTTP 403 buyer_requests） |
+| Trends | 仍 demo |
+
+## 雷达推荐（需人工再滤）
+
+- **[BEDS24 OTA Integration Setup -- 4](https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40778471)**（\`fl-40778471\`）
+  - 预算 \`$30–250\` · 投标 **98** · score 120 · 嵌入轨命中 \`beds24\`
+  - 五关：关键词/预算/清晰/一期过；竞争关文案为「投标偏多（98），谨慎」但仍 \`recommend: true\`
+  - **人工结论：仍不投**（同系列 --3 长尾结论不变：预算下沿过低 + 文案强卡 Beds24 实战；98 标也不算窗口）。留作 OTA/PMS 窄集成素材。
+
+## 近失 / 观望（同刷）
+
+| 帖 | 预算 | 标 | 备注 |
+|---|---|---|---|
+| [AI Agent for Office Automation](https://www.freelancer.com/projects/ai-automation/Agent-for-Office-Automation) | ₹75k–150k | 77 | 加固 · 一期关未过 → 观望 |
+| [7 Connected AI Agents（珠宝品牌营销）](https://www.freelancer.com/projects/digital-marketing/Build-Marketing-Agent-System-Connected) | ₹12.5k–37.5k | 128 | 一期+竞争未过 → 跳过 |
+| [Python Chat Booking Assistant](https://www.freelancer.com/projects/python/Python-Engineer-for-Chat-Booking) | $30–250 | 206 | 与「预约×内容」主题相邻，但关键词未过 + 红海 → 不投；提案可引用 T3/bz.a 话术练手 |
+| Claude AI & Canva Graphic Automation | £20–250 | 152 | 关键词未过 · 红海 |
+
+## 沉淀（今早）
+
+1. Beds24 系列复帖（--3→--4）说明 PMS/OTA 窄集成有持续需求，但 Freelancer 价带与经验门槛不适合冷启动抢标。
+2. 「Chat Booking / FAQ→预约」公开帖仍红海；优先用已有演示链（T3 / bz.a / smart.a）产品化提案，见预约×内容映射。
+3. 无新 Upwork 筛单文件（仍停在 10-19 晚间）。
+
+**动作**：不跟 Beds24 --4；继续模板/演示素材（预约日历、访客下单、多服务者档期）；下一雷达约 11:01（every_4h）。
+`},
+{"id": "doc-booking-map-1021", "title": "预约×内容管理 需求映射（2026-10-21）", "theme": "模板与交付", "date": "2026-10-21 08:46", "summary": "8 个需求簇对到 T1–T3 / bz.a / smart.a；今晚素材 Top5 与缺口（Sanity CMS、会员门禁）。", "tags": ["预约", "CMS", "Freelancer", "模板", "演示", "bz.a", "smart.a"], "source": "", "path": "freelancer/booking_content_requirements_map_2026-10-21.md", "related_docs": ["doc-live", "doc-fl-templates", "doc-fl-samples-1020", "doc-radar-pulse-1021", "doc-backlog"], "content": `# 预约 × 内容管理 需求映射（接单演示用）
+
+- 日期：2026-10-21（Asia/Shanghai）
+- 用途：把 backlog / Freelancer 样本里的「预约」与「内容管理」簇，对到现成演示与今晚素材清单
+- 证据原则：事实来自本地 backlog、templates、demand samples、live_templates；不编造预算/职位链接
+- 现成演示（任务给定 + 本地文档核对）：
+  - \`https://bz.a.ezcoin.ink\` — 预约系统（ThinkPHP + uni-app，Stripe 向，访客浏览+下单，动态字段）
+  - \`https://smart.a.ezcoin.ink\` — 多客陪玩（内容 + 圈子 + 预约一体）
+  - Portfolio T1–T4：\`tpl-landing-waitlist\` / \`tpl-form-to-sheet\` / \`tpl-booking-calendar\` / \`tpl-launch-audit-report\`（见 \`/workspace/hub/docs/live_templates.md\`）
+  - 本地仓：\`/workspace/tmp_repos/portfolio-templates\`、\`/workspace/portfolio-cases/templates/\`、\`/workspace/deploy-booking-calendar\`
+
+---
+
+## 1. 总览
+
+「预约」簇要的是**选服务/时段 → 确认/支付 → 防双订**；「内容管理」簇要的是**客户自己改文案、发帖/圈子、后台 CMS**。二者常捆在一起卖（本地服务站、陪玩/教练平台、会员内容站）。当前最强证据链是：**bz.a 覆盖访客预约+动态字段+支付叙事，smart.a 覆盖内容/圈子/档期一体，T3 周历可快速贴 Vercel 链接**——今晚优先录这三条路径的截图/录屏，即可覆盖大部分投标开场。
+
+---
+
+## 2. 需求簇（合并同类）
+
+### 簇 1 · 预约日历 + 支付确认
+
+- **典型客户说法**
+  - 「要 booking + payment，不是漂亮官网」（backlog A3）
+  - 「选服务/时间/支付/确认一体」
+  - 「洗车/诊所/课程要能订时段」（A3 / B6 信号）
+  - 「日历占坑后要确认页」（归纳自 T3 demo path）
+- **核心能力点**
+  - 周/日视图选时段；已订不可再选
+  - 确认页 + 支付状态（真 Stripe test 或 demo_skipped / stripe_test stub）
+  - 邮件/站内确认（可后接 n8n）
+- **可联想的现成模板/演示**
+  - T3：\`https://tpl-booking-calendar.vercel.app\`（仓 \`apps/booking-calendar\`）
+  - bz.a：\`https://bz.a.ezcoin.ink\`（完整业务向预约+Stripe 叙事）
+  - 部署旁路：\`/workspace/deploy-booking-calendar\`
+- **建议演示素材**
+  - 截图：\`portfolio-templates/.../booking-calendar/docs/screenshots/calendar.png\` 或 \`portfolio-cases/templates/booking-calendar/calendar.png\`
+  - 录屏路径：打开 T3 → 点空档 → 填 name/email → \`/confirmation/[id]\` → 回首页档变灰
+  - 话术：「这是可演示的周历占坑；支付可接 Stripe test，业务版见 bz.a。」
+- **接单切入**：二次开发（在现成日历上加服务类型/支付）；复杂计价再谈全盘搭建
+
+### 簇 2 · 动态表单 / 可配置预约字段
+
+- **典型客户说法**
+  - 「不同服务要填不同字段」（归纳 / bz.a 动态字段能力）
+  - 「表单别绑死 Formspree，要进表格/Slack」（backlog A10）
+  - 「落地页 Join waitlist，进 Contacts」（A1）
+- **核心能力点**
+  - 字段可配（文本/选项/必填）
+  - 提交 → Sheets / Slack / webhook（T2）
+  - 与预约单绑定（下单时带扩展字段）
+- **可联想的现成模板/演示**
+  - T2：\`https://tpl-form-to-sheet.vercel.app\`
+  - T1：\`https://tpl-landing-waitlist.vercel.app\`（线索表单）
+  - bz.a：动态字段预约（业务完整度更高）
+- **建议演示素材**
+  - 截图：\`form-to-sheet/docs/screenshots/test-form.png\`、\`landing-waitlist/.../hero.png\`
+  - 录屏：T2 提交 → \`data/submissions.json\` / mock Slack 日志；再切 bz.a 展示「换服务字段变」
+  - 话术：「静态站表单 5 分钟进表；复杂预约字段用 bz.a 那套配置。」
+- **接单切入**：修 bug / 二次开发（客户已有表单接 Sheets）；新站可 T1+T2 拼
+
+### 簇 3 · 免注册访客浏览 + 下单
+
+- **典型客户说法**
+  - 「客人先逛再订，别强制注册」（归纳 / bz.a guest browse+order）
+  - 「本地服务要低摩擦转化」（归纳自 A3 买家类型）
+  - 「网站助理能答疑再引导预约」（样本 2026-10-20 #9/#10，T-FL-site-faq-bot）
+- **核心能力点**
+  - 公开服务目录浏览
+  - 游客下单（邮箱/手机即可）
+  - 可选后续注册绑定订单
+- **可联想的现成模板/演示**
+  - bz.a：\`https://bz.a.ezcoin.ink\`（主证据）
+  - T3：有选档+确认，但无完整「逛目录」→ 弱匹配
+  - FAQ→预约挂件：模板 \`T-FL-site-faq-bot\`（无独立 live URL，靠 SiteBot/话术）
+- **建议演示素材**
+  - 录屏 bz.a：未登录浏览服务 → 选档/填联系方式 → 下单成功页
+  - 话术：「转化漏斗不卡注册；登录是后置能力。」
+- **接单切入**：二次开发（在现有站去注册墙）；或全盘搭建（新垂直目录）
+
+### 簇 4 · 多服务者档期（陪玩 / 教练 / 技师）
+
+- **典型客户说法**
+  - 「多个陪玩/教练各自有档期」（归纳 / smart.a 多客陪玩）
+  - 「豪车接送要报价+预订跟进」（样本 2026-10-20 #1，偏运营自动化，档期相邻）
+  - 「不是单店日历，是人×时间矩阵」（归纳）
+- **核心能力点**
+  - 服务者资料页 + 个人可订时段
+  - 冲突检测（同一人不可双订）
+  - 后台给服务者开关档期
+- **可联想的现成模板/演示**
+  - smart.a：\`https://smart.a.ezcoin.ink\`（主证据：内容+圈子+预约）
+  - T3：单资源周历 → 需说明「可扩成 multi-provider」
+  - 缺：纯「服务者后台档期」独立英文 portfolio 切片 → **建议补演示**（或从 smart.a 剪英文 UI 片段）
+- **建议演示素材**
+  - 录屏 smart.a：选陪玩/服务者 → 看档期 → 下单；再进后台改档
+  - 话术：「多人档期我已有陪玩垂直可点；日历内核同 T3。」
+- **接单切入**：二次开发 / 全盘搭建（垂直差异大时全盘）
+
+### 簇 5 · 预约聊天机器人 / FAQ→预约
+
+- **典型客户说法**
+  - 「AI Chatbot for Car Wash Booking」（backlog B6 / A3 关联单）
+  - 「网站访客 FAQ，答不上转联系/预约」（样本 #9/#10；模板 T-FL-site-faq-bot）
+  - 「多渠道问价/改约，要人机交接」（B6）
+- **核心能力点**
+  - 站点挂件 + 可编辑 FAQ
+  - 意图「预约」时拉日历/留资
+  - 低置信转人工/表单
+- **可联想的现成模板/演示**
+  - backlog 已有案例叙事：SiteBot（FAQ RAG + 留资）
+  - T3 可作日历后端骨架；B6 状态仍为「待做案例」合并更强
+  - Freelancer 模板：\`T-FL-site-faq-bot\`
+  - 截图资产：\`/workspace/portfolio-cases/chatbot-widget.png\`、\`chatbot-admin.png\`
+- **建议演示素材**
+  - 录屏：挂件问「怎么预约」→ 给时段或跳 T3/表单；后台改 FAQ
+  - 话术：「聊天只负责引导；占坑仍走日历/订单，避免幻觉下单。」
+- **接单切入**：修 bug（已有 bot 接日历）；二次开发（SiteBot×T3）
+
+### 簇 6 · 后台 CMS / 客户可改文案
+
+- **典型客户说法**
+  - 「Marketing site + client-editable CMS」（backlog A4，Sanity/Astro）
+  - 「不要半夜修自托管 CMS」（A4 社区共识）
+  - 「本地服务站要预约 + CMS」（dev-topics #11）
+- **核心能力点**
+  - 非技术客户改文案/图片
+  - 预览/发布；尽量用托管 headless（Sanity free 等）
+  - 与预约页内容解耦
+- **可联想的现成模板/演示**
+  - **缺独立 live CMS demo** → 建议补：Astro/Next + Sanity 假工作室站（A4 原计划）
+  - 弱相关：T1 落地页（改代码级，非客户 CMS）
+  - smart.a 后台若含内容编辑，可剪「后台改文案」15 秒（需实机确认）
+- **建议演示素材**
+  - 今晚若无时间建 Sanity：先录 smart.a 后台内容编辑（有则拍）；否则标注「缺口，本周补 T-CMS」
+  - 话术：「前台静态快，后台给你 Sanity/自建，不绑死 WordPress。」
+- **接单切入**：全盘搭建（新营销站）；或二次开发（WP→headless 迁移）
+
+### 簇 7 · 圈子 / UGC + 内容运营
+
+- **典型客户说法**
+  - 「要圈子/动态，不只是官网」（归纳 / smart.a）
+  - 「Claude 定时给 WordPress 发文+SEO」（样本 2026-10-19 #12；模板 T-FL-wp-claude-publish）
+  - 「会员订阅内容要门禁」（backlog A5）
+- **核心能力点**
+  - Feed/帖子/互动（点赞评论可裁剪）
+  - 定时发文 / AI 辅助起草（插件或 API）
+  - 订阅支付 → 服务端门禁（A5）
+- **可联想的现成模板/演示**
+  - smart.a：圈子/UGC + 陪玩内容（主）
+  - A5 Membership gate：**缺**独立 demo → 建议补 Next+Stripe test 假文章门禁
+  - WP 定时发文：仅模板笔记，无自建 demo URL
+- **建议演示素材**
+  - 录屏 smart.a：逛圈子 Feed → 进服务者主页 → 预约
+  - 话术：「内容拉活 + 档期变现是一条产品，不是两个外包。」
+- **接单切入**：二次开发（已有 WP/圈子加预约）；AI 发文用修 bug/小插件切入
+
+### 簇 8 · 内容 + 预约一体化（本地服务 / 垂直 SaaS 切片）
+
+- **典型客户说法**
+  - 「建站 + 预约 + AI 接待」一体（dev-topics #11；hub 同文）
+  - 「Standard：多页 + 预约 + CMS」（同出处价格档为建议，非成交证据）
+  - 「多客陪玩：内容社区和订单一套后台」（smart.a）
+- **核心能力点**
+  - 营销页 + CMS 文案 + 预约漏斗同域
+  - 订单/用户/内容后台统一
+  - 可选 AI 接待挂件
+- **可联想的现成模板/演示**
+  - smart.a（最强一体演示）
+  - bz.a（预约侧完整）+ T1/T3（英文快速贴链）
+  - T4 launch-audit：上线加固叙事（客户已有半成品时用），非本簇核心 UI
+- **建议演示素材**
+  - 一条 60–90s 拼接：T1 落地 → T3 预约 → 切 smart.a 展示「垂直做深后长这样」
+  - 话术：「英文模板证明交付速度；垂直站证明做过完整业务。」
+- **接单切入**：全盘搭建（新产品）；已有站则二次开发拼模块
+
+---
+
+## 3. 与现有模板对照表
+
+| 需求簇 | 现成演示 URL 或路径 | 缺口 | 今晚优先做素材? |
+|--------|---------------------|------|-----------------|
+| 1 预约日历+支付 | T3 \`tpl-booking-calendar.vercel.app\`；bz.a；仓 \`apps/booking-calendar\`；截图 \`.../docs/screenshots/calendar.png\` | T3 无真 Stripe 扣款（仅 stub）；复杂计价/地图选点无 | **是** |
+| 2 动态表单预约 | T2 / T1 Vercel；bz.a 动态字段 | T2 非「预约字段配置器」；缺字段编辑器英文页 | **是**（T2+bz.a 各一段） |
+| 3 免注册下单 | bz.a | T3 无逛目录；无独立 guest-checkout 模板页 | **是**（主靠 bz.a） |
+| 4 多服务者档期 | smart.a | T3 单资源；缺英文 multi-provider 切片 | **是** |
+| 5 FAQ→预约 Bot | SiteBot 叙事；\`portfolio-cases/chatbot-*.png\`；T-FL-site-faq-bot | Bot×日历联调 live 不足（backlog 仍待加强） | 次优先 |
+| 6 后台 CMS | （弱）smart.a 后台；A4 计划 | **缺** Sanity/Astro 独立 demo | 若有空拍后台；否则记缺口 |
+| 7 圈子/UGC/会员内容 | smart.a；A5 仅 backlog | **缺** Stripe 门禁会员站 demo；WP-Claude 无自托管 demo | **是**（smart.a 圈子段） |
+| 8 内容+预约一体 | smart.a + bz.a + T1/T3 拼接 | 无单一英文「本地服务一体」站 | **是**（拼接叙事） |
+
+---
+
+## 4. 今晚素材优先级（Top 5）
+
+1. **T3 周历全流程录屏（30–45s）** — 投标可贴公开 Vercel；对应簇 1；路径见 README Demo path。  
+2. **bz.a：访客浏览 → 动态字段 → 下单/支付叙事（45–60s）** — 证明「真业务预约」而非玩具日历；覆盖簇 2+3。  
+3. **smart.a：服务者档期 + 下单（45s）** — 覆盖簇 4；与 T3 形成「模板 vs 垂直」对比。  
+4. **smart.a：圈子/内容 Feed → 进主页预约（30s）** — 覆盖簇 7+8；内容管理差异化话术。  
+5. **T2 表单→Sheets/mock +（可选）chatbot 挂件截图拼图** — 覆盖线索/FAQ 入口；素材已有 \`test-form.png\`、\`chatbot-widget.png\`；补 15s 提交录屏即可。
+
+（T4 / Launch Audit 与本主题弱相关，今晚不排进预约/CMS 素材队列。）
+
+---
+
+## 5. 搁置 / 不相关（勿混进本映射）
+
+- **A6 多语言店 / A8 Shopify LP / A9 WP 会员长期维护**：建站/主题向，不是预约或 CMS 演示重点（仅投标不建站）。  
+- **B 桶主体**（RAG、发票 OCR、n8n 迁移、Lead scoring、GHL 红海岗）：自动化主线，只有 B6「预约聊天」与本文件相交。  
+- **C 桶上线救援 / T4 审计**：Fix & launch，不拿来冒充预约案例。  
+- **D 桶爬虫/MAP/目录采集**：数据管道，与 CMS/预约无关。  
+- **Freelancer 样本中的 ERP 同步、求职自动投、纯 Playwright QA、极低价 WA 群发**：勿塞进「内容+预约」提案。  
+- **Voice AI 全栈电话坐席**（backlog 暂不做）：与「站内预约」分开。
+
+---
+
+## 21:00 提醒稿
+
+【预约×内容 今晚素材 — 21:00】
+
+Top 需求簇（可对模板）：
+1. 预约日历+支付 → T3 + bz.a
+2. 动态字段/表单进表 → T2 + bz.a
+3. 免注册浏览下单 → bz.a
+4. 多服务者档期 → smart.a
+5. 圈子/UGC+预约一体 → smart.a
+6. FAQ→预约 → SiteBot/挂件图（次优先）
+7. 客户可改 CMS → 缺口（Sanity），有空拍 smart 后台
+
+今晚 Top 5 先拍：
+1. T3 选档→确认（Vercel 可贴链）
+2. bz.a 访客下单+动态字段
+3. smart.a 服务者档期下单
+4. smart.a 圈子→预约
+5. T2 提交录屏 + chatbot 截图拼图
+
+链接速查：
+- https://tpl-booking-calendar.vercel.app
+- https://tpl-form-to-sheet.vercel.app
+- https://tpl-landing-waitlist.vercel.app
+- https://bz.a.ezcoin.ink
+- https://smart.a.ezcoin.ink
+- 全文：\`/workspace/freelancer/booking_content_requirements_map_2026-10-21.md\`
 `},
 ]
 };

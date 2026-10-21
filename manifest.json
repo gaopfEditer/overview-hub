@@ -54,7 +54,8 @@
         "doc-radar-brief",
         "doc-radar-pulse-1019",
         "doc-screened-1019e",
-        "doc-fl-samples-1020"
+        "doc-fl-samples-1020",
+        "doc-radar-pulse-1021"
       ],
       "tags": [
         "Upwork",
@@ -90,7 +91,7 @@
       "type": "freelance",
       "title": "Freelancer.com",
       "url": "https://www.freelancer.com/",
-      "summary": "竞标制补充池。2026-10-20 17:00 雷达 33 帖、推荐仍 0；傍晚复核：原合格 ElevenLabs 仍 117 标、货代 pilot 页现 128 标（15:01 曾见 10，不可靠）→ 两单均降级；Beds24 雷达 118 / 页 36 仍不投。预算中位偏低，非主收入。",
+      "summary": "竞标制补充池。2026-10-21 07:01 雷达 21 帖、推荐 1（Beds24 OTA --4，$30–250，98 标）→ 人工仍不投；昨傍晚合格两单已降级。预算中位偏低，非主收入。",
       "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解",
       "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评",
       "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。",
@@ -106,7 +107,9 @@
         "doc-screened-1019e",
         "doc-radar-pulse-1020",
         "doc-fl-samples-1020",
-        "doc-fl-templates"
+        "doc-fl-templates",
+        "doc-radar-pulse-1021",
+        "doc-booking-map-1021"
       ],
       "tags": [
         "Freelancer",
@@ -171,7 +174,8 @@
       "related_docs": [
         "doc-live",
         "doc-tplplan",
-        "doc-proj"
+        "doc-proj",
+        "doc-booking-map-1021"
       ],
       "tags": [
         "作品集",
@@ -273,12 +277,12 @@
     },
     {
       "id": "case-near-beds24-1019",
-      "title": "近失：BEDS24 OTA Integration（雷达 118 / 页 36）",
+      "title": "近失：BEDS24 OTA（--3 不投；--4 雷达推但仍不投）",
       "path": "docs/cases/near_beds24_ota_2026-10-19.md",
-      "date": "2026-10-20 17:05",
-      "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40771845",
+      "date": "2026-10-21 08:58",
+      "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40778471",
       "has_evidence": true,
-      "summary": "17:00 雷达仍记 118 标否决；页面约 36。预算低 + Beds24 经验门槛 → 不投。",
+      "summary": "10-21 07:01 雷达首次推荐 --4（$30–250·98 标）；人工仍不投。--3 维持近失素材。",
       "tags": [
         "Freelancer",
         "Beds24",
@@ -289,7 +293,9 @@
         "doc-radar-pulse-1019",
         "doc-longtail",
         "doc-freelancer-bids",
-        "doc-radar-pulse-1020"
+        "doc-radar-pulse-1020",
+        "doc-radar-pulse-1021",
+        "doc-booking-map-1021"
       ]
     },
     {
@@ -466,8 +472,11 @@
         "作品集",
         "链接"
       ],
-      "summary": "已部署模板与作品集 URL，提案可直接引用。",
-      "source": "https://portfolio-site-orpin-three-91.vercel.app"
+      "summary": "英文 T1–T4 Vercel + Portfolio；业务向 bz.a / smart.a 预约与内容一体演示。",
+      "source": "https://portfolio-site-orpin-three-91.vercel.app",
+      "related_docs": [
+        "doc-booking-map-1021"
+      ]
     },
     {
       "id": "doc-pulse-1019",
@@ -612,7 +621,8 @@
         "doc-fl-samples-1020",
         "doc-fl-templates",
         "doc-screened-1019e",
-        "doc-radar-brief"
+        "doc-radar-brief",
+        "doc-radar-pulse-1021"
       ]
     },
     {
@@ -655,6 +665,51 @@
         "doc-tplplan",
         "doc-freelancer-bids",
         "doc-live"
+      ]
+    },
+    {
+      "id": "doc-radar-pulse-1021",
+      "title": "需求雷达脉搏 2026-10-21 早间（07:01）",
+      "path": "docs/notes/radar_pulse_2026-10-21.md",
+      "theme": "市场研究",
+      "date": "2026-10-21 07:01",
+      "tags": [
+        "雷达",
+        "Freelancer",
+        "Beds24",
+        "脉搏",
+        "推荐"
+      ],
+      "summary": "雷达 21/1 @07:01；唯一推荐 Beds24 OTA --4（98 标）人工不投；Chat Booking 红海旁证预约主题。",
+      "related_docs": [
+        "doc-radar-pulse-1020",
+        "doc-booking-map-1021",
+        "doc-longtail",
+        "doc-fl-templates"
+      ]
+    },
+    {
+      "id": "doc-booking-map-1021",
+      "title": "预约×内容管理 需求映射（2026-10-21）",
+      "path": "/workspace/freelancer/booking_content_requirements_map_2026-10-21.md",
+      "theme": "模板与交付",
+      "date": "2026-10-21 08:46",
+      "tags": [
+        "预约",
+        "CMS",
+        "Freelancer",
+        "模板",
+        "演示",
+        "bz.a",
+        "smart.a"
+      ],
+      "summary": "8 个需求簇对到 T1–T3 / bz.a / smart.a；今晚素材 Top5 与缺口（Sanity CMS、会员门禁）。",
+      "related_docs": [
+        "doc-live",
+        "doc-fl-templates",
+        "doc-fl-samples-1020",
+        "doc-radar-pulse-1021",
+        "doc-backlog"
       ]
     }
   ]
