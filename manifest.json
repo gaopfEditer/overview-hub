@@ -92,7 +92,7 @@
       "type": "freelance",
       "title": "Freelancer.com",
       "url": "https://www.freelancer.com/",
-      "summary": "竞标制补充池。2026-10-21 11:51 雷达 17 帖、推荐 0（Beds24 OTA --4 投标 121，仍不推荐）；午前 10:35 同为 17/0（当时 112 标）。今日 discover 入样 16 + 6 个新 T-FL（门户 RPA / RFP-RAG / 西语修准 / 外联 CRM / Zoho 扩展 / Next webhook）。昨傍晚合格两单已降级。预算中位偏低，非主收入。",
+      "summary": "竞标制补充池。2026-10-21 17:00 雷达 17 帖、推荐 0（Beds24 OTA --4 投标 132，仍不推荐）；午间 11:51 同为 17/0（当时 121 标）。今日 discover 入样 16 + 6 个新 T-FL（门户 RPA / RFP-RAG / 西语修准 / 外联 CRM / Zoho 扩展 / Next webhook）。昨傍晚合格两单已降级。预算中位偏低，非主收入。",
       "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解",
       "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评",
       "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。",
@@ -279,12 +279,12 @@
     },
     {
       "id": "case-near-beds24-1019",
-      "title": "近失：BEDS24 OTA（--4 早推午撤；人工始终不投）",
+      "title": "近失：BEDS24 OTA（--4 早推后撤；标→132；人工始终不投）",
       "path": "docs/cases/near_beds24_ota_2026-10-19.md",
       "date": "2026-10-21 08:58",
       "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40778471",
       "has_evidence": true,
-      "summary": "Beds24 OTA --4：07:01 雷达 recommend=true（98 标）人工不投；10:35 投标 112、recommend=false。系列印证 PMS/OTA 长尾，非当前出价窗口。",
+      "summary": "2026-10-21：早间雷达曾 recommend，午前起撤推；投标 98→112→121→132。预算 $30–250 + Beds24 经验门槛 → 始终不投，仅作 OTA/PMS 素材。",
       "tags": [
         "Freelancer",
         "Beds24",
@@ -698,10 +698,10 @@
     },
     {
       "id": "doc-radar-pulse-1021",
-      "title": "需求雷达脉搏 2026-10-21（07:01 + 10:35 午前）",
+      "title": "需求雷达脉搏 2026-10-21（07:01 → 17:00）",
       "path": "docs/notes/radar_pulse_2026-10-21.md",
       "theme": "市场研究",
-      "date": "2026-10-21 10:35",
+      "date": "2026-10-21 17:00",
       "tags": [
         "雷达",
         "Freelancer",
@@ -709,7 +709,7 @@
         "脉搏",
         "推荐"
       ],
-      "summary": "早间 21/1（Beds24--4 推但不投）；午前 17/0（112 标撤推）；午间 11:51 仍 17/0，Beds24 121 标，池内轮换进 Mortgage Ads / Navshakti / Air-Gapped AI 等。挂钩 discover 16 样 + 6 新 T-FL。无新 Upwork 筛单。",
+      "summary": "早间 21/1（Beds24--4 推但不投）；午前/午间/傍晚均为 17/0；Beds24 标 98→112→121→132；Office Agent 现 107 标且竞争关亦未过。傍晚池轮换进 Distressed Deals / Car Booking / Document RAG 等（均未推）。挂钩 discover 16 样 + 6 新 T-FL。无新 Upwork 筛单。",
       "related_docs": [
         "doc-radar-pulse-1020",
         "doc-booking-map-1021",

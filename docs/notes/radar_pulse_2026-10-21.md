@@ -80,3 +80,24 @@
 
 **动作**：仍不投 Beds24；无新 Upwork 筛单；下一雷达约 15:51（every_4h）。模板线继续：预约×内容 + 今日 T-FL（门户 RPA / RFP-RAG / 西语修准等）。
 
+---
+
+## 傍晚复核（约 17:00 +08；雷达已刷）
+
+> 线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) `data/meta.json`：**published_at 2026-10-21 17:00:43 +08**，`job_leads` **17 / 推荐 0**（`job_leads_run_id` 20261021-165943-976c1c4b）。相对午间 11:51：总数与推荐数不变，但**匹配向帖投标继续涨**、池内再轮换。Fiverr 仍 403；Trends 仍 demo。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **17**（同午间） |
+| 推荐数量 | **0** |
+| Job ingest | OK |
+
+**相对午间变化（事实）**
+- Beds24 OTA --4：仍 Open · 投标 **132**（午间 121）· score 75 · `recommend: false`（竞争关 ≥100）→ 继续不投。
+- AI Agent for Office Automation：₹75k–150k · **107** 标（午间 82）· score 67 · 一期关未过，且竞争关现亦未过（≥100）→ 仍观望；同簇「政府门户填表 Agent」公开池已红。
+- 午间旁证 Backend API Lead Intake & Auth --2：本刷未再入 `job_leads` 前排。
+- 仍在池：Mortgage Lead Gen（130 标，午间 91）、Navshakti Sales Force Tracking（59，午间 37）、Linux Security / Air-Gapped AI Document（23，德里现场）、Cinematic Health App Video（13）。
+- 池内新面孔（均未推荐 / 关键词未过）：AI Platform for Distressed Deals（$15–25/hr，255 标）、Rideshare App Testing --3（181）、Cross-Platform Car Booking（98）、3D Animation for SaaS（93）、Dermatology Google Ads（66）、Health App Website Redesign（72）、Indonesia Vacation Rental Booking（$250–750，22）、Intelligent Document Analysis RAG（331）、Fractional CFO Website（308）、Turkish Pilates Telemarketer（0 标，非技术栈）。
+
+**动作**：仍不投 Beds24；Office Agent 公开池已过百标，勿当窗口；无新 Upwork 筛单（仍停在 10-19 晚间）。下一雷达约 21:00（every_4h）。模板线不变：预约×内容 + 今日 T-FL。
+
