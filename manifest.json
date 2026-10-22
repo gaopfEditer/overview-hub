@@ -56,7 +56,8 @@
         "doc-screened-1019e",
         "doc-fl-samples-1020",
         "doc-radar-pulse-1021",
-        "doc-fl-samples-1021"
+        "doc-fl-samples-1021",
+        "doc-radar-pulse-1022"
       ],
       "tags": [
         "Upwork",
@@ -92,7 +93,7 @@
       "type": "freelance",
       "title": "Freelancer.com",
       "url": "https://www.freelancer.com/",
-      "summary": "竞标制补充池。2026-10-21 17:00 雷达 17 帖、推荐 0（Beds24 OTA --4 投标 132，仍不推荐）；午间 11:51 同为 17/0（当时 121 标）。今日 discover 入样 16 + 6 个新 T-FL（门户 RPA / RFP-RAG / 西语修准 / 外联 CRM / Zoho 扩展 / Next webhook）。昨傍晚合格两单已降级。预算中位偏低，非主收入。",
+      "summary": "竞标制补充池。2026-10-22 07:05 雷达 27 帖、推荐 0（Beds24--4 淡出；Office Agent 126 标仍观望）；预约线靠关键词日表+拒单规则+bz.a/smart.a 提案，宽网 booking 词不作主搜。",
       "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解",
       "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评",
       "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。",
@@ -111,7 +112,13 @@
         "doc-fl-templates",
         "doc-radar-pulse-1021",
         "doc-booking-map-1021",
-        "doc-fl-samples-1021"
+        "doc-fl-samples-1021",
+        "doc-radar-pulse-1022",
+        "doc-booking-keywords-1021",
+        "doc-booking-entry-1021",
+        "doc-booking-acq-1021",
+        "doc-booking-reject-1021",
+        "doc-booking-seeds-1021"
       ],
       "tags": [
         "Freelancer",
@@ -279,12 +286,12 @@
     },
     {
       "id": "case-near-beds24-1019",
-      "title": "近失：BEDS24 OTA（--4 早推后撤；标→132；人工始终不投）",
+      "title": "近失：BEDS24 OTA（--4 早推后撤；标→132；10-22 淡出；人工始终不投）",
       "path": "docs/cases/near_beds24_ota_2026-10-19.md",
       "date": "2026-10-21 08:58",
       "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40778471",
       "has_evidence": true,
-      "summary": "2026-10-21：早间雷达曾 recommend，午前起撤推；投标 98→112→121→132。预算 $30–250 + Beds24 经验门槛 → 始终不投，仅作 OTA/PMS 素材。",
+      "summary": "近失：BEDS24 OTA（--4 早推后撤；标→132；10-22 早间淡出池；人工始终不投）",
       "tags": [
         "Freelancer",
         "Beds24",
@@ -715,7 +722,8 @@
         "doc-booking-map-1021",
         "doc-longtail",
         "doc-fl-templates",
-        "doc-fl-samples-1021"
+        "doc-fl-samples-1021",
+        "doc-radar-pulse-1022"
       ]
     },
     {
@@ -740,7 +748,146 @@
         "doc-fl-samples-1020",
         "doc-radar-pulse-1021",
         "doc-backlog",
-        "doc-fl-samples-1021"
+        "doc-fl-samples-1021",
+        "doc-booking-keywords-1021",
+        "doc-booking-entry-1021",
+        "doc-booking-acq-1021",
+        "doc-booking-reject-1021",
+        "doc-booking-seeds-1021",
+        "doc-radar-pulse-1022"
+      ]
+    },
+    {
+      "id": "doc-radar-pulse-1022",
+      "title": "需求雷达脉搏 2026-10-22（07:05 早间）",
+      "path": "docs/notes/radar_pulse_2026-10-22.md",
+      "theme": "市场研究",
+      "date": "2026-10-22 07:05",
+      "tags": [
+        "雷达",
+        "Freelancer",
+        "预约",
+        "脉搏"
+      ],
+      "summary": "雷达 27/0 @07:05；Beds24--4 淡出池；Office Agent 126 标仍观望；公开池多条旅游/美业/WP booking 红海旁证。无新 Upwork 筛单。动作：预约本周切片+拒单规则。",
+      "related_docs": [
+        "doc-radar-pulse-1021",
+        "doc-booking-map-1021",
+        "doc-booking-keywords-1021",
+        "doc-booking-reject-1021",
+        "doc-booking-acq-1021",
+        "doc-fl-samples-1021",
+        "doc-fl-templates"
+      ]
+    },
+    {
+      "id": "doc-booking-keywords-1021",
+      "title": "预约类每日筛选关键词表（2026-10-21）",
+      "path": "/workspace/freelancer/booking_keywords_daily_2026-10-21.md",
+      "theme": "市场研究",
+      "date": "2026-10-21 20:25",
+      "tags": [
+        "预约",
+        "关键词",
+        "Upwork",
+        "Freelancer",
+        "低竞争"
+      ],
+      "summary": "通用/陪玩/美业等垂类搜词表：量级与竞争为实战印象；支付修饰词与多服务者长尾优先于宽网 booking。",
+      "related_docs": [
+        "doc-booking-entry-1021",
+        "doc-booking-seeds-1021",
+        "doc-booking-reject-1021",
+        "doc-booking-map-1021",
+        "doc-radar-pulse-1022"
+      ]
+    },
+    {
+      "id": "doc-booking-entry-1021",
+      "title": "预约需求衍生业务与客户入口地图（2026-10-21）",
+      "path": "/workspace/freelancer/booking_demand_and_entry_map_2026-10-21.md",
+      "theme": "市场研究",
+      "date": "2026-10-21 20:49",
+      "tags": [
+        "预约",
+        "获客",
+        "入口",
+        "bz.a",
+        "smart.a",
+        "关键词"
+      ],
+      "summary": "预约衍生业务类型、客户画像、搜索词与流量入口；对照 T3/T2/bz.a/smart.a；渠道优先级：平台提案 > SEO/教程 > 社群。",
+      "related_docs": [
+        "doc-booking-keywords-1021",
+        "doc-booking-acq-1021",
+        "doc-booking-map-1021",
+        "doc-live",
+        "doc-radar-pulse-1022"
+      ]
+    },
+    {
+      "id": "doc-booking-acq-1021",
+      "title": "预约演示 30 天获客计划 · 本周最小切片（2026-10-21）",
+      "path": "/workspace/freelancer/acquisition_plan_30d_2026-10-21.md",
+      "theme": "模板与交付",
+      "date": "2026-10-21 20:50",
+      "tags": [
+        "获客",
+        "预约",
+        "Freelancer",
+        "Fiverr",
+        "demo",
+        "本周"
+      ],
+      "summary": "本周只做五件：一页纸+demo、FL 日搜 2 轮提案≥10、提案模板、Gig 骨架二选一、seeds 补词；教程/SEO/社群暂缓。",
+      "related_docs": [
+        "doc-booking-entry-1021",
+        "doc-booking-keywords-1021",
+        "doc-booking-reject-1021",
+        "doc-booking-seeds-1021",
+        "doc-live",
+        "doc-radar-pulse-1022"
+      ]
+    },
+    {
+      "id": "doc-booking-reject-1021",
+      "title": "预约类日流程拒单 / 降权规则（2026-10-21）",
+      "path": "/workspace/freelancer/booking_reject_rules_daily.md",
+      "theme": "市场研究",
+      "date": "2026-10-21 20:48",
+      "tags": [
+        "预约",
+        "拒单",
+        "筛选",
+        "Freelancer"
+      ],
+      "summary": "R1–R7 拒单（Beds24/极低价整站/HIPAA 轻诺/escort/灰黑收款/双端一口价等）+ reservation 等降权信号；日搜可勾选顺序。",
+      "related_docs": [
+        "doc-booking-keywords-1021",
+        "doc-booking-seeds-1021",
+        "doc-booking-acq-1021",
+        "doc-radar-pulse-1022"
+      ]
+    },
+    {
+      "id": "doc-booking-seeds-1021",
+      "title": "预约+支付 雷达 seeds 草案（2026-10-21）",
+      "path": "/workspace/freelancer/requirement_radar_seeds_booking_2026-10-21.md",
+      "theme": "市场研究",
+      "date": "2026-10-21 20:48",
+      "tags": [
+        "雷达",
+        "seeds",
+        "预约",
+        "Stripe",
+        "关键词"
+      ],
+      "summary": "宽网 booking 词不作主提案；hot 优先 payment/Stripe/salon/deposit/Calendly alternative 等；供 trendradar seeds 粘贴。",
+      "related_docs": [
+        "doc-booking-keywords-1021",
+        "doc-booking-reject-1021",
+        "doc-radar-brief",
+        "doc-radar-pulse-1022"
       ]
     }
   ]
