@@ -109,3 +109,33 @@
 - Upwork：仍无新于 **2026-10-19 晚间** `screened_*`；本轮无新 discover 文件（仍用今早 09:12 的 15 样）。
 
 **动作**：不投 Beds24 --5 / Office Agent / 旅行·美业 WP 预订红海；继续按 discover 低竞争切片（WA 模板流、Teams 工单桥、PR 评审骨架）写提案。下一雷达约 **15:51**（every_4h）。
+
+---
+
+## 傍晚复核（约 17:16 +08；雷达已刷）
+
+> 线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) `data/meta.json`：**published_at 2026-10-22 17:16:44 +08**，`job_leads` **30 / 推荐 0**（`job_leads_run_id` 20261022-171543-1cfe6c61）。相对午后 11:51 的 27/1：帖数 **+3**，**推荐池再空**。Fiverr 仍 403；Trends 仍 demo。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **30**（午后 27） |
+| 推荐数量 | **0**（午后 1） |
+| Job ingest | OK |
+
+### 雷达推荐
+
+- 无（公开池推荐数 0）。午后仍推的 **Beds24 --5** 本刷 **未再入** `job_leads` 前排。
+
+### 相对午后变化（事实）
+
+- **Beds24 --5**：从推荐池淡出（午后 85 标仍 Open 与否不在本刷前排）。系列结论不变：不投，仅作 OTA/PMS 素材。
+- **AI Agent for Office Automation**：仍 Open · ₹75k–150k · 投标 **132**（午后 128）· score 67 · 一期+竞争未过 → 继续观望。
+- **7 Connected AI Agents（珠宝）**：₹12.5k–37.5k · **136** 标 · 同未过 → 跳过（午后曾淡出，本刷回池）。
+- Next.js/Node/Three.js Bug Fix：£250–750 · **338** 标（午后 332）→ 半成品修 bug 红海旁证仍在。
+- 预约旁证：Charleston Hair Beauty Booking **147**（午后 145）、Service Booking E-Commerce **231**（午后 196，标数猛升）、Travel Agency Tour Booking **149**（午后 123）、WP Travel Booking **345**（午后 344）；Madagascar Tour Booking 本刷淡出。新增 **React Vite Booking Store**（₹600–1500 · **47** 标 · 关键词未过）——低价预约店面，套拒单规则，不作主投。
+- 窄集成旁证：**SFTP JSON Middleware for TMS**（$750–1500 · **148** 标 · 关键词未过）——价带尚可但公开池已卷，仅记方向。
+- 噪声岗仍多：销售/前台/口译/视频剪辑/纯佣金等，关键词未过。
+- Upwork：仍无新于 **2026-10-19 晚间** `screened_*`；本轮无新 discover 文件（仍用今早 09:12 的 15 样）。
+
+**动作**：不追 Beds24 / Office Agent / 旅行·美业 WP·极低价 booking；预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案；低竞争切片仍看 WA 模板流、Teams 工单桥、PR 评审骨架。下一雷达约 **21:16**（every_4h）。
+
