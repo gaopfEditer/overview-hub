@@ -79,3 +79,33 @@
 - 新增 T-FL：`edu-multi-agent` · `pr-perf-agent` · `teams-helpdesk-bridge`（见 templates 表）。
 
 **动作**：不投 Beds24 --5 / Office Agent / 旅行·美业 WP 预订红海；按 discover 低竞争切片写提案（WA 模板流、Teams 工单桥、PR 评审骨架）；Upwork 仍无新于 10-19 晚间筛单。下一雷达约 14:32（every_4h）。
+
+
+---
+
+## 午后复核（约 11:51 +08；雷达已刷）
+
+> 线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) `data/meta.json`：**published_at 2026-10-22 11:51:45 +08**，`job_leads` **27 / 推荐 1**（`job_leads_run_id` 20261022-115045-4d1ac301）。相对午前 10:32 的 29/1：帖数 **-2**，推荐池仍 1 条。Fiverr 仍 403；Trends 仍 demo。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **27**（午前 29） |
+| 推荐数量 | **1**（同午前） |
+| Job ingest | OK |
+
+### 雷达推荐（需人工再滤）
+
+- **[BEDS24 OTA Integration Setup -- 5](https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40780279)**（`fl-40780279`）
+  - 预算 `$30–250` · 投标 **85**（午前 79）· score 120 · 嵌入轨命中 `beds24`
+  - 五关全过；竞争关「投标偏多（85），谨慎」仍 `recommend: true`
+  - **人工结论：仍不投**（同系列门槛；标数继续爬升，窗口更差）。作 OTA/PMS 素材。
+
+### 相对午前变化（事实）
+
+- 池缩 29→27：午前旁证里的「7 Connected AI Agents（珠宝）」等已淡出；噪声帖补入（板球管理 App×2、律所模板、纯佣金销售、Peptide 约访岗、Wix 按设计建站等）——均关键词未过。
+- **AI Agent for Office Automation**：仍 Open · ₹75k–150k · 投标 **128**（持平）· score 67 · 一期+竞争未过 → 继续观望。
+- Next.js/Node/Three.js Bug Fix：£250–750 · **332** 标（持平）→ 半成品修 bug 红海旁证仍在。
+- 预约旁证：Charleston Hair Beauty Booking **145**（午前 144）、Madagascar Tour Booking **425**、Service Booking E-Commerce **196**（午前 193）、Travel Agency Tour Booking **123**（午前 121）、WP Travel Booking **344**——继续套拒单规则，不作主搜。
+- Upwork：仍无新于 **2026-10-19 晚间** `screened_*`；本轮无新 discover 文件（仍用今早 09:12 的 15 样）。
+
+**动作**：不投 Beds24 --5 / Office Agent / 旅行·美业 WP 预订红海；继续按 discover 低竞争切片（WA 模板流、Teams 工单桥、PR 评审骨架）写提案。下一雷达约 **15:51**（every_4h）。

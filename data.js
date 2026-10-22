@@ -108,7 +108,7 @@ Profile：https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
 
 交叉：\`smb_demand_clusters.md\`（Fiverr BTI / Gig 抽样段落）、模板站链接。
 `},
-{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。2026-10-22 07:05 雷达 27 帖、推荐 0（Beds24--4 淡出；Office Agent 126 标仍观望）；预约线靠关键词日表+拒单规则+bz.a/smart.a 提案，宽网 booking 词不作主搜。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-smb", "doc-backlog", "doc-freelancer-bids", "doc-pulse-1019", "doc-radar-brief", "doc-radar-pulse-1019", "doc-screened-1019e", "doc-radar-pulse-1020", "doc-fl-samples-1020", "doc-fl-templates", "doc-radar-pulse-1021", "doc-booking-map-1021", "doc-fl-samples-1021", "doc-radar-pulse-1022", "doc-booking-keywords-1021", "doc-booking-entry-1021", "doc-booking-acq-1021", "doc-booking-reject-1021", "doc-booking-seeds-1021"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-10-21 18:35", "content": `# Freelancer.com 操作手册
+{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。2026-10-22 11:51 雷达 27 帖、推荐 1（Beds24--5·85 标仍不投；Office Agent 128 标观望）；预约线靠关键词日表+拒单规则+bz.a/smart.a 提案，宽网 booking 词不作主搜。discover 今早 15 样仍有效。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-smb", "doc-backlog", "doc-freelancer-bids", "doc-pulse-1019", "doc-radar-brief", "doc-radar-pulse-1019", "doc-screened-1019e", "doc-radar-pulse-1020", "doc-fl-samples-1020", "doc-fl-templates", "doc-radar-pulse-1021", "doc-booking-map-1021", "doc-fl-samples-1021", "doc-radar-pulse-1022", "doc-booking-keywords-1021", "doc-booking-entry-1021", "doc-booking-acq-1021", "doc-booking-reject-1021", "doc-booking-seeds-1021"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-10-21 18:35", "content": `# Freelancer.com 操作手册
 
 竞标制项目市场。预算中位偏低、竞标人数多，适合捡「修复/小集成」或练英文提案，不作为主收入依赖。
 
@@ -369,7 +369,7 @@ cases: [
 
 栈贴合但提案已 50+，且时薪无法页核验 → 不进 QUALIFIED。同类「集成+Agent」仍是 Saved Search 重点；要盯**新帖、提案个位数**窗口。
 `},
-{"id": "case-near-beds24-1019", "title": "近失：BEDS24 OTA（--5 再推·79标；人工始终不投）", "is_template": false, "summary": "近失：BEDS24 OTA（--4 淡出后 --5 再推·79标·score120；人工始终不投；作 PMS/OTA 素材）", "tags": ["Freelancer", "Beds24", "近失", "竞争"], "related_docs": ["doc-radar-pulse-1019", "doc-longtail", "doc-freelancer-bids", "doc-radar-pulse-1020", "doc-radar-pulse-1021", "doc-booking-map-1021", "doc-radar-pulse-1022"], "path": "docs/cases/near_beds24_ota_2026-10-19.md", "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40780279", "has_evidence": true, "date": "2026-10-22 10:32", "fields": {}, "content": `# 近失：BEDS24 OTA Integration（Freelancer 系列）
+{"id": "case-near-beds24-1019", "title": "近失：BEDS24 OTA（--5 再推·85标；人工始终不投）", "is_template": false, "summary": "近失：BEDS24 OTA（--4 淡出后 --5 再推·85标·score120；人工始终不投；作 PMS/OTA 素材）", "tags": ["Freelancer", "Beds24", "近失", "竞争"], "related_docs": ["doc-radar-pulse-1019", "doc-longtail", "doc-freelancer-bids", "doc-radar-pulse-1020", "doc-radar-pulse-1021", "doc-booking-map-1021", "doc-radar-pulse-1022"], "path": "docs/cases/near_beds24_ota_2026-10-19.md", "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40780279", "has_evidence": true, "date": "2026-10-22 11:51", "fields": {}, "content": `# 近失：BEDS24 OTA Integration（Freelancer 系列）
 
 ## --4（雷达首次推荐 · 2026-10-21 07:01）
 
@@ -397,6 +397,8 @@ cases: [
 > 2026-10-22 07:05 雷达复核：\`--4\` **未再出现**在 \`job_leads\` 前排（昨傍晚仍 132 标）。维持不投；系列淡出公开推荐池。
 
 > 2026-10-22 10:32 雷达复核：系列以 **[--5](https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40780279)**（\`fl-40780279\`）重回推荐池 · \`$30–250\` · 投标 **79** · score 120 · \`recommend: true\`。人工仍不投（同 --4 门槛）；作 OTA/PMS 素材。
+
+> 2026-10-22 11:51 雷达复核：[--5](https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40780279) 仍推荐 · 投标 **85**（午前 79）· score 120。维持不投；标数爬升确认非冷启动窗口。
 `},
 {"id": "case-qual-elevenlabs-1019", "title": "近失：ElevenLabs n8n 语音管线（提案 8→117）", "is_template": false, "summary": "17:05 复核：仍 Open·117 标，维持降级不投。", "tags": ["Freelancer", "近失", "n8n", "Agent", "语音", "竞争"], "related_docs": ["doc-screened-1019e", "doc-freelancer-bids", "doc-radar-pulse-1020", "doc-fl-templates", "doc-fl-samples-1020"], "path": "docs/cases/qual_elevenlabs_n8n_2026-10-19.md", "source": "https://www.freelancer.com/projects/api/elevenlabs-voice-pipeline-fix-multi", "has_evidence": true, "date": "2026-10-20 17:05", "fields": {"来源": "Freelancer（2026-10-19 晚间 WebFetch 核验）", "单子类型": "n8n 修复 + 多 Agent 语音管线（ElevenLabs/STT/Polly/Azure）", "操作思路": "€250–750 · 曾 8 标现 117 · 低竞争失效 → 不投", "结果": "维持近失 — 抢标窗口已过"}, "来源": "Freelancer（2026-10-19 晚间 WebFetch 核验）", "单子类型": "n8n 修复 + 多 Agent 语音管线（ElevenLabs/STT/Polly/Azure）", "操作思路": "€250–750 · 曾 8 标现 117 · 低竞争失效 → 不投", "结果": "维持近失 — 抢标窗口已过", "content": `# 近失（曾合格）：ElevenLabs Voice Pipeline Fix & Multi-Agent Build（Freelancer）
 
@@ -4483,7 +4485,7 @@ Top 需求簇（可对模板）：
 - https://smart.a.ezcoin.ink
 - 全文：\`/workspace/freelancer/booking_content_requirements_map_2026-10-21.md\`
 `},
-{"id": "doc-radar-pulse-1022", "title": "需求雷达脉搏 2026-10-22（07:05 → 10:32）", "theme": "市场研究", "date": "2026-10-22 10:32", "summary": "雷达 29/1 @10:32（早间 27/0）；Beds24--5 再推仍不投；Office Agent 128 标观望；discover 15 样 + T-FL×3（edu/PR评审/Teams工单桥）。无新 Upwork 筛单。", "tags": ["雷达", "Freelancer", "预约", "脉搏"], "source": "", "path": "docs/notes/radar_pulse_2026-10-22.md", "related_docs": ["doc-radar-pulse-1021", "doc-booking-map-1021", "doc-booking-keywords-1021", "doc-booking-reject-1021", "doc-booking-acq-1021", "doc-fl-samples-1021", "doc-fl-templates", "doc-fl-samples-1022"], "content": `# 需求雷达脉搏 · 2026-10-22（Asia/Shanghai）
+{"id": "doc-radar-pulse-1022", "title": "需求雷达脉搏 2026-10-22（07:05 → 11:51）", "theme": "市场研究", "date": "2026-10-22 11:51", "summary": "雷达 27/1 @11:51（午前 29/1）；Beds24--5 79→85 标仍不投；Office Agent 128 持平；预约旁证微升；无新 Upwork/discover。", "tags": ["雷达", "Freelancer", "预约", "脉搏"], "source": "", "path": "docs/notes/radar_pulse_2026-10-22.md", "related_docs": ["doc-radar-pulse-1021", "doc-booking-map-1021", "doc-booking-keywords-1021", "doc-booking-reject-1021", "doc-booking-acq-1021", "doc-fl-samples-1021", "doc-fl-templates", "doc-fl-samples-1022"], "content": `# 需求雷达脉搏 · 2026-10-22（Asia/Shanghai）
 
 > 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\` + \`job_leads.json\`（\`published_at\` **2026-10-22 07:05 +08**，every_4h）。公开数据 only。相对 10-21 17:00 的 17/0：帖数升到 **27**，推荐池仍空。
 
@@ -4564,6 +4566,36 @@ Top 需求簇（可对模板）：
 - 新增 T-FL：\`edu-multi-agent\` · \`pr-perf-agent\` · \`teams-helpdesk-bridge\`（见 templates 表）。
 
 **动作**：不投 Beds24 --5 / Office Agent / 旅行·美业 WP 预订红海；按 discover 低竞争切片写提案（WA 模板流、Teams 工单桥、PR 评审骨架）；Upwork 仍无新于 10-19 晚间筛单。下一雷达约 14:32（every_4h）。
+
+
+---
+
+## 午后复核（约 11:51 +08；雷达已刷）
+
+> 线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\`：**published_at 2026-10-22 11:51:45 +08**，\`job_leads\` **27 / 推荐 1**（\`job_leads_run_id\` 20261022-115045-4d1ac301）。相对午前 10:32 的 29/1：帖数 **-2**，推荐池仍 1 条。Fiverr 仍 403；Trends 仍 demo。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **27**（午前 29） |
+| 推荐数量 | **1**（同午前） |
+| Job ingest | OK |
+
+### 雷达推荐（需人工再滤）
+
+- **[BEDS24 OTA Integration Setup -- 5](https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40780279)**（\`fl-40780279\`）
+  - 预算 \`$30–250\` · 投标 **85**（午前 79）· score 120 · 嵌入轨命中 \`beds24\`
+  - 五关全过；竞争关「投标偏多（85），谨慎」仍 \`recommend: true\`
+  - **人工结论：仍不投**（同系列门槛；标数继续爬升，窗口更差）。作 OTA/PMS 素材。
+
+### 相对午前变化（事实）
+
+- 池缩 29→27：午前旁证里的「7 Connected AI Agents（珠宝）」等已淡出；噪声帖补入（板球管理 App×2、律所模板、纯佣金销售、Peptide 约访岗、Wix 按设计建站等）——均关键词未过。
+- **AI Agent for Office Automation**：仍 Open · ₹75k–150k · 投标 **128**（持平）· score 67 · 一期+竞争未过 → 继续观望。
+- Next.js/Node/Three.js Bug Fix：£250–750 · **332** 标（持平）→ 半成品修 bug 红海旁证仍在。
+- 预约旁证：Charleston Hair Beauty Booking **145**（午前 144）、Madagascar Tour Booking **425**、Service Booking E-Commerce **196**（午前 193）、Travel Agency Tour Booking **123**（午前 121）、WP Travel Booking **344**——继续套拒单规则，不作主搜。
+- Upwork：仍无新于 **2026-10-19 晚间** \`screened_*\`；本轮无新 discover 文件（仍用今早 09:12 的 15 样）。
+
+**动作**：不投 Beds24 --5 / Office Agent / 旅行·美业 WP 预订红海；继续按 discover 低竞争切片（WA 模板流、Teams 工单桥、PR 评审骨架）写提案。下一雷达约 **15:51**（every_4h）。
 `},
 {"id": "doc-booking-keywords-1021", "title": "预约类每日筛选关键词表（2026-10-21）", "theme": "市场研究", "date": "2026-10-21 20:25", "summary": "通用/陪玩/美业等垂类搜词表：量级与竞争为实战印象；支付修饰词与多服务者长尾优先于宽网 booking。", "tags": ["预约", "关键词", "Upwork", "Freelancer", "低竞争"], "source": "", "path": "freelancer/booking_keywords_daily_2026-10-21.md", "related_docs": ["doc-booking-entry-1021", "doc-booking-seeds-1021", "doc-booking-reject-1021", "doc-booking-map-1021", "doc-radar-pulse-1022"], "content": `# 预约类需求每日筛选关键词表（2026-10-21）
 

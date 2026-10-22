@@ -26,3 +26,5 @@
 > 2026-10-22 07:05 雷达复核：`--4` **未再出现**在 `job_leads` 前排（昨傍晚仍 132 标）。维持不投；系列淡出公开推荐池。
 
 > 2026-10-22 10:32 雷达复核：系列以 **[--5](https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40780279)**（`fl-40780279`）重回推荐池 · `$30–250` · 投标 **79** · score 120 · `recommend: true`。人工仍不投（同 --4 门槛）；作 OTA/PMS 素材。
+
+> 2026-10-22 11:51 雷达复核：[--5](https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40780279) 仍推荐 · 投标 **85**（午前 79）· score 120。维持不投；标数爬升确认非冷启动窗口。
