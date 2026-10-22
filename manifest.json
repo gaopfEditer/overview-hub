@@ -286,12 +286,12 @@
     },
     {
       "id": "case-near-beds24-1019",
-      "title": "近失：BEDS24 OTA（--4 早推后撤；标→132；10-22 淡出；人工始终不投）",
+      "title": "近失：BEDS24 OTA（--5 再推·79标；人工始终不投）",
       "path": "docs/cases/near_beds24_ota_2026-10-19.md",
-      "date": "2026-10-21 08:58",
-      "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40778471",
+      "date": "2026-10-22 10:32",
+      "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40780279",
       "has_evidence": true,
-      "summary": "近失：BEDS24 OTA（--4 早推后撤；标→132；10-22 早间淡出池；人工始终不投）",
+      "summary": "近失：BEDS24 OTA（--4 淡出后 --5 再推·79标·score120；人工始终不投；作 PMS/OTA 素材）",
       "tags": [
         "Freelancer",
         "Beds24",
@@ -304,7 +304,8 @@
         "doc-freelancer-bids",
         "doc-radar-pulse-1020",
         "doc-radar-pulse-1021",
-        "doc-booking-map-1021"
+        "doc-booking-map-1021",
+        "doc-radar-pulse-1022"
       ]
     },
     {
@@ -679,7 +680,34 @@
         "doc-radar-pulse-1021",
         "doc-fl-samples-1020",
         "doc-freelancer-bids",
-        "doc-booking-map-1021"
+        "doc-booking-map-1021",
+        "doc-fl-samples-1022"
+      ]
+    },
+    {
+      "id": "doc-fl-samples-1022",
+      "title": "Freelancer 需求样本 2026-10-22（discover 15）",
+      "path": "/workspace/freelancer/demand_samples_2026-10-22.md",
+      "theme": "市场研究",
+      "date": "2026-10-22 09:12",
+      "tags": [
+        "Freelancer",
+        "discover",
+        "样本",
+        "WhatsApp",
+        "n8n",
+        "Teams",
+        "Zendesk",
+        "教育Agent",
+        "PR评审"
+      ],
+      "summary": "公开接口扫 618→近 36h 429，入样 15：表单→Meta WA、WA 客服 FAQ、学校多租户 Agent、PR→LLM 性能评审、Teams→Zendesk 催单桥、语音/Twilio、Sendiee 入职流；低竞争亮点与 5 条沉淀逻辑。",
+      "related_docs": [
+        "doc-fl-templates",
+        "doc-radar-pulse-1022",
+        "doc-fl-samples-1021",
+        "doc-freelancer-bids",
+        "doc-booking-reject-1021"
       ]
     },
     {
@@ -687,20 +715,21 @@
       "title": "Freelancer 可复用需求模板（T-FL-*）",
       "path": "/workspace/freelancer/templates.md",
       "theme": "模板与交付",
-      "date": "2026-10-21 09:13",
+      "date": "2026-10-22 09:12",
       "tags": [
         "Freelancer",
         "模板",
         "提案",
         "里程碑"
       ],
-      "summary": "T-FL 表已扩至含 10-21 新模板：gov-portal-rpa、rfp-scrape-rag、llm-locale-qa、voice-email-crm、crm-marketplace-sync、next-webhook-auth；另有语音 n8n、线索 pilot、M365、vibe-rescue 等。",
+      "summary": "T-FL 表已扩至含 10-22 新模板：edu-multi-agent、pr-perf-agent、teams-helpdesk-bridge；另有 gov-portal-rpa、rfp-scrape-rag、voice-email-crm、next-webhook-auth、vibe-rescue 等。",
       "related_docs": [
         "doc-fl-samples-1020",
         "doc-tplplan",
         "doc-freelancer-bids",
         "doc-live",
-        "doc-fl-samples-1021"
+        "doc-fl-samples-1021",
+        "doc-fl-samples-1022"
       ]
     },
     {
@@ -759,17 +788,17 @@
     },
     {
       "id": "doc-radar-pulse-1022",
-      "title": "需求雷达脉搏 2026-10-22（07:05 早间）",
+      "title": "需求雷达脉搏 2026-10-22（07:05 → 10:32）",
       "path": "docs/notes/radar_pulse_2026-10-22.md",
       "theme": "市场研究",
-      "date": "2026-10-22 07:05",
+      "date": "2026-10-22 10:32",
       "tags": [
         "雷达",
         "Freelancer",
         "预约",
         "脉搏"
       ],
-      "summary": "雷达 27/0 @07:05；Beds24--4 淡出池；Office Agent 126 标仍观望；公开池多条旅游/美业/WP booking 红海旁证。无新 Upwork 筛单。动作：预约本周切片+拒单规则。",
+      "summary": "雷达 29/1 @10:32（早间 27/0）；Beds24--5 再推仍不投；Office Agent 128 标观望；discover 15 样 + T-FL×3（edu/PR评审/Teams工单桥）。无新 Upwork 筛单。",
       "related_docs": [
         "doc-radar-pulse-1021",
         "doc-booking-map-1021",
@@ -777,7 +806,8 @@
         "doc-booking-reject-1021",
         "doc-booking-acq-1021",
         "doc-fl-samples-1021",
-        "doc-fl-templates"
+        "doc-fl-templates",
+        "doc-fl-samples-1022"
       ]
     },
     {
