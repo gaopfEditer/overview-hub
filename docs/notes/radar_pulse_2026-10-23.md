@@ -123,3 +123,43 @@
 - 本地 intel：`/workspace/freelancer/` 无午后新 discover（仍停在 09:11 的 16 样）；`/workspace/upwork/` 仍无 Oct 20–23 新 checked/screened。
 
 **动作**：不追 Beds24 / Office Agent / FORGEAI 公开价带 / 旅行·美业 WP·极低价 booking / 员工排班红海 / UX 试玩岗；预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案（展示站先行）；低竞争切片仍看 n8n CMS SEO、单源 API 看板、支付回调履约、vibe-rescue 分期。下一雷达约 **15:55**（every_4h）。
+---
+
+## 傍晚复核（约 17:13 +08；雷达已刷）
+
+> 线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) `data/meta.json`：**published_at 2026-10-23 17:13:09 +08**，`job_leads` **37 / 推荐 0**（`job_leads_run_id` 20261023-171209-81b4c6d1）。相对午后 11:55 的 31/0：帖数 **+6 → 37**，推荐仍空。Fiverr 仍 403；Trends 仍 demo。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **37**（午后 31） |
+| 推荐数量 | **0**（同午后） |
+| Job ingest | OK |
+| Fiverr | 仍跳过（HTTP 403 buyer_requests） |
+| Trends | 仍 demo |
+
+### 雷达推荐
+
+- 无（公开池推荐数 0）。**Beds24 --5** 仍不在前排。
+
+### 相对午后变化（事实）
+
+- **Next.js Website Development with CMS, Calendly & HubSpot Integration**（**新入池**）：嵌入轨 · tool（calendly）· score **75** · 投标 **143** · 三关未过（竞争≥100）→ **不作主投**；记预约/CRM（Calendly+HubSpot）集成旁证。
+- **Professional Appointment Booking Platform**（**新入池**）：嵌入轨 · phrase（appointment booking）· score **67** · 投标 **126** · 一期+竞争未过 → 预约主线旁证，标已红，不投。
+- **AI Agent for Office Automation**：仍 Open · 投标 **138**（午后 137）· score 67 · 一期+竞争未过 → 继续观望。
+- Next.js/Node/Three.js Bug Fix：仍 Open · **342** 标（午后 341）→ 半成品修 bug 红海旁证仍在。
+- Intelligent Document Analysis RAG：**347** 标（午后 346）→ 继续红海。
+- **FORGEAI**：关键词未过 · score 50 · 投标 **69**（午后雷达 50 / discover 09:11 时 29）· 标数续爬，仅 vibe-rescue 素材。
+- 预约旁证（均关键词未过 / 排除轨 / 红海）：
+  | 帖 | 标（午后→傍晚） | 备注 |
+  |---|---|---|
+  | Charleston Hair Beauty Booking App | 167→**191** | 美业预约 App；红海 + 双端风险 |
+  | Service Booking E-Commerce Site | 249→**252** | 命中 R2 极低价拒单 |
+  | Travel Agency & Tour Booking Website | 162→**164** | 泛 full-stack 排除轨 |
+  | React Vite Booking Store | 98→**101** | 低价预约店面；刚破百 |
+  | Staff Appointment Scheduler System | 319→**324** | 员工排班向 |
+  | Test our online booking website UX feedback | 78→**90** | 排除轨；UX 试玩岗 |
+  | Single Airbnb Property Booking Site | —→**326** | 单房源预订站；红海旁证（本刷显眼） |
+- Beds24 --5：继续不在前排。
+- 本地 intel：`demand_samples_2026-10-23.md` / T-FL×2（n8n-cms-seo、api-metric-dashboard）已在午前/午后脉冲沉淀，本段不重复贴表；`/workspace/upwork/` 仍无 Oct 20–23 新 checked/screened。
+
+**动作**：不追 Beds24 / Office Agent / FORGEAI 公开价带 / Calendly+HubSpot 红海整站 / Professional Appointment 红海 / 旅行·美业 WP·极低价 booking / 员工排班 / Airbnb 单房源 / UX 试玩岗；预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案（展示站先行）；低竞争切片仍看 n8n CMS SEO、单源 API 看板、支付回调履约、vibe-rescue 分期。下一雷达约 **21:13**（every_4h）。

@@ -3,7 +3,7 @@ sections: [{"id": "platforms", "name": "平台前端", "desc": "接单 / 展示 
 platform_types: [{"id": "freelance", "name": "接单平台"}, {"id": "showcase", "name": "作品展示"}, {"id": "community", "name": "社区获客"}],
 platform_field_labels: {"permissions": "权限需求清单", "access_path": "操作路径", "caveats": "注意事项", "trends_keywords": "Google Trends 对应关键词"},
 platforms: [
-{"id": "upwork", "type": "freelance", "title": "Upwork", "url": "https://www.upwork.com/", "summary": "主战场。AI Integration + 工作流/API 自动化；副业（修站、爬虫）放 Project Catalog。2026-10-19 公开复筛仍 NO_GOOD_JOBS，盯新帖个位数提案。", "permissions": "① Freelancer 账号 + **政府 ID 验证**\n② **Billing method**（买 Connects 必需）\n③ 收款：Payoneer / Wise / 银行\n④ Project Catalog 卖家权限（挂副业）\n⑤ 消息推送（UTC+8 快回面试）", "access_path": "1. 登录 Find Work\n2. 建 Saved Searches（n8n/Zapier、AI integration、Playwright/scraping、Next+Supabase+Stripe、self-hosted）\n3. 筛预算 ≥$150–300，跳过 $10–100\n4. 对照 titles_budgets / screened 短名单\n5. 买 Connects → 英文短 Proposal + demo 链接\n6. 面试 → Fixed milestone 或 Hourly 规则\n7. 交付源码+README+bugfix 窗", "caveats": "Connects 消耗快；CF/验证码勿用脚本硬闯；China 可访问但注意 US Only 单；Specialized Profiles 已取消；n8n 类常 50+ 提案，靠「写真代码+自托管 demo」差异化；未验证 ID/Billing = 无法投标。", "trends_keywords": "EN: AI automation freelancer, n8n automation, Zapier alternative n8n, AI chatbot for website, web scraping Playwright, Next.js Supabase Stripe fix, API integration, self-hosted automation, document OCR LLM\nCN: Upwork 接单 AI 自动化, n8n 工作流接单, Playwright 爬虫 接单, Lovable 修站", "related_docs": ["doc-titles", "doc-backlog", "doc-smb", "doc-screened", "doc-cap", "doc-live", "doc-pulse-1019", "doc-longtail", "doc-radar-brief", "doc-radar-pulse-1019", "doc-screened-1019e", "doc-fl-samples-1020", "doc-radar-pulse-1021", "doc-fl-samples-1021", "doc-radar-pulse-1022", "doc-radar-pulse-1023", "doc-fl-samples-1023", "doc-fl-samples-1022"], "tags": ["Upwork", "接单平台", "Connects", "主战场"], "path": "docs/platforms/upwork.md", "date": "2026-10-22 20:36", "content": `# Upwork 操作手册
+{"id": "upwork", "type": "freelance", "title": "Upwork", "url": "https://www.upwork.com/", "summary": "主战场。AI Integration + 工作流/API 自动化；副业（修站、爬虫）放 Project Catalog。2026-10-19 公开复筛仍 NO_GOOD_JOBS，盯新帖个位数提案。", "permissions": "① Freelancer 账号 + **政府 ID 验证**\n② **Billing method**（买 Connects 必需）\n③ 收款：Payoneer / Wise / 银行\n④ Project Catalog 卖家权限（挂副业）\n⑤ 消息推送（UTC+8 快回面试）", "access_path": "1. 登录 Find Work\n2. 建 Saved Searches（n8n/Zapier、AI integration、Playwright/scraping、Next+Supabase+Stripe、self-hosted）\n3. 筛预算 ≥$150–300，跳过 $10–100\n4. 对照 titles_budgets / screened 短名单\n5. 买 Connects → 英文短 Proposal + demo 链接\n6. 面试 → Fixed milestone 或 Hourly 规则\n7. 交付源码+README+bugfix 窗", "caveats": "Connects 消耗快；CF/验证码勿用脚本硬闯；China 可访问但注意 US Only 单；Specialized Profiles 已取消；n8n 类常 50+ 提案，靠「写真代码+自托管 demo」差异化；未验证 ID/Billing = 无法投标。", "trends_keywords": "EN: AI automation freelancer, n8n automation, Zapier alternative n8n, AI chatbot for website, web scraping Playwright, Next.js Supabase Stripe fix, API integration, self-hosted automation, document OCR LLM\nCN: Upwork 接单 AI 自动化, n8n 工作流接单, Playwright 爬虫 接单, Lovable 修站", "related_docs": ["doc-titles", "doc-backlog", "doc-smb", "doc-screened", "doc-cap", "doc-live", "doc-pulse-1019", "doc-longtail", "doc-radar-brief", "doc-radar-pulse-1019", "doc-screened-1019e", "doc-fl-samples-1020", "doc-radar-pulse-1021", "doc-fl-samples-1021", "doc-radar-pulse-1022", "doc-radar-pulse-1023", "doc-fl-samples-1023", "doc-fl-samples-1022"], "tags": ["Upwork", "接单平台", "Connects", "主战场"], "path": "docs/platforms/upwork.md", "date": "2026-10-23 16:15", "content": `# Upwork 操作手册
 
 鹏飞主战场。定位：**AI Integration + Workflow/API Automation**（主）+ 修完 Lovable/Cursor/Bolt 应用、爬虫/Playwright（副，放 Project Catalog）。
 
@@ -63,7 +63,7 @@ Profile：https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
 
 见文档区 **Upwork 市场脉搏 2026-10-19**（\`docs/notes/upwork_pulse_2026-10-19.md\`）：QUALIFIED=0、近失表与跳过模式。交叉：Freelancer 竞标观察、长尾方向笔记。
 `},
-{"id": "fiverr", "type": "freelance", "title": "Fiverr", "url": "https://www.fiverr.com/", "summary": "产品化 Gig：把 n8n/AI 小交付与修站打成 Basic/Standard/Premium，补 Upwork 定制单。", "permissions": "① Seller 账号（邮箱+手机）\n② **ID 验证**（提现）\n③ 提现渠道（如 Payoneer）\n④ Programming & Tech / AI 类目\n⑤ 可选 Seller Plus（放量后再开）", "access_path": "1. Switching to Selling\n2. 建 1–2 个主 Gig（n8n/AI automation；Fix AI web app）\n3. 写清三档交付物与修改次数\n4. 封面/视频 + 链到 portfolio 模板\n5. 标签对齐买家搜索词\n6. 开 Buyer requests → 24h 内回复\n7. 完成求评，控取消率", "caveats": "过低价伤定位；写死范围防修订地狱；API Key 由买家提供；完成率/响应时间影响算法；导流站外支付须守 ToS；国内注意提现合规。", "trends_keywords": "EN: n8n automation fiverr, zapier setup, AI chatbot fiverr, chatgpt integration, web scraping service, make.com scenario\nCN: Fiverr 卖自动化, Fiverr Gig n8n, 海外小企业 AI 聊天机器人", "related_docs": ["doc-smb", "doc-tplplan", "doc-live"], "tags": ["Fiverr", "接单平台", "Gig"], "path": "docs/platforms/fiverr.md", "date": "2026-10-22 20:36", "content": `# Fiverr 操作手册
+{"id": "fiverr", "type": "freelance", "title": "Fiverr", "url": "https://www.fiverr.com/", "summary": "产品化 Gig：把 n8n/AI 小交付与修站打成 Basic/Standard/Premium，补 Upwork 定制单。", "permissions": "① Seller 账号（邮箱+手机）\n② **ID 验证**（提现）\n③ 提现渠道（如 Payoneer）\n④ Programming & Tech / AI 类目\n⑤ 可选 Seller Plus（放量后再开）", "access_path": "1. Switching to Selling\n2. 建 1–2 个主 Gig（n8n/AI automation；Fix AI web app）\n3. 写清三档交付物与修改次数\n4. 封面/视频 + 链到 portfolio 模板\n5. 标签对齐买家搜索词\n6. 开 Buyer requests → 24h 内回复\n7. 完成求评，控取消率", "caveats": "过低价伤定位；写死范围防修订地狱；API Key 由买家提供；完成率/响应时间影响算法；导流站外支付须守 ToS；国内注意提现合规。", "trends_keywords": "EN: n8n automation fiverr, zapier setup, AI chatbot fiverr, chatgpt integration, web scraping service, make.com scenario\nCN: Fiverr 卖自动化, Fiverr Gig n8n, 海外小企业 AI 聊天机器人", "related_docs": ["doc-smb", "doc-tplplan", "doc-live"], "tags": ["Fiverr", "接单平台", "Gig"], "path": "docs/platforms/fiverr.md", "date": "2026-10-23 16:15", "content": `# Fiverr 操作手册
 
 产品化 Gig 市场。适合把已验证的小交付打成套餐（Basic / Standard / Premium），与 Upwork 的「定制合同」互补。
 
@@ -108,7 +108,7 @@ Profile：https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
 
 交叉：\`smb_demand_clusters.md\`（Fiverr BTI / Gig 抽样段落）、模板站链接。
 `},
-{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。2026-10-23 11:55 雷达 31/0（相对午前 10:36 帖数不变、推荐仍空；Office Agent 137 标持平；FORGEAI 43→50 不推；Charleston 152→167；Beds24--5 仍不在前排）。手工 discover 09:11 入样 16（613→423）；T-FL×2（n8n-cms-seo / api-metric-dashboard）。预约线靠关键词日表+拒单规则+bz.a/smart.a 提案。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-smb", "doc-backlog", "doc-freelancer-bids", "doc-pulse-1019", "doc-radar-brief", "doc-radar-pulse-1019", "doc-screened-1019e", "doc-radar-pulse-1020", "doc-fl-samples-1020", "doc-fl-templates", "doc-radar-pulse-1021", "doc-booking-map-1021", "doc-fl-samples-1021", "doc-radar-pulse-1022", "doc-booking-keywords-1021", "doc-booking-entry-1021", "doc-booking-acq-1021", "doc-booking-reject-1021", "doc-booking-seeds-1021", "doc-radar-pulse-1023", "doc-fl-samples-1023", "doc-fl-samples-1022"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-10-22 20:36", "content": `# Freelancer.com 操作手册
+{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。2026-10-23 17:13 雷达 37/0（相对午后 11:55 的 31/0 帖数 +6、推荐仍空；新入 Next.js+Calendly+HubSpot score75/143 标、Professional Appointment Booking score67/126 标均红海不投；Office Agent 138；FORGEAI 50→69；Charleston 167→191；Beds24--5 仍不在前排）。手工 discover 09:11 入样 16（613→423）；T-FL×2（n8n-cms-seo / api-metric-dashboard）。预约线靠关键词日表+拒单规则+bz.a/smart.a 提案。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-smb", "doc-backlog", "doc-freelancer-bids", "doc-pulse-1019", "doc-radar-brief", "doc-radar-pulse-1019", "doc-screened-1019e", "doc-radar-pulse-1020", "doc-fl-samples-1020", "doc-fl-templates", "doc-radar-pulse-1021", "doc-booking-map-1021", "doc-fl-samples-1021", "doc-radar-pulse-1022", "doc-booking-keywords-1021", "doc-booking-entry-1021", "doc-booking-acq-1021", "doc-booking-reject-1021", "doc-booking-seeds-1021", "doc-radar-pulse-1023", "doc-fl-samples-1023", "doc-fl-samples-1022"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-10-23 16:15", "content": `# Freelancer.com 操作手册
 
 竞标制项目市场。预算中位偏低、竞标人数多，适合捡「修复/小集成」或练英文提案，不作为主收入依赖。
 
@@ -147,7 +147,7 @@ Profile：https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
 
 交叉：\`smb_demand_clusters.md\` [FL-DEMAND] 段。
 `},
-{"id": "contra", "type": "freelance", "title": "Contra（补充）", "url": "https://contra.com/", "summary": "无佣金独立承包商网络。流量小，作补充展示与被动询盘。", "permissions": "① Contra 账号与完整 Profile\n② 收款绑定（平台支持的方式）\n③ Services / Portfolio 公开\n④ 可选连 X/LinkedIn", "access_path": "1. 完善 Independent profile\n2. 添加 AI automation / Fix web app 等 Services\n3. 上传真实 demo 截图（不编造营收）\n4. 链接挂到个人站与 README\n5. 询盘 → 书面报价 → 走 Contra 付款", "caveats": "流量有限，每周看消息即可；定价对齐 Upwork；确认国内收款是否可用，不行则仅展示。", "trends_keywords": "EN: Contra freelance, no commission freelance, AI automation contractor\nCN: Contra 平台, 无佣金 自由职业", "related_docs": ["doc-live", "doc-tplplan"], "tags": ["Contra", "接单平台", "补充"], "path": "docs/platforms/contra.md", "date": "2026-10-22 20:36", "content": `# Contra（补充渠道）
+{"id": "contra", "type": "freelance", "title": "Contra（补充）", "url": "https://contra.com/", "summary": "无佣金独立承包商网络。流量小，作补充展示与被动询盘。", "permissions": "① Contra 账号与完整 Profile\n② 收款绑定（平台支持的方式）\n③ Services / Portfolio 公开\n④ 可选连 X/LinkedIn", "access_path": "1. 完善 Independent profile\n2. 添加 AI automation / Fix web app 等 Services\n3. 上传真实 demo 截图（不编造营收）\n4. 链接挂到个人站与 README\n5. 询盘 → 书面报价 → 走 Contra 付款", "caveats": "流量有限，每周看消息即可；定价对齐 Upwork；确认国内收款是否可用，不行则仅展示。", "trends_keywords": "EN: Contra freelance, no commission freelance, AI automation contractor\nCN: Contra 平台, 无佣金 自由职业", "related_docs": ["doc-live", "doc-tplplan"], "tags": ["Contra", "接单平台", "补充"], "path": "docs/platforms/contra.md", "date": "2026-10-23 16:15", "content": `# Contra（补充渠道）
 
 无佣金、偏独立承包商网络。流量小于 Upwork，适合作为 **补充展示 + 被动询盘**，不替代主战场。
 
@@ -183,7 +183,7 @@ Profile：https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
 
 交叉：个人作品集站、本 Hub。
 `},
-{"id": "indie-hn", "type": "community", "title": "Indie Hackers / HN", "url": "https://www.indiehackers.com/", "summary": "轻量社区获客：练需求语言、Show 模板、价值评论，少硬广。", "permissions": "① IH 账号 + bio\n② HN 账号（一点 karma）\n③ 作品集 Contact/邮箱\n④ 可选 X", "access_path": "1. IH 完善「帮 SMB 做 n8n/代码自动化」bio\n2. 参与自动化/AI 帖，贡献干货再链 portfolio\n3. HN 跟 Ask/Show；有实质 demo 再 Show HN\n4. 私信转化到邮件或 Upwork\n5. 痛点词记入 backlog", "caveats": "反感硬广；IH 有 CF；时间盒每周 1–2h；不要当接单大厅刷。", "trends_keywords": "EN: indie hacker automation, solo founder AI tools, Ask HN freelance, show HN scraper, SMB no-code limits\nCN: 独立开发 获客, Indie Hackers 自动化, HN 展示项目", "related_docs": ["doc-smb", "doc-growth", "doc-live"], "tags": ["Indie Hackers", "HN", "社区获客"], "path": "docs/platforms/indie-hn.md", "date": "2026-10-22 20:36", "content": `# Indie Hackers / Hacker News（轻量获客）
+{"id": "indie-hn", "type": "community", "title": "Indie Hackers / HN", "url": "https://www.indiehackers.com/", "summary": "轻量社区获客：练需求语言、Show 模板、价值评论，少硬广。", "permissions": "① IH 账号 + bio\n② HN 账号（一点 karma）\n③ 作品集 Contact/邮箱\n④ 可选 X", "access_path": "1. IH 完善「帮 SMB 做 n8n/代码自动化」bio\n2. 参与自动化/AI 帖，贡献干货再链 portfolio\n3. HN 跟 Ask/Show；有实质 demo 再 Show HN\n4. 私信转化到邮件或 Upwork\n5. 痛点词记入 backlog", "caveats": "反感硬广；IH 有 CF；时间盒每周 1–2h；不要当接单大厅刷。", "trends_keywords": "EN: indie hacker automation, solo founder AI tools, Ask HN freelance, show HN scraper, SMB no-code limits\nCN: 独立开发 获客, Indie Hackers 自动化, HN 展示项目", "related_docs": ["doc-smb", "doc-growth", "doc-live"], "tags": ["Indie Hackers", "HN", "社区获客"], "path": "docs/platforms/indie-hn.md", "date": "2026-10-23 16:15", "content": `# Indie Hackers / Hacker News（轻量获客）
 
 社区获客，不是接单大厅。目标：**露出专业度、收集需求语言、偶尔引到作品集/邮箱**。投入时间有限。
 
@@ -223,7 +223,7 @@ Profile：https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
 
 交叉：\`smb_demand_clusters.md\` [IH-AUTO][IH-HIRE]、作品集站。
 `},
-{"id": "portfolio", "type": "showcase", "title": "个人作品集站", "url": "https://portfolio-site-orpin-three-91.vercel.app", "summary": "对外销售页。Proposal/Gig 最终落地看可运行模板 demo。", "permissions": "① Vercel 部署权限\n② GitHub 源码仓写权限\n③ 各 tpl-* 模板项目\n④ 可选自定义域与分析", "access_path": "1. 打开作品集核对定位文案\n2. 服务卡链到 tpl-landing / form-to-sheet / booking / launch-audit\n3. 改仓 → push → Vercel Ready → 硬刷新\n4. Proposal 只贴与职位相关的 demo\n5. Contact 与回复预期（UTC+8）保持有效", "caveats": "禁止假客户/假营收；标明 demo template；国内访问 Vercel 可能慢，可备截图或 Pages 镜像。", "trends_keywords": "EN: freelancer portfolio, automation developer portfolio, n8n demo, SaaS landing waitlist, launch audit\nCN: 自由职业者 作品集, 自动化 案例演示, 接单 作品站", "related_docs": ["doc-live", "doc-tplplan", "doc-proj", "doc-booking-map-1021"], "tags": ["作品集", "Vercel", "作品展示"], "path": "docs/platforms/portfolio.md", "date": "2026-10-22 20:36", "content": `# 个人作品集站（Portfolio）
+{"id": "portfolio", "type": "showcase", "title": "个人作品集站", "url": "https://portfolio-site-orpin-three-91.vercel.app", "summary": "对外销售页。Proposal/Gig 最终落地看可运行模板 demo。", "permissions": "① Vercel 部署权限\n② GitHub 源码仓写权限\n③ 各 tpl-* 模板项目\n④ 可选自定义域与分析", "access_path": "1. 打开作品集核对定位文案\n2. 服务卡链到 tpl-landing / form-to-sheet / booking / launch-audit\n3. 改仓 → push → Vercel Ready → 硬刷新\n4. Proposal 只贴与职位相关的 demo\n5. Contact 与回复预期（UTC+8）保持有效", "caveats": "禁止假客户/假营收；标明 demo template；国内访问 Vercel 可能慢，可备截图或 Pages 镜像。", "trends_keywords": "EN: freelancer portfolio, automation developer portfolio, n8n demo, SaaS landing waitlist, launch audit\nCN: 自由职业者 作品集, 自动化 案例演示, 接单 作品站", "related_docs": ["doc-live", "doc-tplplan", "doc-proj", "doc-booking-map-1021"], "tags": ["作品集", "Vercel", "作品展示"], "path": "docs/platforms/portfolio.md", "date": "2026-10-23 16:15", "content": `# 个人作品集站（Portfolio）
 
 线上门面。所有平台 Proposal / Gig / 社区帖最终应能点到这里看 **可运行 demo**。
 
@@ -266,7 +266,7 @@ Profile：https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
 
 交叉：\`docs/live_templates.md\`、\`templates_plan.md\`、\`portfolio_entries.md\`。
 `},
-{"id": "overview-hub", "type": "showcase", "title": "Overview Hub（本站）", "url": "https://gaopfEditer.github.io/overview-hub/", "summary": "对内作战板（也可对外展示系统化能力）：平台手册 + 案例 + 文档。", "permissions": "① GitHub 写权限 gaopfEditer/overview-hub\n② PAT：**repo + workflow**\n③ Pages = GitHub Actions\n④ Actions 可运行 workflows", "access_path": "1. 改 manifest → python3 build_data.py\n2. 本地打开 index.html 预览\n3. commit & push main\n4. 等 Pages Action 绿\n5. 打开 github.io/overview-hub/ 验证三 Tab", "caveats": "缺 workflow scope 推不了 Action；token 永不入库；data.js 内嵌外链 md；base href 必须为 ./", "trends_keywords": "EN: freelance ops playbook, upwork knowledge base, github pages hub\nCN: 接单 作战手册, Upwork 知识库, GitHub Pages 静态站", "related_docs": ["doc-cap", "doc-growth", "doc-tech"], "tags": ["GitHub Pages", "本站", "作品展示"], "path": "docs/platforms/overview-hub.md", "date": "2026-10-22 20:36", "content": `# Overview Hub（本站 · GitHub Pages）
+{"id": "overview-hub", "type": "showcase", "title": "Overview Hub（本站）", "url": "https://gaopfEditer.github.io/overview-hub/", "summary": "对内作战板（也可对外展示系统化能力）：平台手册 + 案例 + 文档。", "permissions": "① GitHub 写权限 gaopfEditer/overview-hub\n② PAT：**repo + workflow**\n③ Pages = GitHub Actions\n④ Actions 可运行 workflows", "access_path": "1. 改 manifest → python3 build_data.py\n2. 本地打开 index.html 预览\n3. commit & push main\n4. 等 Pages Action 绿\n5. 打开 github.io/overview-hub/ 验证三 Tab", "caveats": "缺 workflow scope 推不了 Action；token 永不入库；data.js 内嵌外链 md；base href 必须为 ./", "trends_keywords": "EN: freelance ops playbook, upwork knowledge base, github pages hub\nCN: 接单 作战手册, Upwork 知识库, GitHub Pages 静态站", "related_docs": ["doc-cap", "doc-growth", "doc-tech"], "tags": ["GitHub Pages", "本站", "作品展示"], "path": "docs/platforms/overview-hub.md", "date": "2026-10-23 16:15", "content": `# Overview Hub（本站 · GitHub Pages）
 
 对内作战板：平台手册、案例分析、思路文档。对外也可作为「系统化接单」的轻量证明。
 
@@ -309,7 +309,7 @@ Profile：https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
 `},
 ],
 cases: [
-{"id": "case-example", "title": "空模板（新增案例请复制）", "is_template": true, "summary": "占位卡：示例结构，不是真实接单案例。字段均为「待填」说明，复制后在 manifest.json 追加真实条目。", "tags": ["示例结构", "占位"], "related_docs": ["doc-screened", "doc-titles", "doc-live"], "path": "docs/cases/example_structure.md", "source": "", "has_evidence": false, "date": "2026-10-22 20:36", "fields": {"来源": "（待填）平台 + URL / 职位 ID", "单子类型": "（待填）如 n8n 修复 / AI Chatbot / 爬虫管道 / 修 Next+Stripe", "操作思路": "（待填）筛选理由 → 匹配 demo → 提案要点 → milestone 切分", "结果": "（待填）未投 / 已投 / 面试 / 中标 / 完成 / 放弃 + 原因"}, "来源": "（待填）平台 + URL / 职位 ID", "单子类型": "（待填）如 n8n 修复 / AI Chatbot / 爬虫管道 / 修 Next+Stripe", "操作思路": "（待填）筛选理由 → 匹配 demo → 提案要点 → milestone 切分", "结果": "（待填）未投 / 已投 / 面试 / 中标 / 完成 / 放弃 + 原因", "content": `# 【示例结构】案例分析卡片（占位）
+{"id": "case-example", "title": "空模板（新增案例请复制）", "is_template": true, "summary": "占位卡：示例结构，不是真实接单案例。字段均为「待填」说明，复制后在 manifest.json 追加真实条目。", "tags": ["示例结构", "占位"], "related_docs": ["doc-screened", "doc-titles", "doc-live"], "path": "docs/cases/example_structure.md", "source": "", "has_evidence": false, "date": "2026-10-23 16:15", "fields": {"来源": "（待填）平台 + URL / 职位 ID", "单子类型": "（待填）如 n8n 修复 / AI Chatbot / 爬虫管道 / 修 Next+Stripe", "操作思路": "（待填）筛选理由 → 匹配 demo → 提案要点 → milestone 切分", "结果": "（待填）未投 / 已投 / 面试 / 中标 / 完成 / 放弃 + 原因"}, "来源": "（待填）平台 + URL / 职位 ID", "单子类型": "（待填）如 n8n 修复 / AI Chatbot / 爬虫管道 / 修 Next+Stripe", "操作思路": "（待填）筛选理由 → 匹配 demo → 提案要点 → milestone 切分", "结果": "（待填）未投 / 已投 / 面试 / 中标 / 完成 / 放弃 + 原因", "content": `# 【示例结构】案例分析卡片（占位）
 
 > 这是 **【示例结构】** 空模板，不是真实案例。新增案例时复制本结构，在 \`manifest.json\` 的 \`cases\` 数组追加一条；\`build_data.py\` 会把条目上的**任意新字段**自动带进 \`data.js\`，前端按字段名渲染（无需改死 schema）。
 
@@ -425,7 +425,7 @@ cases: [
 ],
 case_field_order: ["来源", "单子类型", "操作思路", "结果"],
 docs: [
-{"id": "doc-cap", "title": "能力边界", "theme": "能力与判断", "date": "2026-10-22 20:36", "summary": "接单前判断工具：各端输入输出、资源上限与报价前必问清单。", "tags": ["能力边界", "报价", "开发"], "source": "", "path": "dev-topics/01_capability_boundaries.md", "related_docs": [], "content": `# 软件开发专题：各端能力边界
+{"id": "doc-cap", "title": "能力边界", "theme": "能力与判断", "date": "2026-10-23 16:15", "summary": "接单前判断工具：各端输入输出、资源上限与报价前必问清单。", "tags": ["能力边界", "报价", "开发"], "source": "", "path": "dev-topics/01_capability_boundaries.md", "related_docs": [], "content": `# 软件开发专题：各端能力边界
 
 > 适用对象：鹏飞（全栈 ~10 年，Vue / React / NestJS / Python / Docker；接海外中小企业的网站、全栈、AI Agent 单）。
 > 用法：不是知识清单，而是**接单前的判断工具**。每接一个新需求，先用文末的「能力边界卡」过一遍，再报价。
@@ -682,7 +682,7 @@ docs: [
 | 长时间后台任务 | 后端 worker | 移动端和浏览器后台都会被限制 |
 | 多租户数据 | 后端 + 数据库层隔离 | 一次串数据就是事故 |
 `},
-{"id": "doc-growth", "title": "Web 全栈 / Agent 成长方向", "theme": "成长路径", "date": "2026-10-22 20:36", "summary": "Web 全栈与 Agent 方向的能力进阶与接单映射。", "tags": ["全栈", "Agent", "成长"], "source": "", "path": "dev-topics/02_web_fullstack_agent_growth.md", "related_docs": [], "content": `# 网站 + 全栈 + Agent 能力提升路线
+{"id": "doc-growth", "title": "Web 全栈 / Agent 成长方向", "theme": "成长路径", "date": "2026-10-23 16:15", "summary": "Web 全栈与 Agent 方向的能力进阶与接单映射。", "tags": ["全栈", "Agent", "成长"], "source": "", "path": "dev-topics/02_web_fullstack_agent_growth.md", "related_docs": [], "content": `# 网站 + 全栈 + Agent 能力提升路线
 
 > 对象：鹏飞（全栈 ~10 年；Vue / React / NestJS / Python / Docker；海外 SMB 自由职业）。
 > 每节结构：**为什么重要 / 要达到的标准（可自测）/ 练手项目 / 对应能接的单**。
@@ -963,7 +963,7 @@ Agent 的输出要进入真实系统（CRM、数据库、邮件）。类型不�
 - [ ] 已上架对应 Gig，报价模板里包含维护和风险项
 - [ ] 每个新单都先填「能力边界卡」（见 \`01_capability_boundaries.md\`）
 `},
-{"id": "doc-proj", "title": "项目推荐", "theme": "项目与作品", "date": "2026-10-22 20:36", "summary": "适合练手与挂作品集的项目推荐。", "tags": ["项目", "推荐", "作品集"], "source": "", "path": "dev-topics/03_project_recommendations.md", "related_docs": [], "content": `# 03 · 项目推荐：按 ROI 排序的 12 个可落地项目（鹏飞版）
+{"id": "doc-proj", "title": "项目推荐", "theme": "项目与作品", "date": "2026-10-23 16:15", "summary": "适合练手与挂作品集的项目推荐。", "tags": ["项目", "推荐", "作品集"], "source": "", "path": "dev-topics/03_project_recommendations.md", "related_docs": [], "content": `# 03 · 项目推荐：按 ROI 排序的 12 个可落地项目（鹏飞版）
 
 > 适用对象：鹏飞（Python / Docker / FRP / 爬虫与内部接口逆向 / Playwright·Puppeteer·CDP / 油猴与浏览器扩展 / 支付网关对接 / 多账号 token 轮换 / 会话保活 / 限流故障转移 / Cursor·Codex·Claude Code / 全栈 Web + AI Agent）
 > 客户画像：Fiverr / Freelancer / Upwork 上的海外中小企业（SMB）和独立创始人
@@ -1579,7 +1579,7 @@ Android 端（A1–A4）在 SMB 外包市场里需求点多集中在"做一个 A
 
 > 节奏建议：①② 是"本周就能挂出去接单"的，③ 是"每天抽 1–2 小时持续推进"的产品线。接到 ①② 的订单后，把交付中沉淀的代码片段回收到各自的 kit 仓库，形成复利。
 `},
-{"id": "doc-tech", "title": "复杂技术清单（AI 开发参考）", "theme": "技术参考", "date": "2026-10-22 20:36", "summary": "按场景分组的复杂技术：用途、难点、AI 提示模板与常见坑。", "tags": ["技术清单", "AI辅助", "接单"], "source": "", "path": "dev-topics/04_complex_tech_checklist.md", "related_docs": [], "content": `# 04 · 复杂技术清单：接单开发时的 AI Prompt 速查（鹏飞版）
+{"id": "doc-tech", "title": "复杂技术清单（AI 开发参考）", "theme": "技术参考", "date": "2026-10-23 16:15", "summary": "按场景分组的复杂技术：用途、难点、AI 提示模板与常见坑。", "tags": ["技术清单", "AI辅助", "接单"], "source": "", "path": "dev-topics/04_complex_tech_checklist.md", "related_docs": [], "content": `# 04 · 复杂技术清单：接单开发时的 AI Prompt 速查（鹏飞版）
 
 > 对象：鹏飞（技能见 \`03\`）。配套 \`01\`/\`02\`/\`03\`。本文是**开发中的 prompt 参考**，不是百科。
 > 用法：对号入座 → 贴「AI 辅助」prompt 进 Cursor/Claude Code → 按「常见坑」验收。
@@ -2037,7 +2037,7 @@ Stripe webhook：验签、event_id 去重表、「标记已付+开通权益」�
 
 **自检**：鉴权 / 支付 / 多租户 / 爬虫 / 密钥代码，对照「常见坑」再提交。
 `},
-{"id": "doc-titles", "title": "Upwork 标题与预算", "theme": "Upwork 调研", "date": "2026-10-22 20:36", "summary": "职位标题 × 预算 × 竞争样本与优先投标 Top5。", "tags": ["Upwork", "预算", "标题"], "source": "", "path": "upwork/upwork_titles_budgets.md", "related_docs": [], "content": `# Upwork 职位标题 × 预算 × 竞争 参考表（建站 + 后端自动化）
+{"id": "doc-titles", "title": "Upwork 标题与预算", "theme": "Upwork 调研", "date": "2026-10-23 16:15", "summary": "职位标题 × 预算 × 竞争样本与优先投标 Top5。", "tags": ["Upwork", "预算", "标题"], "source": "", "path": "upwork/upwork_titles_budgets.md", "related_docs": [], "content": `# Upwork 职位标题 × 预算 × 竞争 参考表（建站 + 后端自动化）
 
 - 更新：2026-10-14 21:50（UTC+8）；方法：WebFetch 公开类目页/apply 页 + 本目录既有笔记（requirements_backlog.md、checked_2026-10-14.txt）。未登录、未绕过 Cloudflare。
 - 说明：预算均来自下列 URL 的公开样本（单条或少量样本，**不是统计均值**）。「提案数」带 ✅ 为页面实际显示；标「估」为按类目/预算/描述的定性估计。
@@ -2084,7 +2084,7 @@ Stripe webhook：验签、event_id 去重表、「标记已付+开通权益」�
 4. ⭐ **Lead/Scrape-to-score self-hosted pipeline**（$350，估20–50）— “无 vendor lock-in + 抗封”正对 Playwright/CDP 技能，对上 Contractor Lead Engine。
 5. ⭐ **Fix/Stabilize existing scraper (n8n/Python)**（$150，估10–20）— 预算小但竞争最低、交付快、易拿好评，常转长期维护（Retail Catalogue $300 同类）。
 `},
-{"id": "doc-backlog", "title": "需求 Backlog", "theme": "Upwork 调研", "date": "2026-10-22 20:36", "summary": "需求分类与待做/已覆盖条目积压。", "tags": ["需求分类", "Backlog"], "source": "", "path": "upwork/requirements_backlog.md", "related_docs": [], "content": `# 接单需求列表（维护用）
+{"id": "doc-backlog", "title": "需求 Backlog", "theme": "Upwork 调研", "date": "2026-10-23 16:15", "summary": "需求分类与待做/已覆盖条目积压。", "tags": ["需求分类", "Backlog"], "source": "", "path": "upwork/requirements_backlog.md", "related_docs": [], "content": `# 接单需求列表（维护用）
 
 - Updated: 2026-10-09（Asia/Shanghai）
 - How to maintain: 只增不删（废弃条目改状态为「搁置」并加一行备注）；status 取值：\`待做案例\` / \`已有案例\` / \`仅投标不建站\` / \`搁置\`
@@ -2648,7 +2648,7 @@ Stripe webhook：验签、event_id 去重表、「标记已付+开通权益」�
 | 2026-10-09 | 启动第一批通用模板 T1–T4（见 \`/workspace/upwork/templates_plan.md\`）；待建仓 \`portfolio-templates\` |
 | 2026-10-09 | T1–T4 模板已合并 PR#1 并部署 Vercel 项目 tpl-landing-waitlist / tpl-form-to-sheet / tpl-booking-calendar / tpl-launch-audit-report |
 `},
-{"id": "doc-smb", "title": "中小企业需求聚类", "theme": "市场研究", "date": "2026-10-22 20:36", "summary": "海外 SMB 软件/开发支出聚集区与价格带出处。", "tags": ["SMB", "Fiverr", "Trends"], "source": "", "path": "upwork/smb_demand_clusters.md", "related_docs": [], "content": `# 海外 SMB / 个体户软件与开发支出聚集区（US/UK/AU/EU 自由职业市场）
+{"id": "doc-smb", "title": "中小企业需求聚类", "theme": "市场研究", "date": "2026-10-23 16:15", "summary": "海外 SMB 软件/开发支出聚集区与价格带出处。", "tags": ["SMB", "Fiverr", "Trends"], "source": "", "path": "upwork/smb_demand_clusters.md", "related_docs": [], "content": `# 海外 SMB / 个体户软件与开发支出聚集区（US/UK/AU/EU 自由职业市场）
 
 > 调研日期：2026-10-11（Asia/Shanghai）  
 > 范围：小企业、个体户、solo founder 在自由职业平台上的 **软件/开发相关** 花费聚集方向  
@@ -2839,7 +2839,7 @@ Upwork 主战场：       AI Integration | n8n/Zapier | 修完上线 | 多阶段
 - \`/workspace/upwork/niche_research.md\` — Upwork 向细分量化（与本文互补；本文补 Fiverr/Freelancer/Reddit/IH/互站）  
 - \`/workspace/upwork/portfolio_entries.md\` — 可直接映射到第 4 节三个 Demo
 `},
-{"id": "doc-tplplan", "title": "模板计划", "theme": "模板与交付", "date": "2026-10-22 20:36", "summary": "可复用高影响模板批次与验收标准。", "tags": ["模板", "Vercel"], "source": "", "path": "upwork/templates_plan.md", "related_docs": [], "content": `# 通用高影响模板计划（2026-10-09）
+{"id": "doc-tplplan", "title": "模板计划", "theme": "模板与交付", "date": "2026-10-23 16:15", "summary": "可复用高影响模板批次与验收标准。", "tags": ["模板", "Vercel"], "source": "", "path": "upwork/templates_plan.md", "related_docs": [], "content": `# 通用高影响模板计划（2026-10-09）
 
 目标：先做可复用「模板」，不是完整定制业务。每个都能离线演示、免费部署（GitHub + Vercel）、挂到个人站服务卡上。
 
@@ -2878,7 +2878,7 @@ Upwork 主战场：       AI Integration | n8n/Zapier | 修完上线 | 多阶段
 3. 至少 1 张真实截图
 4. 对应需求表条目状态改为「已有案例」或「模板已出」
 `},
-{"id": "doc-screened", "title": "晚间筛选短名单 2026-10-14", "theme": "Upwork 调研", "date": "2026-10-22 20:36", "summary": "按技能契合排序的可投开放单短名单（当日晚间）。", "tags": ["筛选", "短名单", "Upwork"], "source": "", "path": "upwork/screened_2026-10-14_evening.md", "related_docs": [], "content": `# Upwork 晚间筛选短名单 — 2026-10-14（UTC+8 约 22:30）
+{"id": "doc-screened", "title": "晚间筛选短名单 2026-10-14", "theme": "Upwork 调研", "date": "2026-10-23 16:15", "summary": "按技能契合排序的可投开放单短名单（当日晚间）。", "tags": ["筛选", "短名单", "Upwork"], "source": "", "path": "upwork/screened_2026-10-14_evening.md", "related_docs": [], "content": `# Upwork 晚间筛选短名单 — 2026-10-14（UTC+8 约 22:30）
 
 - **对象**：鹏飞（AI落地 / n8n·Zapier·Make+定制 / 爬虫管道 / Playwright·CDP / 后端API / 扩展 / 支付webhook / 自有账号会话保活）
 - **方法**：本地笔记（\`checked_2026-10-14.txt\`、\`upwork_titles_budgets.md\`、\`requirements_backlog.md\`、\`sent_jobs.txt\`）→ WebFetch 公开类目页 → WebSearch 索引 apply URL → WebFetch JobPosting。**未登录、未投标、未绕过 Cloudflare**。
@@ -3010,7 +3010,7 @@ Upwork 主战场：       AI Integration | n8n/Zapier | 修完上线 | 多阶段
 3. **Jobber Reporting n8n/Supabase $1,500**（客户仍在活跃查看；先答 5 个申请题）
 
 `},
-{"id": "doc-live", "title": "在线模板与作品集链接", "theme": "模板与交付", "date": "2026-10-22 20:36", "summary": "英文 T1–T4 Vercel + Portfolio；业务向 bz.a / smart.a 预约与内容一体演示。", "tags": ["模板", "作品集", "链接"], "source": "https://portfolio-site-orpin-three-91.vercel.app", "path": "docs/live_templates.md", "related_docs": ["doc-booking-map-1021"], "content": `# 在线模板与作品集
+{"id": "doc-live", "title": "在线模板与作品集链接", "theme": "模板与交付", "date": "2026-10-23 16:15", "summary": "英文 T1–T4 Vercel + Portfolio；业务向 bz.a / smart.a 预约与内容一体演示。", "tags": ["模板", "作品集", "链接"], "source": "https://portfolio-site-orpin-three-91.vercel.app", "path": "docs/live_templates.md", "related_docs": ["doc-booking-map-1021"], "content": `# 在线模板与作品集
 
 | 模板 | 用途 | 链接 |
 |---|---|---|
@@ -3486,7 +3486,7 @@ Upwork 主战场：       AI Integration | n8n/Zapier | 修完上线 | 多阶段
 
 先看雷达「推荐 + Open」；本轮无推荐则不刷标。Upwork 侧见同日 \`upwork_pulse_2026-10-19\`（QUALIFIED=0；上午公开复筛后至晚间仍无新 checked 文件）。
 `},
-{"id": "doc-screened-1019e", "title": "晚间放宽重评 2026-10-19（QUALIFIED=2）", "theme": "Upwork 调研", "date": "2026-10-22 20:36", "summary": "新硬过滤下曾 Freelancer 2 单合格；2026-10-20 傍晚复核后均已降级：ElevenLabs 117 标、货代 pilot 128 标。Upwork 0。附 16 条近失。", "tags": ["Freelancer", "Upwork", "短名单", "放宽标准"], "source": "", "path": "upwork/screened_2026-10-19_evening.md", "related_docs": [], "content": `# 海外接单晚间筛选（放宽标准重评）— 2026-10-19（Asia/Shanghai 约 22:50）
+{"id": "doc-screened-1019e", "title": "晚间放宽重评 2026-10-19（QUALIFIED=2）", "theme": "Upwork 调研", "date": "2026-10-23 16:15", "summary": "新硬过滤下曾 Freelancer 2 单合格；2026-10-20 傍晚复核后均已降级：ElevenLabs 117 标、货代 pilot 128 标。Upwork 0。附 16 条近失。", "tags": ["Freelancer", "Upwork", "短名单", "放宽标准"], "source": "", "path": "upwork/screened_2026-10-19_evening.md", "related_docs": [], "content": `# 海外接单晚间筛选（放宽标准重评）— 2026-10-19（Asia/Shanghai 约 22:50）
 
 - **对象**：鹏飞（AI 落地 / 自动化 / Playwright·CDP / 后端集成 / Agent·客服 / 修 bug·二次开发 / 全栈）
 - **主渠道**：Fiverr + Freelancer；Upwork 次要
@@ -3564,7 +3564,7 @@ NO_UPWORK_QUALIFIED_UNDER_RELAXED_RULES
 FILE=/workspace/upwork/screened_2026-10-19_evening.md
 \`\`\`
 `},
-{"id": "doc-agent-frameworks", "title": "开源 AI Agent / 客服 Agent 技术调研（2026-10）", "theme": "技术参考", "date": "2026-10-22 20:36", "summary": "做网站客服 Agent 的选型：LangGraph 编排 + LlamaIndex/自建 RAG + Chatwoot 前台转接 + 自写 HTTP/DB tools；不建议 AutoGen/CrewAI/Rasa 作主栈。", "tags": ["Agent", "客服", "LangGraph", "Chatwoot", "RAG"], "source": "", "path": "agent_frameworks_2026-10.md", "related_docs": [], "content": `# 开源 AI Agent / 客服 Agent 技术调研（截至 2026-10）
+{"id": "doc-agent-frameworks", "title": "开源 AI Agent / 客服 Agent 技术调研（2026-10）", "theme": "技术参考", "date": "2026-10-23 16:15", "summary": "做网站客服 Agent 的选型：LangGraph 编排 + LlamaIndex/自建 RAG + Chatwoot 前台转接 + 自写 HTTP/DB tools；不建议 AutoGen/CrewAI/Rasa 作主栈。", "tags": ["Agent", "客服", "LangGraph", "Chatwoot", "RAG"], "source": "", "path": "agent_frameworks_2026-10.md", "related_docs": [], "content": `# 开源 AI Agent / 客服 Agent 技术调研（截至 2026-10）
 
 > 调研日期：2026-10-19（Asia/Shanghai）  
 > 用途：明天动手做「网站客服 Agent」的技术储备  
@@ -4694,7 +4694,7 @@ Top 需求簇（可对模板）：
 **动作**：不追 Beds24 / Office Agent / 旅行·美业 WP·极低价 booking；预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案；低竞争切片仍看 WA 模板流、Teams 工单桥、PR 评审骨架。下一雷达约 **21:16**（every_4h）。
 
 `},
-{"id": "doc-radar-pulse-1023", "title": "需求雷达脉搏 2026-10-23（07:04 → 11:55）", "theme": "市场研究", "date": "2026-10-23 11:55", "summary": "午后复核雷达 31/0 @11:55（午前同 31/0）；Beds24--5 仍淡出；Office Agent 137 持平；FORGEAI 43→50；Charleston 152→167；无新 discover / Upwork 筛单。", "tags": ["雷达", "Freelancer", "预约", "脉搏"], "source": "", "path": "docs/notes/radar_pulse_2026-10-23.md", "related_docs": ["doc-radar-pulse-1022", "doc-haiwai-positioning-1022", "doc-booking-map-1021", "doc-booking-keywords-1021", "doc-booking-reject-1021", "doc-booking-acq-1021", "doc-fl-samples-1022", "doc-fl-templates", "doc-fl-samples-1023"], "content": `# 需求雷达脉搏 · 2026-10-23 早间（Asia/Shanghai）
+{"id": "doc-radar-pulse-1023", "title": "需求雷达脉搏 2026-10-23（07:04 → 17:13）", "theme": "市场研究", "date": "2026-10-23 17:13", "summary": "傍晚复核雷达 37/0 @17:13（午后 31/0）；新入 Calendly+HubSpot 75/143、Appointment Booking 67/126；Office Agent 138；FORGEAI 69；Charleston 191；Beds24--5 仍淡出；无新 discover / Upwork 筛单。", "tags": ["雷达", "Freelancer", "预约", "脉搏"], "source": "", "path": "docs/notes/radar_pulse_2026-10-23.md", "related_docs": ["doc-radar-pulse-1022", "doc-haiwai-positioning-1022", "doc-booking-map-1021", "doc-booking-keywords-1021", "doc-booking-reject-1021", "doc-booking-acq-1021", "doc-fl-samples-1022", "doc-fl-templates", "doc-fl-samples-1023"], "content": `# 需求雷达脉搏 · 2026-10-23 早间（Asia/Shanghai）
 
 > 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\` + \`job_leads.json\`（\`published_at\` **2026-10-23 07:04:11 +08**，every_4h；\`job_leads_run_id\` 20261023-070310-16ed3b37）。公开数据 only。相对昨傍晚 17:16 的 30/0：帖数 **+1 → 31**，推荐池仍空。
 
@@ -4819,6 +4819,46 @@ Top 需求簇（可对模板）：
 - 本地 intel：\`/workspace/freelancer/\` 无午后新 discover（仍停在 09:11 的 16 样）；\`/workspace/upwork/\` 仍无 Oct 20–23 新 checked/screened。
 
 **动作**：不追 Beds24 / Office Agent / FORGEAI 公开价带 / 旅行·美业 WP·极低价 booking / 员工排班红海 / UX 试玩岗；预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案（展示站先行）；低竞争切片仍看 n8n CMS SEO、单源 API 看板、支付回调履约、vibe-rescue 分期。下一雷达约 **15:55**（every_4h）。
+---
+
+## 傍晚复核（约 17:13 +08；雷达已刷）
+
+> 线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\`：**published_at 2026-10-23 17:13:09 +08**，\`job_leads\` **37 / 推荐 0**（\`job_leads_run_id\` 20261023-171209-81b4c6d1）。相对午后 11:55 的 31/0：帖数 **+6 → 37**，推荐仍空。Fiverr 仍 403；Trends 仍 demo。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **37**（午后 31） |
+| 推荐数量 | **0**（同午后） |
+| Job ingest | OK |
+| Fiverr | 仍跳过（HTTP 403 buyer_requests） |
+| Trends | 仍 demo |
+
+### 雷达推荐
+
+- 无（公开池推荐数 0）。**Beds24 --5** 仍不在前排。
+
+### 相对午后变化（事实）
+
+- **Next.js Website Development with CMS, Calendly & HubSpot Integration**（**新入池**）：嵌入轨 · tool（calendly）· score **75** · 投标 **143** · 三关未过（竞争≥100）→ **不作主投**；记预约/CRM（Calendly+HubSpot）集成旁证。
+- **Professional Appointment Booking Platform**（**新入池**）：嵌入轨 · phrase（appointment booking）· score **67** · 投标 **126** · 一期+竞争未过 → 预约主线旁证，标已红，不投。
+- **AI Agent for Office Automation**：仍 Open · 投标 **138**（午后 137）· score 67 · 一期+竞争未过 → 继续观望。
+- Next.js/Node/Three.js Bug Fix：仍 Open · **342** 标（午后 341）→ 半成品修 bug 红海旁证仍在。
+- Intelligent Document Analysis RAG：**347** 标（午后 346）→ 继续红海。
+- **FORGEAI**：关键词未过 · score 50 · 投标 **69**（午后雷达 50 / discover 09:11 时 29）· 标数续爬，仅 vibe-rescue 素材。
+- 预约旁证（均关键词未过 / 排除轨 / 红海）：
+  | 帖 | 标（午后→傍晚） | 备注 |
+  |---|---|---|
+  | Charleston Hair Beauty Booking App | 167→**191** | 美业预约 App；红海 + 双端风险 |
+  | Service Booking E-Commerce Site | 249→**252** | 命中 R2 极低价拒单 |
+  | Travel Agency & Tour Booking Website | 162→**164** | 泛 full-stack 排除轨 |
+  | React Vite Booking Store | 98→**101** | 低价预约店面；刚破百 |
+  | Staff Appointment Scheduler System | 319→**324** | 员工排班向 |
+  | Test our online booking website UX feedback | 78→**90** | 排除轨；UX 试玩岗 |
+  | Single Airbnb Property Booking Site | —→**326** | 单房源预订站；红海旁证（本刷显眼） |
+- Beds24 --5：继续不在前排。
+- 本地 intel：\`demand_samples_2026-10-23.md\` / T-FL×2（n8n-cms-seo、api-metric-dashboard）已在午前/午后脉冲沉淀，本段不重复贴表；\`/workspace/upwork/\` 仍无 Oct 20–23 新 checked/screened。
+
+**动作**：不追 Beds24 / Office Agent / FORGEAI 公开价带 / Calendly+HubSpot 红海整站 / Professional Appointment 红海 / 旅行·美业 WP·极低价 booking / 员工排班 / Airbnb 单房源 / UX 试玩岗；预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案（展示站先行）；低竞争切片仍看 n8n CMS SEO、单源 API 看板、支付回调履约、vibe-rescue 分期。下一雷达约 **21:13**（every_4h）。
 `},
 {"id": "doc-haiwai-positioning-1022", "title": "出海定位与规划（合并稿 · 2026-10-22）", "theme": "定位规划", "date": "2026-10-22 21:23", "summary": "Opencals×Cal.com 交叉叙事；四入口；hot/cold 16 词与 R1–R7；bz.a/smart.a soft 重装验收（Stripe 密钥待重贴）；今晚三优先级：showcase、案例整理、验收后再发提案/Gig。", "tags": ["定位", "预约", "获客", "demo", "拒单"], "source": "", "path": "出海变现/出海定位与规划.md", "related_docs": ["doc-booking-entry-1021", "doc-booking-acq-1021", "doc-booking-reject-1021", "doc-booking-seeds-1021", "doc-booking-keywords-1021", "doc-radar-pulse-1023", "doc-fl-templates"], "content": `# 出海定位与规划（合并稿）
 
