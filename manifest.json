@@ -288,10 +288,10 @@
       "id": "case-near-beds24-1019",
       "title": "近失：BEDS24 OTA（--5 再推·85标；人工始终不投）",
       "path": "docs/cases/near_beds24_ota_2026-10-19.md",
-      "date": "2026-10-22 11:51",
+      "date": "2026-10-23 07:04",
       "source": "https://www.freelancer.com/projects/php/BEDS-OTA-Integration-Setup-40780279",
       "has_evidence": true,
-      "summary": "近失：Beds24 OTA 系列（--3/--4/--5）雷达多次推荐但人工不投；2026-10-22 17:16 --5 再次淡出推荐池。作 PMS/OTA 窄集成素材。",
+      "summary": "近失：Beds24 OTA 系列（--3/--4/--5）雷达多次推荐但人工不投；2026-10-23 07:04 --5 仍淡出推荐池（昨傍晚 17:16 已淡出）。作 PMS/OTA 窄集成素材。",
       "tags": [
         "Freelancer",
         "Beds24",
@@ -305,7 +305,8 @@
         "doc-radar-pulse-1020",
         "doc-radar-pulse-1021",
         "doc-booking-map-1021",
-        "doc-radar-pulse-1022"
+        "doc-radar-pulse-1022",
+        "doc-radar-pulse-1023"
       ]
     },
     {
@@ -808,6 +809,54 @@
         "doc-fl-samples-1021",
         "doc-fl-templates",
         "doc-fl-samples-1022"
+      ]
+    },
+    {
+      "id": "doc-radar-pulse-1023",
+      "title": "需求雷达脉搏 2026-10-23 早间（07:04）",
+      "path": "docs/notes/radar_pulse_2026-10-23.md",
+      "theme": "市场研究",
+      "date": "2026-10-23 07:04",
+      "tags": [
+        "雷达",
+        "Freelancer",
+        "预约",
+        "脉搏"
+      ],
+      "summary": "雷达 31/0 @07:04（昨傍晚 30/0）；Beds24--5 仍淡出；Office Agent 136 标；预约旁证标续爬 + Staff Scheduler / booking UX 试玩新入池；挂入出海定位合并稿；无新 Upwork/discover。",
+      "related_docs": [
+        "doc-radar-pulse-1022",
+        "doc-haiwai-positioning-1022",
+        "doc-booking-map-1021",
+        "doc-booking-keywords-1021",
+        "doc-booking-reject-1021",
+        "doc-booking-acq-1021",
+        "doc-fl-samples-1022",
+        "doc-fl-templates"
+      ]
+    },
+    {
+      "id": "doc-haiwai-positioning-1022",
+      "title": "出海定位与规划（合并稿 · 2026-10-22）",
+      "path": "/workspace/出海变现/出海定位与规划.md",
+      "theme": "定位规划",
+      "date": "2026-10-22 21:23",
+      "tags": [
+        "定位",
+        "预约",
+        "获客",
+        "demo",
+        "拒单"
+      ],
+      "summary": "Opencals×Cal.com 交叉叙事；四入口；hot/cold 16 词与 R1–R7；bz.a/smart.a soft 重装验收（Stripe 密钥待重贴）；今晚三优先级：showcase、案例整理、验收后再发提案/Gig。",
+      "related_docs": [
+        "doc-booking-entry-1021",
+        "doc-booking-acq-1021",
+        "doc-booking-reject-1021",
+        "doc-booking-seeds-1021",
+        "doc-booking-keywords-1021",
+        "doc-radar-pulse-1023",
+        "doc-fl-templates"
       ]
     },
     {
