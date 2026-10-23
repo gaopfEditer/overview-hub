@@ -108,7 +108,7 @@ Profile：https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
 
 交叉：\`smb_demand_clusters.md\`（Fiverr BTI / Gig 抽样段落）、模板站链接。
 `},
-{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。2026-10-23 10:36 雷达 31/0（相对早间 07:04 帖数不变、推荐仍空；Office Agent 137 标；FORGEAI 新入池 43 标不推；Beds24--5 仍不在前排）。手工 discover 09:11 入样 16（613→423）；新 T-FL×2（n8n-cms-seo / api-metric-dashboard）。预约线靠关键词日表+拒单规则+bz.a/smart.a 提案。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-smb", "doc-backlog", "doc-freelancer-bids", "doc-pulse-1019", "doc-radar-brief", "doc-radar-pulse-1019", "doc-screened-1019e", "doc-radar-pulse-1020", "doc-fl-samples-1020", "doc-fl-templates", "doc-radar-pulse-1021", "doc-booking-map-1021", "doc-fl-samples-1021", "doc-radar-pulse-1022", "doc-booking-keywords-1021", "doc-booking-entry-1021", "doc-booking-acq-1021", "doc-booking-reject-1021", "doc-booking-seeds-1021", "doc-radar-pulse-1023", "doc-fl-samples-1023", "doc-fl-samples-1022"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-10-22 20:36", "content": `# Freelancer.com 操作手册
+{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。2026-10-23 11:55 雷达 31/0（相对午前 10:36 帖数不变、推荐仍空；Office Agent 137 标持平；FORGEAI 43→50 不推；Charleston 152→167；Beds24--5 仍不在前排）。手工 discover 09:11 入样 16（613→423）；T-FL×2（n8n-cms-seo / api-metric-dashboard）。预约线靠关键词日表+拒单规则+bz.a/smart.a 提案。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-smb", "doc-backlog", "doc-freelancer-bids", "doc-pulse-1019", "doc-radar-brief", "doc-radar-pulse-1019", "doc-screened-1019e", "doc-radar-pulse-1020", "doc-fl-samples-1020", "doc-fl-templates", "doc-radar-pulse-1021", "doc-booking-map-1021", "doc-fl-samples-1021", "doc-radar-pulse-1022", "doc-booking-keywords-1021", "doc-booking-entry-1021", "doc-booking-acq-1021", "doc-booking-reject-1021", "doc-booking-seeds-1021", "doc-radar-pulse-1023", "doc-fl-samples-1023", "doc-fl-samples-1022"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-10-22 20:36", "content": `# Freelancer.com 操作手册
 
 竞标制项目市场。预算中位偏低、竞标人数多，适合捡「修复/小集成」或练英文提案，不作为主收入依赖。
 
@@ -4694,7 +4694,7 @@ Top 需求簇（可对模板）：
 **动作**：不追 Beds24 / Office Agent / 旅行·美业 WP·极低价 booking；预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案；低竞争切片仍看 WA 模板流、Teams 工单桥、PR 评审骨架。下一雷达约 **21:16**（every_4h）。
 
 `},
-{"id": "doc-radar-pulse-1023", "title": "需求雷达脉搏 2026-10-23（07:04 → 10:36）", "theme": "市场研究", "date": "2026-10-23 10:36", "summary": "午前复核雷达 31/0 @10:36（早间同 31/0）；Beds24--5 仍淡出；Office Agent 137；预约旁证标续爬；FORGEAI 新入池 43 标不推；挂钩 discover 16 样 + T-FL×2；无新 Upwork 筛单。", "tags": ["雷达", "Freelancer", "预约", "脉搏"], "source": "", "path": "docs/notes/radar_pulse_2026-10-23.md", "related_docs": ["doc-radar-pulse-1022", "doc-haiwai-positioning-1022", "doc-booking-map-1021", "doc-booking-keywords-1021", "doc-booking-reject-1021", "doc-booking-acq-1021", "doc-fl-samples-1022", "doc-fl-templates", "doc-fl-samples-1023"], "content": `# 需求雷达脉搏 · 2026-10-23 早间（Asia/Shanghai）
+{"id": "doc-radar-pulse-1023", "title": "需求雷达脉搏 2026-10-23（07:04 → 11:55）", "theme": "市场研究", "date": "2026-10-23 11:55", "summary": "午后复核雷达 31/0 @11:55（午前同 31/0）；Beds24--5 仍淡出；Office Agent 137 持平；FORGEAI 43→50；Charleston 152→167；无新 discover / Upwork 筛单。", "tags": ["雷达", "Freelancer", "预约", "脉搏"], "source": "", "path": "docs/notes/radar_pulse_2026-10-23.md", "related_docs": ["doc-radar-pulse-1022", "doc-haiwai-positioning-1022", "doc-booking-map-1021", "doc-booking-keywords-1021", "doc-booking-reject-1021", "doc-booking-acq-1021", "doc-fl-samples-1022", "doc-fl-templates", "doc-fl-samples-1023"], "content": `# 需求雷达脉搏 · 2026-10-23 早间（Asia/Shanghai）
 
 > 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\` + \`job_leads.json\`（\`published_at\` **2026-10-23 07:04:11 +08**，every_4h；\`job_leads_run_id\` 20261023-070310-16ed3b37）。公开数据 only。相对昨傍晚 17:16 的 30/0：帖数 **+1 → 31**，推荐池仍空。
 
@@ -4781,6 +4781,44 @@ Top 需求簇（可对模板）：
 - Upwork：仍无 Oct 20–23 新 checked/screened；最新停在 **2026-10-19**。
 
 **动作**：不追 Beds24 / Office Agent / FORGEAI 公开价带 / 旅行·美业 WP·极低价 booking / 员工排班红海 / UX 试玩岗；预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案（展示站先行）；按 discover 低竞争切片写提案（n8n CMS SEO 编排、单源 API 看板、支付回调履约、vibe-rescue 分期）。下一雷达约 **14:36**（every_4h）。
+---
+
+## 午后复核（约 11:55 +08；雷达已刷）
+
+> 线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\`：**published_at 2026-10-23 11:55:56 +08**，\`job_leads\` **31 / 推荐 0**（\`job_leads_run_id\` 20261023-115457-214284d1）。相对午前 10:36 的 31/0：帖数不变、推荐仍空。Fiverr 仍 403；Trends 仍 demo。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **31**（午前 31） |
+| 推荐数量 | **0**（同午前） |
+| Job ingest | OK |
+| Fiverr | 仍跳过（HTTP 403 buyer_requests） |
+| Trends | 仍 demo |
+
+### 雷达推荐
+
+- 无（公开池推荐数 0）。**Beds24 --5** 仍不在前排。
+
+### 相对午前变化（事实）
+
+- **AI Agent for Office Automation**：仍 Open · ₹75k–150k · 投标 **137**（午前同 137）· score 67 · 一期+竞争未过 → 继续观望。
+- Next.js/Node/Three.js Bug Fix：£250–750 · **341** 标（同午前）→ 半成品修 bug 红海旁证仍在。
+- Intelligent Document Analysis RAG：$250–750 · **346** 标（同午前）→ 继续红海。
+- **FORGEAI**（Next.js + FastAPI MVP 完工）：₹1.5k–12.5k · **50** 标（午前雷达 43 / discover 时 29）· 关键词未过 · 不推荐；标数续爬，仅 vibe-rescue 素材。
+- 预约旁证（均关键词未过 / 排除轨）：
+  | 帖 | 预算 | 标（午前→午后） | 备注 |
+  |---|---|---|---|
+  | Charleston Hair Beauty Booking App | ₹400–750/hr | 152→**167** | 美业预约 App；红海 + 双端风险；标爬明显 |
+  | Service Booking E-Commerce Site | $10–30 | 249→**249** | 命中 R2 极低价拒单 |
+  | Travel Agency & Tour Booking Website | ₹12.5k–37.5k | 162→**162** | 泛 full-stack 排除轨 |
+  | WordPress Travel Booking System | $30–250 | 345→**345** | 插件/旅行预订红海 |
+  | Staff Appointment Scheduler System | $25–50/hr | 319→**319** | 员工排班向 |
+  | Test our online booking website UX feedback | $25–50/hr | 78→**78** | 排除轨；UX 试玩岗 |
+  | React Vite Booking Store | ₹600–1500 | 98→**98** | 低价预约店面；仍不作主投 |
+- Beds24 --5：继续不在前排。
+- 本地 intel：\`/workspace/freelancer/\` 无午后新 discover（仍停在 09:11 的 16 样）；\`/workspace/upwork/\` 仍无 Oct 20–23 新 checked/screened。
+
+**动作**：不追 Beds24 / Office Agent / FORGEAI 公开价带 / 旅行·美业 WP·极低价 booking / 员工排班红海 / UX 试玩岗；预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案（展示站先行）；低竞争切片仍看 n8n CMS SEO、单源 API 看板、支付回调履约、vibe-rescue 分期。下一雷达约 **15:55**（every_4h）。
 `},
 {"id": "doc-haiwai-positioning-1022", "title": "出海定位与规划（合并稿 · 2026-10-22）", "theme": "定位规划", "date": "2026-10-22 21:23", "summary": "Opencals×Cal.com 交叉叙事；四入口；hot/cold 16 词与 R1–R7；bz.a/smart.a soft 重装验收（Stripe 密钥待重贴）；今晚三优先级：showcase、案例整理、验收后再发提案/Gig。", "tags": ["定位", "预约", "获客", "demo", "拒单"], "source": "", "path": "出海变现/出海定位与规划.md", "related_docs": ["doc-booking-entry-1021", "doc-booking-acq-1021", "doc-booking-reject-1021", "doc-booking-seeds-1021", "doc-booking-keywords-1021", "doc-radar-pulse-1023", "doc-fl-templates"], "content": `# 出海定位与规划（合并稿）
 
