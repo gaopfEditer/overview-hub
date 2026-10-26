@@ -6610,5 +6610,121 @@ deposit booking system
 
 *生成日期：2026-10-21（Asia/Shanghai）｜出海教程反馈启动｜不含个人真名*
 `},
+{"id": "doc-radar-pulse-1026", "title": "需求雷达脉搏 2026-10-26（早间 06:23；补 10-23 傍晚→今）", "theme": "市场研究", "date": "2026-10-26 06:23", "summary": "公开池 39/0（相对 10-23 傍晚 37/0）；推荐仍空。WA Auto-Reply 300 标旁证；Appointment Booking 152；FORGEAI 81；单源 API 看板提案草稿已挂；无新 Upwork/discover。", "tags": ["雷达", "Freelancer", "脉搏", "预约", "WhatsApp", "FORGEAI"], "source": "", "path": "docs/notes/radar_pulse_2026-10-26.md", "related_docs": ["doc-radar-pulse-1023", "doc-fl-samples-1023", "doc-fl-proposal-dashboard-1024", "doc-booking-reject-1021", "doc-radar-brief"], "content": `# 需求雷达脉搏 · 2026-10-26 早间（Asia/Shanghai）
+
+> 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\` + \`job_leads.json\`（\`published_at\` **2026-10-26 06:23:40 +08**，every_4h；\`job_leads_run_id\` 20261026-062240-48987f1f）。公开数据 only。相对 **10-23 傍晚 17:13** 的 37/0：帖数 **+2 → 39**，推荐池仍空。中间约 2.5 天未写脉搏（周末例行窗口外 + 本地无新 discover）。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **39**（10-23 傍晚 37） |
+| 推荐数量 | **0** |
+| Job ingest | OK |
+| Fiverr | 仍跳过（HTTP 403 buyer_requests） |
+| Trends | 仍 demo |
+
+## 雷达推荐
+
+- 无（公开池推荐数 0）。**Beds24 --5** 仍不在前排。
+
+## 关键词过关但仍不推荐（事实）
+
+| 帖 | 预算 | 标 | score | 备注 |
+|---|---|---|---|---|
+| **WhatsApp Auto-Reply Chatbot**（新入池） | $250–750 | **300** | 75 | 加固/tool；一期+竞争未过 → 红海旁证，不投；可作 WA 模板流素材 |
+| **AI Agent for Office Automation** | ₹75k–150k | **145**（傍晚 138） | 67 | 一期+竞争未过 → 继续观望 |
+| **Professional Appointment Booking Platform** | ₹750–1250/hr | **152**（傍晚 126） | 67 | 嵌入/appointment booking；一期+竞争未过 → 预约旁证，不投 |
+| Next.js/Node/Three.js Bug Fix | £250–750 | **347**（傍晚 342） | 45 | 半成品修 bug 红海旁证仍在 |
+
+## 相对 10-23 傍晚变化（事实）
+
+- **Calendly+HubSpot 整站**（10-23 新入）：本刷 **已淡出** 前排。
+- **FORGEAI**（Next.js+FastAPI MVP）：关键词未过 · 投标 **81**（傍晚 69 / discover 时 29）· 标数续爬，仅 vibe-rescue 素材，不作主投。
+- Intelligent Document Analysis RAG：$250–750 · **356** 标 → 继续红海。
+- 本地新信号（未进雷达推荐）：
+  - **Claude Setup for Mac Mini**：$25–50/hr · **99** 标 · 关键词未过 → 本地 Agent 部署/装机旁证（与「本地 Agent 工作流」方向同族，红海边缘）。
+  - **MCP Hands-On Training Project**：₹1.5k–12.5k · **67** 标 · 关键词未过 → MCP 培训小品信号，价带偏低。
+- 预约旁证（均关键词未过 / 排除轨 / 红海；标相对 10-23 傍晚）：
+
+  | 帖 | 标（10-23 傍晚→今早） | 备注 |
+  |---|---|---|
+  | Charleston Hair Beauty Booking App | 191→**212** | 美业预约 App；红海 + 双端风险 |
+  | Service Booking E-Commerce Site | 252→**261** | 命中 R2 极低价拒单 |
+  | Travel Agency & Tour Booking Website | 164→**170** | 泛 full-stack 排除轨 |
+  | React Vite Booking Store | 101→**106** | 低价预约店面 |
+  | Test our online booking website UX feedback | 90→**95** | 排除轨；UX 试玩岗 |
+  | Professional Appointment Booking | 126→**152** | 见上表 |
+  | **Multi-Sport Court Booking Platform**（新） | —→**84** | 场馆预约整站；关键词未过，谨慎红海边缘 |
+  | **Website & App Service Booking**（新） | —→**237** | 泛服务预订站；红海 |
+  | **Drive Luxury Villa Booking Growth**（新） | —→**15** | Google Ads 增长岗，非工程交付 |
+  | **Elegant Salon App UI Overhaul**（新） | —→**116** | 美业 UI 改版；设计向 |
+  | Business Travel Mobile Booking UI | —→**78** | Figma/UI 向 |
+
+## 本地 intel 扫描（相对 10-23 傍晚 hub 提交）
+
+- \`/workspace/freelancer/\`：
+  - **新增** \`proposal_draft_one_page_dashboard_2026-10-24.md\`（DRAFT ONLY）：对应 discover 10-23 的「单源 API → 单页指标看板」；建议总价 ₹20,000（里程碑 8k+12k）、Python+Streamlit、密钥不进前端。已挂 hub docs（见 \`doc-fl-proposal-dashboard-1024\`）。**未代投**。
+  - 无 **2026-10-24～26** 新 \`demand_samples_*\` / \`api_raw/_stats_*\`；手工 discover 仍停在 **10-23 09:11**（16 样）。
+- \`/workspace/upwork/\`：最新仍为 **2026-10-19** \`checked_*\` / \`screened_*\`；无 Oct 20–26 筛单文件。
+- \`/workspace/出海变现/\`：无晚于定位合并稿的新要点文件。
+- \`/workspace/weekly-digest-2026-10-24.txt\`：任务管家周汇总（验收卡/密钥轮换等），与接单雷达弱相关，本轮不入库。
+
+**动作**：不追 Beds24 / Office Agent / FORGEAI 公开价带 / WA Auto-Reply 红海（300 标）/ Professional Appointment 红海 / 旅行·美业 WP·极低价 booking / 场馆·泛服务预订整站 / UX 试玩 / Ads 增长岗；预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案（展示站先行）；低竞争切片仍看 n8n CMS SEO、**单源 API 看板（提案草稿已备，确认源后再投）**、支付回调履约、vibe-rescue 分期；Claude/MCP 装机培训仅作旁证，不作主投。下一雷达约 **10:23**（every_4h）。
+`},
+{"id": "doc-fl-proposal-dashboard-1024", "title": "Freelancer 提案草稿 · 单源 API 单页看板（2026-10-24）", "theme": "模板与交付", "date": "2026-10-24", "summary": "DRAFT ONLY：One-page dashboard for one sales/analytics API；建议 ₹20k（8k+12k）、Python+Streamlit、密钥不进前端；确认数据源后再投。", "tags": ["Freelancer", "提案", "Streamlit", "API看板", "低竞争", "草稿"], "source": "", "path": "freelancer/proposal_draft_one_page_dashboard_2026-10-24.md", "related_docs": ["doc-fl-samples-1023", "doc-fl-templates", "doc-radar-pulse-1026"], "content": `# Freelancer proposal draft — One-page dashboard for one sales/analytics API
+**Status:** DRAFT ONLY — do not submit  
+**Job:** https://www.freelancer.com/projects/data-visualization/One-page-dashboard-for-one  
+**Budget (live):** ₹15,000–30,000 INR · Paid on delivery  
+**Suggested bid:** ₹20,000 INR (both milestones, as client requested)  
+**Drafted:** 2026-10-24 (Asia/Shanghai)
+
+---
+
+## English proposal (copy into Freelancer)
+
+Hi,
+
+I read your brief carefully. You want **one** single-page dashboard for **one** data source you choose (Stripe, Shopify, YouTube Analytics, or one CRM)—not all four. About five headline metrics that matter for that source, a daily chart, a date range, tidy on a laptop. API key stays out of the page source. Streamlit is fine if the numbers and charts match.
+
+That scope is clear, and I can deliver both milestones for the **full ₹20,000** you asked for.
+
+**Approach (Python + Streamlit)**  
+I would use a small Streamlit app with server-side credentials (env / secrets, never in the frontend or repo). One thin API client for the source you name, daily aggregation aligned to a clear timezone, then charts + metrics on one page. Lightweight, easy to run locally, and easy for you to refresh later.
+
+**Milestones**
+
+1. **₹8,000 — Connect + 30-day view**  
+   - Secure connection to the **one** API you name; key kept out of page source  
+   - ~5 headline metrics + main daily chart for the last 30 days  
+   - **Acceptance:** You can open the page on a laptop, see last-30-day headlines + chart, and confirm totals look right vs the source for a sample day  
+
+2. **₹12,000 — Filters, table, handover**  
+   - Date-range filter, small daily table, short note on how you refresh the data  
+   - Running page + start instructions handed over  
+   - **Acceptance:** Filter changes charts/table correctly; refresh + start steps work from your machine without me present  
+
+**Out of scope (as you listed):** ads manager, a second data source, user accounts, mobile apps.
+
+**Why this fits**  
+I work hands-on with Python, APIs, and dashboards (including automation / Playwright when needed). I use AI-assisted coding to move faster, but I own requirements, testing, and delivery—especially timezone/day-boundary checks so daily totals match the platform.
+
+I can start once you name the source. Happy to walk through setup on a short call if useful.
+
+**Quick questions**  
+1. Which source will you pick first: Stripe, Shopify, YouTube Analytics, or which CRM?  
+2. Do you already have the five metrics in mind, or should I propose a sensible default set for that source?  
+3. Preferred timezone for “daily” totals (e.g. IST), and will you share a read-only API key / OAuth for the named source after award?
+
+Looking forward to building a clean, maintainable one-pager for the source you choose.
+
+---
+
+## 中文摘要（给 parent / 用户）
+
+**结论：** 匹配度高——单源 API + 一页指标看板，客户已写明 Streamlit 可接受、两里程碑与总价 ₹20,000，与你的 Python/API/看板能力一致。  
+**建议出价：** ₹20,000（里程碑 1 ₹8,000 / 里程碑 2 ₹12,000，按客户原文）。约合 $158–317 区间内。  
+**栈建议：** Python Streamlit + 服务端 env 存密钥（与客户偏好一致，交付快、可本地跑）。  
+**风险：** 开放竞标、已有约 14 份提案（笔记曾估 ~74，以页面为准），平均出价约 ₹18.8k；需尽快投、问题要具体（源、指标、时区）。  
+**模式：** 软销售 / 发现向——不虚构案例、不问 Connects；先确认数据源再开工。
+`},
 ]
 };

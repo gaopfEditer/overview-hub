@@ -1004,6 +1004,50 @@
         "doc-radar-brief",
         "doc-radar-pulse-1022"
       ]
+    },
+    {
+      "id": "doc-radar-pulse-1026",
+      "title": "需求雷达脉搏 2026-10-26（早间 06:23；补 10-23 傍晚→今）",
+      "path": "docs/notes/radar_pulse_2026-10-26.md",
+      "theme": "市场研究",
+      "date": "2026-10-26 06:23",
+      "tags": [
+        "雷达",
+        "Freelancer",
+        "脉搏",
+        "预约",
+        "WhatsApp",
+        "FORGEAI"
+      ],
+      "summary": "公开池 39/0（相对 10-23 傍晚 37/0）；推荐仍空。WA Auto-Reply 300 标旁证；Appointment Booking 152；FORGEAI 81；单源 API 看板提案草稿已挂；无新 Upwork/discover。",
+      "related_docs": [
+        "doc-radar-pulse-1023",
+        "doc-fl-samples-1023",
+        "doc-fl-proposal-dashboard-1024",
+        "doc-booking-reject-1021",
+        "doc-radar-brief"
+      ]
+    },
+    {
+      "id": "doc-fl-proposal-dashboard-1024",
+      "title": "Freelancer 提案草稿 · 单源 API 单页看板（2026-10-24）",
+      "path": "/workspace/freelancer/proposal_draft_one_page_dashboard_2026-10-24.md",
+      "theme": "模板与交付",
+      "date": "2026-10-24",
+      "tags": [
+        "Freelancer",
+        "提案",
+        "Streamlit",
+        "API看板",
+        "低竞争",
+        "草稿"
+      ],
+      "summary": "DRAFT ONLY：One-page dashboard for one sales/analytics API；建议 ₹20k（8k+12k）、Python+Streamlit、密钥不进前端；确认数据源后再投。",
+      "related_docs": [
+        "doc-fl-samples-1023",
+        "doc-fl-templates",
+        "doc-radar-pulse-1026"
+      ]
     }
   ]
 }
