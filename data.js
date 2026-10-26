@@ -4161,7 +4161,69 @@ Chatwoot（Widget + 人工坐席台 + AgentBot/Webhook）
 5. **接手半成品 AI SaaS / 垂直 MVP**（#2 FORGEAI、#10 SocioVik、#13 Express Kitchen）：统一话术「先审计清单+保留功能+Phase1 可演示」，不要按公开价包社交全连接器或全站重写。
 6. **编码 Agent 编排（OpenHands/n8n + Codex/Claude Code）**（#11）：描述短、红海；可沉淀「一条任务可演示链路+人工门」，对标 T-FL-claude-computer 分期。
 `},
-{"id": "doc-fl-templates", "title": "Freelancer 可复用需求模板（T-FL-*）", "theme": "模板与交付", "date": "2026-10-23 09:11", "summary": "T-FL 表已扩至含 10-23 新模板：n8n-cms-seo、api-metric-dashboard；另有 edu-multi-agent、pr-perf-agent、teams-helpdesk-bridge、vibe-rescue、gov-portal-rpa、rfp-scrape-rag、voice-email-crm、next-webhook-auth 等。", "tags": ["Freelancer", "模板", "提案", "里程碑"], "source": "", "path": "freelancer/templates.md", "related_docs": ["doc-fl-samples-1020", "doc-tplplan", "doc-freelancer-bids", "doc-live", "doc-fl-samples-1021", "doc-fl-samples-1022", "doc-fl-samples-1023"], "content": `# Freelancer / 低门槛平台 — 可复用需求模板（从真实单提炼）
+{"id": "doc-fl-samples-1026", "title": "Freelancer 需求样本 2026-10-26（discover 17）", "theme": "市场研究", "date": "2026-10-26 09:17", "summary": "公开接口扫 1057→去重 635→近 36h 412，入样 17（另只当样本 8）：Claude SEO+MCP 带教、UiPath 日报、发票抽取、LangGraph、WA webhook/Woo、Odoo NL 助手等；低竞争亮点 33/38/44/45。", "tags": ["Freelancer", "discover", "样本", "Claude", "MCP", "LangGraph", "WhatsApp", "UiPath", "ERP", "发票", "SEO", "架构评审"], "source": "", "path": "freelancer/demand_samples_2026-10-26.md", "related_docs": ["doc-fl-templates", "doc-radar-pulse-1026", "doc-fl-samples-1023", "doc-freelancer-bids", "doc-booking-reject-1021"], "content": `# Freelancer 需求样本 — 2026-10-26（Asia/Shanghai）
+
+> **模式**: discover（找需求，宽进）
+> **扫描时间**: 约 09:17 Asia/Shanghai（2026-10-26）
+> **来源**: Freelancer.com 公开项目接口（projects/active，18 个关键词：n8n、AI agent、chatbot、RAG、web scraping、playwright、selenium、browser automation、api integration、make/zapier、openai、LLM、bug fix python、fastapi、next.js、automation workflow、whatsapp bot、crm integration）
+> **范围**: 去重 635 条，近 36 小时发布 412 条，宽进匹配后人工挑出与能力相关的 **17** 条入主表（另 8 条只当样本）；昨日及更早已入样且仍开放的单不重复列入
+> **跳过**: 体育/期权/博彩自动交易主表不进、Cloudflare/验证码自动过盾、登录抓题库版权灰区、纯销售佣金/人力 VA/长期雇佣岗、明显设计摄影视频、学术综述
+> **说明**: 提案数、预算为抓取时 API 数值；非 USD 按 currency.exchange_rate 折约美元；**不代投、不联系客户**
+
+## 汇总
+
+| 项 | 值 |
+|----|-----|
+| 入样本 | **17**（均为 Open/active） |
+| 高频类型 | WA/客服与 webhook（3）、Claude/MCP 生活与 SEO 编排（3）、文档/薪资抽取校验（2）、语音/电话 Agent（1）、ERP NL 助手（1）、Playwright/WMS RPA（2）、UiPath 日报（1）、FastAPI 门户（1）、Agent 架构评审（1）、GAS 工作区（1）、LangGraph 教学向 chatbot（1） |
+| 低竞争亮点（提案＜60） | Claude SEO expert with deep…（33）、Daily UiPath Report Emailer（38）、Invoice Data Extraction to …（44）、LangGraph Chatbot Build & G…（45） |
+
+---
+
+## 样本明细
+
+| # | 需求 | 预算 | 提案 | 痛点一句话 | 交付物 | 技术暗示 | 竞争度 | 模板 |
+|---|------|------|------|------------|--------|----------|--------|------|
+| 1 | [Claude SEO expert with deep knowledge of automation, skills and MCPs](https://www.freelancer.com/projects/automation/Claude-SEO-expert-with-deep) | $10–30 | 33 | 两站博客要用 Claude + MCP/Skills 做内容流水线，并手把手教会使用（要看过往流量案例） | 自定义 Claude SEO 工作流 + MCP/Skills 配置 + 教学交接；附可复现示例 | Claude、MCP、CMS/SEO 流水线、工作流自动化 | 低；技能匹配 | T-FL-n8n-cms-seo / T-FL-claude-computer |
+| 2 | [Daily UiPath Report Emailer](https://www.freelancer.com/projects/rpa-development/Daily-UiPath-Report-Emailer) | $15–25/hr | 38 | 每天定时登录门户触发生成日报，就绪后把 PDF/Excel 附件发到邮件列表 | UiPath .xaml + Orchestrator 资产/配置 + 一页部署说明 | UiPath Studio、Orchestrator、Outlook/SMTP | 低；技能匹配 | T-FL-uipath-mail-report |
+| 3 | [Invoice Data Extraction to Excel](https://www.freelancer.com/projects/automation/Invoice-Data-Extraction-Excel) | ₹750–1250/hr（INR，约 $8–13） | 44 | 可复制文本的 PDF 发票要按发票号分表抽成结构化 Excel（含行项目），并可复跑 | xlsx（每票一 sheet）+ 可复用 Python/VBA/Power Query 脚本 | Python/PDF 解析、Excel | 低；技能匹配 | T-FL-doc-extract-hitl |
+| 4 | [LangGraph Chatbot Build & Guidance](https://www.freelancer.com/projects/api-developmet/LangGraph-Chatbot-Build-Guidance) | ₹400–700/hr（INR，约 $4–7） | 45 | 要从零搭生产向 chatbot：FastAPI + LangGraph journey 状态机 + PG 持久化 + Docker/GHA 上 staging，边做边教 | /chat 服务 + journey 定义与单测 + Dockerfile/GHA + README | Python、FastAPI、LangGraph、PostgreSQL、Docker、GitHub Actions | 低；技能匹配 | T-FL-langgraph-fastapi |
+| 5 | [Fix WhatsApp Cloud API Verification](https://www.freelancer.com/projects/api/Fix-WhatsApp-Cloud-API-Verification) | $10–30 | 64 | Meta WA Cloud 号码验证卡在 #2494158 过多请求；要排查并完成验证、收发测通与交接 | 排查结论 + 若可验证则完成注册 + 收发测试 + 交接文档 | WhatsApp Cloud API、Graph API、Meta Business Manager | 中 | T-FL-woo-wa-n8n |
+| 6 | [MCP Hands-On Training Project](https://www.freelancer.com/projects/nodejs/MCP-Hands-Training-Project) | ₹1500–12500（INR，约 $16–132） | 68 | 要手把手把 VS Code/Codex 接到 MCP，再做仪表盘 + 聊天页读本地文件与公开 Steemit 数据 | 本地 MCP 服务 + VS Code 配置 + 看板/聊天页 + 带 README 的仓库；短屏共享带教 | MCP、Node/Python、VS Code/Codex、简易前端 | 中 | T-FL-claude-computer |
+| 7 | [AI Voice Assistant and call supporting](https://www.freelancer.com/projects/ai-voice-agents/Voice-Assistant-call-supporting) | ₹37500–75000（INR，约 $395–790） | 76 | 来电要 AI 语音直接应答 FAQ，并接 CRM 实时知识；另要预约/外呼跟进与文本 bot 同源 | Twilio 语音 Agent + 文本 bot + CRM 读写 + 部署说明与实况演示视频；须分期锁意图 | Twilio、STT/TTS、LLM、CRM API、webhook | 中 | T-FL-voice-email-crm |
+| 8 | [Secure AI Assistant for Odoo & Frappe](https://www.freelancer.com/projects/ai-chatbot-development/Secure-Assistant-for-Odoo-Frappe) | ₹75000–150000（INR，约 $790–1580） | 80 | Odoo/Frappe 伙伴要自然语言助手：导航/配置指引 + 基于活库的只读查询（安全权限） | ERP NL 助手（导航+配置+只读查数）+ 权限镜像 + 文档；写操作默认人工门 | Odoo/Frappe API、LLM/RAG、权限模型 | 中 | T-FL-erp-nl-assistant |
+| 9 | [Google Apps Script Automation](https://www.freelancer.com/projects/google-sheets/Google-Apps-Script-Automation-40784837) | ₹12500–37500（INR，约 $132–395） | 93 | 日常 Google Workspace 重复劳动要一条 Apps Script 串起 Sheets/Drive/Gmail 并自动通知 | 可部署 Apps Script + 触发器 + 注释代码 + Loom 安装授权演示；提案先锁 2～3 条流程 | Google Apps Script、Sheets、Drive、Gmail | 中 | T-FL-gas-workspace |
+| 10 | [Playwright Java Passkey Fix](https://www.freelancer.com/projects/automation/Playwright-Java-Passkey-Fix) | $15–25/hr | 97 | 已有 Playwright-Java 套件过账密，但桌面 FIDO2/passkey（WebAuthn）卡住，要三浏览器可跑 | 更新后的 Playwright Java 用例 + helper + README；mvn test 过 passkey 场景 | Playwright Java、WebAuthn/passkey、CI | 中 | T-FL-playwright-qa |
+| 11 | [Claude Setup for Mac Mini](https://www.freelancer.com/projects/ai-automation/Claude-Setup-for-Mac-Mini) | $25–50/hr | 100 | 医生要在常开 Mac mini 上把 Claude 配成生活助理（Gmail/日历/iMessage/提醒）并文档交接 | 可工作的 Claude 桌面/连接器配置 + 定时任务（晨报/收件箱）+ 简明操作文档与跟进支持 | Claude Desktop/MCP、Google Workspace、Apple 生态自动化 | 中 | T-FL-claude-ops-mcp |
+| 12 | [Customer Portal Development with FastAPI and Next.js and an android app](https://www.freelancer.com/projects/fastapi/Customer-Portal-Development-with-FastAPI) | ₹150000–250000（INR，约 $1580–2634） | 106 | 要客户门户：FastAPI API + Next.js 看板/用户村镇 + Android 端；有 PRD 草案 | 鉴权与资料、内容/记录管理、个性化看板、Android 数据 API；栈需先建议再分期 | FastAPI、Next.js、Flutter/Android、DB | 中 | T-FL-saas-backend-ai |
+| 13 | [Configure Meta WhatsApp Webhook](https://www.freelancer.com/projects/api/Configure-Meta-WhatsApp-Webhook) | €8–30（EUR，约 $9–34） | 110 | 收消息 webhook 正常，但发出去的送达/已读状态不回调——要在 Meta 控制台把 messages 订阅调对 | 核对/修正 webhook 字段订阅 + 用样例 payload 验证 delivered/read 进入现有 php | WhatsApp Cloud API、Meta webhook 订阅 | 中 | T-FL-woo-wa-n8n |
+| 14 | [WooCommerce-to-WhatsApp Order Updates](https://www.freelancer.com/projects/rest-api/WooCommerce-WhatsApp-Order-Updates) | $15–25/hr | 112 | Woo 订单状态一变就要自动发对应 WA 模板（确认/发货/送达/退款），30 秒内、可审计日志 | WP 插件/片段 + 状态↔模板映射屏/文档 + 增改模板指南；官方 API/Twilio/WATI 皆可 | WooCommerce hooks、WhatsApp Business API/Twilio、WP | 中 | T-FL-woo-wa-n8n |
+| 15 | [Long-Term Automation Developer – Manhattan SCALE, Excel, Order processing portals like …](https://www.freelancer.com/projects/automation/Long-Term-Automation-Developer-Manhattan) | $30–250 | 127 | 一期：打开 Manhattan SCALE 拉出货报表→按规则滤 Excel→校验；禁止自动提交；后续多门户长期 | Project1：SCALE+Excel 自动化（只读/人工门）+ 测试会；长期分项目续约 | Python、Playwright/Selenium、Excel、WMS | 中 | T-FL-playwright-ads / T-FL-gov-portal-rpa |
+| 16 | [AI Agent Architecture Review](https://www.freelancer.com/projects/ai-agents/Agent-Architecture-Review) | $30–250 | 138 | 多 Agent 平台（SvelteKit/Hono/Inngest/pgvector/MCP）要架构图+双版本文档+风险点评+走读会 | 架构图、工程师/非技术两版文档、风险简化建议、录屏走读；NDA 只读仓 | TypeScript、Inngest/Temporal、pgvector、LLM gateway、MCP | 中 | T-FL-agent-arch-review |
+| 17 | [AI Payroll Data Validation Automation](https://www.freelancer.com/projects/ai-automation/Payroll-Data-Validation-Automation) | £18–36/hr（GBP，约 $24–48） | 139 | 月薪资入账前要把 Excel/HR 导出的成千上万行做 AI/规则校验（缺漏、同比异常、客户规则）再进引擎 | 流程现状图 + 校验服务接测试薪资环境 + 异常报表/摘要；分期锁规则表 | Python、规则引擎/轻量 ML、Azure/文件监视、薪资平台 API | 中 | T-FL-doc-extract-hitl |
+
+### 只当样本（价/范围/条款风险）
+
+- [Udyam Registration Telegram Automation Bot -- 2](https://www.freelancer.com/projects/automation/Udyam-Registration-Telegram-Automation)：₹600–1500，27 提案。Telegram 办 Udyam 注册（含 Aadhaar/PAN 核验话术）。可沉淀「政务表单 bot+人工核验门」；身份核验与极低价只当样本。
+- [Improve Python Upload Automation Reliability](https://www.freelancer.com/projects/automation/Improve-Python-Upload-Automation)：₹1500–12500，48 提案。现有 Playwright/Selenium 上传脚本要更稳地过 Cloudflare 挑战——可记「会话保持+人工验证门+断点续传」；绕过/自动过盾属 ToS 边缘，不当正单。
+- [Web Scraping for Content Collection](https://www.freelancer.com/projects/web-scraping/Web-Scraping-for-Content-Collection)：$250–750，83 提案。登录后抓题库/文库——工程是会话抓取，但题库版权与站点 ToS 风险高，只当「登录态采集」样本。
+- [AI Voice Assistant Development ](https://www.freelancer.com/projects/ai-development/Voice-Assistant-Development)：₹12500–37500，50 提案。项目描述疑似投标人自我推销贴进需求正文，信号噪声大；语音栈仍可对照 T-FL-voice-email-crm，不进主表。
+- [Senior Python Developer Needed](https://www.freelancer.com/projects/flask/Senior-Python-Developer-Needed)：$15+/hr，74 提案。长期雇远程 Senior Python（反感 AI 代写）——岗位雇佣非项目交付，discover 只记时薪信号。
+- [Frappe/ERPNext v15 – Image & File Attachments for Receiving and Issuing](https://www.freelancer.com/projects/erpnext/Frappe-ERPNext-Image-File-Attachments)：$30–250（正文自报 $50–100），188 提案。ERPNext 收发料表单加图片/附件——小二开可学，价与红海只当样本。
+- [Connect SAP SuccessFactors to Third-Party System](https://www.freelancer.com/projects/api-integration/Connect-SAP-SuccessFactors-Third-Party)：₹10000–15000（约 $105–158），14 提案。SAP CPI 接 SuccessFactors（SFTP→TIH、Learning→REST）。低竞争但栈极专（CPI/Groovy），能力不匹配只记「企业 HR iPaaS」信号。
+- [Build Lunex AI POC Platform](https://www.freelancer.com/projects/full-stack-development/Build-Lunex-POC-Platform)：₹12500–37500，52 提案。自然语言生成 Web/Android 的 AI 应用平台 POC——范围接近「造 Cursor」，公开价只够极窄 blueprint 演示；对标 vibe-rescue 分期话术，主表不进防 scope 爆。
+
+## 今日可沉淀逻辑
+
+1. **Claude + MCP/Skills → SEO/博客流水线并带教**（#1）：比「写 SEO 文」更好卖的是可交接的 MCP 工作流；公开 $10–30 只够一条站的骨架+演示，流量案例要自备。
+2. **LangGraph journey + FastAPI + PG + Docker/GHA**（#4）：教学向生产骨架可复用；提案锁 journey 路径集与 staging 验收，公开 ₹400–700/hr 常低估文档量。
+3. **ERP（Odoo/Frappe）自然语言助手**（#8）：导航/配置指引与只读查数分期；写操作默认人工门，权限镜像是验收核心——新模板 T-FL-erp-nl-assistant。
+4. **Woo 状态 → WA 模板 + Meta webhook 送达/已读**（#13/#14）：履约通知与状态订阅同族；30s SLA 与 message_id 日志写进验收。
+5. **发票 PDF→分 sheet Excel / 薪资入账前 AI 规则校验**（#3/#17）：文档结构化与例外报表反复出现；先锁字段表/规则表再报价。
+6. **WMS/门户 RPA（SCALE+Excel、UiPath 日报）**（#2/#15）：浏览器+表格切片清晰；一期禁止自动提交/改主数据，人工门写进合同。
+7. **多 Agent 平台架构评审（只读仓+双版本文档）**（#16）：可售「读代码讲清楚」咨询包，对标工程交付以外的现金流切片。
+`},
+{"id": "doc-fl-templates", "title": "Freelancer 可复用需求模板（T-FL-*）", "theme": "模板与交付", "date": "2026-10-26 09:17", "summary": "T-FL 表已扩至含 10-26 新模板：langgraph-fastapi、erp-nl-assistant、gas-workspace、uipath-mail-report、agent-arch-review；另有 n8n-cms-seo、api-metric-dashboard、vibe-rescue、voice-email-crm 等。", "tags": ["Freelancer", "模板", "提案", "里程碑"], "source": "", "path": "freelancer/templates.md", "related_docs": ["doc-fl-samples-1020", "doc-tplplan", "doc-freelancer-bids", "doc-live", "doc-fl-samples-1021", "doc-fl-samples-1022", "doc-fl-samples-1023", "doc-fl-samples-1026"], "content": `# Freelancer / 低门槛平台 — 可复用需求模板（从真实单提炼）
 
 > 只在 \`discover\` 模式积累；\`bid\` 模式用这些模板写提案/拆里程碑。
 
@@ -4202,6 +4264,11 @@ Chatwoot（Widget + 人工坐席台 + AgentBot/Webhook）
 | T-FL-teams-helpdesk-bridge | Teams/协作群催单 → 工单系统匹配抬优 | 捕获群消息 → 抽单号/PNR → 搜索 Zendesk 等 → 写自定义字段 → 原生触发器视图 | ₹12.5k–37.5k 或 $140–420 | OAuth 用集成身份非个人号；防抖与误匹配 | MS Teams → Zendesk Chasers（2026-10-22） |
 | T-FL-n8n-cms-seo | n8n → CMS 内容自动驾驶（审批门） | 拉关键词/意图 → LLM 草稿进 CMS → 人工批准发布 → GSC/排名表；外链另议 | ₹1.5k–12.5k 或 $30–250（常低估） | 外链/灰帽建链勿打包；审批门与草稿状态机要写清 | n8n SEO Autopilot Setup（2026-10-23） |
 | T-FL-api-metric-dashboard | 单源 API → 单页指标看板 | 接一个账户 API；5 左右指标 + 日图 + 日期筛选；密钥出源码；Streamlit/轻前端均可 | ₹15k–30k 或 $150–350 级 | 锁死「只一个源」；刷新方式与交接说明是验收 | One-page dashboard for one sales/analytics API（2026-10-23） |
+| T-FL-langgraph-fastapi | LangGraph 会话状态机 + FastAPI | \`/chat\` + journey 定义/单测 + PG 状态持久化 + Docker/GHA 上 staging + 可接手 README | ₹400–700/hr 或 $250–750 固价（常低估文档） | 验收锁 journey 路径集；教学向要计沟通工时 | LangGraph Chatbot Build & Guidance（2026-10-26） |
+| T-FL-erp-nl-assistant | ERP（Odoo/Frappe）自然语言助手 | 导航/配置指引 + 活库只读查数 + 权限镜像；写操作默认人工门 | ₹75k–150k 或 $750–1,500 | 串租与越权；默认拒绝写操作除非单独立项 | Secure AI Assistant for Odoo & Frappe（2026-10-26） |
+| T-FL-gas-workspace | Google Apps Script 工作区编排 | Sheets↔Drive↔Gmail 触发器自动化 + 注释代码 + Loom 授权安装演示 | ₹12.5k–37.5k 或 $130–400 | 范围易飘；提案先锁 2～3 条具体流程 | Google Apps Script Automation（2026-10-26） |
+| T-FL-uipath-mail-report | UiPath 门户日报→邮件 | 登录门户→触发生成→等就绪→附件邮件；Orchestrator 资产/配置 + 一页部署 | $15–25/hr | 需客户 Orchestrator 租户与门户账号 | Daily UiPath Report Emailer（2026-10-26） |
+| T-FL-agent-arch-review | 多 Agent 平台架构评审（只读） | 架构图 + 工程师/非技术双版本文档 + 风险/简化建议 + 走读会 | $30–250（常低估深度） | NDA/只读仓；按组件清单报价勿包改造 | AI Agent Architecture Review（2026-10-26） |
 `},
 {"id": "doc-radar-pulse-1021", "title": "需求雷达脉搏 2026-10-21（07:01 → 17:00）", "theme": "市场研究", "date": "2026-10-21 17:00", "summary": "早间 21/1（Beds24--4 推但不投）；午前/午间/傍晚均为 17/0；Beds24 标 98→112→121→132；Office Agent 现 107 标且竞争关亦未过。傍晚池轮换进 Distressed Deals / Car Booking / Document RAG 等（均未推）。挂钩 discover 16 样 + 6 新 T-FL。无新 Upwork 筛单。", "tags": ["雷达", "Freelancer", "Beds24", "脉搏", "推荐"], "source": "", "path": "docs/notes/radar_pulse_2026-10-21.md", "related_docs": ["doc-radar-pulse-1020", "doc-booking-map-1021", "doc-longtail", "doc-fl-templates", "doc-fl-samples-1021", "doc-radar-pulse-1022"], "content": `# 需求雷达脉搏 · 2026-10-21 早间（Asia/Shanghai）
 
@@ -6610,7 +6677,7 @@ deposit booking system
 
 *生成日期：2026-10-21（Asia/Shanghai）｜出海教程反馈启动｜不含个人真名*
 `},
-{"id": "doc-radar-pulse-1026", "title": "需求雷达脉搏 2026-10-26（早间 06:23；补 10-23 傍晚→今）", "theme": "市场研究", "date": "2026-10-26 06:23", "summary": "公开池 39/0（相对 10-23 傍晚 37/0）；推荐仍空。WA Auto-Reply 300 标旁证；Appointment Booking 152；FORGEAI 81；单源 API 看板提案草稿已挂；无新 Upwork/discover。", "tags": ["雷达", "Freelancer", "脉搏", "预约", "WhatsApp", "FORGEAI"], "source": "", "path": "docs/notes/radar_pulse_2026-10-26.md", "related_docs": ["doc-radar-pulse-1023", "doc-fl-samples-1023", "doc-fl-proposal-dashboard-1024", "doc-booking-reject-1021", "doc-radar-brief"], "content": `# 需求雷达脉搏 · 2026-10-26 早间（Asia/Shanghai）
+{"id": "doc-radar-pulse-1026", "title": "需求雷达脉搏 2026-10-26（早间 06:23 → 午前 10:22 + discover）", "theme": "市场研究", "date": "2026-10-26 10:22", "summary": "公开池 37/0（早间 39/0）；推荐仍空。挂入今日 discover 17 样 + T-FL×5；低竞争亮点 Claude SEO/MCP 33、UiPath 日报 38、发票抽取 44、LangGraph 45。", "tags": ["雷达", "Freelancer", "脉搏", "预约", "WhatsApp", "FORGEAI", "MCP", "Claude", "discover"], "source": "", "path": "docs/notes/radar_pulse_2026-10-26.md", "related_docs": ["doc-radar-pulse-1023", "doc-fl-samples-1026", "doc-fl-samples-1023", "doc-fl-templates", "doc-fl-proposal-dashboard-1024", "doc-booking-reject-1021", "doc-radar-brief"], "content": `# 需求雷达脉搏 · 2026-10-26 早间（Asia/Shanghai）
 
 > 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\` + \`job_leads.json\`（\`published_at\` **2026-10-26 06:23:40 +08**，every_4h；\`job_leads_run_id\` 20261026-062240-48987f1f）。公开数据 only。相对 **10-23 傍晚 17:13** 的 37/0：帖数 **+2 → 39**，推荐池仍空。中间约 2.5 天未写脉搏（周末例行窗口外 + 本地无新 discover）。
 
@@ -6669,6 +6736,67 @@ deposit booking system
 - \`/workspace/weekly-digest-2026-10-24.txt\`：任务管家周汇总（验收卡/密钥轮换等），与接单雷达弱相关，本轮不入库。
 
 **动作**：不追 Beds24 / Office Agent / FORGEAI 公开价带 / WA Auto-Reply 红海（300 标）/ Professional Appointment 红海 / 旅行·美业 WP·极低价 booking / 场馆·泛服务预订整站 / UX 试玩 / Ads 增长岗；预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案（展示站先行）；低竞争切片仍看 n8n CMS SEO、**单源 API 看板（提案草稿已备，确认源后再投）**、支付回调履约、vibe-rescue 分期；Claude/MCP 装机培训仅作旁证，不作主投。下一雷达约 **10:23**（every_4h）。
+
+---
+
+## 午前复核（约 11:02 +08；雷达已刷 + 本地 discover）
+
+> 线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\`：**published_at 2026-10-26 10:22:49 +08**，\`job_leads\` **37 / 推荐 0**（\`job_leads_run_id\` 20261026-102149-5dc6281f）。相对早间 06:23 的 39/0：帖数 **−2 → 37**，推荐仍空。Fiverr 仍 403；Trends 仍 demo。公开数据 only。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **37**（早间 39） |
+| 推荐数量 | **0** |
+| Job ingest | OK |
+| Fiverr | 仍跳过（HTTP 403 buyer_requests） |
+| Trends | 仍 demo |
+
+### 雷达推荐
+
+- 无（公开池推荐数 0）。关键词过关仍仅 4 条，均竞争/一期未过。**Beds24 --5** 仍不在前排。
+
+### 相对早间变化（事实）
+
+| 帖 | 预算 | 标（早间→10:22） | score | 备注 |
+|---|---|---|---|---|
+| **WhatsApp Auto-Reply Chatbot** | $250–750 | 300→**302** | 75 | 加固/tool；一期+竞争未过 → 继续红海旁证，不投 |
+| **AI Agent for Office Automation** | ₹75k–150k | 145→**145** | 67 | 一期+竞争未过 → 继续观望 |
+| **Professional Appointment Booking Platform** | ₹750–1250/hr | 152→**152** | 67 | 嵌入/appointment booking；一期+竞争未过 → 预约旁证，不投 |
+| Next.js/Node/Three.js Bug Fix | £250–750 | 347→**347** | 45 | 半成品修 bug 红海旁证仍在 |
+| **FORGEAI** | ₹1.5k–12.5k | 81→**81** | 50 | 关键词未过；仅 vibe-rescue 素材 |
+| Intelligent Document Analysis RAG | $250–750 | 356→**358** | 50 | 继续红海 |
+| Claude Setup for Mac Mini | $25–50/hr | 99→**101** | 50 | 关键词未过；本地 Agent 装机旁证 |
+| MCP Hands-On Training Project | ₹1.5k–12.5k | 67→**68** | 50 | 关键词未过；MCP 培训小品 |
+
+预约旁证（均关键词未过 / 排除轨 / 红海；标相对早间）：
+
+| 帖 | 标（早间→10:22） | 备注 |
+|---|---|---|
+| Charleston Hair Beauty Booking App | 212→**212** | 美业预约 App；红海 + 双端风险 |
+| Service Booking E-Commerce Site | 261→**261** | 命中 R2 极低价拒单 |
+| Travel Agency & Tour Booking Website | 170→**170** | 泛 full-stack 排除轨 |
+| React Vite Booking Store | 106→**106** | 低价预约店面 |
+| Test our online booking website UX feedback | 95→**95** | 排除轨；UX 试玩岗 |
+| Multi-Sport Court Booking Platform | 84→**84** | 场馆预约整站；谨慎红海边缘 |
+| Website & App Service Booking | 237→**241** | 泛服务预订站；红海 |
+| Drive Luxury Villa Booking Growth | 15→**16** | Google Ads 增长岗，非工程交付 |
+| Elegant Salon App UI Overhaul | 116→**116** | 美业 UI 改版；设计向 |
+| Business Travel Mobile Booking UI | 78→**83** | Figma/UI 向 |
+
+早间曾记、本刷已淡出前排的噪声不逐条复述。池内新增噪声岗（关键词未过）：Autonomous AI Business OS、Caribbean Adult Entertainment、Veterinary Clinic Management、Premium Talent Marketplace、Senior iOS+Full-Stack 整包、Sell Ready-Made Websites、Instagram 增长、Reddit 医美投放等——均不作主投。
+
+### 本地 intel 扫描（相对早间 hub 提交）
+
+- \`/workspace/freelancer/\`：
+  - **新增** \`demand_samples_2026-10-26.md\` + \`api_raw/_stats_2026-10-26.json\`（discover **09:17**）：去重 635 / 近 36h 412 / 入样 **17**（另只当样本 8）。已挂 hub docs（见 \`doc-fl-samples-1026\`）。**不代投**。
+  - **低竞争亮点（提案＜60）**：Claude SEO + MCP/Skills 流水线带教（**33**）、Daily UiPath Report Emailer（**38**）、Invoice PDF→分 sheet Excel（**44**）、LangGraph Chatbot Build & Guidance（**45**）。
+  - **templates.md** 同日扩 5 条：\`T-FL-langgraph-fastapi\`、\`T-FL-erp-nl-assistant\`、\`T-FL-gas-workspace\`、\`T-FL-uipath-mail-report\`、\`T-FL-agent-arch-review\`（manifest 已刷新摘要）。
+  - 可沉淀主题（摘自样本「今日可沉淀逻辑」）：Claude+MCP SEO 带教、LangGraph journey 教学骨架、Odoo/Frappe NL 助手（写操作人工门）、Woo→WA 模板 + Meta webhook 送达/已读、发票/薪资校验 HITL、WMS/门户 RPA（一期禁止自动提交）、多 Agent 架构评审咨询包。
+  - 提案草稿仍仅 \`proposal_draft_one_page_dashboard_2026-10-24.md\`（未代投）。
+- \`/workspace/upwork/\`：最新仍为 **2026-10-19** \`checked_*\` / \`screened_*\`；无 Oct 20–26 筛单文件。
+- \`/workspace/出海变现/\`：无晚于定位合并稿的新要点文件。
+
+**动作**：不追 Beds24 / Office Agent / FORGEAI 公开价带 / WA Auto-Reply 红海（302）/ Professional Appointment 红海 / 旅行·美业 WP·极低价 booking / 场馆·泛服务预订整站 / UX 试玩 / Ads·增长岗 / 整站 OS·成人内容·医美投放；预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案（展示站先行）。低竞争切片优先对照今日 discover：Claude SEO/MCP 带教、UiPath 日报邮件、发票抽取、LangGraph 教学骨架；另保留 n8n CMS SEO、单源 API 看板（提案草稿已备）、支付回调履约、vibe-rescue 分期、ERP NL 助手（分期+人工门）、架构评审咨询包。下一雷达约 **14:22**（every_4h）。
 `},
 {"id": "doc-fl-proposal-dashboard-1024", "title": "Freelancer 提案草稿 · 单源 API 单页看板（2026-10-24）", "theme": "模板与交付", "date": "2026-10-24", "summary": "DRAFT ONLY：One-page dashboard for one sales/analytics API；建议 ₹20k（8k+12k）、Python+Streamlit、密钥不进前端；确认数据源后再投。", "tags": ["Freelancer", "提案", "Streamlit", "API看板", "低竞争", "草稿"], "source": "", "path": "freelancer/proposal_draft_one_page_dashboard_2026-10-24.md", "related_docs": ["doc-fl-samples-1023", "doc-fl-templates", "doc-radar-pulse-1026"], "content": `# Freelancer proposal draft — One-page dashboard for one sales/analytics API
 **Status:** DRAFT ONLY — do not submit  

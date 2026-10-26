@@ -746,18 +746,47 @@
       ]
     },
     {
+      "id": "doc-fl-samples-1026",
+      "title": "Freelancer 需求样本 2026-10-26（discover 17）",
+      "path": "/workspace/freelancer/demand_samples_2026-10-26.md",
+      "theme": "市场研究",
+      "date": "2026-10-26 09:17",
+      "tags": [
+        "Freelancer",
+        "discover",
+        "样本",
+        "Claude",
+        "MCP",
+        "LangGraph",
+        "WhatsApp",
+        "UiPath",
+        "ERP",
+        "发票",
+        "SEO",
+        "架构评审"
+      ],
+      "summary": "公开接口扫 1057→去重 635→近 36h 412，入样 17（另只当样本 8）：Claude SEO+MCP 带教、UiPath 日报、发票抽取、LangGraph、WA webhook/Woo、Odoo NL 助手等；低竞争亮点 33/38/44/45。",
+      "related_docs": [
+        "doc-fl-templates",
+        "doc-radar-pulse-1026",
+        "doc-fl-samples-1023",
+        "doc-freelancer-bids",
+        "doc-booking-reject-1021"
+      ]
+    },
+    {
       "id": "doc-fl-templates",
       "title": "Freelancer 可复用需求模板（T-FL-*）",
       "path": "/workspace/freelancer/templates.md",
       "theme": "模板与交付",
-      "date": "2026-10-23 09:11",
+      "date": "2026-10-26 09:17",
       "tags": [
         "Freelancer",
         "模板",
         "提案",
         "里程碑"
       ],
-      "summary": "T-FL 表已扩至含 10-23 新模板：n8n-cms-seo、api-metric-dashboard；另有 edu-multi-agent、pr-perf-agent、teams-helpdesk-bridge、vibe-rescue、gov-portal-rpa、rfp-scrape-rag、voice-email-crm、next-webhook-auth 等。",
+      "summary": "T-FL 表已扩至含 10-26 新模板：langgraph-fastapi、erp-nl-assistant、gas-workspace、uipath-mail-report、agent-arch-review；另有 n8n-cms-seo、api-metric-dashboard、vibe-rescue、voice-email-crm 等。",
       "related_docs": [
         "doc-fl-samples-1020",
         "doc-tplplan",
@@ -765,7 +794,8 @@
         "doc-live",
         "doc-fl-samples-1021",
         "doc-fl-samples-1022",
-        "doc-fl-samples-1023"
+        "doc-fl-samples-1023",
+        "doc-fl-samples-1026"
       ]
     },
     {
@@ -1007,22 +1037,27 @@
     },
     {
       "id": "doc-radar-pulse-1026",
-      "title": "需求雷达脉搏 2026-10-26（早间 06:23；补 10-23 傍晚→今）",
+      "title": "需求雷达脉搏 2026-10-26（早间 06:23 → 午前 10:22 + discover）",
       "path": "docs/notes/radar_pulse_2026-10-26.md",
       "theme": "市场研究",
-      "date": "2026-10-26 06:23",
+      "date": "2026-10-26 10:22",
       "tags": [
         "雷达",
         "Freelancer",
         "脉搏",
         "预约",
         "WhatsApp",
-        "FORGEAI"
+        "FORGEAI",
+        "MCP",
+        "Claude",
+        "discover"
       ],
-      "summary": "公开池 39/0（相对 10-23 傍晚 37/0）；推荐仍空。WA Auto-Reply 300 标旁证；Appointment Booking 152；FORGEAI 81；单源 API 看板提案草稿已挂；无新 Upwork/discover。",
+      "summary": "公开池 37/0（早间 39/0）；推荐仍空。挂入今日 discover 17 样 + T-FL×5；低竞争亮点 Claude SEO/MCP 33、UiPath 日报 38、发票抽取 44、LangGraph 45。",
       "related_docs": [
         "doc-radar-pulse-1023",
+        "doc-fl-samples-1026",
         "doc-fl-samples-1023",
+        "doc-fl-templates",
         "doc-fl-proposal-dashboard-1024",
         "doc-booking-reject-1021",
         "doc-radar-brief"
