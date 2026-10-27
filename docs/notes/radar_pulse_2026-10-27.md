@@ -173,3 +173,60 @@
 - `/workspace/notes/evening-2026-10-26/需求大纲.md`：仍为待拍板草稿，不另建案例卡。
 
 **动作**：不追 Beds24 / Office Agent / FORGEAI 公开价带 / WA Auto-Reply 红海（310）/ Professional Appointment 红海 / 旅行·美业 WP·极低价 booking / 场馆·泛 booking 整站 / UX 试玩 / VA·电销·医美投放 / GoHighLevel 装机小品 / R8 低价 commodity；过滤口径不变——**只追高客单；Fiverr 低价与标多泛帖过滤；主线 SEO 找词建站，平台接单降优先级**。预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案（**展示站场景卡文案 / showcase 静态页仍规划中**）。低竞争切片仍对照 10-26 discover + 晚间分层。下一雷达约 **16:15**（every_4h）。
+
+
+---
+
+## 晚间复核（约 19:05 +08；雷达 17:28）
+
+> 线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) `data/meta.json`：**published_at 2026-10-27 17:28:33 +08**，`job_leads` **37 / 推荐 0**（`job_leads_run_id` 20261027-172734-2035faab）。相对午后 12:15 的 37/0：帖数持平，推荐仍空；**关键词过关由 4→3**（Next.js/Node/Three.js Bug Fix 淡出）；**Responsive Booking** 亦淡出。Fiverr 仍 403；Trends 仍 demo。公开数据 only。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **37**（午后同） |
+| 推荐数量 | **0** |
+| Job ingest | OK |
+| Fiverr | 仍跳过（HTTP 403 buyer_requests） |
+| Trends | 仍 demo |
+
+### 雷达推荐
+
+- 无（公开池推荐数 0）。关键词过关 **3** 条主信号（Bug Fix 降权旁证已淡出），均竞争/一期未过。**Beds24 --5** 仍不在前排。
+
+### 相对午后变化（事实）
+
+| 帖 | 预算 | 标（12:15→17:28） | score | 备注 |
+|---|---|---|---|---|
+| **WhatsApp Auto-Reply Chatbot** | $250–750 | 310→**310** | 75 | 加固/tool；一期+竞争未过 → 继续红海旁证，不投 |
+| **AI Agent for Office Automation** | ₹75k–150k | 147→**147** | 67 | 一期+竞争未过 → 继续观望 |
+| **Professional Appointment Booking Platform** | ₹750–1250/hr | 153→**153** | 67 | 嵌入/appointment booking；一期+竞争未过 → 预约旁证，不投 |
+| Next.js/Node/Three.js Bug Fix | £250–750 | 347→**—** | — | **淡出**；半成品修 bug 红海旁证本刷不再前排 |
+| **FORGEAI** | ₹1.5k–12.5k | 83→**85** | 50 | 关键词未过；仅 vibe-rescue 素材 |
+| Claude Setup for Mac Mini | $25–50/hr | 115→**115** | 50 | 关键词未过；本地 Agent 装机旁证 |
+| MCP Hands-On Training Project | ₹1.5k–12.5k | 83→**83** | 50 | 关键词未过；MCP 培训小品 |
+
+预约旁证（均关键词未过 / 排除轨 / 红海；标相对午后）：
+
+| 帖 | 标（12:15→17:28） | 备注 |
+|---|---|---|
+| Charleston Hair Beauty Booking App | 215→**215** | 美业预约 App；红海 + 双端风险 |
+| Service Booking E-Commerce Site | 260→**260** | 命中 R2 极低价拒单 |
+| Travel Agency & Tour Booking Website | 171→**171** | 泛 full-stack 排除轨 |
+| React Vite Booking Store | 105→**105** | 低价预约店面 |
+| Test our online booking website UX feedback | 95→**96** | 排除轨；UX 试玩岗 |
+| Multi-Sport Court Booking Platform | 98→**100** | 场馆预约整站；谨慎红海边缘 |
+| Elegant Salon App UI Overhaul | 118→**119** | 美业 UI 改版；设计向 |
+| Professional Appointment Booking | 153→**153** | 见上表 |
+| Responsive Booking Website Development | 84→**—** | **淡出**；泛 booking 站 |
+| B2B SaaS / Software Appointment Setter | 8 / 6 → **10 / 6** | 非工程交付，不作主投 |
+
+本刷噪声（关键词未过，不作主投）：**GoHighLevel Therapy Practice Automation**（100→**137**，CRM/装机向升温）、Soul Entanglement Band 整站（377→**448**）、Bubble 订阅站（239→**240**）、**Airbnb Cleaning Management & Marketplace**（**219**，新进前排噪声）、Veterinary Clinic（100→**102**）、Vehicle Service Management（**168**）、Autonomous AI Business OS（97）、Complete Ecommerce（139 / --2 74）、Sell Ready-Made Websites（45）、Fiji Tour Ads（93）、健康 App 改版/宣传片、VA/接待/调度/医美投放、3D CAD 等。Systeme.io SEO 迁移本刷淡出。
+
+### 本地 intel 扫描（相对午后 hub 提交 15:03）
+
+- `/workspace/freelancer/`：无新于 10-26 晚分层短名单 / 09:17 discover / templates / 提案草稿的文件；`screen_mode.md` 仍 `discover` + 高客单过滤；R8–R10 拒单未改。提案草稿仍仅 `proposal_draft_one_page_dashboard_2026-10-24.md`（未代投）。
+- `/workspace/upwork/`：最新仍为 **2026-10-19** `checked_*` / `screened_*`；无 Oct 20–27 筛单文件。
+- `/workspace/出海变现/`：场景矩阵与定位稿已挂 hub；无晚于午后提交的新要点。
+- `/workspace/notes/`：Hermes 角色拆分、evening 需求大纲均无晚于 15:03 的改动；无新岗位情报文件。
+
+**动作**：不追 Beds24 / Office Agent / FORGEAI 公开价带 / WA Auto-Reply 红海（310）/ Professional Appointment 红海 / 旅行·美业 WP·极低价 booking / 场馆·泛 booking 整站 / UX 试玩 / VA·电销·医美投放 / GoHighLevel 装机小品（标升温）/ Airbnb Cleaning 市集二开 / R8 低价 commodity；过滤口径不变——**只追高客单；Fiverr 低价与标多泛帖过滤；主线 SEO 找词建站，平台接单降优先级**。预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案（**展示站场景卡文案 / showcase 静态页仍规划中**）。低竞争切片仍对照 10-26 discover + 晚间分层。下一雷达约 **21:28**（every_4h）。

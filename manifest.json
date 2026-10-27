@@ -1094,10 +1094,10 @@
     },
     {
       "id": "doc-radar-pulse-1027",
-      "title": "需求雷达脉搏 2026-10-27（07:39 → 12:15）",
+      "title": "需求雷达脉搏 2026-10-27（07:39 → 17:28）",
       "path": "docs/notes/radar_pulse_2026-10-27.md",
       "theme": "市场研究",
-      "date": "2026-10-27 12:15",
+      "date": "2026-10-27 17:28",
       "tags": [
         "雷达",
         "Freelancer",
@@ -1109,9 +1109,11 @@
         "展示站",
         "高客单",
         "午后",
-        "Hermes"
+        "Hermes",
+        "晚间",
+        "GoHighLevel"
       ],
-      "summary": "公开池 37/0 @12:15（午前同）；推荐仍空。主信号标持平；Responsive Booking 80→84；GoHighLevel 93→100。挂 Hermes 角色拆分笔记。",
+      "summary": "公开池 37/0 @17:28（午后同）；推荐仍空。KW 过关 4→3（Bug Fix 淡出）；Responsive Booking 淡出；GoHighLevel 100→137；Airbnb Cleaning 219 新噪声。本地 intel 无新文件。",
       "related_docs": [
         "doc-radar-pulse-1026",
         "doc-fl-samples-1026",
