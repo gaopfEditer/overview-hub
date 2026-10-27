@@ -7017,7 +7017,7 @@ Looking forward to building a clean, maintainable one-pager for the source you c
 **风险：** 开放竞标、已有约 14 份提案（笔记曾估 ~74，以页面为准），平均出价约 ₹18.8k；需尽快投、问题要具体（源、指标、时区）。  
 **模式：** 软销售 / 发现向——不虚构案例、不问 Connects；先确认数据源再开工。
 `},
-{"id": "doc-radar-pulse-1027", "title": "需求雷达脉搏 2026-10-27（07:39 → 10:58）", "theme": "市场研究", "date": "2026-10-27 10:58", "summary": "公开池 37/0（早间 38/0）；推荐仍空。WA/Appointment/Office Agent 标持平；Responsive Booking 72→80；新噪声 GoHighLevel 93。本地无新筛单。", "tags": ["雷达", "Freelancer", "脉搏", "预约", "WhatsApp", "MCP", "Claude", "展示站", "高客单", "午前"], "source": "", "path": "docs/notes/radar_pulse_2026-10-27.md", "related_docs": ["doc-radar-pulse-1026", "doc-fl-samples-1026", "doc-fl-layered-1026", "doc-haiwai-showcase-matrix-1026", "doc-fl-proposal-dashboard-1024", "doc-booking-reject-1021", "doc-radar-brief"], "content": `# 需求雷达脉搏 · 2026-10-27 早间（Asia/Shanghai）
+{"id": "doc-radar-pulse-1027", "title": "需求雷达脉搏 2026-10-27（07:39 → 12:15）", "theme": "市场研究", "date": "2026-10-27 12:15", "summary": "公开池 37/0 @12:15（午前同）；推荐仍空。主信号标持平；Responsive Booking 80→84；GoHighLevel 93→100。挂 Hermes 角色拆分笔记。", "tags": ["雷达", "Freelancer", "脉搏", "预约", "WhatsApp", "MCP", "Claude", "展示站", "高客单", "午后", "Hermes"], "source": "", "path": "docs/notes/radar_pulse_2026-10-27.md", "related_docs": ["doc-radar-pulse-1026", "doc-fl-samples-1026", "doc-fl-layered-1026", "doc-haiwai-showcase-matrix-1026", "doc-fl-proposal-dashboard-1024", "doc-booking-reject-1021", "doc-radar-brief", "doc-hermes-roles-1027"], "content": `# 需求雷达脉搏 · 2026-10-27 早间（Asia/Shanghai）
 
 > 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\` + \`job_leads.json\`（\`published_at\` **2026-10-27 07:39:46 +08**，every_4h；\`job_leads_run_id\` 20261027-073846-c123beb5）。公开数据 only。相对 **10-26 晚间 17:55** 的 37/0：帖数 **+1 → 38**，推荐池仍空。
 
@@ -7134,6 +7134,64 @@ Looking forward to building a clean, maintainable one-pager for the source you c
 - \`/workspace/notes/\`：\`radar-daily/reminded-ids.json\` 09:09 触达（提醒去重，非岗位情报）；\`evening-2026-10-26/需求大纲.md\` 仍为待拍板草稿，不另建案例卡。
 
 **动作**：不追 Beds24 / Office Agent / FORGEAI 公开价带 / WA Auto-Reply 红海（310）/ Professional Appointment 红海 / 旅行·美业 WP·极低价 booking / 场馆·泛 booking 整站 / UX 试玩 / VA·电销·医美投放 / GoHighLevel 装机小品 / R8 低价 commodity；过滤口径不变——**只追高客单；Fiverr 低价与标多泛帖过滤；主线 SEO 找词建站，平台接单降优先级**。预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案（**展示站场景卡文案 / showcase 静态页仍规划中**）。低竞争切片仍对照 10-26 discover + 晚间分层：Claude SEO/MCP 带教、UiPath 日报、发票抽取、LangGraph 教学骨架、Playwright passkey/上传稳态、WA webhook；另保留 n8n CMS SEO、单源 API 看板（提案草稿已备）、支付回调履约、vibe-rescue 分期、ERP NL 助手（分期+人工门）、架构评审咨询包。下一雷达约 **14:58**（every_4h）。
+
+
+---
+
+## 午后复核（约 15:02 +08；雷达 12:15）
+
+> 线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\`：**published_at 2026-10-27 12:15:19 +08**，\`job_leads\` **37 / 推荐 0**（\`job_leads_run_id\` 20261027-121420-ba3aad22）。相对午前 10:58 的 37/0：帖数持平，推荐仍空；池内有标数微动与噪声轮换。Fiverr 仍 403；Trends 仍 demo。公开数据 only。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **37**（午前同） |
+| 推荐数量 | **0** |
+| Job ingest | OK |
+| Fiverr | 仍跳过（HTTP 403 buyer_requests） |
+| Trends | 仍 demo |
+
+### 雷达推荐
+
+- 无（公开池推荐数 0）。关键词过关仍 3 条主信号 + 1 条降权 bug fix，均竞争/一期未过。**Beds24 --5** 仍不在前排。
+
+### 相对午前变化（事实）
+
+| 帖 | 预算 | 标（10:58→12:15） | score | 备注 |
+|---|---|---|---|---|
+| **WhatsApp Auto-Reply Chatbot** | $250–750 | 310→**310** | 75 | 加固/tool；一期+竞争未过 → 继续红海旁证，不投 |
+| **AI Agent for Office Automation** | ₹75k–150k | 147→**147** | 67 | 一期+竞争未过 → 继续观望 |
+| **Professional Appointment Booking Platform** | ₹750–1250/hr | 153→**153** | 67 | 嵌入/appointment booking；一期+竞争未过 → 预约旁证，不投 |
+| Next.js/Node/Three.js Bug Fix | £250–750 | 347→**347** | 45 | 半成品修 bug 红海旁证仍在 |
+| **FORGEAI** | ₹1.5k–12.5k | 83→**83** | 50 | 关键词未过；仅 vibe-rescue 素材 |
+| Claude Setup for Mac Mini | $25–50/hr | 115→**115** | 50 | 关键词未过；本地 Agent 装机旁证 |
+| MCP Hands-On Training Project | ₹1.5k–12.5k | 83→**83** | 50 | 关键词未过；MCP 培训小品 |
+
+预约旁证（均关键词未过 / 排除轨 / 红海；标相对午前）：
+
+| 帖 | 标（10:58→12:15） | 备注 |
+|---|---|---|
+| Charleston Hair Beauty Booking App | 215→**215** | 美业预约 App；红海 + 双端风险 |
+| Service Booking E-Commerce Site | 260→**260** | 命中 R2 极低价拒单 |
+| Travel Agency & Tour Booking Website | 171→**171** | 泛 full-stack 排除轨 |
+| React Vite Booking Store | 105→**105** | 低价预约店面 |
+| Test our online booking website UX feedback | 95→**95** | 排除轨；UX 试玩岗 |
+| Multi-Sport Court Booking Platform | 98→**98** | 场馆预约整站；谨慎红海边缘 |
+| Elegant Salon App UI Overhaul | 118→**118** | 美业 UI 改版；设计向 |
+| Professional Appointment Booking | 153→**153** | 见上表 |
+| Responsive Booking Website Development | 80→**84** | 泛 booking 站；排除轨 / 关键词未过 |
+| B2B SaaS / Software Appointment Setter | 6 / 8 | 非工程交付，不作主投 |
+
+本刷噪声（关键词未过，不作主投）：**GoHighLevel Therapy Practice Automation**（93→**100**）、Soul Entanglement Band 整站（377）、Bubble 订阅站（239）、Veterinary Clinic（100）、Autonomous AI Business OS（97）、Systeme.io SEO 迁移（171）、Complete Ecommerce（139 / --2 74）、Sell Ready-Made Websites、Fiji Tour Ads、医美 Reddit 投放、VA/接待/调度、健康 App 改版/宣传片、3D CAD 等。
+
+### 本地 intel 扫描（相对午前 hub 提交 11:02）
+
+- \`/workspace/freelancer/\`：无新于 10-26 晚分层短名单 / 09:17 discover / templates / 提案草稿的文件；\`screen_mode.md\` 仍 \`discover\` + 高客单过滤；拒单规则未改。提案草稿仍仅 \`proposal_draft_one_page_dashboard_2026-10-24.md\`（未代投）。
+- \`/workspace/upwork/\`：最新仍为 **2026-10-19** \`checked_*\` / \`screened_*\`；无 Oct 20–27 筛单文件。
+- \`/workspace/出海变现/\`：场景矩阵与定位稿已挂 hub；无晚于午前提交的新要点。
+- \`/workspace/notes/hermes-roles/领域拆分-2026-10-27.md\`（约 11:03）：Hermes 角色隔离草案（币圈/接单/出海产品/需求侦察/运维等）；建议先落币圈运营·接单执行·服务器运维三角色。已挂 hub（\`doc-hermes-roles-1027\`）。**不代投、不代开角色。**
+- \`/workspace/notes/evening-2026-10-26/需求大纲.md\`：仍为待拍板草稿，不另建案例卡。
+
+**动作**：不追 Beds24 / Office Agent / FORGEAI 公开价带 / WA Auto-Reply 红海（310）/ Professional Appointment 红海 / 旅行·美业 WP·极低价 booking / 场馆·泛 booking 整站 / UX 试玩 / VA·电销·医美投放 / GoHighLevel 装机小品 / R8 低价 commodity；过滤口径不变——**只追高客单；Fiverr 低价与标多泛帖过滤；主线 SEO 找词建站，平台接单降优先级**。预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案（**展示站场景卡文案 / showcase 静态页仍规划中**）。低竞争切片仍对照 10-26 discover + 晚间分层。下一雷达约 **16:15**（every_4h）。
 `},
 {"id": "doc-fl-layered-1026", "title": "多层软件需求短名单（FL+Fiverr · 2026-10-26 晚）", "theme": "市场研究", "date": "2026-10-26 20:56", "summary": "晚间 FL 146 去重后四桶：通用模板/AI·MCP/高价/低价；跨桶 7 条更贴技能；Fiverr 买方 0。discover 模式，不代投。", "tags": ["Freelancer", "短名单", "分层", "Playwright", "MCP", "LangGraph", "高客单", "discover"], "source": "", "path": "freelancer/multi_platform_demand_layered_2026-10-26.md", "related_docs": ["doc-fl-samples-1026", "doc-fl-templates", "doc-radar-pulse-1027", "doc-booking-reject-1021", "doc-haiwai-positioning-1022"], "content": `# 多层软件开发需求短名单（Freelancer + Fiverr）— 2026-10-26
 
@@ -7422,6 +7480,39 @@ companion/escort 敏感表述默认拒（R4）；smart.a 对外用「多服务�
 - T3 Vercel 等 portfolio 模板 URL 以内容映射文件为准，本矩阵未重新验收在线状态。
 
 *禁止代投 Freelancer；禁止声称 showcase 已上线。*
+`},
+{"id": "doc-hermes-roles-1027", "title": "Hermes 角色领域拆分（2026-10-27）", "theme": "工作流", "date": "2026-10-27 11:03", "summary": "一角色一事：币圈/接单/出海产品/需求侦察/运维等隔离；Cursor 造枪、Hermes 扣扳机；本周可先落三角色。", "tags": ["Hermes", "角色隔离", "接单", "出海", "运维", "任务管家"], "source": "", "path": "notes/hermes-roles/领域拆分-2026-10-27.md", "related_docs": ["doc-radar-pulse-1027", "doc-haiwai-positioning-1022", "doc-fl-layered-1026", "doc-radar-brief"], "content": `# Hermes 角色领域拆分（2026-10-27）
+
+原则：一角色一事；上下文不跨变现主线；重度编码归 Cursor，Hermes 管执行/运维/长线运营。
+
+## 建议角色（按干扰风险从高到低隔离）
+
+| 角色名 | 只管 | 绝不混入 | 对齐现有 bot |
+|--------|------|----------|--------------|
+| 币圈运营 | 粉丝变现、KOL、解锁归因、资讯选题与分发、TG/告警、01 异动 | 接单报价、投资下单、重架构写码 | 成长 |
+| 接单执行 | Upwork/Freelancer 筛选后的填表、投递辅助、交付脚本跑通、客户沟通草稿 | 币圈运营、出海 SEO 选题、投资 | 软件 |
+| 出海产品 | 独立站/SEO/落地页运营、词包与聚合入口、订阅/广告实验 | 币圈粉丝话术、接单议价 | 出海教程 |
+| 需求侦察 | 量大/增长快/高投入意愿条目、旁证池、机会卡输入 | 自己拍板做/不做、写终稿帖 | 市场先导 |
+| 服务器运维 | Docker/宝塔/FRP、部署自愈、E2E/破坏性测试、环境排错 | 产品定位、内容选题 | （Hermes 主场） |
+| 量价投资 | 小止损试验、规则化条件、观察清单 | 粉丝变现运营、接单 | 量价分析 |
+| 学习定位 | 读书对话、身份「我是谁」、思维习惯对照 | 任何变现执行指令 | 成长/批判侧 |
+| 任务管家 | 排期、验收、SLA、周汇总、跨线催办 | 代写代码/内容、代定出海做/否 | 任务管家2 |
+
+## 工具边界（固定口令）
+
+- Cursor（Composer 2.5）：造枪 — CMS/权限/前端/单测等约 80% 架构与重度编码
+- Hermes：扣扳机 — 集成压测、部署自愈、长线运营、本机资源与浏览器自动化执行
+
+## 防干扰操作建议
+
+1. 每个 Hermes 角色单独会话/配置；禁止「万能助手」一口气跨币圈+接单+出海
+2. 跨线事项只进「任务管家」角色，由它拆单再转给对应角色
+3. 需求侦察产出只到机会卡/大纲，不直接在侦察角色里开干开发
+4. 学习定位角色只输出定义与对照，不下达「今天去投这个标」类执行
+
+## 本周可先落地的最小集（3 个 Hermes 角色）
+
+若暂时不想开满：优先 **币圈运营 / 接单执行 / 服务器运维**；出海与需求侦察继续用 Grok 侧 bot，等干扰下降再开 Hermes 镜像。
 `},
 ]
 };
