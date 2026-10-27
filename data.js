@@ -4927,7 +4927,7 @@ Top 需求簇（可对模板）：
 
 **动作**：不追 Beds24 / Office Agent / FORGEAI 公开价带 / Calendly+HubSpot 红海整站 / Professional Appointment 红海 / 旅行·美业 WP·极低价 booking / 员工排班 / Airbnb 单房源 / UX 试玩岗；预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案（展示站先行）；低竞争切片仍看 n8n CMS SEO、单源 API 看板、支付回调履约、vibe-rescue 分期。下一雷达约 **21:13**（every_4h）。
 `},
-{"id": "doc-haiwai-positioning-1022", "title": "出海定位与规划（合并稿 · 2026-10-22）", "theme": "定位规划", "date": "2026-10-22 21:23", "summary": "Opencals×Cal.com 交叉叙事；四入口；hot/cold 16 词与 R1–R7；bz.a/smart.a soft 重装验收（Stripe 密钥待重贴）；今晚三优先级：showcase、案例整理、验收后再发提案/Gig。", "tags": ["定位", "预约", "获客", "demo", "拒单"], "source": "", "path": "出海变现/出海定位与规划.md", "related_docs": ["doc-booking-entry-1021", "doc-booking-acq-1021", "doc-booking-reject-1021", "doc-booking-seeds-1021", "doc-booking-keywords-1021", "doc-radar-pulse-1023", "doc-fl-templates"], "content": `# 出海定位与规划（合并稿）
+{"id": "doc-haiwai-positioning-1022", "title": "出海定位与规划（合并稿 · 2026-10-22）", "theme": "定位规划", "date": "2026-10-26 20:59", "summary": "Opencals×Cal.com 交叉叙事；四入口；hot/cold 16 词与 R1–R7；bz.a/smart.a soft 重装验收（Stripe 密钥待重贴）；今晚三优先级：showcase、案例整理、验收后再发提案/Gig。", "tags": ["定位", "预约", "获客", "demo", "拒单"], "source": "", "path": "出海变现/出海定位与规划.md", "related_docs": ["doc-booking-entry-1021", "doc-booking-acq-1021", "doc-booking-reject-1021", "doc-booking-seeds-1021", "doc-booking-keywords-1021", "doc-radar-pulse-1023", "doc-fl-templates", "doc-haiwai-showcase-matrix-1026", "doc-radar-pulse-1027"], "content": `# 出海定位与规划（合并稿）
 
 > 合并日期：2026-10-22（Asia/Shanghai）  
 > 覆盖：2026-10-21 规划要点 + 2026-10-22 通话/调研结论  
@@ -5151,6 +5151,60 @@ Top 需求簇（可对模板）：
 |------|------|
 | 2026-10-22 | 首版合并：10-21 词表/拒单/调研/30 天 + 10-22 四入口、内容账号、Opencals+Cal.com 定位、今晚三优先级、bz.a 需求与 showcase 方案、部署状态 |
 | 2026-10-22 | soft 回报两站重装验收完成：回填部署表；bz.a Stripe 密钥待重贴；总后台独立入口未单独验收 |
+| 2026-10-26 | 追加 §12「展示—案例库」循环（语音口述）；与三十天获客/acquisition_plan 对齐；不改动既有 §1–§11 计划要点 |
+
+---
+
+## 12. 展示—案例库循环（2026-10-26 追加）
+
+> **来源**：用户语音口述（2026-10-26）。**本节只追加循环，不改写上文已有计划要点。**  
+> **对齐**：\`/workspace/freelancer/acquisition_plan_30d_2026-10-21.md\`（本周最小切片仍优先；本循环描述长期产品化路径）。  
+> **命名**：文中用「你 / 接单方」；禁止真实人名。
+
+### 12.1 循环三步
+
+1. **先看别人怎么展示（QL）**  
+   研究几个已有的同类产品/服务官网（口述：**QL** = 已提到的既有案例，按原话保留，具体名单后续填入）。重点看：交付物怎么陈列、怎么引流到询价/试用、哪些页面适合截图进提案。
+
+2. **按需求种类做可演示案例（通用且需求多的优先）**  
+   以需求种类展开，把相关系统做成可点、可截图的演示案例。**首批已有：**
+   - 预约系统 → \`bz.a.ezcoin.ink\`（支付 / 动态字段 / 免注册等）
+   - 内容系统 → \`smart.a.ezcoin.ink\`（多服务者 + 内容/UGC）  
+   后续种类：平台扫描出现「够通用、够多」的新需求类型再补进案例库（见下一步）。
+
+3. **发到平台扫描 → 特殊类型再扩库**  
+   案例可演示后，到 **Freelancer、Fiverr** 等已开通平台做需求扫描（脚本见 \`/workspace/freelancer/scanners/run_scan.py\`；其他平台留扩展口）。  
+   - 命中首批能力范围内的单：用现有 demo 提案（须你当面确认后再投，助手不代投）。  
+   - 遇到**特别的需求类型**且反复出现：再扩充进案例库（新演示站或同站新垂类页），然后回到步骤 1–2 补展示方式。
+
+\`\`\`
+QL 对标官网 → 做出/打磨可演示案例 → FL/Fiverr 扫描
+        ↑                                      │
+        └──── 特殊需求类型进案例库 ←───────────┘
+\`\`\`
+
+### 12.2 与暂缓项 / showcase 的关系
+
+| 项 | 状态（既有文档） | 与本循环关系 |
+|----|------------------|--------------|
+| **bz.a showcase 落地页**（苹果官网风大图服务卡 → CTA 跳 H5） | 规划中，未见上线验收 | **本循环的「展示层」优先落点**；有带宽时先做 showcase，再开内容连载 |
+| **教程连载 / SEO 多页 / 社群铺量 / 短视频** | acquisition_plan 标 **暂缓**（等提案节奏与 Gig 骨架） | **不阻塞**本循环；案例库与平台扫描可先跑；内容侧仍等最小切片跑通 |
+| **本周最小切片**（一页纸、FL 日搜、提案模板、Gig 骨架、seeds） | **仍优先** | 循环的「扫描」步与切片 ② 共用；demo 链继续贴 bz.a / smart.a |
+| **30 天保守获客**（\`出海变现/30天获客计划.md\`） | Fiverr/FL/LI 等渠道节奏 | 本循环补「产品案例库」飞轮，不替代渠道日表 |
+
+### 12.3 首批案例库登记（可增行）
+
+| 需求种类 | 演示入口 | 状态 | 备注 |
+|----------|----------|------|------|
+| 预约 / 上门 / 支付开关 | https://bz.a.ezcoin.ink/h5/ | 已可演示（重装验收） | Stripe 密钥若丢须重贴；showcase 页待建 |
+| 内容 + 多服务者预约 | https://smart.a.ezcoin.ink/h5/ | 已可演示（方案 A） | 管理后台 \`/admin/login\` |
+| （待扩）QL 对标后选定的下一通用类 | — | 未建 | 以 FL/Fiverr 扫描反复出现的类型为准 |
+
+### 12.4 不做
+
+- 不代投、不私信客户（与 soft 接单纪律一致）。  
+- 不为每个垂类复制整仓（仍遵循 §8 动态表单 × 多垂类）。  
+- 不把暂缓的内容连载当成循环启动的前置条件。
 
 *维护者：出海教程 bot · 只读调研与文档合并；写站/投标以用户当面授权 + soft 执行为准。*
 `},
@@ -6001,6 +6055,8 @@ deposit booking system
 - **优先级原则**（引自入口地图 §4.10）：平台提案 **高** → SEO / 教程 **中高** → 社群 / 模板二开 **中** → 付费广告 **中（有预算）** → 短视频广告 **低–中** → 应用商店获客 **低**（作需求信号中）。
 - **执行状态（2026-10-21 出海教程反馈）**：**本周最小切片优先于原 30 天全文**；第 2 周并行的教程/Reddit/FB/即刻/SEO 2 页 **砍掉或后移**；教程连载、社群铺量、SEO 多页、短视频广告 **暂缓**，等本周提案节奏与 Gig 骨架跑通再开。下文原 §1–§5 保留作附录并标「暂缓执行」。
 
+- **对齐（2026-10-26）**：长期「展示—案例库」循环已写入 \`/workspace/出海变现/出海定位与规划.md\` §12（QL 对标官网 → 按需求种类做可演示案例 → FL/Fiverr 扫描扩库）。**不替代本周最小切片**；showcase / 内容连载仍按上文暂缓，与案例库循环并行关系见该 §12.2。
+
 ---
 
 ## 本周最小切片（优先于原 30 天全文）
@@ -6457,7 +6513,7 @@ deposit booking system
 
 *生成日期：2026-10-21（Asia/Shanghai）｜基于入口调研扩展版 + 关键词日表｜出海教程反馈：本周最小切片优先｜不含个人真名｜仅写本文件*
 `},
-{"id": "doc-booking-reject-1021", "title": "预约类日流程拒单 / 降权规则（2026-10-21）", "theme": "市场研究", "date": "2026-10-21 20:48", "summary": "R1–R7 拒单（Beds24/极低价整站/HIPAA 轻诺/escort/灰黑收款/双端一口价等）+ reservation 等降权信号；日搜可勾选顺序。", "tags": ["预约", "拒单", "筛选", "Freelancer"], "source": "", "path": "freelancer/booking_reject_rules_daily.md", "related_docs": ["doc-booking-keywords-1021", "doc-booking-seeds-1021", "doc-booking-acq-1021", "doc-radar-pulse-1022"], "content": `# 预约类日流程拒单 / 降权规则（2026-10-21）
+{"id": "doc-booking-reject-1021", "title": "预约类日流程拒单 / 降权规则（2026-10-21）", "theme": "市场研究", "date": "2026-10-26 23:08", "summary": "R1–R8 拒单（Beds24/极低价整站/HIPAA 轻诺/escort/灰黑收款/双端一口价/低价 commodity 入门包红海等）+ reservation 等降权信号；对齐 10-26 只追高客单。", "tags": ["预约", "拒单", "筛选", "Freelancer", "高客单"], "source": "", "path": "freelancer/booking_reject_rules_daily.md", "related_docs": ["doc-booking-keywords-1021", "doc-booking-seeds-1021", "doc-booking-acq-1021", "doc-radar-pulse-1022"], "content": `# 预约类日流程拒单 / 降权规则（2026-10-21）
 
 - **用途**：Freelancer（及同类平台）日搜 → 筛选 → 提案前的可勾选检查。
 - **配合**：\`booking_keywords_daily_2026-10-21.md\`、\`requirement_radar_seeds_booking_2026-10-21.md\`、\`proposal_template_booking_demo.md\`。
@@ -6476,74 +6532,10 @@ deposit booking system
 | R5 | **明显刷单 / 只要标书代写 / 无真实产品** | 只要「写 proposal」或复制粘贴 JD 无业务细节 |
 | R6 | **要求绕过支付风控 / 灰黑收款** | 拒 |
 | R7 | **必须原生 iOS+Android 且预算按 Web MVP** | 默认拒或拆：Web/PWA 一期 + App 单列；客户坚持一口价包双端则拒 |
+| R8 | **低价 commodity / 入门包红海** | 约 $80 级 n8n、AI Agent 入门 Gig 等；用户 2026-10-26 锁定：不做不卷 |
+| R9 | **竞标已很多** | Freelancer 当前提案数已高；默认拒，不当推荐 |
+| R10 | **描述短 / 无技术细节泛帖** | 无栈、无交付边界、无验收点；直接过滤 |
 
----
-
-## 2. 降权词 / 降权信号（可投但排后、严筛）
-
-| 信号 | 动作 |
-|------|------|
-| \`reservation system\` | **降权**；先排除酒店/餐厅/场地 PMS，确认是服务预约再评 |
-| 纯宽网词帖（仅 \`booking system\` / \`online booking\` / \`appointment scheduling\`，无支付/垂类细节） | **降权**；除非正文明确支付、多服务者、定金、动态字段 |
-| \`medical appointment\` 系但未提 HIPAA | **降权观察**；提案禁止轻诺合规认证 |
-| 模板市场「改个 WordPress 预订插件」+ 极低价 | **降权**；可转「体检固定价」话术，不作主战 |
-| 只要 Calendly 嵌入、无支付/目录 | **降权**；与 bz.a 叙事弱匹配 |
-| 应用商店获客 / 短视频投流为唯一目标 | **降权**（获客侧本周不做）；产品单另论 |
-
----
-
-## 3. 进日筛流程的检查顺序（可勾选）
-
-每日两轮（上午 / 晚间，Asia/Shanghai）按序执行：
-
-### 3.1 搜词
-
-- [ ] 只用 **hot** seeds（见 \`requirement_radar_seeds_booking_2026-10-21.md\`）
-- [ ] 可选加 1–2 个 **cold**（多服务者 / companion / class pack 等）
-- [ ] **不用**宽网词作主搜：\`booking system\` / \`online booking\` / \`appointment scheduling\`
-
-### 3.2 标题 + 预算 30 秒扫
-
-- [ ] 命中 R1–R7？→ **拒**，记一行原因，下一帖
-- [ ] \`$15\` / 「full website booking」占位？→ **拒**
-- [ ] \`reservation\` / 酒店 OTA？→ **降权或拒**
-
-### 3.3 正文能力匹配
-
-- [ ] 需要 **支付 / Stripe / 定金**？→ 优先 bz.a demo
-- [ ] 需要 **多服务者 / 内容广场 / companion**？→ 优先 smart.a demo
-- [ ] 需要动态字段 / 免注册？→ bz.a
-- [ ] 仅宽网描述、无支付与人设？→ 降权或跳过
-
-### 3.4 SaaS 离开检查（进提案前）
-
-- [ ] 抽成 / marketplace 费率是否痛点？
-- [ ] 要白标 / 自有域名品牌？
-- [ ] 非标库存（人×房×设备 / 次卡）？
-- [ ] 支付地区 / 币种 / Stripe 可用性？  
-  （四问写进提案，见提案模板）
-
-### 3.5 合规最后一道
-
-- [ ] 医疗 HIPAA → 拒或专项
-- [ ] escort 敏感 → 拒
-- [ ] 短信/WhatsApp 营销 → 提案写明 opt-in，不包合规认证
-
-### 3.6 通过 → 提案
-
-- [ ] 前 3 行贴对应 demo H5 链（bz.a 或 smart.a）
-- [ ] 用 \`proposal_template_booking_demo.md\`
-- [ ] 当日合格提案计数 +1（本周目标 ≥10）
-
----
-
-## 4. 一句话口诀
-
-**先拒坑（Beds24 / $15 / HIPAA 轻诺 / escort）→ 再降权（reservation / 纯宽网）→ 再匹配 demo → 再写 SaaS 离开四问 → 才贴链提案。**
-
----
-
-*生成日期：2026-10-21（Asia/Shanghai）｜出海教程反馈｜不含个人真名*
 `},
 {"id": "doc-booking-seeds-1021", "title": "预约+支付 雷达 seeds 草案（2026-10-21）", "theme": "市场研究", "date": "2026-10-21 20:48", "summary": "宽网 booking 词不作主提案；hot 优先 payment/Stripe/salon/deposit/Calendly alternative 等；供 trendradar seeds 粘贴。", "tags": ["雷达", "seeds", "预约", "Stripe", "关键词"], "source": "", "path": "freelancer/requirement_radar_seeds_booking_2026-10-21.md", "related_docs": ["doc-booking-keywords-1021", "doc-booking-reject-1021", "doc-radar-brief", "doc-radar-pulse-1022"], "content": `# requirement-trendradar seeds 草案（预约+支付 · 2026-10-21）
 
@@ -6677,7 +6669,7 @@ deposit booking system
 
 *生成日期：2026-10-21（Asia/Shanghai）｜出海教程反馈启动｜不含个人真名*
 `},
-{"id": "doc-radar-pulse-1026", "title": "需求雷达脉搏 2026-10-26（06:23 → 17:55 + discover）", "theme": "市场研究", "date": "2026-10-26 17:55", "summary": "公开池 37/0（午后末同）；推荐仍空。WA 306；Appointment 153；Eden/泛服务预订/Villa Ads/差旅 UI 淡出；MCP 培训 79。晚间笔记仅规划草稿。", "tags": ["雷达", "Freelancer", "脉搏", "预约", "WhatsApp", "FORGEAI", "MCP", "Claude", "discover", "Eden-booking", "晚间"], "source": "", "path": "docs/notes/radar_pulse_2026-10-26.md", "related_docs": ["doc-radar-pulse-1023", "doc-fl-samples-1026", "doc-fl-samples-1023", "doc-fl-templates", "doc-fl-proposal-dashboard-1024", "doc-booking-reject-1021", "doc-radar-brief"], "content": `# 需求雷达脉搏 · 2026-10-26 早间（Asia/Shanghai）
+{"id": "doc-radar-pulse-1026", "title": "需求雷达脉搏 2026-10-26（06:23 → 17:55 + discover）", "theme": "市场研究", "date": "2026-10-26 17:55", "summary": "公开池 37/0（午后末同）；推荐仍空。WA 306；Appointment 153；Eden/泛服务预订/Villa Ads/差旅 UI 淡出；MCP 培训 79。晚间笔记仅规划草稿。", "tags": ["雷达", "Freelancer", "脉搏", "预约", "WhatsApp", "FORGEAI", "MCP", "Claude", "discover", "Eden-booking", "晚间"], "source": "", "path": "docs/notes/radar_pulse_2026-10-26.md", "related_docs": ["doc-radar-pulse-1023", "doc-fl-samples-1026", "doc-fl-samples-1023", "doc-fl-templates", "doc-fl-proposal-dashboard-1024", "doc-booking-reject-1021", "doc-radar-brief", "doc-radar-pulse-1027", "doc-fl-layered-1026", "doc-haiwai-showcase-matrix-1026"], "content": `# 需求雷达脉搏 · 2026-10-26 早间（Asia/Shanghai）
 
 > 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\` + \`job_leads.json\`（\`published_at\` **2026-10-26 06:23:40 +08**，every_4h；\`job_leads_run_id\` 20261026-062240-48987f1f）。公开数据 only。相对 **10-23 傍晚 17:13** 的 37/0：帖数 **+2 → 39**，推荐池仍空。中间约 2.5 天未写脉搏（周末例行窗口外 + 本地无新 discover）。
 
@@ -7024,6 +7016,356 @@ Looking forward to building a clean, maintainable one-pager for the source you c
 **栈建议：** Python Streamlit + 服务端 env 存密钥（与客户偏好一致，交付快、可本地跑）。  
 **风险：** 开放竞标、已有约 14 份提案（笔记曾估 ~74，以页面为准），平均出价约 ₹18.8k；需尽快投、问题要具体（源、指标、时区）。  
 **模式：** 软销售 / 发现向——不虚构案例、不问 Connects；先确认数据源再开工。
+`},
+{"id": "doc-radar-pulse-1027", "title": "需求雷达脉搏 2026-10-27（07:39 早间）", "theme": "市场研究", "date": "2026-10-27 07:39", "summary": "公开池 38/0（相对 10-26 晚 37/0）；推荐仍空。WA 310；Appointment 153；Office Agent 147。入库场景矩阵+多层短名单；R8 拒单已对齐。", "tags": ["雷达", "Freelancer", "脉搏", "预约", "WhatsApp", "MCP", "Claude", "展示站", "高客单", "早间"], "source": "", "path": "docs/notes/radar_pulse_2026-10-27.md", "related_docs": ["doc-radar-pulse-1026", "doc-fl-samples-1026", "doc-fl-layered-1026", "doc-haiwai-showcase-matrix-1026", "doc-fl-proposal-dashboard-1024", "doc-booking-reject-1021", "doc-radar-brief"], "content": `# 需求雷达脉搏 · 2026-10-27 早间（Asia/Shanghai）
+
+> 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\` + \`job_leads.json\`（\`published_at\` **2026-10-27 07:39:46 +08**，every_4h；\`job_leads_run_id\` 20261027-073846-c123beb5）。公开数据 only。相对 **10-26 晚间 17:55** 的 37/0：帖数 **+1 → 38**，推荐池仍空。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **38**（10-26 晚间 37） |
+| 推荐数量 | **0** |
+| Job ingest | OK |
+| Fiverr | 仍跳过（HTTP 403 buyer_requests） |
+| Trends | 仍 demo |
+
+## 雷达推荐
+
+- 无（公开池推荐数 0）。**Beds24 --5** 仍不在前排。
+
+## 关键词过关但仍不推荐（事实）
+
+| 帖 | 预算 | 标 | score | 备注 |
+|---|---|---|---|---|
+| **WhatsApp Auto-Reply Chatbot** | $250–750 | **310**（晚间 306） | 75 | 加固/tool；一期+竞争未过 → 红海旁证，不投 |
+| **Professional Appointment Booking Platform** | ₹750–1250/hr | **153**（晚间 153） | 67 | 嵌入/appointment booking；一期+竞争未过 → 预约旁证，不投 |
+| **AI Agent for Office Automation** | ₹75k–150k | **147**（晚间 145） | 67 | 一期+竞争未过 → 继续观望 |
+| Next.js/Node/Three.js Bug Fix | £250–750 | **347**（持平） | 45 | 半成品修 bug 红海旁证仍在 |
+
+## 相对 10-26 晚间变化（事实）
+
+- 推荐池仍空；关键词过关仍 3 条主信号 + 1 条降权 bug fix。
+- **FORGEAI**（Next.js+FastAPI MVP）：关键词未过 · 投标 **83**（晚间同）· 仅 vibe-rescue 素材。
+- Claude Setup for Mac Mini：$25–50/hr · **115**（晚间 108）· 本地 Agent 装机旁证，红海边缘。
+- MCP Hands-On Training Project：₹1.5k–12.5k · **83**（晚间 79）· MCP 培训小品。
+- 预约旁证（均关键词未过 / 排除轨 / 红海；标相对 10-26 晚间）：
+
+  | 帖 | 标（10-26 晚→今早） | 备注 |
+  |---|---|---|
+  | Charleston Hair Beauty Booking App | 213→**215** | 美业预约 App；红海 + 双端风险 |
+  | Service Booking E-Commerce Site | 261→**260** | 命中 R2 极低价拒单 |
+  | Travel Agency & Tour Booking Website | 170→**171** | 泛 full-stack 排除轨 |
+  | React Vite Booking Store | 106→**105** | 低价预约店面 |
+  | Test our online booking website UX feedback | 95→**95** | 排除轨；UX 试玩岗 |
+  | Multi-Sport Court Booking Platform | 93→**98** | 场馆预约整站；谨慎红海边缘 |
+  | Elegant Salon App UI Overhaul | 118→**118** | 美业 UI 改版；设计向 |
+  | Professional Appointment Booking | 153→**153** | 见上表 |
+  | **Responsive Booking Website Development**（本刷前排） | —→**72** | 泛 booking 站；排除轨 / 关键词未过 |
+  | B2B Software Appointment Setter / Telemarketer Appointment Setter | 6 / 10 | 非工程交付，不作主投 |
+
+- 本刷噪声（关键词未过，不作主投）：Soul Entanglement Band 整站、Bubble 订阅站、Villa Rental、Veterinary Clinic、Autonomous AI Business OS、Systeme.io SEO 迁移、Sell Ready-Made Websites、VA/电销/医美投放、Air-Gapped AI Document（现场约束）等。
+
+## 本地 intel 扫描（相对 10-26 晚间 hub 提交 19:04）
+
+- \`/workspace/freelancer/\`：
+  - **新增** \`multi_platform_demand_layered_2026-10-26.md\`（约 20:57）：晚间 FL 刷新 146 去重后分层短名单（通用模板 / AI·MCP / 高价 / 低价）；跨桶 7 条更贴技能；Fiverr 买方仍 0。已挂 hub（\`doc-fl-layered-1026\`）。**不代投**。
+  - \`booking_reject_rules_daily.md\` 增补 **R8**（低价 commodity / 入门包红海，与 10-26 只追高客单口径对齐）；\`screen_mode.md\` 锁定 CURRENT_MODE=\`discover\` + 高客单过滤表。
+  - 无 **2026-10-27** 新 \`demand_samples_*\`；手工 curated 仍停在 **10-26 09:17**（17 样）。提案草稿仍仅 \`proposal_draft_one_page_dashboard_2026-10-24.md\`（未代投）。
+- \`/workspace/upwork/\`：最新仍为 **2026-10-19** \`checked_*\` / \`screened_*\`；无 Oct 20–27 筛单文件。
+- \`/workspace/出海变现/\`：
+  - **新增** \`展示站拓展-场景矩阵-2026-10-26.md\`（约 21:18）：8 张场景卡短名单 + 简单/复杂定义 + AI 切片建议；明确 showcase **未上线**。已挂 hub（\`doc-haiwai-showcase-matrix-1026\`）。
+  - \`出海定位与规划.md\` 晚间有触达（mtime 20:59）；仍走既有 \`doc-haiwai-positioning-1022\` 路径嵌入。
+- \`/workspace/notes/evening-2026-10-26/需求大纲.md\`：早补了 10-26 低竞争旁证（Claude SEO/MCP 33、UiPath 38、发票 44、LangGraph 45）；仍为待拍板草稿，不另建案例卡。
+
+**动作**：不追 Beds24 / Office Agent / FORGEAI 公开价带 / WA Auto-Reply 红海（310）/ Professional Appointment 红海 / 旅行·美业 WP·极低价 booking / 场馆·泛 booking 整站 / UX 试玩 / VA·电销·医美投放 / R8 低价 commodity；预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案（**展示站场景卡文案 / showcase 静态页仍规划中**）。低竞争切片仍对照 10-26 discover + 晚间分层：Claude SEO/MCP 带教、UiPath 日报、发票抽取、LangGraph 教学骨架、Playwright passkey/上传稳态、WA webhook；另保留 n8n CMS SEO、单源 API 看板（提案草稿已备）、支付回调履约、vibe-rescue 分期、ERP NL 助手（分期+人工门）、架构评审咨询包。下一雷达约 **11:39**（every_4h）。
+`},
+{"id": "doc-fl-layered-1026", "title": "多层软件需求短名单（FL+Fiverr · 2026-10-26 晚）", "theme": "市场研究", "date": "2026-10-26 20:56", "summary": "晚间 FL 146 去重后四桶：通用模板/AI·MCP/高价/低价；跨桶 7 条更贴技能；Fiverr 买方 0。discover 模式，不代投。", "tags": ["Freelancer", "短名单", "分层", "Playwright", "MCP", "LangGraph", "高客单", "discover"], "source": "", "path": "freelancer/multi_platform_demand_layered_2026-10-26.md", "related_docs": ["doc-fl-samples-1026", "doc-fl-templates", "doc-radar-pulse-1027", "doc-booking-reject-1021", "doc-haiwai-positioning-1022"], "content": `# 多层软件开发需求短名单（Freelancer + Fiverr）— 2026-10-26
+
+> **时间**: 2026-10-26 20:56 Asia/Shanghai（晚间刷新 + 分层整理）  
+> **模式**: discover（只筛单整理，**不投标、不私信客户**）  
+> **活跃抓取**: Freelancer ✅ · Fiverr ⚠️（公开页被拦）  
+> **适配器脚本**: \`/workspace/freelancer/scanners/run_scan.py\`（可插拔平台）  
+> **称呼**: 文中「你」= 接单本人（不用真名）
+
+---
+
+## 平台覆盖说明
+
+| 平台 | 状态 | 本轮结果 |
+|------|------|----------|
+| **Freelancer** | **configured/enabled** | 公开 \`projects/active\` API 可用。晚间按 10 关键词刷新得 **146** 条去重，软件向过滤后约 90+；与上午 curated 合并，重要链接均 \`curl\` 核验为 **HTTP 200**。提案数/预算为抓取时 API 值。 |
+| **Fiverr** | **configured/enabled（抓取受阻）** | \`/buyer_requests\` 与分类页：**403 captcha** / API **401**；烟雾探测曾见 **404**。Buyer Requests 需登录。本轮 **0 条买方需求** 入表（不编造）。公开搜索多是卖方 Gig（供给），不当作「买方需求」。 |
+| Upwork | **stub/extensible** | 本轮按 scope **不抓**；适配器已留接口，注册/会话后可插。 |
+| Toptal | **stub/extensible** | 同上。 |
+| Contra | **stub/extensible** | 同上。 |
+| 即刻 Jike | **stub/extensible** | 同上。 |
+| V2EX | **stub/extensible** | 同上。 |
+| 电鸭 eleduck | **stub/extensible** | 同上。 |
+
+**适合你的技能透镜（备注用，不硬删）**: Python、Docker、FRP、爬虫、Playwright/Puppeteer/CDP、油猴/扩展、支付网关、token/会话保活，以及通用全栈/API 自动化。
+
+**分桶规则**: 每条只进 **一个主桶**；括号可写次要标签。高价判断（Freelancer）: 固价约 ≥$300 / 时薪约 ≥$25；低价: 明显偏薄但仍有技能贴合或模板价值。
+
+---
+
+## 1) 通用型 — 可沉淀模板
+
+适合沉淀：API 粘合、n8n/Sheets、履约通知、门户 RPA、Playwright 修复等。
+
+| 标题 | 链接 | 预算 | 技能 | 发布时间 | 提案数 | 一句话为何进这桶 |
+|------|------|------|------|----------|--------|------------------|
+| Daily UiPath Report Emailer | https://www.freelancer.com/projects/rpa-development/Daily-UiPath-Report-Emailer | $15–25/hr | UiPath, RPA, Outlook/SMTP | （上午样本；仍 Open，链接 200） | 38 | 定时登门户→出报表→邮件：标准「门户 RPA + 附件投递」模板 |
+| Google Apps Script Automation | https://www.freelancer.com/projects/google-sheets/Google-Apps-Script-Automation-40784837 | ₹12500–37500（约 $132–395） | Apps Script, Sheets, Drive, Gmail | （上午样本） | 93 | Workspace 串联 + 通知：可复用 GAS 工作流骨架 |
+| Playwright Java Passkey Fix | https://www.freelancer.com/projects/automation/Playwright-Java-Passkey-Fix | $15–25/hr | Playwright Java, WebAuthn | （上午样本） | 97 | 现有套件补 passkey：浏览器自动化排障切片，贴 Playwright/CDP |
+| Configure Meta WhatsApp Webhook | https://www.freelancer.com/projects/api/Configure-Meta-WhatsApp-Webhook | €8–30（约 $9–34） | WhatsApp Cloud API, webhook | （上午样本） | 110 | 送达/已读订阅纠偏：纯 webhook 配置交付，可复用 |
+| WooCommerce-to-WhatsApp Order Updates | https://www.freelancer.com/projects/rest-api/WooCommerce-WhatsApp-Order-Updates | $15–25/hr | WooCommerce, WA API/Twilio | （上午样本） | 112 | 订单状态→模板消息：履约通知黄金模板 |
+| Fix WhatsApp Cloud API Verification | https://www.freelancer.com/projects/api/Fix-WhatsApp-Cloud-API-Verification | $10–30 | WA Cloud, Graph API | （上午样本） | 64 | Meta 验证排查+收发测通：API 联调小单 |
+| Long-Term Automation Developer – Manhattan SCALE… | https://www.freelancer.com/projects/automation/Long-Term-Automation-Developer-Manhattan | $30–250 | Python, Playwright/Selenium, Excel, WMS | （上午样本） | 127 | WMS 报表→Excel 过滤（禁自动提交）：门户 RPA + 人工门 |
+| Improve Python Upload Automation Reliability | https://www.freelancer.com/projects/automation/Improve-Python-Upload-Automation | ₹1500–12500（约 $16–131） | Python, Playwright/Selenium, 上传稳态 | 约 2026-10-25 | 55 | 上传脚本稳妥化（会话/断点）；**绕过 Cloudflare 自动过盾属边缘，只当会话保活样本** |
+| WhatsApp Bulk Marketing Automation | https://www.freelancer.com/projects/api/WhatsApp-Bulk-Marketing-Automation | ₹1500–12500（约 $16–131） | PHP/Python/Node, Excel, API | 约 2026-10-26 | 46 | 批量 WA 触达：注意平台 ToS；技术上是 API+队列模板 |
+| YouTube Video Producer With N8N Automation System Needed | https://www.freelancer.com/projects/n8n/YouTube-Video-Producer-With-Automation | $30–250 | n8n, 内容流水线 | 约 2026-10-23 | 57 | n8n 内容管线：编排模板价值（视频制作本身可拆给别人） |
+| n8n SEO Autopilot Setup | https://www.freelancer.com/projects/n8n/SEO-Autopilot-Setup | ₹1500–12500（约 $16–131） | n8n, SEO 自动化 | （晚间刷新） | 104 | n8n SEO 自动驾驶：CMS/SEO 流水线模板族 |
+
+**适合你（本桶）**: Playwright/门户 RPA、WA webhook、GAS/Sheets、n8n 编排都在你的自动化主轴上；优先盯提案偏低的 UiPath 日报、Passkey 修复、WA 验证类。
+
+---
+
+## 2) 较新的 AI 相关 — 落地 / Agent / LLM / RAG / MCP
+
+| 标题 | 链接 | 预算 | 技能 | 发布时间 | 提案数 | 一句话为何进这桶 |
+|------|------|------|------|----------|--------|------------------|
+| LangGraph Chatbot Build & Guidance | https://www.freelancer.com/projects/api-developmet/LangGraph-Chatbot-Build-Guidance | ₹400–700/hr（约 $4–7）/hr | Python, FastAPI, LangGraph, PG, Docker, GHA | （上午样本） | 45 | 生产向 LangGraph journey + Docker/GHA **边做边教** — 典型 AI 落地骨架 |
+| MCP Hands-On Training Project | https://www.freelancer.com/projects/nodejs/MCP-Hands-Training-Project | ₹1500–12500（约 $16–132） | MCP, Node/Python, VS Code/Codex | （上午样本） | 68 | MCP 接线 + 看板读本地/公开数据 + 带教 |
+| Claude Setup for Mac Mini | https://www.freelancer.com/projects/ai-automation/Claude-Setup-for-Mac-Mini | $25–50/hr | Claude Desktop/MCP, Gmail/日历 | （上午样本） | 100 | 常开机 Claude 生活助理 + MCP/连接器文档交接 |
+| AI Agent Architecture Review | https://www.freelancer.com/projects/ai-agents/Agent-Architecture-Review | $30–250 | TS, Inngest, pgvector, MCP | （上午样本） | 138 | 多 Agent 平台**只读评审**（架构图+双版本文档）— 咨询切片 |
+| AI Payroll Data Validation Automation | https://www.freelancer.com/projects/ai-automation/Payroll-Data-Validation-Automation | £18–36/hr（约 $24–48）/hr | Python, 规则/轻量 ML, 薪资 API | （上午样本） | 139 | 入账前 AI/规则校验海量 Excel — 文档智能落地 |
+| Claude SEO expert with deep knowledge of automation, skills and MCPs | https://www.freelancer.com/projects/automation/Claude-SEO-expert-with-deep | $10–30 | Claude, MCP, SEO 流水线 | （上午样本） | 33 | Claude+MCP/Skills 内容流水线并教学（预算薄，主因是 AI/MCP 信号；次要→低价） |
+| Vittashastra - AI based procurement advisor | https://www.freelancer.com/projects/retrieval-augmented-generation/Vittashastra-based-procurement-advisor | ₹1500–12500（约 $16–131） | RAG, LLM, NLP | 约 2026-10-20 | 40 | 采购顾问向 RAG/LLM 应用 |
+| Enterprise RAG Project: Generative AI Developer Needed | https://www.freelancer.com/projects/azure/Enterprise-RAG-Project-Generative | ₹400–750/hr（约 $4–8）/hr | Azure, RAG, GenAI | （晚间刷新） | 110 | 企业 RAG 开发岗式需求（时薪偏低、竞争高） |
+
+**适合你（本桶）**: LangGraph+FastAPI+Docker、MCP 带教、Claude 桌面编排与你的 AI 落地/工具链方向一致；架构评审可当「讲清楚换现金」切片。
+
+---
+
+## 3) 高价单 — 相对平台偏高预算
+
+| 标题 | 链接 | 预算 | 技能 | 发布时间 | 提案数 | 一句话为何进这桶 |
+|------|------|------|------|----------|--------|------------------|
+| Customer Portal Development with FastAPI and Next.js and an android app | https://www.freelancer.com/projects/fastapi/Customer-Portal-Development-with-FastAPI | ₹150000–250000（约 $1580–2634） | FastAPI, Next.js, Android | （上午样本） | 106 | 固价顶到约 $2.6k：客户门户分期交付（次要：全栈模板） |
+| Secure AI Assistant for Odoo & Frappe | https://www.freelancer.com/projects/ai-chatbot-development/Secure-Assistant-for-Odoo-Frappe | ₹75000–150000（约 $790–1580） | Odoo/Frappe, LLM/RAG, 权限 | （上午样本） | 80 | ERP NL 助手约 $0.8–1.6k（次要：AI） |
+| AI Voice Assistant and call supporting | https://www.freelancer.com/projects/ai-voice-agents/Voice-Assistant-call-supporting | ₹37500–75000（约 $395–790） | Twilio, STT/TTS, LLM, CRM | （上午样本） | 76 | 语音 Agent+CRM 约 $0.4–0.8k（次要：AI） |
+| AI Agents for School Automation | https://www.freelancer.com/projects/ai-agents/Agents-for-School-Automation | ₹37500–75000（约 $394–788） | Python, FastAPI, Agent | 约 2026-10-21 | 56 | 校园自动化多 Agent，固价上沿近 $800（次要：AI） |
+| Linux Security Engineer — Air-Gapped AI Document System | https://www.freelancer.com/projects/api-integration/Linux-Security-Engineer-Air-Gapped | ₹12500–37500（约 $131–394） | Python, Linux, Redis, 隔离文档 | 约 2026-10-20 | 24 | 预算中高 + 提案相对少；**正文或含现场/隔离约束，投前必读**（次要：AI） |
+| AI Sales Automation Platform | https://www.freelancer.com/projects/ai-chatbot-development/Sales-Automation-Platform | ₹12500–37500（约 $131–394） | AI chatbot, 销售自动化 | 约 2026-10-26 | 78 | 销售自动化平台价位段偏高（范围需分期锁） |
+| AI Influencer Creation/Monetization System Architect | https://www.freelancer.com/projects/ai-influencers/Influencer-Creation-Monetization-System | $750–1500 | AI influencer, 架构 | （晚间刷新） | 114 | 固价 $750+ 架构向（范围易爆，适合「蓝图+一期」话术） |
+
+**适合你（本桶）**: FastAPI 门户、ERP NL 助手、语音 Agent 都能用 Python/API/自动化底座接；高价单务必分期锁 PRD，避免 scope 爆。
+
+---
+
+## 4) 低价单 — 预算薄但有技能/模板价值
+
+| 标题 | 链接 | 预算 | 技能 | 发布时间 | 提案数 | 一句话为何进这桶 |
+|------|------|------|------|----------|--------|------------------|
+| Automation Anywhere Excel Bot | https://www.freelancer.com/projects/automation/Automation-Anywhere-Excel-Bot | ₹600–1500（约 $6–16） | Python, Excel, 自动化 | 约 2026-10-26 | 17 | 极低价 Excel bot；提案少，可当 RPA 练手/报价锚点 |
+| n8n WhatsApp Auto-Messaging Setup | https://www.freelancer.com/projects/n8n/WhatsApp-Auto-Messaging-Setup | ₹600–1500（约 $6–16） | n8n, API Integration | 约 2026-10-21 | 48 | n8n+WA 配置向薄单：模板演示够用、实收要控范围 |
+| Invoice Data Extraction to Excel | https://www.freelancer.com/projects/automation/Invoice-Data-Extraction-Excel | ₹750–1250/hr（约 $8–13）/hr | Python/PDF, Excel | （上午样本） | 44 | 发票 PDF→分 sheet：文档抽取模板，时薪公开偏低 |
+| Customer Support AI Agent Creation | https://www.freelancer.com/projects/ai-chatbot-development/Customer-Support-Agent-Creation | ₹750–1250/hr（约 $8–13）/hr | AI Chatbot, Agent | 约 2026-10-19 | 53 | 客服 Agent 时薪薄（次要：AI）；可沉淀 FAQ+工具调用骨架 |
+| Python GenAI Image Recognition Platform | https://www.freelancer.com/projects/ai-model-development/Python-GenAI-Image-Recognition-Platform | ₹100–400/hr（约 $1–4）/hr | Python, ML, 图像 | 约 2026-10-20 | 55 | 时薪极低「平台」级表述 — 仅作需求信号，不宜按字面接全量 |
+| Rest Assured API Test Suite | https://www.freelancer.com/projects/rest-api/Rest-Assured-API-Test-Suite | ₹400–750/hr（约 $4–8）/hr | Java, API 测试 | 约 2026-10-26 | 34 | API 测试套件薄时薪；技能偏 Java，模板价值在「接口验收」 |
+
+**适合你（本桶）**: n8n+WA、发票抽取、薄价 Agent 可用来攒交付话术与作品集切片；报价时按「可演示最小闭环」收，不要按平台标价扛全量平台。
+
+---
+
+## 关闭：更贴你技能（跨桶 7 条）
+
+1. **Playwright Java Passkey Fix**（通用）— 浏览器自动化/WebAuthn，贴 Playwright/CDP  
+2. **Improve Python Upload Automation Reliability**（通用）— Python + 会话/上传稳态（注意过盾边界）  
+3. **LangGraph Chatbot Build & Guidance**（AI）— FastAPI + LangGraph + Docker，贴你全栈/AI 落地  
+4. **MCP Hands-On Training Project**（AI）— MCP/本地工具接线 + 带教  
+5. **Configure Meta WhatsApp Webhook / Woo→WA Order Updates**（通用）— webhook/API 粘合高频模板  
+6. **Customer Portal … FastAPI + Next.js**（高价）— FastAPI 门户分期，预算够谈  
+7. **Secure AI Assistant for Odoo & Frappe**（高价 / AI 次要）— ERP API + RAG/权限门，自动化+AI 交叉  
+
+---
+
+## 脚本与复跑
+
+\`\`\`bash
+# 看哪些平台 enabled vs stub
+python3 /workspace/freelancer/scanners/run_scan.py --platforms freelancer,fiverr,upwork,toptal,contra,jike,v2ex,eleduck
+
+# 只刷 Freelancer
+python3 /workspace/freelancer/scanners/run_scan.py --platforms freelancer --queries "n8n,playwright,RAG,MCP,fastapi"
+\`\`\`
+
+- 适配器目录: \`/workspace/freelancer/scanners/platforms/\`  
+- 晚间原始刷新: \`/workspace/freelancer/api_raw/_refresh_2026-10-26_evening.json\`（146）  
+- 上午 curated 对照: \`/workspace/freelancer/demand_samples_2026-10-26.md\`
+
+**事实边界**: Fiverr 买方需求本轮无数可入；Upwork/Toptal/Contra/即刻/V2EX/电鸭为 stub，未抓。预算与提案数均来自 Freelancer API/页面，无臆造。
+`},
+{"id": "doc-haiwai-showcase-matrix-1026", "title": "展示站拓展：预约场景 × 简繁形态 × AI（2026-10-26）", "theme": "定位规划", "date": "2026-10-26 21:18", "summary": "8 张场景卡短名单 + 简单/复杂定义；showcase 落地页明确未上线；建议先录 Playwright 选服下单 60s。禁止代投。", "tags": ["展示站", "预约", "场景矩阵", "bz.a", "smart.a", "AI切片", "规划"], "source": "", "path": "出海变现/展示站拓展-场景矩阵-2026-10-26.md", "related_docs": ["doc-haiwai-positioning-1022", "doc-booking-entry-1021", "doc-booking-acq-1021", "doc-booking-reject-1021", "doc-radar-pulse-1027", "doc-live"], "content": `# 展示站拓展：预约场景 × 简繁形态 × AI
+
+> **与 Hub/展示站 Page 同步；主迭代在 Page。**  
+> Page：[展示站拓展：预约场景 × 简繁形态 × AI](https://cursor.com/canvas/store-b0357f4c-8eb8-45af-bd2f-b64b133d67a7/755116fa-89ab-4ce2-aeb8-e4394ffb2035)  
+> canvas_id：\`755116fa-89ab-4ce2-aeb8-e4394ffb2035\`  
+> 日期：2026-10-26（Asia/Shanghai）  
+> 约定：全文不写真实人名；不自动投标；**showcase 落地页为规划中/未做，勿写成已上线。**
+
+---
+
+## 1. 结论：展示站先做什么
+
+**展示站先行（10-22 优先级第 1 条）**。原则：展示站（showcase）与 H5 下单分离——前者获客/投标截图，后者完成交易。bz.a 现有是 H5 App 壳，缺苹果官网风公开展示页；showcase 本身未见已上线验收记录。
+
+**先上 8 张场景卡短名单：**
+
+1. 美业订金预约  
+2. 美甲自助约  
+3. 家政上门（动态字段）  
+4. 咨询预付  
+5. 洗车车型/套餐  
+6. 私教 / 课包  
+7. 宠物美容字段  
+8. 多服务者（smart.a）
+
+诊所卡仅作「轻排期」且禁止 HIPAA 轻诺；会议室卡标明非 OTA。拒单仍适用：Beds24/OTA、escort、$15 整站、HIPAA 轻诺勿推。
+
+---
+
+## 2. 展示站信息架构（IA）
+
+目标形态（**规划**）：首页大图橱窗 → 行业场景卡网格 → 简单 vs 复杂对比条 → Live demo CTA（跳 H5）→ 案例与 AI 切片。
+
+下单仍走：
+
+- https://bz.a.ezcoin.ink/h5/
+- https://smart.a.ezcoin.ink/h5/
+
+### 状态 Checklist（截至 2026-10-26）
+
+| 项 | 状态 | 备注 |
+|----|------|------|
+| 计划文档写明 showcase 缺口与展示/H5 分离原则 | 已有文档 | 出海定位与规划.md · 事实 |
+| bz.a / smart.a H5 demo 可作 Live CTA 目标 | 已有 demo | soft 验收口径 · 事实 |
+| 行业词表 / 拒单规则 / 需求簇映射已入库 | 已有文档 | freelancer/*.md · 事实 |
+| 苹果官网风 showcase 落地页上线验收 | **未做** | 规划中 |
+| 场景卡文案与静态度图（本矩阵驱动） | **未做** | 本文件拓展 · 未交付前端 |
+| 内容发布/教程连载多页 SEO | **暂缓** | acquisition_plan 标暂缓 |
+
+---
+
+## 3. 预约场景矩阵
+
+| 行业 | 用户一句话场景 | 复杂度 | 简单形态展示什么 | 复杂形态展示什么 | 对应能力 | demo 锚 | 投标话术一行 | 标注 |
+|------|----------------|--------|------------------|------------------|----------|---------|--------------|------|
+| 美业 salon | 客人选剪发/染发，锁档并付订金 | 标准 | 单椅位周历 + 确认页 | 多技师冲突 + 订金/尾款 + 服务时长加项 | 目录、防双订、支付可开关、动态字段 | bz.a | Salon booking with deposit — live H5, not a Calendly embed. | 事实·hot 词 |
+| 美甲 nail | 美甲师档期公开，客人自助约 | 简单 | 单人日历 + 服务名 + 确认 | 款式/色号字段 + 订金 + 多美甲师 | 单资源日历、免注册、可选支付 stub | bz.a / T3 | Nail slot picker in 60s — guest browse, no login wall. | 事实·hot 词 |
+| 诊所/牙科 | 轻量约诊时段（非病历系统） | 标准 | 医生单日历 + 到诊确认 | 多诊室/多医生 + 复诊周期（不含 PHI） | 排期、提醒旁路；勿承诺 HIPAA | bz.a | Clinic scheduling MVP — no HIPAA light promises. | 事实：R3；仅排期 |
+| 私教/健身 | 一对一私教课 + 课包核销 | 复杂 | 教练日历 + 确认 | 次卡/课包 + 多教练矩阵 + 加时费 | 人×时间、次卡、支付 | smart.a / bz.a | PT + class pack — multi-provider schedule demo ready. | 事实·词表 |
+| 家政上门 | 上门保洁：填地址/户型再约时段 | 标准 | 时段表 + 联系方式 | 地址/户型动态字段 + 交通加价 + 定金 | 动态 intake、免注册、支付 | bz.a | Home service intake fields change per SKU — config, not rebuild. | 事实·需求地图 |
+| 咨询/教练 | 顾问发链接约探索通话并预付 | 简单 | 可约时段 + 确认邮件 | 服务目录 + 预付 + 取消规则 | 日历、支付 stub/Stripe、确认 | bz.a / T3 | Consulting call with payment — Calendly alternative with catalog. | 事实·hot 词 |
+| 洗车/本地服务 | 选车型/套餐后锁洗车档 | 标准 | 站点日历 + 套餐名 | 车型字段 + 套餐加项 + FAQ→预约 | 动态字段、支付、可选 Bot 引导 | bz.a | Car wash slots + vehicle fields — bookable link for local shops. | 事实·需求地图 |
+| 摄影/创意 | 拍摄档期 + 套餐定金 | 简单 | 日历空档 + 套餐列表 | 场地/模特第二资源 + 定金尾款 | 日历、定金叙事 | bz.a / T3 | Shoot day booking with deposit — showcase card ready. | **推测延伸** |
+| 宠物 | 宠物美容：宠物品种/体重字段 + 档期 | 标准 | 美容师日历 + 确认 | 多美容师 + 品种字段 + 订金 | 动态字段、防双订、支付 | bz.a | Pet grooming booking — intake fields per pet, same backend. | 事实·需求地图垂类 |
+| 教育一对一 | 家教/口语一对一约课 + 课包 | 复杂 | 老师日历 + 确认 | 多老师 + 次卡核销 + 试听转正 | 多服务者、次卡、支付 | smart.a / bz.a | 1:1 tutoring slots + packs — multi-teacher conflict handled. | 合理延伸·标观察 |
+| 企业会议室 | 内部轻预约会议室/设备（非 OTA） | 简单 | 房间日历 + 审批可选 | 多房间冲突 + 审批流 + 设备第二资源 | 单/多资源日历；勿碰 Beds24/OTA | T3 | Internal room booking — not hotel PMS / Beds24. | 事实：R1 边界 |
+
+companion/escort 敏感表述默认拒（R4）；smart.a 对外用「多服务者/内容→预约」合规叙事。
+
+---
+
+## 4. 简单 vs 复杂定义
+
+| | 简单（投标截图够用） | 复杂（证明能交付完整业务） |
+|--|---------------------|---------------------------|
+| 定义 | **单资源日历 + 确认页 + 可选支付 stub**（T3 / bz.a 裁剪） | **动态字段按 SKU 变 + 定金/尾款状态机 + 多服务者冲突**；可含次卡/课包、加时费、取消/no-show |
+| 范围 | 一种服务、一名服务者、固定价；免注册可选 | 人×时间矩阵（smart.a）；配置而非重做 |
+| 展示重点 | 能约时段、防双订直觉、60 秒路径 | 完整业务能力条 |
+
+「标准」居中：服务目录 + 动态 intake + 支付可开关 + 免注册浏览下单（bz.a 主叙事）。showcase 每张场景卡应同时给「简单截图位」与「复杂能力条」。
+
+---
+
+## 5. 内容系统（smart.a）需求拆分骨架 · 后续
+
+标「后续」：acquisition 内容连载暂缓；只给可展示切片。
+
+| 切片 | 场景一句 | demo / 缺口 | 状态 |
+|------|----------|-------------|------|
+| Feed / 广场 | 动态列表拉活 → 点进服务者 | smart.a | 可剪录屏 |
+| 服务者主页 | 资料 + 个人可订时段 | smart.a | 可剪录屏 |
+| 内容→预约漏斗 | 浏览帖/主页 → 选档下单 | 簇 7/8 | 待拼 60s |
+| 多服务者矩阵 | 人×时间冲突 + 后台开关档期 | cold: multi-provider | demo 有 |
+| 运营后台 | 内容编辑 + 订单/档期同后台 | CMS 独立 demo 缺 | 缺口 |
+| 会员/门禁内容 | 订阅后看内容（A5） | 缺 Stripe 门禁 demo | 待做切片 |
+
+---
+
+## 6. 其他通用系统待拆分清单
+
+| 标题 | 一句场景 |
+|------|----------|
+| 支付履约切片 | Stripe 可开关 / 定金尾款 / webhook 幂等 — 与 bz.a 支付叙事挂钩 |
+| 表单→CRM | T2 进 Sheets/Slack；预约字段与线索表衔接 |
+| 浏览器自动化运维 | Playwright 回归选服下单；发布验收录屏 |
+| Chrome MV3 + 后端 | 扩展侧助手 + Nest/Next API — 接单工具链展示 |
+
+（只列标题+场景，不展开完整矩阵。）
+
+---
+
+## 7. AI 实践案例（可投标 / 可录屏）
+
+贴用户栈：Python / Playwright / Chrome MV3 / Docker / Next / Nest / 支付网关。
+
+| 场景名 | 输入 → 输出 | 展示形式 | 与预约/接单挂钩 | 状态 |
+|--------|-------------|----------|-----------------|------|
+| 动态字段配置助手 | 服务 SKU 描述 → intake 字段 JSON 草案 | 案例页 + 短视频 | 直接喂 bz.a 字段配置叙事 | 待做切片 |
+| 预约冲突解释 | 两单撞档日志 → 人话原因 + 改约建议 | 互动 demo / 录屏 | 复杂预约客服降本 | 待做切片 |
+| 提案一页纸生成 | JD + demo 锚 → 一页提案草稿 | 案例页（已有草稿资产） | Freelancer 精标提速 | **已有文稿可挂** |
+| n8n + LLM 审批门 | 预约/退款事件 → 审批摘要草稿 | 短视频流程图 | 支付履约旁路 | 待做切片 |
+| 本地 Agent / Ollama | 私有文档问答 → 预约 FAQ 回答 | Docker 部署案例页 | FAQ→预约（不幻觉下单） | 待做切片 |
+| Playwright 选服下单回归 | H5 路径脚本 → 通过/失败录屏 | 短视频 / CI 截图 | 证明 bz.a 路径可重复演示 | 待做切片（路径已知） |
+| 发票/表单抽取 | 上传单据 → 结构化字段 | 案例页 | 表单→CRM 与对账旁路 | 待做切片 |
+
+**建议最先做的 1 条：** Playwright 选服下单回归录屏——零新产品，固化 bz.a/smart.a 60s 可重复路径，与「展示站 CTA→H5」同一证据链。
+
+---
+
+## 8. 下一步实验
+
+1. **写齐 8 张场景卡文案** — 标题一句场景 + 简单/复杂各一行能力 + demo 锚 + 拒单边界脚注。  
+2. **showcase 静态页最小范围** — 首页大图 + 场景卡网格 + CTA→H5；可不接 API 先用静态度图（规划中，勿宣称上线）。  
+3. **先录 1 条 AI/工程案例** — Playwright 访客选服→确认 45–60s；建议路径 \`demos/bz_a_60s.mp4\`。  
+4. **简单 vs 复杂对比条上橱窗** — 同一美业卡左右对比。  
+5. **内容系统切片排期（后续）** — smart.a Feed→主页→下单拼接；CMS 独立 demo 仍标缺口。
+
+---
+
+## 源与不确定处
+
+**事实源：**
+
+- \`/workspace/出海变现/出海定位与规划.md\`（showcase 缺口、展示/H5 分离、10-22 优先级）  
+- \`/workspace/freelancer/booking_keywords_daily_2026-10-21.md\`  
+- \`/workspace/freelancer/booking_demand_and_entry_map_2026-10-21.md\`  
+- \`/workspace/freelancer/booking_reject_rules_daily.md\`  
+- \`/workspace/freelancer/booking_content_requirements_map_2026-10-21.md\`  
+- \`/workspace/freelancer/acquisition_plan_30d_2026-10-21.md\`（内容暂缓）  
+- \`/workspace/freelancer/one_pager_bz_smart_demo_2026-10-21.md\`
+
+**不确定 / 推测：**
+
+- 摄影场景为词表外合理延伸（需求地图有一人公司摄影画像，非 hot seed）。  
+- 教育一对一为课包/多老师逻辑延伸，平台词频未单独校准。  
+- smart.a「运营后台含内容编辑」需实机确认后再当强证据。  
+- bz.a Stripe 密钥需用户重贴（规划文档事实）；不影响 showcase 静态规划。  
+- T3 Vercel 等 portfolio 模板 URL 以内容映射文件为准，本矩阵未重新验收在线状态。
+
+*禁止代投 Freelancer；禁止声称 showcase 已上线。*
 `},
 ]
 };
