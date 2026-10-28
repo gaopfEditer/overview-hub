@@ -924,7 +924,8 @@
         "doc-radar-pulse-1023",
         "doc-fl-templates",
         "doc-haiwai-showcase-matrix-1026",
-        "doc-radar-pulse-1027"
+        "doc-radar-pulse-1027",
+        "doc-radar-pulse-1028"
       ]
     },
     {
@@ -1067,6 +1068,7 @@
         "doc-booking-reject-1021",
         "doc-radar-brief",
         "doc-radar-pulse-1027",
+        "doc-radar-pulse-1028",
         "doc-fl-layered-1026",
         "doc-haiwai-showcase-matrix-1026"
       ]
@@ -1115,6 +1117,7 @@
       ],
       "summary": "公开池 37/0 @17:28（午后同）；推荐仍空。KW 过关 4→3（Bug Fix 淡出）；Responsive Booking 淡出；GoHighLevel 100→137；Airbnb Cleaning 219 新噪声。本地 intel 无新文件。",
       "related_docs": [
+        "doc-radar-pulse-1028",
         "doc-radar-pulse-1026",
         "doc-fl-samples-1026",
         "doc-fl-layered-1026",
@@ -1122,7 +1125,8 @@
         "doc-fl-proposal-dashboard-1024",
         "doc-booking-reject-1021",
         "doc-radar-brief",
-        "doc-hermes-roles-1027"
+        "doc-hermes-roles-1027",
+        "doc-hermes-starters-1027"
       ]
     },
     {
@@ -1146,6 +1150,7 @@
         "doc-fl-samples-1026",
         "doc-fl-templates",
         "doc-radar-pulse-1027",
+        "doc-radar-pulse-1028",
         "doc-booking-reject-1021",
         "doc-haiwai-positioning-1022"
       ]
@@ -1172,6 +1177,7 @@
         "doc-booking-acq-1021",
         "doc-booking-reject-1021",
         "doc-radar-pulse-1027",
+        "doc-radar-pulse-1028",
         "doc-live"
       ]
     },
@@ -1180,7 +1186,7 @@
       "title": "Hermes 角色领域拆分（2026-10-27）",
       "path": "/workspace/notes/hermes-roles/领域拆分-2026-10-27.md",
       "theme": "工作流",
-      "date": "2026-10-27 11:03",
+      "date": "2026-10-27 19:14",
       "tags": [
         "Hermes",
         "角色隔离",
@@ -1189,12 +1195,68 @@
         "运维",
         "任务管家"
       ],
-      "summary": "一角色一事：币圈/接单/出海产品/需求侦察/运维等隔离；Cursor 造枪、Hermes 扣扳机；本周可先落三角色。",
+      "summary": "一角色一事：币圈/接单/出海产品/需求侦察/运维等隔离；Cursor 造枪、Hermes 扣扳机；本周可先落三角色；starters/ 已预写。",
       "related_docs": [
         "doc-radar-pulse-1027",
+        "doc-radar-pulse-1028",
         "doc-haiwai-positioning-1022",
         "doc-fl-layered-1026",
-        "doc-radar-brief"
+        "doc-radar-brief",
+        "doc-hermes-starters-1027"
+      ]
+    },
+    {
+      "id": "doc-radar-pulse-1028",
+      "title": "需求雷达脉搏 2026-10-28（07:22 早间）",
+      "path": "docs/notes/radar_pulse_2026-10-28.md",
+      "theme": "市场研究",
+      "date": "2026-10-28 07:22",
+      "tags": [
+        "雷达",
+        "Freelancer",
+        "脉搏",
+        "预约",
+        "WhatsApp",
+        "MCP",
+        "Claude",
+        "高客单",
+        "早间",
+        "Hermes",
+        "Audio-booking"
+      ],
+      "summary": "公开池 34/0 @07:22（晚间 37）；推荐仍空。KW 过关 3→2（Office Agent 淡出）；Service/Travel booking 淡出；Audio Equipment Booking $3–5k 排除轨噪声；Hermes starters 已挂。",
+      "related_docs": [
+        "doc-radar-pulse-1027",
+        "doc-fl-samples-1026",
+        "doc-fl-layered-1026",
+        "doc-haiwai-showcase-matrix-1026",
+        "doc-fl-proposal-dashboard-1024",
+        "doc-booking-reject-1021",
+        "doc-radar-brief",
+        "doc-hermes-roles-1027",
+        "doc-hermes-starters-1027"
+      ]
+    },
+    {
+      "id": "doc-hermes-starters-1027",
+      "title": "Hermes 最小落地包 starters（2026-10-27 预写）",
+      "path": "docs/notes/hermes_starters_2026-10-27.md",
+      "theme": "工作流",
+      "date": "2026-10-27 19:14",
+      "tags": [
+        "Hermes",
+        "角色隔离",
+        "接单",
+        "币圈",
+        "运维",
+        "预写"
+      ],
+      "summary": "三角色系统提示预写索引：币圈运营 / 接单执行 / 服务器运维；独立会话；待确认名称后落地。不代开角色。",
+      "related_docs": [
+        "doc-hermes-roles-1027",
+        "doc-radar-pulse-1028",
+        "doc-haiwai-positioning-1022",
+        "doc-fl-layered-1026"
       ]
     }
   ]
