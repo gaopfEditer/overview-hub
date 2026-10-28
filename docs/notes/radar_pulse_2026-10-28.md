@@ -60,3 +60,57 @@
 - `/workspace/notes/evening-2026-10-26/需求大纲.md`：仍为待拍板草稿，不另建案例卡。
 
 **动作**：不追 Beds24 / Office Agent（已淡出）/ FORGEAI 公开价带 / WA Auto-Reply 红海（313）/ Professional Appointment 红海 / 旅行·美业 WP·极低价 booking / 场馆·泛 booking 整站 / Audio Equipment 高预算排除轨 / UX 试玩 / VA·电销·医美投放 / Taxi·Bubble·Airbnb 市集二开 / R8 低价 commodity；过滤口径不变——**只追高客单；Fiverr 低价与标多泛帖过滤；主线 SEO 找词建站，平台接单降优先级**。预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案（**展示站场景卡文案 / showcase 静态页仍规划中**）。低竞争切片仍对照 10-26 discover + 晚间分层：Claude SEO/MCP 带教、UiPath 日报、发票抽取、LangGraph 教学骨架、Playwright passkey/上传稳态、WA webhook；另保留 n8n CMS SEO、单源 API 看板（提案草稿已备）、支付回调履约、vibe-rescue 分期、ERP NL 助手（分期+人工门）、架构评审咨询包。Hermes 三角色 starters 待用户确认名称后再落地。下一雷达约 **11:22**（every_4h）。
+
+
+---
+
+## 午间复核（约 13:03 +08；雷达 12:47）
+
+> 线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) `data/meta.json`：**published_at 2026-10-28 12:47:00 +08**，`job_leads` **34 / 推荐 0**（`job_leads_run_id` 20261028-124559-20e11559）。相对早间 07:22 的 34/0：帖数持平，推荐仍空；KW 过关仍 2；部分噪声标数升温。Fiverr 仍 403；Trends 仍 demo。公开数据 only。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **34**（早间同） |
+| 推荐数量 | **0** |
+| Job ingest | OK |
+| Fiverr | 仍跳过（HTTP 403 buyer_requests） |
+| Trends | 仍 demo |
+
+### 雷达推荐
+
+- 无（公开池推荐数 0）。关键词过关仍 **2** 条，均竞争/一期未过。**Beds24 --5** 仍不在前排。Office Agent 仍淡出。
+
+### 相对早间变化（事实）
+
+| 帖 | 预算 | 标（07:22→12:47） | score | 备注 |
+|---|---|---|---|---|
+| **WhatsApp Auto-Reply Chatbot** | $250–750 | 313→**313** | 75 | 加固/tool；一期+竞争未过 → 继续红海旁证，不投 |
+| **Professional Appointment Booking Platform** | ₹750–1250/hr | 153→**154** | 67 | 嵌入/appointment booking；一期+竞争未过 → 预约旁证，不投 |
+| **FORGEAI** | ₹1.5k–12.5k | 86→**86** | 50 | 关键词未过；仅 vibe-rescue 素材 |
+| Claude Setup for Mac Mini | $25–50/hr | 116→**116** | 50 | 关键词未过；本地 Agent 装机旁证 |
+| MCP Hands-On Training Project | ₹1.5k–12.5k | 84→**84** | 50 | 关键词未过；MCP 培训小品 |
+
+预约旁证（均关键词未过 / 排除轨 / 红海；标相对早间）：
+
+| 帖 | 标（07:22→12:47） | 备注 |
+|---|---|---|
+| Charleston Hair Beauty Booking App | 216→**216** | 美业预约 App；红海 + 双端风险 |
+| React Vite Booking Store | 105→**105** | 低价预约店面 |
+| Test our online booking website UX feedback | 97→**97** | 排除轨；UX 试玩岗 |
+| Multi-Sport Court Booking Platform | 101→**101** | 场馆预约整站；谨慎红海边缘 |
+| Elegant Salon App UI Overhaul | 119→**119** | 美业 UI 改版；设计向 |
+| Professional Appointment Booking | 153→**154** | 见上表 |
+| **Audio Equipment Installation Booking Site** | 162→**219** | 预算 $3k–5k 但轨=排除（泛 web developer）；标升温，仍不投 |
+| B2B Software / Med Spa Appointment Setter | 7 / 18 → **7 / 21** | 非工程交付，不作主投 |
+| **Commission-Based Sales for Online Booking Solutions**（新进排除） | —→**15** | 轨=排除；佣金销售岗，非工程 |
+
+本刷噪声（关键词未过，不作主投）：**Taxi Service Website**（477→**551**，高标整站续升温）、Laravel+React Affiliate（321→**329**）、Airbnb Cleaning 市集源码（308→**309**）、Bubble 订阅站（243）、Videographer Marketplace（143→**149**）、Complete Ecommerce（139 / --2 75）、**Bilingual AI Real Estate Sales Agent**（126→**148**）、Veterinary Clinic（103）、Autonomous AI Business OS（98）、VA/电销/医美投放/CAD 等。Service/Travel booking / GoHighLevel / Responsive Booking / Office Agent 仍不在前排。
+
+### 本地 intel 扫描（相对早间 hub 提交 09:01）
+
+- `/workspace/freelancer/`：无新于 10-26 晚分层短名单 / 09:17 discover / templates / 提案草稿的文件；`screen_mode.md` 仍 `discover` + 高客单过滤；R8–R10 拒单未改。提案草稿仍仅 `proposal_draft_one_page_dashboard_2026-10-24.md`（未代投）。无 **2026-10-27/28** 新 `demand_samples_*`。
+- `/workspace/upwork/`：最新仍为 **2026-10-19** `checked_*` / `screened_*`；无 Oct 20–28 筛单文件。
+- `/workspace/出海变现/`：场景矩阵与定位稿已挂 hub；无晚于早间提交的新要点。
+- `/workspace/notes/`：仅 `radar-daily/reminded-ids.json` 触达（提醒去重，非岗位情报）；Hermes starters / 领域拆分 / evening 需求大纲均无新改动。bot-evals 日记不作案例卡。
+
+**动作**：不追 Beds24 / Office Agent（已淡出）/ FORGEAI 公开价带 / WA Auto-Reply 红海（313）/ Professional Appointment 红海 / 旅行·美业 WP·极低价 booking / 场馆·泛 booking 整站 / Audio Equipment 高预算排除轨（标升温）/ UX 试玩 / VA·电销·医美投放 / Taxi·Bubble·Airbnb 市集二开 / 佣金销售岗 / R8 低价 commodity；过滤口径不变——**只追高客单；Fiverr 低价与标多泛帖过滤；主线 SEO 找词建站，平台接单降优先级**。预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案（**展示站场景卡文案 / showcase 静态页仍规划中**）。低竞争切片仍对照 10-26 discover + 晚间分层：Claude SEO/MCP 带教、UiPath 日报、发票抽取、LangGraph 教学骨架、Playwright passkey/上传稳态、WA webhook；另保留 n8n CMS SEO、单源 API 看板（提案草稿已备）、支付回调履约、vibe-rescue 分期、ERP NL 助手（分期+人工门）、架构评审咨询包。Hermes 三角色 starters 待用户确认名称后再落地。下一雷达约 **16:47**（every_4h）。
