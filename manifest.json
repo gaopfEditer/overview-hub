@@ -103,18 +103,6 @@
       "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化",
       "path": "docs/platforms/freelancer.md",
       "related_docs": [
-        "doc-smb",
-        "doc-backlog",
-        "doc-freelancer-bids",
-        "doc-pulse-1019",
-        "doc-radar-brief",
-        "doc-radar-pulse-1019",
-        "doc-screened-1019e",
-        "doc-radar-pulse-1020",
-        "doc-fl-samples-1020",
-        "doc-fl-templates",
-        "doc-radar-pulse-1021",
-        "doc-booking-map-1021",
         "doc-fl-samples-1021",
         "doc-radar-pulse-1022",
         "doc-booking-keywords-1021",
@@ -124,7 +112,9 @@
         "doc-booking-seeds-1021",
         "doc-radar-pulse-1023",
         "doc-fl-samples-1023",
-        "doc-fl-samples-1022"
+        "doc-fl-samples-1022",
+        "doc-radar-pulse-1028",
+        "doc-week-decision-cards-1028"
       ],
       "tags": [
         "Freelancer",
@@ -190,7 +180,9 @@
         "doc-live",
         "doc-tplplan",
         "doc-proj",
-        "doc-booking-map-1021"
+        "doc-booking-map-1021",
+        "doc-radar-pulse-1028",
+        "doc-week-decision-cards-1028"
       ],
       "tags": [
         "作品集",
@@ -1202,15 +1194,16 @@
         "doc-haiwai-positioning-1022",
         "doc-fl-layered-1026",
         "doc-radar-brief",
-        "doc-hermes-starters-1027"
+        "doc-hermes-starters-1027",
+        "doc-hermes-dispatch-quota-1028"
       ]
     },
     {
       "id": "doc-radar-pulse-1028",
-      "title": "需求雷达脉搏 2026-10-28（07:22 → 12:47）",
+      "title": "需求雷达脉搏 2026-10-28（07:22 → 18:10）",
       "path": "docs/notes/radar_pulse_2026-10-28.md",
       "theme": "市场研究",
-      "date": "2026-10-28 12:47",
+      "date": "2026-10-28 18:10",
       "tags": [
         "雷达",
         "Freelancer",
@@ -1224,9 +1217,14 @@
         "Hermes",
         "Audio-booking",
         "午间",
-        "Taxi"
+        "Taxi",
+        "晚间",
+        "周决策卡",
+        "browserbase",
+        "SEO",
+        "Hermes派工"
       ],
-      "summary": "公开池 34/0 @12:47（早间同）；推荐仍空。KW 仍 2（WA 313；Appointment 154）；Taxi 551 / Audio Booking 219 / Real Estate Agent 148 升温；本地 intel 无新文件。",
+      "summary": "公开池 34/0 @18:10；推荐仍空。KW 仍 2（WA 313；Appointment 155）；Taxi 670 / Audio Booking 271 / Real Estate Agent 173 升温。本地新增周决策卡（Go browserbase alternatives）+ Hermes 额度派工笔记。",
       "related_docs": [
         "doc-radar-pulse-1027",
         "doc-fl-samples-1026",
@@ -1236,7 +1234,10 @@
         "doc-booking-reject-1021",
         "doc-radar-brief",
         "doc-hermes-roles-1027",
-        "doc-hermes-starters-1027"
+        "doc-hermes-starters-1027",
+        "doc-week-decision-cards-1028",
+        "doc-decision-card-schema-1028",
+        "doc-hermes-dispatch-quota-1028"
       ]
     },
     {
@@ -1258,7 +1259,74 @@
         "doc-hermes-roles-1027",
         "doc-radar-pulse-1028",
         "doc-haiwai-positioning-1022",
-        "doc-fl-layered-1026"
+        "doc-fl-layered-1026",
+        "doc-hermes-dispatch-quota-1028"
+      ]
+    },
+    {
+      "id": "doc-decision-card-schema-1028",
+      "title": "周决策卡字段规格（schema · 2026-10-28）",
+      "path": "/workspace/出海变现/demand-radar/decision-card-schema.md",
+      "theme": "定位规划",
+      "date": "2026-10-28 17:59",
+      "tags": [
+        "周决策卡",
+        "SEO",
+        "schema",
+        "证据层",
+        "找词建站"
+      ],
+      "summary": "基础7字段 + 证据3（产品增长/关键词增长/周边相关）；每批 1 Go / 1 Watch / 1 Kill；币圈不进评分；禁止脏 Suggest 当主词。",
+      "related_docs": [
+        "doc-week-decision-cards-1028",
+        "doc-radar-pulse-1028",
+        "doc-haiwai-positioning-1022",
+        "doc-haiwai-showcase-matrix-1026"
+      ]
+    },
+    {
+      "id": "doc-week-decision-cards-1028",
+      "title": "出海 SEO 周决策卡 2026-W44（Go/Watch/Kill）",
+      "path": "/workspace/出海变现/demand-radar/week-decision-cards-2026-10-28.md",
+      "theme": "市场研究",
+      "date": "2026-10-28 18:00",
+      "tags": [
+        "周决策卡",
+        "SEO",
+        "browserbase",
+        "code-review",
+        "cursor",
+        "Go",
+        "Watch",
+        "Kill",
+        "Affiliate"
+      ],
+      "summary": "Go：browserbase alternatives（云浏览器对比站+Affiliate/计算器）。Watch：best ai code review tools。Kill：cursor ai 品牌导航红海。下一动作对齐 Go 卡建站。",
+      "related_docs": [
+        "doc-decision-card-schema-1028",
+        "doc-radar-pulse-1028",
+        "doc-haiwai-positioning-1022",
+        "doc-haiwai-showcase-matrix-1026",
+        "doc-longtail"
+      ]
+    },
+    {
+      "id": "doc-hermes-dispatch-quota-1028",
+      "title": "Hermes 额度不足时派工（2026-10-28）",
+      "path": "docs/notes/hermes_dispatch_when_quota_low_2026-10-28.md",
+      "theme": "工作流",
+      "date": "2026-10-28 18:50",
+      "tags": [
+        "Hermes",
+        "派工",
+        "额度",
+        "边界"
+      ],
+      "summary": "Grok 写边界+验收；Hermes 只跑封闭局部。适合运维/脚本/按剧本文档粘贴；筛选报价与定方向不派。",
+      "related_docs": [
+        "doc-hermes-roles-1027",
+        "doc-hermes-starters-1027",
+        "doc-radar-pulse-1028"
       ]
     }
   ]
