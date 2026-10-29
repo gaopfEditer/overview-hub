@@ -1332,10 +1332,10 @@
     },
     {
       "id": "doc-radar-pulse-1029",
-      "title": "需求雷达脉搏 2026-10-29（07:45 → 12:56）",
+      "title": "需求雷达脉搏 2026-10-29（07:45 → 18:36）",
       "path": "docs/notes/radar_pulse_2026-10-29.md",
       "theme": "市场研究",
-      "date": "2026-10-29 12:56",
+      "date": "2026-10-29 18:36",
       "tags": [
         "雷达",
         "Freelancer",
@@ -1352,9 +1352,14 @@
         "午间",
         "GoHighLevel",
         "Valencia",
-        "淡出NoBeds"
+        "淡出NoBeds",
+        "晚间",
+        "GoAPI-Booking",
+        "TutorBooking",
+        "TourSEO",
+        "淡出Valencia"
       ],
-      "summary": "公开池 35/0 @12:56（早间同）；推荐仍空。KW 仍 2（WA 313；Appointment 155）。NoBeds OTA / 双 WP / B2B Setter 淡出；GoHighLevel 漏斗 206、Valencia pickup 211、Shopify Home Services 排除轨新噪声。本地 intel 无新筛单。",
+      "summary": "公开池 35/0 @18:36（午间同）；推荐仍空。KW 仍 2（WA 314；Appointment 155）。Valencia / Shopify Home Services / React Vite Booking / Bubble 淡出；新进 Go API Booking 279、Tutor Booking 143、91+M WA 订单、Tour Agency SEO 58；GHL 漏斗 206→235。本地 intel 无新筛单。",
       "related_docs": [
         "doc-radar-pulse-1028",
         "doc-week-decision-cards-1028",
