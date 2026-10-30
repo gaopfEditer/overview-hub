@@ -59,3 +59,16 @@
 - `/workspace/notes/`：`radar-daily/reminded-ids.json` 触达；bot-evals 日记非岗位情报；Hermes starters / 额度派工无新改动。
 
 **动作**：不追 Beds24 / NoBeds（淡出）/ Office Agent / FORGEAI 公开价带 / WA Auto-Reply 红海（314）/ Professional Appointment 红海 / **Go API Booking（336）** / Tutor Booking（172）/ Booking-Style Hotel MVP（315）/ Service Booking 低价双端 / Google Ads Booking 投放岗 / 旅行·美业 WP·极低价 booking / 场馆·泛 booking 整站 / GoHighLevel 漏斗（262）/ Mountain Resort 排除轨 / Spiritual Guidance 高标整站 / UX 试玩 / VA·电销·医美投放 / Bubble·Airbnb 市集二开 / Shopify 排除轨与 MAPPY / Hospital 升温噪声 / R8 低价 commodity；过滤口径不变——**只追高客单；Fiverr 低价与标多泛帖过滤；主线 SEO 找词建站，平台接单降优先级**。SEO 主线下一动作仍对齐 Go 卡：云浏览器对比站域名 + Next.js 前 4 URL + Playwright 基准公开 + 2–3 家 Affiliate 申请；可用 TrustMRR 快照作品类/流水旁证（非投单依据）。Watch 卡仅书签双周复盘。预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案（**展示站场景卡文案 / showcase 静态页仍规划中**）。低竞争切片仍对照 10-26 discover + 晚间分层：Claude SEO/MCP 带教、UiPath 日报、发票抽取、LangGraph 教学骨架、Playwright passkey/上传稳态、WA webhook；另保留 n8n CMS SEO、单源 API 看板（提案草稿已备）、支付回调履约、vibe-rescue 分期、ERP NL 助手（分期+人工门）、架构评审咨询包。下一雷达约 **11:44**（every_4h）。
+
+---
+
+## 午间桥接（约 11:00 +08；雷达仍 07:44）
+
+> 线上 meta 仍 **published_at 2026-10-30 07:44:03 +08**，job_leads **32/0**，run_id 未变。相对早间：Freelancer 公开池无新刷。Fiverr 仍 403；Trends 仍 demo。
+
+### 本地 intel（相对早间 hub 09:08）
+
+- Freelancer/Upwork 本地筛单无新文件。
+- **补挂** Demand Radar 线上腰部词池 + 收入榜页摘要 → hub `demand_radar_waist_revenue_2026-10-30.md`（Pages: waist.html / revenue.html）。
+
+**动作**：接单过滤口径不变。SEO 主线用腰部词 pursue 簇推进 Go 卡。下一雷达约 **11:44**（every_4h）。

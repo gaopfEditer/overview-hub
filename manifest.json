@@ -116,6 +116,7 @@
         "doc-radar-pulse-1028",
         "doc-week-decision-cards-1028",
         "doc-radar-pulse-1030",
+        "doc-waist-revenue-1030",
         "doc-fl-layered-1026",
         "doc-fl-samples-1026"
       ],
@@ -1312,7 +1313,8 @@
         "doc-haiwai-positioning-1022",
         "doc-haiwai-showcase-matrix-1026",
         "doc-longtail",
-        "doc-trustmrr-1029"
+        "doc-trustmrr-1029",
+        "doc-waist-revenue-1030"
       ]
     },
     {
@@ -1400,15 +1402,16 @@
         "doc-radar-pulse-1030",
         "doc-haiwai-positioning-1022",
         "doc-longtail",
-        "doc-radar-brief"
+        "doc-radar-brief",
+        "doc-waist-revenue-1030"
       ]
     },
     {
       "id": "doc-radar-pulse-1030",
-      "title": "需求雷达脉搏 2026-10-30（07:44 早间）",
+      "title": "需求雷达脉搏 2026-10-30（07:44 早间 + 11:00 桥接）",
       "path": "docs/notes/radar_pulse_2026-10-30.md",
       "theme": "市场研究",
-      "date": "2026-10-30 07:44",
+      "date": "2026-10-30 11:00",
       "tags": [
         "雷达",
         "Freelancer",
@@ -1426,11 +1429,15 @@
         "TutorBooking",
         "HotelMVP",
         "TrustMRR",
-        "淡出Charleston"
+        "淡出Charleston",
+        "午间",
+        "腰部词",
+        "收入榜"
       ],
-      "summary": "公开池 32/0 @07:44（晚间 35→−3）；推荐仍空。KW 仍 2（WA 314；Appointment 156）。Go API Booking 279→336、GHL 262、Tutor 172 升温；新进 Hotel MVP 315 / Service Booking 低价 / Google Ads Booking；Charleston·UX 试玩淡出。本地新增 TrustMRR 流水快照。",
+      "summary": "公开池仍 32/0 @07:44（run_id 未变，午间无新刷）。KW/红海旁证同早间。补挂 Demand Radar 腰部词池 + 收入榜 Pages 摘要（waist.html / revenue.html）；SEO 用 pursue 簇推进 Go 卡。",
       "related_docs": [
         "doc-radar-pulse-1029",
+        "doc-waist-revenue-1030",
         "doc-trustmrr-1029",
         "doc-week-decision-cards-1028",
         "doc-decision-card-schema-1028",
@@ -1439,6 +1446,34 @@
         "doc-haiwai-showcase-matrix-1026",
         "doc-fl-proposal-dashboard-1024",
         "doc-booking-reject-1021",
+        "doc-radar-brief"
+      ]
+    },
+    {
+      "id": "doc-waist-revenue-1030",
+      "title": "Demand Radar 腰部词 + 收入榜 Pages 摘要 2026-10-30",
+      "path": "docs/notes/demand_radar_waist_revenue_2026-10-30.md",
+      "theme": "市场研究",
+      "date": "2026-10-30 11:00",
+      "tags": [
+        "腰部词",
+        "收入榜",
+        "DemandRadar",
+        "Pages",
+        "SEO",
+        "browserbase",
+        "TrustMRR",
+        "W44",
+        "pursue",
+        "午间"
+      ],
+      "summary": "线上 waist 2026-W44（as_of 10-28，11 词：pursue 6 挂 Go browserbase；watch 4 code-review/周边；skip cursor ai）+ revenue_boards 100 行 as_of 10-29（trustmrr/bizpeel/getlatka/acquire/flippa）。作 SEO 旁证非投单依据；下一动作对齐 Go 卡建站。",
+      "related_docs": [
+        "doc-week-decision-cards-1028",
+        "doc-decision-card-schema-1028",
+        "doc-trustmrr-1029",
+        "doc-radar-pulse-1030",
+        "doc-longtail",
         "doc-radar-brief"
       ]
     }
