@@ -108,7 +108,7 @@ Profile：https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
 
 交叉：\`smb_demand_clusters.md\`（Fiverr BTI / Gig 抽样段落）、模板站链接。
 `},
-{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。2026-10-30 12:56 雷达 31/0（相对早间 32/0 帖数 −1、推荐仍空）；KW 仍 2：WA Auto-Reply 316、Professional Appointment 156 均红海不投；Go API Booking 339、Hotel MVP 330、Spiritual Guidance 356、GHL 263、Tutor 174 继续升温；新进 Yoga Booking 115 / Booking App Backend API 52 / B2B SDR·文案·电销均不投；Service Booking 低价与 Mountain Resort 淡出。过滤：只追高客单；主线 SEO 找词建站。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-fl-samples-1021", "doc-radar-pulse-1022", "doc-booking-keywords-1021", "doc-booking-entry-1021", "doc-booking-acq-1021", "doc-booking-reject-1021", "doc-booking-seeds-1021", "doc-radar-pulse-1023", "doc-fl-samples-1023", "doc-fl-samples-1022", "doc-radar-pulse-1028", "doc-week-decision-cards-1028", "doc-radar-pulse-1030", "doc-waist-revenue-1030", "doc-fl-layered-1026", "doc-fl-samples-1026"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-10-23 16:15", "content": `# Freelancer.com 操作手册
+{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。2026-10-30 18:36 雷达 28/0（相对下午 12:56 的 31/0 帖数 −3、推荐仍空）；KW 仍 2：WA Auto-Reply 316、Appointment Booking Business Website 144（下午 Professional Appointment 换题）均红海不投；Go API Booking 346、Hotel MVP 353、GHL 265、Tutor 178、Booking Backend API 167 继续升温；新进 Dynamic Mobile Repair Booking 172 / DJ Press Kit 147 / Tarot Blueprint·Remote Listing·Commission Sales 均不投；Spiritual Guidance、Yoga Booking、Google Ads Booking、Professional Appointment 淡出。过滤：只追高客单；主线 SEO 找词建站。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-fl-samples-1021", "doc-radar-pulse-1022", "doc-booking-keywords-1021", "doc-booking-entry-1021", "doc-booking-acq-1021", "doc-booking-reject-1021", "doc-booking-seeds-1021", "doc-radar-pulse-1023", "doc-fl-samples-1023", "doc-fl-samples-1022", "doc-radar-pulse-1028", "doc-week-decision-cards-1028", "doc-radar-pulse-1030", "doc-waist-revenue-1030", "doc-fl-layered-1026", "doc-fl-samples-1026"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-10-23 16:15", "content": `# Freelancer.com 操作手册
 
 竞标制项目市场。预算中位偏低、竞标人数多，适合捡「修复/小集成」或练英文提案，不作为主收入依赖。
 
@@ -8370,7 +8370,7 @@ keyword_growth_trend:
 - W44 Go 卡（云浏览器对比站 + Affiliate）优先；流水榜里 Marketing / Analytics / AI 工具密度高，可作选题发散，不据此改 Kill/Watch。
 - 平台接单过滤不变：只追高客单；标多泛帖与低价 Gig 不做。
 `},
-{"id": "doc-radar-pulse-1030", "title": "需求雷达脉搏 2026-10-30（07:44 → 12:56 下午）", "theme": "市场研究", "date": "2026-10-30 12:56", "summary": "公开池 31/0 @12:56（早间 32→−1）；推荐仍空。KW 仍 2（WA 316；Appointment 156）。Go API 339、Hotel MVP 330、Spiritual 356、Google Ads Booking 124 升温；新进 Yoga Booking 115 / Booking Backend API 52；Service Booking·Mountain Resort·FORGEAI 淡出。本地 Freelancer/Upwork 无新筛单；腰部词+收入榜已挂。", "tags": ["雷达", "Freelancer", "脉搏", "预约", "WhatsApp", "MCP", "Claude", "高客单", "早间", "SEO", "周决策卡", "GoAPI-Booking", "GoHighLevel", "TutorBooking", "HotelMVP", "TrustMRR", "淡出Charleston", "午间", "腰部词", "收入榜", "下午", "YogaBooking", "BookingBackendAPI", "淡出ServiceBooking", "淡出MountainResort"], "source": "", "path": "docs/notes/radar_pulse_2026-10-30.md", "related_docs": ["doc-radar-pulse-1029", "doc-waist-revenue-1030", "doc-trustmrr-1029", "doc-week-decision-cards-1028", "doc-decision-card-schema-1028", "doc-fl-samples-1026", "doc-fl-layered-1026", "doc-haiwai-showcase-matrix-1026", "doc-fl-proposal-dashboard-1024", "doc-booking-reject-1021", "doc-radar-brief"], "content": `# 需求雷达脉搏 · 2026-10-30 早间（Asia/Shanghai）
+{"id": "doc-radar-pulse-1030", "title": "需求雷达脉搏 2026-10-30（07:44 → 18:36 晚间）", "theme": "市场研究", "date": "2026-10-30 18:36", "summary": "公开池 28/0 @18:36（下午 31→−3）；推荐仍空。KW 仍 2（WA 316；Appointment Booking 换题 144）。Go API 346、Hotel MVP 353、Backend API 167 升温；新进 Mobile Repair Booking 172；Spiritual·Yoga·Google Ads Booking·Professional Appointment 淡出。本地 Freelancer/Upwork 无新筛单。", "tags": ["雷达", "Freelancer", "脉搏", "预约", "WhatsApp", "MCP", "Claude", "高客单", "早间", "SEO", "周决策卡", "GoAPI-Booking", "GoHighLevel", "TutorBooking", "HotelMVP", "TrustMRR", "淡出Charleston", "午间", "腰部词", "收入榜", "下午", "YogaBooking", "BookingBackendAPI", "淡出ServiceBooking", "淡出MountainResort", "晚间", "MobileRepairBooking", "淡出Spiritual", "淡出YogaBooking", "淡出GoogleAdsBooking", "Appointment换题"], "source": "", "path": "docs/notes/radar_pulse_2026-10-30.md", "related_docs": ["doc-radar-pulse-1029", "doc-waist-revenue-1030", "doc-trustmrr-1029", "doc-week-decision-cards-1028", "doc-decision-card-schema-1028", "doc-fl-samples-1026", "doc-fl-layered-1026", "doc-haiwai-showcase-matrix-1026", "doc-fl-proposal-dashboard-1024", "doc-booking-reject-1021", "doc-radar-brief"], "content": `# 需求雷达脉搏 · 2026-10-30 早间（Asia/Shanghai）
 
 > 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\` + \`job_leads.json\`（\`published_at\` **2026-10-30 07:44:03 +08**，every_4h；\`job_leads_run_id\` 20261030-074304-d248a608）。公开数据 only。相对 **10-29 晚间 18:36** 的 35/0：帖数 **−3 → 32**，推荐池仍空。
 
@@ -8517,6 +8517,79 @@ keyword_growth_trend:
 - \`/workspace/notes/\`：bot-evals / Hermes 派工无岗位情报增量。
 
 **动作**：不追 Beds24 / NoBeds / WA Auto-Reply 红海（316）/ Professional Appointment 红海 / **Go API Booking（339）** / Hotel MVP（330）/ Spiritual Guidance（356）/ Tutor Booking（174）/ Yoga Booking（115）/ Google Ads Booking 投放岗 / Booking App Backend API（暂旁证）/ GHL 漏斗 / Service Booking 淡出低价 / Mountain Resort 淡出 / VA·电销·文案·SDR / Bubble·Airbnb 市集二开 / Shopify 排除轨 / R8 低价 commodity。过滤口径不变——**只追高客单；Fiverr 低价与标多泛帖过滤；主线 SEO 找词建站，平台接单降优先级**。SEO 主线下一动作仍对齐 Go 卡：云浏览器对比站 + 腰部词 pursue 簇；Watch 卡仅书签双周复盘。预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案。低竞争切片仍对照 10-26 discover：Claude SEO/MCP 带教、UiPath 日报、发票抽取、LangGraph 教学骨架、Playwright passkey/上传稳态、WA webhook；另保留 n8n CMS SEO、单源 API 看板（提案草稿已备）、支付回调履约、vibe-rescue 分期、ERP NL 助手（分期+人工门）、架构评审咨询包。下一雷达约 **16:56**（every_4h）。
+
+---
+
+## 晚间脉搏（约 19:00 +08；雷达 18:36）
+
+> 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\` + \`job_leads.json\`（\`published_at\` **2026-10-30 18:36:37 +08**，every_4h；\`job_leads_run_id\` 20261030-183538-33f549e7）。相对下午 **12:56** 的 31/0：帖数 **−3 → 28**，推荐池仍空。Fiverr 仍 403；Trends 仍 demo。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **28**（下午 31） |
+| 推荐数量 | **0** |
+| Job ingest | OK |
+| Fiverr | 仍跳过（HTTP 403 buyer_requests） |
+| Trends | 仍 demo |
+
+### 雷达推荐
+
+- 无（公开池推荐数 0）。
+
+### 关键词过关但仍不推荐（事实）
+
+| 帖 | 预算 | 标 | score | 备注 |
+|---|---|---|---|---|
+| **WhatsApp Auto-Reply Chatbot** | $250–750 | 316→**316** | 75 | 加固/tool；一期+竞争未过 → 红海旁证，不投 |
+| **Appointment Booking Business Website Build**（换题） | ₹750–1250/hr | —→**144** | 67 | 嵌入/appointment booking；下午「Professional Appointment…」本刷不在池，同预算带换题仍红海，不投 |
+
+关键词过关仍 **2**。
+
+### 相对下午 12:56 变化（事实）
+
+- 推荐池仍空；KW 主信号仍为 WA + Appointment Booking（下午 Professional Appointment **淡出/换题**）。
+- **Go API for Booking App**：$250–750 · 339→**346** → 继续红海升温，不投。
+- **Booking-Style Hotel Site MVP**：€250–750 · 330→**353** → 酒店风 booking MVP 标继续冲高，不投。
+- **GoHighLevel Appointment Funnel Setup**：$250–750 · 263→**265** → 漏斗配置噪声，不投。
+- **Tutor Booking App & Website**：₹12.5k–37.5k · 174→**178** → 教务预约整站噪声，不投。
+- **Booking App Backend API Build**：₹12.5k–37.5k · 52→**167** → 标暴涨过百，窄 API 旁证失效，不投。
+- **新进**：
+  | 帖 | 标 | 备注 |
+  |---|---|---|
+  | **Dynamic Mobile Repair Booking Website** | **172** | ₹12.5k–37.5k；手机维修预约站，红海，不投 |
+  | **Clickable Electronic DJ Press Kit** | **147** | $30–250；EPK/设计向低价，不投 |
+  | **Appointment Booking Business Website Build** | **144** | 见 KW 表；换题红海 |
+  | **Tarot Service Business Blueprint** | **42** | $250–750；咨询蓝图非工程，不投 |
+  | **Remote Listing & Guest Coordinator** | **58** | $250–750；Airbnb 运营协调非工程，不投 |
+  | **Commission Sales Partner for Software Agency** | **0** | ₹1k–5k；佣金销售合伙人，不投 |
+- **淡出**（下午前排、本刷不在池）：Spiritual Guidance Website Build（356）、Yoga Booking（115）、Google Ads Booking Campaign（124）、Professional Appointment Booking Platform（156）、Service Store Copywriting。
+- 预约旁证（均关键词未过 / 排除轨 / 红海；标相对下午）：
+
+  | 帖 | 标（下午→晚间） | 备注 |
+  |---|---|---|
+  | Professional Appointment Booking | 156→**—** | **淡出/换题** |
+  | Appointment Booking Business Website | —→**144** | 见 KW 表 |
+  | Multi-Sport Court Booking Platform | 105→**105** | 场馆预约整站 |
+  | Elegant Salon App UI Overhaul | 120→**120** | 美业 UI |
+  | Med Spa Lead Appointment Setter | 28→**28** | 非工程 |
+  | GoHighLevel Appointment Funnel | 263→**265** | 见上 |
+  | Go API for Booking App | 339→**346** | 见上 |
+  | Tutor Booking App & Website | 174→**178** | 见上 |
+  | Booking-Style Hotel Site MVP | 330→**353** | 见上 |
+  | Booking App Backend API | 52→**167** | 见上 |
+  | Dynamic Mobile Repair Booking（新进） | —→**172** | 见上 |
+  | Yoga Booking / Google Ads Booking | →**—** | **淡出** |
+
+- 本刷噪声（关键词未过，不作主投）：Airbnb Cleaning 市集源码（**309**）、Bilingual AI Real Estate（**198**）、Videographer Marketplace（**166**）、Hospital Management（**131**）、Veterinary（**107**）、Shopify MAPPY（**98**）、Claude Setup Mac Mini（**116**）、MCP Hands-On（**84**）、AWS AgentCore（**67**）、E2E QA（**36**）、Reddit 医美投放（**40**）、B2B SDR（**11**）、Cold Calling Receptionist（**19**）、Tarot Blueprint / Commission Sales / Remote Listing 等。Bubble / Valencia / NoBeds / Spiritual Guidance / Yoga Booking / Google Ads Booking / Beds24 本刷**不在前排**。
+
+### 本地 intel（相对下午 hub 13:02）
+
+- \`/workspace/freelancer/\`：无新于 10-26 晚分层短名单 / discover / templates / 提案草稿的文件；\`screen_mode.md\` 仍 \`discover\` + 高客单过滤；R8–R10 拒单未改。无 **2026-10-27–30** 新 \`demand_samples_*\`。
+- \`/workspace/upwork/\`：最新仍为 **2026-10-19** \`checked_*\` / \`screened_*\`；无 Oct 20–30 筛单文件。
+- \`/workspace/出海变现/\`：周决策卡与 TrustMRR / 腰部词+收入榜摘要已挂 hub；无新于下午的本地要点文件。
+- \`/workspace/notes/\`：\`radar-daily/reminded-ids.json\` 早间触达；bot-evals / Hermes 派工无岗位情报增量。
+
+**动作**：不追 Beds24 / NoBeds / WA Auto-Reply 红海（316）/ Appointment Booking 换题红海（144）/ **Go API Booking（346）** / Hotel MVP（353）/ Tutor Booking（178）/ Booking Backend API（167）/ Dynamic Mobile Repair Booking（172）/ GHL 漏斗 / Spiritual·Yoga·Google Ads Booking 淡出帖 / VA·电销·文案·SDR·佣金销售 / Bubble·Airbnb 市集二开 / Shopify 排除轨 / EPK 设计低价 / R8 低价 commodity。过滤口径不变——**只追高客单；Fiverr 低价与标多泛帖过滤；主线 SEO 找词建站，平台接单降优先级**。SEO 主线下一动作仍对齐 Go 卡：云浏览器对比站 + 腰部词 pursue 簇；Watch 卡仅书签双周复盘。预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案。低竞争切片仍对照 10-26 discover：Claude SEO/MCP 带教、UiPath 日报、发票抽取、LangGraph 教学骨架、Playwright passkey/上传稳态、WA webhook；另保留 n8n CMS SEO、单源 API 看板（提案草稿已备）、支付回调履约、vibe-rescue 分期、ERP NL 助手（分期+人工门）、架构评审咨询包。下一雷达约 **22:36**（every_4h；若跨安静时段则明早再看）。
 `},
 {"id": "doc-waist-revenue-1030", "title": "Demand Radar 腰部词 + 收入榜 Pages 摘要 2026-10-30", "theme": "市场研究", "date": "2026-10-30 11:00", "summary": "线上 waist 2026-W44（as_of 10-28，11 词：pursue 6 挂 Go browserbase；watch 4 code-review/周边；skip cursor ai）+ revenue_boards 100 行 as_of 10-29（trustmrr/bizpeel/getlatka/acquire/flippa）。作 SEO 旁证非投单依据；下一动作对齐 Go 卡建站。", "tags": ["腰部词", "收入榜", "DemandRadar", "Pages", "SEO", "browserbase", "TrustMRR", "W44", "pursue", "午间"], "source": "", "path": "docs/notes/demand_radar_waist_revenue_2026-10-30.md", "related_docs": ["doc-week-decision-cards-1028", "doc-decision-card-schema-1028", "doc-trustmrr-1029", "doc-radar-pulse-1030", "doc-longtail", "doc-radar-brief"], "content": `# Demand Radar 腰部词池 + 收入榜 · 2026-10-30 午间挂接（Asia/Hong_Kong）
 

@@ -96,7 +96,7 @@
       "type": "freelance",
       "title": "Freelancer.com",
       "url": "https://www.freelancer.com/",
-      "summary": "竞标制补充池。2026-10-30 12:56 雷达 31/0（相对早间 32/0 帖数 −1、推荐仍空）；KW 仍 2：WA Auto-Reply 316、Professional Appointment 156 均红海不投；Go API Booking 339、Hotel MVP 330、Spiritual Guidance 356、GHL 263、Tutor 174 继续升温；新进 Yoga Booking 115 / Booking App Backend API 52 / B2B SDR·文案·电销均不投；Service Booking 低价与 Mountain Resort 淡出。过滤：只追高客单；主线 SEO 找词建站。",
+      "summary": "竞标制补充池。2026-10-30 18:36 雷达 28/0（相对下午 12:56 的 31/0 帖数 −3、推荐仍空）；KW 仍 2：WA Auto-Reply 316、Appointment Booking Business Website 144（下午 Professional Appointment 换题）均红海不投；Go API Booking 346、Hotel MVP 353、GHL 265、Tutor 178、Booking Backend API 167 继续升温；新进 Dynamic Mobile Repair Booking 172 / DJ Press Kit 147 / Tarot Blueprint·Remote Listing·Commission Sales 均不投；Spiritual Guidance、Yoga Booking、Google Ads Booking、Professional Appointment 淡出。过滤：只追高客单；主线 SEO 找词建站。",
       "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解",
       "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评",
       "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。",
@@ -1408,10 +1408,10 @@
     },
     {
       "id": "doc-radar-pulse-1030",
-      "title": "需求雷达脉搏 2026-10-30（07:44 → 12:56 下午）",
+      "title": "需求雷达脉搏 2026-10-30（07:44 → 18:36 晚间）",
       "path": "docs/notes/radar_pulse_2026-10-30.md",
       "theme": "市场研究",
-      "date": "2026-10-30 12:56",
+      "date": "2026-10-30 18:36",
       "tags": [
         "雷达",
         "Freelancer",
@@ -1437,9 +1437,15 @@
         "YogaBooking",
         "BookingBackendAPI",
         "淡出ServiceBooking",
-        "淡出MountainResort"
+        "淡出MountainResort",
+        "晚间",
+        "MobileRepairBooking",
+        "淡出Spiritual",
+        "淡出YogaBooking",
+        "淡出GoogleAdsBooking",
+        "Appointment换题"
       ],
-      "summary": "公开池 31/0 @12:56（早间 32→−1）；推荐仍空。KW 仍 2（WA 316；Appointment 156）。Go API 339、Hotel MVP 330、Spiritual 356、Google Ads Booking 124 升温；新进 Yoga Booking 115 / Booking Backend API 52；Service Booking·Mountain Resort·FORGEAI 淡出。本地 Freelancer/Upwork 无新筛单；腰部词+收入榜已挂。",
+      "summary": "公开池 28/0 @18:36（下午 31→−3）；推荐仍空。KW 仍 2（WA 316；Appointment Booking 换题 144）。Go API 346、Hotel MVP 353、Backend API 167 升温；新进 Mobile Repair Booking 172；Spiritual·Yoga·Google Ads Booking·Professional Appointment 淡出。本地 Freelancer/Upwork 无新筛单。",
       "related_docs": [
         "doc-radar-pulse-1029",
         "doc-waist-revenue-1030",
