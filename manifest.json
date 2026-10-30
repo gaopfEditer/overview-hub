@@ -96,7 +96,7 @@
       "type": "freelance",
       "title": "Freelancer.com",
       "url": "https://www.freelancer.com/",
-      "summary": "竞标制补充池。2026-10-23 17:13 雷达 37/0（相对午后 11:55 的 31/0 帖数 +6、推荐仍空；新入 Next.js+Calendly+HubSpot score75/143 标、Professional Appointment Booking score67/126 标均红海不投；Office Agent 138；FORGEAI 50→69；Charleston 167→191；Beds24--5 仍不在前排）。手工 discover 09:11 入样 16（613→423）；T-FL×2（n8n-cms-seo / api-metric-dashboard）。预约线靠关键词日表+拒单规则+bz.a/smart.a 提案。",
+      "summary": "竞标制补充池。2026-10-30 07:44 雷达 32/0（相对 10-29 晚 35/0 帖数 −3、推荐仍空）；KW 仍 2：WA Auto-Reply 314、Professional Appointment 156 均红海不投；Go API Booking 279→336、GHL 漏斗 262、Tutor Booking 172 升温；新进 Booking-Style Hotel MVP 315 / Service Booking 低价 / Google Ads Booking 投放岗均不投。过滤：只追高客单；主线 SEO 找词建站。",
       "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解",
       "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评",
       "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。",
@@ -114,7 +114,10 @@
         "doc-fl-samples-1023",
         "doc-fl-samples-1022",
         "doc-radar-pulse-1028",
-        "doc-week-decision-cards-1028"
+        "doc-week-decision-cards-1028",
+        "doc-radar-pulse-1030",
+        "doc-fl-layered-1026",
+        "doc-fl-samples-1026"
       ],
       "tags": [
         "Freelancer",
@@ -1308,7 +1311,8 @@
         "doc-radar-pulse-1028",
         "doc-haiwai-positioning-1022",
         "doc-haiwai-showcase-matrix-1026",
-        "doc-longtail"
+        "doc-longtail",
+        "doc-trustmrr-1029"
       ]
     },
     {
@@ -1370,7 +1374,72 @@
         "doc-fl-proposal-dashboard-1024",
         "doc-booking-reject-1021",
         "doc-radar-brief",
-        "doc-hermes-dispatch-quota-1028"
+        "doc-hermes-dispatch-quota-1028",
+        "doc-radar-pulse-1030"
+      ]
+    },
+    {
+      "id": "doc-trustmrr-1029",
+      "title": "TrustMRR 公开流水快照 2026-10-29",
+      "path": "docs/notes/trustmrr_revenue_snapshot_2026-10-29.md",
+      "theme": "市场研究",
+      "date": "2026-10-29 23:24",
+      "tags": [
+        "TrustMRR",
+        "流水",
+        "MRR",
+        "SEO",
+        "产品兴衰",
+        "revenue-scrapers",
+        "Stripe校验"
+      ],
+      "summary": "官方公开 API 快照 100 行（新增/增长/在售/deals）。命名摘录含 Knightvision、Get Funneled、Store Stock Checker、KreatorflowAI、WESAM.ai 等；作 SEO 选题旁证，不替代周决策卡。",
+      "related_docs": [
+        "doc-week-decision-cards-1028",
+        "doc-decision-card-schema-1028",
+        "doc-radar-pulse-1030",
+        "doc-haiwai-positioning-1022",
+        "doc-longtail",
+        "doc-radar-brief"
+      ]
+    },
+    {
+      "id": "doc-radar-pulse-1030",
+      "title": "需求雷达脉搏 2026-10-30（07:44 早间）",
+      "path": "docs/notes/radar_pulse_2026-10-30.md",
+      "theme": "市场研究",
+      "date": "2026-10-30 07:44",
+      "tags": [
+        "雷达",
+        "Freelancer",
+        "脉搏",
+        "预约",
+        "WhatsApp",
+        "MCP",
+        "Claude",
+        "高客单",
+        "早间",
+        "SEO",
+        "周决策卡",
+        "GoAPI-Booking",
+        "GoHighLevel",
+        "TutorBooking",
+        "HotelMVP",
+        "TrustMRR",
+        "淡出Charleston"
+      ],
+      "summary": "公开池 32/0 @07:44（晚间 35→−3）；推荐仍空。KW 仍 2（WA 314；Appointment 156）。Go API Booking 279→336、GHL 262、Tutor 172 升温；新进 Hotel MVP 315 / Service Booking 低价 / Google Ads Booking；Charleston·UX 试玩淡出。本地新增 TrustMRR 流水快照。",
+      "related_docs": [
+        "doc-radar-pulse-1029",
+        "doc-trustmrr-1029",
+        "doc-week-decision-cards-1028",
+        "doc-decision-card-schema-1028",
+        "doc-fl-samples-1026",
+        "doc-fl-layered-1026",
+        "doc-haiwai-showcase-matrix-1026",
+        "doc-fl-proposal-dashboard-1024",
+        "doc-booking-reject-1021",
+        "doc-radar-brief"
       ]
     }
   ]
