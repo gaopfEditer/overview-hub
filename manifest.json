@@ -96,7 +96,7 @@
       "type": "freelance",
       "title": "Freelancer.com",
       "url": "https://www.freelancer.com/",
-      "summary": "竞标制补充池。2026-10-30 18:36 雷达 28/0（相对下午 12:56 的 31/0 帖数 −3、推荐仍空）；KW 仍 2：WA Auto-Reply 316、Appointment Booking Business Website 144（下午 Professional Appointment 换题）均红海不投；Go API Booking 346、Hotel MVP 353、GHL 265、Tutor 178、Booking Backend API 167 继续升温；新进 Dynamic Mobile Repair Booking 172 / DJ Press Kit 147 / Tarot Blueprint·Remote Listing·Commission Sales 均不投；Spiritual Guidance、Yoga Booking、Google Ads Booking、Professional Appointment 淡出。过滤：只追高客单；主线 SEO 找词建站。",
+      "summary": "竞标制补充池。2026-11-02 15:29 雷达 **33/0**（相对 10-30 晚间 28/0 帖数 +5、推荐仍空；跨周末首刷）。KW 过关 6：n8n Sales Automation 335、Supabase CRM 93、Appointment Booking Business Website 188、Open-Source LLM Deploy 18、AgentCore voice 62、RAG+LangGraph 170 —— 均红海/低价/标多不投；LLM Deploy 仅作本地 Agent/Ollama 旁证。预约旁证升温：Go API Booking 352、Hotel MVP 368、Tutor 195、Mobile Repair 228；新进 Limousine 266 / Astrology 230 等整站红海不投。淡出：WA Auto-Reply、GHL、Backend API、Yoga/Spiritual 等。过滤：只追高客单；主线 SEO 找词建站；平台接单降优先级。",
       "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解",
       "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评",
       "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。",
@@ -118,7 +118,8 @@
         "doc-radar-pulse-1030",
         "doc-waist-revenue-1030",
         "doc-fl-layered-1026",
-        "doc-fl-samples-1026"
+        "doc-fl-samples-1026",
+        "doc-radar-pulse-1102"
       ],
       "tags": [
         "Freelancer",
