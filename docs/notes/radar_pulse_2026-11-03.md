@@ -150,3 +150,67 @@
 - `/workspace/notes/`：无新岗位情报（`python-ai-operate-backtests` 旁路笔记不入接单池）。
 
 **动作**：过滤口径不变——**只追高客单；标多/低价/电销约访/投放岗一律不投；主线 SEO 找词建站**。不追 n8n 375 / Supabase 108 / Appointment 189 / Go API 355 / Hotel 368 / GHL 101（极低时薪）/ Cold Calling Setter 0标。**LLM Deploy（22）**仍仅作本地 Agent/Ollama 旁证。SEO 下一动作对齐 Go 卡：云浏览器对比站域名 + Next.js 前 4 URL + Playwright 基准公开 + Affiliate 申请。预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案。下一雷达约 **14:06**（every_4h）。
+
+## 午后脉搏（约 13:00 +08；雷达 12:38）
+
+> 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) `data/meta.json` + `job_leads.json`（`published_at` **2026-11-03 12:38:52 +08**，every_4h；`job_leads_run_id` 20261103-123754-1edd3bc6；`last_run_id` 20261103-123852-96dae45c）。公开数据 only。相对 **午间 10:06** 的 36/0：帖数 **+1 → 37**，推荐池仍空。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **37**（午间 36） |
+| 推荐数量 | **0** |
+| Job ingest | OK |
+| Fiverr | 仍跳过（HTTP 403 buyer_requests） |
+| Trends | 仍 demo |
+
+### 关键词过关但仍不推荐（事实）
+
+| 帖 | 预算 | 标 | score | 备注 |
+|---|---|---|---|---|
+| **Build AI Sales Automation System** | $250–750 | 375→**376** | 75 | 加固/tool:n8n；一期+竞争未过 → n8n 红海微升，不投 |
+| **Supabase-Powered React CRM Module** | $8–15/hr | 108→**108** | 75 | 加固/tool:supabase；一期未过；极低时薪+破百标 → R8 拒单带，不投 |
+| **Appointment Booking Business Website Build** | ₹750–1250/hr | 189→**189** | 67 | 嵌入/appointment booking；一期+竞争未过 → 预约换题持平红海，不投 |
+| **Open-Source LLM Deployment Specialist** | ₹75k–150k | 22→**22** | 67 | 加固/phrase:deploy；一期未过；标仍偏低 → **本地 LLM/Ollama 部署旁证**，暂不投 |
+| **phone voice agent … AWS AgentCore** | $10–30 | 68→**68** | 67 | 加固/phrase:deploy；一期未过；极低价 voice agent，不投 |
+| **Senior AI Engineer - Enterprise RAG, LangGraph & AI Agent** | $25–50/hr | 176→**176** | 45 | 加固/generic_demote；一期过但竞争未过 → 标多泛帖，不投 |
+
+关键词过关仍 **6**（与午间同题；标数几乎持平）。
+
+### 相对午间 10:06 变化（事实）
+
+- 推荐池仍空；KW 主信号不变：**n8n Sales / Supabase CRM / Appointment / LLM Deploy / AgentCore voice / RAG+LangGraph**。
+- **n8n Sales Automation**：375→**376**；其余 KW 帖标数持平，不投。
+- **Go API for Booking App**：**355** 持平；**Limousine Booking**：330→**331**；**Hotel MVP**：**368**；**Tutor**：**196**；**Mobile Repair**：**229**；**Astrology**：**236** → 预约红海持平/微升，不投。
+- **GHL Expert**：101→**129** → 极低时薪 + 标急升，不投。
+- **University AI**：169→**173**；**Service-Booking Store**：133→**137**；**Thailand Transfer**：258→**266**；**VikBooking Stripe**：109→**112**；**Short-Term Rental Social**：118→**123**；**TikTok Reels**：83→**84**；PDF 题库 339→**340**；地产线索 280→**283** → 均 KW 未过/投放岗/排除轨，不投。
+- **新进**（相对午间；关键词未过）：
+
+  | 帖 | 标 | 备注 |
+  |---|---|---|
+  | **Marketplace Jasa Berbasis Komisi** | **74** | $250–750；印尼佣金市集整盘 → 无限范围/非切片，不投 |
+
+- 预约旁证（均关键词未过 / 排除轨 / 红海；标相对午间）：
+
+  | 帖 | 标（午→午后） | 备注 |
+  |---|---|---|
+  | Appointment Booking Business Website | 189→**189** | 见 KW 表 |
+  | Go API for Booking App | 355→**355** | 见上 |
+  | Booking-Style Hotel Site MVP | 368→**368** | 见上 |
+  | Tutor / Mobile Repair / Limousine / Astrology | 196 / 229 / 331 / 236 | 持平或 +1 |
+  | Service-Booking Store / Thailand Transfer / Calendar Scheduling | 137 / 266 / 36 | 微升 |
+  | Boost Salon / Female Salon Setter | **47** / **34** | 非工程 |
+  | GHL Expert | 101→**129** | 见上 |
+  | Cold Calling Appointment Setter | **0** | 电销岗，不投 |
+
+- 本刷噪声（关键词未过，不作主投）：PDF 题库（**340**）、地产线索回收（**283**）、双语地产 Agent（**209**）、Videographer Marketplace（**170**）、Futuristic WP（**167**）、University AI（**173**）、AI Automation mentorship（**195**）、Shopify MAPPY（**103**）、Commission BD（**91**）、AgentCore --2（**72**）、TikTok Reels（**84**）、E2E QA（**40**）、Cold Calling Receptionist（**18**）、Mumbai CTO（**7**）、Short-Term Rental Social（**123**）、Local Customer Boost（**23**）、Marketplace Jasa（**74**）等。Beds24 / NoBeds / WA Auto-Reply / Spiritual / Yoga 本刷**仍不在前排**。
+
+### 本地 intel 扫描（相对午间 hub 提交 10:58）
+
+- `/workspace/freelancer/`：仍无新于 10-26 晚分层短名单 / discover / templates；`screen_mode.md` 仍 `discover` + 高客单过滤。无 10-27–11-03 新 `demand_samples_*`。
+- `/workspace/upwork/`：最新仍为 **2026-10-19** `checked_*` / `screened_*`；无 Oct 20–11-03 筛单文件。
+- `/workspace/出海变现/`：周决策卡 / TrustMRR / 腰部词+收入榜摘要已挂 hub；无 11-03 新要点文件。
+- `/workspace/task-os/weekly/2026-W45.md`：11:16 旁证续已记早+午 36/0；本刷未改周文件。
+- `/workspace/demand-radar/`：exports 仍 stub；无新可读岗位导出。
+- `/workspace/notes/`：无新岗位情报。
+
+**动作**：过滤口径不变——**只追高客单；标多/低价/电销约访/投放岗/整盘市集一律不投；主线 SEO 找词建站**。不追 n8n 376 / Supabase 108 / Appointment 189 / Go API 355 / Hotel 368 / GHL 129 / Marketplace Jasa 74 / Cold Calling Setter 0 标。**LLM Deploy（22）**仍仅作本地 Agent/Ollama 旁证。SEO 下一动作对齐 Go 卡：云浏览器对比站域名 + Next.js 前 4 URL + Playwright 基准公开 + Affiliate 申请。预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案。下一雷达约 **16:38**（every_4h）。

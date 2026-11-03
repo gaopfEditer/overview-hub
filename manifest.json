@@ -96,7 +96,7 @@
       "type": "freelance",
       "title": "Freelancer.com",
       "url": "https://www.freelancer.com/",
-      "summary": "竞标制补充池。2026-11-02 15:29 雷达 **33/0**（相对 10-30 晚间 28/0 帖数 +5、推荐仍空；跨周末首刷）。KW 过关 6：n8n Sales Automation 335、Supabase CRM 93、Appointment Booking Business Website 188、Open-Source LLM Deploy 18、AgentCore voice 62、RAG+LangGraph 170 —— 均红海/低价/标多不投；LLM Deploy 仅作本地 Agent/Ollama 旁证。预约旁证升温：Go API Booking 352、Hotel MVP 368、Tutor 195、Mobile Repair 228；新进 Limousine 266 / Astrology 230 等整站红海不投。淡出：WA Auto-Reply、GHL、Backend API、Yoga/Spiritual 等。过滤：只追高客单；主线 SEO 找词建站；平台接单降优先级。",
+      "summary": "竞标制补充池。2026-11-03 12:38 雷达 **37/0**（相对午间 10:06 的 36/0 帖数 +1、推荐仍空）。KW 过关 6：n8n Sales Automation 376、Supabase CRM 108、Appointment Booking Business Website 189、Open-Source LLM Deploy 22、AgentCore voice 68、RAG+LangGraph 176 —— 均红海/低价/标多不投；LLM Deploy 仅作本地 Agent/Ollama 旁证。预约旁证：Go API Booking 355、Hotel MVP 368、Tutor 196、Mobile Repair 229、Limousine 331、Astrology 236；GHL Expert 129（£5–10/hr 极低时薪）回升不投；新进 Marketplace Jasa（佣金市集）74 不投。过滤：只追高客单；主线 SEO 找词建站；平台接单降优先级。",
       "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解",
       "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评",
       "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。",
@@ -1541,10 +1541,10 @@
     },
     {
       "id": "doc-radar-pulse-1103",
-      "title": "需求雷达脉搏 2026-11-03（05:07 早间 → 10:06 午间）",
+      "title": "需求雷达脉搏 2026-11-03（05:07 早间 → 10:06 午间 → 12:38 午后）",
       "path": "docs/notes/radar_pulse_2026-11-03.md",
       "theme": "市场研究",
-      "date": "2026-11-03 10:06",
+      "date": "2026-11-03 12:38",
       "tags": [
         "雷达",
         "Freelancer",
@@ -1570,9 +1570,13 @@
         "Appointment持平",
         "午间",
         "GHL-return",
-        "ColdCallingSetter"
+        "ColdCallingSetter",
+        "午后",
+        "MarketplaceJasa",
+        "GHL-129",
+        "37帖"
       ],
-      "summary": "公开池 36/0 @10:06（早间同数）；推荐仍空。KW 仍 6（n8n 375；Supabase 108；Appointment 189；LLM Deploy 22；AgentCore 68；RAG LangGraph 176）。新进 GHL Expert 101（£5–10/hr）与 Cold Calling Setter 0 标；Shopify Beauty / Tarot 淡出。本地 Freelancer/Upwork 仍无新筛单。",
+      "summary": "公开池 37/0 @12:38（午间 36→+1）；推荐仍空。KW 仍 6（n8n 376；Supabase 108；Appointment 189；LLM Deploy 22；AgentCore 68；RAG LangGraph 176）。新进 Marketplace Jasa 74；GHL 101→129。本地 Freelancer/Upwork 仍无新筛单。",
       "related_docs": [
         "doc-radar-pulse-1102",
         "doc-radar-pulse-1030",
