@@ -96,7 +96,7 @@
       "type": "freelance",
       "title": "Freelancer.com",
       "url": "https://www.freelancer.com/",
-      "summary": "竞标制补充池。2026-11-04 08:29 雷达 **30/0**（相对 11-03 午后 12:38 的 37/0 帖数 -7、推荐仍空）。KW 过关 5（RAG+LangGraph 淡出）：n8n Sales Automation 413、Supabase CRM 112、Appointment Booking Business Website 190、Open-Source LLM Deploy 25、AgentCore voice 70 —— 均红海/低价/标多不投；LLM Deploy 仅作本地 Agent/Ollama 旁证。预约旁证：Hotel MVP 367、Mobile Repair 229、Limousine 342、Astrology 237、Service-Booking Store 167、Equipment Booking 84、Bubble Rental 38、Hotel Academic 121；新进 B2B Sales Closer（高预算非工程）2、Investor Appointment Setter 6、Website Enhancement 308 不投；Go API Booking / Tutor / Thailand Transfer / GHL / Marketplace Jasa / RAG+LangGraph 淡出。过滤：只追高客单；主线 SEO 找词建站；平台接单降优先级。",
+      "summary": "竞标制补充池。2026-11-04 11:58 雷达 **30/0**（相对早间 08:29 持平、推荐仍空）。KW 过关 5 持平：n8n Sales Automation 413、Supabase CRM 112、Appointment Booking Business Website 190、Open-Source LLM Deploy 25、AgentCore voice 70 —— 均红海/低价/标多不投；LLM Deploy 仅作本地 Agent/Ollama 旁证。预约旁证：Hotel MVP 367、Mobile Repair 229、Limousine 343、Service-Booking Store 167、Responsive Equipment 84→133、Bubble Rental 38→61；Hotel Academic 淡出。新进 Elegant Travel Poster（非工程）。Website Enhancement 308→368。本地筛单仍停 10-26/10-19。",
       "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解",
       "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评",
       "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。",
@@ -1543,10 +1543,10 @@
     },
     {
       "id": "doc-radar-pulse-1104",
-      "title": "需求雷达脉搏 2026-11-04（08:29 早间）",
+      "title": "需求雷达脉搏 2026-11-04（08:29 早间 → 11:58 午间）",
       "path": "docs/notes/radar_pulse_2026-11-04.md",
       "theme": "市场研究",
-      "date": "2026-11-04 08:29",
+      "date": "2026-11-04 11:58",
       "tags": [
         "雷达",
         "Freelancer",
@@ -1570,9 +1570,15 @@
         "EquipmentBooking",
         "BubbleRental",
         "SalesCloser",
-        "30帖"
+        "30帖",
+        "午间",
+        "Equipment急升",
+        "WebsiteEnhancement急升",
+        "淡出HotelAcademic",
+        "TravelPoster",
+        "Bubble61"
       ],
-      "summary": "公开池 30/0 @08:29（11-03 午后 37→-7）；推荐仍空。KW 过关 6→5（n8n 413；Supabase 112；Appointment 190；LLM Deploy 25；AgentCore 70；RAG+LangGraph 淡出）。新进 Bubble/Equipment Booking、Hotel Academic、B2B Sales Closer、Investor Setter；Go API / Tutor / Thailand / GHL / Marketplace Jasa 淡出。本地 Freelancer/Upwork 仍无新筛单。",
+      "summary": "公开池 30/0 @11:58（相对早间持平）；推荐仍空。KW 过关 5 标数持平（n8n 413；Supabase 112；Appointment 190；LLM Deploy 25；AgentCore 70）。Responsive Equipment 84→133；Website Enhancement 308→368；Bubble 38→61。Hotel Academic 淡出；新进 Travel Poster。本地 Freelancer/Upwork 仍无新筛单。",
       "related_docs": [
         "doc-radar-pulse-1103",
         "doc-radar-pulse-1102",
