@@ -108,7 +108,7 @@ Profile：https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
 
 交叉：\`smb_demand_clusters.md\`（Fiverr BTI / Gig 抽样段落）、模板站链接。
 `},
-{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。2026-11-04 11:58 雷达 **30/0**（相对早间 08:29 持平、推荐仍空）。KW 过关 5 持平：n8n Sales Automation 413、Supabase CRM 112、Appointment Booking Business Website 190、Open-Source LLM Deploy 25、AgentCore voice 70 —— 均红海/低价/标多不投；LLM Deploy 仅作本地 Agent/Ollama 旁证。预约旁证：Hotel MVP 367、Mobile Repair 229、Limousine 343、Service-Booking Store 167、Responsive Equipment 84→133、Bubble Rental 38→61；Hotel Academic 淡出。新进 Elegant Travel Poster（非工程）。Website Enhancement 308→368。本地筛单仍停 10-26/10-19。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-radar-pulse-1104", "doc-fl-samples-1021", "doc-radar-pulse-1022", "doc-booking-keywords-1021", "doc-booking-entry-1021", "doc-booking-acq-1021", "doc-booking-reject-1021", "doc-booking-seeds-1021", "doc-radar-pulse-1023", "doc-fl-samples-1023", "doc-fl-samples-1022", "doc-radar-pulse-1028", "doc-week-decision-cards-1028", "doc-radar-pulse-1030", "doc-waist-revenue-1030", "doc-fl-layered-1026", "doc-fl-samples-1026", "doc-radar-pulse-1103", "doc-radar-pulse-1102"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-10-23 16:15", "content": `# Freelancer.com 操作手册
+{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。2026-11-05 08:49 雷达 **29/0**（相对 11-04 午间 30/0 −1、推荐仍空）。KW 过关缩为 3：n8n Sales Automation 415、Supabase CRM 116、AgentCore voice 70——均红海/低价/缺一期，不投；Appointment 与 LLM Deploy 淡出 KW。本地新挂 TrustMRR 周边机会卡（HiddenRoles ATS Detector = Go）。过滤：只追高客单；标多/低价/约访/投放/低码整盘不做；主线 SEO 找词建站。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-radar-pulse-1104", "doc-peripheral-cards-1104", "doc-radar-pulse-1105", "doc-fl-samples-1021", "doc-radar-pulse-1022", "doc-booking-keywords-1021", "doc-booking-entry-1021", "doc-booking-acq-1021", "doc-booking-reject-1021", "doc-booking-seeds-1021", "doc-radar-pulse-1023", "doc-fl-samples-1023", "doc-fl-samples-1022", "doc-radar-pulse-1028", "doc-week-decision-cards-1028", "doc-radar-pulse-1030", "doc-waist-revenue-1030", "doc-fl-layered-1026", "doc-fl-samples-1026", "doc-radar-pulse-1103", "doc-radar-pulse-1102"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-10-23 16:15", "content": `# Freelancer.com 操作手册
 
 竞标制项目市场。预算中位偏低、竞标人数多，适合捡「修复/小集成」或练英文提案，不作为主收入依赖。
 
@@ -7863,7 +7863,7 @@ keyword_growth_trend:
 - 周卡正文：\`week-decision-cards-YYYY-MM-DD.md\`  
 - 本规格：\`decision-card-schema.md\`（同目录）
 `},
-{"id": "doc-week-decision-cards-1028", "title": "出海 SEO 周决策卡 2026-W44（Go/Watch/Kill）", "theme": "市场研究", "date": "2026-10-28 18:00", "summary": "Go：browserbase alternatives（云浏览器对比站+Affiliate/计算器）。Watch：best ai code review tools。Kill：cursor ai 品牌导航红海。下一动作对齐 Go 卡建站。", "tags": ["周决策卡", "SEO", "browserbase", "code-review", "cursor", "Go", "Watch", "Kill", "Affiliate"], "source": "", "path": "出海变现/demand-radar/week-decision-cards-2026-10-28.md", "related_docs": ["doc-decision-card-schema-1028", "doc-radar-pulse-1028", "doc-haiwai-positioning-1022", "doc-haiwai-showcase-matrix-1026", "doc-longtail", "doc-trustmrr-1029", "doc-waist-revenue-1030"], "content": `# 出海 SEO 周决策卡 · 2026-10-28（Asia/Hong_Kong）
+{"id": "doc-week-decision-cards-1028", "title": "出海 SEO 周决策卡 2026-W44（Go/Watch/Kill）", "theme": "市场研究", "date": "2026-10-28 18:00", "summary": "Go：browserbase alternatives（云浏览器对比站+Affiliate/计算器）。Watch：best ai code review tools。Kill：cursor ai 品牌导航红海。下一动作对齐 Go 卡建站。", "tags": ["周决策卡", "SEO", "browserbase", "code-review", "cursor", "Go", "Watch", "Kill", "Affiliate"], "source": "", "path": "出海变现/demand-radar/week-decision-cards-2026-10-28.md", "related_docs": ["doc-decision-card-schema-1028", "doc-radar-pulse-1028", "doc-haiwai-positioning-1022", "doc-haiwai-showcase-matrix-1026", "doc-longtail", "doc-trustmrr-1029", "doc-waist-revenue-1030", "doc-peripheral-cards-1104", "doc-radar-pulse-1105"], "content": `# 出海 SEO 周决策卡 · 2026-10-28（Asia/Hong_Kong）
 
 > 角色：出海 SEO 需求研究员  
 > 用户栈：Python / Playwright / 浏览器扩展 / Next.js；主线找词建站变现，不做地板价接单；**币圈不进评分**  
@@ -8324,7 +8324,7 @@ keyword_growth_trend:
 
 **动作**：不追 Beds24 / NoBeds（已淡出）/ Office Agent / FORGEAI 公开价带 / WA Auto-Reply 红海（314）/ Professional Appointment 红海 / **Go API Booking（279）** / Tutor Booking / 旅行·美业 WP·极低价 booking / 场馆·泛 booking 整站 / GoHighLevel 漏斗（235）/ Valencia（已淡出）/ UX 试玩 / VA·电销·医美投放 / Bubble·Airbnb 市集二开 / Shopify 排除轨与 MAPPY / Hospital 升温噪声 / Tour Agency SEO 高标时薪旁证 / R8 低价 commodity；过滤口径不变——**只追高客单；Fiverr 低价与标多泛帖过滤；主线 SEO 找词建站，平台接单降优先级**。SEO 主线下一动作仍对齐 Go 卡：云浏览器对比站域名 + Next.js 前 4 URL + Playwright 基准公开 + 2–3 家 Affiliate 申请；Watch 卡仅书签双周复盘。预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案（**展示站场景卡文案 / showcase 静态页仍规划中**）。低竞争切片仍对照 10-26 discover + 晚间分层：Claude SEO/MCP 带教、UiPath 日报、发票抽取、LangGraph 教学骨架、Playwright passkey/上传稳态、WA webhook；另保留 n8n CMS SEO、单源 API 看板（提案草稿已备）、支付回调履约、vibe-rescue 分期、ERP NL 助手（分期+人工门）、架构评审咨询包。下一雷达约 **22:36**（every_4h；若跨安静时段则明早再看）。
 `},
-{"id": "doc-trustmrr-1029", "title": "TrustMRR 公开流水快照 2026-10-29", "theme": "市场研究", "date": "2026-10-29 23:24", "summary": "官方公开 API 快照 100 行（新增/增长/在售/deals）。命名摘录含 Knightvision、Get Funneled、Store Stock Checker、KreatorflowAI、WESAM.ai 等；作 SEO 选题旁证，不替代周决策卡。", "tags": ["TrustMRR", "流水", "MRR", "SEO", "产品兴衰", "revenue-scrapers", "Stripe校验"], "source": "", "path": "docs/notes/trustmrr_revenue_snapshot_2026-10-29.md", "related_docs": ["doc-week-decision-cards-1028", "doc-decision-card-schema-1028", "doc-radar-pulse-1030", "doc-haiwai-positioning-1022", "doc-longtail", "doc-radar-brief", "doc-waist-revenue-1030"], "content": `# TrustMRR 公开流水快照 · 2026-10-29（Asia/Shanghai）
+{"id": "doc-trustmrr-1029", "title": "TrustMRR 公开流水快照 2026-10-29", "theme": "市场研究", "date": "2026-10-29 23:24", "summary": "官方公开 API 快照 100 行（新增/增长/在售/deals）。命名摘录含 Knightvision、Get Funneled、Store Stock Checker、KreatorflowAI、WESAM.ai 等；作 SEO 选题旁证，不替代周决策卡。", "tags": ["TrustMRR", "流水", "MRR", "SEO", "产品兴衰", "revenue-scrapers", "Stripe校验"], "source": "", "path": "docs/notes/trustmrr_revenue_snapshot_2026-10-29.md", "related_docs": ["doc-week-decision-cards-1028", "doc-decision-card-schema-1028", "doc-radar-pulse-1030", "doc-haiwai-positioning-1022", "doc-longtail", "doc-radar-brief", "doc-waist-revenue-1030", "doc-peripheral-cards-1104"], "content": `# TrustMRR 公开流水快照 · 2026-10-29（Asia/Shanghai）
 
 > 来源：\`/workspace/出海变现/revenue-scrapers/\` 走 TrustMRR **官方公开 API**（\`/api/ai/discovery\` + \`/api/ai\`），生成于 **2026-10-29 23:24 +08**（\`revenue_boards_20261029_232444.json\`，100 行）。完整分页需认证；勿硬爬。金额为站方展示值，研究旁证用，非投单/成交保证。
 
@@ -8591,7 +8591,7 @@ keyword_growth_trend:
 
 **动作**：不追 Beds24 / NoBeds / WA Auto-Reply 红海（316）/ Appointment Booking 换题红海（144）/ **Go API Booking（346）** / Hotel MVP（353）/ Tutor Booking（178）/ Booking Backend API（167）/ Dynamic Mobile Repair Booking（172）/ GHL 漏斗 / Spiritual·Yoga·Google Ads Booking 淡出帖 / VA·电销·文案·SDR·佣金销售 / Bubble·Airbnb 市集二开 / Shopify 排除轨 / EPK 设计低价 / R8 低价 commodity。过滤口径不变——**只追高客单；Fiverr 低价与标多泛帖过滤；主线 SEO 找词建站，平台接单降优先级**。SEO 主线下一动作仍对齐 Go 卡：云浏览器对比站 + 腰部词 pursue 簇；Watch 卡仅书签双周复盘。预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案。低竞争切片仍对照 10-26 discover：Claude SEO/MCP 带教、UiPath 日报、发票抽取、LangGraph 教学骨架、Playwright passkey/上传稳态、WA webhook；另保留 n8n CMS SEO、单源 API 看板（提案草稿已备）、支付回调履约、vibe-rescue 分期、ERP NL 助手（分期+人工门）、架构评审咨询包。下一雷达约 **22:36**（every_4h；若跨安静时段则明早再看）。
 `},
-{"id": "doc-waist-revenue-1030", "title": "Demand Radar 腰部词 + 收入榜 Pages 摘要 2026-10-30", "theme": "市场研究", "date": "2026-10-30 11:00", "summary": "线上 waist 2026-W44（as_of 10-28，11 词：pursue 6 挂 Go browserbase；watch 4 code-review/周边；skip cursor ai）+ revenue_boards 100 行 as_of 10-29（trustmrr/bizpeel/getlatka/acquire/flippa）。作 SEO 旁证非投单依据；下一动作对齐 Go 卡建站。", "tags": ["腰部词", "收入榜", "DemandRadar", "Pages", "SEO", "browserbase", "TrustMRR", "W44", "pursue", "午间"], "source": "", "path": "docs/notes/demand_radar_waist_revenue_2026-10-30.md", "related_docs": ["doc-week-decision-cards-1028", "doc-decision-card-schema-1028", "doc-trustmrr-1029", "doc-radar-pulse-1030", "doc-longtail", "doc-radar-brief"], "content": `# Demand Radar 腰部词池 + 收入榜 · 2026-10-30 午间挂接（Asia/Hong_Kong）
+{"id": "doc-waist-revenue-1030", "title": "Demand Radar 腰部词 + 收入榜 Pages 摘要 2026-10-30", "theme": "市场研究", "date": "2026-10-30 11:00", "summary": "线上 waist 2026-W44（as_of 10-28，11 词：pursue 6 挂 Go browserbase；watch 4 code-review/周边；skip cursor ai）+ revenue_boards 100 行 as_of 10-29（trustmrr/bizpeel/getlatka/acquire/flippa）。作 SEO 旁证非投单依据；下一动作对齐 Go 卡建站。", "tags": ["腰部词", "收入榜", "DemandRadar", "Pages", "SEO", "browserbase", "TrustMRR", "W44", "pursue", "午间"], "source": "", "path": "docs/notes/demand_radar_waist_revenue_2026-10-30.md", "related_docs": ["doc-week-decision-cards-1028", "doc-decision-card-schema-1028", "doc-trustmrr-1029", "doc-radar-pulse-1030", "doc-longtail", "doc-radar-brief", "doc-peripheral-cards-1104"], "content": `# Demand Radar 腰部词池 + 收入榜 · 2026-10-30 午间挂接（Asia/Hong_Kong）
 
 > **结论先行（事实）**：线上 Demand Radar Pages 已有腰部词池（week **2026-W44**，\`as_of\` **2026-10-28**，**11** 候选）与收入榜（\`as_of\` **2026-10-29**，**100** 行）。pursue 簇几乎全落在 Go 卡 **browserbase alternatives**；Watch 对齐 code-review；\`cursor ai\` 为 Kill/skip。本笔记为 hub 补挂摘要，**不编造** Semrush 绝对月搜。下一动作仍对齐 **Go 卡建站**。
 
@@ -8735,7 +8735,7 @@ Hub 已有对照：\`trustmrr_revenue_snapshot_2026-10-29.md\`（本地 scraper 
 
 **动作**：不追 n8n Sales Automation 红海（335）/ Supabase CRM 极低时薪（93）/ Appointment Booking 换题红海（188）/ **Go API Booking（352）** / Hotel MVP（368）/ Tutor（195）/ Mobile Repair（228）/ Limousine·Astrology Booking / RAG+LangGraph 标多（170）/ AgentCore 极低价 voice / PDF 题库·地产线索红海 / VA·电销·投放·SDR·佣金销售 / Bubble·Airbnb 市集二开 / Shopify 排除轨 / R8 低价 commodity。**Open-Source LLM Deployment（18 标）**仅作本地 Agent/Ollama 部署旁证，缺一期切分暂不投。过滤口径不变——**只追高客单；Fiverr 低价与标多泛帖过滤；主线 SEO 找词建站，平台接单降优先级**。SEO 主线下一动作仍对齐 Go 卡：云浏览器对比站域名 + Next.js 前 4 URL + Playwright 基准公开 + 2–3 家 Affiliate 申请；腰部词 pursue 簇 + TrustMRR 快照作旁证（非投单依据）。Watch 卡仅书签双周复盘。预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案（展示站场景卡文案 / showcase 静态页仍规划中）。低竞争切片仍对照 10-26 discover：Claude SEO/MCP 带教、UiPath 日报、发票抽取、LangGraph 教学骨架、Playwright passkey/上传稳态、WA webhook；另保留 n8n CMS SEO、单源 API 看板（提案草稿已备）、支付回调履约、vibe-rescue 分期、ERP NL 助手（分期+人工门）、架构评审咨询包；可关注 LLM 本地部署旁证是否出现可切一期。下一雷达约 **19:29**（every_4h）。
 `},
-{"id": "doc-radar-pulse-1104", "title": "需求雷达脉搏 2026-11-04（08:29 早间 → 11:58 午间）", "theme": "市场研究", "date": "2026-11-04 11:58", "summary": "公开池 30/0 @11:58（相对早间持平）；推荐仍空。KW 过关 5 标数持平（n8n 413；Supabase 112；Appointment 190；LLM Deploy 25；AgentCore 70）。Responsive Equipment 84→133；Website Enhancement 308→368；Bubble 38→61。Hotel Academic 淡出；新进 Travel Poster。本地 Freelancer/Upwork 仍无新筛单。", "tags": ["雷达", "Freelancer", "脉搏", "预约", "高客单", "SEO", "周决策卡", "早间", "n8n", "Supabase", "LLM-Deploy", "AgentCore", "Appointment持平", "淡出RAG", "淡出GoAPI", "淡出GHL", "淡出MarketplaceJasa", "HotelMVP", "LimousineBooking", "EquipmentBooking", "BubbleRental", "SalesCloser", "30帖", "午间", "Equipment急升", "WebsiteEnhancement急升", "淡出HotelAcademic", "TravelPoster", "Bubble61"], "source": "", "path": "docs/notes/radar_pulse_2026-11-04.md", "related_docs": ["doc-radar-pulse-1103", "doc-radar-pulse-1102", "doc-radar-pulse-1030", "doc-waist-revenue-1030", "doc-trustmrr-1029", "doc-week-decision-cards-1028", "doc-decision-card-schema-1028", "doc-fl-samples-1026", "doc-fl-layered-1026", "doc-haiwai-showcase-matrix-1026", "doc-fl-proposal-dashboard-1024", "doc-booking-reject-1021", "doc-radar-brief"], "content": `# 需求雷达脉搏 · 2026-11-04 早间（Asia/Shanghai）
+{"id": "doc-radar-pulse-1104", "title": "需求雷达脉搏 2026-11-04（08:29 早间 → 11:58 午间）", "theme": "市场研究", "date": "2026-11-04 11:58", "summary": "公开池 30/0 @11:58（相对早间持平）；推荐仍空。KW 过关 5 标数持平（n8n 413；Supabase 112；Appointment 190；LLM Deploy 25；AgentCore 70）。Responsive Equipment 84→133；Website Enhancement 308→368；Bubble 38→61。Hotel Academic 淡出；新进 Travel Poster。本地 Freelancer/Upwork 仍无新筛单。", "tags": ["雷达", "Freelancer", "脉搏", "预约", "高客单", "SEO", "周决策卡", "早间", "n8n", "Supabase", "LLM-Deploy", "AgentCore", "Appointment持平", "淡出RAG", "淡出GoAPI", "淡出GHL", "淡出MarketplaceJasa", "HotelMVP", "LimousineBooking", "EquipmentBooking", "BubbleRental", "SalesCloser", "30帖", "午间", "Equipment急升", "WebsiteEnhancement急升", "淡出HotelAcademic", "TravelPoster", "Bubble61"], "source": "", "path": "docs/notes/radar_pulse_2026-11-04.md", "related_docs": ["doc-radar-pulse-1105", "doc-radar-pulse-1103", "doc-radar-pulse-1102", "doc-radar-pulse-1030", "doc-waist-revenue-1030", "doc-trustmrr-1029", "doc-week-decision-cards-1028", "doc-decision-card-schema-1028", "doc-fl-samples-1026", "doc-fl-layered-1026", "doc-haiwai-showcase-matrix-1026", "doc-fl-proposal-dashboard-1024", "doc-booking-reject-1021", "doc-radar-brief", "doc-peripheral-cards-1104"], "content": `# 需求雷达脉搏 · 2026-11-04 早间（Asia/Shanghai）
 
 > 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\` + \`job_leads.json\`（\`published_at\` **2026-11-04 08:29:33 +08**，every_4h；\`job_leads_run_id\` 20261104-082834-1183bedd；\`last_run_id\` 20261104-082933-5bde3f86）。公开数据 only。相对 **11-03 午后 12:38** 的 37/0：帖数 **-7 → 30**，推荐池仍空。
 
@@ -9097,6 +9097,322 @@ Hub 已有对照：\`trustmrr_revenue_snapshot_2026-10-29.md\`（本地 scraper 
 - \`/workspace/notes/\`：无新岗位情报。
 
 **动作**：过滤口径不变——**只追高客单；标多/低价/电销约访/投放岗/整盘市集一律不投；主线 SEO 找词建站**。不追 n8n 376 / Supabase 108 / Appointment 189 / Go API 355 / Hotel 368 / GHL 129 / Marketplace Jasa 74 / Cold Calling Setter 0 标。**LLM Deploy（22）**仍仅作本地 Agent/Ollama 旁证。SEO 下一动作对齐 Go 卡：云浏览器对比站域名 + Next.js 前 4 URL + Playwright 基准公开 + Affiliate 申请。预约线继续日搜 2 轮 + 拒单规则 + bz.a/smart.a 提案。下一雷达约 **16:38**（every_4h）。
+`},
+{"id": "doc-peripheral-cards-1104", "title": "Demand Radar 周边机会卡（TrustMRR 锚点 · 2026-11-04）", "theme": "市场研究", "date": "2026-11-04 22:26", "summary": "五卡：Go HiddenRoles ATS Careers Detector；Go Savebase bookmarks→MCP 模板；Watch PDF metadata / Discord 10MB 压缩；Skip FlipScan 费率算。不对打整站；建议下周只开 HiddenRoles MVP。", "tags": ["周边机会", "TrustMRR", "SEO", "HiddenRoles", "Savebase", "ATS", "MCP", "Go", "Watch", "Skip", "补位", "找词建站"], "source": "", "path": "出海变现/peripheral-opportunity-cards-2026-11-04.md", "related_docs": ["doc-week-decision-cards-1028", "doc-decision-card-schema-1028", "doc-trustmrr-1029", "doc-waist-revenue-1030", "doc-radar-pulse-1105", "doc-radar-pulse-1104", "doc-longtail", "doc-haiwai-positioning-1022"], "content": `# Demand Radar 实验 A · 周边机会卡（TrustMRR 锚点）
+
+- **as_of 收入快照口径**：TrustMRR 公开页，**as_of 2026-10-30**（撰写日 2026-11-04 又用公开页复核；若与快照漂移已在卡内注明）
+- **原则**：补位/周边，**不对打整站**；禁止完整 iOS 重做
+- **用户栈偏好**：Python · Playwright · 爬虫 · Chrome 扩展 · Next/静态站 · SEO
+
+## 推荐优先序（先看这个）
+
+| 序 | 锚点 | 周边机会 | 优先级 | 为何 |
+|---|---|---|---|---|
+| 1 | HiddenRoles | ATS careers URL 检测器 + 自建 watchlist 教程站 | **Go** | 与 Playwright/爬虫最贴；不碰大盘职位聚合；SERP 仍有低 DR 教程/工具位 |
+| 2 | Savebase | X/社媒 bookmarks → Markdown/MCP 模板包 | **Go** | 不做全平台收藏 SaaS；模板+$19 买断贴合栈；MCP 信息意图升温 |
+| 3 | ihatepdf.cv | PDF 元数据剥离 + 发送前隐私清单站 | **Watch→可升 Go** | 单点工具+SEO 可做，但 strip metadata / redact 已有 Scrubbr 等；先测主词点击再升 |
+| 4 | ClipUtils | Discord/Email 精确体积视频压缩落地页簇 | **Watch** | 本地 ffmpeg.wasm 红海；只做精确意图页+Ads，不做 28+ 套件 |
+| 5 | FlipScan | 转售「已售 comps + 费率」静态计算器/清单（非扫描 App） | **Skip（本周）** | iOS 扫描与 listing alert 簇拥挤；费率计算器也被多家占；等更窄 SKU 词再 Watch |
+
+**建议你下周只做 1 个 MVP**：HiddenRoles 周边 —— **ATS Careers Detector + Greenhouse/Lever/Ashby 公开 API 告警教程站（静态/Next + 可选 Playwright 巡检脚本）**。
+
+---
+
+## 卡 1 · HiddenRoles 周边 · ATS Careers Detector（Go）
+
+### 锚点产品
+- **HiddenRoles**（https://hiddenroles.co/）— 从公司官网招聘页聚合「未上 LinkedIn/Indeed」的职位，让求职者直接投递。
+- **公开收入信号（TrustMRR 快照，as_of 2026-10-30）**：https://trustmrr.com/startup/bestjobs-hq — 近 30 天收入约 **$26.8k**（页面标题级信号）；DR 极低（公开页约 1）。撰写日复核仍指向同一 slug。
+
+### 周边机会（非克隆）
+不做又一个职位大盘。补 **「已知目标公司名单」求职者** 的一步：粘贴 careers URL → **识别 ATS（Greenhouse / Lever / Ashby / Workday…）** → 给出公开 jobs JSON 端点与「如何自建邮件告警」清单；可选轻量 watchlist（≤20 家公司）。
+
+### 主词 + 支撑词
+- **主词**：\`which ATS does this company use\`
+- **支撑词**：\`greenhouse job board api\` · \`track company career page alerts\` · \`lever careers page json\`
+
+### 付费/商业意图证据
+- **已见**：同簇付费产品存在（JobTailor、Job Board Watcher、PageCrawl 博客推监控、WorkWay Pro ~$3.99、JobBeacon Pro ~$8）——说明「盯公司 careers」愿意付钱。
+- **已见**：HiddenRoles 自身以 Whop 验证流水，证明「避开大板」叙事有付费池。
+- **推测**：免费检测器 → 邮件 watchlist $9–15/mo 可转化；转化率未验证。
+
+### SERP / 缺口
+- 权威/半权威：Greenhouse 官方 MyGreenhouse 告警、PageCrawl 长文、JobTailor 产品页。
+- **可插**：DEV 教程文、GitHub Pages ATS checker（低 DR）仍靠前；缺「粘贴 URL → 一键检出 + 复制 API URL + 自建 cron 模板」的**工具型落地页**。对比/清单页空间仍在。
+
+### 变现路径
+优先：**Ads + 后续 $9–15/mo watchlist**；备选 Affiliate（通用网页变更监控）+ **$19 模板包**（Playwright 巡检脚本）。
+
+### 7 天 MVP
+1. Next/静态站：检测器（URL 规则 + 可选 fetch 公开 JSON）
+2. 3–5 篇英文 SEO：Greenhouse/Lever/Ashby API 对照、自建 alert、Workday 限制说明
+3. GitHub 公开 \`watchlist.yml\` + Python/Playwright 示例 cron（不做成重 SaaS）
+4. IndexNow/GSC；禁止做全网职位爬虫产品
+
+### Kill 理由
+若 30 天内主词无展示/点击，或必须变成「全网职位聚合」才能获客 → Kill（退化成对打 HiddenRoles）。
+
+### 30 天成败标准
+- ≥8 个可索引页上线；GSC 展示 ≥800 **或** 点击 ≥40
+- 检测器 UV ≥250；邮件 waitlist ≥30 **或** 付费意向 ≥5
+- 外链/社区提及 ≥2（DEV/Reddit/HN 皆可）
+
+### 相对优先级
+**Go**（五卡第一；下周唯一建议开工项）
+
+---
+
+## 卡 2 · Savebase 周边 · Bookmarks → MCP 模板包（Go）
+
+### 锚点产品
+- **Savebase**（https://savebase.space/）— 多平台（约 11 个社媒）收藏库 + 文件夹/标签/提醒，并提供 **MCP** 供 ChatGPT/Claude/Cursor 查询个人收藏。
+- **公开收入信号（TrustMRR 快照，as_of 2026-10-30）**：https://trustmrr.com/startup/savebase — 近 30 天约 **$682**，MRR 公开值较低（撰写日页约 $62 MRR / 8 订）→ **增长早期、叙事强于绝对 MRR**；免费档 **已见**：100 social bookmarks / 2 平台。
+
+### 周边机会（非克隆）
+不做「再造多平台收藏 SaaS」。补 **已有大量 X/浏览器书签、想喂给 AI 助手** 的开发者/研究者：一键导出 → 本地 Markdown/SQLite → **现成 MCP server 模板**。
+
+### 主词 + 支撑词
+- **主词**：\`chatgpt mcp bookmarks\`
+- **支撑词**：\`export twitter bookmarks\` · \`claude mcp bookmark server\` · \`x bookmarks to markdown\`
+
+### 付费/商业意图证据
+- **已见**：Savebase 推 MCP Plugin；ContextBolt 博文教 ChatGPT 接 bookmarks MCP；TweetsMash 等提供 X bookmarks MCP 文档。
+- **已见**：Savebase Free→Pro 升级墙（平台数/数量）。
+- **推测**：$19–29 买断模板对「不想再订一份 SaaS」的开发者成立。
+
+### SERP / 缺口
+- 前排多为产品博文与 GitHub README（x-bookmarks-mcp、xsh），权威媒体少。
+- **可插**：面向小白的「10 分钟接通 ChatGPT Developer Mode」图文站 + 可下载模板；对比「SaaS MCP vs 自建本地 MCP」清单页 DR 要求不高。
+
+### 变现路径
+优先：**$19–29 模板包/买断**（Gumroad/Lemon）；备选 Ads；不做月费除非加托管。
+
+### 7 天 MVP
+1. Chrome 扩展 MVP：导出当前平台书签/已打开收藏页为 JSON/MD（先 X + 浏览器 bookmarks）
+2. 附赠 Python MCP server 脚手架（stdio）
+3. 静态教程站 5 URL；禁止做 11 平台同步后端
+
+### Kill 理由
+若 X/API 政策使导出不稳定且无浏览器书签备路径；或 30 天模板 0 销售且教程无点击。
+
+### 30 天成败标准
+- 教程站点击 ≥60 或展示 ≥1,000
+- 模板销售 ≥8 份 **或** GitHub star/fork ≥25 + 邮件询价 ≥10
+- 付费页 CVR 可计算（访购）
+
+### 相对优先级
+**Go**（五卡第二；若只做一张则让位 HiddenRoles）
+
+---
+
+## 卡 3 · ihatepdf.cv 周边 · PDF 元数据剥离隐私清单（Watch）
+
+### 锚点产品
+- **ihatepdf.cv**（https://ihatepdf.cv/）— 隐私优先、浏览器本地 PDF 工具箱（合并/压缩/编辑/OCR 等），强调无水印、不上传。
+- **公开收入信号（TrustMRR 快照，as_of 2026-10-30）**：https://trustmrr.com/startup/ihatepdf-cv — 历史收入约 **$1.3k** 量级；撰写日页约 all-time **$1,344**、MRR **~$896**（订户少、客单/计量可能波动，以快照+页面为准）。定价叙事以 **Free** 为主（**已见**）。
+
+### 周边机会（非克隆）
+不做 60+ 工具全集。补 **发简历/合同前** 人群：本地 **Strip PDF metadata / 检查遗留批注与隐藏层** +「发送前隐私清单」SEO。
+
+### 主词 + 支撑词
+- **主词**：\`remove metadata from pdf\`
+- **支撑词**：\`strip pdf metadata online\` · \`pdf privacy checklist before sending\` · \`exifr pdf author remove\`
+
+### 付费/商业意图证据
+- **已见**：ihatepdf 以隐私/无水印打 iLovePDF/Smallpdf；同类 Scrubbr、VeriRedact 走付费/专业验证。
+- **推测**：Ads RPM 尚可；Pro 检测报告 $9–15 买断可测。
+
+### SERP / 缺口
+- 「compress pdf to 2mb / visa」已被 KBPDF、LiteDoc、findmyvisa 等占较多。
+- **相对更好插**：metadata/privacy checklist + 本地小工具；Scrubbr 等存在但对比/清单/「求职投递场景」长尾仍稀。
+
+### 变现路径
+**Ads** 为主；备选 **$9 买断**「批量清理+报告」。
+
+### 7 天 MVP
+静态/Next + pdf-lib/pdfjs：上传本地剥离 Producer/Author/XMP；3–4 篇投递/律师/设计师场景 SEO。禁止上全套编辑器。
+
+### Kill 理由
+主词被大站+Scrubbr 锁死前三且 30 天无点击；或用户期望「完整 redact 认证」导致支持成本爆。
+
+### 30 天成败标准
+展示 ≥1,200 或点击 ≥50；工具 UV ≥400；若 Ads RPM×点击无法覆盖域名/时间 → 保持 Watch 不升。
+
+### 相对优先级
+**Watch**（证据够但红海边缘；HiddenRoles/Savebase 之后再动）
+
+---
+
+## 卡 4 · ClipUtils 周边 · Discord/Email 精确体积压缩页（Watch）
+
+### 锚点产品
+- **ClipUtils**（https://cliputils.com/）— 浏览器端 28+/32 音视频图工具（含 ffmpeg.wasm 与部分 AI），**在售**。
+- **公开收入信号（TrustMRR 快照，as_of 2026-10-30）**：https://trustmrr.com/startup/cliputils — 近 30 天约 **$408**，MRR 约 **$333** / ~29 订；**已见** Freemium + Pro（美国约 $2.99 档位文案）+ 赞助位。
+
+### 周边机会（非克隆）
+不做工具超市。只切 **「压到 Discord 10MB / Email 25MB」** 精确意图落地页 + 本地压缩（单工具），用 SEO 吃长尾，不碰字幕/配音大模型。
+
+### 主词 + 支撑词
+- **主词**：\`compress video for discord 10mb\`
+- **支撑词**：\`compress video to 25mb email\` · \`browser video compressor no upload\` · \`ffmpeg wasm compress to size\`
+
+### 付费/商业意图证据
+- **已见**：ClipUtils「Compress to Size」、Slimcast/ShrinkVideo 等同形态；Pro/赞助说明流量可广告变现。
+- **推测**：纯 Ads 站可行；订阅难（免费预期强）。
+
+### SERP / 缺口
+- 「compress video without uploading」已被多家新站占满，**权威媒体少、同质化高**。
+- **缺口窄**：更具体的 Discord/WhatsApp/LMS 体积词 + 中立「如何用 DevTools 验证未上传」清单；可插但壁垒弱。
+
+### 变现路径
+**Ads**；备选 $9 批量队列买断。
+
+### 7 天 MVP
+1 个 Next 工具页 + 4 个意图镜像页（Discord/Email/WhatsApp/Classroom）；ffmpeg.wasm；不做 AI 套件。
+
+### Kill 理由
+CPC/RPM 过低或被 Chrome 内存限制差评淹没；一旦要靠 AI 功能续命 → Kill（超出周边）。
+
+### 30 天成败标准
+工具 UV ≥800；Ads 可估 RPM；GSC 主词有展示。达不到则 Skip 扩词。
+
+### 相对优先级
+**Watch**
+
+---
+
+## 卡 5 · FlipScan 周边 · 费率/利润静态计算器（Skip 本周）
+
+### 锚点产品
+- **FlipScan**（https://flipscan.app/）— iOS 转售估价扫描（拍照估转售价、验假、库存）。
+- **公开收入信号（TrustMRR 快照，as_of 2026-10-30）**：https://trustmrr.com/startup/flipscan — MRR 约 **$300+**（撰写日页约 **$315 MRR**、RevenueCat 验证、增长叙事）；**已见** App Store Pro Monthly **$14.99** / Yearly **$49.99**（官网 FAQ 另写过 $9.99 档，以商店/TrustMRR 为准）。同簇还有 marketplace listing alert（anonymous-startup-40）。
+
+### 周边机会（非克隆）
+**禁止重做 iOS 扫描。** 理论上可做：eBay final value fee + 运费利润静态计算器、或「已售 comps 搜索技巧」内容站。但——
+
+### 主词 + 支撑词
+- **主词**：\`ebay final value fee calculator\`
+- **支撑词**：\`thrift flip profit calculator\` · \`ebay sold comps\` · \`reseller fee calculator 2026\`
+
+### 付费/商业意图证据
+- **已见**：FlipScan/Underpriced/Pocket Pricer/FlipIQ 等付费或免费获客工具证明转售者付费意愿。
+- **已见**：费率计算器站大量存在（Seller Fee Kit、Calcilo、Feeculate…）。
+
+### SERP / 缺口
+- 费率计算器与 AI scanner **均拥挤**；listing alert 亦有产品。
+- **缺口不足以本周开工**：除非做极窄品类（如「Pokémon card eBay fee + grading cost」）——需另开词研。
+
+### 变现路径
+理论：Ads / Affiliate（电商工具）；实操建议暂不投入。
+
+### 7 天 MVP
+**不启动。** 若强行：仅静态费率表 + 1 个计算器页验证流量（≤2 天探针），不做扩展、不做扫描。
+
+### Kill 理由
+（本周直接 Skip）与「禁完整 iOS 重做」一致；web 计算器红海且难形成订阅。
+
+### 30 天成败标准
+不适用；若探针页 14 天点击 <20 → 确认 Skip。
+
+### 相对优先级
+**Skip**
+
+---
+
+## 附录 · 证据备注
+- TrustMRR 数字随验证源波动；卡内以 **as_of 2026-10-30 快照 + 撰写日公开页复核** 双记。
+- SERP 为 WebSearch 快扫，**非**完整前 10 HTML/DR 表；KD/量级未接 Semrush 本轮 → 绝对搜索量标未验证。
+- 币圈未纳入。
+`},
+{"id": "doc-radar-pulse-1105", "title": "需求雷达脉搏 2026-11-05（08:49 早间）", "theme": "市场研究", "date": "2026-11-05 08:49", "summary": "公开池 29/0 @08:49（相对 11-04 午间 30/0 −1）；推荐仍空。KW 过关缩为 3：n8n 415、Supabase 116、AgentCore 70；Appointment/LLM Deploy 淡出。本地新挂周边机会卡（HiddenRoles Go）。无今日 Upwork checked。", "tags": ["雷达", "Freelancer", "脉搏", "预约", "高客单", "SEO", "周决策卡", "早间", "n8n", "Supabase", "AgentCore", "淡出Appointment", "淡出LLM-Deploy", "29帖", "周边机会", "HiddenRoles", "CargoPickup", "Equipment急升"], "source": "", "path": "docs/notes/radar_pulse_2026-11-05.md", "related_docs": ["doc-radar-pulse-1104", "doc-radar-pulse-1103", "doc-peripheral-cards-1104", "doc-week-decision-cards-1028", "doc-waist-revenue-1030", "doc-trustmrr-1029", "doc-fl-samples-1026", "doc-fl-layered-1026", "doc-haiwai-showcase-matrix-1026"], "content": `# 需求雷达脉搏 · 2026-11-05 早间（Asia/Shanghai）
+
+> 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\` + \`job_leads.json\`（\`published_at\` **2026-11-05 08:49:10 +08**，every_4h；\`job_leads_run_id\` 20261105-084810-792a7aaf；\`last_run_id\` 20261105-084910-c3775ebe）。公开数据 only。相对 **11-04 午间 11:58** 的 30/0：帖数 **-1 → 29**，推荐池仍空。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **29**（11-04 午间 30） |
+| 推荐数量 | **0** |
+| Job ingest | OK |
+| Fiverr | 仍跳过（HTTP 403 buyer_requests） |
+| Trends | 仍 demo |
+
+## 雷达推荐
+
+- 无（公开池推荐数 0）。Beds24 / NoBeds / WA Auto-Reply / GHL / Go API Booking / RAG+LangGraph / Appointment Booking Business Website / Open-Source LLM Deploy 本刷**不在前排**。
+
+## 关键词过关但仍不推荐（事实）
+
+| 帖 | 预算 | 标 | score | 备注 |
+|---|---|---|---|---|
+| **Build AI Sales Automation System** | $250–750 | 413→**415** | 75 | 加固/tool:n8n；一期+竞争未过 → n8n 红海续冲，不投 |
+| **Supabase-Powered React CRM Module** | $8–15/hr | 112→**116** | 75 | 加固/tool:supabase；一期+竞争未过；极低时薪+破百标 → R8 拒单带，不投 |
+| **phone voice agent … AWS AgentCore** | $10–30 | 70→**70** | 67 | 加固/phrase:deploy；一期未过；极低价 voice agent，不投 |
+
+关键词过关 **3**（相对 11-04 午间 5 → **-2**：**Appointment Booking Business Website**、**Open-Source LLM Deployment Specialist** 淡出 KW 池）。
+
+## 相对 11-04 午间变化（事实）
+
+- 推荐池仍空；KW 主信号缩为 **n8n Sales / Supabase CRM / AgentCore voice**。
+- **n8n Sales Automation**：413→**415**；**Supabase CRM**：112→**116**；**AgentCore voice**：70→**70** → 微升/持平，不投。
+- **淡出 KW**（11-04 午间过关、本刷不过关/不在池）：Appointment Booking Business Website（午间 190）、Open-Source LLM Deployment Specialist（午间 25，本地 Agent/Ollama 旁证暂停）。
+- **淡出**（11-04 午间前排/噪声、本刷不在池）：Appointment Booking Business Website、Booking-Style Hotel Site MVP、Dynamic Mobile Repair Booking、Website Enhancement、Travel Poster、B2B Sales Closer、Hotel Academic、iOS Ports、短视频投放、AI Automation mentorship 等。
+- **新进**（相对 11-04 午间；关键词未过）：
+
+  | 帖 | 标 | 预算 | 备注 |
+  |---|---|---|---|
+  | **Cargo Pickup CRM & Invoicing** | **384** | $250–750 | 货运 CRM/发票整盘红海 → 不投 |
+  | **Rwanda Electrical Services Web Platform** | **258** | $250–750 | 电气服务站整盘 → 不投 |
+  | **Europe Uber/Bolt Email Scraper** | **147** | €12–18/hr | 邮箱爬虫时薪偏低+标多 → 不投 |
+  | **Multi-Site Booking QA** | **101** | €8–30 | 多站预约 QA 排除/低价带 → 不投 |
+  | **Bubble Home & Rental App** | **29** | ₹100–400/hr | Bubble 低码整盘 → 不投 |
+  | **Professional Website Design…Logo Branding** | **59** | ₹750–1250/hr | 泛建站/品牌 → 不投 |
+  | **Performance Marketing & Growth Expert** | **50** | ₹1500–12500 | 投放/SEO 岗非工程切片 → 不投 |
+  | **Commission-Only B2B Appointment Setter** | **42** | $250–750 | 约访/电销岗 → 不投 |
+  | **Concrete Engineer Montana…Stamping** | **21** | $250–750 | 土木盖章非栈 → 不投 |
+  | **Find 50 Cent Official Contacts** | **14** | $250–750 | 找人联系方式 → 不投 |
+  | **Administrative Virtual Assistant (US only)** | **8** | $8–15/hr | VA/地域限制 → 不投 |
+
+- 预约旁证（均关键词未过 / 排除轨 / 红海；标相对 11-04 午间）：
+
+  | 帖 | 标（午→今） | 备注 |
+  |---|---|---|
+  | Appointment Booking Business Website | 190→**—** | **淡出** |
+  | Booking-Style Hotel Site MVP | 367→**—** | **淡出** |
+  | Dynamic Mobile Repair Booking | 229→**—** | **淡出** |
+  | Limousine Booking | 343→**347** | 微升，不投 |
+  | Astrology Booking | 237→**238** | 微升，不投 |
+  | Complete Service-Booking Store | 167→**170** | 微升，不投 |
+  | Appointment Scheduling & Calendar | 41→**40** | 微降，不投 |
+  | Stripe Integration for VikBooking | 125→**126** | 排除轨，不投 |
+  | Bubble Equipment Rental | 61→**122** | 低码设备租赁预约标翻倍，不投 |
+  | Responsive Equipment Booking | 133→**228** | 设备预约 Web 续冲破 200，不投 |
+  | Multi-Site Booking QA / Bubble Home（新进） | —→**101** / **29** | 见上 |
+
+- 本刷噪声（关键词未过，不作主投）：Cargo Pickup（**384**）、地产线索回收（**305**）、Rwanda Electrical（**258**）、University AI（**209**）、AI mentorship（**205**）、Futuristic WP（**214**）、Europe Email Scraper（**147**）、Shopify MAPPY（**101**）、Micro-Task（**85**）、泛建站（**59**）、投放岗（**50**）、约访岗（**42**）、VA（**8**）、Mumbai CTO（**8**）、Investor Appointment Setter（**9**）等。
+
+## 本地 intel 扫描（相对 11-04 午间 hub 提交 13:03）
+
+- \`/workspace/freelancer/\`：仍无新于 10-26 晚分层短名单 / discover / templates；\`screen_mode.md\` 仍 \`discover\` + 高客单过滤。无 10-27–11-05 新 \`demand_samples_*\`。
+- \`/workspace/upwork/\`：最新仍为 **2026-10-19** \`checked_*\` / \`screened_*\`；**无 2026-11-05** 今日 checked/digest/screened。
+- \`/workspace/出海变现/\`：**新** \`peripheral-opportunity-cards-2026-11-04.md\`（22:26 +08，TrustMRR 锚点周边五卡）——本刷挂入 hub（见下）。周决策卡 W44 / TrustMRR / 腰部词摘要已挂；\`revenue-scrapers/\` 仍 10-29。
+- \`/workspace/demand-radar/\`：exports 仍 stub；无新可读岗位导出。
+- \`/workspace/weekly-digest-2026-10-31.txt\`：已在既有脉搏挂过，无增量。
+
+### 周边机会卡摘要（新 · 2026-11-04 晚）
+
+实验 A · TrustMRR 锚点周边（不对打整站；禁完整 iOS 重做）：
+
+| 序 | 锚点 | 周边 | 优先级 |
+|---|---|---|---|
+| 1 | HiddenRoles | ATS careers URL 检测器 + watchlist 教程站 | **Go**（建议下周唯一 MVP） |
+| 2 | Savebase | X/社媒 bookmarks → Markdown/MCP 模板包 | **Go** |
+| 3 | ihatepdf.cv | PDF 元数据剥离 + 发送前隐私清单 | Watch |
+| 4 | ClipUtils | Discord/Email 精确体积视频压缩落地页 | Watch |
+| 5 | FlipScan | 转售费率/已售 comps 静态计算器 | Skip（本周） |
+
+主词入口：\`which ATS does this company use\` · \`chatgpt mcp bookmarks\` · \`remove metadata from pdf\` · \`compress video for discord 10mb\`。全文见 \`doc-peripheral-cards-1104\`。
+
+**动作**：过滤口径不变——**只追高客单；标多/低价/电销约访/投放岗/泛建站/整盘低码一律不投；主线 SEO 找词建站，平台接单降优先级**。不追 n8n 415 / Supabase 116 / AgentCore 70 / Cargo Pickup 384 / Limousine 347 / Equipment 228 / Bubble Rental 122。LLM Deploy 本刷淡出 KW，本地 Agent/Ollama 旁证暂停盯池。SEO 下一动作：**优先对齐周边 Go 卡 HiddenRoles（ATS Careers Detector）**；原 W44 Go 云浏览器对比站仍可并行书签，但本周新建站带宽优先周边卡 #1。预约线继续日搜 2 轮 + 拒单规则。下一雷达约 **12:49**（every_4h；若未刷新则盯 16:49）。
 `},
 ]
 };

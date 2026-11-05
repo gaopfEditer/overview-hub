@@ -96,7 +96,7 @@
       "type": "freelance",
       "title": "Freelancer.com",
       "url": "https://www.freelancer.com/",
-      "summary": "竞标制补充池。2026-11-04 11:58 雷达 **30/0**（相对早间 08:29 持平、推荐仍空）。KW 过关 5 持平：n8n Sales Automation 413、Supabase CRM 112、Appointment Booking Business Website 190、Open-Source LLM Deploy 25、AgentCore voice 70 —— 均红海/低价/标多不投；LLM Deploy 仅作本地 Agent/Ollama 旁证。预约旁证：Hotel MVP 367、Mobile Repair 229、Limousine 343、Service-Booking Store 167、Responsive Equipment 84→133、Bubble Rental 38→61；Hotel Academic 淡出。新进 Elegant Travel Poster（非工程）。Website Enhancement 308→368。本地筛单仍停 10-26/10-19。",
+      "summary": "竞标制补充池。2026-11-05 08:49 雷达 **29/0**（相对 11-04 午间 30/0 −1、推荐仍空）。KW 过关缩为 3：n8n Sales Automation 415、Supabase CRM 116、AgentCore voice 70——均红海/低价/缺一期，不投；Appointment 与 LLM Deploy 淡出 KW。本地新挂 TrustMRR 周边机会卡（HiddenRoles ATS Detector = Go）。过滤：只追高客单；标多/低价/约访/投放/低码整盘不做；主线 SEO 找词建站。",
       "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解",
       "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评",
       "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。",
@@ -104,6 +104,8 @@
       "path": "docs/platforms/freelancer.md",
       "related_docs": [
         "doc-radar-pulse-1104",
+        "doc-peripheral-cards-1104",
+        "doc-radar-pulse-1105",
         "doc-fl-samples-1021",
         "doc-radar-pulse-1022",
         "doc-booking-keywords-1021",
@@ -1317,7 +1319,9 @@
         "doc-haiwai-showcase-matrix-1026",
         "doc-longtail",
         "doc-trustmrr-1029",
-        "doc-waist-revenue-1030"
+        "doc-waist-revenue-1030",
+        "doc-peripheral-cards-1104",
+        "doc-radar-pulse-1105"
       ]
     },
     {
@@ -1406,7 +1410,8 @@
         "doc-haiwai-positioning-1022",
         "doc-longtail",
         "doc-radar-brief",
-        "doc-waist-revenue-1030"
+        "doc-waist-revenue-1030",
+        "doc-peripheral-cards-1104"
       ]
     },
     {
@@ -1489,7 +1494,8 @@
         "doc-trustmrr-1029",
         "doc-radar-pulse-1030",
         "doc-longtail",
-        "doc-radar-brief"
+        "doc-radar-brief",
+        "doc-peripheral-cards-1104"
       ]
     },
     {
@@ -1580,6 +1586,7 @@
       ],
       "summary": "公开池 30/0 @11:58（相对早间持平）；推荐仍空。KW 过关 5 标数持平（n8n 413；Supabase 112；Appointment 190；LLM Deploy 25；AgentCore 70）。Responsive Equipment 84→133；Website Enhancement 308→368；Bubble 38→61。Hotel Academic 淡出；新进 Travel Poster。本地 Freelancer/Upwork 仍无新筛单。",
       "related_docs": [
+        "doc-radar-pulse-1105",
         "doc-radar-pulse-1103",
         "doc-radar-pulse-1102",
         "doc-radar-pulse-1030",
@@ -1592,7 +1599,8 @@
         "doc-haiwai-showcase-matrix-1026",
         "doc-fl-proposal-dashboard-1024",
         "doc-booking-reject-1021",
-        "doc-radar-brief"
+        "doc-radar-brief",
+        "doc-peripheral-cards-1104"
       ]
     },
     {
@@ -1647,6 +1655,77 @@
         "doc-fl-proposal-dashboard-1024",
         "doc-booking-reject-1021",
         "doc-radar-brief"
+      ]
+    },
+    {
+      "id": "doc-peripheral-cards-1104",
+      "title": "Demand Radar 周边机会卡（TrustMRR 锚点 · 2026-11-04）",
+      "path": "/workspace/出海变现/peripheral-opportunity-cards-2026-11-04.md",
+      "theme": "市场研究",
+      "date": "2026-11-04 22:26",
+      "tags": [
+        "周边机会",
+        "TrustMRR",
+        "SEO",
+        "HiddenRoles",
+        "Savebase",
+        "ATS",
+        "MCP",
+        "Go",
+        "Watch",
+        "Skip",
+        "补位",
+        "找词建站"
+      ],
+      "summary": "五卡：Go HiddenRoles ATS Careers Detector；Go Savebase bookmarks→MCP 模板；Watch PDF metadata / Discord 10MB 压缩；Skip FlipScan 费率算。不对打整站；建议下周只开 HiddenRoles MVP。",
+      "related_docs": [
+        "doc-week-decision-cards-1028",
+        "doc-decision-card-schema-1028",
+        "doc-trustmrr-1029",
+        "doc-waist-revenue-1030",
+        "doc-radar-pulse-1105",
+        "doc-radar-pulse-1104",
+        "doc-longtail",
+        "doc-haiwai-positioning-1022"
+      ]
+    },
+    {
+      "id": "doc-radar-pulse-1105",
+      "title": "需求雷达脉搏 2026-11-05（08:49 早间）",
+      "path": "docs/notes/radar_pulse_2026-11-05.md",
+      "theme": "市场研究",
+      "date": "2026-11-05 08:49",
+      "tags": [
+        "雷达",
+        "Freelancer",
+        "脉搏",
+        "预约",
+        "高客单",
+        "SEO",
+        "周决策卡",
+        "早间",
+        "n8n",
+        "Supabase",
+        "AgentCore",
+        "淡出Appointment",
+        "淡出LLM-Deploy",
+        "29帖",
+        "周边机会",
+        "HiddenRoles",
+        "CargoPickup",
+        "Equipment急升"
+      ],
+      "summary": "公开池 29/0 @08:49（相对 11-04 午间 30/0 −1）；推荐仍空。KW 过关缩为 3：n8n 415、Supabase 116、AgentCore 70；Appointment/LLM Deploy 淡出。本地新挂周边机会卡（HiddenRoles Go）。无今日 Upwork checked。",
+      "related_docs": [
+        "doc-radar-pulse-1104",
+        "doc-radar-pulse-1103",
+        "doc-peripheral-cards-1104",
+        "doc-week-decision-cards-1028",
+        "doc-waist-revenue-1030",
+        "doc-trustmrr-1029",
+        "doc-fl-samples-1026",
+        "doc-fl-layered-1026",
+        "doc-haiwai-showcase-matrix-1026"
       ]
     }
   ]
