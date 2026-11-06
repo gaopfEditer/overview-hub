@@ -108,7 +108,7 @@ Profile：https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
 
 交叉：\`smb_demand_clusters.md\`（Fiverr BTI / Gig 抽样段落）、模板站链接。
 `},
-{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。2026-11-06 17:05 傍晚：Pages 雷达仍停 **08:54 的 28/0**（Job Leads Actions 早间后未见新成功包）；公开 API 补扫 KW 仍 3：n8n Sales **417**、Supabase CRM **119**、AgentCore **73**——均不投。噪声急升：Salon Booking **502**、GCC Marketplace **412**、Cross Platform App **173**；新见 Meditation Booking 341 / Chrome notes 309 / n8n 作品集案例 56 等，一律不投。Admin Assistant 早间帖 API 查无。周边 Go 卡 HiddenRoles 仍挂；主线 SEO 找词建站。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-radar-pulse-1106", "doc-radar-pulse-1104", "doc-peripheral-cards-1104", "doc-radar-pulse-1105", "doc-fl-samples-1021", "doc-radar-pulse-1022", "doc-booking-keywords-1021", "doc-booking-entry-1021", "doc-booking-acq-1021", "doc-booking-reject-1021", "doc-booking-seeds-1021", "doc-radar-pulse-1023", "doc-fl-samples-1023", "doc-fl-samples-1022", "doc-radar-pulse-1028", "doc-week-decision-cards-1028", "doc-radar-pulse-1030", "doc-waist-revenue-1030", "doc-fl-layered-1026", "doc-fl-samples-1026", "doc-radar-pulse-1103", "doc-radar-pulse-1102"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-11-06 16:17", "content": `# Freelancer.com 操作手册
+{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。2026-11-06 19:00 夜间：Pages 雷达仍停 **08:54 的 28/0**（Job Leads Actions 早间后未见新成功包，~10h）；公开 API 再补扫 KW 仍 3：n8n Sales **418**、Supabase CRM **119**、AgentCore **73**——均不投。噪声：Salon Booking **506**、GCC Marketplace **413**、Meditation Booking **364**、Dropshipping **655**、WP-SEO **482**、Chiropractor Automation **348**、Milanuncios Playwright 回帖 **242/228**——一律不投。Admin Assistant 仍 404。周边 Go 卡 HiddenRoles 仍挂；主线 SEO 找词建站。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-radar-pulse-1106", "doc-radar-pulse-1104", "doc-peripheral-cards-1104", "doc-radar-pulse-1105", "doc-fl-samples-1021", "doc-radar-pulse-1022", "doc-booking-keywords-1021", "doc-booking-entry-1021", "doc-booking-acq-1021", "doc-booking-reject-1021", "doc-booking-seeds-1021", "doc-radar-pulse-1023", "doc-fl-samples-1023", "doc-fl-samples-1022", "doc-radar-pulse-1028", "doc-week-decision-cards-1028", "doc-radar-pulse-1030", "doc-waist-revenue-1030", "doc-fl-layered-1026", "doc-fl-samples-1026", "doc-radar-pulse-1103", "doc-radar-pulse-1102"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-11-06 16:17", "content": `# Freelancer.com 操作手册
 
 竞标制项目市场。预算中位偏低、竞标人数多，适合捡「修复/小集成」或练英文提案，不作为主收入依赖。
 
@@ -9414,7 +9414,7 @@ CPC/RPM 过低或被 Chrome 内存限制差评淹没；一旦要靠 AI 功能续
 
 **动作**：过滤口径不变——**只追高客单；标多/低价/电销约访/投放岗/泛建站/整盘低码一律不投；主线 SEO 找词建站，平台接单降优先级**。不追 n8n 415 / Supabase 116 / AgentCore 70 / Cargo Pickup 384 / Limousine 347 / Equipment 228 / Bubble Rental 122。LLM Deploy 本刷淡出 KW，本地 Agent/Ollama 旁证暂停盯池。SEO 下一动作：**优先对齐周边 Go 卡 HiddenRoles（ATS Careers Detector）**；原 W44 Go 云浏览器对比站仍可并行书签，但本周新建站带宽优先周边卡 #1。预约线继续日搜 2 轮 + 拒单规则。下一雷达约 **12:49**（every_4h；若未刷新则盯 16:49）。
 `},
-{"id": "doc-radar-pulse-1106", "title": "需求雷达脉搏 2026-11-06（08:54 早间 + 17:05 傍晚 API）", "theme": "市场研究", "date": "2026-11-06 17:05", "summary": "Pages 仍 28/0 @08:54（Job Leads 停滞）；傍晚公开 API：KW 417/119/73；Salon502/GCC412/CrossPlatform173 急升；新见 Meditation Booking341 等红海；Admin Assistant 淡出。无今日 Upwork。", "tags": ["雷达", "Freelancer", "脉搏", "预约", "高客单", "SEO", "周决策卡", "早间", "n8n", "Supabase", "AgentCore", "28帖", "SalonBooking", "GCCMarketplace", "淡出CargoPickup", "淡出Limousine", "周边机会", "HiddenRoles", "傍晚", "公开API", "Pages停滞", "Salon502", "GCC412", "MeditationBooking", "ChromeNotes"], "source": "", "path": "docs/notes/radar_pulse_2026-11-06.md", "related_docs": ["doc-radar-pulse-1105", "doc-radar-pulse-1104", "doc-peripheral-cards-1104", "doc-week-decision-cards-1028", "doc-waist-revenue-1030", "doc-trustmrr-1029", "doc-fl-samples-1026", "doc-fl-layered-1026", "doc-haiwai-showcase-matrix-1026"], "content": `# 需求雷达脉搏 · 2026-11-06 早间（Asia/Shanghai）
+{"id": "doc-radar-pulse-1106", "title": "需求雷达脉搏 2026-11-06（08:54 早间 + 17:05 傍晚 + 19:00 夜间 API）", "theme": "市场研究", "date": "2026-11-06 19:00", "summary": "Pages 仍 28/0 @08:54（Job Leads ~10h 停滞）；夜间公开 API：KW 418/119/73；Salon506/GCC413；Meditation364；新见 Dropshipping655 / WP-SEO482 / Chiropractor348 / Milanuncios242。无今日 Upwork。", "tags": ["雷达", "Freelancer", "脉搏", "预约", "高客单", "SEO", "周决策卡", "早间", "n8n", "Supabase", "AgentCore", "28帖", "SalonBooking", "GCCMarketplace", "淡出CargoPickup", "淡出Limousine", "周边机会", "HiddenRoles", "傍晚", "公开API", "Pages停滞", "Salon502", "GCC412", "MeditationBooking", "ChromeNotes", "夜间", "Salon506", "GCC413", "Meditation364", "Dropshipping655", "Milanuncios", "Pages停滞10h"], "source": "", "path": "docs/notes/radar_pulse_2026-11-06.md", "related_docs": ["doc-radar-pulse-1105", "doc-radar-pulse-1104", "doc-peripheral-cards-1104", "doc-week-decision-cards-1028", "doc-waist-revenue-1030", "doc-trustmrr-1029", "doc-fl-samples-1026", "doc-fl-layered-1026", "doc-haiwai-showcase-matrix-1026"], "content": `# 需求雷达脉搏 · 2026-11-06 早间（Asia/Shanghai）
 
 > 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\` + \`job_leads.json\`（\`published_at\` **2026-11-06 08:54:34 +08**，every_4h；\`job_leads_run_id\` 20261106-085332-b2ff612b；\`last_run_id\` 20261106-085434-5dd4e276）。公开数据 only。相对 **11-05 早间 08:49** 的 29/0：帖数 **-1 → 28**，推荐池仍空。
 
@@ -9530,6 +9530,55 @@ KW 仍 **3**，全部不投。
 - 本地 intel：\`/workspace/upwork/\` 仍无 11-06 checked/digest/screened；\`/workspace/freelancer/\` 仍无新于 10-26 的 \`demand_samples_*\`；出海周边卡无增量正文。
 
 **动作**：过滤口径不变——只追高客单；标多/低价/约访/投放/低码整盘不做；主线 SEO 找词建站。不追 n8n 417 / Supabase 119 / AgentCore 73 / Salon 502 / GCC 412 / Meditation Booking 341 / Chrome notes 309。SEO 下一动作仍优先周边 Go 卡 **HiddenRoles**；W44 云浏览器对比站可并行书签。**跟进**：requirement-trendradar 的 Job Leads Ingest 自早间后未再成功跑出 Pages 新包——下次例行若仍停在 08:54，再查 Actions 是否排队/失败。
+
+## 夜间脉搏（约 19:00 +08；Pages 仍 08:54 + 公开 API 再补扫）
+
+> 线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`meta.json\` / \`job_leads.json\` **仍停**在 **\`published_at\` 2026-11-06 08:54:34 +08**（\`job_leads_run_id\` 20261106-085332-b2ff612b；公开池仍 **28 / 0**）。GitHub Actions **Job Leads Ingest** 最近一次成功仍约 **08:37 +08**（run \`42138191885\`）；其后 Demand Radar Pipeline 有 08:52 成功包，但 **未再产出新的 job_leads Pages 包**。本段相对傍晚 17:05 再扫 Freelancer **公开 API**（项目详情 + 高信号检索；无登录、不投标）。
+
+| 指标 | 数值 |
+|---|---|
+| Pages 帖子/推荐 | 仍 **28 / 0**（早间快照） |
+| Job ingest（Pages） | 停滞（自 08:54；距今 ~10h） |
+| Fiverr | 仍跳过（HTTP 403） |
+| Trends | 仍 demo |
+| 本刷补扫 | Freelancer public API（pool 27/28 可读；Admin Assistant 仍 404） |
+
+### 关键词过关帖（相对傍晚标数；API）
+
+| 帖 | 预算 | 标 | 备注 |
+|---|---|---|---|
+| **Build AI Sales Automation System** | $250–750 | 417→**418** | n8n 红海微升，不投 |
+| **Supabase-Powered React CRM Module** | $8–15/hr | **119** | 极低时薪+破百标，不投 |
+| **phone voice agent … AWS AgentCore** | $10–30 | **73** | 极低价 voice，不投 |
+
+KW 仍 **3**，全部不投。
+
+### 相对傍晚 17:05 变化（事实 · API）
+
+- **标微升噪声（仍不投）**：Salon Booking 502→**506**（+4）；GCC Marketplace 412→**413**（+1）；Cross Platform App 173→**177**（+4）；Elementor Directory 216→**220**（+4）；Flight Booking（排除）140→**144**（+4）；B2B SaaS Demo Scheduler 12→**13**。
+- **持平**：Supabase 119、AgentCore 73、Equipment Booking 239、Bubble Home 69、PlayDuo 62、Luanda Leads 14、Astrology 102、Service-Booking Store 172、Bubble Rental 123 等。
+- **淡出/关闭**：Entry-Level Admin Assistant 仍 API **404**（与傍晚一致）。
+
+### 公开检索新见 / 标升（不在早间 Pages 池或相对傍晚抬升；均不投主推荐）
+
+| 帖 | 标 | 预算带 | 备注 |
+|---|---|---|---|
+| **Dropshipping E-Commerce Website Build** | **655** | A$30–250 | 泛电商整盘极高标 → 不投 |
+| **Modern WordPress Site & SEO -- 2** | **482** | $250–750 | WP+SEO 红海 → 不投 |
+| **Personalized Meditation Program Booking Site** | 341→**364** | $250–750 | 预约站红海续冲（+23）→ 不投 |
+| **Chiropractor Payment Plan Automation** | **348** | $250–750 | 垂直支付计划自动化整盘 → 不投 |
+| **Real-Time Mobile Chat App Development** | **335** | $250–750 | 实时聊天 App 整盘 → 不投 |
+| **AI Chatbot & Automation Developer（n8n 等）** | **321** | $250–750 | n8n/社媒 chatbot 红海岗 → 不投 |
+| **Chrome extension for saving notes** | 309→**310** | A$250–750 | 笔记扩展红海，不投 |
+| **Milanuncios Automatic Responder / AI Messaging** | **242 / 228** | €30–250 | 西语分类站自动回帖（Playwright 向）低预算高标 → 样本可记，不投 |
+| **WhatsApp AI Sales Agent MVP** | **97** | $30–250 | 低价 WA agent，不投 |
+| **Comprehensive Workflow Automation Build** | **73** | ₹2500+/hr | 傍晚已记；仍像模板帖 → 不投 |
+| **Reusable n8n CSV to MySQL** | **53** | $100k? | 预算异常/疑灌水 → 不投 |
+| **Build n8n Automation Portfolio Case Studies** | **56** | ₹1250–2500/hr | 内容向，不投 |
+
+- 本地 intel：\`/workspace/upwork/\` **仍无 11-06** checked/digest/screened（最新仍 10-19）；\`/workspace/freelancer/\` 仍无新于 **10-26** 的 \`demand_samples_*\` / 分层短名单；\`/workspace/出海变现/\` 周边机会卡无新正文。demand-radar exports 仍 stub。
+
+**动作**：过滤口径不变——只追高客单；标多/低价/约访/投放/低码整盘/泛建站不做；主线 SEO 找词建站，平台接单降优先级。不追 n8n 418 / Supabase 119 / AgentCore 73 / Salon 506 / GCC 413 / Meditation 364 / Dropshipping 655 / Chrome notes 310 / Milanuncios 242。SEO 下一动作仍优先周边 Go 卡 **HiddenRoles（ATS Careers Detector）**；W44 云浏览器对比站可并行书签。**跟进**：requirement-trendradar Job Leads Ingest 自早间后仍未刷新 Pages——下次例行若继续停在 08:54，查 Actions 调度/失败与 Pages 部署是否脱节。
 `},
 ]
 };
