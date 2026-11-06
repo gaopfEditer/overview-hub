@@ -70,3 +70,47 @@
 - `/workspace/demand-radar/`：exports 仍 stub；无新可读岗位导出。
 
 **动作**：过滤口径不变——**只追高客单；标多/低价/电销约访/投放岗/泛建站/整盘低码一律不投；主线 SEO 找词建站，平台接单降优先级**。不追 n8n 418 / Supabase 119 / AgentCore 72 / Salon Booking 472 / GCC Marketplace 383 / Equipment 238 / Bubble Home 68 / Bubble Rental 123。SEO 下一动作仍优先对齐周边 Go 卡 **HiddenRoles（ATS Careers Detector）**；W44 Go 云浏览器对比站可并行书签。预约线继续日搜 2 轮 + 拒单规则。下一雷达约 **12:54**（every_4h；若未刷新则盯 16:54）。
+
+## 傍晚脉搏（约 17:05 +08；Pages 仍 08:54 + 公开 API 补扫）
+
+> 线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) `meta.json` / `job_leads.json` 仍停在 **`published_at` 2026-11-06 08:54:34 +08**（`job_leads_run_id` 20261106-085332-b2ff612b；公开池仍 **28/0**）。GitHub Actions **Job Leads Ingest** 最近一次成功约 **08:37 +08**（run `42138191885`），至傍晚未见 12:54/16:54 级刷新。本段用 Freelancer **公开 API** 对早间池 ID 与高信号检索做补扫（无登录、不投标）。
+
+| 指标 | 数值 |
+|---|---|
+| Pages 帖子/推荐 | 仍 **28 / 0**（早间快照） |
+| Job ingest（Pages） | 停滞（自 08:54） |
+| Fiverr | 仍跳过（HTTP 403） |
+| Trends | 仍 demo |
+| 本刷补扫 | Freelancer public API |
+
+### 关键词过关帖（相对早间标数；API）
+
+| 帖 | 预算 | 标 | 备注 |
+|---|---|---|---|
+| **Build AI Sales Automation System** | $250–750 | 418→**417** | n8n 红海微降，不投 |
+| **Supabase-Powered React CRM Module** | $8–15/hr | 119→**119** | 极低时薪+破百标，不投 |
+| **phone voice agent … AWS AgentCore** | $10–30 | 72→**73** | 极低价 voice，不投 |
+
+KW 仍 **3**，全部不投。
+
+### 相对早间 08:54 变化（事实 · API）
+
+- **标急升噪声（仍不投）**：Salon Booking 472→**502**（+30）；GCC Marketplace 383→**412**（+29）；Cross Platform Business Services App 119→**173**（+54）；Elementor Directory 195→**216**；Flight Booking（排除）124→**140**；Astrology Platform 96→**102**；Luanda Leads 7→**14**；B2B SaaS Demo Scheduler 8→**12**。
+- **微升/持平**：Equipment Booking 238→**239**；Bubble Home 68→**69**；PlayDuo 61→**62**；其余早间池多数持平。
+- **淡出/关闭**：**Entry-Level Admin Assistant**（早间 71）API **查无**（或已关）。
+- **公开检索新见（不在早间 Pages 池；均不投主推荐）**：
+
+  | 帖 | 标 | 预算带 | 备注 |
+  |---|---|---|---|
+  | **Comprehensive Workflow Automation Build** | **73** | ₹2500+/hr | Gmail/CRM/Sheets 同步；时薪印卢比偏中、描述像模板帖 → 样本可记，不投 |
+  | **Build n8n Automation Portfolio Case Studies** | **56** | ₹1250–2500/hr | n8n 作品集文案/案例 → 内容向，非工程切片，不投 |
+  | **WhatsApp AI Sales Agent MVP** | **95** | $30–250 | 低价整盘 WhatsApp agent → 不投 |
+  | **AI Lead Outreach Agent** | **62** | ₹750–1250/hr | 自动拓客发信 → 投放/外联岗带，不投 |
+  | **Customer Support Answering AI Training** | **67** | ₹1250–2500/hr | 域内 LLM fine-tune → 模型训练向，非 SEO/建站主线，不投 |
+  | **Personalized Meditation Program Booking Site** | **341** | $250–750 | 预约站红海新帖 → 不投 |
+  | **Chrome extension for saving notes** | **309** | A$250–750 | 笔记扩展红海 → 不投 |
+  | **Europe Uber/Bolt Email Scraper** | **170** | €12–18/hr | 早间 Pages 已淡出、API 仍活跃；低时薪邮箱爬 → 不投 |
+
+- 本地 intel：`/workspace/upwork/` 仍无 11-06 checked/digest/screened；`/workspace/freelancer/` 仍无新于 10-26 的 `demand_samples_*`；出海周边卡无增量正文。
+
+**动作**：过滤口径不变——只追高客单；标多/低价/约访/投放/低码整盘不做；主线 SEO 找词建站。不追 n8n 417 / Supabase 119 / AgentCore 73 / Salon 502 / GCC 412 / Meditation Booking 341 / Chrome notes 309。SEO 下一动作仍优先周边 Go 卡 **HiddenRoles**；W44 云浏览器对比站可并行书签。**跟进**：requirement-trendradar 的 Job Leads Ingest 自早间后未再成功跑出 Pages 新包——下次例行若仍停在 08:54，再查 Actions 是否排队/失败。

@@ -96,7 +96,7 @@
       "type": "freelance",
       "title": "Freelancer.com",
       "url": "https://www.freelancer.com/",
-      "summary": "竞标制补充池。2026-11-06 08:54 雷达 **28/0**（相对 11-05 早间 29/0 −1、推荐仍空）。KW 过关仍 3：n8n Sales Automation 418、Supabase CRM 119、AgentCore voice 72——均红海/低价/缺一期，不投。新进噪声：Salon Booking 472、GCC Marketplace 383、Advocate SOS、Flight Booking（排除）、Cold Call/SaaS Demo Scheduler 约访岗。Cargo Pickup/Limousine/Rwanda 等淡出。周边 Go 卡 HiddenRoles 仍挂；过滤：只追高客单；标多/低价/约访/投放/低码整盘不做；主线 SEO 找词建站。",
+      "summary": "竞标制补充池。2026-11-06 17:05 傍晚：Pages 雷达仍停 **08:54 的 28/0**（Job Leads Actions 早间后未见新成功包）；公开 API 补扫 KW 仍 3：n8n Sales **417**、Supabase CRM **119**、AgentCore **73**——均不投。噪声急升：Salon Booking **502**、GCC Marketplace **412**、Cross Platform App **173**；新见 Meditation Booking 341 / Chrome notes 309 / n8n 作品集案例 56 等，一律不投。Admin Assistant 早间帖 API 查无。周边 Go 卡 HiddenRoles 仍挂；主线 SEO 找词建站。",
       "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解",
       "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评",
       "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。",
@@ -1734,10 +1734,10 @@
     },
     {
       "id": "doc-radar-pulse-1106",
-      "title": "需求雷达脉搏 2026-11-06（08:54 早间）",
+      "title": "需求雷达脉搏 2026-11-06（08:54 早间 + 17:05 傍晚 API）",
       "path": "docs/notes/radar_pulse_2026-11-06.md",
       "theme": "市场研究",
-      "date": "2026-11-06 08:54",
+      "date": "2026-11-06 17:05",
       "tags": [
         "雷达",
         "Freelancer",
@@ -1756,9 +1756,16 @@
         "淡出CargoPickup",
         "淡出Limousine",
         "周边机会",
-        "HiddenRoles"
+        "HiddenRoles",
+        "傍晚",
+        "公开API",
+        "Pages停滞",
+        "Salon502",
+        "GCC412",
+        "MeditationBooking",
+        "ChromeNotes"
       ],
-      "summary": "公开池 28/0 @08:54（相对 11-05 早间 29/0 −1）；推荐仍空。KW 仍 3：n8n 418、Supabase 119、AgentCore 72。新进 Salon Booking 472 / GCC Marketplace 383 等红海；Cargo/Limousine 等淡出。无今日 Upwork checked；周边卡无增量。",
+      "summary": "Pages 仍 28/0 @08:54（Job Leads 停滞）；傍晚公开 API：KW 417/119/73；Salon502/GCC412/CrossPlatform173 急升；新见 Meditation Booking341 等红海；Admin Assistant 淡出。无今日 Upwork。",
       "related_docs": [
         "doc-radar-pulse-1105",
         "doc-radar-pulse-1104",
