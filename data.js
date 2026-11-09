@@ -108,7 +108,7 @@ Profile：https://www.upwork.com/freelancers/~01c29e20dd0d9fb0f8
 
 交叉：\`smb_demand_clusters.md\`（Fiverr BTI / Gig 抽样段落）、模板站链接。
 `},
-{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。2026-11-06 19:00 夜间：Pages 雷达仍停 **08:54 的 28/0**（Job Leads Actions 早间后未见新成功包，~10h）；公开 API 再补扫 KW 仍 3：n8n Sales **418**、Supabase CRM **119**、AgentCore **73**——均不投。噪声：Salon Booking **506**、GCC Marketplace **413**、Meditation Booking **364**、Dropshipping **655**、WP-SEO **482**、Chiropractor Automation **348**、Milanuncios Playwright 回帖 **242/228**——一律不投。Admin Assistant 仍 404。周边 Go 卡 HiddenRoles 仍挂；主线 SEO 找词建站。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-radar-pulse-1106", "doc-radar-pulse-1104", "doc-peripheral-cards-1104", "doc-radar-pulse-1105", "doc-fl-samples-1021", "doc-radar-pulse-1022", "doc-booking-keywords-1021", "doc-booking-entry-1021", "doc-booking-acq-1021", "doc-booking-reject-1021", "doc-booking-seeds-1021", "doc-radar-pulse-1023", "doc-fl-samples-1023", "doc-fl-samples-1022", "doc-radar-pulse-1028", "doc-week-decision-cards-1028", "doc-radar-pulse-1030", "doc-waist-revenue-1030", "doc-fl-layered-1026", "doc-fl-samples-1026", "doc-radar-pulse-1103", "doc-radar-pulse-1102"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-11-06 16:17", "content": `# Freelancer.com 操作手册
+{"id": "freelancer", "type": "freelance", "title": "Freelancer.com", "url": "https://www.freelancer.com/", "summary": "竞标制补充池。2026-11-09 11:44 午间：公开池仍 **29/0**（相对早间 07:19 持平）；KW 仍 1：n8n+GHL **161**（160→161）——不投。新进 Website+Mobile Payments **233**、Local Service Website **44**（$50）；淡出 Three AI SaaS / Medspa Sales。噪声：Salon Booking **513**、Booking+Sub **489**、Cleaning **327**、Travel Directory **131→165**——一律不投。无今日 Upwork。主线 SEO 找词建站。", "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解", "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评", "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。", "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化", "related_docs": ["doc-radar-pulse-1109", "doc-radar-pulse-1106", "doc-radar-pulse-1104", "doc-peripheral-cards-1104", "doc-radar-pulse-1105", "doc-fl-samples-1021", "doc-radar-pulse-1022", "doc-booking-keywords-1021", "doc-booking-entry-1021", "doc-booking-acq-1021", "doc-booking-reject-1021", "doc-booking-seeds-1021", "doc-radar-pulse-1023", "doc-fl-samples-1023", "doc-fl-samples-1022", "doc-radar-pulse-1028", "doc-week-decision-cards-1028", "doc-radar-pulse-1030", "doc-waist-revenue-1030", "doc-fl-layered-1026", "doc-fl-samples-1026", "doc-radar-pulse-1103", "doc-radar-pulse-1102"], "tags": ["Freelancer", "接单平台", "竞标"], "path": "docs/platforms/freelancer.md", "date": "2026-11-06 16:17", "content": `# Freelancer.com 操作手册
 
 竞标制项目市场。预算中位偏低、竞标人数多，适合捡「修复/小集成」或练英文提案，不作为主收入依赖。
 
@@ -9580,7 +9580,7 @@ KW 仍 **3**，全部不投。
 
 **动作**：过滤口径不变——只追高客单；标多/低价/约访/投放/低码整盘/泛建站不做；主线 SEO 找词建站，平台接单降优先级。不追 n8n 418 / Supabase 119 / AgentCore 73 / Salon 506 / GCC 413 / Meditation 364 / Dropshipping 655 / Chrome notes 310 / Milanuncios 242。SEO 下一动作仍优先周边 Go 卡 **HiddenRoles（ATS Careers Detector）**；W44 云浏览器对比站可并行书签。**跟进**：requirement-trendradar Job Leads Ingest 自早间后仍未刷新 Pages——下次例行若继续停在 08:54，查 Actions 调度/失败与 Pages 部署是否脱节。
 `},
-{"id": "doc-radar-pulse-1109", "title": "需求雷达脉搏 2026-11-09（07:19 早间 · 跨周末首刷）", "theme": "市场研究", "date": "2026-11-09 07:19", "summary": "跨周末首刷公开池 29/0 @07:19（相对 11-06 早间 28/0）；KW 3→1（n8n+GHL 160）；新进 Booking+Subscription 489 / Cleaning 321 / Hotel 154；旧 n8n Sales/Supabase/AgentCore 淡出。无今日 Upwork。", "tags": ["雷达", "Freelancer", "脉搏", "预约", "高客单", "SEO", "周决策卡", "早间", "跨周末", "n8n", "GoHighLevel", "29帖", "SalonBooking", "BookingSubscription", "CleaningBooking", "HotelBooking", "TravelDirectory", "淡出n8nSales", "淡出Supabase", "淡出AgentCore", "淡出GCC", "周边机会", "HiddenRoles"], "source": "", "path": "docs/notes/radar_pulse_2026-11-09.md", "related_docs": ["doc-radar-pulse-1106", "doc-radar-pulse-1105", "doc-peripheral-cards-1104", "doc-week-decision-cards-1028", "doc-waist-revenue-1030", "doc-trustmrr-1029", "doc-fl-samples-1026", "doc-fl-layered-1026", "doc-haiwai-showcase-matrix-1026"], "content": `# 需求雷达脉搏 · 2026-11-09 早间（Asia/Shanghai）· 跨周末首刷
+{"id": "doc-radar-pulse-1109", "title": "需求雷达脉搏 2026-11-09（07:19 早间 → 11:44 午间）", "theme": "市场研究", "date": "2026-11-09 11:44", "summary": "公开池 29/0 @11:44（相对早间持平）；KW 仍 1（n8n+GHL 160→161）。新进 Website+Mobile Payments 233 / Local Service Website 44（$50）；淡出 Three AI SaaS / Medspa Sales；Travel Directory 131→165。无今日 Upwork。", "tags": ["雷达", "Freelancer", "脉搏", "预约", "高客单", "SEO", "周决策卡", "早间", "跨周末", "n8n", "GoHighLevel", "29帖", "SalonBooking", "BookingSubscription", "CleaningBooking", "HotelBooking", "TravelDirectory", "淡出n8nSales", "淡出Supabase", "淡出AgentCore", "淡出GCC", "周边机会", "HiddenRoles", "午间", "WebsitePayments", "LocalService", "TravelDirectory165", "淡出ThreeSaaS", "淡出Medspa"], "source": "", "path": "docs/notes/radar_pulse_2026-11-09.md", "related_docs": ["doc-radar-pulse-1106", "doc-radar-pulse-1105", "doc-peripheral-cards-1104", "doc-week-decision-cards-1028", "doc-waist-revenue-1030", "doc-trustmrr-1029", "doc-fl-samples-1026", "doc-fl-layered-1026", "doc-haiwai-showcase-matrix-1026"], "content": `# 需求雷达脉搏 · 2026-11-09 早间（Asia/Shanghai）· 跨周末首刷
 
 > 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\` + \`job_leads.json\`（\`published_at\` **2026-11-09 07:19:28 +08**，every_4h；\`job_leads_run_id\` 20261109-071827-21df1bed；\`last_run_id\` 20261109-071928-bd57f159）。公开数据 only。相对 Hub 上一份 **11-06 早间 08:54** 的 28/0（夜间段仍记该包；周五截稿后线上曾到 **19:56 / 27/0** 但未写入 Hub）：帖数 **+1 → 29**，推荐池仍空。例行周末不停 Pages，Hub 周中空窗；旁证记周六 08:00 **25/0** → 11:47 **24/0** → 13:48 **25/0**。
 
@@ -9664,6 +9664,67 @@ KW 仍 **3**，全部不投。
 - \`/workspace/task-os/weekly/2026-W45.md\`（约 11-07 15:06）：周旁证记周六雷达 25/0→24/0→25/0，无新 Upwork/FL 短名单；Hub 当时尚无 11-07 脉搏（周末例行未跑）。
 
 **动作**：过滤口径不变——**只追高客单；标多/低价/电销约访/投放岗/泛建站/整盘低码一律不投；主线 SEO 找词建站，平台接单降优先级**。不追 n8n+GHL 160 / Salon Booking 513 / Booking+Subscription 489 / Cleaning Booking 321 / Marketplace 263 / Hotel Booking 154 / Travel Directory 131 / GHL Lead Capture 86。SEO 下一动作仍优先对齐周边 Go 卡 **HiddenRoles（ATS Careers Detector）**；W44 Go 云浏览器对比站可并行书签。预约线继续日搜 2 轮 + 拒单规则。下一雷达约 **11:19**（every_4h；若未刷新则盯 15:19）。
+
+## 午间脉搏（约 13:00 +08；雷达 11:44）
+
+> 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\` + \`job_leads.json\`（\`published_at\` **2026-11-09 11:44:15 +08**，every_4h；\`job_leads_run_id\` 20261109-114317-eec30a8f；\`last_run_id\` 20261109-114415-d728076b）。公开数据 only。相对 **早间 07:19** 的 29/0：帖数持平 **29**，推荐池仍空。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **29**（早间 29） |
+| 推荐数量 | **0** |
+| Job ingest | OK |
+| Fiverr | 仍跳过（HTTP 403 buyer_requests） |
+| Trends | 仍 demo |
+
+### 关键词过关但仍不推荐（事实）
+
+| 帖 | 预算 | 标 | score | 备注 |
+|---|---|---|---|---|
+| **AI Automation Expert – AI Agents, n8n, GoHighLevel & Business Workflows** | €250–750 | 160→**161** | 75 | 加固/tool:n8n, ai agent；一期+竞争未过（161≥100）→ n8n/GHL 整盘红海，不投 |
+
+关键词过关仍 **1**（与早间同题；标 +1）。
+
+### 相对早间 07:19 变化（事实）
+
+- 推荐池仍空；KW 主信号仍为 **n8n + GoHighLevel 工作流整盘**（160→**161**），不投。
+- **Travel Directory Website Growth & Monetization**：131→**165** → SEO/研究/爬取/增长岗标急升 +34，关键词未过 → 可作 SEO 旁证，不投。
+- **Cleaning Services Booking Platform**：321→**327**；**GoHighLevel Lead Capture Expert**：86→**89**；**Build AI B2B Market Intelligence Platform**：54→**57**；**B2B Cold Caller / Appointment Setter**：34→**36**；**WordPress Doula Site Overhaul**：334→**336** → 微升，不投。
+- **Build AWS AI Demo Agent**：158→**159**；**Hotel Booking Website Development**：154→**155**；**Meta Instagram App Review Expert**：64→**65**；**Secure & Polish AI Suite**：63→**64**；**Kite Surf Sales & Marketing**：17→**18** → +1 噪声，不投。
+- 持平：Salon Booking **513**、Booking+Subscription **489**、Marketplace **263**、Futuristic WP **222**、University AI Assistant **212**、Flight Booking **160**、Advocate SOS **133**、Performance Marketing **54**、Solar Appointments **56**、Warm VA **43**、Appointment Calendar **41**、Persian Dental **34**、Real Estate Sales **14**、Investor Setter **12**、Malayalam Lead **4**。
+- **淡出**（早间新进/噪声、本刷不在池）：**Build Three Production-Ready AI SaaS Platforms**（早间 59）、**Medspa Pilot Sales Partner Needed**（早间 5）。
+- **新进**（相对早间；关键词未过）：
+
+  | 帖 | 标 | 预算 | 备注 |
+  |---|---|---|---|
+  | **Website & Mobile App with Payments** | **233** | £250–750 | 站+App+支付整盘红海 → 不投 |
+  | **Local Service Website Completion** | **44** | $50 | 极低价本地服务站收尾 → 不投 |
+
+- 预约旁证（均关键词未过 / 排除轨 / 红海；标相对早间）：
+
+  | 帖 | 标（早→午） | 备注 |
+  |---|---|---|
+  | Salon Booking & E-Commerce | 513→**513** | 持平，不投 |
+  | Website Booking & Subscription Integration | 489→**489** | 持平，不投 |
+  | Cleaning Services Booking Platform | 321→**327** | 见上 |
+  | Flight Booking（排除） | 160→**160** | 持平，不投 |
+  | Hotel Booking Website Development | 154→**155** | 微升，不投 |
+  | Book Solar Appointments via Calls | 56→**56** | 电销约访，不投 |
+  | Appointment Scheduling & Calendar | 41→**41** | 持平，不投 |
+  | Investor Lead Generation and Appointment Setter | 12→**12** | 约访/线索岗，不投 |
+
+- 本刷噪声（关键词未过，不作主投）：Salon Booking（**513**）、Booking+Subscription（**489**）、Doula WP（**336**）、Cleaning Booking（**327**）、Marketplace（**263**）、Website+Mobile Payments（**233**）、Futuristic WP（**222**）、University AI Assistant（**212**）、Travel Directory（**165**）、n8n+GHL（**161**）、Flight Booking（**160**）、AWS Demo Agent（**159**）、Hotel Booking（**155**）、Advocate SOS（**133**）、GHL Lead Capture（**89**）、Meta Instagram Review（**65**）、Secure Polish AI（**64**）、Market Intelligence（**57**）、Solar Appointments（**56**）、Performance Marketing（**54**）、Local Service Website（**44**）、Warm VA（**43**）、Appointment Calendar（**41**）、Cold Caller（**36**）、Persian Dental（**34**）、Kite Surf（**18**）、Real Estate Sales（**14**）、Investor Setter（**12**）、Malayalam Lead（**4**）。
+
+### 本地 intel 扫描（相对早间 hub 提交 09:08）
+
+- \`/workspace/freelancer/\`：仍无新于 10-26 晚分层短名单 / discover / templates；\`screen_mode.md\` 仍 \`discover\` + 高客单过滤。无 10-27–11-09 新 \`demand_samples_*\`。
+- \`/workspace/upwork/\`：最新仍为 **2026-10-19** \`checked_*\` / \`screened_*\`；**无 2026-11-09** 今日 checked/digest/screened。
+- \`/workspace/出海变现/\`：周边机会卡已挂入 hub；本刷无增量正文。周决策卡 W44 / TrustMRR / 腰部词摘要已挂；\`revenue-scrapers/\` 仍 10-29。
+- \`/workspace/demand-radar/\`：exports 仍 stub；无新可读岗位导出。
+- \`/workspace/notes/radar-daily/reminded-ids.json\`（约 09:09）：有触达记录，非岗位短名单。
+- \`/workspace/notes/bot-evals/weekly/2026-W45.md\`（约 09:08）：W45 复盘旁证，无新 Upwork/FL 短名单。
+
+**动作**：过滤口径不变——**只追高客单；标多/低价/电销约访/投放岗/泛建站/整盘低码一律不投；主线 SEO 找词建站，平台接单降优先级**。不追 n8n+GHL 161 / Salon Booking 513 / Booking+Subscription 489 / Cleaning Booking 327 / Marketplace 263 / Website+Mobile Payments 233 / Travel Directory 165 / Hotel Booking 155 / GHL Lead Capture 89 / Local Service Website 44。SEO 下一动作仍优先对齐周边 Go 卡 **HiddenRoles（ATS Careers Detector）**；W44 Go 云浏览器对比站可并行书签。预约线继续日搜 2 轮 + 拒单规则。下一雷达约 **15:44**（every_4h；若未刷新则盯 19:44）。
 `},
 ]
 };
