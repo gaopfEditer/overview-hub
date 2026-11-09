@@ -1788,10 +1788,10 @@
     },
     {
       "id": "doc-radar-pulse-1109",
-      "title": "需求雷达脉搏 2026-11-09（07:19 早间 → 11:44 午间 → 13:19 下午）",
+      "title": "需求雷达脉搏 2026-11-09（07:19 早间 → 11:44 午间 → 13:19 下午 → 15:45 傍晚）",
       "path": "docs/notes/radar_pulse_2026-11-09.md",
       "theme": "市场研究",
-      "date": "2026-11-09 13:19",
+      "date": "2026-11-09 15:45",
       "tags": [
         "雷达",
         "Freelancer",
@@ -1825,9 +1825,17 @@
         "下午",
         "Payments259",
         "LocalService58",
-        "TravelDirectory175"
+        "TravelDirectory175",
+        "傍晚",
+        "Payments296",
+        "TravelDirectory196",
+        "LocalService69",
+        "淡出GHLLead",
+        "Nexobova",
+        "LineMarking",
+        "SuperApp"
       ],
-      "summary": "公开池 29/0 @13:19（相对午间持平，无新进/淡出）；KW 仍 1（n8n+GHL 161 持平）。Payments 233→259、Local Service 44→58、Travel Directory 165→175。无今日 Upwork。",
+      "summary": "公开池 29/0 @15:45（相对下午持平，新进4/淡出4）；KW 仍 1（n8n+GHL 161→162）。Payments 259→296、Travel Directory 175→196、Local Service 58→69。淡出 GHL Lead Capture。无今日 Upwork。",
       "related_docs": [
         "doc-radar-pulse-1106",
         "doc-radar-pulse-1105",
