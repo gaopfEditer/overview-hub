@@ -1784,6 +1784,50 @@
         "doc-fl-layered-1026",
         "doc-haiwai-showcase-matrix-1026"
       ]
+    },
+    {
+      "id": "doc-radar-pulse-1109",
+      "title": "需求雷达脉搏 2026-11-09（07:19 早间 · 跨周末首刷）",
+      "path": "docs/notes/radar_pulse_2026-11-09.md",
+      "theme": "市场研究",
+      "date": "2026-11-09 07:19",
+      "tags": [
+        "雷达",
+        "Freelancer",
+        "脉搏",
+        "预约",
+        "高客单",
+        "SEO",
+        "周决策卡",
+        "早间",
+        "跨周末",
+        "n8n",
+        "GoHighLevel",
+        "29帖",
+        "SalonBooking",
+        "BookingSubscription",
+        "CleaningBooking",
+        "HotelBooking",
+        "TravelDirectory",
+        "淡出n8nSales",
+        "淡出Supabase",
+        "淡出AgentCore",
+        "淡出GCC",
+        "周边机会",
+        "HiddenRoles"
+      ],
+      "summary": "跨周末首刷公开池 29/0 @07:19（相对 11-06 早间 28/0）；KW 3→1（n8n+GHL 160）；新进 Booking+Subscription 489 / Cleaning 321 / Hotel 154；旧 n8n Sales/Supabase/AgentCore 淡出。无今日 Upwork。",
+      "related_docs": [
+        "doc-radar-pulse-1106",
+        "doc-radar-pulse-1105",
+        "doc-peripheral-cards-1104",
+        "doc-week-decision-cards-1028",
+        "doc-waist-revenue-1030",
+        "doc-trustmrr-1029",
+        "doc-fl-samples-1026",
+        "doc-fl-layered-1026",
+        "doc-haiwai-showcase-matrix-1026"
+      ]
     }
   ]
 }
