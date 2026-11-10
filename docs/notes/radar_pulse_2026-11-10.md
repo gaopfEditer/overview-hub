@@ -72,3 +72,69 @@
 - 11-09 17:04 之后，接单/出海笔记目录无新 md/txt/json。
 
 **动作**：过滤口径不变——**只追高客单；标多/低价/电销约访/投放岗/泛建站/整盘低码一律不投；主线 SEO 找词建站，平台接单降优先级**。不追 n8n+GHL 176 / Automate Workflows 115 / Salon Booking 518 / Booking+Subscription 497 / Fix Booking Bugs 411 / Hosted Financial Site 396 / Cleaning Booking 370 / Website+Mobile Payments 344 / Marketplace 267 / Hotel Booking 163 / Local Shop Google Ads 96 / Rental Boyfriend 6。SEO 下一动作仍优先对齐周边 Go 卡 **HiddenRoles（ATS Careers Detector）**；W44 Go 云浏览器对比站可并行书签。预约线继续日搜 2 轮 + 拒单规则。下一雷达约 **11:55**（every_4h；若未刷新则盯 15:55）。
+
+## 午间脉搏（约 11:05 +08；雷达 10:37）
+
+> 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) `data/meta.json` + `job_leads.json`（`published_at` **2026-11-10 10:37:44 +08**，every_4h；`job_leads_run_id` 20261110-103642-6660c47e；`last_run_id` 20261110-103744-b5dae9a0）。公开数据 only。相对 **早间 07:55** 的 26/0：帖数 **+2 → 28**，推荐池仍空；**新进 4 / 淡出 2**。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **28**（早间 26） |
+| 推荐数量 | **0** |
+| Job ingest | OK |
+| Fiverr | 仍跳过（HTTP 403 buyer_requests） |
+| Trends | 仍 demo |
+
+### 关键词过关但仍不推荐（事实）
+
+| 帖 | 预算 | 标 | score | 备注 |
+|---|---|---|---|---|
+| **AI Automation Expert – AI Agents, n8n, GoHighLevel & Business Workflows** | €250–750 | 176→**176** | 75 | 加固/tool:n8n, ai agent；一期+竞争未过（176≥100）→ n8n/GHL 整盘红海，不投 |
+| **Automate Your Workflows with AI** | $250–750 | 115→**117** | 75 | 加固/tool:n8n；一期+竞争未过（117≥100）→ n8n 工作流整盘，不投 |
+
+关键词过关仍 **2**（与早间同题；Automate Workflows 标 +2，n8n+GHL 持平）。
+
+### 相对早间 07:55 变化（事实）
+
+- 推荐池仍空；KW 主信号仍为 **n8n+GHL 176 + Automate Workflows 115→117**（两张都是 n8n 整盘红海），不投。
+- **Automate Your Workflows with AI**：115→**117** → +2，见 KW 表。
+- **Website & Mobile App with Payments**：344→**345**；**Cleaning Services Booking Platform**：370→**371**；**WordPress Doula Site Overhaul**：354→**355**；**Build AI B2B Market Intelligence Platform**：68→**69**；**Local Shop Google Ads Boost**：96→**97**；**Rental Boyfriend Rules & Pricing**：6→**7** → +1 噪声，不投。
+- 持平：Salon Booking **518**、Booking+Subscription **497**、Marketplace **267**、Futuristic WP **222**、AWS Demo Agent **183**、n8n+GHL **176**、Hotel Booking **163**、Flight Booking（排除轨 web developer）**163**、Advocate SOS **133**、Meta Instagram Review **67**、Secure Polish AI **65**、Solar Appointments **57**、Performance Marketing **54**、Warm VA **44**、Cold Caller **37**、Persian Dental **34**、Investor Setter **12**。
+- **淡出**（早间在池、本刷不在池）：**Fix Booking Website Bugs**（早间 411）、**Hosted Financial Site Build**（早间 396）。
+- **新进**（相对早间；关键词均未过）：
+
+  | 帖 | 标 | 预算 | 备注 |
+  |---|---|---|---|
+  | **Bus Ticketing App: Streamlined Travel Booking** | **25** | $15–25/hr | 巴士票务/旅行预订 App，偏低时薪 → 可作预约旁证，不投 |
+  | **High-Conversion WordPress Service Landing Page** | **22** | ₹1.5k–12.5k | WP 服务落地页+低预算 → 不投 |
+  | **Appointment Setter – New Real Estate Video Agency (Commission-Based)** | **16** | $750–1500 | 地产视频机构提成制约访岗 → 不投 |
+  | **Sales Closer – New Real Estate Video Agency (Commission-Based)** | **12** | $750–1500 | 同机构提成制成交岗 → 不投 |
+
+- 预约旁证（均关键词未过 / 排除轨 / 红海；标相对早间）：
+
+  | 帖 | 标（早→午） | 备注 |
+  |---|---|---|
+  | Salon Booking & E-Commerce | 518→**518** | 持平，不投 |
+  | Website Booking & Subscription Integration | 497→**497** | 持平，不投 |
+  | Cleaning Services Booking Platform | 370→**371** | 见上 |
+  | Flight Booking（排除） | 163→**163** | 持平，不投 |
+  | Hotel Booking Website Development | 163→**163** | 持平，不投 |
+  | Book Solar Appointments via Calls | 57→**57** | 电销约访，不投 |
+  | B2B Cold Caller / Appointment Setter | 37→**37** | 电销约访岗，不投 |
+  | Investor Lead Generation and Appointment Setter | 12→**12** | 持平，不投 |
+  | Bus Ticketing App（新进） | —→**25** | 见上 |
+  | Appointment Setter Real Estate Video Agency（新进） | —→**16** | 提成制约访，不投 |
+  | Fix Booking Website Bugs | **—** | **淡出** |
+
+- 本刷噪声（关键词未过或已在 KW 表标明不投，不作主投）：Salon Booking（**518**）、Booking+Subscription（**497**）、Cleaning Booking（**371**）、Doula WP（**355**）、Website+Mobile Payments（**345**）、Marketplace（**267**）、Futuristic WP（**222**）、AWS Demo Agent（**183**）、n8n+GHL（**176**）、Flight Booking（**163**）、Hotel Booking（**163**）、Advocate SOS（**133**）、Automate Workflows AI（**117**）、Local Shop Google Ads（**97**）、Market Intelligence（**69**）、Meta Instagram Review（**67**）、Secure Polish AI（**65**）、Solar Appointments（**57**）、Performance Marketing（**54**）、Warm VA（**44**）、Cold Caller（**37**）、Persian Dental（**34**）、Bus Ticketing App（**25**）、WP Service Landing（**22**）、Appointment Setter Real Estate（**16**）、Investor Setter（**12**）、Sales Closer Real Estate（**12**）、Rental Boyfriend（**7**）。
+
+### 本地 intel 扫描（相对早间 hub 提交 09:06）
+
+- `/workspace/freelancer/`：仍无新于 10-26 晚分层短名单 / discover / templates；`screen_mode.md` 仍 `discover` + 高客单过滤。无 10-27–11-10 新 `demand_samples_*`。
+- `/workspace/upwork/`：最新仍为 **2026-10-19** `checked_*` / `screened_*`；**无 2026-11-10** 今日 checked/digest/screened。
+- `/workspace/出海变现/`：周边机会卡已挂入 hub；本刷无增量正文。周决策卡 W44 / TrustMRR / 腰部词摘要已挂；`revenue-scrapers/` 仍 10-29。
+- `/workspace/demand-radar/`：exports 仍 stub；无新可读岗位导出。
+- `/workspace/notes/radar-daily/reminded-ids.json`（约 09:11）：有触达记录，非岗位短名单。
+- 09:06 之后，接单/出海笔记目录无新 md/txt/json 短名单。
+
+**动作**：过滤口径不变——**只追高客单；标多/低价/电销约访/投放岗/泛建站/整盘低码一律不投；主线 SEO 找词建站，平台接单降优先级**。不追 n8n+GHL 176 / Automate Workflows 117 / Salon Booking 518 / Booking+Subscription 497 / Cleaning Booking 371 / Website+Mobile Payments 345 / Marketplace 267 / Hotel Booking 163 / Local Shop Google Ads 97 / Bus Ticketing 25 / WP Service Landing 22 / Appointment Setter Real Estate 16 / Sales Closer Real Estate 12 / Rental Boyfriend 7。SEO 下一动作仍优先对齐周边 Go 卡 **HiddenRoles（ATS Careers Detector）**；W44 Go 云浏览器对比站可并行书签。预约线继续日搜 2 轮 + 拒单规则。下一雷达约 **14:37**（every_4h；若未刷新则盯 18:37）。
