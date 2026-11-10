@@ -1850,10 +1850,10 @@
     },
     {
       "id": "doc-radar-pulse-1110",
-      "title": "需求雷达脉搏 2026-11-10（07:55 早间 → 10:37 午间）",
+      "title": "需求雷达脉搏 2026-11-10（07:55 早间 → 10:37 午间 → 13:17 下午）",
       "path": "docs/notes/radar_pulse_2026-11-10.md",
       "theme": "市场研究",
-      "date": "2026-11-10 10:37",
+      "date": "2026-11-10 13:17",
       "tags": [
         "雷达",
         "Freelancer",
@@ -1865,7 +1865,6 @@
         "早间",
         "n8n",
         "GoHighLevel",
-        "28帖",
         "SalonBooking",
         "BookingSubscription",
         "FixBookingBugs",
@@ -1882,9 +1881,18 @@
         "BusTicketing",
         "WPLanding",
         "AppointmentSetter",
-        "SalesCloser"
+        "SalesCloser",
+        "27帖",
+        "下午",
+        "淡出FlightBooking",
+        "淡出WPLanding",
+        "淡出AppointmentSetter",
+        "淡出SalesCloser",
+        "PortalReservas",
+        "AppointmentSetter2",
+        "SalesCloser2"
       ],
-      "summary": "公开池 28/0 @10:37（相对早间 26/0，新进4/淡出2）；KW 仍 2（n8n+GHL 176，Automate Workflows 115→117）。淡出 Fix Booking Bugs / Hosted Financial Site。新进巴士票务 App、WP 落地页、地产提成制约访/成交岗。无今日 Upwork。",
+      "summary": "公开池 27/0 @13:17（相对午间 28/0，新进3/淡出4）；KW 仍 2（n8n+GHL 176→177，Automate Workflows 117→119）。淡出 Flight Booking / WP 落地页 / 地产约访与成交原帖。新进度假屋预订门户，及同机构约访/成交岗 -- 2 重发。无今日 Upwork。",
       "related_docs": [
         "doc-radar-pulse-1109",
         "doc-radar-pulse-1106",
