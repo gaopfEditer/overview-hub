@@ -96,13 +96,14 @@
       "type": "freelance",
       "title": "Freelancer.com",
       "url": "https://www.freelancer.com/",
-      "summary": "竞标制补充池。2026-11-09 11:44 午间：公开池仍 **29/0**（相对早间 07:19 持平）；KW 仍 1：n8n+GHL **161**（160→161）——不投。新进 Website+Mobile Payments **233**、Local Service Website **44**（$50）；淡出 Three AI SaaS / Medspa Sales。噪声：Salon Booking **513**、Booking+Sub **489**、Cleaning **327**、Travel Directory **131→165**——一律不投。无今日 Upwork。主线 SEO 找词建站。",
+      "summary": "竞标制补充池。2026-11-11 13:18 下午：公开池仍 **29/0**（相对午间 11:50 持平，新进1/淡出1）；KW 仍 2：n8n+GHL **188** 持平、Automate Workflows 122→**123**——不投。Travel CRM 50→**58**、Portal de Reservas 239→**244**。淡出 Adventure Service Booking；新进 Automasi Attribution/Lead Engine（$30–250，38 标）。无今日 Upwork。主线 SEO 找词建站。",
       "permissions": "① 账号 + Email\n② KYC/ID（提现）\n③ Bid credits（每日免费标有限）\n④ Milestone 托管理解",
       "access_path": "1. Browse → n8n / API / scraping / automation\n2. 选描述清、有支付验证的 Fixed 单\n3. 短提案：复述问题 + 3 步 + 价期\n4. Place Bid（省免费标）\n5. 等 Milestone 拨款再开工\n6. 交付→放款→互评",
       "caveats": "低价卷严重；拒站外先聊诈骗；Bid 别浪费在白嫖帖；精力优先级低于 Upwork。",
       "trends_keywords": "EN: freelancer.com automation, hire n8n developer, web scraping freelancer, API integration project\nCN: Freelancer 竞标, 海外众包 自动化",
       "path": "docs/platforms/freelancer.md",
       "related_docs": [
+        "doc-radar-pulse-1111",
         "doc-radar-pulse-1109",
         "doc-radar-pulse-1106",
         "doc-radar-pulse-1104",
@@ -1907,10 +1908,10 @@
     },
     {
       "id": "doc-radar-pulse-1111",
-      "title": "需求雷达脉搏 2026-11-11（05:43 早间 → 11:50 午间）",
+      "title": "需求雷达脉搏 2026-11-11（05:43 早间 → 11:50 午间 → 13:18 下午）",
       "path": "docs/notes/radar_pulse_2026-11-11.md",
       "theme": "市场研究",
-      "date": "2026-11-11 11:50",
+      "date": "2026-11-11 13:18",
       "tags": [
         "雷达",
         "Freelancer",
@@ -1939,9 +1940,12 @@
         "淡出EventRental",
         "淡出USMarketEntry",
         "TikTokShop",
-        "TravelCRM升温"
+        "TravelCRM升温",
+        "下午",
+        "淡出AdventureBooking",
+        "AutomasiAttribution"
       ],
-      "summary": "公开池 29/0 @11:50（相对早间 31/0，新进1/淡出3；预定 09:43 包未发布）。KW 仍 2（n8n+GHL 187→188，Automate Workflows 122 持平）。Travel CRM 31→50；Local Booking SEO 172→180。淡出 Cleaning Booking / Elegant Event Rental / US Market Entry。新进 TikTok Shop 运营。无今日 Upwork 新筛。",
+      "summary": "公开池仍 29/0 @13:18（相对午间 11:50，新进1/淡出1）。KW 仍 2（n8n+GHL 188 持平，Automate Workflows 122→123）。Travel CRM 50→58；Portal de Reservas 239→244。淡出 Adventure Service Booking。新进 Automasi Attribution/Lead Engine（$30–250，38 标）。无今日 Upwork 新筛。",
       "related_docs": [
         "doc-radar-pulse-1110",
         "doc-radar-pulse-1109",
