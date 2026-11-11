@@ -1904,6 +1904,49 @@
         "doc-fl-samples-1026",
         "doc-fl-layered-1026"
       ]
+    },
+    {
+      "id": "doc-radar-pulse-1111",
+      "title": "需求雷达脉搏 2026-11-11（05:43 早间）",
+      "path": "docs/notes/radar_pulse_2026-11-11.md",
+      "theme": "市场研究",
+      "date": "2026-11-11 05:43",
+      "tags": [
+        "雷达",
+        "Freelancer",
+        "脉搏",
+        "预约",
+        "高客单",
+        "SEO",
+        "早间",
+        "n8n",
+        "GoHighLevel",
+        "AutomateWorkflows",
+        "SalonBooking",
+        "CleaningBooking",
+        "WebsitePayments",
+        "PortalReservas",
+        "LocalBookingSEO",
+        "EventRental",
+        "AdventureBooking",
+        "TravelCRM",
+        "淡出BookingSubscription",
+        "淡出LocalShopAds",
+        "淡出BusTicketing",
+        "31帖"
+      ],
+      "summary": "公开池 31/0 @05:43（相对 11-10 下午 13:17 的 27/0，新进11/淡出7；中间 20:19 已见 31/0 但 Hub 未同步）。KW 仍 2（n8n+GHL 177→187，Automate Workflows 119→122）。度假屋预订门户 141→237；Local Booking SEO 现 172。无今日 Upwork 新筛。",
+      "related_docs": [
+        "doc-radar-pulse-1110",
+        "doc-radar-pulse-1109",
+        "doc-radar-pulse-1106",
+        "doc-peripheral-cards-1104",
+        "doc-week-decision-cards-1028",
+        "doc-waist-revenue-1030",
+        "doc-trustmrr-1029",
+        "doc-fl-samples-1026",
+        "doc-fl-layered-1026"
+      ]
     }
   ]
 }
