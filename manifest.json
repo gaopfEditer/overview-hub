@@ -1907,10 +1907,10 @@
     },
     {
       "id": "doc-radar-pulse-1111",
-      "title": "需求雷达脉搏 2026-11-11（05:43 早间）",
+      "title": "需求雷达脉搏 2026-11-11（05:43 早间 → 11:50 午间）",
       "path": "docs/notes/radar_pulse_2026-11-11.md",
       "theme": "市场研究",
-      "date": "2026-11-11 05:43",
+      "date": "2026-11-11 11:50",
       "tags": [
         "雷达",
         "Freelancer",
@@ -1933,9 +1933,15 @@
         "淡出BookingSubscription",
         "淡出LocalShopAds",
         "淡出BusTicketing",
-        "31帖"
+        "29帖",
+        "午间",
+        "淡出CleaningBooking",
+        "淡出EventRental",
+        "淡出USMarketEntry",
+        "TikTokShop",
+        "TravelCRM升温"
       ],
-      "summary": "公开池 31/0 @05:43（相对 11-10 下午 13:17 的 27/0，新进11/淡出7；中间 20:19 已见 31/0 但 Hub 未同步）。KW 仍 2（n8n+GHL 177→187，Automate Workflows 119→122）。度假屋预订门户 141→237；Local Booking SEO 现 172。无今日 Upwork 新筛。",
+      "summary": "公开池 29/0 @11:50（相对早间 31/0，新进1/淡出3；预定 09:43 包未发布）。KW 仍 2（n8n+GHL 187→188，Automate Workflows 122 持平）。Travel CRM 31→50；Local Booking SEO 172→180。淡出 Cleaning Booking / Elegant Event Rental / US Market Entry。新进 TikTok Shop 运营。无今日 Upwork 新筛。",
       "related_docs": [
         "doc-radar-pulse-1110",
         "doc-radar-pulse-1109",
