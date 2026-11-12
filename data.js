@@ -10057,7 +10057,7 @@ KW 仍 **3**，全部不投。
 
 **动作**：过滤口径不变——**只追高客单；标多/低价/电销约访/投放岗/泛建站/整盘低码一律不投；主线 SEO 找词建站，平台接单降优先级**。不追 n8n+GHL 177 / Automate Workflows 119 / Salon Booking 519 / Booking+Subscription 498 / Cleaning Booking 371 / Website+Mobile Payments 345 / Marketplace 268 / Hotel Booking 163 / Portal de Reservas 141 / Local Shop Google Ads 106 / Bus Ticketing 33 / Appointment Setter Real Estate -- 2（7） / Sales Closer Real Estate -- 2（6） / Rental Boyfriend 8。SEO 下一动作仍优先对齐周边 Go 卡 **HiddenRoles（ATS Careers Detector）**；W44 Go 云浏览器对比站可并行书签。预约线继续日搜 2 轮 + 拒单规则。下一雷达约 **17:17**（every_4h；若未刷新则盯 21:17）。
 `},
-{"id": "doc-radar-pulse-1111", "title": "需求雷达脉搏 2026-11-11（05:43 早间 → 11:50 午间 → 13:18 下午）", "theme": "市场研究", "date": "2026-11-11 13:18", "summary": "公开池仍 29/0 @13:18（相对午间 11:50，新进1/淡出1）。KW 仍 2（n8n+GHL 188 持平，Automate Workflows 122→123）。Travel CRM 50→58；Portal de Reservas 239→244。淡出 Adventure Service Booking。新进 Automasi Attribution/Lead Engine（$30–250，38 标）。无今日 Upwork 新筛。", "tags": ["雷达", "Freelancer", "脉搏", "预约", "高客单", "SEO", "早间", "n8n", "GoHighLevel", "AutomateWorkflows", "SalonBooking", "CleaningBooking", "WebsitePayments", "PortalReservas", "LocalBookingSEO", "EventRental", "AdventureBooking", "TravelCRM", "淡出BookingSubscription", "淡出LocalShopAds", "淡出BusTicketing", "29帖", "午间", "淡出CleaningBooking", "淡出EventRental", "淡出USMarketEntry", "TikTokShop", "TravelCRM升温", "下午", "淡出AdventureBooking", "AutomasiAttribution"], "source": "", "path": "docs/notes/radar_pulse_2026-11-11.md", "related_docs": ["doc-radar-pulse-1110", "doc-radar-pulse-1109", "doc-radar-pulse-1106", "doc-peripheral-cards-1104", "doc-week-decision-cards-1028", "doc-waist-revenue-1030", "doc-trustmrr-1029", "doc-fl-samples-1026", "doc-fl-layered-1026"], "content": `# 需求雷达脉搏 · 2026-11-11 早间（Asia/Shanghai）
+{"id": "doc-radar-pulse-1111", "title": "需求雷达脉搏 2026-11-11（05:43 早间 → 11:50 午间 → 13:18 下午）", "theme": "市场研究", "date": "2026-11-11 13:18", "summary": "公开池仍 29/0 @13:18（相对午间 11:50，新进1/淡出1）。KW 仍 2（n8n+GHL 188 持平，Automate Workflows 122→123）。Travel CRM 50→58；Portal de Reservas 239→244。淡出 Adventure Service Booking。新进 Automasi Attribution/Lead Engine（$30–250，38 标）。无今日 Upwork 新筛。", "tags": ["雷达", "Freelancer", "脉搏", "预约", "高客单", "SEO", "早间", "n8n", "GoHighLevel", "AutomateWorkflows", "SalonBooking", "CleaningBooking", "WebsitePayments", "PortalReservas", "LocalBookingSEO", "EventRental", "AdventureBooking", "TravelCRM", "淡出BookingSubscription", "淡出LocalShopAds", "淡出BusTicketing", "29帖", "午间", "淡出CleaningBooking", "淡出EventRental", "淡出USMarketEntry", "TikTokShop", "TravelCRM升温", "下午", "淡出AdventureBooking", "AutomasiAttribution"], "source": "", "path": "docs/notes/radar_pulse_2026-11-11.md", "related_docs": ["doc-radar-pulse-1112", "doc-market-intel-1111", "doc-radar-pulse-1110", "doc-radar-pulse-1109", "doc-radar-pulse-1106", "doc-peripheral-cards-1104", "doc-week-decision-cards-1028", "doc-waist-revenue-1030", "doc-trustmrr-1029", "doc-fl-samples-1026", "doc-fl-layered-1026"], "content": `# 需求雷达脉搏 · 2026-11-11 早间（Asia/Shanghai）
 
 > 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\` + \`job_leads.json\`（\`published_at\` **2026-11-11 05:43:28 +08**，every_4h；\`job_leads_run_id\` 20261111-054228-e5d40a9f；\`last_run_id\` 20261111-054328-acdc0f25）。公开数据 only。相对 Hub 上一份 **11-10 下午 13:17** 的 27/0（当晚例行 19:04 时约 17:17 的 ingest 尚未跑；11-10 日评截稿前已见 **20:19 的 31/0**，但 Hub 未同步；未捕获 17:17 / 01:43 等中间包）：帖数 **+4 → 31**，推荐池仍空；**新进 11 / 淡出 7**。
 
@@ -10279,6 +10279,693 @@ KW 仍 **3**，全部不投。
 - 12:58 之后，接单/出海笔记目录无新 md/txt/json 短名单。
 
 **动作**：过滤口径不变——**只追高客单；标多/低价/电销约访/投放岗/泛建站/整盘低码一律不投；主线 SEO 找词建站，平台接单降优先级**。不追 n8n+GHL 188 / Automate Workflows 123 / Salon Booking 522 / Doula WP 367 / Website+Mobile Payments 360 / Marketplace 271 / Portal de Reservas 244 / Local Booking SEO 182 / Hotel Booking 165 / Travel CRM Flight Ops 58 / Automasi Attribution 38 / Tech Support 17 / Real Estate Video Agency 13/9 / CNC CAD 11 / Rental Boyfriend App 45 / TikTok Shop 8。SEO 下一动作仍优先对齐周边 Go 卡 **HiddenRoles（ATS Careers Detector）**；W44 Go 云浏览器对比站可并行书签。预约线继续日搜 2 轮 + 拒单规则。下一雷达约 **17:18**（every_4h 相对本 13:18；若按午间 11:50 对齐则约 15:50 可能还有一包，未刷新则盯 21:18）。
+`},
+{"id": "doc-market-intel-1111", "title": "海外软件需求情报 · 第一轮机会验证（2026-11-11）", "theme": "市场研究", "date": "2026-11-11 23:32", "summary": "20 个候选已评分。立即验证（共用一条数据工具线，非同时开三个新产品）：CSV 自动修复（O11，3.80，中）、PDF 表格提取质检（O07，3.70，中）、大文件 CSV 查看筛选（O15，3.40，中）。继续观察：O16 内容过期监控、O19 竞品变更监控、O02 代码审查（3.90 但空隙小）。暂不开发 O03/O13/O17/O10。无 Planner/Trends/Ahrefs 搜索量，不把热度写成购买意愿。", "tags": ["需求情报", "机会验证", "CSV", "PDF", "数据处理", "立即验证", "O11", "O07", "O15", "O02", "O16", "O19", "MarketIntelligence"], "source": "", "path": "出海变现/market-intelligence/reports/第一轮机会验证-2026-11-11.md", "related_docs": ["doc-radar-pulse-1112", "doc-peripheral-cards-1104", "doc-week-decision-cards-1028", "doc-waist-revenue-1030", "doc-radar-brief", "doc-longtail"], "content": `# 海外软件需求情报 · 第一轮机会验证
+
+- 采集日期：2026-11-11
+- 时区：Asia/Shanghai（UTC+8）
+- 性质：独立的海外软件需求情报研究，不是自动找赚钱项目的 Agent，也不是对已有交易系统或 demand-radar 仓库的改动
+- 对象市场：海外英文市场的工具站、微 SaaS、开发者工具与自动化产品
+- 本文区分「已核实事实」与「推断」。没有拿到的数据会写明缺失原因，不编造搜索量、流量、收入或用户数
+
+## 1. 读者可以据此做什么决定
+
+本轮建议把精力放在验证实验上，而不是立刻开始大规模开发。
+
+值得立即验证（3 个，且建议共用一条数据工具产品线来做实验，而不是同时开三个新产品）：
+
+1. CSV 自动修复与数据清洗（O11，加权 3.80，可信度中）
+2. PDF 表格结构提取与质量检查（O07，加权 3.70，可信度中）
+3. 大文件 CSV 查看与筛选（O15，加权 3.40，可信度中）
+
+继续观察的深度项：内容过期监控（O16）、竞品价格与功能变更监控（O19）、AI 代码变更审查（O02）。其中 O02 的加权分（3.90）甚至高于上面三项，但分类不是「立即验证」，因为竞争空隙小。
+
+暂不建议开发：多 Agent 任务协调（O03）、JSON/API 调试工作台（O13）、SEO 技术问题自动修复（O17）、专业文件自动归档（O10，对企业销售周期过长）。
+
+## 2. 研究口径与数据源限制
+
+事实来自本轮实际打开或经 GitHub API 读取的公开页、官方定价页、Reddit 原帖标题或摘录，以及标明了日期的二手对比文。推断会单独写出。
+
+本轮未能取得、因而不能当作数字使用的来源：
+
+- Google Keyword Planner：需要 Google Ads 登录，未登录，无搜索量区间与竞价
+- Ahrefs Free Keyword Generator：已打开 https://ahrefs.com/keyword-generator?keyword=clean+csv&country=us ，页面为前端渲染，抓取结果只有产品介绍，没有具体搜索量、KD 或 CPC
+- Google Trends：未成功取得可引用的相对指数时间序列。因此「需求增长」分普遍保守，并视为待验证
+- Similarweb：本轮不引用付费墙后的估算流量
+- Wappalyzer / BuiltWith：本轮未采集
+- Trends Agents 官网 https://trendsagents.com/ ：访问返回 504，未写入结论
+- Trend Opportunity Radar 与 Analook：按任务要求，工具试用不作为报告主体
+- Microsoft Excel 官方规格页：抓取超时。1,048,576 行限制由多份公开教程与 Reddit 讨论引用，报告中标明来源层级
+- Zoho DataPrep 付费档美元起始价：官方页确认了免费档限制，但本轮抓取未得到清晰美元价
+- Adobe Acrobat 官方现价：未直接打开官方定价页；第三方页面数字不一致，不以其中任一数字当作官方现价
+- G2 / Capterra：本轮未系统抓取评分或评论计数，避免编造评价数量
+
+完整限制清单见 \`sources/source-limitations-2026-11-11.json\`，原始摘录见 \`evidence/evidence-log-2026-11-11.json\`。
+
+## 3. 为什么深度清单仍是这 6 个，但分类有调整
+
+用户给出的优先深挖 6 项是研究排序，不是已验证市场规模。本轮用公开证据核对后，决定不替换这 6 个题目，因为它们各自仍有可追溯的用户问题或商业化迹象，值得写成完整深挖。但分类必须按证据调整：
+
+- 保留 O11、O07、O15 为「值得立即验证」：任务清楚，个人开发者可用开源或浏览器技术快速做出可演示的 MVP，实验成本低。付费意愿仍未直接证明，所以是验证，不是上线冲刺。
+- 将 O02、O16、O19 保持在深度研究中，但改为「继续观察」：这三项的商业化其实更「已被别人验证」，问题是空隙不够大，或获客要直接对抗成熟订阅产品。
+- 没有把 O02 仅因加权分最高而列为立即验证。加权分会把「需求强 + 已有人付费」打高，但本框架明确要求同时看竞争空隙，并且不能把「有付费竞品」直接写成「你也应该开发」。
+
+未被选入深度 6 但值得跟踪的观察项包括：本地隐私文件处理（O09，ConvertX 星标很高）、GEO 诊断（O20，品类正在快速形成）、数据导入前验证（O14，可并入 O11）。
+
+## 4. 排名依据（不允许只看总分）
+
+排序首先看「是否存在真实、可重复的任务 + 现有方案的具体缺口 + 个人开发者能否用低成本实验证伪」，其次才看加权分，再次看证据可信度。
+
+立即验证的依据：
+
+- O11 有重复出现的编码/分隔符/日期抱怨，OpenRefine 虽强但重，Zoho 免费档有明确行数与调度限制。开发可行性高。反例是 Power Query 与免费开源可能已经够用，所以必须先做转化实验。
+- O07 有明确的开源能力上限（文本型 PDF、扫描件、维护停滞的 Tabula）和已存在的按页收费产品（Parseur）。缺口可以定义成「结构 + 质量报告」，而不是再做一个转换按钮。
+- O15 有硬限制（Excel 行数）和反复出现的大文件求助，DuckDB 可复用。反例是 2026 年免费查看器已经变多、付费证据弱，因此实验应先看搜索进入与实际打开成功率，而不是先做订阅。
+
+继续观察而非立即验证的依据：
+
+- O02 需求与付费都强（可信度高），但 CodeRabbit、cubic、Copilot 已经占住预算，空隙是「更低噪声的 Agent diff」，验证成本是误报对比，不是再做一个评审机器人。
+- O16 已有 $15–$50 的垂直订阅，且竞品自己写道：大约 50 页以下用手查 GSC 即可。
+- O19 Visualping 从免费到 $14 起已经很好用，changedetection.io 有 3.5 万星；只有「结构化定价页」这一更窄切口值得继续看。
+
+暂不建议开发的依据：O13 是红海调试工具；O03 更像框架层；O17 自动改站责任高且起价已在数百美元；O10 是企业 IDP 销售。
+
+## 5. 机会池（20 个候选）
+
+以下 20 项不是同一产品换名。有的共享技术底座（例如 O11 与 O15，O07 与 O08），但任务、用户场景和验证指标不同。
+
+### O01 Agent 任务执行监控
+
+- 领域：AI 开发工具
+- 用户群体：构建或运行编码/业务 Agent 的开发者与小团队。
+- 主要任务：记录 Agent 运行步骤、工具调用、文件改动、耗时与费用，失败时定位卡点。
+- 需求证据：Langfuse 官方云定价 Hobby 免费、Core $29/月，含 token/cost tracking。；Langfuse GitHub 截至 2026-11-11 有 37,307 星，当日仍在更新。
+- 竞品：Langfuse（https://langfuse.com/pricing，Hobby 免费 50k units/2 用户；Core $29/月含 100k units，超量 $8/10 万；可自托管）；LangSmith（https://www.langchain.com/pricing，公开检索称 Plus 约 $39/席位/月，本轮未完整摘录全部套餐）；Helicone（https://helicone.ai/，二手对比提到 Pro 量价套餐，本轮未完整打开官方价目）
+- 现有缺口：现有产品强在生产 LLM tracing。对本地编码 Agent 会话级（卡点、diff、费用）可能有切口，但本轮未用大量一手抱怨定量证实。
+- 商业化可能性：已有订阅与用量计费。新进入者要面对免费自托管与成熟云产品。
+- 可复用开源：Langfuse https://github.com/langfuse/langfuse（37307 星）
+- 评分（0–5）：需求强度 4，需求增长 3，痛点强度 3，付费可能性 4，竞争空隙 2，开发可行性 2。加权合计 3.15。
+- 证据可信度：中。说明：定价与星标是硬事实；编码 Agent 本地监控缺口属推断；需求增长因缺 Trends 标待验证。
+- 反例/反对证据：Langfuse/LangSmith 已覆盖 tracing 与费用，空隙小。；自托管免费会压低工具站溢价。
+- 分类：继续观察
+- 建议的下一步（不是立即大规模开发）：实验应限定为 Cursor/Claude Code 会话日志可视化，不要做通用 LLM observability。
+- 证据编号：E030, E031
+
+### O02 AI 代码变更审查
+
+- 领域：AI 开发工具
+- 用户群体：使用编码 Agent 的个人开发者与小团队，需在合并前检查 Agent 改动风险。
+- 主要任务：对 git diff/PR 做独立风险审查，标出可能破坏行为的改动，而不是再写风格评论。
+- 需求证据：GitHub Copilot 付费档含 PR review，免费档不含。；CodeRabbit、cubic 均有公开席位定价。；Reddit 用户讨论评审噪声与误报。
+- 竞品：CodeRabbit（https://www.coderabbit.ai/pricing，年付 $24/$48/$72 每用户每月；月付 Essentials $30、Team $60；超额 $0.25/文件；公共仓免费）；cubic（https://www.cubic.dev/pricing-plans，免费 20 次 PR/月；年付 $30/$79/$160 每开发者每月；超额 $20/1 万行；公共仓免费）；GitHub Copilot code review（https://github.com/features/copilot/plans，含于 Pro $10 起的个人计划；文档估算 Lite 约 $0.25/次起）；Cursor Bugbot（https://www.cubic.dev/blog/ai-code-review-pricing，二手文（核对日期含 2026-10-04）称约 $1.00–$1.50/次，未打开 Cursor 官方页）；Graphite 等（https://www.cubic.dev/blog/ai-code-review-pricing，2026-10 对比列出多家按席位产品，细节以各官方页为准）
+- 现有缺口：付费与需求已被验证，但竞争极密。可观察的缺口是低噪声、针对 Agent 大批量改动的风险摘要。
+- 商业化可能性：多家产品按席位或按次收费，商业化已成立，不代表新工具能抢走预算。
+- 可复用开源：本轮未确认可直接包装的开源项目
+- 评分（0–5）：需求强度 5，需求增长 4，痛点强度 4，付费可能性 5，竞争空隙 2，开发可行性 2。加权合计 3.9。
+- 证据可信度：高。说明：官方定价充分；痛点有 Reddit 原帖，但标题中的 70% 不得当统计事实。增长来自 2026 年密集商业产品，而非 Trends 数字。
+- 反例/反对证据：Copilot 把 review 打进 $10 档。；公共仓免费降低工具站溢价。；若误报不能显著优于现有产品，用户会取消订阅。
+- 分类：继续观察
+- 建议的下一步（不是立即大规模开发）：不要做通用 PR bot。最小验证物是本地/CI 的 Agent diff 风险报告，用 20 个真实 Agent PR 做误报对比。
+- 证据编号：E007, E008, E009, E010, E011, E012, E013
+
+### O03 多 Agent 任务协调
+
+- 领域：AI 开发工具
+- 用户群体：想把任务分给多个 Agent 并跟踪依赖的小团队或深度使用者。
+- 主要任务：分配任务、跟踪依赖、汇总结果。
+- 需求证据：公开对比文讨论 LangGraph、CrewAI、AutoGen 后继框架，属二手证据。
+- 竞品：LangGraph / LangSmith（https://www.langchain.com/pricing，库开源，平台定价见 LangSmith 官方页）；CrewAI（https://www.crewai.com/，核心开源；商业套餐本轮未完整摘录）；Microsoft Agent Framework（https://github.com/microsoft，框架向，非独立微 SaaS）
+- 现有缺口：更像框架问题而非轻量工具站问题。缺少小团队在找现成协调 SaaS 的大量一手求助帖。
+- 商业化可能性：平台收费存在，但独立协调器的个人向付费证据弱。
+- 可复用开源：本轮未确认可直接包装的开源项目
+- 评分（0–5）：需求强度 3，需求增长 3，痛点强度 3，付费可能性 3，竞争空隙 2，开发可行性 2。加权合计 2.75。
+- 证据可信度：中。说明：以二手框架对比为主，缺少充足原帖与完整定价摘录，分数刻意压低。
+- 反例/反对证据：用户更可能继续用现有框架。；该层基础设施仍在快速变迁。
+- 分类：暂不建议开发
+- 建议的下一步（不是立即大规模开发）：本轮不建议做产品实验。
+- 证据编号：见正文缺失说明
+
+### O04 项目上下文整理
+
+- 领域：AI 开发工具
+- 用户群体：使用编码 Agent、抱怨其读错文档或重复探索仓库的开发者。
+- 主要任务：按任务打包相关文件、约束与目录骨架，控制 token 预算。
+- 需求证据：已出现 contextpacker-mcp 等社区项目，说明有人在做这件事。星标与采用数据本轮未核对。
+- 竞品：Cursor 内置上下文机制（https://cursor.com/docs，含在编辑器订阅中）；contextpacker-mcp 等（https://github.com/rozetyp/contextpacker-mcp，开源，商业化未核实）；rules / AGENTS.md 实践（https://cursor.com/docs，工作流而非独立产品）
+- 现有缺口：独立付费产品少，也可能是因为编辑器会内建消化该功能。
+- 商业化可能性：本轮几乎没有找到独立订阅定价页，付费可能性待验证。
+- 可复用开源：contextpacker-mcp https://github.com/rozetyp/contextpacker-mcp
+- 评分（0–5）：需求强度 3，需求增长 3，痛点强度 3，付费可能性 2，竞争空隙 3，开发可行性 4。加权合计 2.9。
+- 证据可信度：低。说明：缺少星标核对、收入证据和系统的用户抱怨采样。
+- 反例/反对证据：编辑器若把上下文打包做好，独立工具会被撤销。；开发者可用脚本自解，付费意愿不明。
+- 分类：继续观察
+- 建议的下一步（不是立即大规模开发）：可做开源 CLI/MCP 实验，先看是否有人反复使用。
+- 证据编号：E045
+
+### O05 AI 编码成本分析
+
+- 领域：AI 开发工具
+- 用户群体：同时使用 Cursor、OpenRouter、CLI Agent，想看清不同模型与任务花费的开发者。
+- 主要任务：汇总多来源账单，按任务/模型对照费用。
+- 需求证据：OpenRouter 已上线 Activity Dashboard。；GitHub Copilot 以 AI Credits 计量。
+- 竞品：OpenRouter Activity（https://openrouter.ai/docs/guides/features/activity，平台自带）；everyaitoken（https://everyaitoken.com/，本轮未打开完整定价页）；各 IDE/网关自带账单（https://github.com/features/copilot/plans，含在现有订阅里）
+- 现有缺口：跨工具统一账单可能仍是缺口，但平台正在自己做仪表盘。
+- 商业化可能性：存在垂直小工具迹象，付费规模未验证。
+- 可复用开源：本轮未确认可直接包装的开源项目
+- 评分（0–5）：需求强度 3，需求增长 3，痛点强度 3，付费可能性 3，竞争空隙 3，开发可行性 3。加权合计 3.0。
+- 证据可信度：中。说明：有产品存在的事实，但缺少用户付费与搜索量。
+- 反例/反对证据：平台会把仪表盘做成默认功能。；账单授权的信任成本高。
+- 分类：继续观察
+- 建议的下一步（不是立即大规模开发）：先做只读的跨 CSV/发票汇总，而不是再做一个模型网关。
+- 证据编号：E042, E009
+
+### O06 批量文件工作流
+
+- 领域：文件处理
+- 用户群体：需要对整夹文件做多步转换、压缩、重命名的运营、设计与开发人员。
+- 主要任务：对文件夹执行可重复的多步骤处理，而不是一次转一个文件。
+- 需求证据：Gotenberg 13,563 星，开发者 API。；ConvertX 19,679 星，自托管转换。；Stirling Team $99/月。
+- 竞品：ConvertX（https://github.com/C4illin/ConvertX，开源自托管，AGPL-3.0）；Gotenberg（https://gotenberg.dev，开源 API，MIT）；Stirling PDF（https://www.stirling.com/pricing，个人免费；Team $99/月/100 用户）；CloudConvert 等（https://cloudconvert.com/，本轮未核对官方套餐数字）
+- 现有缺口：缺的不是再一个转换器，而是面向非开发者的文件夹流水线（失败重试、质量报告）。
+- 商业化可能性：团队向 PDF 套件已有 $99/月标价；新工具需证明工作流层溢价。
+- 可复用开源：ConvertX https://github.com/C4illin/ConvertX（19679 星）；Gotenberg https://github.com/gotenberg/gotenberg（13563 星）
+- 评分（0–5）：需求强度 4，需求增长 2，痛点强度 3，付费可能性 3，竞争空隙 3，开发可行性 4。加权合计 3.15。
+- 证据可信度：中。说明：开源与定价是硬事实；文件夹流水线需求含推断，缺 Trends。
+- 反例/反对证据：会用 Docker 的用户已有 ConvertX/Gotenberg。；在线单文件转换是红海。
+- 分类：继续观察
+- 建议的下一步（不是立即大规模开发）：可观察 ZIP 批量+失败清单+本地处理，是否比 ConvertX 对非技术用户更易用。
+- 证据编号：E032, E033, E034
+
+### O07 PDF 表格结构提取与质量检查
+
+- 领域：文件处理
+- 用户群体：分析师、会计师、数据记者，以及需要把报表/账单里的表抽成可用 CSV 的运营人员。
+- 主要任务：保留列结构、合并单元格与跨页表，并给出提取置信度与待复核单元格。
+- 需求证据：Camelot 3,855 星，2026-10 仍有 push。；Tabula 7,491 星，但最近 push 为 2025-03-14，维护偏停滞。；Excalibur 明确不支持扫描件。
+- 竞品：Tabula（https://tabula.technology，免费开源；主要限文本型 PDF，维护偏停滞）；Camelot / Excalibur（https://github.com/camelot-dev/camelot，免费开源；无 OCR，扫描件不行）；Parseur（https://parseur.com/pricing，免费 20 页/月；Micro $49/月/100 页）；Adobe Acrobat（https://www.adobe.com/acrobat.html，官方现价本轮未抓取；第三方引用不一致，不写死金额）；Amazon Textract / Google Document AI（https://aws.amazon.com/textract/pricing/，二手文有按页价格，需以官方价目为准）
+- 现有缺口：开源工具对扫描件、合并单元格、跨页表弱，且缺少抽出后的质量报告。可切入带置信度的结构提取与人工复核，而不是又一个 PDF to Excel 按钮。
+- 商业化可能性：Parseur 等按页订阅已验证文档抽取可卖。关键是能否在表格结构质量上收费。
+- 可复用开源：Camelot https://github.com/camelot-dev/camelot（3855 星）；Tabula https://github.com/tabulapdf/tabula（7491 星）
+- 评分（0–5）：需求强度 4，需求增长 3，痛点强度 4，付费可能性 4，竞争空隙 3，开发可行性 4。加权合计 3.7。
+- 证据可信度：中。说明：开源限制与 Parseur 定价是硬事实；Adobe/云 API 精确价格待核对；无搜索量。
+- 反例/反对证据：PDF to Excel 是红海词，免费工具极多。；复杂表格准确率不够会立即流失付费用户。；Excel Power Query 已能处理部分原生 PDF。
+- 分类：值得立即验证
+- 建议的下一步（不是立即大规模开发）：输出 CSV + 单元格置信度 + 复核清单。用 20 份公开报表对比 Tabula/Camelot，无优势则停止。
+- 证据编号：E014, E015, E016, E017, E018, E019
+
+### O08 文件转换质量检查
+
+- 领域：文件处理
+- 用户群体：刚完成转换、需要确认布局、字体、表格或图片是否丢失的人。
+- 主要任务：对比源文件与转换结果，标出丢失或错位。
+- 需求证据：转换后格式被打乱的讨论附属于转换求助，而非独立“质量检查器”品类。
+- 竞品：人工目视 + Acrobat/Excel（https://www.adobe.com/acrobat.html，已有软件内检查）；转换服务自带预览（https://cloudconvert.com/，含在转换产品中）
+- 现有缺口：独立差异检查器少见，可能是机会，也可能需求不足以支撑独立产品。
+- 商业化可能性：本轮几乎没有找到以转换质量检查为主卖点的付费定价页。
+- 可复用开源：本轮未确认可直接包装的开源项目
+- 评分（0–5）：需求强度 3，需求增长 2，痛点强度 3，付费可能性 2，竞争空隙 4，开发可行性 3。加权合计 2.8。
+- 证据可信度：低。说明：独立品类证据弱，更适合作 O07/O06 的附加功能。
+- 反例/反对证据：用户通常把检查当成转换流程的一部分。；视觉 diff 误报可能很高。
+- 分类：继续观察
+- 建议的下一步（不是立即大规模开发）：作为 PDF 表格或批量转换 MVP 的附加报告，不单独做站。
+- 证据编号：E018
+
+### O09 本地隐私文件处理
+
+- 领域：文件处理
+- 用户群体：不愿把合同、简历、财务报表上传到在线转换站的个人与小团队。
+- 主要任务：在浏览器本地或自托管环境完成转换，文件不离开设备。
+- 需求证据：ConvertX 19,679 星，自托管。；Stirling 个人免费+自托管，Team $99/月。
+- 竞品：ConvertX（https://github.com/C4illin/ConvertX，开源自托管）；Stirling PDF（https://www.stirling.com/pricing，个人免费；Team $99/月）；各类浏览器本地转换站（https://github.com/C4illin/ConvertX，多为免费或广告）
+- 现有缺口：能用 Docker 的用户已有很强开源方案。可能空隙是无需 Docker 的 WASM 工具，面向非技术用户；是否付费未验证。
+- 商业化可能性：Stirling 团队档证明组织愿为管理与部署付费；个人向更可能用免费自托管。
+- 可复用开源：ConvertX https://github.com/C4illin/ConvertX（19679 星）
+- 评分（0–5）：需求强度 4，需求增长 4，痛点强度 3，付费可能性 3，竞争空隙 2，开发可行性 4。加权合计 3.3。
+- 证据可信度：中。说明：星标与定价是硬事实；非技术用户 WASM 付费属推断。
+- 反例/反对证据：开源方案已经很强。；声称本地处理必须可审计。
+- 分类：继续观察
+- 建议的下一步（不是立即大规模开发）：单一场景（如本地 PDF 合并/脱敏）的 WASM 工具页，看是否因不上传而留下邮箱。
+- 证据编号：E032, E033
+
+### O10 专业文件自动归档
+
+- 领域：文件处理
+- 用户群体：需要识别、分类、命名并抽取发票、合同、物流单据字段的财务与运营团队。
+- 主要任务：自动分类、命名、抽字段并归档到文件夹或会计系统。
+- 需求证据：Parseur 按页收费。；Rossum 等企业 IDP 存在公开定价页，本轮未完整摘录金额。
+- 竞品：Parseur（https://parseur.com/pricing，免费 20 页；付费自 $49/月/100 页起）；Rossum（https://rossum.ai/pricing/，企业定价，本轮未完整摘录金额）；Docsumo / Nanonets / Docparser（https://www.docsumo.com/，多为试用+询价或中高价 SaaS，未全部核对）
+- 现有缺口：市场已验证，但销售周期长、准确率要求高，不太像 SEO 获客的微 SaaS。
+- 商业化可能性：付费证据强，却偏向企业采购。
+- 可复用开源：本轮未确认可直接包装的开源项目
+- 评分（0–5）：需求强度 4，需求增长 3，痛点强度 3，付费可能性 5，竞争空隙 2，开发可行性 2。加权合计 3.35。
+- 证据可信度：中。说明：付费迹象来自 Parseur 官方价和企业 IDP 存在性；Rossum 金额未完整摘录。
+- 反例/反对证据：企业 IDP 竞争和合规要求高。；Parseur 已覆盖邮件入口与中小价位。
+- 分类：暂不建议开发
+- 建议的下一步（不是立即大规模开发）：不建议本轮做通用归档产品。
+- 证据编号：E017, E039
+
+### O11 CSV 自动修复与数据清洗
+
+- 领域：数据处理
+- 用户群体：运营、分析师、电商或广告投放人员、开发者，经常收到编码混乱、分隔符不一、日期错乱的 CSV/Excel。
+- 主要任务：在导入分析或业务系统前，自动检测并修复编码、分隔符、表头、空值与明显重复，并给出人能看懂的变更报告。
+- 需求证据：OpenRefine 截至 2026-11-11 有 12,096 星、727 个未关闭 issue，2026-11-06 仍有 push；定位是强大桌面工具。；Zoho DataPrep 免费档每月 20,000 行、1 用户、不能调度。；Reddit（r/datasets 2026-01-18、r/excel 2025-11-18）用户反复提到 encoding、delimiter、dates、headers。
+- 竞品：OpenRefine（https://openrefine.org/，完全免费开源，需安装（Java））；Zoho DataPrep（https://www.zoho.com/dataprep/pricing.html，Free: 20,000 行/月、1 用户、无调度；付费 Standard 起 3 用户，美元价本轮未清晰提取）；CSVLint（https://csvlint.io/，免费在线校验，不修复）；EasyMorph（https://easymorph.com/，二手 2026 对比称付费起始约 $75/月年付，需以官方页为准）；Excel / Power Query（https://support.microsoft.com/，已在 Microsoft 365 中）
+- 现有缺口：OpenRefine 强但重；在线工具常上传文件且功能浅；Zoho 偏流水线与账号体系。可能切口：本地/浏览器内自动检测 + 修复预览 + 变更报告，面向不会装 Java、也不想开 ETL 产品的人。
+- 商业化可能性：相邻产品有免费+付费，说明清洗可商业化。但简单修复工具的付费意愿仍待验证，不能把尚未取得的搜索量当成购买。
+- 可复用开源：OpenRefine https://github.com/OpenRefine/OpenRefine（12096 星）
+- 评分（0–5）：需求强度 5，需求增长 3，痛点强度 4，付费可能性 3，竞争空隙 3，开发可行性 5。加权合计 3.8。
+- 证据可信度：中。说明：痛点与竞品限制证据较足；付费只有相邻产品旁证；无 Keyword Planner/Trends 数字，增长待验证。
+- 反例/反对证据：Power Query 与 pandas 已能解决大量问题。；OpenRefine 对愿意学习的人免费且足够强。；简单修编码可能被免费工具做尽，难以收费。
+- 分类：值得立即验证
+- 建议的下一步（不是立即大规模开发）：浏览器本地：检测编码/分隔符/坏行，生成修复后的 CSV 与变更报告。用 30 个真实脏文件和一页落地页做转化实验。
+- 证据编号：E001, E002, E003, E004, E005, E006
+
+### O12 CSV 与 Excel 数据比对
+
+- 领域：数据处理
+- 用户群体：需要对比两个版本导出表、找出新增删除和变更单元格的运营与分析人员。
+- 主要任务：按主键对齐两份表，输出行级与单元格级差异。
+- 需求证据：已有 csvdiff.app、SheetPair、Spreadsheet Comparison 等产品。部分价目为检索摘要，待官方核对。
+- 竞品：csvdiff.app（https://www.csvdiff.app/csv-diff，宣传免费在线对比，限额未完整核对）；SheetPair（https://sheetpair.com/faq，检索摘要：免费 1,000 行/每月 3 次，付费约 $19/月，待核对）；Spreadsheet Comparison（https://spreadsheetcomparison.com/faq/，检索摘要称试用后约 $20 买断，待核对）
+- 现有缺口：工具已不少，免费档和买断都存在。差异化需要更大文件、按业务键对齐或本地隐私处理。
+- 商业化可能性：有低价订阅或买断迹象，竞争空隙不大。
+- 可复用开源：csv-diff 等 CLI https://github.com/simonw/csv-diff
+- 评分（0–5）：需求强度 3，需求增长 2，痛点强度 3，付费可能性 3，竞争空隙 2，开发可行性 4。加权合计 2.8。
+- 证据可信度：中。说明：产品存在是事实；部分价目来自检索摘要，待官方核对。
+- 反例/反对证据：Excel 本身可做部分对比。；低价买断会压窄订阅空间。
+- 分类：继续观察
+- 建议的下一步（不是立即大规模开发）：更适合作为 O11/O15 的功能模块，而不是独立站第一步。
+- 证据编号：E037, E038
+
+### O13 JSON 与 API 数据调试
+
+- 领域：数据处理
+- 用户群体：需要格式化、对比、可视化 API 返回的开发者。
+- 主要任务：验证、格式化、比较和可视化 JSON/API 响应。
+- 需求证据：Hoppscotch、Postman、JSON Crack 等成熟产品已覆盖。
+- 竞品：Postman（https://www.postman.com/pricing/，有免费与团队订阅，本轮未摘录全部价目）；Hoppscotch（https://hoppscotch.com/pricing，检索摘要：个人免费，团队年付约 $6/用户/月，待核对）；JSON Crack（https://jsoncrack.com/，有免费可视化，付费档未完整核对）
+- 现有缺口：非常拥挤，独立在线 JSON 工具站差异化极弱。
+- 商业化可能性：大玩家已占据团队预算。
+- 可复用开源：Hoppscotch https://github.com/hoppscotch/hoppscotch
+- 评分（0–5）：需求强度 4，需求增长 2，痛点强度 2，付费可能性 3，竞争空隙 1，开发可行性 4。加权合计 2.65。
+- 证据可信度：中。说明：品类拥挤是事实；Hoppscotch 团队价为检索摘要，待核对。
+- 反例/反对证据：这是经典红海开发者工具。；免费格式化网站已经很多。
+- 分类：暂不建议开发
+- 建议的下一步（不是立即大规模开发）：不做独立产品。
+- 证据编号：E036
+
+### O14 数据导入前验证
+
+- 领域：数据处理
+- 用户群体：要把 CSV 导入 CRM、ERP 或数据库、担心错误行导致导入失败的运营与开发者。
+- 主要任务：按 schema 检查类型、必填、唯一性、枚举，在导入前给出错误行号。
+- 需求证据：csvlint.io 已提供结构校验。；Great Expectations、Pandera 是管道级开源方案，本轮未逐一核星标。
+- 竞品：csvlint.io（https://csvlint.io/，免费在线校验）；Great Expectations / Pandera（https://greatexpectations.io/，开源为主，企业版未在本轮核对）；各业务系统自带导入向导（https://www.salesforce.com/，含在业务系统中）
+- 现有缺口：面向非工程人员、针对某个业务系统导入模板的可读错误报告可能有切口，宜与 O11 合并。
+- 商业化可能性：纯校验免费工具已在，单独收费难。
+- 可复用开源：本轮未确认可直接包装的开源项目
+- 评分（0–5）：需求强度 4，需求增长 2，痛点强度 3，付费可能性 3，竞争空隙 3，开发可行性 4。加权合计 3.15。
+- 证据可信度：中。说明：免费校验工具存在；管道级开源方案未逐一核星标。
+- 反例/反对证据：很多系统已经在导入时报错。；开发者会写自己的 schema 检查。
+- 分类：继续观察
+- 建议的下一步（不是立即大规模开发）：并入 CSV 修复 MVP：说明为什么某行不能导入特定模板。
+- 证据编号：E041
+
+### O15 大文件 CSV 查看与筛选
+
+- 领域：数据处理
+- 用户群体：拿到超过 Excel 行数或内存能力的 CSV、只想先预览、筛选和抽样的分析师与运营。
+- 主要任务：在不把整表载入 Excel 的前提下预览、过滤、抽样并导出子集。
+- 需求证据：多份公开指南把 Excel 1,048,576 行限制当作核心场景。微软官方规格页本轮抓取超时，该数字另由教程与 Reddit 引用。；r/excel 有 2GB、4.3GB CSV 打不开的求助。；DuckDB 截至 2026-11-11 有 42,993 星，可作为引擎。
+- 竞品：rows.page（https://rows.page/open-large-csv，宣传浏览器内免费至约 1.5GB）；ExploreMyData / GigaJSON / BigXL 等（https://exploremydata.com/，多为免费或未核完的增值档）；Tad 等桌面查看器（https://www.tadviewer.com/，本轮未核对完整许可与价格）；DuckDB CLI（https://duckdb.org/，开源免费）；Excel Power Query / 数据模型（https://support.microsoft.com/，含在 Excel）
+- 现有缺口：硬限制真实存在，但 2026 年已出现一批免费浏览器查看器。空隙可能在：隐私本地 + 筛选导出 + 再连接到清洗/拆分，而不是再做一个能打开的演示页。
+- 商业化可能性：目前公开产品以免费获客为主，付费证据弱，必须用实验验证。
+- 可复用开源：DuckDB https://github.com/duckdb/duckdb（42993 星）
+- 评分（0–5）：需求强度 4，需求增长 3，痛点强度 4，付费可能性 2，竞争空隙 3，开发可行性 5。加权合计 3.4。
+- 证据可信度：中。说明：用户求助与竞品存在是事实；Excel 官方规格页本轮超时；付费证据弱。
+- 反例/反对证据：免费工具正在变多，SEO 窗口可能很快关闭。；Power Query 对部分用户已经够用。；浏览器处理数 GB 文件仍会失败。；付费意愿未经证明。
+- 分类：值得立即验证
+- 建议的下一步（不是立即大规模开发）：与 O11 同一产品线：本地打开大 CSV、筛选导出小于 Excel 限制的子集。先测使用与搜索进入，而不是先做付费墙。
+- 证据编号：E020, E021, E022, E023
+
+### O16 内容过期监控与更新建议
+
+- 领域：网站运营与 SEO
+- 用户群体：内容站、SaaS 营销与小型 SEO 团队，需要知道哪些文章流量在掉、该不该更新。
+- 主要任务：基于 Search Console 识别衰退页，并给出更新优先级。
+- 需求证据：SEOTesting 单站 $50/月，官方博客主打 Content Decay 报告。；RefreshRadar 对比文（核对日期 2026-08-13）列出 $15–$29 及 $50+ 竞品，并写明约 50 页以下可用免费 GSC。；Conductor 企业监控不公开低价。
+- 竞品：SEOTesting（https://seotesting.com/pricing/，$50 / $125 / $375 每月，按站数；14 天试用）；RefreshRadar（https://refreshradar.app/blog/best-content-decay-tools，自身标 $29（创始 $15），竞品文 2026-08-13）；Animalz Revive / SEO Gets / Wellows 等（https://refreshradar.app/blog/best-content-decay-tools，对比文称有免费报告或低价档，需以各官方页为准）；Ahrefs / Semrush（https://ahrefs.com/，综合套件，本轮未引用具体套餐数字）；Google Search Console（https://search.google.com/search-console，免费）
+- 现有缺口：品类已成立且价格带清晰。空隙可能在更新建议可执行性与更新后是否恢复的验证，但要打败免费 GSC 和现有 $15–50 工具并不容易。
+- 商业化可能性：已有多档订阅，商业化成立，不代表还能轻松插入一个新订阅。
+- 可复用开源：本轮未确认可直接包装的开源项目
+- 评分（0–5）：需求强度 4，需求增长 3，痛点强度 3，付费可能性 4，竞争空隙 3，开发可行性 4。加权合计 3.5。
+- 证据可信度：中。说明：官方订阅价已核；“小站不必付费”来自竞品对比文，需当反例而非中立调查。
+- 反例/反对证据：少于约 50 页的站点，竞品自己都建议用手查 GSC。；依赖 Google API，易受平台政策影响。；Ahrefs/Semrush 用户可能不另购。
+- 分类：继续观察
+- 建议的下一步（不是立即大规模开发）：先用人工+表格为 5 个站点做衰退清单，看是否有人愿为自动监测预付 $15–29。不要先做大平台。
+- 证据编号：E024, E025, E026, E043
+
+### O17 SEO 技术问题自动修复
+
+- 领域：网站运营与 SEO
+- 用户群体：知道网站有 SEO 问题、却缺开发资源去改标题、schema、内链或指令的营销团队。
+- 主要任务：把诊断变成可审批的修改，并应用到站点。
+- 需求证据：Alli AI 以 snippet 部署自动优化，Business 年付 $2,990 起。
+- 竞品：Alli AI（https://www.alliai.com/pricing，Business $249/月年付或 $299/月；Agency $499/$599）；Sitebulb / Screaming Frog（https://sitebulb.com/，审计工具；Frog 常见为年费许可，本轮未重核现价）；Search Atlas / OTTO SEO 等（https://www.alliai.com/pricing，Alli 站点列出替代对照，细节未全核）
+- 现有缺口：只出报告确实拥挤；自动修复已有 $249+ 产品。对个人开发者，信任、安全与 CMS 适配成本很高。
+- 商业化可能性：高客单价存在，但也提高了销售与责任门槛。
+- 可复用开源：本轮未确认可直接包装的开源项目
+- 评分（0–5）：需求强度 3，需求增长 3，痛点强度 3，付费可能性 4，竞争空隙 2，开发可行性 2。加权合计 2.95。
+- 证据可信度：中。说明：Alli AI 官方定价已核；自动修复的责任与信任风险是推断。
+- 反例/反对证据：向站点注入 JS 修改可能被安全与开发团队拒绝。；错误修复可能伤害排名，责任风险高。；起价已在数百美元/月。
+- 分类：暂不建议开发
+- 建议的下一步（不是立即大规模开发）：不做自动改站。最多观察生成补丁/PR、由开发者合并的只读 Agent。
+- 证据编号：E035
+
+### O18 程序化 SEO 页面检查
+
+- 领域：网站运营与 SEO
+- 用户群体：用模板生成大量落地页的团队，担心重复、薄内容与索引问题。
+- 主要任务：按 URL 模式找出近重复、空壳页、缺失字段和索引风险。
+- 需求证据：已有 Screaming Frog、Barracuda、SpiderHead、pseochecker 等工具或功能点。
+- 竞品：Screaming Frog（https://www.screamingfrog.co.uk/seo-spider/，免费 500 URL，付费许可本轮未重核现价）；SpiderHead（https://spiderhead.dev/features/duplicate-content-checker，近重复/薄内容检查，价目未完整核对）；Barracuda SEO 等（https://barracudaseo.com/use-cases/programmatic-seo，面向大规模模板页）
+- 现有缺口：通用爬虫已能做一部分。专用按模板字段打分可能有切口，但要证明用户不满足于 Frog 再付一份钱。
+- 商业化可能性：付费审计工具已存在，垂直工具的增量预算待验证。
+- 可复用开源：本轮未确认可直接包装的开源项目
+- 评分（0–5）：需求强度 3，需求增长 3，痛点强度 3，付费可能性 3，竞争空隙 3，开发可行性 4。加权合计 3.1。
+- 证据可信度：中。说明：相关工具存在；价目与采用程度本轮不完整。
+- 反例/反对证据：Screaming Frog 用户习惯强。；没有程序化站点的人用不上。
+- 分类：继续观察
+- 建议的下一步（不是立即大规模开发）：先为某一个程序化站点做一次人工质检样本，再决定是否产品化。
+- 证据编号：E044
+
+### O19 竞品价格与功能变更监控
+
+- 领域：网站运营与 SEO
+- 用户群体：SaaS 营销、销售、独立开发者、电商运营，需要知道竞品何时改价格、改套餐或上新功能。
+- 主要任务：定时抓取指定页面，把价格和功能点结构化，并在变更时告警。
+- 需求证据：Visualping 从免费到 $14/月起的完整公开价目，免费档含 API/MCP。；changedetection.io 截至 2026-11-11 有 35,740 星，同时有自托管与 SaaS。
+- 竞品：Visualping（https://visualping.io/pricing，免费 5 页/150 次；$14/月起（1,000 次/10 页）；Business $140/月起）；changedetection.io（https://changedetection.io，自托管免费；托管价二手记录 $8.99/月起（2026-10-25），待官方核对）；Distill.io（https://distill.io/，常见为有免费档+付费，本轮未完整摘录官方数字）；Hexowatch / PageCrawl 等（https://stillindexed.com/best-seo-monitoring-tools，第三方 2026-10 对比列出多档低价监控工具）；Price2Spy 等电商定价情报（https://www.price2spy.com/，偏目录级电商询价）
+- 现有缺口：通用网页变更加密且低价。真正可能的切口不是再做页面监控，而是把 SaaS 定价页/changelog 抽成结构化字段，减少误报。
+- 商业化可能性：从约 $9–$14 到企业方案都已有人付费。新工具必须证明结构化提取比 Visualping 加人工更快。
+- 可复用开源：changedetection.io https://github.com/dgtlmoon/changedetection.io（35740 星）
+- 评分（0–5）：需求强度 4，需求增长 3，痛点强度 3，付费可能性 4，竞争空隙 2，开发可行性 4。加权合计 3.35。
+- 证据可信度：中。说明：Visualping 与 GitHub 星标是硬事实；托管版 $8.99 为二手记录。
+- 反例/反对证据：通用监控已经很好用、很便宜。；登录墙、反爬与站点条款风险。；每个站点都要维护提取规则，运营成本高。
+- 分类：继续观察
+- 建议的下一步（不是立即大规模开发）：只监控约 30 个知名 SaaS 的公开定价页，输出结构化变更日志，看是否有人愿为这份名单付 $9–19。准确率或意向不足则停止。
+- 证据编号：E027, E028, E029
+
+### O20 AI 搜索可见性（GEO / AI crawler）诊断
+
+- 领域：网站运营与 SEO
+- 用户群体：想知道自己的站点能否被 GPTBot、ClaudeBot、Perplexity 等正确抓取与引用的站长与 SEO。
+- 主要任务：检查 robots、WAF、JS 渲染与 AI 爬虫可访问性，给出可执行修复。
+- 需求证据：Alli AI 已把 AI crawler 预渲染做成卖点。；CrawlDiff 等专项工具已经出现。；公开对比文列出多个 2026 年免费检测器与低价监测档，属二手。
+- 竞品：Alli AI Visibility（https://www.alliai.com/pricing，含在 $249+/月套餐）；CrawlDiff 及其他免费 checker（https://crawldiff.com/，专项监测，完整价目未全核）；SeeGeo / Fimo / Exepal 等（https://see-geo.com/，多为免费检测页）
+- 现有缺口：需求在升温，但免费检测器迅速增多。单独做一次性诊断很难收费；持续监测可能有机会，窗口可能很短。
+- 商业化可能性：有低价监测与高价套件两端，中间层尚未被本轮充分证明。
+- 可复用开源：本轮未确认可直接包装的开源项目
+- 评分（0–5）：需求强度 4，需求增长 4，痛点强度 3，付费可能性 3，竞争空隙 2，开发可行性 4。加权合计 3.3。
+- 证据可信度：中。说明：Alli 卖点与专项工具出现是事实；免费检测器对比多为二手。
+- 反例/反对证据：免费工具正在迅速出现。；平台爬虫规则变化快。；诊断不等于能进入 AI 答案，用户期望可能被夸大。
+- 分类：继续观察
+- 建议的下一步（不是立即大规模开发）：可做免费诊断页获客，但不要把它当成已验证的付费产品。若 30 天不能带来付费咨询或监测意向，停止加深。
+- 证据编号：E035, E040
+
+
+## 6. 深度研究
+
+### 6.1 CSV 自动修复与数据清洗（O11）· 值得立即验证
+
+#### 用户真实问题及来源
+
+已核实的用户陈述，而不是模型对「数据很脏」的一般推断：
+
+- 2026-01-18，r/datasets 用户 Ride-Novel 写道：令人沮丧的是问题几乎总是表头、分隔符、日期和编码，但每个数据源的破坏方式略有不同。来源：https://www.reddit.com/r/datasets/comments/1qg3bc9/how_do_you_usually_clean_messy_csv_or_excel_files/ （E003，采集 2026-11-11）
+- 2025-11-18，r/excel 用户 bradland 指出，纯文本/CSV 的编码无法可靠自动检测；若没有准确的编码信息，将会导致昂贵错误。来源：https://www.reddit.com/r/excel/comments/1p0cwl0/how_do_you_open_txt_csv_files_with_the_correct/ （E004）
+- 有独立开发者在 r/dataanalysis 称自己做了自动检测编码与分隔符的 Windows 小工具，并考虑在 Gumroad 低价销售。这只能证明有供给尝试，不能证明已经卖出去。来源：https://www.reddit.com/r/dataanalysis/comments/1qgfnj7/built_a_tiny_windows_tool_to_clean_ugly_csv/ （E005）
+
+#### 竞品对比、价格和商业模式
+
+| 产品 | 模式 | 本轮核实的价格或限制 | 来源 |
+| --- | --- | --- | --- |
+| OpenRefine | 开源桌面/本地 | 免费，BSD-3-Clause；12,096 星，727 个未关闭 issue，2026-11-06 仍有 push | https://github.com/OpenRefine/OpenRefine https://openrefine.org/ |
+| Zoho DataPrep | 云端数据准备 | 免费档每月 20,000 行、1 用户、不能调度导入导出；15 天试用；付费 Standard 起 3 用户，美元价本轮未清晰提取 | https://www.zoho.com/dataprep/pricing.html |
+| CSVLint | 在线校验 | 免费；二手综述称它只报告问题不修复 | https://csvlint.io/ |
+| EasyMorph | 桌面/自动化 | 二手 2026 对比称付费起始约 $75/月年付，需再核对官方页 | https://easymorph.com/ |
+| Excel Power Query | 已有办公软件 | 含在 Microsoft 365，不是独立清洗产品 | 微软支持文档 |
+
+事实：清洗这条链路上既有完全免费的重工具，也有带行数限制的云产品。推断：一个「打开即修、给出变更报告、默认不上传」的轻工具可能切到 OpenRefine 太重和 Zoho 太重之间，但这仍是假设。
+
+#### 搜索意图
+
+本轮没有 Keyword Planner 或 Ahrefs 数字，不能填写月搜索量。从公开讨论与工具命名看，用户意图更接近「修好这个文件以便导入」，而不是「购买一个数据平台」。不得把尚未取得的搜索热度解释为购买意愿。
+
+#### 竞争格局与可切入细分
+
+格局是「重而强的开源 + 中大型数据准备 SaaS + 很浅的在线小工具 + 每个人已经装着的 Excel」。可切入细分不是「AI 清洗一切数据」，而是：来自广告后台、电商或欧洲分号 CSV 的一次性修复，在浏览器本地完成，并输出「改了哪些行」的报告，方便用户把结果再送进 Excel 或 CRM。
+
+#### MVP、开发难度、获客、失败风险
+
+MVP 功能范围：编码检测与转换、分隔符/引号修复、坏行报告、去空行与明显重复、下载修复文件、全程本地处理。不做完整的聚类去重平台，也不做与 OpenRefine 对打的表达式语言。
+
+开发难度：对熟悉 Python 与浏览器技术的个人开发者偏低。这是可行性高的原因，不是市场已验证的原因。
+
+获客方式（推断，待实验）：针对 encoding、delimiter、CSV UTF-8、Excel 打开乱码等具体问题页，而不是大词榜单。
+
+主要失败风险：用户用 Power Query 或一段脚本就解决了；免费在线工具已经够用；用户不愿为一次性任务付订阅。
+
+#### 下一步验证实验与停止条件
+
+实验（建议 14–21 天，不是大规模开发）：做一个本地处理的落地页与工具，准备 30 个真实或标明来源的脏样本，记录有多少人打开文件、下载修复结果、留下邮箱或支付 $9–19 买断/月的意向。可同时放一个「查看大 CSV」入口，与 O15 共用。
+
+停止条件：21 天内工具有使用但付费或邮箱意向接近于零，且用户反馈主要是「Excel 也能做」；或在 30 个样本上对欧洲分号、UTF-16、混用引号的修复成功率明显低于预期。出现任一情况，停止加功能。
+
+### 6.2 AI 代码变更审查（O02）· 继续观察
+
+#### 用户真实问题及来源
+
+- GitHub 官方计划页写明：个人 Free 档不包含 GitHub 上的 Pull request reviews，Pro 及更高档包含。来源：https://github.com/features/copilot/plans （E009，2026-11-11）
+- GitHub 文档给出 code review 消耗估算，并写明是估算、不含 Actions 分钟：Lite 约 $0.25/次，Balanced 约 $1.50，Max 约 $10。来源：https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing （E010）
+- CodeRabbit 官方定价：年付 $24/$48/$72 每用户每月，超额 $0.25/被审文件，公共仓免费。来源：https://www.coderabbit.ai/pricing （E007）
+- cubic 官方定价：免费 20 次 PR/月，年付 $30/$79/$160 每开发者每月。来源：https://www.cubic.dev/pricing-plans （E008）
+- Reddit 用户公开询问是否有人找到误报更低、不会淹没真正问题的 AI code review。来源：https://www.reddit.com/r/vibecoding/comments/1rbi57b/has_anyone_found_ai_code_review_with_low_false/ （E012）
+- r/programming 有帖以「70% 的 AI PR 评论无用」为题讨论噪声。该 70% 是标题主张，本轮未核验研究方法，不能当统计事实；但讨论本身说明噪声抱怨存在。来源：https://www.reddit.com/r/programming/comments/1okvtqp/are_you_drowning_in_ai_code_review_noise_70_of_ai/ （E011）
+
+#### 竞品、价格、商业模式与搜索意图
+
+这是本轮商业验证最强的方向之一：按席位订阅、按次或按行超额、对公开仓库免费，已经是行业默认结构。搜索意图（推断，无搜索量）可能包括 AI code review、Copilot code review、CodeRabbit alternative。有搜索或有付费，都不自动等于还应该再做一个通用产品。
+
+竞争格局是头部云产品加编辑器内置 review，空隙很小。可切入细分如果存在，也应当极窄：专门审查编码 Agent 一次性改动的高风险模式（删除测试、扩大权限、改依赖、改 CI），输出一页风险摘要，而不是再写大量风格评论。
+
+开发难度中高：要做出比现有产品更低的误报，需要评测集，不是一个周末包装 API 就行。获客会直接碰到 Copilot 已在 $10 档附带 review 的现实。
+
+主要失败风险：噪声不比竞品低；预算已被席位产品占住；公开仓免费把试用习惯训练成「能免则免」。
+
+#### 验证实验与停止条件
+
+不要立即开发通用 PR bot。可做的验证是：收集 20 个真实的 Agent 生成 PR（仅用公开仓库或自己的仓库），用一份固定检查清单人工标注高风险改动，再比较「只输出风险摘要」与 CodeRabbit/Copilot 公开评论的精确率。若无法在误报上明显优于现成工具，停止。若有优势，再考虑以 CLI 或 CI 插件做预售，而不是先做完整 SaaS。
+
+### 6.3 PDF 表格结构提取与质量检查（O07）· 值得立即验证
+
+#### 用户真实问题及来源
+
+- Camelot：Python 表格提取库，3,855 星，MIT，2026-10-30 仍有 push。https://github.com/camelot-dev/camelot （E014）
+- Tabula：7,491 星，但最近 push 为 2025-03-14，仓库 has_issues=false。需求还在，维护偏停滞。https://github.com/tabulapdf/tabula （E015）
+- Excalibur README 写明只支持文本型 PDF，不支持扫描件。https://github.com/camelot-dev/excalibur/ （E016）
+- Parseur 官方价：免费每月 20 页；Micro 100 页 $49/月或年付 $468。https://parseur.com/pricing （E017）
+- r/excel 求助：如何准确把 PDF 转成 Excel 且不打乱格式。https://www.reddit.com/r/excel/comments/1oo1psh/how_do_you_accurately_convert_pdf_to_excel/ （E018）
+
+#### 竞品、价格与商业模式
+
+开源层免费但能力有上限；商业层按页或按月卖的是「少人工录入」。Adobe 官方现价本轮未抓取，第三方引用又不一致，故不写死。云 IDP 按页计费的数字本轮只见到二手引用，评分不依赖这些未核价。
+
+搜索意图（无搜索量，只能描述类型）包括 pdf to excel、extract table from pdf。这些大词很可能非常拥挤，MVP 不应把赌注押在大词排名上，而应押在「抽出的表是否能用，以及哪些格子不可信」。
+
+可切入细分：带置信度的结构提取、跨页表拼接、待复核清单；或某一类重复出现的文本型报表。不要一上来做通用发票 IDP（那是 O10 的企业战场）。
+
+开发难度中等：有 Camelot 等可复用，但质量体验要另做。获客可用具体报表类型的示例页。失败风险是准确率不够、红海 SEO，以及用户发现 Power Query 或 Acrobat 已经够用。
+
+#### 验证实验与停止条件
+
+用 20 份公开的政府或公司报表（记录来源链接），同时跑 Tabula/Camelot 与自己的提取加置信度报告，人工抽查列对齐与跨页错误。若在文本型 PDF 上没有可感知的质量或复核效率优势，停止。若有优势，再做一个最多 5 页的免费本地预览，看用户是否愿意为批量或扫描件付按份费用。不要先做企业销售。
+
+### 6.4 内容过期监控与更新建议（O16）· 继续观察
+
+#### 用户真实问题及来源
+
+本轮更强的是「已有商业产品在卖内容衰退监测」，而不是大量未经产品包装的原始求助帖。这仍然是有效证据，但性质是商业验证，不等于还存在宽阔空隙。
+
+- SEOTesting 官方价：单站 $50/月，5 站 $125，20 站 $375；14 天试用无需信用卡。https://seotesting.com/pricing/ （E024）
+- 其官方博客把 Content Decay Report 作为核心能力，对比各页流量峰值月并显示衰退。https://seotesting.com/blog/content-decay-tools/ （E025）
+- RefreshRadar 对比文写明核对日期 2026-08-13，并列自身 $29（创始 $15），同时写道：如果大约少于 50 页，用手查 Search Console，不要付钱给任何人。https://refreshradar.app/blog/best-content-decay-tools （E026）这是重要反例。
+- Conductor（原 ContentKing 方向）企业监控不公开低价。https://www.conductor.com/pricing/ （E043）
+
+竞争格局已经出现清晰价格带：免费 GSC、约 $15–$50 的垂直工具，以及贵得多的综合 SEO 套件。可切入细分如果还存在，应是「更新建议是否可执行，以及更新后是否恢复」，并且最好绑定明确的站点类型。开发不难（GSC API），但获客要直接说服已经会用 GSC 或已经在付 $50 的人改订。
+
+失败风险：小站不付钱；API 政策变化；综合套件附带类似报告。
+
+#### 验证实验与停止条件
+
+先不要做产品。用表格为 5 个真实站点（需站点方授权 GSC 或公开分享导出）人工出衰退清单与更新建议，询问是否愿意为自动监测付 $15–29/月。若 5 个里没有明确付费意向，或对方认为 GSC 已够用，停止产品化。
+
+### 6.5 竞品价格与功能变更监控（O19）· 继续观察
+
+#### 用户真实问题及来源
+
+- Visualping 官方价目完整：免费 5 页/150 次检查；Personal 1K 为 $14/月或 $120/年；Business 20K 为 $140/月或 $1,200/年；免费档含 REST API 与 MCP。https://visualping.io/pricing （E027，2026-11-11）
+- changedetection.io：35,740 星，386 个未关闭 issue，Apache-2.0，2026-11-10 仍有 push，同时宣传自托管免费与 SaaS。https://github.com/dgtlmoon/changedetection.io （E028）
+- 第三方于 2026-10-25 记录其托管版约 $8.99/月起，本轮未打开官方页核对。https://stillindexed.com/best-seo-monitoring-tools （E029）
+
+用户要完成的任务是「竞品改了价格或功能时被通知」。通用网页变更已经有很便宜甚至免费的做法。反例非常强：不一定需要一个新品类，只要 Visualping 或自托管 changedetection 即可。
+
+可切入细分只能更窄：把 SaaS 公开定价页抽成套餐名、月费、限额等字段，减少「页脚版权年份变了也告警」的噪声。这是推断中的机会，不是已经验证的需求量。
+
+开发可行性不低，但站点结构多变，维护成本会被低估。另有抓取与网站条款风险，实验必须只用公开定价页，并遵守对方规则。
+
+#### 验证实验与停止条件
+
+手工加轻度脚本，监控约 30 个公开 SaaS 定价页，持续 21 天，输出结构化变更日志（不是截图对比）。看是否能找到愿意为这类日志付 $9–19 的目标用户（预售或等待名单即可）。若提取准确率低，或意向不足，停止。不要做通用网页监控去和 Visualping 正面竞争。
+
+### 6.6 大文件 CSV 查看与筛选（O15）· 值得立即验证
+
+#### 用户真实问题及来源
+
+- rows.page 公开指南把「超过 Excel 的 1,048,576 行限制」和浏览器内打开大 CSV 作为核心场景。https://rows.page/open-large-csv （E020）微软官方规格页本轮抓取超时，该行数限制同时被多家教程与论坛讨论使用，视为公开技术限制，但仍应在日后补官方页摘录。
+- r/excel：如何打开 2GB 的 CSV。https://www.reddit.com/r/excel/comments/17s4t5a/how_to_open_large_csv_file_2gb/ （E021）
+- r/excel：能否读取 4.3GB 以上的 CSV。https://www.reddit.com/r/excel/comments/1u7fha2/is_it_possible_to_read_a_43gb_cvs_file/ （E022）
+- DuckDB 42,993 星，MIT，2026-11-11 仍在更新，是可复用引擎而非面向非技术用户的产品。https://github.com/duckdb/duckdb （E023）
+
+#### 竞品、价格、格局与反例
+
+已出现 rows.page、ExploreMyData、GigaJSON 等浏览器工具，以及 Tad 等桌面查看器、DuckDB CLI、Excel Power Query。本轮看到的公开产品大多以免费使用获客，付费档不完整或未核清。因此付费可能性只给 2 分。
+
+搜索意图类型包括 open large csv、excel row limit、open 1GB csv。没有搜索量数字。竞争正在变挤，SEO 窗口可能较短。
+
+可切入细分：与 O11 同一条产品线，先查看和筛选，再导出「Excel 打得开的子集」，再提供修复。独立只做一个查看器，很难收费。
+
+开发难度对会用 DuckDB 或 WASM 的人不高。失败风险：免费替代多、超大文件在浏览器里崩溃、用户用命令行就解决了、没有人付钱。
+
+#### 验证实验与停止条件
+
+与 O11 共用落地页。成功标准先看任务完成：用户是否成功筛选并下载了小于行限制的子集，以及是否来自「open large csv」一类查询。21 天内若打开失败率高，或只有一次性打开、没有导出或清洗的下一步，则不要做付费墙，考虑降级为 O11 的附属页或放弃。
+
+## 7. 给开发工作的交接说明
+
+本轮不直接建议「去开发上线」。若启动实验，交给开发 Agent 的不该是一个关键词，而应是：
+
+- 目标用户与要完成的具体任务
+- 必须保留的证据链接
+- MVP 范围与明确不做的事
+- 14–21 天的验证指标与停止条件
+
+建议的实验顺序：先做 O11 与 O15 共用的本地 CSV 工具页；并行用公开 PDF 样本验证 O07 的质量是否优于 Tabula/Camelot。O02、O16、O19 只做小规模证据实验，不建完整产品。
+
+## 8. 本轮之后，若要变成持续情报库
+
+已经按建议把机会、竞品、证据分开存放：
+
+- opportunities/pool-2026-11-11.json 与各 O01–O20.json
+- competitors/competitors-2026-11-11.json
+- evidence/evidence-log-2026-11-11.json
+- sources/source-limitations-2026-11-11.json
+- reports/第一轮机会验证-2026-11-11.md（本文件）
+
+下一阶段最值得脚本化的，不是再写评分模型，而是：对上述官方定价页与 GitHub 仓库做定期核对，并把 Keyword Planner、Trends、Ahrefs 在能够稳定取数之后补进证据库。没有这些数字之前，不要把需求增长写成已验证。
+
+---
+
+报告结束。采集时区 Asia/Shanghai（UTC+8），日期 2026-11-11。
+`},
+{"id": "doc-radar-pulse-1112", "title": "需求雷达脉搏 2026-11-12（06:37 早间）", "theme": "市场研究", "date": "2026-11-12 06:37", "summary": "公开池 29/0→28/0 @06:37（相对 11-11 13:18，新进8/淡出9；中间包 19:36 27/0、23:58 28/0、03:01 27/0 此前未入 Hub）。KW 仍 2（n8n+GHL 188→195，Automate Workflows 123→128）。Local Booking SEO 182→202；Travel CRM 58→72。无今日 Upwork 新筛。已挂入 11-11 第一轮机会验证报告。", "tags": ["雷达", "Freelancer", "脉搏", "预约", "高客单", "SEO", "早间", "n8n", "GoHighLevel", "AutomateWorkflows", "SalonBooking", "LocalBookingSEO", "PortalReservas", "TravelCRM", "CustomerBookingApp", "MovingMarketplaceBubble", "淡出DoulaWP", "淡出Marketplace", "28帖", "中间包1936", "市场情报"], "source": "", "path": "docs/notes/radar_pulse_2026-11-12.md", "related_docs": ["doc-market-intel-1111", "doc-radar-pulse-1111", "doc-radar-pulse-1110", "doc-peripheral-cards-1104", "doc-week-decision-cards-1028", "doc-waist-revenue-1030", "doc-trustmrr-1029", "doc-fl-samples-1026", "doc-fl-layered-1026"], "content": `# 需求雷达脉搏 · 2026-11-12 早间（Asia/Shanghai）
+
+> 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\` + \`job_leads.json\`（\`published_at\` **2026-11-12 06:37:08 +08**，every_4h；\`job_leads_run_id\` 20261112-063608-16713d94；\`last_run_id\` 20261112-063708-f1e56d7a）。公开数据 only。相对 Hub 上一份 **11-11 下午 13:18** 的 29/0（当晚例行 18:56 时约 17:18 的 ingest 尚未跑；11-11 日评截稿前已见 **19:36 的 27/0**，但 Hub 未同步；未入库为正式对比的中间包还有 **23:58 / 28/0**、**03:01 / 27/0**）：帖数 **-1 → 28**，推荐池仍空；**新进 8 / 淡出 9**。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **28**（11-11 下午 29） |
+| 推荐数量 | **0** |
+| Job ingest | OK |
+| Fiverr | 仍跳过（HTTP 403 buyer_requests） |
+| Trends | 仍 demo |
+
+## 雷达推荐
+
+- 无（公开池推荐数 0）。Beds24 / NoBeds / WA Auto-Reply / 旧 n8n Sales Automation / Supabase CRM / AgentCore voice / RAG+LangGraph / Appointment Booking Business Website / Open-Source LLM Deploy / GCC Marketplace / Travel Directory 本刷**不在前排**。
+
+## 关键词过关但仍不推荐（事实）
+
+| 帖 | 预算 | 标 | score | 备注 |
+|---|---|---|---|---|
+| **AI Automation Expert – AI Agents, n8n, GoHighLevel & Business Workflows** | €250–750 | 188→**195** | 75 | 加固/tool:n8n, ai agent；一期+竞争未过（195≥100）→ n8n/GHL 整盘红海继续爬标，不投 |
+| **Automate Your Workflows with AI** | $250–750 | 123→**128** | 75 | 加固/tool:n8n；一期+竞争未过（128≥100）→ 又一张 n8n 工作流整盘，不投 |
+
+关键词过关仍 **2**（与 11-11 下午同题；n8n+GHL +7，Automate Workflows +5）。中间包旁证：19:36 为 191 / 124，23:58 为 192 / 126，03:01 为 194 / 128。
+
+## 相对 11-11 下午 13:18 变化（事实）
+
+- 推荐池仍空；KW 主信号仍为 **n8n+GHL 188→195 + Automate Workflows 123→128**（两张都是 n8n 整盘红海），不投。
+- **Local Booking SEO Optimization**：182→**202** → 本地预约 SEO +20，本刷相对下午最大涨幅；低价高标，可作预约/SEO 旁证，不投。
+- **Rental Boyfriend App Development**：45→**63** → +18，与技术栈主线无关，不投。
+- **Automasi Attribution dan Lead Engine**：38→**53** → 归因/线索引擎自动化 +15（路径含 n8n，但关键词关未过），低价，不投。
+- **Travel CRM and Flight Ops Platform**：58→**72** → 旅行 CRM + 航班运营整盘 +14，可作旅行/预约旁证，不投。
+- **Portal de Reservas para Casa Vacacional**：244→**254** → 度假屋预订门户 +10，继续爬标，不投。
+- **Website & Mobile App with Payments**：360→**368** → 站+App+支付整盘 +8，不投。
+- **n8n+GHL**：188→**195** → +7，见 KW 表。
+- **Salon Booking & E-Commerce Website**：522→**528** → +6，不投。
+- **Automate Workflows**：123→**128**；**Build AWS AI Demo Agent**：188→**193** → +5，不投。
+- **Tech Support Representative Needed**：17→**19** → +2，技术支持坐席岗，不投。
+- **Hotel Booking Website Development**：165→**166**；**Build AI B2B Market Intelligence Platform**：76→**77** → +1 噪声，不投。
+- 持平：Advocate SOS **133**、Meta Instagram Review **69**、Secure Polish AI **66**、Solar Appointments **57**、Warm VA **44**、Cold Caller **38**、Persian Dental **34**。
+- **淡出**（下午在池、本刷不在池）：**WordPress Doula Site Overhaul**（下午 367）、**Build a marketplace website..**（下午 271）、**Futuristic WordPress website for a digital marketing and AI agency**（下午 223）、**Performance Marketing & Growth Expert**（下午 54）、**New Real Estate Video Agency (Commission-Based) -- 2**（下午 13）、**5-Axis CNC CAD Machining Expert**（下午 11）、**Online Assistant for School & Music**（下午 10）、**New Real Estate Video Agency (Commission-Based)**（下午 9）、**Vận Hành Toàn Diện TikTok Shop**（下午 8）。
+- **新进**（相对下午 13:18；关键词均未过）：
+
+  | 帖 | 标 | 预算 | 备注 |
+  |---|---|---|---|
+  | **Moving Marketplace Website w/ Bubble** | **202** | $250–750 | 本 06:37 才进池；Bubble 搬家市场站，已 202 标红海 → 不投（与已淡出的 *Build a marketplace website..* 不是同一帖） |
+  | **Customer Booking Mobile App** | **89** | ₹750–1250/hr | 23:58 已见约 71、03:01 约 87；客户预约 App，可作预约旁证，标已偏高 → 不投 |
+  | **Service Showcase Business Website** | **77** | ₹400–750/hr | 03:01 已见约 51；服务展示建站整盘 → 不投 |
+  | **Remote Travel Planner Needed** | **34** | $30–250 | 本 06:37 才进池；远程旅行规划运营岗 → 不投 |
+  | **Curate Vibrant City Culture Itinerary** | **12** | $15–25/hr | 03:01 已见约 12；城市文化行程整理，低价运营向 → 不投 |
+  | **Roofing Lead Appointment Setter Needed** | **11** | $10–30 | 23:58 已见约 8；屋顶线索约访岗，低价电销向 → 不投 |
+  | **Online Team-Building Activities** | **9** | €12–18/hr | 本 06:37 才进池；团建活动运营，与技术栈无关 → 不投 |
+  | **Service Provider Acquisition Partner** | **2** | $250–750 | 本 06:37 才进池；服务商拓展合伙/获客岗，关键词未过 → 不投 |
+
+- 中间包旁证（11-11 日评见 **19:36 / 27/0**；另有 **23:58 / 28/0**、**03:01 / 27/0**。完整 JSON 可从雷达仓库历史读取，**不入库为正式对比**，正式对比仍以本刷相对下午 13:18 为准）：
+  - 19:36 相对下午已淡出 Marketplace / Futuristic WP / Performance Marketing / 两张 Real Estate Video Agency / Online Assistant；仍见 Doula（约 369）、TikTok Shop（约 10）、CNC CAD（约 14）。新见过、本 06:37 已不在池：**Build Tailwind Website for Compliance Firm**（19:36 约 395 → 03:01 约 447，整盘建站红海）、**Luxury Villa Direct Booking Website**（19:36 约 190 → 23:58 约 210，03:01 已淡出，可作直订/预约旁证）、**Full-Stack Restaurant Website Development**（19:36 约 89，排除轨 generic_exclude：full-stack / need a developer，23:58 已淡出）、**International Travel Media Buyer Needed**（19:36 约 13 → 23:58 约 15，投放岗，03:01 已淡出）。
+  - 23:58 另新见、本刷已淡出：**Medical Tourism Website Build**（约 179 → 03:01 约 185）、**Travel Lead Management System**（₹75,000–150,000，约 55 → 03:01 约 66；预算不低但关键词未过，已淡出，不作补投）。Luxury Villa、Int'l Travel Media Buyer 仍在 23:58，03:01 淡出；Doula / TikTok Shop 23:58 已不在池；CNC 仍约 15，03:01 淡出。
+  - 03:01 仍见 Tailwind（约 447）、Medical Tourism（约 185）、Travel Lead Management（约 66），本 06:37 三张均淡出。Customer Booking / Service Showcase / City Culture Itinerary / Roofing Appointment Setter 从中间包留到本刷。
+- 预约旁证（均关键词未过 / 排除轨 / 红海；标相对 11-11 下午）：
+
+  | 帖 | 标（下午→今） | 备注 |
+  |---|---|---|
+  | Salon Booking & E-Commerce | 522→**528** | 见上 |
+  | Portal de Reservas para Casa Vacacional | 244→**254** | 见上 |
+  | Local Booking SEO Optimization | 182→**202** | 见上，涨幅最大 |
+  | Hotel Booking Website Development | 165→**166** | 见上 |
+  | Customer Booking Mobile App（新进） | —→**89**（23:58 约 71） | 见上 |
+  | Travel CRM and Flight Ops | 58→**72** | 见上 |
+  | Book Solar Appointments via Calls | 57→**57** | 电销约访，不投 |
+  | B2B Cold Caller / Appointment Setter | 38→**38** | 电销约访岗，不投 |
+  | Roofing Lead Appointment Setter（新进） | —→**11**（23:58 约 8） | 电销约访岗，不投 |
+  | New Real Estate Video Agency / -- 2 | **—** | **淡出**（下午 9 / 13） |
+  | Luxury Villa Direct Booking（中间包） | **—** | 19:36–23:58 见过，03:01 已淡出 |
+
+- 本刷噪声（关键词未过或已在 KW 表标明不投，不作主投）：Salon Booking（**528**）、Moving Marketplace Bubble（**202**）、Website+Mobile Payments（**368**）、Portal de Reservas（**254**）、Local Booking SEO（**202**）、n8n+GHL（**195**）、AWS Demo Agent（**193**）、Hotel Booking（**166**）、Advocate SOS（**133**）、Automate Workflows AI（**128**）、Customer Booking App（**89**）、Service Showcase Website（**77**）、Market Intelligence（**77**）、Travel CRM Flight Ops（**72**）、Meta Instagram Review（**69**）、Secure Polish AI（**66**）、Rental Boyfriend App（**63**）、Solar Appointments（**57**）、Automasi Attribution（**53**）、Warm VA（**44**）、Cold Caller（**38**）、Remote Travel Planner（**34**）、Persian Dental（**34**）、Tech Support Rep（**19**）、City Culture Itinerary（**12**）、Roofing Appointment Setter（**11**）、Online Team-Building（**9**）、Service Provider Acquisition（**2**）。
+
+## 本地 intel 扫描（相对 11-11 下午 hub 提交，约 15:07 写入 13:18 包）
+
+- \`/workspace/freelancer/\`：仍无新于 10-26 晚分层短名单 / discover / templates；\`screen_mode.md\` 仍 \`discover\` + 高客单过滤。无 10-27–11-12 新 \`demand_samples_*\`。
+- \`/workspace/upwork/\`：最新仍为 **2026-10-19** \`checked_*\` / \`screened_*\`；**无 2026-11-12** 今日 checked/digest/screened。
+- \`/workspace/出海变现/\`：周边机会卡 / 周决策卡 W44 / TrustMRR / 腰部词摘要已挂。**新**：\`market-intelligence/\` 于 11-11 23:32 落地第一轮机会验证（20 个候选 + 报告，采集时区 Asia/Shanghai）。结论先行：不建议立刻大规模开发；值得立即验证的是同一条数据工具产品线——**CSV 自动修复与清洗（O11，加权 3.80，可信度中）**、**PDF 表格提取与质检（O07，3.70，中）**、**大文件 CSV 查看与筛选（O15，3.40，中）**。继续观察：内容过期监控（O16）、竞品价格/功能变更监控（O19）、AI 代码变更审查（O02，加权 3.90 但竞争空隙小，故不列为立即验证）。暂不建议开发：多 Agent 任务协调（O03）、JSON/API 调试工作台（O13）、SEO 技术问题自动修复（O17）、专业文件自动归档（O10）。本轮未取得 Keyword Planner / 稳定 Trends / Ahrefs 搜索量，增长分保守，付费意愿亦未直接证明。完整报告已挂入 Hub 文档区。\`revenue-scrapers/\` 仍 10-29。
+- \`/workspace/demand-radar/\`：exports 仍 stub；无新可读岗位导出。
+- \`/workspace/notes/radar-daily/reminded-ids.json\`：仍停 **11-11 09:16**（对齐当时 05:43 的 31/0）；对 11:50 / 13:18 / 19:36 / 23:58 / 03:01 / 本 06:37 包无二次扫描痕迹。
+- \`/workspace/notes/bot-evals/daily/\`：已有 **2026-11-11** 日评（21:15），其中记录截稿前线上已 19:36 / 27/0 而 Hub 未同步；本刷补上该缺口并对照后续中间包。
+- 15:07 之后，接单短名单目录无新 md/txt/json；需求侧实质增量即上述第一轮机会验证。
+
+**动作**：过滤口径不变——**只追高客单；标多/低价/电销约访/投放岗/泛建站/整盘低码一律不投；主线 SEO 找词建站，平台接单降优先级**。不追 n8n+GHL 195 / Automate Workflows 128 / Salon Booking 528 / Moving Marketplace Bubble 202 / Website+Mobile Payments 368 / Portal de Reservas 254 / Local Booking SEO 202 / Hotel Booking 166 / Customer Booking App 89 / Service Showcase 77 / Travel CRM Flight Ops 72 / Automasi Attribution 53 / Tech Support 19 / Roofing Appointment Setter 11 / Service Provider Acquisition 2。SEO 下一动作仍优先对齐周边 Go 卡 **HiddenRoles（ATS Careers Detector）**；W44 Go 云浏览器对比站可并行书签。需求情报下一动作不是新开三个产品，而是按报告做 **O11+O15 共用的本地 CSV 工具页实验**，并行用公开 PDF 样本验证 O07 相对 Tabula/Camelot 有无质量优势；无优势或 14–21 天无转化则停。预约线继续日搜 2 轮 + 拒单规则。下一雷达约 **10:37**（every_4h 相对本 06:37）。
 `},
 ]
 };
