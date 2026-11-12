@@ -1993,10 +1993,10 @@
     },
     {
       "id": "doc-radar-pulse-1112",
-      "title": "需求雷达脉搏 2026-11-12（06:37 早间）",
+      "title": "需求雷达脉搏 2026-11-12（06:37 早间 → 09:45 午间）",
       "path": "docs/notes/radar_pulse_2026-11-12.md",
       "theme": "市场研究",
-      "date": "2026-11-12 06:37",
+      "date": "2026-11-12 09:45",
       "tags": [
         "雷达",
         "Freelancer",
@@ -2018,9 +2018,16 @@
         "淡出Marketplace",
         "28帖",
         "中间包1936",
-        "市场情报"
+        "市场情报",
+        "午间",
+        "WordPressTourBooking",
+        "ResponsiveBooking",
+        "淡出ServiceShowcase",
+        "淡出RoofingSetter",
+        "淡出CityItinerary",
+        "KW3"
       ],
-      "summary": "公开池 29/0→28/0 @06:37（相对 11-11 13:18，新进8/淡出9；中间包 19:36 27/0、23:58 28/0、03:01 27/0 此前未入 Hub）。KW 仍 2（n8n+GHL 188→195，Automate Workflows 123→128）。Local Booking SEO 182→202；Travel CRM 58→72。无今日 Upwork 新筛。已挂入 11-11 第一轮机会验证报告。",
+      "summary": "公开池仍 28/0 @09:45（相对 06:37，新进3/淡出3）。KW 2→3：n8n+GHL 195、Automate Workflows 128 持平，新进 WordPress Tour Booking $1500–3000 / 280 标（关键词过、一期+竞争未过，不投）。Moving Marketplace Bubble 202→227。无今日 Upwork 新筛。",
       "related_docs": [
         "doc-market-intel-1111",
         "doc-radar-pulse-1111",
