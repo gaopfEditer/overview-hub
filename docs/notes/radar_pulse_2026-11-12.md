@@ -155,3 +155,79 @@
 - 08:59 之后，接单短名单目录无新 md/txt/json；本地实质增量仅上述 reminded-ids 补扫早间包。
 
 **动作**：过滤口径不变——**只追高客单；标多/低价/电销约访/投放岗/泛建站/整盘低码一律不投；主线 SEO 找词建站，平台接单降优先级**。不追 WP Tour Booking 280 / n8n+GHL 195 / Automate Workflows 128 / Salon Booking 528 / Website+Mobile Payments 369 / Moving Marketplace Bubble 227 / Portal de Reservas 254 / Local Booking SEO 202 / Hotel Booking 166 / Responsive Booking 144/138 / Customer Booking App 89 / Travel CRM Flight Ops 72 / Automasi Attribution 54 / Remote Travel Planner 41 / Tech Support 19 / Service Provider Acquisition 2。SEO 下一动作仍优先对齐周边 Go 卡 **HiddenRoles（ATS Careers Detector）**；W44 Go 云浏览器对比站可并行书签。预约线继续日搜 2 轮 + 拒单规则。下一雷达约 **13:45**（every_4h 相对本 09:45）。
+
+## 下午脉搏（约 15:03 +08；雷达 14:23）
+
+> 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) `data/meta.json` + `job_leads.json`（`published_at` **2026-11-12 14:23:27 +08**，every_4h；`job_leads_run_id` 20261112-142228-e8b06a44；`last_run_id` 20261112-142327-9395e556）。公开数据 only。相对 **午间 09:45** 的 28/0：帖数 **+1 → 29**，推荐池仍空；**新进 5 / 淡出 4**。午间预估下一雷达约 13:45，实际 ingest 落到 14:23。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **29**（午间 28） |
+| 推荐数量 | **0** |
+| Job ingest | OK |
+| Fiverr | 仍跳过（HTTP 403 buyer_requests） |
+| Trends | 仍 demo |
+
+### 关键词过关但仍不推荐（事实）
+
+| 帖 | 预算 | 标 | score | 备注 |
+|---|---|---|---|---|
+| **AI Automation Expert – AI Agents, n8n, GoHighLevel & Business Workflows** | €250–750 | 195→**196** | 75 | 加固/tool:n8n, ai agent；一期+竞争未过（196≥100）→ n8n/GHL 整盘红海，+1，不投 |
+| **Automate Your Workflows with AI** | $250–750 | 128→**129** | 75 | 加固/tool:n8n；一期+竞争未过（129≥100）→ n8n 工作流整盘，+1，不投 |
+| **WordPress Tour Booking Website** | $1500–3000 | 280→**343** | 67 | 嵌入/phrase:online booking；一期+竞争未过（343≥100）→ 本刷最大涨幅 +63，旅行预约 WP 整盘继续爬标，可作高客单预约旁证，不投 |
+
+关键词过关仍 **3**（与午间同题；n8n+GHL +1，Automate Workflows +1，WP Tour Booking +63）。
+
+### 相对午间 09:45 变化（事实）
+
+- 推荐池仍空；KW 三张都不投。WP Tour Booking **280→343** 是本刷最大涨幅。
+- **Responsive Booking Website Development -- 2**：138→**191** → +53；**Responsive Booking Website Development**：144→**191** → +47。两张同题复帖同步爬标，泛预约建站，不投。
+- **Moving Marketplace Website w/ Bubble**：227→**270** → +43，Bubble 搬家市场整盘继续爬标，不投。
+- **Customer Booking Mobile App**：89→**106** → +17，已过 100 标门槛，可作预约旁证，不投。
+- **Travel CRM and Flight Ops Platform**：72→**74**；**Website & Mobile App with Payments**：369→**371** → +2，不投。
+- **n8n+GHL**：195→**196**；**Automate Workflows**：128→**129**；**Build AWS AI Demo Agent**：193→**194**；**Warm VA**：44→**45**；**Portal de Reservas**：254→**255** → +1 噪声，不投。
+- **Local Booking SEO Optimization**：202→**201**；**Salon Booking & E-Commerce Website**：528→**527**；**Book Solar Appointments via Calls**：57→**56** → -1，视为投标撤回或计数抖动，不投。
+- 持平：Advocate SOS **133**、Market Intelligence **77**、Meta Instagram Review **69**、Secure Polish AI **66**、Rental Boyfriend App **63**、Automasi Attribution **54**、Cold Caller **38**、Persian Dental **34**、Tech Support Rep **19**。
+- **淡出**（午间在池、本刷不在池）：**Hotel Booking Website Development**（午间 166，低价高标预约建站）、**Remote Travel Planner Needed**（午间 41，远程旅行规划运营岗）、**Online Team-Building Activities**（午间 9，团建运营）、**Service Provider Acquisition Partner**（午间 2，服务商拓展合伙/获客岗）。
+- **新进**（相对午间；关键词均未过）：
+
+  | 帖 | 标 | 预算 | 备注 |
+  |---|---|---|---|
+  | **Build a Wix Seminary Ecosystem** | **227** | $250–750 | Wix 神学院生态整盘，已 227 标红海 → 不投 |
+  | **Travel Website Maintenance & Enhancement** | **103** | ₹1500–12500 | 旅行站维护/增强，标已过 100，可作旅行/预约旁证 → 不投 |
+  | **Experienced Freelancer for Meta Business Portfolio Setup & Verification** | **27** | $30–250 | Meta 商务组合设置与认证，低价配置岗 → 不投 |
+  | **GA to Fabrication DWGs** | **24** | ₹1500–12500 | 总图转加工图纸，CAD/制造向，与技术栈无关 → 不投 |
+  | **Luxury Hotel Photography Session** | **3** | ₹12500–37500 | 酒店摄影场次，非软件交付；仅作酒店/旅行周边旁证 → 不投 |
+
+- 预约旁证（均红海 / 关键词未过或已在 KW 表标明不投；标相对午间）：
+
+  | 帖 | 标（午→下午） | 备注 |
+  |---|---|---|
+  | Salon Booking & E-Commerce | 528→**527** | -1，不投 |
+  | Website+Mobile Payments | 369→**371** | 见上 |
+  | WordPress Tour Booking（KW 过） | 280→**343** | 见上，本刷最大涨幅 |
+  | Moving Marketplace Bubble | 227→**270** | 见上 |
+  | Portal de Reservas para Casa Vacacional | 254→**255** | +1，不投 |
+  | Local Booking SEO Optimization | 202→**201** | -1，低价高标，不投 |
+  | Responsive Booking / -- 2 | 144→**191** / 138→**191** | 见上 |
+  | Hotel Booking Website Development | **—** | **淡出**（午间 166） |
+  | Customer Booking Mobile App | 89→**106** | 已过 100 标，不投 |
+  | Travel Website Maintenance（新进） | —→**103** | 见上 |
+  | Travel CRM and Flight Ops | 72→**74** | 见上 |
+  | Book Solar Appointments via Calls | 57→**56** | 电销约访，不投 |
+  | B2B Cold Caller / Appointment Setter | 38→**38** | 电销约访岗，不投 |
+  | Luxury Hotel Photography（新进） | —→**3** | 非软件，仅旁证 |
+
+- 本刷噪声（关键词未过或已在 KW 表标明不投，不作主投）：Salon Booking（**527**）、Website+Mobile Payments（**371**）、WP Tour Booking（**343**）、Moving Marketplace Bubble（**270**）、Portal de Reservas（**255**）、Wix Seminary Ecosystem（**227**）、Local Booking SEO（**201**）、n8n+GHL（**196**）、AWS Demo Agent（**194**）、Responsive Booking / -- 2（**191** / **191**）、Advocate SOS（**133**）、Automate Workflows AI（**129**）、Customer Booking App（**106**）、Travel Website Maintenance（**103**）、Market Intelligence（**77**）、Travel CRM Flight Ops（**74**）、Meta Instagram Review（**69**）、Secure Polish AI（**66**）、Rental Boyfriend App（**63**）、Solar Appointments（**56**）、Automasi Attribution（**54**）、Warm VA（**45**）、Cold Caller（**38**）、Persian Dental（**34**）、Meta Business Portfolio（**27**）、GA to Fabrication DWGs（**24**）、Tech Support Rep（**19**）、Luxury Hotel Photography（**3**）。
+
+### 本地 intel 扫描（相对午间 hub 提交 11:06）
+
+- `/workspace/freelancer/`：仍无新于 10-26 晚分层短名单 / discover / templates；`screen_mode.md` 仍 `discover` + 高客单过滤。无 10-27–11-12 新 `demand_samples_*`。
+- `/workspace/upwork/`：最新仍为 **2026-10-19** `checked_*` / `screened_*`；**无 2026-11-12** 今日 checked/digest/screened。
+- `/workspace/出海变现/`：周边机会卡 / 周决策卡 W44 / TrustMRR / 腰部词摘要 / 11-11 第一轮机会验证报告已挂。11:06 之后无新正文；`revenue-scrapers/` 仍 10-29。需求情报下一动作不变：先做 **O11+O15 共用的本地 CSV 工具页实验**，并行用公开 PDF 样本验证 O07 相对 Tabula/Camelot 有无质量优势。
+- `/workspace/demand-radar/`：exports 仍 stub；无新可读岗位导出。
+- `/workspace/notes/radar-daily/reminded-ids.json`：仍停 **09:20**（对齐早间 06:37 的 28/0）；对 09:45 / 本 14:23 包尚无二次扫描。
+- `/workspace/notes/bot-evals/daily/`：最新仍为 **2026-11-11** 日评（21:15）；尚无 11-12 日评。
+- 11:06 之后，接单短名单目录无新 md/txt/json；本轮实质增量只来自线上雷达 14:23 包。
+
+**动作**：过滤口径不变——**只追高客单；标多/低价/电销约访/投放岗/泛建站/整盘低码一律不投；主线 SEO 找词建站，平台接单降优先级**。不追 WP Tour Booking 343 / n8n+GHL 196 / Automate Workflows 129 / Salon Booking 527 / Website+Mobile Payments 371 / Moving Marketplace Bubble 270 / Portal de Reservas 255 / Wix Seminary 227 / Local Booking SEO 201 / Responsive Booking 191/191 / Customer Booking App 106 / Travel Website Maintenance 103 / Travel CRM Flight Ops 74 / Automasi Attribution 54 / Meta Business Portfolio 27 / GA to Fabrication DWGs 24 / Tech Support 19 / Luxury Hotel Photography 3。SEO 下一动作仍优先对齐周边 Go 卡 **HiddenRoles（ATS Careers Detector）**；W44 Go 云浏览器对比站可并行书签。预约线继续日搜 2 轮 + 拒单规则。下一雷达约 **18:23**（every_4h 相对本 14:23）。
