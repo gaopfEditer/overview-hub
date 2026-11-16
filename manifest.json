@@ -2100,10 +2100,10 @@
     },
     {
       "id": "doc-radar-pulse-1116",
-      "title": "需求雷达脉搏 2026-11-16（07:40 早间）",
+      "title": "需求雷达脉搏 2026-11-16（07:40 早间 → 11:53 午间）",
       "path": "docs/notes/radar_pulse_2026-11-16.md",
       "theme": "市场研究",
-      "date": "2026-11-16 07:40",
+      "date": "2026-11-16 11:53",
       "tags": [
         "雷达",
         "Freelancer",
@@ -2125,9 +2125,14 @@
         "TwoWayBooking",
         "BarbershopQueue",
         "WixIntakeForm",
-        "中间包周末"
+        "中间包周末",
+        "午间",
+        "淡出TwoWayBooking",
+        "LeadResearch",
+        "Cinepals换题",
+        "CoffeeShop涨标"
       ],
-      "summary": "公开池 24/0→26/0 @07:40（相对 11-13 早间 08:57，新进15/淡出13）。推荐仍空。KW 仍 2，但 n8n+GHL（199）已淡出，换上 WhatsApp Support（56，时薪偏低，不投）；Automate Workflows 131→136。本刷最大涨幅 Four PHP Sites 186→364（+178）与 UK Cleaning 362→539（+177）。新进多为泛建站/预约旁证/电销。无今日 Upwork 新筛。周末中间包未单独入库。",
+      "summary": "公开池仍 26/0 @11:53（相对早间 07:40，新进1/淡出1）。推荐仍空。KW 仍 2（Automate Workflows 136 持平；WhatsApp Support 56 持平），都不投。本刷最大涨幅 Coffee Shop 403→419（+16）、Sistema AI Lead Traslochi 106→121（+15）、Wix Intake 143→153（+10）。淡出 Two-Way Booking App（142）；新进 B2B Lead Research（18，$30–250，获客岗，不投）。Cinepals 客服帖换题为 Customer Support Executive（39→48）。无今日 Upwork 新筛。",
       "related_docs": [
         "doc-radar-pulse-1113",
         "doc-radar-pulse-1112",
