@@ -2100,10 +2100,10 @@
     },
     {
       "id": "doc-radar-pulse-1116",
-      "title": "需求雷达脉搏 2026-11-16（07:40 早间 → 11:53 午间）",
+      "title": "需求雷达脉搏 2026-11-16（07:40 早间 → 11:53 午间 → 13:30 下午）",
       "path": "docs/notes/radar_pulse_2026-11-16.md",
       "theme": "市场研究",
-      "date": "2026-11-16 11:53",
+      "date": "2026-11-16 13:30",
       "tags": [
         "雷达",
         "Freelancer",
@@ -2130,9 +2130,14 @@
         "淡出TwoWayBooking",
         "LeadResearch",
         "Cinepals换题",
-        "CoffeeShop涨标"
+        "CoffeeShop涨标",
+        "下午",
+        "淡出CoffeeShop",
+        "EventWebsite",
+        "LeadResearch涨标",
+        "机会卡刷新"
       ],
-      "summary": "公开池仍 26/0 @11:53（相对早间 07:40，新进1/淡出1）。推荐仍空。KW 仍 2（Automate Workflows 136 持平；WhatsApp Support 56 持平），都不投。本刷最大涨幅 Coffee Shop 403→419（+16）、Sistema AI Lead Traslochi 106→121（+15）、Wix Intake 143→153（+10）。淡出 Two-Way Booking App（142）；新进 B2B Lead Research（18，$30–250，获客岗，不投）。Cinepals 客服帖换题为 Customer Support Executive（39→48）。无今日 Upwork 新筛。",
+      "summary": "公开池仍 26/0 @13:30（相对午间 11:53，新进1/淡出1）。推荐仍空。KW 仍 2（Automate Workflows 136 持平；WhatsApp Support 56 持平），都不投。本刷最大涨幅 B2B Lead Research 18→29（+11）、Customer Support Executive 48→57（+9）、Wix Intake 153→158（+5）。淡出 Coffee Shop Info Website（419）；新进 Responsive Event Website（142，₹20000–25000，已排除泛职称词，不投）。机会卡包从 04:54 刷新为 13:30。无今日 Upwork 新筛。",
       "related_docs": [
         "doc-radar-pulse-1113",
         "doc-radar-pulse-1112",
