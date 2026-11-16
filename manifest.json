@@ -2100,10 +2100,10 @@
     },
     {
       "id": "doc-radar-pulse-1116",
-      "title": "需求雷达脉搏 2026-11-16（07:40 早间 → 11:53 午间 → 13:30 下午）",
+      "title": "需求雷达脉搏 2026-11-16（07:40 早间 → 11:53 午间 → 13:30 下午 → 15:46 晚间）",
       "path": "docs/notes/radar_pulse_2026-11-16.md",
       "theme": "市场研究",
-      "date": "2026-11-16 13:30",
+      "date": "2026-11-16 15:46",
       "tags": [
         "雷达",
         "Freelancer",
@@ -2135,9 +2135,18 @@
         "淡出CoffeeShop",
         "EventWebsite",
         "LeadResearch涨标",
-        "机会卡刷新"
+        "机会卡刷新",
+        "晚间",
+        "淡出DigitalSignature",
+        "淡出RentalLeadFinder",
+        "淡出RETelecallers",
+        "Base44WP",
+        "EventWebsite涨标",
+        "AppointmentSetter",
+        "Telemarketing",
+        "机会卡再刷新"
       ],
-      "summary": "公开池仍 26/0 @13:30（相对午间 11:53，新进1/淡出1）。推荐仍空。KW 仍 2（Automate Workflows 136 持平；WhatsApp Support 56 持平），都不投。本刷最大涨幅 B2B Lead Research 18→29（+11）、Customer Support Executive 48→57（+9）、Wix Intake 153→158（+5）。淡出 Coffee Shop Info Website（419）；新进 Responsive Event Website（142，₹20000–25000，已排除泛职称词，不投）。机会卡包从 04:54 刷新为 13:30。无今日 Upwork 新筛。",
+      "summary": "公开池仍 26/0 @15:46（相对下午 13:30，新进3/淡出3）。推荐仍空。KW 仍 2（Automate Workflows 136→137；WhatsApp Support 56 持平），都不投。本刷最大涨幅 Event Website 142→238（+96）、Sistema Traslochi 125→143（+18）、Wix Intake 158→171（+13）。淡出 Digital Signature Telecalling（18）、Short-Term Rental Lead Finder（15）、Real Estate Telecallers（8）；新进 Base44→WordPress 迁移（397，$1500–3000，入池即红海，不投）、B2B Appointment Setter（2）与 Telemarketing Services（2，$10–30），均不投。机会卡包 132→137（观察仍 10：Gemini Robotics 2.5 换为 inread.app）。无今日 Upwork 新筛。",
       "related_docs": [
         "doc-radar-pulse-1113",
         "doc-radar-pulse-1112",

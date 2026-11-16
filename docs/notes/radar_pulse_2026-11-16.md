@@ -221,3 +221,74 @@
 - 13:00 之后，接单短名单目录无新 md/txt/json；本轮实质增量只来自线上雷达 13:30 包（含机会卡包刷新）。
 
 **动作**：过滤口径不变——**只追高客单；标多/低价/电销约访/投放岗/泛建站/整盘低码一律不投；主线 SEO 找词建站，平台接单降优先级**。不追 UK Cleaning 539 / Wix Seminary 371 / Four PHP Sites 365 / Local Booking SEO 206 / Wix AI Intake Form 158 / Responsive Event Website 142 / Automate Workflows 136 / Barbershop Queue 136 / Customer Booking App 136 / Salon Print Design 135 / Sistema AI Lead Traslochi 125 / Travel CRM Flight Ops 79 / Online Rental Boyfriend 61 / Customer Support Executive 57 / WhatsApp Support 56 / GA to Fabrication DWGs 41 / Meta Business Portfolio 39 / B2B Lead Research 29 / Tech Support 19 / 电销与销售岗（Digital Signature Telecalling 18 / Rental Lead Finder 15 / Sweet Finders 13 / Real Estate Telecallers 8 / ACA Calls 7 / Salon Partnerships 0）。已淡出的 Coffee Shop Info Website（午间 419）与更早淡出的 Two-Way Booking App（早间 142）不补投。SEO 下一动作仍优先对齐周边 Go 卡 **HiddenRoles（ATS Careers Detector）**；W44 Go 云浏览器对比站可并行书签。预约线继续日搜 2 轮 + 拒单规则。若按 every_4h 相对本 13:30 `published_at`，下一雷达约 **17:30**；但本包距 11:53 仅约 1.5 小时，**15:53** 档仍可能再落一包，下轮核验。
+
+## 晚间脉搏（约 17:00 +08；雷达 15:46）
+
+> 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) `data/meta.json` + `job_leads.json`（`published_at` **2026-11-16 15:46:10 +08**，every_4h；`job_leads_run_id` 20261116-154513-101a04a0；`last_run_id` 20261116-154610-d4037ba5；机会卡包已从下午的 `20261116-133000-e0033f36` 刷新为 `opportunities_run_id` 20261116-154610-c4eeed21）。公开数据 only。相对 **下午 13:30** 的 26/0：帖数仍 **26**，推荐池仍空；**新进 3 / 淡出 3**。本包距 13:30 约 2.3 小时，短于 every_4h 常规间隔；原先预估的 15:53 档提前落到 15:46。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **26**（下午 26） |
+| 推荐数量 | **0** |
+| Job ingest | OK |
+| Fiverr | 仍跳过（HTTP 403 buyer_requests） |
+| Trends | 仍 demo |
+
+### 关键词过关但仍不推荐（事实）
+
+| 帖 | 预算 | 标 | score | 备注 |
+|---|---|---|---|---|
+| **Automate Your Workflows with AI** | $250–750 | 136→**137** | 75 | 加固/tool:n8n；一期+竞争未过（137≥100）→ n8n 工作流整盘红海，标 +1，不投 |
+| **Scalable WhatsApp Support Platform** | ₹750–1250/hr | **56** | 75 | 嵌入/tool:whatsapp business；一期未过 → 时薪偏低的 WhatsApp 客服平台整盘，标与下午持平；可作嵌入旁证，不投 |
+
+关键词过关仍 **2**（与下午同题；Automate Workflows +1，WhatsApp Support 持平）。
+
+### 相对下午 13:30 变化（事实）
+
+- 推荐池仍空；KW 主信号仍为 **Automate Workflows 136→137 + WhatsApp Support 56**，都不投。
+- **Responsive Event Website with Admin Dashboard**：142→**238** → +96，本刷最大涨幅；下午才入池即 142 标（已排除，仅泛职称词 website developer，score 10），约 2.3 小时后再爬 96 标，活动站+后台泛建站红海，不投。
+- **Sistema AI Lead Traslochi**：125→**143** → +18，搬家线索 AI 低价整盘继续爬标，不投。
+- **Wix AI Intake Form Integration -- 2**：158→**171** → +13，Wix 表单集成整盘继续爬标，不投。
+- **B2B Lead Research for Content Agency**：29→**33** → +4，内容机构 B2B 线索研究/获客岗继续缓爬，低价，非软件交付，不投。
+- +2：Online Rental Boyfriend Platform 61→**63**、Customer Support Executive（ex-Cinepals）57→**59**，不投。
+- +1 噪声：Automate Workflows 136→**137**、Barbershop Walk-In Queue 136→**137**、Premium Beauty Salon Print Design Suite 135→**136**、GA to Fabrication DWGs 41→**42**、ACA Enrollment Follow-Up Calls 7→**8**，不投。
+- 持平：UK Cleaning Website Build **539**、Wix Seminary Ecosystem **371**、Launch Four PHP Platform Websites **365**、Local Booking SEO **206**、Customer Booking Mobile App **136**、Travel CRM Flight Ops **79**、Automasi Attribution **57**、WhatsApp Support **56**、Meta Business Portfolio **39**、Tech Support Rep **19**、Sweet Finders Sales **13**、Salon Partnerships Sales **0**。
+- **淡出**（下午在池、本刷不在池）：**Lead Generation through Telecalling and Outreach for Digital Signature SaaS**（下午 18；电销获客，不补投）、**Short-Term Rental Lead Finder**（下午 15；短租线索采集，不补投）、**Real Estate Telecallers Needed**（下午 8；地产电销，不补投）。
+- **新进**（相对下午；关键词均未过）：
+
+  | 帖 | 标 | 预算 | 备注 |
+  |---|---|---|---|
+  | **Website converted from base44 to Wordpress with 18 main pages, 3 tour pages and others** | **397** | $1500–3000 | 本 15:46 才入池即 397 标；预算是本池最高档（$1500–3000），但是 Base44→WordPress 多页迁移/改造，入池即近 400 标红海 → 不投 |
+  | **B2B Appointment Setter – AI Solutions for Clinics / India / Pay Per Demo** | **2** | ₹600–1500 | 本 15:46 才入池即 2 标；诊所 AI 方案约访/按 demo 付费销售岗，非软件交付 → 不投 |
+  | **Specialized Telemarketing Services For Sale** | **2** | $10–30 | 本 15:46 才入池即 2 标；电销服务本身，低价，非软件交付 → 不投 |
+
+- 预约旁证（均红海 / 关键词未过或已在 KW 表标明不投；标相对下午）：
+
+  | 帖 | 标（下午→晚间） | 备注 |
+  |---|---|---|
+  | UK Cleaning Website Build | 539→**539** | 持平，不投 |
+  | Local Booking SEO Optimization | 206→**206** | 持平，不投 |
+  | Barbershop Walk-In Queue | 136→**137** | +1，仅旁证 |
+  | Customer Booking Mobile App | 136→**136** | 持平，不投 |
+  | Premium Beauty Salon Print Design | 135→**136** | 印刷设计，仅因 salon 关键词列入，不投 |
+  | Travel CRM and Flight Ops | 79→**79** | 持平，不投 |
+  | Online Rental Boyfriend Platform | 61→**63** | +2，不投 |
+  | Short-Term Rental Lead Finder | **—** | **淡出**（下午 15），不补投 |
+  | Sales Executives for Salon Partnerships | 0→**0** | 持平，销售岗，不投 |
+  | B2B Appointment Setter – AI Solutions for Clinics（新进） | —→**2** | 约访/按 demo 付费销售岗，不投 |
+  | Two-Way Service Booking App | **—** | 午间已淡出（早间 142），本刷仍不在池 |
+
+- 本刷噪声（关键词未过或已在 KW 表标明不投，不作主投）：UK Cleaning（**539**）、Base44→WordPress 迁移（**397**，新进）、Wix Seminary Ecosystem（**371**）、Four PHP Sites（**365**）、Responsive Event Website（**238**）、Local Booking SEO（**206**）、Wix AI Intake Form -- 2（**171**）、Sistema AI Lead Traslochi（**143**）、Automate Workflows AI（**137**）、Barbershop Walk-In Queue（**137**）、Customer Booking App（**136**）、Salon Print Design（**136**）、Travel CRM Flight Ops（**79**）、Online Rental Boyfriend Platform（**63**）、Customer Support Executive（ex-Cinepals，**59**）、Automasi Attribution（**57**）、WhatsApp Support（**56**）、GA to Fabrication DWGs（**42**）、Meta Business Portfolio（**39**）、B2B Lead Research（**33**）、Tech Support Rep（**19**）、Sweet Finders Sales（**13**）、ACA Enrollment Calls（**8**）、B2B Appointment Setter（**2**，新进）、Telemarketing Services For Sale（**2**，新进）、Salon Partnerships Sales（**0**）。
+- 机会卡包：132→**137**（+9/−4）。观察仍 **10**：淡出 Gemini Robotics 2.5，补上 **inread.app**（PH，观察）。其余新进均为 PH「否」卡（Agentic Canvas、Drops、Frevana Multiplayer、MAP & GO!、Nexus、Pixel Office、ScreenGo、TwoBucket）；淡出的「否」卡为 CaptureFlow、HuntMonitor、Rakazo。既有卡的 verdict/action **无变化**，不改 SEO 下一动作。
+
+### 本地 intel 扫描（相对下午 hub 提交 15:01）
+
+- `/workspace/freelancer/`：仍无新于 10-26 晚分层短名单 / discover / templates；无 10-27–11-16 新 `demand_samples_*`。
+- `/workspace/upwork/`：最新仍为 **2026-10-19** `checked_*` / `screened_*`；**无 2026-11-16** 今日 checked/digest/screened。
+- `/workspace/出海变现/`：周边机会卡 / 周决策卡 W44 / TrustMRR / 腰部词摘要 / 11-11 第一轮机会验证报告已挂。15:01 之后无新正文；`revenue-scrapers/` 仍 10-29。需求情报下一动作不变：先做 **O11+O15 共用的本地 CSV 工具页实验**，并行用公开 PDF 样本验证 O07 相对 Tabula/Camelot 有无质量优势。
+- `/workspace/demand-radar/`：exports 仍 stub；无新可读岗位导出。
+- `/workspace/notes/radar-daily/reminded-ids.json`：仍停 **09:26**（对齐早间 07:40 的 26/0；可复用提醒 1 = WhatsApp Support）。对 11:53 / 13:30 / 15:46 包尚无二次扫描；本刷新进的 Base44→WP 迁移为入池即 397 标红海，Appointment Setter 与 Telemarketing 为销售/电销岗，均不记可复用提醒。
+- `/workspace/notes/bot-evals/daily/`：最新仍为 **2026-11-13** 日评（21:25）；尚无 11-14 / 11-15 / 11-16 日评。
+- 15:01 之后，接单短名单目录无新 md/txt/json；本轮实质增量只来自线上雷达 15:46 包（含机会卡包再刷新）。
+
+**动作**：过滤口径不变——**只追高客单；标多/低价/电销约访/投放岗/泛建站/整盘低码一律不投；主线 SEO 找词建站，平台接单降优先级**。不追 UK Cleaning 539 / Base44→WordPress 迁移 397（预算虽高但入池即红海）/ Wix Seminary 371 / Four PHP Sites 365 / Event Website 238 / Local Booking SEO 206 / Wix AI Intake Form 171 / Sistema AI Lead Traslochi 143 / Automate Workflows 137 / Barbershop Queue 137 / Customer Booking App 136 / Salon Print Design 136 / Travel CRM Flight Ops 79 / Online Rental Boyfriend 63 / Customer Support Executive 59 / WhatsApp Support 56 / GA to Fabrication DWGs 42 / Meta Business Portfolio 39 / B2B Lead Research 33 / Tech Support 19 / ACA Calls 8 / 销售与电销岗（Sweet Finders 13 / Appointment Setter 2 / Telemarketing Services 2 / Salon Partnerships 0）。已淡出的 Digital Signature Telecalling（18）、Short-Term Rental Lead Finder（15）、Real Estate Telecallers（8），以及更早淡出的 Coffee Shop Info Website（午间 419）与 Two-Way Booking App（早间 142）不补投。SEO 下一动作仍优先对齐周边 Go 卡 **HiddenRoles（ATS Careers Detector）**；W44 Go 云浏览器对比站可并行书签。预约线继续日搜 2 轮 + 拒单规则。若按 every_4h 相对本 15:46 `published_at`，下一雷达约 **19:46**。
