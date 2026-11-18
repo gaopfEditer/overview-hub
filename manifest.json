@@ -2230,10 +2230,10 @@
     },
     {
       "id": "doc-radar-pulse-1118",
-      "title": "需求雷达脉搏 2026-11-18（07:24 早间 → 09:58 午间）",
+      "title": "需求雷达脉搏 2026-11-18（07:24 早间 → 09:58 午间 → 14:32 下午）",
       "path": "docs/notes/radar_pulse_2026-11-18.md",
       "theme": "市场研究",
-      "date": "2026-11-18 09:58",
+      "date": "2026-11-18 14:32",
       "tags": [
         "雷达",
         "Freelancer",
@@ -2259,9 +2259,20 @@
         "PlaywrightFormFilling",
         "ServiceBookingApp爬标",
         "午间",
-        "淡出MoveInOutCleaning"
+        "淡出MoveInOutCleaning",
+        "下午",
+        "淡出GHLSales",
+        "淡出AutomasiAttribution",
+        "iOSTestFlight",
+        "ServiceBookingWebsite",
+        "观察回升",
+        "AIAppLaunchHealthCheck",
+        "AIGeneratedAppSecurityAudit",
+        "RecallAI",
+        "CustomerManagement爬标",
+        "DatingPlatform爬标"
       ],
-      "summary": "公开池 28/0→27/0 @09:58（相对早间 07:24，新进0/淡出1；机会卡包未换）。推荐仍空。KW 仍 3：WhatsApp Support 61→62、Village Dentist Online Booking Site 534→535、WhatsApp Chatbots 58 持平。最大涨幅 Customer Management Web App 241→247、Dating Platform 176→182。淡出 Move-In/Out Cleaning（保洁岗）。观察仍 6。无今日 Upwork 新筛；reminded-ids 09:25 已对齐早间包。",
+      "summary": "公开池 27/0 持平 @14:32（相对午间 09:58，新进2/淡出2；机会卡包 130→134）。推荐仍空。KW 仍 3：WhatsApp Support 62 持平、Village Dentist Online Booking Site 535→538、WhatsApp Chatbots 58 持平。最大涨幅 Customer Management Web App 247→283、Dating Platform 182→202。淡出 GHL Sales Partner（销售岗，174）与 Automasi Attribution（57）。新进 iOS TestFlight Beta Signing（121，$30–250，入池即红海）与 Service Booking Website Design（77，₹600–1500），均不投。观察 6→9：原 6 张仍在；ai app launch health check / ai generated app security audit 由「否」改回「观察」；新进 Agents API by Recall.ai（PH 新进榜）。雷达包内仍无 Go 卡。无今日 Upwork 新筛。",
       "related_docs": [
         "doc-radar-pulse-1117",
         "doc-radar-pulse-1116",
