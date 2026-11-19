@@ -2292,10 +2292,10 @@
     },
     {
       "id": "doc-radar-pulse-1119",
-      "title": "需求雷达脉搏 2026-11-19（06:47 早间）",
+      "title": "需求雷达脉搏 2026-11-19（06:47 早间 → 09:47 午间）",
       "path": "docs/notes/radar_pulse_2026-11-19.md",
       "theme": "市场研究",
-      "date": "2026-11-19 06:47",
+      "date": "2026-11-19 09:47",
       "tags": [
         "雷达",
         "Freelancer",
@@ -2327,9 +2327,15 @@
         "Happo",
         "Waldo",
         "DuskBot",
-        "周榜fixture"
+        "周榜fixture",
+        "午间",
+        "30帖",
+        "StealthVFS",
+        "ElParaiso爬标",
+        "机会卡再刷新",
+        "duskBot升至第2"
       ],
-      "summary": "公开池 27/0→29/0 @06:47（相对 11-18 下午 14:32，新进9/淡出7；中间包 20:30 28/0、01:01 28/0）。推荐仍空。KW 仍 3：WhatsApp Support 62→63、Village Dentist Online Booking Site 538→558、WhatsApp Chatbots 58 持平；都不投。最大涨幅 iOS TestFlight 121→169。新进多为入池即红海的建站/预约盘（Airport Transfers 409、Multi-Business Booking SaaS 371 等）。机会卡包 134→144，观察 9→13：claude code local workflow / small business website with appointments / whatsapp business chatbot setup 由「否」改回「观察」；playwright form filling 改「否」；Recall.ai 淡出；新进 Happo / Waldo / dusk bot。雷达包内仍无 Go 卡。无今日 Upwork 新筛。",
+      "summary": "公开池 29/0→30/0 @09:47（相对早间 06:47，新进1/淡出0）。推荐仍空。KW 仍 3：WhatsApp Support 63 持平、Village Dentist Online Booking Site 558→560、WhatsApp Chatbots 58 持平，都不投。本刷最大涨幅是 Service-Booking El Paraíso 233→257。新进 Stealth VFS Appointment Monitoring Extension（63，$30–250，关键词未过，不投）。机会卡仍 144（run 已换成 09:47 包），观察仍 13。",
       "related_docs": [
         "doc-radar-pulse-1118",
         "doc-radar-pulse-1117",
