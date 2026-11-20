@@ -12256,7 +12256,7 @@ MVP 功能范围：编码检测与转换、分隔符/引号修复、坏行报告
 
 **动作**：过滤口径不变——**只追高客单；标多/低价/电销约访/投放岗/泛建站/整盘低码一律不投；主线 SEO 找词建站，平台接单降优先级**。不追 Village Dentist Online Booking Site 562 / UK Cleaning 556 / Village Dentist Website 549 / Airport Transfers Tesla 423 / Multi-Business Booking SaaS 395 / Music Publishing Showcase 377 / Four PHP Sites 369 / High-End Editorial Studio 314 / Service Booking App 304 / Service-Booking El Paraíso 287 / iOS TestFlight Beta Signing 169 / Sistema Traslochi 154 / Salon Print Design 145 / Barbershop Queue 140 / Email Management 127 / Stealth VFS Appointment Monitoring Extension 94 / WordPress restaurant rebuild 92（新进，低时薪）/ Rental Boyfriend Platform Development 88 / Online Rental Boyfriend 71 / WhatsApp Support 63 / WhatsApp Chatbots 58 / Proven AI Agents for Agency Growth 55（已排除）/ Sweet Finders 15 / ACA Calls 8 / B2B Appointment Setter 2 / Salon Partnerships 0。本刷淡出的 Wix Seminary（377）、Premium Travel WordPress Site（130）、GA to Fabrication DWGs（43）、Meta Business Portfolio（42）、React Native Super App（39），不补投。更早淡出的 Customer Management Web App（283）、Dating Platform（202）、Customer Booking App（137）、Service Booking Website Design（77）、PH·IN collaborators（25）、Hotel Software Sales（11）、Native Portuguese Appointment Setter（5），以及仅中间包出现的 50-Page WordPress Education（191）、Premium WordPress Travel Website（171）、IRCTC WhatsApp Booking Assistant（46）、Figma Rapido UI Redesign（35），不补投。此前已淡出的 GHL Sales Partner、Automasi Attribution、Move-In/Out Cleaning、Appointment Booking App、¡En Vivo Contigo!、Local Booking SEO、Moving Company Job Platform、Tech Support Rep、Admin VA、Cold Caller Roofers、Commission B2B UK Calling、Custom Chatbot、Tour & Transfer Booking、Travel Agency Booking、Early Adopter AI Travel、U.S. Remote VA、Cold Outreach Book 105 Meetings、Info Website、WP Taxi Booking、AI Ride-Booking Ads、Zambian Airbnb、Podcast Guest Interviews、Automate Workflows、Event Website、Base44→WordPress 迁移、Wix Intake、Travel CRM、Customer Support Executive、B2B Lead Research、Telemarketing Services、Digital Signature Telecalling、Short-Term Rental Lead Finder、Real Estate Telecallers、Coffee Shop Info Website 与 Two-Way Booking App，不补投。SEO 下一动作仍优先对齐周边 Go 卡 **HiddenRoles（ATS Careers Detector）**；W44 Go 云浏览器对比站可并行书签。预约线继续日搜 2 轮 + 拒单规则。若按 every_4h 相对本 13:06 \`published_at\`，下一雷达约 **17:06**。
 `},
-{"id": "doc-radar-pulse-1120", "title": "需求雷达脉搏 2026-11-20（06:58 早间 → 09:33 午间）", "theme": "市场研究", "date": "2026-11-20 09:33", "summary": "公开池 30/0→29/0 @09:33（相对早间 06:58，新进0/淡出1）。推荐仍空。KW 仍 4：WhatsApp Support 65 持平、AI Voice Receptionist 82 持平、Village Dentist Online Booking Site 568 持平、WhatsApp Chatbots 58→57，都不投。本刷最大涨幅是 E-Commerce WP+Woo 150→160。淡出 Four PHP Sites（369），不补投。机会卡仍 130（沿用 06:58 包），观察仍 2。", "tags": ["雷达", "Freelancer", "脉搏", "预约", "高客单", "SEO", "早间", "30帖", "KW4", "WhatsAppSupport", "WhatsAppChatbots", "VillageDentistBooking", "AIVoiceReceptionist", "中间包2038", "中间包0057", "机会卡刷新", "观察收窄", "ElParaiso爬标", "MultiBusinessBookingSaaS", "StealthVFS爬标", "淡出UKCleaning", "淡出AirportTransfers", "淡出MusicPublishing", "淡出EditorialStudio", "淡出WPRestaurantRebuild", "周榜computed", "CodeDesignV3", "ProductionizeVibeCodedApp", "午间", "29帖", "淡出FourPHPSites", "EcommerceWoo爬标"], "source": "", "path": "docs/notes/radar_pulse_2026-11-20.md", "related_docs": ["doc-radar-pulse-1119", "doc-radar-pulse-1118", "doc-radar-pulse-1117", "doc-radar-pulse-1116", "doc-radar-pulse-1113", "doc-radar-pulse-1112", "doc-market-intel-1111", "doc-radar-pulse-1111", "doc-radar-pulse-1110", "doc-peripheral-cards-1104", "doc-week-decision-cards-1028", "doc-waist-revenue-1030", "doc-trustmrr-1029", "doc-fl-samples-1026"], "content": `# 需求雷达脉搏 · 2026-11-20 早间（Asia/Shanghai）
+{"id": "doc-radar-pulse-1120", "title": "需求雷达脉搏 2026-11-20（06:58 早间 → 09:33 午间 → 14:21 下午）", "theme": "市场研究", "date": "2026-11-20 14:21", "summary": "公开池 29/0→30/0 @14:21（相对午间 09:33，新进5/淡出4）。推荐仍空。KW 仍 4：WhatsApp Support 65 持平、AI Voice Receptionist 82→84、Village Dentist Online Booking Site 568→570、WhatsApp Chatbots 57→58，都不投。本刷最大涨幅是 Modern Electrical Branding & Site 322→377。新进 React Native Booking App Build（62）、Aplikasi Pemesanan Internal（46）、Expo App Security Audit（40）、SEO Travel Itinerary Content Writer（40）、Philippine Real Estate Cold Caller（1），关键词均未过，不投。淡出 E-Commerce WP+Woo（160）、Android Car Rental App（83）、Ready-to-Use Sales CRM（25）、Meta Ads Expert Car Rental（13），不补投。机会卡 130→128（本包重建），观察 2→4。", "tags": ["雷达", "Freelancer", "脉搏", "预约", "高客单", "SEO", "早间", "30帖", "KW4", "WhatsAppSupport", "WhatsAppChatbots", "VillageDentistBooking", "AIVoiceReceptionist", "中间包2038", "中间包0057", "机会卡刷新", "观察收窄", "ElParaiso爬标", "MultiBusinessBookingSaaS", "StealthVFS爬标", "淡出UKCleaning", "淡出AirportTransfers", "淡出MusicPublishing", "淡出EditorialStudio", "淡出WPRestaurantRebuild", "周榜computed", "CodeDesignV3", "ProductionizeVibeCodedApp", "午间", "29帖", "淡出FourPHPSites", "EcommerceWoo爬标", "下午", "ModernElectrical爬标", "淡出EcommerceWoo", "淡出AndroidCarRental", "淡出SalesCRM", "淡出MetaAdsCarRental", "ReactNativeBooking", "ExpoSecurityAudit", "观察升至4", "StripoEmailWidgets", "AiAppLaunchHealthCheck", "AiGeneratedAppSecurityAudit"], "source": "", "path": "docs/notes/radar_pulse_2026-11-20.md", "related_docs": ["doc-radar-pulse-1119", "doc-radar-pulse-1118", "doc-radar-pulse-1117", "doc-radar-pulse-1116", "doc-radar-pulse-1113", "doc-radar-pulse-1112", "doc-market-intel-1111", "doc-radar-pulse-1111", "doc-radar-pulse-1110", "doc-peripheral-cards-1104", "doc-week-decision-cards-1028", "doc-waist-revenue-1030", "doc-trustmrr-1029", "doc-fl-samples-1026"], "content": `# 需求雷达脉搏 · 2026-11-20 早间（Asia/Shanghai）
 
 > 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\` + \`job_leads.json\`（\`published_at\` **2026-11-20 06:58:08 +08**，every_4h；\`job_leads_run_id\` 20261120-065707-5c4e373b；\`last_run_id\` 20261120-065808-fff2ae07；机会卡包换成 \`opportunities_run_id\` 20261120-065808-2ad36f96）。公开数据 only。相对 Hub 上一份 **11-19 下午 13:06** 的 26/0（下午之后至本早间未写入 Hub；11-19 19:01 的 Hub 刷新仍只见到 13:06 包。未入库为正式对比的中间包：**11-19 20:38 / 28/0**、**11-20 00:57 / 29/0**）：帖数 **+4 → 30**，推荐池仍空；**新进 10 / 淡出 6**。
 
@@ -12452,6 +12452,105 @@ MVP 功能范围：编码检测与转换、分隔符/引号修复、坏行报告
 - 09:05 之后，接单短名单目录无新 md/txt；本轮实质增量来自线上雷达 09:33 包。
 
 **动作**：过滤口径不变——**只追高客单；标多/低价/电销约访/投放岗/泛建站/整盘低码一律不投；主线 SEO 找词建站，平台接单降优先级**。不追 Village Dentist Online Booking Site 568 / Village Dentist Website 553 / Multi-Business Booking SaaS 436 / Service-Booking El Paraíso 380 / Full-Stack Medical Consult 335（已排除）/ Modern Electrical Branding & Site 322 / Service Booking App 307 / iOS TestFlight Beta Signing 169 / E-Commerce WP+Woo 160（本刷最大涨幅）/ Sistema Traslochi 154 / Salon Print Design 146 / Barbershop Queue 143 / Email Management 127 / Stealth VFS Appointment Monitoring Extension 116 / Android Car Rental App 83 / AI Voice Receptionist 82（KW 过关但一期未过）/ Proven AI Agents for Agency Growth 72（已排除）/ Online Rental Boyfriend 71 / WhatsApp Support 65 / WhatsApp Chatbots 57 / Draft Expedia Review Removal 42（非软件交付）/ Ready-to-Use Sales CRM 25（卖产品）/ Sales Pro Software & Booking Websites 16（佣金销售）/ Sweet Finders 15 / Meta Ads Expert Car Rental 13（投放岗）/ ACA Calls 8 / USA Sales Appointment Setter 2 / B2B Appointment Setter 1 / Salon Partnerships 0。本刷淡出的 Four PHP Sites（369），不补投。本早间已淡出的 UK Cleaning（556）、Airport Transfers Tesla（423）、Music Publishing Showcase（377）、High-End Editorial Studio（314）、WordPress restaurant rebuild（92）、Rental Boyfriend Platform Development（88），不补投。仅中间包出现的 South African DJ Booking Marketplace（229）、Travel agency Logo Refresh（226）、Church Directory Web Scraper（169）、Ready-to-Use AI CRM for Sale（69）、Lead Management CRM 售卖帖（17）、Santa Experience Promo（66），不补投。更早淡出的 Wix Seminary、Premium Travel WordPress Site、GA to Fabrication DWGs、Meta Business Portfolio、React Native Super App、Customer Management Web App、Dating Platform、Customer Booking App、Service Booking Website Design、PH·IN collaborators、Hotel Software Sales、Native Portuguese Appointment Setter，以及仅更早中间包出现的 50-Page WordPress Education、Premium WordPress Travel Website、IRCTC WhatsApp Booking Assistant、Figma Rapido UI Redesign，不补投。此前已淡出的 GHL Sales Partner、Automasi Attribution、Move-In/Out Cleaning、Appointment Booking App、¡En Vivo Contigo!、Local Booking SEO、Moving Company Job Platform、Tech Support Rep、Admin VA、Cold Caller Roofers、Commission B2B UK Calling、Custom Chatbot、Tour & Transfer Booking、Travel Agency Booking、Early Adopter AI Travel、U.S. Remote VA、Cold Outreach Book 105 Meetings、Info Website、WP Taxi Booking、AI Ride-Booking Ads、Zambian Airbnb、Podcast Guest Interviews、Automate Workflows、Event Website、Base44→WordPress 迁移、Wix Intake、Travel CRM、Customer Support Executive、B2B Lead Research、Telemarketing Services、Digital Signature Telecalling、Short-Term Rental Lead Finder、Real Estate Telecallers、Coffee Shop Info Website 与 Two-Way Booking App，不补投。SEO 下一动作仍优先对齐周边 Go 卡 **HiddenRoles（ATS Careers Detector）**；W44 Go 云浏览器对比站可并行书签。预约线继续日搜 2 轮 + 拒单规则。若按 every_4h 相对本 09:33 \`published_at\`，下一雷达约 **13:33**。
+
+
+## 下午脉搏（约 15:00 +08；雷达 14:21）
+
+> 来源：线上 [requirement-trendradar](https://gaopfediter.github.io/requirement-trendradar/) \`data/meta.json\` + \`job_leads.json\`（\`published_at\` **2026-11-20 14:21:44 +08**，every_4h；\`job_leads_run_id\` 20261120-142047-fe26cb7e；\`last_run_id\` 20261120-142144-8bbb5dfd；机会卡包换成 \`opportunities_run_id\` 20261120-142144-11c24a50，本 14:21 重建机会卡/榜单/周榜）。公开数据 only。相对 **午间 09:33** 的 29/0：帖数 **+1 → 30**，推荐池仍空；**新进 5 / 淡出 4**。本包距 09:33 约 4 小时 48 分，晚于午间预告的 13:33 档。13:05 的 Hub 刷新仍只见到 09:33 包。09:33 至本刷之间无未入库中间包；独立 Job Leads Ingest 未在约 13:33 再跑，本刷 job_leads 由 14:21 Demand Radar Pipeline 一并更新。
+
+| 指标 | 数值 |
+|---|---|
+| 帖子总数 | **30**（午间 29） |
+| 推荐数量 | **0** |
+| Job ingest | OK |
+| Fiverr | 仍跳过（HTTP 403 buyer_requests） |
+| Trends | 仍 demo |
+| 周榜 | 本包重建，\`weekly_source=computed\`、\`weekly_demo_active=false\`（2026-W47，\`generated_at\` 14:21:44）；关键词周榜仍空，\`apps_top\` 全是 Product Hunt 产品涨幅，不作建站主线 |
+
+## 雷达推荐
+
+- 无（公开池推荐数 0）。
+
+## 关键词过关但仍不推荐（事实）
+
+| 帖 | 预算 | 标 | score | 备注 |
+|---|---|---|---|---|
+| **Scalable WhatsApp Support Platform** | ₹750–1250/hr | **65** | 75 | 嵌入/tool:whatsapp business；一期未过 → 时薪偏低的 WhatsApp 客服平台整盘，标持平，可作嵌入旁证，不投 |
+| **AI Voice Receptionist Development for Hospital – AI Calling Agent & Appointment Booking System** | ₹1500–12500 | 82→**84** | 67 | 嵌入/phrase:appointment booking；一期未过，竞争「偏多（84），谨慎」→ 医院 AI 语音前台+预约整盘，标 +2，不投 |
+| **Village Dentist Online Booking Site** | $250–750 | 568→**570** | 67 | 嵌入/phrase:online booking；一期+竞争未过（570≥100）→ 标 +2，可作预约旁证，不投 |
+| **WhatsApp Support Platform with Chatbots** | ₹200–500/hr | 57→**58** | 67 | 加固/phrase:chatbot；一期未过 → 时薪更低的 WhatsApp+chatbot 整盘，标回到 58，不投 |
+
+关键词过关仍为 **4**（与午间相同的四张）。四张都不投。
+
+## 相对午间 09:33 变化（事实）
+
+- 推荐池仍空；KW 主信号仍是 **WhatsApp Support 65（持平）+ AI Voice Receptionist 82→84 + Village Dentist Online Booking Site 568→570 + WhatsApp Chatbots 57→58**。四张都不投。
+- **Modern Electrical Branding & Site**：322→**377** → +55，本刷最大涨幅；06:58 入池即 315 标的电气品牌+建站继续红海，不投。
+- **Full-Stack Medical Consult Development**：335→**355** → +20；已排除（仅有泛职称词 full-stack），医疗咨询整盘继续红海，不投。
+- **Draft Expedia Review Removal**：42→**52** → +10；评测删除/商誉岗，非软件交付，不投。
+- 其他在池涨幅：Service Booking Mobile App Development 307→**310**（+3）、AI Voice Receptionist 82→**84**（+2，见 KW 表）、Village Dentist Online Booking Site 568→**570**（+2，见 KW 表）、Service-Booking Website for El Paraíso 380→**382**（+2）、Stealth VFS Appointment Monitoring Extension 116→**118**（+2）、WhatsApp Chatbots 57→**58**（+1，见 KW 表）、Barbershop Walk-In Queue 143→**144**（+1）、Sales Pro Software & Booking Websites 16→**17**（+1，佣金销售）、USA Sales Appointment Setter 2→**3**（+1，约访销售岗）。
+- 持平：WhatsApp Support **65**、Village Dentist Website Creation **553**、Multi-Business Booking SaaS Development **436**、iOS TestFlight Beta Signing **169**、Sistema AI Lead Traslochi **154**、Premium Beauty Salon Print Design **146**、Email Management **127**、Proven AI Agents for Agency Growth **72**（已排除）、Online Rental Boyfriend **71**、Sweet Finders Sales **15**、ACA Enrollment Calls **8**、B2B Appointment Setter **1**、Salon Partnerships Sales **0**。
+- 小降：无。
+- **淡出**（午间在池、本刷不在池）：
+
+  | 帖 | 午间标 | 预算 | 备注 |
+  |---|---|---|---|
+  | **E-Commerce Website Development (WordPress + WooCommerce)** | 160 | ₹37500–75000 | **本 14:21 淡出**（午间刚从 150 爬到 160）；泛电商 WP+Woo 整盘，不补投 |
+  | **Android App Developer Needed for Car Rental Website – API Integration** | 83 | ₹1500–12500 | **本 14:21 淡出**（午间 75→83）；租车站 Android/API 整盘，不补投 |
+  | **THIS IS ONLY FOR BUSINESS OWNERS – ALL TYPES OF BUSINESSES  FOR SALE: Ready-to-Use Sales CRM** | 25 | $250–750 | **本 14:21 淡出**；现成 CRM 卖产品，非定制交付，不补投 |
+  | **Meta Ads Expert Needed for Car Rental Website** | 13 | ₹600–1500 | **本 14:21 淡出**（午间 12→13）；租车站投放岗，不补投 |
+
+- **新进**（相对午间 09:33）：
+
+  | 帖 | 标 | 预算 | 备注 |
+  |---|---|---|---|
+  | **React Native Booking App Build** | **62** | ₹1250–2500/hr | 本 14:21 入池即 62 标；关键词未过、需求糊 → 预约类 RN 整盘，不投 |
+  | **Aplikasi Pemesanan Internal Mudah** | **46** | $15–25/hr | 本 14:21 入池即 46 标；关键词未过、需求糊、低时薪 → 内部点餐/下单站，不投 |
+  | **Expo App Security Audit & Fixes** | **40** | ₹1250–2500/hr | 本 14:21 入池即 40 标；关键词未过、一期未过（无限范围/整盘倾向）→ 与审计线相近但关未过，不投 |
+  | **SEO Travel Itinerary Content Writer -- 2** | **40** | ₹1500–12500 | 本 14:21 入池即 40 标；关键词未过 → 旅行行程文案岗，非软件交付，不投 |
+  | **Philippine Real Estate Cold Caller** | **1** | ₹400–750/hr | 本 14:21 入池即 1 标；关键词未过、低时薪 → 地产电销岗，不投 |
+
+- 预约旁证（均红海 / 关键词未过或已在 KW 表标明不投；标相对午间 09:33）：
+
+  | 帖 | 标（午→下午） | 备注 |
+  |---|---|---|
+  | Village Dentist Website Creation | 553→**553** | 持平，不投 |
+  | Village Dentist Online Booking Site | 568→**570** | 见 KW 表，仅旁证 |
+  | Multi-Business Booking SaaS Development | 436→**436** | 持平，仅旁证 |
+  | Service-Booking Website for El Paraíso | 380→**382** | +2，仅旁证 |
+  | Service Booking Mobile App Development | 307→**310** | +3，仅旁证 |
+  | Barbershop Walk-In Queue | 143→**144** | +1，仅旁证 |
+  | Stealth VFS Appointment Monitoring Extension | 116→**118** | +2，低预算预约监控扩展，不投 |
+  | AI Voice Receptionist… Appointment Booking System | 82→**84** | 见 KW 表，仅旁证 |
+  | Online Rental Boyfriend Platform | 71→**71** | 持平，不投 |
+  | React Native Booking App Build（新进） | —→**62** | 关键词未过，仅旁证 |
+  | Aplikasi Pemesanan Internal Mudah（新进） | —→**46** | 低时薪内部点餐/下单，不投 |
+  | Sales Pro: Software & Booking Websites | 16→**17** | +1，佣金销售岗，不投 |
+  | USA Sales Appointment Setter | 2→**3** | +1，约访销售岗，不投 |
+  | B2B Appointment Setter – AI Solutions for Clinics | 1→**1** | 持平，约访销售岗，不投 |
+  | Sales Executives for Salon Partnerships | 0→**0** | 持平，销售岗，不投 |
+  | Four PHP Sites | **—** | 本 09:33 已淡出，本刷仍不在池 |
+  | UK Cleaning Website Build | **—** | 本 06:58 已淡出，本刷仍不在池 |
+  | WEBSITE FOR AIRPORT TRANSFERS - TESLA EV CARS ONLY - | **—** | 11-19 20:38 已淡出，本刷仍不在池 |
+  | Build South African DJ Booking Marketplace | **—** | 仅中间包，06:58 已淡出，本刷仍不在池 |
+  | Appointment Booking Mobile App | **—** | 11-17 20:54 已淡出，本刷仍不在池 |
+  | Local Booking SEO Optimization | **—** | 11-17 20:54 已淡出，本刷仍不在池 |
+  | Two-Way Service Booking App | **—** | 11-16 午间已淡出，本刷仍不在池 |
+
+- 本刷噪声（关键词未过或已在 KW 表标明不投，不作主投）：Village Dentist Online Booking Site（**570**，KW）、Village Dentist Website（**553**）、Multi-Business Booking SaaS（**436**）、Service-Booking El Paraíso（**382**）、Modern Electrical Branding & Site（**377**，本刷最大涨幅）、Full-Stack Medical Consult（**355**，已排除）、Service Booking App（**310**）、iOS TestFlight Beta Signing（**169**）、Sistema AI Lead Traslochi（**154**）、Salon Print Design（**146**）、Barbershop Walk-In Queue（**144**）、Email Management Specialist（**127**）、Stealth VFS Appointment Monitoring Extension（**118**）、AI Voice Receptionist（**84**，KW）、Proven AI Agents for Agency Growth（**72**，已排除）、Online Rental Boyfriend Platform（**71**）、WhatsApp Support（**65**，KW）、React Native Booking App Build（**62**，新进，关键词未过）、WhatsApp Chatbots（**58**，KW）、Draft Expedia Review Removal（**52**，非软件交付）、Aplikasi Pemesanan Internal Mudah（**46**，新进，低时薪）、Expo App Security Audit & Fixes（**40**，新进，关未过）、SEO Travel Itinerary Content Writer（**40**，新进，文案岗）、Sales Pro Software & Booking Websites（**17**，佣金销售）、Sweet Finders Sales（**15**）、ACA Enrollment Calls（**8**）、USA Sales Appointment Setter（**3**）、B2B Appointment Setter（**1**）、Philippine Real Estate Cold Caller（**1**，新进，电销）、Salon Partnerships Sales（**0**）。
+- 机会卡包：130→**128**（本 14:21 重建，\`opportunities_run_id\` 20261120-142144-11c24a50）。观察 **2→4**：原 claude code local workflow、productionize vibe coded app 仍在观察，锚点仍是 PH「CodeDesign v3」（新进榜，排名 22→**29**）；新升观察的 **ai app launch health check**、**ai generated app security audit**（均为 AI 上线加固）共同锚在 PH「Stripo Email Widgets」第 3（8→3）。四张观察卡付费意图分均为 0，**不改 SEO 下一动作**；PH 产品卡仍不作建站主线。雷达包内仍无 Go 卡。SEO 主线仍优先周边 Go 卡 **HiddenRoles（ATS Careers Detector）**，不随观察名单改道。周榜已重建，仍 \`weekly_source=computed\`、\`weekly_demo_active=false\`（2026-W47，\`generated_at\` 14:21:44）：关键词周榜仍空；\`apps_top\` 前十均为 Product Hunt 产品涨幅（Gemini 4 Neon、Source、Manufact、Tecla、Play That Back、Netlify Server、OfinTech Desk、Stripo Email Widgets 等），新进榜仍是 Noteshell（第 6）与 CodeDesign v3（第 29）。PH 周榜涨幅不作建站主线，不当 SEO 实盘信号。
+
+### 本地 intel 扫描（相对午间 hub 提交 11:02）
+
+- \`/workspace/freelancer/\`：仍无新于 10-26 晚分层短名单 / discover / templates；无 10-27–11-20 新 \`demand_samples_*\`。
+- \`/workspace/upwork/\`：最新仍为 **2026-10-19** \`checked_*\` / \`screened_*\`；**无 2026-11-20** 今日 checked/digest/screened。11:02 之后无新文件。
+- \`/workspace/出海变现/\`：周边机会卡 / 周决策卡 W44 / TrustMRR / 腰部词摘要 / 11-11 第一轮机会验证报告已挂。11:02 之后无新正文；\`revenue-scrapers/\` 仍 10-29。需求情报下一动作不变：先做 **O11+O15 共用的本地 CSV 工具页实验**，并行用公开 PDF 样本验证 O07 相对 Tabula/Camelot 有无质量优势。
+- \`/workspace/demand-radar/\`：exports 仍 stub；无新可读岗位导出。
+- \`/workspace/notes/radar-daily/reminded-ids.json\`：仍停 **11-18 09:25**（对齐 11-18 早间 07:24 包）。对 11-18 09:58 / 14:32 / 20:30 与 11-19 01:01 / 06:47 / 09:47 / 13:06 / 20:38 以及 11-20 00:57 / 06:58 / 09:33 / 14:21 包尚无二次扫描；本刷新进 5 帖均关键词未过，不符合可复用提醒口径，不记。
+- \`/workspace/notes/bot-evals/daily/\`：最新仍为 **2026-11-13** 日评（21:25）；尚无 11-14–11-20 日评。
+- 11:02 之后，接单短名单目录无新 md/txt；本轮实质增量来自线上雷达 14:21 包。
+
+**动作**：过滤口径不变——**只追高客单；标多/低价/电销约访/投放岗/泛建站/整盘低码一律不投；主线 SEO 找词建站，平台接单降优先级**。不追 Village Dentist Online Booking Site 570 / Village Dentist Website 553 / Multi-Business Booking SaaS 436 / Service-Booking El Paraíso 382 / Modern Electrical Branding & Site 377（本刷最大涨幅）/ Full-Stack Medical Consult 355（已排除）/ Service Booking App 310 / iOS TestFlight Beta Signing 169 / Sistema Traslochi 154 / Salon Print Design 146 / Barbershop Queue 144 / Email Management 127 / Stealth VFS Appointment Monitoring Extension 118 / AI Voice Receptionist 84（KW 过关但一期未过）/ Proven AI Agents for Agency Growth 72（已排除）/ Online Rental Boyfriend 71 / WhatsApp Support 65 / React Native Booking App Build 62（新进，关键词未过）/ WhatsApp Chatbots 58 / Draft Expedia Review Removal 52（非软件交付）/ Aplikasi Pemesanan Internal 46（新进，低时薪）/ Expo App Security Audit 40（新进，关未过）/ SEO Travel Itinerary Content Writer 40（新进，文案岗）/ Sales Pro Software & Booking Websites 17（佣金销售）/ Sweet Finders 15 / ACA Calls 8 / USA Sales Appointment Setter 3 / B2B Appointment Setter 1 / Philippine Real Estate Cold Caller 1（新进，电销）/ Salon Partnerships 0。本刷淡出的 E-Commerce WP+Woo（160）、Android Car Rental App（83）、Ready-to-Use Sales CRM（25）、Meta Ads Expert Car Rental（13），不补投。午间淡出的 Four PHP Sites（369），不补投。本早间已淡出的 UK Cleaning（556）、Airport Transfers Tesla（423）、Music Publishing Showcase（377）、High-End Editorial Studio（314）、WordPress restaurant rebuild（92）、Rental Boyfriend Platform Development（88），不补投。仅中间包出现的 South African DJ Booking Marketplace（229）、Travel agency Logo Refresh（226）、Church Directory Web Scraper（169）、Ready-to-Use AI CRM for Sale（69）、Lead Management CRM 售卖帖（17）、Santa Experience Promo（66），不补投。更早淡出的 Wix Seminary、Premium Travel WordPress Site、GA to Fabrication DWGs、Meta Business Portfolio、React Native Super App、Customer Management Web App、Dating Platform、Customer Booking App、Service Booking Website Design、PH·IN collaborators、Hotel Software Sales、Native Portuguese Appointment Setter，以及仅更早中间包出现的 50-Page WordPress Education、Premium WordPress Travel Website、IRCTC WhatsApp Booking Assistant、Figma Rapido UI Redesign，不补投。此前已淡出的 GHL Sales Partner、Automasi Attribution、Move-In/Out Cleaning、Appointment Booking App、¡En Vivo Contigo!、Local Booking SEO、Moving Company Job Platform、Tech Support Rep、Admin VA、Cold Caller Roofers、Commission B2B UK Calling、Custom Chatbot、Tour & Transfer Booking、Travel Agency Booking、Early Adopter AI Travel、U.S. Remote VA、Cold Outreach Book 105 Meetings、Info Website、WP Taxi Booking、AI Ride-Booking Ads、Zambian Airbnb、Podcast Guest Interviews、Automate Workflows、Event Website、Base44→WordPress 迁移、Wix Intake、Travel CRM、Customer Support Executive、B2B Lead Research、Telemarketing Services、Digital Signature Telecalling、Short-Term Rental Lead Finder、Real Estate Telecallers、Coffee Shop Info Website 与 Two-Way Booking App，不补投。SEO 下一动作仍优先对齐周边 Go 卡 **HiddenRoles（ATS Careers Detector）**；W44 Go 云浏览器对比站可并行书签。预约线继续日搜 2 轮 + 拒单规则。若按 every_4h 相对本 14:21 \`published_at\`，下一雷达约 **18:21**。
 `},
 ]
 };
