@@ -2365,10 +2365,10 @@
     },
     {
       "id": "doc-radar-pulse-1120",
-      "title": "需求雷达脉搏 2026-11-20（06:58 早间）",
+      "title": "需求雷达脉搏 2026-11-20（06:58 早间 → 09:33 午间）",
       "path": "docs/notes/radar_pulse_2026-11-20.md",
       "theme": "市场研究",
-      "date": "2026-11-20 06:58",
+      "date": "2026-11-20 09:33",
       "tags": [
         "雷达",
         "Freelancer",
@@ -2397,9 +2397,13 @@
         "淡出WPRestaurantRebuild",
         "周榜computed",
         "CodeDesignV3",
-        "ProductionizeVibeCodedApp"
+        "ProductionizeVibeCodedApp",
+        "午间",
+        "29帖",
+        "淡出FourPHPSites",
+        "EcommerceWoo爬标"
       ],
-      "summary": "公开池 26/0→30/0 @06:58（相对 11-19 下午 13:06，含 20:38 / 00:57 中间包；新进10/淡出6）。推荐仍空。KW 3→4：WhatsApp Support 63→65、新进 AI Voice Receptionist 82、Village Dentist Online Booking Site 562→568、WhatsApp Chatbots 58 持平，都不投。本刷最大涨幅是 Service-Booking El Paraíso 287→379。机会卡 144→130，观察 13→2（claude code local workflow + 新进 productionize vibe coded app；锚为 CodeDesign v3 第22）。",
+      "summary": "公开池 30/0→29/0 @09:33（相对早间 06:58，新进0/淡出1）。推荐仍空。KW 仍 4：WhatsApp Support 65 持平、AI Voice Receptionist 82 持平、Village Dentist Online Booking Site 568 持平、WhatsApp Chatbots 58→57，都不投。本刷最大涨幅是 E-Commerce WP+Woo 150→160。淡出 Four PHP Sites（369），不补投。机会卡仍 130（沿用 06:58 包），观察仍 2。",
       "related_docs": [
         "doc-radar-pulse-1119",
         "doc-radar-pulse-1118",
